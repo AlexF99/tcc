@@ -1,16 +1,28 @@
 #!/bin/bash
 
-java -cp metanome-cli-1.2-SNAPSHOT.jar:TANE-1.2-SNAPSHOT.jar de.metanome.cli.App \
-    -a de.metanome.algorithms.tane.TaneAlgorithm \
-    --file-key INPUT_GENERATOR \
-    --files nursery.csv \
-    --separator , \
-    --ignore-leading-spaces \
-    --header
+
+echo "Executing dcfinder-1.2-SNAPSHOT.jar"
+java -cp metanome-cli-1.2-SNAPSHOT.jar:dcfinder-1.2-SNAPSHOT.jar de.metanome.cli.App \
+    -a de.metanome.algorithms.dcfinder.DCFinderMetanome \
+    --file-key INPUT --files ./datasets/ncvoter_1001r_19c.csv --header --separator , \
+    --algorithm-config APPROXIMATION_DEGREE:0
+
+
+# java -cp metanome-cli-1.2-SNAPSHOT.jar:dcfinder-1.2-SNAPSHOT.jar de.metanome.cli.App \
+#     -a de.metanome.algorithms.dcfinder.DCFinderMetanome
+
+
+# java -cp metanome-cli-1.2-SNAPSHOT.jar:TANE-1.2-SNAPSHOT.jar de.metanome.cli.App \
+#     -a de.metanome.algorithms.tane.TaneAlgorithm \
+#     --file-key INPUT_GENERATOR \
+#     --files nursery.csv \
+#     --separator , \
+#     --ignore-leading-spaces \
+#     --header
 
 
 # java -cp metanome-cli-1.2-SNAPSHOT.jar:hydra-1.2-SNAPSHOT.jar de.metanome.cli.App \
-#     -a de.hpi.naumann.dc.algorithms.hybrid.HydraMetanome --file-key INPUT_FILES --files iris.csv --header --separator ,
+#     -a de.hpi.naumann.dc.algorithms.hybrid.HydraMetanome --file-key INPUT_FILES --files ./datasets/iris.csv --header --separator ,
 
 
 # echo "Script de testes!"
