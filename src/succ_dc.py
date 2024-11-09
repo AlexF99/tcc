@@ -191,3 +191,43 @@ for key, value in sorted(predicounts.items(), key=lambda x: x[1]):
         },
     ],
 }
+# nomes iguais, gen dif
+
+# t1 t2 => 0E
+# t1 t3 => 1E
+# t1 t4 => 1E
+# t1 t5 => 0E
+# t1 t6 => 1E
+# t1 t7 => 1E
+# t1 t8 => 1E
+
+# t2 t3 => 1E
+# t2 t4 => 1E
+# t2 t5 => 0E
+# t2 t6 => 0E
+# t2 t7 => 1E
+# t2 t8 => 1E
+
+# t3 t4 => 0E
+# t3 t5 => 1E
+# t3 t6 => 1E
+# t3 t7 => 0E
+# t3 t8 => 0E
+
+# t4 t5 => 1E
+# t4 t6 => 1E
+# t4 t7 => 0E
+# t4 t8 => 0E
+
+# t5 t6 => 0E
+# t5 t7 => 1E
+# t5 t8 => 1E
+
+# t6 t7 => 1E
+# t6 t8 => 1E
+
+# t7 t8 => 0E
+
+# 11 OE w(0)=1/2
+# 17 1E w(1)=1
+# (5.5+17)/11+17 
