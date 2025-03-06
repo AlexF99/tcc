@@ -1,8 +1,0 @@
-not(t1.year==t2.year and t1.leadingcause==t2.leadingcause and t1.sex==t2.sex and t1.raceethnicity==t2.raceethnicity and t1.deaths==t2.deaths and t1.deathrate>t2.deathrate and t1.ageadjusteddeathrate<t2.ageadjusteddeathrate)
-not(t1.year==t2.year and t1.leadingcause==t2.leadingcause and t1.sex==t2.sex and t1.raceethnicity==t2.raceethnicity and t1.deaths==t2.deaths and t1.deathrate>t2.deathrate and t1.ageadjusteddeathrate<=t2.ageadjusteddeathrate)
-not(t1.year==t2.year and t1.leadingcause==t2.leadingcause and t1.sex==t2.sex and t1.raceethnicity==t2.raceethnicity and t1.deaths==t2.deaths and t1.deathrate<t2.deathrate and t1.ageadjusteddeathrate>=t2.ageadjusteddeathrate)
-not(t1.year==t2.year and t1.leadingcause==t2.leadingcause and t1.sex==t2.sex and t1.raceethnicity==t2.raceethnicity and t1.deaths==t2.deaths and t1.deathrate<t2.deathrate and t1.ageadjusteddeathrate>t2.ageadjusteddeathrate)
-not(t1.leadingcause==t2.leadingcause and t1.sex==t2.sex and t1.raceethnicity==t2.raceethnicity and t1.deaths==t2.deaths and t1.deathrate==t2.deathrate and t1.ageadjusteddeathrate==t2.ageadjusteddeathrate)
-not(t1.year==t2.year and t1.leadingcause==t2.leadingcause and t1.deaths==t2.deaths and t1.deathrate==t2.deathrate and t1.ageadjusteddeathrate==t2.ageadjusteddeathrate)
-not(t1.year==t2.year and t1.leadingcause==t2.leadingcause and t1.raceethnicity==t2.raceethnicity and t1.deaths==t2.deaths and t1.ageadjusteddeathrate==t2.ageadjusteddeathrate)
-not(t1.year==t2.year and t1.leadingcause==t2.leadingcause and t1.sex<>t2.sex and t1.raceethnicity==t2.raceethnicity and t1.deaths==t2.deaths and t1.deathrate==t2.deathrate)

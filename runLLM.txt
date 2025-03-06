@@ -1,2 +1,0 @@
-- https://ollama.ai/download
-- ollama pull llama2

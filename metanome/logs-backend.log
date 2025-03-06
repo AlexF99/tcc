@@ -1,0 +1,108 @@
+Mar 06, 2025 7:44:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Mar 06, 2025 7:44:29 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Mar 06, 2025 7:44:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Mar 06, 2025 7:44:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.5
+Mar 06, 2025 7:44:30 PM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+Mar 06, 2025 7:44:32 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[Server@76821dea]: [Thread[localhost-startStop-1,5,main]]: checkRunning(false) entered
+[Server@76821dea]: [Thread[localhost-startStop-1,5,main]]: checkRunning(false) exited
+Mar 06, 2025 7:44:32 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: checkpointClose start
+Mar 06, 2025 7:44:32 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: checkpointClose end
+Mar 06, 2025 7:44:33 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+Mar 06, 2025 7:44:33 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.10.Final}
+Mar 06, 2025 7:44:33 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Mar 06, 2025 7:44:33 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Mar 06, 2025 7:44:33 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000043: Configuring from resource: /hibernate.cfg.xml
+Mar 06, 2025 7:44:33 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: HHH000040: Configuration resource: /hibernate.cfg.xml
+Mar 06, 2025 7:44:33 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Mar 06, 2025 7:44:33 PM org.hibernate.cfg.Configuration configure
+INFO: HHH000043: Configuring from resource: /hibernate.cfg.xml
+Mar 06, 2025 7:44:33 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: HHH000040: Configuration resource: /hibernate.cfg.xml
+Mar 06, 2025 7:44:33 PM org.hibernate.cfg.Configuration doConfigure
+INFO: HHH000041: Configured SessionFactory: null
+Mar 06, 2025 7:44:33 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Mar 06, 2025 7:44:33 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000401: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:hsql://localhost:9001/metanomedb]
+Mar 06, 2025 7:44:33 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000046: Connection properties: {password=****, user=sa}
+Mar 06, 2025 7:44:33 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000006: Autocommit mode: false
+Mar 06, 2025 7:44:33 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Mar 06, 2025 7:44:33 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+Mar 06, 2025 7:44:33 PM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Mar 06, 2025 7:44:33 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Mar 06, 2025 7:44:33 PM org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer getProxyFactory
+ERROR: HHH000142: Javassist Enhancement failed: de.metanome.backend.results_db.Result
+java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @7c54eaac
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+	at javassist.util.proxy.SecurityActions.setAccessible(SecurityActions.java:103)
+	at javassist.util.proxy.FactoryHelper.toClass2(FactoryHelper.java:181)
+	at javassist.util.proxy.FactoryHelper.toClass(FactoryHelper.java:164)
+	at javassist.util.proxy.ProxyFactory.createClass3(ProxyFactory.java:507)
+	at javassist.util.proxy.ProxyFactory.createClass2(ProxyFactory.java:492)
+	at javassist.util.proxy.ProxyFactory.createClass1(ProxyFactory.java:428)
+	at javassist.util.proxy.ProxyFactory.createClass(ProxyFactory.java:400)
+	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.getProxyFactory(JavassistLazyInitializer.java:162)
+	at org.hibernate.proxy.pojo.javassist.JavassistProxyFactory.postInstantiate(JavassistProxyFactory.java:67)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactory(PojoEntityTuplizer.java:224)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.<init>(AbstractEntityTuplizer.java:212)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.<init>(PojoEntityTuplizer.java:80)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:135)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructDefaultTuplizer(EntityTuplizerFactory.java:188)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:403)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:520)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:148)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.create(PersisterFactoryImpl.java:163)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:135)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:401)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859)
+	at de.metanome.backend.results_db.HibernateUtil.buildSessionFactory(HibernateUtil.java:223)
+	at de.metanome.backend.results_db.HibernateUtil.getSessionFactory(HibernateUtil.java:48)
+	at de.metanome.backend.results_db.HibernateUtil.openNewSession(HibernateUtil.java:58)
+	at de.metanome.backend.results_db.HibernateUtil.queryCriteria(HibernateUtil.java:183)
+	at de.metanome.backend.initializer.DatabaseInitializer.addAlgorithms(DatabaseInitializer.java:89)
+	at de.metanome.backend.initializer.DatabaseInitializer.contextInitialized(DatabaseInitializer.java:68)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5189)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1403)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
