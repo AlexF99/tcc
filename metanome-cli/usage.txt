@@ -1,0 +1,4 @@
+java -cp metanome-cli-1.1.0.jar:../algorithms/pyro-distro-1.0-SNAPSHOT-distro.jar de.metanome.cli.App --algorithm de.hpi.isg.pyro.algorithms.Pyro --files ../datasets/iris.csv --file-key inputFile --separator ","
+
+Obs:
+ - Cada algoritmo possui um --file-key diferente - precisa ver no código qual é
