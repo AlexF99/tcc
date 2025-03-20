@@ -2,3 +2,5 @@ deployment*
 metanome/results
 ecp/results
 metanome-cli/results
+profiler/data/
+*__pycache__
