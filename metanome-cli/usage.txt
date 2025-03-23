@@ -1,8 +1,16 @@
 Pyro:
-	java -cp metanome-cli-1.1.0.jar:../algorithms/pyro-distro-1.0-SNAPSHOT-distro.jar de.metanome.cli.App --algorithm de.hpi.isg.pyro.algorithms.Pyro --files ../datasets/iris.csv --file-key inputFile --separator ","
+	java -cp metanome-cli-1.1.0.jar:../algorithms/pyro-distro-1.0-SNAPSHOT-distro.jar de.metanome.cli.App --algorithm de.hpi.isg.pyro.algorithms.Pyro \
+	--files ../datasets/adult.csv \
+	--file-key inputFile \
+	--separator "," \
+	--algorithm-config isFindKeys:false \
+	--algorithm-config isFindFds:true
+	
+	Obs: POSSÍVEL parâmetro que define error threshold
+	--algorithm-config maxUccError:0
 
 HyFD:
-	java -cp metanome-cli-1.1.0.jar:../algorithms/HyFD-1.2-SNAPSHOT.jar de.metanome.cli.App --algorithm de.metanome.algorithms.hyfd.HyFD --files ../datasets/iris.csv --file-key INPUT_GENERATOR --separator ","
+	java -cp metanome-cli-1.1.0.jar:../algorithms/HyFD-1.2-SNAPSHOT.jar de.metanome.cli.App --algorithm de.metanome.algorithms.hyfd.HyFD --files ../datasets/adult.csv --file-key INPUT_GENERATOR --separator ","
 
 Obs:
  - Cada algoritmo possui um --file-key diferente - precisa ver no código qual é
