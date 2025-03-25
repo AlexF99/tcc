@@ -1,0 +1,1062 @@
+../../datasets/bridges.csv,['column1']->column6,rfi,1.1479706074624119e-13,0.0073926448822021484
+../../datasets/bridges.csv,['column1']->column9,rfi,2.1094237467877974e-15,0.004246234893798828
+../../datasets/bridges.csv,['column1']->column7,rfi,1.1102230246251565e-16,0.0041735172271728516
+../../datasets/bridges.csv,['column1']->column8,rfi,-2.220446049250313e-15,0.004301548004150391
+../../datasets/bridges.csv,['column1']->column4,rfi,1.2378986724570495e-13,0.007726192474365234
+../../datasets/bridges.csv,['column1']->column10,rfi,2.220446049250313e-16,0.0041217803955078125
+../../datasets/bridges.csv,['column1']->column11,rfi,1.3322676295501878e-15,0.004164218902587891
+../../datasets/bridges.csv,['column1']->column3,rfi,9.980904991380157e-14,0.006717681884765625
+../../datasets/bridges.csv,['column1']->column13,rfi,1.7763568394002505e-15,0.004769802093505859
+../../datasets/bridges.csv,['column1']->column12,rfi,1.4432899320127035e-15,0.004261493682861328
+../../datasets/bridges.csv,"['column3', 'column4']->column1",rfi,1.787459069646502e-13,0.010315656661987305
+../../datasets/bridges.csv,['column1']->column5,rfi,3.4416913763379853e-15,0.004207611083984375
+../../datasets/bridges.csv,['column4']->column7,mu,0.20769215416242537,0.0034966468811035156
+../../datasets/bridges.csv,['column4']->column7,rfi,0.05580822867703228,0.00412297248840332
+../../datasets/bridges.csv,['column3']->column7,mu,-0.1155977436480855,0.0029952526092529297
+../../datasets/bridges.csv,['column3']->column7,rfi,-0.05189318445329216,0.004197835922241211
+../../datasets/bridges.csv,['column4']->column12,mu,0.18916213897626444,0.0034661293029785156
+../../datasets/bridges.csv,['column4']->column12,rfi,0.04729842885357649,0.004108428955078125
+../../datasets/bridges.csv,['column4']->column9,mu,0.17353014656895338,0.0028679370880126953
+../../datasets/bridges.csv,['column4']->column9,rfi,0.05517982948032152,0.0039539337158203125
+../../datasets/bridges.csv,['column4']->column8,mu,0.4935401286020479,0.0032634735107421875
+../../datasets/bridges.csv,['column4']->column8,rfi,0.15195354975239928,0.0040874481201171875
+../../datasets/bridges.csv,"['column13', 'column6']->column7",mu,0.39253948554289764,0.0033648014068603516
+../../datasets/bridges.csv,"['column13', 'column6']->column7",rfi,0.1185425439701635,0.004602193832397461
+../../datasets/bridges.csv,['column3']->column12,mu,0.17772724606439194,0.0033800601959228516
+../../datasets/bridges.csv,['column3']->column12,rfi,0.06284554835386857,0.0041637420654296875
+../../datasets/bridges.csv,['column3']->column9,mu,0.1678790706480574,0.002908945083618164
+../../datasets/bridges.csv,['column3']->column9,rfi,0.06053504606348237,0.0039937496185302734
+../../datasets/bridges.csv,['column3']->column8,mu,-0.13334464555052783,0.003363370895385742
+../../datasets/bridges.csv,['column3']->column8,rfi,-0.048890515803957424,0.0041692256927490234
+../../datasets/bridges.csv,['column4']->column5,mu,0.5664870236593658,0.002885103225708008
+../../datasets/bridges.csv,['column4']->column5,rfi,0.1791423594929582,0.00392913818359375
+../../datasets/bridges.csv,['column4']->column10,mu,0.6928018894498487,0.0031762123107910156
+../../datasets/bridges.csv,['column4']->column10,rfi,0.19724980652799373,0.004441261291503906
+../../datasets/bridges.csv,"['column4', 'column6']->column3",mu,-0.014308710427484828,0.0036067962646484375
+../../datasets/bridges.csv,"['column4', 'column6']->column3",rfi,-4.71144651771338e-05,0.008278608322143555
+../../datasets/bridges.csv,['column3']->column5,mu,0.4970832635048319,0.0034940242767333984
+../../datasets/bridges.csv,['column3']->column5,rfi,0.20462920629706005,0.004410743713378906
+../../datasets/bridges.csv,['column4']->column13,mu,0.29113067095463163,0.0032405853271484375
+../../datasets/bridges.csv,['column4']->column13,rfi,0.06821022989552572,0.0050122737884521484
+../../datasets/bridges.csv,['column3']->column10,mu,-0.2421831290707377,0.003484487533569336
+../../datasets/bridges.csv,['column3']->column10,rfi,-0.09872558013278321,0.004292726516723633
+../../datasets/bridges.csv,"['column10', 'column6']->column8",mu,0.8037716262975774,0.0038046836853027344
+../../datasets/bridges.csv,"['column10', 'column6']->column8",rfi,0.23691305634557702,0.0053021907806396484
+../../datasets/bridges.csv,"['column13', 'column6']->column12",mu,0.45710134557718163,0.003910064697265625
+../../datasets/bridges.csv,"['column13', 'column6']->column12",rfi,0.13430572842760868,0.005588054656982422
+../../datasets/bridges.csv,['column4']->column11,mu,0.322869674185463,0.004009246826171875
+../../datasets/bridges.csv,['column4']->column11,rfi,0.10443987400802379,0.004488945007324219
+../../datasets/bridges.csv,"['column13', 'column6']->column9",mu,0.44754354880937,0.0034079551696777344
+../../datasets/bridges.csv,"['column13', 'column6']->column9",rfi,0.1194041323580256,0.004866600036621094
+../../datasets/bridges.csv,"['column4', 'column6']->column1",mu,-1.199040866595169e-14,0.0041849613189697266
+../../datasets/bridges.csv,"['column4', 'column6']->column1",rfi,1.779687508474126e-13,0.010950326919555664
+../../datasets/bridges.csv,['column3']->column11,mu,0.29352564102564116,0.0035560131072998047
+../../datasets/bridges.csv,['column3']->column11,rfi,0.12152424275683171,0.00416874885559082
+../../datasets/bridges.csv,"['column13', 'column6']->column10",mu,0.28577547515381896,0.003772258758544922
+../../datasets/bridges.csv,"['column13', 'column6']->column10",rfi,0.09614254730765803,0.0048809051513671875
+../../datasets/bridges.csv,"['column3', 'column4']->column6",rfi,1.1479706074624119e-13,0.008272647857666016
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column7",mu,0.4239598569803342,0.004185914993286133
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column7",rfi,0.09031584366967405,0.005414009094238281
+../../datasets/bridges.csv,"['column3', 'column6']->column1",mu,-1.3322676295501878e-15,0.003617525100708008
+../../datasets/bridges.csv,"['column3', 'column6']->column1",rfi,1.6475709685437323e-13,0.010442972183227539
+../../datasets/bridges.csv,"['column3', 'column6']->column4",mu,-0.010873440285206204,0.003767251968383789
+../../datasets/bridges.csv,"['column3', 'column6']->column4",rfi,-0.0006099580560294804,0.00867319107055664
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column5",mu,-0.15439250896767343,0.004101753234863281
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column5",rfi,-0.03652691495968263,0.005271434783935547
+../../datasets/bridges.csv,"['column3', 'column6']->column13",mu,0.31824814492393017,0.004115581512451172
+../../datasets/bridges.csv,"['column3', 'column6']->column13",rfi,0.023663114776862226,0.005362272262573242
+../../datasets/bridges.csv,"['column13', 'column6']->column8",mu,0.49271186330009886,0.003487110137939453
+../../datasets/bridges.csv,"['column13', 'column6']->column8",rfi,0.13398938936552252,0.004615306854248047
+../../datasets/bridges.csv,"['column13', 'column4']->column3",mu,-0.014308710427472837,0.003960609436035156
+../../datasets/bridges.csv,"['column13', 'column4']->column3",rfi,-0.001128708568115644,0.007064104080200195
+../../datasets/bridges.csv,"['column11', 'column12', 'column6']->column10",mu,0.05026480439544734,0.004004955291748047
+../../datasets/bridges.csv,"['column11', 'column12', 'column6']->column10",rfi,0.028612253302326418,0.005394697189331055
+../../datasets/bridges.csv,"['column13', 'column2', 'column6']->column5",mu,-0.04110430001308152,0.0037801265716552734
+../../datasets/bridges.csv,"['column13', 'column2', 'column6']->column5",rfi,-0.005201968553078196,0.00498509407043457
+../../datasets/bridges.csv,"['column13', 'column3']->column6",mu,0.26609459150050274,0.003937959671020508
+../../datasets/bridges.csv,"['column13', 'column3']->column6",rfi,0.0195865815317402,0.007250070571899414
+../../datasets/bridges.csv,"['column13', 'column4']->column6",mu,-0.07263098165311144,0.0035486221313476562
+../../datasets/bridges.csv,"['column13', 'column4']->column6",rfi,-0.005798084669099701,0.007961750030517578
+../../datasets/bridges.csv,"['column13', 'column2', 'column6']->column3",mu,0.1929630695294453,0.004004001617431641
+../../datasets/bridges.csv,"['column13', 'column2', 'column6']->column3",rfi,0.020225910301304162,0.007785797119140625
+../../datasets/bridges.csv,"['column12', 'column6']->column9",mu,0.20249572666619242,0.00373077392578125
+../../datasets/bridges.csv,"['column12', 'column6']->column9",rfi,0.07242698224590094,0.00443577766418457
+../../datasets/bridges.csv,"['column11', 'column12', 'column13']->column10",mu,0.7321658031826823,0.003820180892944336
+../../datasets/bridges.csv,"['column11', 'column12', 'column13']->column10",rfi,0.46507666088406896,0.005231142044067383
+../../datasets/bridges.csv,"['column12', 'column6']->column8",mu,0.5435713651976622,0.003766775131225586
+../../datasets/bridges.csv,"['column12', 'column6']->column8",rfi,0.16069114373038929,0.004405498504638672
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column11",mu,0.25424242424242394,0.004052877426147461
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column11",rfi,0.05034194033635675,0.005308866500854492
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column5",mu,0.02848630430329646,0.003794431686401367
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column5",rfi,0.0020356839129527238,0.005192995071411133
+../../datasets/bridges.csv,"['column10', 'column6']->column12",mu,0.4742395226936593,0.004084348678588867
+../../datasets/bridges.csv,"['column10', 'column6']->column12",rfi,0.13433597563500843,0.004875659942626953
+../../datasets/bridges.csv,"['column11', 'column4']->column3",mu,-0.014308710427472837,0.003542184829711914
+../../datasets/bridges.csv,"['column11', 'column4']->column3",rfi,-0.0016892002122430583,0.007563352584838867
+../../datasets/bridges.csv,"['column13', 'column3']->column4",mu,-0.010873440285205094,0.003808259963989258
+../../datasets/bridges.csv,"['column13', 'column3']->column4",rfi,-0.000715464559844281,0.00810551643371582
+../../datasets/bridges.csv,"['column11', 'column13', 'column6']->column5",mu,0.015171608095733258,0.004498720169067383
+../../datasets/bridges.csv,"['column11', 'column13', 'column6']->column5",rfi,0.00034966383604395634,0.0053253173828125
+../../datasets/bridges.csv,"['column12', 'column13']->column8",mu,0.51830872576951,0.0035889148712158203
+../../datasets/bridges.csv,"['column12', 'column13']->column8",rfi,0.4038541384773009,0.004828453063964844
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2']->column7",mu,0.2880009086044649,0.0045855045318603516
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2']->column7",rfi,0.15056419701000257,0.005370378494262695
+../../datasets/bridges.csv,"['column3', 'column7']->column13",mu,0.2611556250407139,0.003926992416381836
+../../datasets/bridges.csv,"['column3', 'column7']->column13",rfi,0.032357409899098855,0.0048105716705322266
+../../datasets/bridges.csv,"['column13', 'column3']->column1",mu,0.0,0.0034368038177490234
+../../datasets/bridges.csv,"['column13', 'column3']->column1",rfi,1.724176357242868e-13,0.010160684585571289
+../../datasets/bridges.csv,"['column11', 'column3']->column6",mu,0.13966056679906635,0.0038895606994628906
+../../datasets/bridges.csv,"['column11', 'column3']->column6",rfi,0.022019774908439982,0.00752568244934082
+../../datasets/bridges.csv,"['column11', 'column13', 'column7']->column9",mu,0.4365375804458076,0.00431370735168457
+../../datasets/bridges.csv,"['column11', 'column13', 'column7']->column9",rfi,0.25472352638433154,0.004803180694580078
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column3",mu,0.10532770157166482,0.004040718078613281
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column3",rfi,0.015436649169815353,0.007762908935546875
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column7",mu,0.3181779398076322,0.004049539566040039
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column7",rfi,0.0626691690653538,0.0055768489837646484
+../../datasets/bridges.csv,"['column11', 'column4']->column6",mu,-0.05475379862555951,0.003818035125732422
+../../datasets/bridges.csv,"['column11', 'column4']->column6",rfi,-0.004761078737968605,0.007581949234008789
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column7",mu,0.3003820143325261,0.00423121452331543
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column7",rfi,0.062289541433852125,0.0055849552154541016
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column10",mu,0.0903383296505087,0.0040628910064697266
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column10",rfi,0.014904731483660338,0.005311012268066406
+../../datasets/bridges.csv,"['column13', 'column2', 'column6']->column11",mu,0.20248447204968933,0.004263639450073242
+../../datasets/bridges.csv,"['column13', 'column2', 'column6']->column11",rfi,0.04258244160942759,0.005475521087646484
+../../datasets/bridges.csv,"['column13', 'column2', 'column6']->column4",mu,-0.010873440285205316,0.0040874481201171875
+../../datasets/bridges.csv,"['column13', 'column2', 'column6']->column4",rfi,-0.0016864437140363675,0.008675575256347656
+../../datasets/bridges.csv,"['column13', 'column4']->column1",mu,0.0,0.00360107421875
+../../datasets/bridges.csv,"['column13', 'column4']->column1",rfi,1.7175150190951172e-13,0.010372400283813477
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column5",mu,0.007177871148459136,0.0044307708740234375
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column5",rfi,-0.002197510193716279,0.005746364593505859
+../../datasets/bridges.csv,"['column10', 'column6']->column9",mu,0.3593864355219516,0.004081010818481445
+../../datasets/bridges.csv,"['column10', 'column6']->column9",rfi,0.1084683946729722,0.005026578903198242
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column5', 'column7']->column12",mu,0.3999799828424355,0.00505375862121582
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column5', 'column7']->column12",rfi,0.11227162862693674,0.006768703460693359
+../../datasets/bridges.csv,"['column10', 'column11', 'column13']->column8",mu,0.6045243545381954,0.0038809776306152344
+../../datasets/bridges.csv,"['column10', 'column11', 'column13']->column8",rfi,0.46207633983164154,0.005445003509521484
+../../datasets/bridges.csv,"['column10', 'column6']->column13",mu,0.6460400533990295,0.00424504280090332
+../../datasets/bridges.csv,"['column10', 'column6']->column13",rfi,0.166354483391554,0.0051424503326416016
+../../datasets/bridges.csv,"['column11', 'column13', 'column6']->column3",mu,0.10329229947716123,0.0043408870697021484
+../../datasets/bridges.csv,"['column11', 'column13', 'column6']->column3",rfi,0.011920003394409018,0.008254528045654297
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column9",mu,0.27894721971066794,0.004340171813964844
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column9",rfi,0.05589185883610259,0.005631208419799805
+../../datasets/bridges.csv,"['column11', 'column12', 'column6']->column7",mu,0.3269575415385034,0.004539966583251953
+../../datasets/bridges.csv,"['column11', 'column12', 'column6']->column7",rfi,0.08229961010934062,0.005600452423095703
+../../datasets/bridges.csv,"['column13', 'column2', 'column6']->column1",mu,-2.220446049250313e-16,0.004618644714355469
+../../datasets/bridges.csv,"['column13', 'column2', 'column6']->column1",rfi,1.596500709410975e-13,0.010319948196411133
+../../datasets/bridges.csv,"['column13', 'column6', 'column7']->column5",mu,-0.015865407891552552,0.004629611968994141
+../../datasets/bridges.csv,"['column13', 'column6', 'column7']->column5",rfi,0.01299221632685399,0.005664825439453125
+../../datasets/bridges.csv,"['column2', 'column4']->column3",mu,-0.014308710427472837,0.0037164688110351562
+../../datasets/bridges.csv,"['column2', 'column4']->column3",rfi,-0.0009410636717349652,0.00746917724609375
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column7",mu,0.13793672463297013,0.0042765140533447266
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column7",rfi,0.043637312150957785,0.00534367561340332
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column10",mu,0.27179419318159415,0.004307270050048828
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column10",rfi,0.07834730674145096,0.005323886871337891
+../../datasets/bridges.csv,"['column11', 'column3']->column4",mu,-0.010873440285205094,0.0036237239837646484
+../../datasets/bridges.csv,"['column11', 'column3']->column4",rfi,-0.0014611219561815325,0.007846832275390625
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column12",mu,0.642845227882403,0.004524707794189453
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column12",rfi,0.15353641518498407,0.005285501480102539
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column11",mu,0.36236734693877515,0.0042705535888671875
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column11",rfi,0.08435492911266596,0.005212068557739258
+../../datasets/bridges.csv,"['column11', 'column12', 'column13']->column9",mu,0.5510212317569909,0.0041615962982177734
+../../datasets/bridges.csv,"['column11', 'column12', 'column13']->column9",rfi,0.3443665191013378,0.0050699710845947266
+../../datasets/bridges.csv,"['column11', 'column3']->column13",mu,0.159564523483812,0.0036046504974365234
+../../datasets/bridges.csv,"['column11', 'column3']->column13",rfi,0.032320921035248085,0.005053281784057617
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column12",mu,0.2965808299665891,0.004010200500488281
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column12",rfi,0.0750313701514832,0.005469560623168945
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column7']->column6",mu,0.20723940091614812,0.004890918731689453
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column7']->column6",rfi,0.025068436216063028,0.009373188018798828
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column7']->column5",mu,0.3208018677396547,0.004405975341796875
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column7']->column5",rfi,0.1551260362431569,0.005369901657104492
+../../datasets/bridges.csv,"['column12', 'column13', 'column7']->column9",mu,0.3714847164413764,0.004328250885009766
+../../datasets/bridges.csv,"['column12', 'column13', 'column7']->column9",rfi,0.22432512596720883,0.004863739013671875
+../../datasets/bridges.csv,"['column11', 'column4']->column1",mu,-2.220446049250313e-16,0.0034584999084472656
+../../datasets/bridges.csv,"['column11', 'column4']->column1",rfi,1.6997514507011147e-13,0.01017451286315918
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column3",mu,0.13957145718011355,0.0041387081146240234
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column3",rfi,0.026523355089594358,0.007708072662353516
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column4",mu,0.002086475615886818,0.0043010711669921875
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column4",rfi,0.0013473588437956652,0.007989645004272461
+../../datasets/bridges.csv,"['column2', 'column4']->column6",mu,-0.009535041555869705,0.004080057144165039
+../../datasets/bridges.csv,"['column2', 'column4']->column6",rfi,-0.0012029005235147938,0.007742643356323242
+../../datasets/bridges.csv,"['column12', 'column13', 'column6']->column11",mu,0.4468281718281716,0.004182577133178711
+../../datasets/bridges.csv,"['column12', 'column13', 'column6']->column11",rfi,0.08925354278647346,0.0054929256439208984
+../../datasets/bridges.csv,"['column11', 'column12', 'column6']->column13",mu,0.5642186418064203,0.0038771629333496094
+../../datasets/bridges.csv,"['column11', 'column12', 'column6']->column13",rfi,0.11597696979642069,0.005121707916259766
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column8']->column10",mu,0.7604412013192811,0.00462794303894043
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column8']->column10",rfi,0.3901221804017429,0.005248069763183594
+../../datasets/bridges.csv,"['column11', 'column3']->column1",mu,-2.220446049250313e-16,0.0034837722778320312
+../../datasets/bridges.csv,"['column11', 'column3']->column1",rfi,1.5787371410169726e-13,0.009526729583740234
+../../datasets/bridges.csv,"['column6', 'column7', 'column8']->column12",mu,0.47848968049711527,0.0041103363037109375
+../../datasets/bridges.csv,"['column6', 'column7', 'column8']->column12",rfi,0.12694120195475167,0.00518488883972168
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column5']->column7",mu,0.4058841145614416,0.0047283172607421875
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column5']->column7",rfi,0.19971780200800604,0.005288839340209961
+../../datasets/bridges.csv,"['column3', 'column7']->column6",mu,0.18275734731191395,0.0034580230712890625
+../../datasets/bridges.csv,"['column3', 'column7']->column6",rfi,0.014047943492791037,0.00788426399230957
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column5",mu,-0.2583918340998952,0.003893613815307617
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column5",rfi,-0.07331096770862089,0.005124807357788086
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column12",mu,0.30016970328308634,0.004395723342895508
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column12",rfi,0.06665650595856687,0.0050525665283203125
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column7']->column8",mu,0.6856631306898687,0.004203081130981445
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column7']->column8",rfi,0.3858435798769056,0.005669116973876953
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column7']->column9",mu,0.15565609616736953,0.0042285919189453125
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column7']->column9",rfi,0.10969542201656846,0.00508880615234375
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column8']->column10",mu,0.8125988783801084,0.004591941833496094
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column8']->column10",rfi,0.46128754104504777,0.005429267883300781
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column12",mu,0.10421722020234969,0.003824949264526367
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column12",rfi,0.031709394981675576,0.005200862884521484
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column1",mu,0.0,0.004278659820556641
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column1",rfi,1.6298074001497298e-13,0.009903192520141602
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column5', 'column7']->column11",mu,0.3364341085271314,0.005170345306396484
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column5', 'column7']->column11",rfi,0.11394157059232213,0.005842924118041992
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column13",mu,0.36120746748311694,0.0040204524993896484
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column13",rfi,0.0905055428557816,0.005644083023071289
+../../datasets/bridges.csv,"['column12', 'column4']->column6",mu,-0.07263098165311166,0.0035419464111328125
+../../datasets/bridges.csv,"['column12', 'column4']->column6",rfi,-0.006351303489362636,0.007612466812133789
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column6']->column4",mu,-0.010873440285205094,0.004826545715332031
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column6']->column4",rfi,-0.0010142513119988372,0.009071826934814453
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column5']->column7",mu,0.33462791734061825,0.0047876834869384766
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column5']->column7",rfi,0.16360152632889047,0.005421161651611328
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column7']->column3",mu,0.10810785807239431,0.005129575729370117
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column7']->column3",rfi,0.011202618069558135,0.009029388427734375
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2']->column5",mu,0.2625118533443266,0.0042569637298583984
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2']->column5",rfi,0.12287395219938624,0.005985736846923828
+../../datasets/bridges.csv,"['column2', 'column6']->column9",mu,0.18992835794655316,0.0035867691040039062
+../../datasets/bridges.csv,"['column2', 'column6']->column9",rfi,0.0458697793480799,0.0044116973876953125
+../../datasets/bridges.csv,"['column12', 'column3']->column6",mu,0.15381333669587882,0.003918647766113281
+../../datasets/bridges.csv,"['column12', 'column3']->column6",rfi,0.019654519501998147,0.007801532745361328
+../../datasets/bridges.csv,"['column12', 'column3']->column13",mu,0.16674773268480503,0.0036656856536865234
+../../datasets/bridges.csv,"['column12', 'column3']->column13",rfi,0.02941433572515384,0.005250215530395508
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column8",mu,-0.005041478129715227,0.004271984100341797
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column8",rfi,-0.0040236258853542095,0.004870414733886719
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column7",mu,0.30967349260523336,0.004419565200805664
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column7",rfi,0.0656949352215268,0.006001472473144531
+../../datasets/bridges.csv,"['column12', 'column4']->column3",mu,-0.014308710427472837,0.003874063491821289
+../../datasets/bridges.csv,"['column12', 'column4']->column3",rfi,-0.0012237504633916263,0.0073375701904296875
+../../datasets/bridges.csv,"['column4', 'column7']->column6",mu,-0.02599485201601981,0.003838777542114258
+../../datasets/bridges.csv,"['column4', 'column7']->column6",rfi,-0.003123387962098989,0.0074062347412109375
+../../datasets/bridges.csv,"['column10', 'column6', 'column7']->column11",mu,0.3234656084656078,0.004378795623779297
+../../datasets/bridges.csv,"['column10', 'column6', 'column7']->column11",rfi,0.0715441285480154,0.005359649658203125
+../../datasets/bridges.csv,"['column3', 'column7']->column4",mu,-0.010873440285205094,0.003467082977294922
+../../datasets/bridges.csv,"['column3', 'column7']->column4",rfi,-0.0007836722327583256,0.008249998092651367
+../../datasets/bridges.csv,"['column12', 'column5', 'column6']->column7",mu,0.3468700403095544,0.004165172576904297
+../../datasets/bridges.csv,"['column12', 'column5', 'column6']->column7",rfi,0.08694586269468452,0.0051136016845703125
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column6']->column1",mu,-2.220446049250313e-16,0.00494074821472168
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column6']->column1",rfi,1.6198153929281034e-13,0.01180720329284668
+../../datasets/bridges.csv,"['column4', 'column5']->column6",mu,-0.07263098165311166,0.004240274429321289
+../../datasets/bridges.csv,"['column4', 'column5']->column6",rfi,-0.011076683891590777,0.00706934928894043
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column11",mu,0.2760282574568287,0.003952741622924805
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column11",rfi,0.06311048047575141,0.005689382553100586
+../../datasets/bridges.csv,"['column11', 'column13', 'column2']->column9",mu,0.5748040249855211,0.0038306713104248047
+../../datasets/bridges.csv,"['column11', 'column13', 'column2']->column9",rfi,0.33355163608256444,0.004735708236694336
+../../datasets/bridges.csv,"['column3', 'column5']->column6",mu,0.056251035522262294,0.003987550735473633
+../../datasets/bridges.csv,"['column3', 'column5']->column6",rfi,0.011307131627567135,0.0067937374114990234
+../../datasets/bridges.csv,"['column12', 'column6', 'column7']->column11",mu,0.34937728937728907,0.0038344860076904297
+../../datasets/bridges.csv,"['column12', 'column6', 'column7']->column11",rfi,0.07273402572839238,0.005597114562988281
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column3",mu,0.14682147328614803,0.004115581512451172
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column3",rfi,0.02314698490805145,0.0074045658111572266
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5']->column12",mu,0.4430126850091862,0.005274534225463867
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5']->column12",rfi,0.17722540268049747,0.005707263946533203
+../../datasets/bridges.csv,"['column2', 'column4']->column1",mu,-2.220446049250313e-16,0.003502368927001953
+../../datasets/bridges.csv,"['column2', 'column4']->column1",rfi,1.6919798895287386e-13,0.010022401809692383
+../../datasets/bridges.csv,"['column12', 'column13', 'column2']->column9",mu,0.5143776146803112,0.003954887390136719
+../../datasets/bridges.csv,"['column12', 'column13', 'column2']->column9",rfi,0.28994572739381763,0.005196809768676758
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column5",mu,-0.12387842126404269,0.004253387451171875
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column5",rfi,-0.016940535466972828,0.004940986633300781
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column8']->column10",mu,0.6327369438162541,0.0042765140533447266
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column8']->column10",rfi,0.3981403923617055,0.00583338737487793
+../../datasets/bridges.csv,"['column13', 'column6', 'column7']->column11",mu,0.3681904761904754,0.00384521484375
+../../datasets/bridges.csv,"['column13', 'column6', 'column7']->column11",rfi,0.06812301595496562,0.004933595657348633
+../../datasets/bridges.csv,"['column12', 'column6', 'column7']->column13",mu,0.5656921206168803,0.004483699798583984
+../../datasets/bridges.csv,"['column12', 'column6', 'column7']->column13",rfi,0.11325035286710938,0.0054798126220703125
+../../datasets/bridges.csv,"['column13', 'column2', 'column7']->column9",mu,0.3970484620510728,0.003790140151977539
+../../datasets/bridges.csv,"['column13', 'column2', 'column7']->column9",rfi,0.21275591396855914,0.005372524261474609
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column7']->column8",mu,0.5850194428733031,0.0044820308685302734
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column7']->column8",rfi,0.31890972868814355,0.0051250457763671875
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column6']->column3",mu,0.12656749935412026,0.004897594451904297
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column6']->column3",rfi,0.008521964865293219,0.008394718170166016
+../../datasets/bridges.csv,"['column10', 'column3']->column6",mu,0.12997709265914248,0.0037238597869873047
+../../datasets/bridges.csv,"['column10', 'column3']->column6",rfi,0.01642660397473128,0.007824182510375977
+../../datasets/bridges.csv,"['column3', 'column7']->column1",mu,0.0,0.0036063194274902344
+../../datasets/bridges.csv,"['column3', 'column7']->column1",rfi,1.716404796070492e-13,0.010552644729614258
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column4",mu,-0.01087344028520576,0.00433802604675293
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column4",rfi,-0.0017570717167085803,0.008435249328613281
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column5', 'column8', 'column9']->column7",mu,0.33375121758980386,0.005311489105224609
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column5', 'column8', 'column9']->column7",rfi,0.1477027437736259,0.006125211715698242
+../../datasets/bridges.csv,"['column13', 'column5', 'column6']->column11",mu,0.25318367346938686,0.004480600357055664
+../../datasets/bridges.csv,"['column13', 'column5', 'column6']->column11",rfi,0.05327907836611767,0.005215644836425781
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column7']->column8",mu,0.662373413551743,0.0041942596435546875
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column7']->column8",rfi,0.4064988354173019,0.0057065486907958984
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column7', 'column9']->column5",mu,0.26098079561042475,0.004854917526245117
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column7', 'column9']->column5",rfi,0.10384965393707046,0.005603313446044922
+../../datasets/bridges.csv,"['column5', 'column6']->column9",mu,0.13923191477174968,0.003981113433837891
+../../datasets/bridges.csv,"['column5', 'column6']->column9",rfi,0.04185003793852826,0.005203723907470703
+../../datasets/bridges.csv,"['column13', 'column5', 'column6']->column3",mu,0.08712216061527422,0.003943681716918945
+../../datasets/bridges.csv,"['column13', 'column5', 'column6']->column3",rfi,0.008577378262578983,0.007830619812011719
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5', 'column7']->column13",mu,0.3828553456678726,0.005176067352294922
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5', 'column7']->column13",rfi,0.1332426549132677,0.005822181701660156
+../../datasets/bridges.csv,"['column12', 'column5', 'column6']->column10",mu,0.07764715449633808,0.004484891891479492
+../../datasets/bridges.csv,"['column12', 'column5', 'column6']->column10",rfi,0.01610689808651189,0.005388975143432617
+../../datasets/bridges.csv,"['column5', 'column6', 'column8']->column10",mu,0.31609632762370443,0.003827333450317383
+../../datasets/bridges.csv,"['column5', 'column6', 'column8']->column10",rfi,0.06782453095178553,0.005622148513793945
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column7']->column12",mu,0.458812869502763,0.004940509796142578
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column7']->column12",rfi,0.15157415120907136,0.005764961242675781
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column11",mu,0.11139047619047593,0.004606962203979492
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column11",rfi,0.025946641272511117,0.0055735111236572266
+../../datasets/bridges.csv,"['column10', 'column4']->column6",mu,-0.06179632527277645,0.003611326217651367
+../../datasets/bridges.csv,"['column10', 'column4']->column6",rfi,-0.00918209996364494,0.007797718048095703
+../../datasets/bridges.csv,"['column4', 'column7']->column3",mu,-0.014308710427472837,0.0039937496185302734
+../../datasets/bridges.csv,"['column4', 'column7']->column3",rfi,-0.0013171623048128245,0.007540225982666016
+../../datasets/bridges.csv,"['column12', 'column5', 'column6']->column11",mu,0.19231040564373847,0.0046672821044921875
+../../datasets/bridges.csv,"['column12', 'column5', 'column6']->column11",rfi,0.035563749569811565,0.0051844120025634766
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column8",mu,0.1981052036199088,0.003907442092895508
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column8",rfi,0.04070860104780305,0.0055179595947265625
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5', 'column8', 'column9']->column7",mu,0.31978238430656547,0.00511622428894043
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5', 'column8', 'column9']->column7",rfi,0.11243218125699106,0.0061075687408447266
+../../datasets/bridges.csv,"['column12', 'column13', 'column2']->column10",mu,0.6103697218845695,0.004353761672973633
+../../datasets/bridges.csv,"['column12', 'column13', 'column2']->column10",rfi,0.3460308207639039,0.004815340042114258
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column1",mu,-6.661338147750939e-16,0.0038461685180664062
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column1",rfi,1.6042722705833512e-13,0.011069297790527344
+../../datasets/bridges.csv,"['column5', 'column6', 'column7']->column11",mu,0.20993480725623537,0.004225730895996094
+../../datasets/bridges.csv,"['column5', 'column6', 'column7']->column11",rfi,0.043641287720111555,0.0055484771728515625
+../../datasets/bridges.csv,"['column10', 'column3']->column13",mu,0.25294624309672176,0.004050493240356445
+../../datasets/bridges.csv,"['column10', 'column3']->column13",rfi,0.04737522924871529,0.004685878753662109
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column7']->column5",mu,0.21623206273609052,0.0047762393951416016
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column7']->column5",rfi,0.09001692356084479,0.0065648555755615234
+../../datasets/bridges.csv,"['column5', 'column6', 'column8']->column12",mu,0.5690351917117711,0.004202365875244141
+../../datasets/bridges.csv,"['column5', 'column6', 'column8']->column12",rfi,0.13298107019718264,0.005685091018676758
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column7']->column4",mu,0.0611658163787977,0.00527191162109375
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column7']->column4",rfi,0.007952088009254843,0.009588479995727539
+../../datasets/bridges.csv,"['column13', 'column2', 'column5']->column9",mu,0.4594389767253687,0.004367828369140625
+../../datasets/bridges.csv,"['column13', 'column2', 'column5']->column9",rfi,0.2837603081768403,0.004906892776489258
+../../datasets/bridges.csv,"['column11', 'column13', 'column7']->column8",mu,0.59529717163407,0.004127025604248047
+../../datasets/bridges.csv,"['column11', 'column13', 'column7']->column8",rfi,0.3339331231523205,0.005304098129272461
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column10",mu,-0.040611656766453175,0.003873109817504883
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column10",rfi,-0.009853447154910655,0.004973173141479492
+../../datasets/bridges.csv,"['column12', 'column3']->column4",mu,-0.010873440285205094,0.004063844680786133
+../../datasets/bridges.csv,"['column12', 'column3']->column4",rfi,-0.0012255900954170063,0.0074939727783203125
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column12",mu,0.18916213897626488,0.004045724868774414
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column12",rfi,0.05014814757024688,0.005807161331176758
+../../datasets/bridges.csv,"['column10', 'column13', 'column7']->column8",mu,0.6200224037715176,0.003933906555175781
+../../datasets/bridges.csv,"['column10', 'column13', 'column7']->column8",rfi,0.4539031573040642,0.0046956539154052734
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column13",mu,0.5404387987753227,0.0044362545013427734
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column13",rfi,0.09627293453651198,0.005711793899536133
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column10",mu,-0.5215496159300195,0.004033088684082031
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column10",rfi,-0.09842542138164878,0.0056574344635009766
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column12",mu,0.26445422607132485,0.004098176956176758
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column12",rfi,0.05443949462169817,0.004934549331665039
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column7']->column5",mu,0.1267420548466296,0.0051000118255615234
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column7']->column5",rfi,0.06928478459438048,0.006196498870849609
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column3",mu,0.17472154924310124,0.003857135772705078
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column3",rfi,0.02064025862272878,0.008299112319946289
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column13",mu,0.34972222639801254,0.004125118255615234
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column13",rfi,0.0799818424971882,0.005173921585083008
+../../datasets/bridges.csv,"['column5', 'column6', 'column7']->column12",mu,0.216511828733018,0.004537343978881836
+../../datasets/bridges.csv,"['column5', 'column6', 'column7']->column12",rfi,0.0574230364408842,0.00540471076965332
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column5']->column10",mu,0.5939412185898094,0.004183530807495117
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column5']->column10",rfi,0.25845227001427107,0.006043910980224609
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column13",mu,0.27339076159185527,0.004216194152832031
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column13",rfi,0.049548338085677934,0.0054323673248291016
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column7']->column1",mu,-2.220446049250313e-16,0.005705356597900391
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column7']->column1",rfi,1.6209256159527285e-13,0.010918617248535156
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column8",mu,-0.07774660633484198,0.00449371337890625
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column8",rfi,-0.013429335843063717,0.005244016647338867
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column5']->column6",mu,0.08379436983796751,0.004946708679199219
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column5']->column6",rfi,0.013130695853139196,0.00931549072265625
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column5', 'column7']->column11",mu,0.358,0.004584074020385742
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column5', 'column7']->column11",rfi,0.16745965309453703,0.006246805191040039
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column5",mu,-0.04489013383131191,0.004461050033569336
+../../datasets/bridges.csv,"['column12', 'column2', 'column6']->column5",rfi,-0.02236784759638233,0.005078554153442383
+../../datasets/bridges.csv,"['column11', 'column13', 'column5']->column9",mu,0.45699547801543894,0.004225969314575195
+../../datasets/bridges.csv,"['column11', 'column13', 'column5']->column9",rfi,0.3012878922599043,0.005377054214477539
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column8']->column10",mu,0.7388295385560077,0.0045146942138671875
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column8']->column10",rfi,0.3430987982157314,0.0057680606842041016
+../../datasets/bridges.csv,"['column3', 'column5']->column13",mu,0.107945648062722,0.00393223762512207
+../../datasets/bridges.csv,"['column3', 'column5']->column13",rfi,0.025399375923026657,0.004851579666137695
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column8",mu,-0.0801591445256602,0.003828763961791992
+../../datasets/bridges.csv,"['column11', 'column2', 'column6']->column8",rfi,-0.015092511424669719,0.005267620086669922
+../../datasets/bridges.csv,"['column12', 'column4']->column1",mu,-2.220446049250313e-16,0.003882169723510742
+../../datasets/bridges.csv,"['column12', 'column4']->column1",rfi,1.687538997430238e-13,0.010014772415161133
+../../datasets/bridges.csv,"['column12', 'column2', 'column6', 'column7']->column4",mu,-0.010873440285205094,0.0049266815185546875
+../../datasets/bridges.csv,"['column12', 'column2', 'column6', 'column7']->column4",rfi,-0.0009499116449076528,0.008947372436523438
+../../datasets/bridges.csv,"['column11', 'column12', 'column6']->column5",mu,-0.08297963904354622,0.004537343978881836
+../../datasets/bridges.csv,"['column11', 'column12', 'column6']->column5",rfi,-0.026603273994671106,0.005348682403564453
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column7']->column3",mu,0.061764442854587376,0.00431513786315918
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column7']->column3",rfi,0.004808482593527286,0.008744001388549805
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column8",mu,-0.10256128486897831,0.0040836334228515625
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column8",rfi,-0.029764987649792518,0.0056133270263671875
+../../datasets/bridges.csv,"['column12', 'column6', 'column7']->column5",mu,0.13936558479042038,0.004248857498168945
+../../datasets/bridges.csv,"['column12', 'column6', 'column7']->column5",rfi,0.032973471894105266,0.0050351619720458984
+../../datasets/bridges.csv,"['column10', 'column13', 'column6']->column11",mu,0.29310892172961067,0.004126548767089844
+../../datasets/bridges.csv,"['column10', 'column13', 'column6']->column11",rfi,0.07177902903826783,0.005555868148803711
+../../datasets/bridges.csv,"['column12', 'column3']->column1",mu,-2.220446049250313e-16,0.003564596176147461
+../../datasets/bridges.csv,"['column12', 'column3']->column1",rfi,1.6042722705833512e-13,0.009537935256958008
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column13",mu,0.32937558899528774,0.004360198974609375
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column13",rfi,0.06361338066814393,0.005545139312744141
+../../datasets/bridges.csv,"['column12', 'column13', 'column6']->column5",mu,0.1216057000370725,0.004585981369018555
+../../datasets/bridges.csv,"['column12', 'column13', 'column6']->column5",rfi,0.028568180552055678,0.005133628845214844
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column8', 'column9']->column7",mu,0.3189925420300842,0.0050048828125
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column8', 'column9']->column7",rfi,0.14266376668328873,0.007829666137695312
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column6']->column4",mu,-0.010873440285205316,0.004689931869506836
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column6']->column4",rfi,-0.0010824589849129929,0.009160995483398438
+../../datasets/bridges.csv,"['column10', 'column13', 'column2', 'column5', 'column7']->column12",mu,0.3693483303148727,0.005034208297729492
+../../datasets/bridges.csv,"['column10', 'column13', 'column2', 'column5', 'column7']->column12",rfi,0.1469684450539792,0.00583958625793457
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5']->column9",mu,0.20713867122094975,0.005686759948730469
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5']->column9",rfi,0.13748240484391155,0.005949497222900391
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column13",mu,0.325804507849651,0.004138946533203125
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column13",rfi,0.06708848024107428,0.0058727264404296875
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column7",mu,0.3755134039263728,0.004236698150634766
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column7",rfi,0.08677795669226473,0.005438804626464844
+../../datasets/bridges.csv,"['column10', 'column6', 'column7']->column5",mu,0.042859544366442126,0.00445246696472168
+../../datasets/bridges.csv,"['column10', 'column6', 'column7']->column5",rfi,0.011478269018221354,0.005743741989135742
+../../datasets/bridges.csv,"['column12', 'column6', 'column7']->column10",mu,-0.02367862684865707,0.0038957595825195312
+../../datasets/bridges.csv,"['column12', 'column6', 'column7']->column10",rfi,0.017741948412240416,0.005472421646118164
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column7']->column8",mu,0.5534719884987269,0.004666566848754883
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column7']->column8",rfi,0.31781657568807686,0.005232810974121094
+../../datasets/bridges.csv,"['column12', 'column5', 'column6']->column13",mu,0.4987716246418171,0.00468754768371582
+../../datasets/bridges.csv,"['column12', 'column5', 'column6']->column13",rfi,0.10602034295190144,0.006067991256713867
+../../datasets/bridges.csv,"['column12', 'column13', 'column5']->column9",mu,0.43800157938451023,0.004148721694946289
+../../datasets/bridges.csv,"['column12', 'column13', 'column5']->column9",rfi,0.29951998334505353,0.005296468734741211
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column7']->column3",mu,0.10095364303019372,0.005071163177490234
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column7']->column3",rfi,0.008992948093293762,0.008155107498168945
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column6']->column4",mu,-0.010873440285205094,0.005020856857299805
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column6']->column4",rfi,-0.0011183044199769565,0.009399652481079102
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2']->column8",mu,0.6204984289249458,0.004725456237792969
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2']->column8",rfi,0.3807421435289932,0.00597071647644043
+../../datasets/bridges.csv,"['column12', 'column2', 'column6', 'column7']->column1",mu,-2.220446049250313e-16,0.004751920700073242
+../../datasets/bridges.csv,"['column12', 'column2', 'column6', 'column7']->column1",rfi,1.638689184346731e-13,0.011462211608886719
+../../datasets/bridges.csv,"['column10', 'column13', 'column6']->column5",mu,0.034312473392931975,0.004337310791015625
+../../datasets/bridges.csv,"['column10', 'column13', 'column6']->column5",rfi,0.007453861851944521,0.005852699279785156
+../../datasets/bridges.csv,"['column5', 'column6', 'column7']->column13",mu,0.3098988303331667,0.004117250442504883
+../../datasets/bridges.csv,"['column5', 'column6', 'column7']->column13",rfi,0.07917384723036902,0.005181789398193359
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column7']->column6",mu,0.12657191493960873,0.00546717643737793
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column7']->column6",rfi,0.01825100306248706,0.009100675582885742
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column2', 'column5']->column11",mu,0.4380540293040295,0.0052487850189208984
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column2', 'column5']->column11",rfi,0.18355744571016464,0.006451129913330078
+../../datasets/bridges.csv,"['column10', 'column12', 'column6']->column5",mu,0.1763253449527944,0.004195451736450195
+../../datasets/bridges.csv,"['column10', 'column12', 'column6']->column5",rfi,0.027146517360233657,0.005661725997924805
+../../datasets/bridges.csv,"['column12', 'column13', 'column6', 'column7']->column3",mu,0.11247987837596107,0.0050048828125
+../../datasets/bridges.csv,"['column12', 'column13', 'column6', 'column7']->column3",rfi,0.008726251134531626,0.00863957405090332
+../../datasets/bridges.csv,"['column11', 'column13', 'column2']->column8",mu,0.5355299551947474,0.004281759262084961
+../../datasets/bridges.csv,"['column11', 'column13', 'column2']->column8",rfi,0.30786951037547267,0.00512385368347168
+../../datasets/bridges.csv,"['column12', 'column13', 'column5', 'column6']->column4",mu,-0.010873440285206204,0.0045375823974609375
+../../datasets/bridges.csv,"['column12', 'column13', 'column5', 'column6']->column4",rfi,-0.0014509118532726184,0.009114980697631836
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column9",mu,0.4492699752193423,0.004306793212890625
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column9",rfi,0.11593585955670793,0.0065174102783203125
+../../datasets/bridges.csv,"['column4', 'column5']->column3",mu,-0.014308710427472837,0.0045473575592041016
+../../datasets/bridges.csv,"['column4', 'column5']->column3",rfi,-0.0022066340187735234,0.008629083633422852
+../../datasets/bridges.csv,"['column10', 'column12', 'column6']->column7",mu,0.3150100422758739,0.005293846130371094
+../../datasets/bridges.csv,"['column10', 'column12', 'column6']->column7",rfi,0.08328489715231835,0.006912946701049805
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column6']->column1",mu,-2.220446049250313e-16,0.005622148513793945
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column6']->column1",rfi,1.637578961322106e-13,0.013340234756469727
+../../datasets/bridges.csv,"['column6', 'column7', 'column8']->column9",mu,0.0765776739669144,0.0064089298248291016
+../../datasets/bridges.csv,"['column6', 'column7', 'column8']->column9",rfi,0.03236077196001863,0.007363557815551758
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column3",mu,0.13175174387408306,0.005800485610961914
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column3",rfi,0.020128887179214683,0.010675668716430664
+../../datasets/bridges.csv,"['column10', 'column13', 'column2']->column8",mu,0.5676347749158837,0.005956888198852539
+../../datasets/bridges.csv,"['column10', 'column13', 'column2']->column8",rfi,0.3922304263248835,0.005274772644042969
+../../datasets/bridges.csv,"['column12', 'column13', 'column5', 'column7']->column10",mu,0.6240688057054096,0.0042607784271240234
+../../datasets/bridges.csv,"['column12', 'column13', 'column5', 'column7']->column10",rfi,0.3318537160180241,0.0051081180572509766
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column6']->column4",mu,-0.010873440285205094,0.004387855529785156
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column6']->column4",rfi,-0.0017459314333215792,0.009346246719360352
+../../datasets/bridges.csv,"['column13', 'column2', 'column7']->column8",mu,0.5534329998214331,0.00408625602722168
+../../datasets/bridges.csv,"['column13', 'column2', 'column7']->column8",rfi,0.29061938426090655,0.005333423614501953
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column6']->column1",mu,0.0,0.004472017288208008
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column6']->column1",rfi,1.6397994073713562e-13,0.010791778564453125
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column5', 'column7']->column13",mu,0.4451950420760271,0.005114555358886719
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column5', 'column7']->column13",rfi,0.18837912406997137,0.006139993667602539
+../../datasets/bridges.csv,"['column6', 'column7', 'column8']->column10",mu,0.16024714592849498,0.004479169845581055
+../../datasets/bridges.csv,"['column6', 'column7', 'column8']->column10",rfi,0.05876360828121063,0.005373477935791016
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column5', 'column7', 'column9']->column12",mu,0.47668001831570583,0.005166769027709961
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column5', 'column7', 'column9']->column12",rfi,0.16729191204216032,0.006507396697998047
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column5",mu,-0.12169639460722492,0.003956794738769531
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column5",rfi,-0.03805147176073642,0.005017757415771484
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column7']->column4",mu,0.04233042499296358,0.004725217819213867
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column7']->column4",rfi,0.00218581256622552,0.009103536605834961
+../../datasets/bridges.csv,"['column12', 'column13', 'column5', 'column6']->column1",mu,-1.1102230246251565e-15,0.004773855209350586
+../../datasets/bridges.csv,"['column12', 'column13', 'column5', 'column6']->column1",rfi,1.6253665080512292e-13,0.010909557342529297
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column2', 'column7', 'column9']->column11",mu,0.39812499999999973,0.005418300628662109
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column2', 'column7', 'column9']->column11",rfi,0.12662249314072282,0.006509542465209961
+../../datasets/bridges.csv,"['column11', 'column13', 'column5']->column8",mu,0.5131059287620368,0.003817319869995117
+../../datasets/bridges.csv,"['column11', 'column13', 'column5']->column8",rfi,0.3409447130106343,0.005031108856201172
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column3",mu,0.09871426016301643,0.0042171478271484375
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column3",rfi,0.01205171801276017,0.007566928863525391
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column7']->column4",mu,-0.010873440285205094,0.004796266555786133
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column7']->column4",rfi,-0.0013524364964809799,0.009189605712890625
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column5",mu,-0.20881882245353567,0.004289388656616211
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column5",rfi,-0.06189535317493877,0.005563497543334961
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column6']->column1",mu,0.0,0.004404544830322266
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column6']->column1",rfi,1.566524687746096e-13,0.011450052261352539
+../../datasets/bridges.csv,"['column10', 'column12', 'column6']->column11",mu,0.34705467372134025,0.004228353500366211
+../../datasets/bridges.csv,"['column10', 'column12', 'column6']->column11",rfi,0.08185913560891911,0.005322456359863281
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column8']->column9",mu,0.43892884187079817,0.0046155452728271484
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column8']->column9",rfi,0.28734611231053897,0.005068063735961914
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column7']->column3",mu,0.078224715786963,0.004186391830444336
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column7']->column3",rfi,0.008104025779496316,0.008779764175415039
+../../datasets/bridges.csv,"['column13', 'column5', 'column7', 'column8']->column10",mu,0.7717675576104965,0.004495382308959961
+../../datasets/bridges.csv,"['column13', 'column5', 'column7', 'column8']->column10",rfi,0.46788694662164737,0.005583524703979492
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column2', 'column5', 'column7', 'column9']->column6",mu,0.05893270296523512,0.0056345462799072266
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column2', 'column5', 'column7', 'column9']->column6",rfi,0.011611210705017694,0.009605169296264648
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column11",mu,0.2907428571428574,0.004319667816162109
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column11",rfi,0.062173525097921845,0.0051190853118896484
+../../datasets/bridges.csv,"['column4', 'column7']->column1",mu,-2.220446049250313e-16,0.003674030303955078
+../../datasets/bridges.csv,"['column4', 'column7']->column1",rfi,1.7030821197749901e-13,0.010001897811889648
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column7']->column4",mu,-0.010873440285205094,0.004608154296875
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column7']->column4",rfi,-0.0012515515771540642,0.00906229019165039
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column2', 'column8', 'column9']->column7",mu,0.3576462161150643,0.005048036575317383
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column2', 'column8', 'column9']->column7",rfi,0.16980811306191956,0.006680488586425781
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column7']->column3",mu,0.0919522020935013,0.004405498504638672
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column7']->column3",rfi,0.009179371480383502,0.008179903030395508
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column9']->column8",mu,0.3577177421719713,0.0047953128814697266
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column9']->column8",rfi,0.171508353313144,0.005274057388305664
+../../datasets/bridges.csv,"['column11', 'column12', 'column7', 'column8']->column9",mu,0.19334475750614966,0.004233360290527344
+../../datasets/bridges.csv,"['column11', 'column12', 'column7', 'column8']->column9",rfi,0.15202085914916053,0.0058879852294921875
+../../datasets/bridges.csv,"['column13', 'column6', 'column9']->column5",mu,0.003619368894511421,0.004130363464355469
+../../datasets/bridges.csv,"['column13', 'column6', 'column9']->column5",rfi,0.008284600935950848,0.005027055740356445
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column5', 'column7', 'column9']->column12",mu,0.33176663897853464,0.005492448806762695
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column5', 'column7', 'column9']->column12",rfi,0.11276323132568056,0.005961179733276367
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column7']->column1",mu,0.0,0.0043103694915771484
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column7']->column1",rfi,1.6608936448392342e-13,0.01151132583618164
+../../datasets/bridges.csv,"['column11', 'column12', 'column7', 'column8']->column10",mu,0.5972106936083877,0.004547119140625
+../../datasets/bridges.csv,"['column11', 'column12', 'column7', 'column8']->column10",rfi,0.3816237726816272,0.005825519561767578
+../../datasets/bridges.csv,"['column10', 'column4']->column3",mu,-0.014308710427472615,0.0035660266876220703
+../../datasets/bridges.csv,"['column10', 'column4']->column3",rfi,-0.002623776531730737,0.0068318843841552734
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7']->column6",mu,0.09036686359809565,0.005704164505004883
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7']->column6",rfi,0.009178937089943107,0.008890390396118164
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column7']->column1",mu,0.0,0.005007505416870117
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column7']->column1",rfi,1.609823385706477e-13,0.01105189323425293
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column7', 'column9']->column13",mu,0.4935104532769172,0.0057680606842041016
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column7', 'column9']->column13",rfi,0.14897635055016623,0.006530046463012695
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5']->column8",mu,0.3634829876006346,0.004475116729736328
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5']->column8",rfi,0.20695206724533494,0.0057621002197265625
+../../datasets/bridges.csv,"['column10', 'column6', 'column9']->column5",mu,0.0411912218591135,0.003869295120239258
+../../datasets/bridges.csv,"['column10', 'column6', 'column9']->column5",rfi,0.001683330364875557,0.005148172378540039
+../../datasets/bridges.csv,"['column10', 'column13', 'column2', 'column5', 'column7', 'column9']->column11",mu,0.3822023809523808,0.005346536636352539
+../../datasets/bridges.csv,"['column10', 'column13', 'column2', 'column5', 'column7', 'column9']->column11",rfi,0.13774441963184259,0.006049394607543945
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column10",mu,-0.2298895783097108,0.004065752029418945
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column10",rfi,-0.0439883553077316,0.005692958831787109
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column7']->column1",mu,0.0,0.0044155120849609375
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column7']->column1",rfi,1.6353585152728556e-13,0.011419057846069336
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column7']->column4",mu,-0.010873440285205094,0.004563570022583008
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column7']->column4",rfi,-0.0016523398775792897,0.009209156036376953
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column5', 'column8']->column7",mu,0.29285177296673615,0.00516963005065918
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column5', 'column8']->column7",rfi,0.1449828487976501,0.006346464157104492
+../../datasets/bridges.csv,"['column10', 'column12', 'column6', 'column7']->column4",mu,-0.010873440285205094,0.004948854446411133
+../../datasets/bridges.csv,"['column10', 'column12', 'column6', 'column7']->column4",rfi,-0.00145367941863217,0.008968591690063477
+../../datasets/bridges.csv,"['column10', 'column13', 'column5']->column8",mu,0.6404181002676095,0.005187511444091797
+../../datasets/bridges.csv,"['column10', 'column13', 'column5']->column8",rfi,0.49507740036232056,0.0053102970123291016
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column7']->column10",mu,0.6028316841990695,0.004541158676147461
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column7']->column10",rfi,0.2752497707499868,0.006730318069458008
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column11",mu,0.21777696793002888,0.004376649856567383
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column11",rfi,0.059724991480348155,0.00582432746887207
+../../datasets/bridges.csv,"['column11', 'column2', 'column5', 'column7']->column9",mu,0.1412960983706142,0.005414247512817383
+../../datasets/bridges.csv,"['column11', 'column2', 'column5', 'column7']->column9",rfi,0.10215941897312941,0.007796049118041992
+../../datasets/bridges.csv,"['column11', 'column2', 'column7', 'column8']->column9",mu,0.20876846928707915,0.007783412933349609
+../../datasets/bridges.csv,"['column11', 'column2', 'column7', 'column8']->column9",rfi,0.1483125655988045,0.007554054260253906
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column5']->column3",mu,0.11670616466940897,0.009083747863769531
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column5']->column3",rfi,0.017269391262106137,0.010652780532836914
+../../datasets/bridges.csv,"['column10', 'column3']->column4",mu,-0.010873440285205094,0.006867408752441406
+../../datasets/bridges.csv,"['column10', 'column3']->column4",rfi,-0.0011580984281560625,0.01153707504272461
+../../datasets/bridges.csv,"['column5', 'column6', 'column8']->column11",mu,0.17910052910052865,0.0057430267333984375
+../../datasets/bridges.csv,"['column5', 'column6', 'column8']->column11",rfi,0.03472299790605782,0.00797271728515625
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column7",mu,0.43501982772631087,0.00671839714050293
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column7",rfi,0.08960361055210397,0.005258321762084961
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column7', 'column8']->column12",mu,0.4630451498109489,0.004876375198364258
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column7', 'column8']->column12",rfi,0.17680014030168478,0.005564689636230469
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column5', 'column7', 'column9']->column6",mu,0.13802987780668874,0.005498409271240234
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column5', 'column7', 'column9']->column6",rfi,0.02091707020976097,0.009702205657958984
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column5', 'column7', 'column9']->column13",mu,0.45790714563172363,0.0054323673248291016
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column5', 'column7', 'column9']->column13",rfi,0.15875280716463946,0.006601095199584961
+../../datasets/bridges.csv,"['column10', 'column2', 'column5', 'column7']->column8",mu,0.5147360060963002,0.0041656494140625
+../../datasets/bridges.csv,"['column10', 'column2', 'column5', 'column7']->column8",rfi,0.31516181171860835,0.005293607711791992
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column12",mu,0.5062040327839584,0.004183292388916016
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column12",rfi,0.13250224571727398,0.004938840866088867
+../../datasets/bridges.csv,"['column11', 'column13', 'column7', 'column8', 'column9']->column10",mu,0.6898176792330761,0.0045795440673828125
+../../datasets/bridges.csv,"['column11', 'column13', 'column7', 'column8', 'column9']->column10",rfi,0.2764740825125176,0.006151676177978516
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column7']->column1",mu,0.0,0.0044672489166259766
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column7']->column1",rfi,1.5876189252139739e-13,0.011685609817504883
+../../datasets/bridges.csv,"['column10', 'column12', 'column6', 'column7']->column1",mu,0.0,0.004650592803955078
+../../datasets/bridges.csv,"['column10', 'column12', 'column6', 'column7']->column1",rfi,1.5976109324356003e-13,0.010842323303222656
+../../datasets/bridges.csv,"['column12', 'column2', 'column7', 'column8']->column9",mu,0.23673107883974343,0.0043621063232421875
+../../datasets/bridges.csv,"['column12', 'column2', 'column7', 'column8']->column9",rfi,0.1620161681595792,0.005429983139038086
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column7']->column3",mu,0.0678019947023698,0.005408048629760742
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column7']->column3",rfi,0.010504398302489615,0.008514642715454102
+../../datasets/bridges.csv,"['column13', 'column6', 'column9']->column11",mu,0.2932411674347152,0.004436016082763672
+../../datasets/bridges.csv,"['column13', 'column6', 'column9']->column11",rfi,0.06716651127210505,0.005316734313964844
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column7', 'column8']->column5",mu,0.14988510836433322,0.004591941833496094
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column7', 'column8']->column5",rfi,0.07699946315948047,0.006154775619506836
+../../datasets/bridges.csv,"['column10', 'column11', 'column5', 'column7']->column8",mu,0.588807788290141,0.004312753677368164
+../../datasets/bridges.csv,"['column10', 'column11', 'column5', 'column7']->column8",rfi,0.3733721354212846,0.005214214324951172
+../../datasets/bridges.csv,"['column4', 'column5']->column1",mu,-2.220446049250313e-16,0.003907203674316406
+../../datasets/bridges.csv,"['column4', 'column5']->column1",rfi,1.596500709410975e-13,0.009276866912841797
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column10",mu,-0.4222034723887338,0.0042688846588134766
+../../datasets/bridges.csv,"['column2', 'column6', 'column7']->column10",rfi,-0.08333216098608265,0.0054895877838134766
+../../datasets/bridges.csv,"['column10', 'column13', 'column2', 'column5', 'column8', 'column9']->column7",mu,0.41080300427821004,0.0050334930419921875
+../../datasets/bridges.csv,"['column10', 'column13', 'column2', 'column5', 'column8', 'column9']->column7",rfi,0.18298219638714752,0.006474971771240234
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column5']->column8",mu,0.5185031245080265,0.004556417465209961
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column5']->column8",rfi,0.29060717446932716,0.0053331851959228516
+../../datasets/bridges.csv,"['column3', 'column8']->column4",mu,-0.010873440285205316,0.0037720203399658203
+../../datasets/bridges.csv,"['column3', 'column8']->column4",rfi,-0.0013964672805514278,0.007657289505004883
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column5', 'column7', 'column9']->column13",mu,0.5056945258723644,0.005194664001464844
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column5', 'column7', 'column9']->column13",rfi,0.1843999859030896,0.006764650344848633
+../../datasets/bridges.csv,"['column6', 'column7', 'column8', 'column9']->column11",mu,0.4179670329670324,0.004502773284912109
+../../datasets/bridges.csv,"['column6', 'column7', 'column8', 'column9']->column11",rfi,0.07913872916769393,0.005465030670166016
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column5', 'column8']->column12",mu,0.41943351936628837,0.00512242317199707
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column5', 'column8']->column12",rfi,0.15425179313183734,0.005956411361694336
+../../datasets/bridges.csv,"['column10', 'column3']->column1",mu,-2.220446049250313e-16,0.003675222396850586
+../../datasets/bridges.csv,"['column10', 'column3']->column1",rfi,1.5842882561400984e-13,0.009835958480834961
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5', 'column7', 'column9']->column6",mu,0.057824137737131576,0.005391359329223633
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5', 'column7', 'column9']->column6",rfi,0.01010274379363596,0.00904226303100586
+../../datasets/bridges.csv,"['column10', 'column6', 'column9']->column11",mu,0.3360267857142851,0.004058837890625
+../../datasets/bridges.csv,"['column10', 'column6', 'column9']->column11",rfi,0.08737825273623512,0.005219459533691406
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column7",mu,0.1592556960212974,0.004266023635864258
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column7",rfi,0.052720623529146415,0.0050961971282958984
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column4",mu,-0.010873440285205316,0.0039196014404296875
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column4",rfi,-0.0018555363062776609,0.008692502975463867
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column7']->column10",mu,0.5443159240876472,0.004445552825927734
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column7']->column10",rfi,0.25251586997979625,0.005578517913818359
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column7",mu,0.29595093630929714,0.00425410270690918
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column7",rfi,0.09168847726568874,0.005145549774169922
+../../datasets/bridges.csv,"['column10', 'column12', 'column5', 'column7']->column8",mu,0.6038472503248001,0.004252433776855469
+../../datasets/bridges.csv,"['column10', 'column12', 'column5', 'column7']->column8",rfi,0.4061112425736816,0.0057506561279296875
+../../datasets/bridges.csv,"['column3', 'column8']->column6",mu,0.15579969036560626,0.003651142120361328
+../../datasets/bridges.csv,"['column3', 'column8']->column6",rfi,0.022044695831857197,0.007432460784912109
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column7']->column4",mu,-0.010873440285205094,0.004801511764526367
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column7']->column4",rfi,-0.001384072111373591,0.008719444274902344
+../../datasets/bridges.csv,"['column6', 'column7', 'column8', 'column9']->column5",mu,-0.10615282200249543,0.004847526550292969
+../../datasets/bridges.csv,"['column6', 'column7', 'column8', 'column9']->column5",rfi,-0.021662777190169402,0.005578517913818359
+../../datasets/bridges.csv,"['column5', 'column6', 'column8']->column7",mu,0.3161220389604912,0.00396418571472168
+../../datasets/bridges.csv,"['column5', 'column6', 'column8']->column7",rfi,0.08437945412430747,0.00560760498046875
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column7']->column10",mu,0.43699546281048396,0.004383087158203125
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column7']->column10",rfi,0.22641346580962718,0.005343437194824219
+../../datasets/bridges.csv,"['column10', 'column12', 'column5', 'column7', 'column8']->column9",mu,0.29646924886464276,0.005124330520629883
+../../datasets/bridges.csv,"['column10', 'column12', 'column5', 'column7', 'column8']->column9",rfi,0.20901530111725275,0.005730867385864258
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column5']->column8",mu,0.5116231908214571,0.0042612552642822266
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column5']->column8",rfi,0.28880909195751275,0.005724430084228516
+../../datasets/bridges.csv,"['column3', 'column8']->column1",mu,-2.220446049250313e-16,0.0037314891815185547
+../../datasets/bridges.csv,"['column3', 'column8']->column1",rfi,1.5021317523178368e-13,0.009355306625366211
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column7']->column4",mu,-0.010873440285205094,0.005010128021240234
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column7']->column4",rfi,-0.001416776163571054,0.008922576904296875
+../../datasets/bridges.csv,"['column10', 'column6', 'column8']->column7",mu,0.32859936535544476,0.004412651062011719
+../../datasets/bridges.csv,"['column10', 'column6', 'column8']->column7",rfi,0.10464422267571705,0.005190610885620117
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7', 'column8']->column3",mu,0.08078273117510248,0.005330801010131836
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7', 'column8']->column3",rfi,0.010553118313105792,0.00962519645690918
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column5', 'column8']->column11",mu,0.4107052616965151,0.004828453063964844
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column5', 'column8']->column11",rfi,0.16361565926759425,0.006456851959228516
+../../datasets/bridges.csv,"['column4', 'column8']->column6",mu,-0.05922309438244744,0.003872394561767578
+../../datasets/bridges.csv,"['column4', 'column8']->column6",rfi,-0.0075843871229485105,0.007283687591552734
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column7']->column4",mu,-0.010873440285205094,0.005201101303100586
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column7']->column4",rfi,-0.0015177037033656804,0.008739471435546875
+../../datasets/bridges.csv,"['column13', 'column2', 'column7', 'column8']->column10",mu,0.6676012308894634,0.0048274993896484375
+../../datasets/bridges.csv,"['column13', 'column2', 'column7', 'column8']->column10",rfi,0.3151203874951457,0.005677461624145508
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column1",mu,-2.220446049250313e-16,0.004148244857788086
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column1",rfi,1.5898393712632242e-13,0.010313987731933594
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column5', 'column8']->column9",mu,0.2812311379821921,0.0048182010650634766
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column5', 'column8']->column9",rfi,0.15508776763532411,0.006100177764892578
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column5', 'column8', 'column9']->column13",mu,0.43607143350645394,0.005890846252441406
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column5', 'column8', 'column9']->column13",rfi,0.13423628395493892,0.006771087646484375
+../../datasets/bridges.csv,"['column10', 'column12', 'column6', 'column7']->column3",mu,0.10644232652817853,0.004847049713134766
+../../datasets/bridges.csv,"['column10', 'column12', 'column6', 'column7']->column3",rfi,0.009268784065738833,0.00806117057800293
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column5', 'column9']->column12",mu,0.39059717808897765,0.005131959915161133
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column5', 'column9']->column12",rfi,0.1503771324787787,0.005934953689575195
+../../datasets/bridges.csv,"['column12', 'column2', 'column7', 'column8']->column10",mu,0.4390571117361255,0.004216194152832031
+../../datasets/bridges.csv,"['column12', 'column2', 'column7', 'column8']->column10",rfi,0.2628579292582504,0.005772113800048828
+../../datasets/bridges.csv,"['column12', 'column6', 'column9']->column7",mu,0.24997572246829025,0.004026174545288086
+../../datasets/bridges.csv,"['column12', 'column6', 'column9']->column7",rfi,0.07362674433157956,0.005043983459472656
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column6']->column3",mu,0.13361130984320002,0.004712581634521484
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column6']->column3",rfi,0.016654555651414382,0.008322000503540039
+../../datasets/bridges.csv,"['column3', 'column8']->column13",mu,0.24576303389572873,0.003732919692993164
+../../datasets/bridges.csv,"['column3', 'column8']->column13",rfi,0.050865614406673254,0.005315065383911133
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column7']->column1",mu,0.0,0.004490375518798828
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column7']->column1",rfi,1.5865087021893487e-13,0.011405229568481445
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column7']->column10",mu,0.5269061576698459,0.004577159881591797
+../../datasets/bridges.csv,"['column11', 'column13', 'column2', 'column7']->column10",rfi,0.20240022179144113,0.0053904056549072266
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column2', 'column7']->column5",mu,0.2812742291405739,0.005162239074707031
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column2', 'column7']->column5",rfi,0.11581884785865948,0.005661487579345703
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column7']->column1",mu,0.0,0.0041942596435546875
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column7']->column1",rfi,1.5931700403370996e-13,0.011278152465820312
+../../datasets/bridges.csv,"['column11', 'column2', 'column7', 'column8']->column10",mu,0.4687062567217164,0.004463911056518555
+../../datasets/bridges.csv,"['column11', 'column2', 'column7', 'column8']->column10",rfi,0.2640821306651619,0.005728006362915039
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column7', 'column8', 'column9']->column11",mu,0.2992263572095505,0.004988193511962891
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column7', 'column8', 'column9']->column11",rfi,0.12930901320380916,0.005964517593383789
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column13",mu,0.5204108387541055,0.004457712173461914
+../../datasets/bridges.csv,"['column2', 'column6', 'column8']->column13",rfi,0.10672216248335142,0.0052242279052734375
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column7",mu,0.2553481067839528,0.003851175308227539
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column7",rfi,0.06350543919635565,0.005520820617675781
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column7']->column9",mu,0.163847221092138,0.004261016845703125
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column7']->column9",rfi,0.11595818842953431,0.0050890445709228516
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column7']->column1",mu,0.0,0.004625797271728516
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column7']->column1",rfi,1.609823385706477e-13,0.011174678802490234
+../../datasets/bridges.csv,"['column6', 'column8', 'column9']->column12",mu,0.5170274618283112,0.0043964385986328125
+../../datasets/bridges.csv,"['column6', 'column8', 'column9']->column12",rfi,0.15552127706280672,0.0054547786712646484
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column13",mu,0.4769939586515053,0.003937959671020508
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column13",rfi,0.11181032629202425,0.0053865909576416016
+../../datasets/bridges.csv,"['column10', 'column11', 'column5', 'column9']->column8",mu,0.5683514867485455,0.004580259323120117
+../../datasets/bridges.csv,"['column10', 'column11', 'column5', 'column9']->column8",rfi,0.3903725990992369,0.00504755973815918
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column5']->column4",mu,0.052306149732620044,0.005136966705322266
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column5']->column4",rfi,0.010678940374178048,0.009506940841674805
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column8']->column6",mu,0.12933286984733938,0.005304098129272461
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column8']->column6",rfi,0.02394857253285332,0.009079456329345703
+../../datasets/bridges.csv,"['column10', 'column6', 'column9']->column7",mu,0.28763035646568014,0.004098415374755859
+../../datasets/bridges.csv,"['column10', 'column6', 'column9']->column7",rfi,0.08658654599173754,0.0055084228515625
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column10",mu,-0.24795575290634964,0.004124164581298828
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column10",rfi,-0.032420512436204585,0.004860639572143555
+../../datasets/bridges.csv,"['column5', 'column6', 'column8']->column13",mu,0.48691362850049524,0.0040683746337890625
+../../datasets/bridges.csv,"['column5', 'column6', 'column8']->column13",rfi,0.10359462762686711,0.005591869354248047
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column10",mu,-0.5502445450802795,0.003875255584716797
+../../datasets/bridges.csv,"['column2', 'column5', 'column6']->column10",rfi,-0.11084788589947858,0.005072355270385742
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column12",mu,0.3032800601573835,0.004504680633544922
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column12",rfi,0.078215148393325,0.005271434783935547
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column7",mu,0.28920137503755217,0.003998279571533203
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column7",rfi,0.09072860170055552,0.005638599395751953
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column5",mu,-0.2057886040218564,0.004069805145263672
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column5",rfi,-0.06989421291474707,0.005159139633178711
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column7']->column8",mu,0.5685491526927513,0.004807949066162109
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column7']->column8",rfi,0.3284551438527579,0.005417823791503906
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column5', 'column7', 'column9']->column3",mu,0.1019141626423411,0.005368947982788086
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column5', 'column7', 'column9']->column3",rfi,0.014214682068314333,0.009866476058959961
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column12",mu,0.13426165880278285,0.004133462905883789
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column12",rfi,0.04429611649772591,0.005324125289916992
+../../datasets/bridges.csv,"['column10', 'column4']->column1",mu,0.0,0.003926515579223633
+../../datasets/bridges.csv,"['column10', 'column4']->column1",rfi,1.5909495942878493e-13,0.009370088577270508
+../../datasets/bridges.csv,"['column11', 'column2', 'column5', 'column8']->column10",mu,0.5968000418226848,0.004941701889038086
+../../datasets/bridges.csv,"['column11', 'column2', 'column5', 'column8']->column10",rfi,0.35080568422823893,0.005535125732421875
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column7', 'column8', 'column9']->column11",mu,0.44248615725359897,0.005095720291137695
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column7', 'column8', 'column9']->column11",rfi,0.15517460798361415,0.006719112396240234
+../../datasets/bridges.csv,"['column5', 'column6', 'column9']->column7",mu,0.3625737609312687,0.0039713382720947266
+../../datasets/bridges.csv,"['column5', 'column6', 'column9']->column7",rfi,0.09455563964940128,0.005171060562133789
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column7']->column8",mu,0.5368284749797354,0.004747629165649414
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column7']->column8",rfi,0.3220012408885993,0.0052301883697509766
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column5",mu,-0.2085712050127444,0.0038461685180664062
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column5",rfi,-0.06866758528317451,0.005625724792480469
+../../datasets/bridges.csv,"['column11', 'column5', 'column7', 'column8']->column10",mu,0.5968390511065642,0.0042879581451416016
+../../datasets/bridges.csv,"['column11', 'column5', 'column7', 'column8']->column10",rfi,0.3812537402518222,0.005207538604736328
+../../datasets/bridges.csv,"['column12', 'column6', 'column9']->column13",mu,0.5001341964450385,0.004553079605102539
+../../datasets/bridges.csv,"['column12', 'column6', 'column9']->column13",rfi,0.13109624872344106,0.0054187774658203125
+../../datasets/bridges.csv,"['column5', 'column6', 'column7']->column8",mu,-0.10228713280183954,0.004019021987915039
+../../datasets/bridges.csv,"['column5', 'column6', 'column7']->column8",rfi,-0.03136183145131877,0.005570173263549805
+../../datasets/bridges.csv,"['column4', 'column8']->column3",mu,-0.014308710427472837,0.003740549087524414
+../../datasets/bridges.csv,"['column4', 'column8']->column3",rfi,-0.002252535197140082,0.006756305694580078
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column7']->column9",mu,0.11693289129997986,0.004754304885864258
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column7']->column9",rfi,0.11195381336255333,0.0055544376373291016
+../../datasets/bridges.csv,"['column12', 'column13', 'column5', 'column8']->column10",mu,0.7739281510387974,0.004301309585571289
+../../datasets/bridges.csv,"['column12', 'column13', 'column5', 'column8']->column10",rfi,0.465512789078488,0.005688905715942383
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column7', 'column8', 'column9']->column11",mu,0.37643990929705184,0.005147457122802734
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column7', 'column8', 'column9']->column11",rfi,0.13159526457610637,0.0061609745025634766
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column5', 'column9']->column7",mu,0.23482667668887758,0.005692720413208008
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column5', 'column9']->column7",rfi,0.11582050508819763,0.006274700164794922
+../../datasets/bridges.csv,"['column6', 'column7', 'column8']->column13",mu,0.531859994643852,0.0040264129638671875
+../../datasets/bridges.csv,"['column6', 'column7', 'column8']->column13",rfi,0.12100912572586453,0.005831003189086914
+../../datasets/bridges.csv,"['column11', 'column2', 'column5', 'column7', 'column8', 'column9']->column12",mu,0.3293380424865796,0.0051572322845458984
+../../datasets/bridges.csv,"['column11', 'column2', 'column5', 'column7', 'column8', 'column9']->column12",rfi,0.1157899424550407,0.006342172622680664
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column7']->column9",mu,0.243444403077687,0.004777431488037109
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column7']->column9",rfi,0.15934049940630612,0.005262851715087891
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column7', 'column9']->column4",mu,0.05651812240047516,0.005582571029663086
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column7', 'column9']->column4",rfi,0.007652205864094097,0.01034402847290039
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column8']->column3",mu,0.15474274131043841,0.004588127136230469
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column8']->column3",rfi,0.01302656210272013,0.008598566055297852
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column5', 'column8']->column1",mu,0.0,0.005586385726928711
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column5', 'column8']->column1",rfi,1.5554224574998443e-13,0.011370420455932617
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column7', 'column9']->column6",mu,0.10691475264957351,0.005240917205810547
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column7', 'column9']->column6",rfi,0.018643635169391715,0.009218454360961914
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column9']->column10",mu,-0.3444295280656644,0.004419803619384766
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column9']->column10",rfi,-0.06103663953176597,0.0059392452239990234
+../../datasets/bridges.csv,"['column11', 'column2', 'column5', 'column7', 'column9']->column8",mu,0.34003986209868575,0.004673957824707031
+../../datasets/bridges.csv,"['column11', 'column2', 'column5', 'column7', 'column9']->column8",rfi,0.15976791126883638,0.005600690841674805
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column5', 'column9']->column11",mu,0.43631252501000395,0.005196809768676758
+../../datasets/bridges.csv,"['column12', 'column13', 'column2', 'column5', 'column9']->column11",rfi,0.18527598223472364,0.0058155059814453125
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column11",mu,0.21581101190476193,0.003905773162841797
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column11",rfi,0.06323275201566103,0.005544185638427734
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column7', 'column9']->column13",mu,0.4237863121725566,0.004737377166748047
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column7', 'column9']->column13",rfi,0.18108342224382434,0.005733489990234375
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column8']->column3",mu,0.10135807234057204,0.004869937896728516
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column8']->column3",rfi,0.008245324150504496,0.008608341217041016
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column7', 'column8', 'column9']->column12",mu,0.5105934563352605,0.005496978759765625
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column7', 'column8', 'column9']->column12",rfi,0.17458185173218066,0.006510257720947266
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column8']->column3",mu,0.049085583974243896,0.004317760467529297
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column8']->column3",rfi,0.004573318811711635,0.00851893424987793
+../../datasets/bridges.csv,"['column11', 'column13', 'column9']->column8",mu,0.4998552455170103,0.004042863845825195
+../../datasets/bridges.csv,"['column11', 'column13', 'column9']->column8",rfi,0.3424799317841294,0.004835605621337891
+../../datasets/bridges.csv,['column1']->column2,rfi,1.2212453270876722e-15,0.004353046417236328
+../../datasets/bridges.csv,"['column2', 'column5', 'column7', 'column8', 'column9']->column10",mu,0.4328263455958752,0.004556179046630859
+../../datasets/bridges.csv,"['column2', 'column5', 'column7', 'column8', 'column9']->column10",rfi,0.2300914391120782,0.005780220031738281
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column8']->column3",mu,0.10095364303019427,0.0044744014739990234
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column8']->column3",rfi,0.008992948093293984,0.008241415023803711
+../../datasets/bridges.csv,"['column10', 'column2', 'column5', 'column7', 'column8', 'column9']->column11",mu,0.42260707986898427,0.005733966827392578
+../../datasets/bridges.csv,"['column10', 'column2', 'column5', 'column7', 'column8', 'column9']->column11",rfi,0.1993413223201973,0.006321430206298828
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7', 'column9']->column4",mu,0.06909581036715695,0.005655050277709961
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7', 'column9']->column4",rfi,0.010688081889877799,0.01034402847290039
+../../datasets/bridges.csv,['column3']->column2,mu,0.9999999999999997,0.0032472610473632812
+../../datasets/bridges.csv,['column3']->column2,rfi,0.41531028428011074,0.0046634674072265625
+../../datasets/bridges.csv,['column4']->column2,mu,-0.06193853082943068,0.003076314926147461
+../../datasets/bridges.csv,['column4']->column2,rfi,-0.015121951674625045,0.003951311111450195
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column7', 'column9']->column1",mu,-2.220446049250313e-16,0.005498409271240234
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column7', 'column9']->column1",rfi,1.6087131626818518e-13,0.011755228042602539
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column5', 'column7', 'column8']->column12",mu,0.3713199725301283,0.005719661712646484
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column5', 'column7', 'column8']->column12",rfi,0.13600476565046493,0.006407499313354492
+../../datasets/bridges.csv,"['column4', 'column9']->column6",mu,-0.05533048194902923,0.0036094188690185547
+../../datasets/bridges.csv,"['column4', 'column9']->column6",rfi,-0.0061371715978695285,0.0077855587005615234
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5']->column10",mu,0.5219412260581464,0.004345893859863281
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5']->column10",rfi,0.28782629129315446,0.005249500274658203
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column7']->column10",mu,0.5100294625878345,0.00478053092956543
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column7']->column10",rfi,0.3051578175431703,0.005349874496459961
+../../datasets/bridges.csv,"['column10', 'column2', 'column7', 'column9']->column8",mu,0.5734944936878863,0.00418543815612793
+../../datasets/bridges.csv,"['column10', 'column2', 'column7', 'column9']->column8",rfi,0.36784586738250896,0.00568079948425293
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column7', 'column8', 'column9']->column13",mu,0.4879398012434948,0.005162954330444336
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column7', 'column8', 'column9']->column13",rfi,0.1666821669796431,0.006451129913330078
+../../datasets/bridges.csv,"['column11', 'column13', 'column6']->column2",mu,0.11704997930754668,0.0044596195220947266
+../../datasets/bridges.csv,"['column11', 'column13', 'column6']->column2",rfi,0.02119214542699388,0.005162477493286133
+../../datasets/bridges.csv,"['column3', 'column9']->column6",mu,0.08379436983796718,0.0034835338592529297
+../../datasets/bridges.csv,"['column3', 'column9']->column6",rfi,0.013515963556474442,0.007586956024169922
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column9']->column3",mu,0.11717575203534747,0.0045168399810791016
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column9']->column3",rfi,0.012097202424181552,0.008247137069702148
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column5', 'column7', 'column9']->column4",mu,0.05441213606654738,0.005753517150878906
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column5', 'column7', 'column9']->column4",rfi,0.007715145746920671,0.009942054748535156
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column5', 'column7', 'column8']->column12",mu,0.447928230381762,0.005363941192626953
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column5', 'column7', 'column8']->column12",rfi,0.17645472177327903,0.006151676177978516
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column9']->column8",mu,0.5643421954722263,0.004795551300048828
+../../datasets/bridges.csv,"['column10', 'column11', 'column2', 'column9']->column8",rfi,0.37116680483846687,0.005239963531494141
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column9']->column6",mu,0.05938513916573318,0.004997968673706055
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column9']->column6",rfi,0.01529062264249581,0.009343862533569336
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column8', 'column9']->column10",mu,0.7153208851438573,0.004714488983154297
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column8', 'column9']->column10",rfi,0.4002568319624022,0.00618433952331543
+../../datasets/bridges.csv,"['column10', 'column5', 'column7', 'column9']->column8",mu,0.5796245815399327,0.004419803619384766
+../../datasets/bridges.csv,"['column10', 'column5', 'column7', 'column9']->column8",rfi,0.43200952135282356,0.005223989486694336
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column4",mu,0.03507535245503135,0.004191398620605469
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column4",rfi,0.0017825985147891243,0.009027957916259766
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column7', 'column8', 'column9']->column13",mu,0.5365251338062555,0.005343437194824219
+../../datasets/bridges.csv,"['column11', 'column12', 'column5', 'column7', 'column8', 'column9']->column13",rfi,0.19476976766361986,0.0068857669830322266
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7', 'column8', 'column9']->column1",mu,-2.220446049250313e-16,0.0057103633880615234
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7', 'column8', 'column9']->column1",rfi,1.6409096303959814e-13,0.012562036514282227
+../../datasets/bridges.csv,"['column10', 'column6', 'column7']->column2",mu,0.02464087319923125,0.00409698486328125
+../../datasets/bridges.csv,"['column10', 'column6', 'column7']->column2",rfi,0.002223553299358638,0.00552678108215332
+../../datasets/bridges.csv,"['column10', 'column11', 'column7', 'column9']->column8",mu,0.5835774390727952,0.004261493682861328
+../../datasets/bridges.csv,"['column10', 'column11', 'column7', 'column9']->column8",rfi,0.4021136323633951,0.005055427551269531
+../../datasets/bridges.csv,"['column13', 'column6', 'column7', 'column8', 'column9']->column3",mu,0.06576829302732745,0.005063533782958984
+../../datasets/bridges.csv,"['column13', 'column6', 'column7', 'column8', 'column9']->column3",rfi,0.005573252284512442,0.008676767349243164
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column7']->column10",mu,0.3620433187684292,0.0043964385986328125
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column7']->column10",rfi,0.19825954344022195,0.005858898162841797
+../../datasets/bridges.csv,"['column10', 'column2', 'column5', 'column9']->column8",mu,0.5017309068149405,0.004259347915649414
+../../datasets/bridges.csv,"['column10', 'column2', 'column5', 'column9']->column8",rfi,0.33818897399892806,0.005171298980712891
+../../datasets/bridges.csv,"['column13', 'column6', 'column7']->column2",mu,0.10907494686258146,0.004413127899169922
+../../datasets/bridges.csv,"['column13', 'column6', 'column7']->column2",rfi,0.02630496220564249,0.005017995834350586
+../../datasets/bridges.csv,"['column11', 'column2', 'column5', 'column7', 'column8', 'column9']->column13",mu,0.44412668673805866,0.004904508590698242
+../../datasets/bridges.csv,"['column11', 'column2', 'column5', 'column7', 'column8', 'column9']->column13",rfi,0.1638489491342333,0.007016897201538086
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column8']->column4",mu,0.04233042499296358,0.004416465759277344
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column8']->column4",rfi,0.0020522342120098402,0.00978994369506836
+../../datasets/bridges.csv,"['column10', 'column6', 'column7', 'column9']->column3",mu,0.051841857643883826,0.004740476608276367
+../../datasets/bridges.csv,"['column10', 'column6', 'column7', 'column9']->column3",rfi,0.005788827299551547,0.008023977279663086
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column2",mu,0.06883358416834895,0.0044367313385009766
+../../datasets/bridges.csv,"['column11', 'column6', 'column7']->column2",rfi,0.028772876479281395,0.005097150802612305
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column8",mu,0.3001645413410111,0.0039033889770507812
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column8",rfi,0.07947422854962605,0.005543947219848633
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column5', 'column7', 'column9']->column1",mu,-4.440892098500626e-16,0.00542449951171875
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column5', 'column7', 'column9']->column1",rfi,1.5920598173124745e-13,0.012833118438720703
+../../datasets/bridges.csv,"['column3', 'column9']->column13",mu,0.1056904544763636,0.0038793087005615234
+../../datasets/bridges.csv,"['column3', 'column9']->column13",rfi,0.02554163296884171,0.004908323287963867
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column13",mu,0.2956101522904988,0.005372285842895508
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column13",rfi,0.08558376194947526,0.0066831111907958984
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column8', 'column9']->column10",mu,0.5042371336017335,0.007352590560913086
+../../datasets/bridges.csv,"['column12', 'column2', 'column5', 'column8', 'column9']->column10",rfi,0.26144296469245765,0.007589817047119141
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column8']->column4",mu,-0.010873440285205094,0.006516695022583008
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column8']->column4",rfi,-0.001281819261031658,0.01077413558959961
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column8",mu,-0.15606499811463093,0.006941318511962891
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column8",rfi,-0.046634618381654946,0.007252693176269531
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column9']->column8",mu,0.6088312194695362,0.007168769836425781
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column9']->column8",rfi,0.3901714279229044,0.0071904659271240234
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column13",mu,0.2674088651933638,0.00444483757019043
+../../datasets/bridges.csv,"['column2', 'column6', 'column9']->column13",rfi,0.0774583678944728,0.005318641662597656
+../../datasets/bridges.csv,"['column5', 'column6', 'column9']->column8",mu,-0.16380044791809567,0.003905773162841797
+../../datasets/bridges.csv,"['column5', 'column6', 'column9']->column8",rfi,-0.04391140247566405,0.005063533782958984
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column8']->column4",mu,0.04233042499296358,0.004682064056396484
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column8']->column4",rfi,0.002018488378378036,0.009248018264770508
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column10",mu,-0.23102661027733107,0.0046465396881103516
+../../datasets/bridges.csv,"['column11', 'column6', 'column9']->column10",rfi,-0.04864086937777912,0.0052738189697265625
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column1",mu,0.0,0.004036664962768555
+../../datasets/bridges.csv,"['column10', 'column2', 'column6']->column1",rfi,1.624256285026604e-13,0.010766029357910156
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column8']->column3",mu,0.11529740257159282,0.00455927848815918
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column8']->column3",rfi,0.015073806986771854,0.00855255126953125
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column8']->column4",mu,-0.010873440285205094,0.004401206970214844
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column8']->column4",rfi,-0.0016523398775792897,0.009705781936645508
+../../datasets/bridges.csv,"['column4', 'column8']->column1",mu,-2.220446049250313e-16,0.003985881805419922
+../../datasets/bridges.csv,"['column4', 'column8']->column1",rfi,1.6009416015094757e-13,0.009204864501953125
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column5', 'column7']->column2",mu,0.22495343416607572,0.0050127506256103516
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column5', 'column7']->column2",rfi,0.09193915013308152,0.0057795047760009766
+../../datasets/bridges.csv,"['column12', 'column6', 'column9']->column10",mu,0.03560628891111317,0.004176139831542969
+../../datasets/bridges.csv,"['column12', 'column6', 'column9']->column10",rfi,0.02205089650172154,0.0053327083587646484
+../../datasets/bridges.csv,"['column6', 'column8', 'column9']->column10",mu,0.1252000907402896,0.003856658935546875
+../../datasets/bridges.csv,"['column6', 'column8', 'column9']->column10",rfi,0.06289800253329814,0.005160331726074219
+../../datasets/bridges.csv,"['column11', 'column12', 'column6']->column2",mu,0.2517394161558286,0.004386186599731445
+../../datasets/bridges.csv,"['column11', 'column12', 'column6']->column2",rfi,0.057995974089757096,0.0049898624420166016
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column9']->column8",mu,0.437007367632367,0.004134654998779297
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column9']->column8",rfi,0.261244925997909,0.0057964324951171875
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column8']->column4",mu,-0.010873440285205094,0.004384040832519531
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column8']->column4",rfi,-0.0016502402761472412,0.009907960891723633
+../../datasets/bridges.csv,"['column10', 'column12', 'column7', 'column9']->column8",mu,0.6710314005511318,0.004655599594116211
+../../datasets/bridges.csv,"['column10', 'column12', 'column7', 'column9']->column8",rfi,0.4646781675130522,0.0052564144134521484
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column7', 'column8', 'column9']->column13",mu,0.5297311892279839,0.005568981170654297
+../../datasets/bridges.csv,"['column10', 'column12', 'column2', 'column7', 'column8', 'column9']->column13",rfi,0.21209247373597684,0.00630497932434082
+../../datasets/bridges.csv,"['column4', 'column9']->column1",mu,-2.220446049250313e-16,0.003526926040649414
+../../datasets/bridges.csv,"['column4', 'column9']->column1",rfi,1.5987211554602254e-13,0.009756326675415039
+../../datasets/bridges.csv,"['column12', 'column13', 'column6']->column2",mu,0.20839238388448234,0.004191875457763672
+../../datasets/bridges.csv,"['column12', 'column13', 'column6']->column2",rfi,0.037844480250758705,0.0053746700286865234
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column8']->column1",mu,0.0,0.004870891571044922
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column8']->column1",rfi,1.6397994073713562e-13,0.010755062103271484
+../../datasets/bridges.csv,"['column12', 'column6', 'column7']->column2",mu,0.042557918008429785,0.004482269287109375
+../../datasets/bridges.csv,"['column12', 'column6', 'column7']->column2",rfi,0.002356606084710111,0.005288124084472656
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column9']->column3",mu,0.04101721923220769,0.004526615142822266
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column9']->column3",rfi,0.00542517215178373,0.00872349739074707
+../../datasets/bridges.csv,"['column12', 'column2', 'column7', 'column9']->column8",mu,0.5076321026148014,0.004422426223754883
+../../datasets/bridges.csv,"['column12', 'column2', 'column7', 'column9']->column8",rfi,0.3002651271388547,0.005675792694091797
+../../datasets/bridges.csv,"['column3', 'column5', 'column9']->column1",mu,0.0,0.004319429397583008
+../../datasets/bridges.csv,"['column3', 'column5', 'column9']->column1",rfi,1.5787371410169726e-13,0.010036945343017578
+../../datasets/bridges.csv,"['column10', 'column6', 'column7', 'column9']->column4",mu,0.011102069286212157,0.004995107650756836
+../../datasets/bridges.csv,"['column10', 'column6', 'column7', 'column9']->column4",rfi,0.0016156055239796574,0.008774042129516602
+../../datasets/bridges.csv,"['column12', 'column5', 'column7', 'column9']->column8",mu,0.4381390460030168,0.004891395568847656
+../../datasets/bridges.csv,"['column12', 'column5', 'column7', 'column9']->column8",rfi,0.3089828632060817,0.0053157806396484375
+../../datasets/bridges.csv,"['column13', 'column5', 'column6']->column2",mu,0.1914293635391492,0.003945827484130859
+../../datasets/bridges.csv,"['column13', 'column5', 'column6']->column2",rfi,0.02666424935507905,0.005576610565185547
+../../datasets/bridges.csv,"['column11', 'column12', 'column7', 'column9']->column8",mu,0.41834069755449865,0.004279375076293945
+../../datasets/bridges.csv,"['column11', 'column12', 'column7', 'column9']->column8",rfi,0.2774381413329613,0.00522303581237793
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column7', 'column8']->column13",mu,0.4302175844498003,0.005549192428588867
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column2', 'column7', 'column8']->column13",rfi,0.15541144137850438,0.006418943405151367
+../../datasets/bridges.csv,"['column13', 'column6', 'column7', 'column8', 'column9']->column4",mu,-0.010873440285205094,0.004933357238769531
+../../datasets/bridges.csv,"['column13', 'column6', 'column7', 'column8', 'column9']->column4",rfi,-0.0017081124764357636,0.010505914688110352
+../../datasets/bridges.csv,"['column10', 'column2', 'column5', 'column7', 'column8', 'column9']->column13",mu,0.4945529144761548,0.005614519119262695
+../../datasets/bridges.csv,"['column10', 'column2', 'column5', 'column7', 'column8', 'column9']->column13",rfi,0.21499720388038834,0.0068340301513671875
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column2",mu,0.010811154237130527,0.004040718078613281
+../../datasets/bridges.csv,"['column11', 'column5', 'column6']->column2",rfi,-0.001923523761152901,0.0053157806396484375
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column8']->column1",mu,0.0,0.004810810089111328
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column8']->column1",rfi,1.6275869541004795e-13,0.011343240737915039
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column5', 'column9']->column1",mu,-2.220446049250313e-16,0.005921363830566406
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column2', 'column5', 'column9']->column1",rfi,1.559863349598345e-13,0.011340856552124023
+../../datasets/bridges.csv,"['column12', 'column5', 'column6']->column2",mu,0.029493406168389802,0.004214286804199219
+../../datasets/bridges.csv,"['column12', 'column5', 'column6']->column2",rfi,0.0026155898446336145,0.005124568939208984
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column8', 'column9']->column4",mu,-0.010873440285205316,0.005219697952270508
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column8', 'column9']->column4",rfi,-0.0016544662847971514,0.009086132049560547
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column9']->column10",mu,0.4793060407833821,0.004476070404052734
+../../datasets/bridges.csv,"['column13', 'column2', 'column5', 'column9']->column10",rfi,0.26119763712285055,0.005738496780395508
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column8']->column3",mu,0.1273289923799673,0.0050792694091796875
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column8']->column3",rfi,0.017180027799557296,0.009502649307250977
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column8']->column1",mu,0.0,0.004725217819213867
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column8']->column1",rfi,1.6331380692236053e-13,0.011430501937866211
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column9']->column10",mu,0.6571253552584214,0.004643678665161133
+../../datasets/bridges.csv,"['column11', 'column13', 'column5', 'column9']->column10",rfi,0.37384867136780353,0.005470752716064453
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column8']->column1",mu,0.0,0.004896640777587891
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column8']->column1",rfi,1.5920598173124745e-13,0.010788202285766602
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column8']->column2",mu,0.015830689964318245,0.004958629608154297
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column8']->column2",rfi,-0.00814136967142809,0.005553483963012695
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column8']->column1",mu,-2.220446049250313e-16,0.004352569580078125
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column8']->column1",rfi,1.6409096303959814e-13,0.011119365692138672
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column8']->column4",mu,-0.010873440285205094,0.004685401916503906
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column8']->column4",rfi,-0.0018141391062376222,0.009186744689941406
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column8']->column1",mu,0.0,0.004507541656494141
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column8']->column1",rfi,1.5876189252139739e-13,0.010882854461669922
+../../datasets/bridges.csv,"['column10', 'column13', 'column6']->column2",mu,0.1614823029294883,0.00415492057800293
+../../datasets/bridges.csv,"['column10', 'column13', 'column6']->column2",rfi,0.02789182361174114,0.0055696964263916016
+../../datasets/bridges.csv,"['column4', 'column9']->column3",mu,-0.014308710427472837,0.0037305355072021484
+../../datasets/bridges.csv,"['column4', 'column9']->column3",rfi,-0.0019267987902653605,0.0068585872650146484
+../../datasets/bridges.csv,"['column2', 'column6', 'column8', 'column9']->column4",mu,0.031246286393344924,0.004907131195068359
+../../datasets/bridges.csv,"['column2', 'column6', 'column8', 'column9']->column4",rfi,0.0017150906590464032,0.008870601654052734
+../../datasets/bridges.csv,"['column12', 'column2', 'column6', 'column9']->column4",mu,-0.010873440285205094,0.004652976989746094
+../../datasets/bridges.csv,"['column12', 'column2', 'column6', 'column9']->column4",rfi,-0.0013531364635682719,0.009131908416748047
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column8']->column1",mu,0.0,0.0045413970947265625
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column8']->column1",rfi,1.5842882561400984e-13,0.010844707489013672
+../../datasets/bridges.csv,"['column2', 'column6', 'column8', 'column9']->column3",mu,0.13783759613664792,0.004597187042236328
+../../datasets/bridges.csv,"['column2', 'column6', 'column8', 'column9']->column3",rfi,0.01594641107577044,0.008343935012817383
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column2",mu,0.044573585549464445,0.004045009613037109
+../../datasets/bridges.csv,"['column10', 'column11', 'column6']->column2",rfi,0.008337891045670176,0.00519871711730957
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column9']->column3",mu,0.005977463781076886,0.004885673522949219
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column9']->column3",rfi,0.001332941850352376,0.008349895477294922
+../../datasets/bridges.csv,"['column13', 'column6', 'column7', 'column8', 'column9']->column1",mu,0.0,0.005424976348876953
+../../datasets/bridges.csv,"['column13', 'column6', 'column7', 'column8', 'column9']->column1",rfi,1.5842882561400984e-13,0.011235952377319336
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column7']->column2",mu,0.255580664943179,0.005161762237548828
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column13', 'column7']->column2",rfi,0.1179148909515566,0.005835771560668945
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column9']->column3",mu,0.043651787311238865,0.004408359527587891
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column9']->column3",rfi,0.00574615336581219,0.008527755737304688
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column9']->column4",mu,-0.010873440285205094,0.004480838775634766
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column9']->column4",rfi,-0.0018162387076696707,0.009321928024291992
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column9']->column3",mu,0.09134844690872201,0.0046100616455078125
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column9']->column3",rfi,0.007595787697357692,0.008450031280517578
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column8']->column4",mu,0.017206377500494474,0.004632234573364258
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column8']->column4",rfi,0.0016479409560447023,0.00891256332397461
+../../datasets/bridges.csv,"['column10', 'column6', 'column7', 'column9']->column1",mu,-2.220446049250313e-16,0.00501704216003418
+../../datasets/bridges.csv,"['column10', 'column6', 'column7', 'column9']->column1",rfi,1.6131540547803525e-13,0.01056361198425293
+../../datasets/bridges.csv,"['column10', 'column12', 'column6']->column2",mu,0.13236710511453986,0.004556894302368164
+../../datasets/bridges.csv,"['column10', 'column12', 'column6']->column2",rfi,0.02029343219496349,0.005145072937011719
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column9']->column3",mu,-0.00022108944931353847,0.004392147064208984
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column9']->column3",rfi,0.0008642688491017347,0.008523702621459961
+../../datasets/bridges.csv,"['column12', 'column13', 'column6', 'column7', 'column8']->column1",mu,0.0,0.0049359798431396484
+../../datasets/bridges.csv,"['column12', 'column13', 'column6', 'column7', 'column8']->column1",rfi,1.566524687746096e-13,0.011739492416381836
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column8', 'column9']->column4",mu,0.021801256774518496,0.00567936897277832
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column8', 'column9']->column4",rfi,0.004444064009951121,0.00982356071472168
+../../datasets/bridges.csv,"['column12', 'column13', 'column6', 'column7', 'column8']->column4",mu,-0.010873440285205094,0.004897356033325195
+../../datasets/bridges.csv,"['column12', 'column13', 'column6', 'column7', 'column8']->column4",rfi,-0.0017752515621295428,0.009764909744262695
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column8', 'column9']->column1",mu,-2.220446049250313e-16,0.005002021789550781
+../../datasets/bridges.csv,"['column10', 'column13', 'column6', 'column8', 'column9']->column1",rfi,1.6409096303959814e-13,0.011317729949951172
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column2",mu,-0.003526001029743986,0.00417017936706543
+../../datasets/bridges.csv,"['column10', 'column5', 'column6']->column2",rfi,-0.018164291620508588,0.005461215972900391
+../../datasets/bridges.csv,"['column2', 'column6', 'column8', 'column9']->column1",mu,-2.220446049250313e-16,0.004734516143798828
+../../datasets/bridges.csv,"['column2', 'column6', 'column8', 'column9']->column1",rfi,1.6475709685437323e-13,0.010605812072753906
+../../datasets/bridges.csv,"['column12', 'column2', 'column6', 'column9']->column1",mu,0.0,0.004927158355712891
+../../datasets/bridges.csv,"['column12', 'column2', 'column6', 'column9']->column1",rfi,1.6209256159527285e-13,0.010582208633422852
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7', 'column9']->column3",mu,0.051130561213009296,0.00606536865234375
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7', 'column9']->column3",rfi,0.0072604061211128945,0.009230613708496094
+../../datasets/bridges.csv,"['column13', 'column6', 'column8', 'column9']->column2",mu,0.17815737076895877,0.004941463470458984
+../../datasets/bridges.csv,"['column13', 'column6', 'column8', 'column9']->column2",rfi,0.029592198236497724,0.005526304244995117
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7', 'column8']->column4",mu,0.03500697627535876,0.005582332611083984
+../../datasets/bridges.csv,"['column10', 'column11', 'column13', 'column2', 'column5', 'column7', 'column8']->column4",rfi,0.00748343942143348,0.01006937026977539
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5', 'column7', 'column8', 'column9']->column3",mu,0.06524491391977993,0.005723476409912109
+../../datasets/bridges.csv,"['column11', 'column12', 'column2', 'column5', 'column7', 'column8', 'column9']->column3",rfi,0.010549507032436733,0.00936436653137207
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column2",mu,0.05957911057716969,0.004111051559448242
+../../datasets/bridges.csv,"['column11', 'column6', 'column8']->column2",rfi,0.015256002246196831,0.005640745162963867
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column9']->column4",mu,-0.010873440285205094,0.00446772575378418
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column9']->column4",rfi,-0.0017505154447975402,0.009056806564331055
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column9']->column1",mu,0.0,0.0049321651458740234
+../../datasets/bridges.csv,"['column12', 'column5', 'column6', 'column9']->column1",rfi,1.5798473640415978e-13,0.010611772537231445
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column9']->column1",mu,-2.220446049250313e-16,0.004907369613647461
+../../datasets/bridges.csv,"['column11', 'column12', 'column6', 'column9']->column1",rfi,1.6298074001497298e-13,0.010659933090209961
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column6', 'column9']->column1",mu,-2.220446049250313e-16,0.0053522586822509766
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column6', 'column9']->column1",rfi,1.6231460620019789e-13,0.011204242706298828
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column9']->column1",mu,-2.220446049250313e-16,0.0048029422760009766
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column9']->column1",rfi,1.6830981053317373e-13,0.010927915573120117
+../../datasets/bridges.csv,"['column10', 'column6', 'column8', 'column9']->column2",mu,0.00426023472876802,0.004679203033447266
+../../datasets/bridges.csv,"['column10', 'column6', 'column8', 'column9']->column2",rfi,-0.010672266347994896,0.005468130111694336
+../../datasets/bridges.csv,"['column5', 'column6', 'column8', 'column9']->column2",mu,-0.006373141864518095,0.005100250244140625
+../../datasets/bridges.csv,"['column5', 'column6', 'column8', 'column9']->column2",rfi,-0.013774477923159445,0.005671024322509766
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column9']->column1",mu,0.0,0.004281759262084961
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column9']->column1",rfi,1.6087131626818518e-13,0.01123046875
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column9']->column1",mu,0.0,0.004628896713256836
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column9']->column1",rfi,1.6253665080512292e-13,0.011024236679077148
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column9']->column1",mu,0.0,0.004682064056396484
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column9']->column1",rfi,1.6142642778049776e-13,0.01097416877746582
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column9']->column1",mu,0.0,0.004549264907836914
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column9']->column1",rfi,1.5942802633617248e-13,0.011320114135742188
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column9']->column1",mu,-2.220446049250313e-16,0.004647493362426758
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column9']->column1",rfi,1.6042722705833512e-13,0.010649919509887695
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column9']->column2",mu,-0.014727937759241971,0.004500389099121094
+../../datasets/bridges.csv,"['column5', 'column6', 'column7', 'column9']->column2",rfi,0.003697600777818,0.005972862243652344
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column9']->column4",mu,0.03307757885762985,0.0044744014739990234
+../../datasets/bridges.csv,"['column11', 'column2', 'column6', 'column9']->column4",rfi,0.001949564699812889,0.00926828384399414
+../../datasets/bridges.csv,"['column12', 'column13', 'column6', 'column7', 'column9']->column1",mu,-2.220446049250313e-16,0.005384922027587891
+../../datasets/bridges.csv,"['column12', 'column13', 'column6', 'column7', 'column9']->column1",rfi,1.567634910770721e-13,0.012149810791015625
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column9']->column4",mu,-0.010873440285205094,0.004768848419189453
+../../datasets/bridges.csv,"['column11', 'column5', 'column6', 'column9']->column4",rfi,-0.0014498540332761323,0.00869441032409668
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column9']->column4",mu,-0.010873440285205094,0.004910945892333984
+../../datasets/bridges.csv,"['column11', 'column13', 'column6', 'column9']->column4",rfi,-0.001547319016098836,0.008939504623413086
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column9']->column4",mu,0.017206377500494474,0.004950761795043945
+../../datasets/bridges.csv,"['column11', 'column6', 'column7', 'column9']->column4",rfi,0.0013818206830780166,0.008617401123046875
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column9']->column4",mu,0.03726339020456659,0.004630565643310547
+../../datasets/bridges.csv,"['column2', 'column6', 'column7', 'column9']->column4",rfi,0.001585369693346994,0.009067296981811523
+../../datasets/bridges.csv,"['column6', 'column7', 'column8', 'column9']->column2",mu,-0.09853880986401142,0.0045278072357177734
+../../datasets/bridges.csv,"['column6', 'column7', 'column8', 'column9']->column2",rfi,-0.01901515478809024,0.006085395812988281
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column8', 'column9']->column1",mu,0.0,0.005475521087646484
+../../datasets/bridges.csv,"['column11', 'column12', 'column13', 'column2', 'column5', 'column8', 'column9']->column1",rfi,1.5643042416968456e-13,0.012000560760498047
+../../datasets/bridges.csv,"['column3', 'column5', 'column9']->column4",mu,-0.010873440285205094,0.0041844844818115234
+../../datasets/bridges.csv,"['column3', 'column5', 'column9']->column4",rfi,-0.0014959256098127094,0.008402585983276367
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column5', 'column7', 'column8', 'column9']->column2",mu,0.20624691956997188,0.005584716796875
+../../datasets/bridges.csv,"['column10', 'column11', 'column12', 'column5', 'column7', 'column8', 'column9']->column2",rfi,0.08276232624099711,0.006680965423583984
+../../datasets/bridges.csv,"['column12', 'column13', 'column6', 'column7', 'column9']->column4",mu,-0.010873440285205094,0.0052683353424072266
+../../datasets/bridges.csv,"['column12', 'column13', 'column6', 'column7', 'column9']->column4",rfi,-0.0016399048035189434,0.009878873825073242
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column6', 'column9']->column4",mu,-0.010873440285205316,0.005418539047241211
+../../datasets/bridges.csv,"['column10', 'column12', 'column13', 'column6', 'column9']->column4",rfi,-0.0015862586118817745,0.009048700332641602
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column9']->column4",mu,-0.010873440285205094,0.004925251007080078
+../../datasets/bridges.csv,"['column13', 'column5', 'column6', 'column9']->column4",rfi,-0.0015514549582529291,0.008826255798339844
