@@ -1,16 +1,28 @@
 import time
 import json
 import adapted_paper_metrics
-import parser
+import metrics_parser
 import pandas as pd
 import os
 from datetime import datetime
+import argparse
 
-dataset_csv_file = "/home/lewis/ufpr/tcc/datasets/ncvoter_1001r_19c.csv"
-fds_input_file = "/home/lewis/ufpr/tcc/metanome-cli/results/2025-03-23_12-49-55_fds"
+# Set up argument parser
+parser = argparse.ArgumentParser(description="Run metrics on datasets")
+parser.add_argument("--dataset", type=str, required=True, help="Path to the dataset CSV file")
+parser.add_argument("--fds", type=str, required=True, help="Path to the FDs input file")
+parser.add_argument("--output", type=str, required=False, help="Output's dir name")
 
-current_time = datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
-output_folder = os.path.join("metrics_results", current_time)
+args = parser.parse_args()
+
+print(args.dataset, args.fds)
+dataset_csv_file = args.dataset
+fds_input_file = args.fds
+
+dir_name = datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
+if (args.output):
+    dir_name = args.output
+output_folder = os.path.join("metrics_results", dir_name)
 os.makedirs(output_folder, exist_ok=True)
 
 fds_csv_file = os.path.join(output_folder, "fds_results.csv")
@@ -18,14 +30,14 @@ metrics_csv_file = os.path.join(output_folder, "metrics_results.csv")
 
 metrics = {
     "mu": adapted_paper_metrics.mu,
-    # "rfi": adapted_paper_metrics.reliable_fraction_of_information,
+    "rfi": adapted_paper_metrics.reliable_fraction_of_information,
 }
 
 start_time_file = time.time()
 total_time_metrics = {metric_name: 0 for metric_name in metrics}
 
-results = parser.load_results(fds_input_file)
-fds = parser.metanome_parser(results)
+results = metrics_parser.load_results(fds_input_file)
+fds = metrics_parser.metanome_parser(results)
 
 df = pd.read_csv(dataset_csv_file, header="infer")
 
@@ -39,7 +51,6 @@ for lhs_columns, rhs_column in fds:
         print(f"Columns {lhs_columns} or {rhs_column} not found in {dataset_csv_file}")
         continue
 
-    
     for metric_name, metric_function in metrics.items():
         start_time = time.time()
         try:
