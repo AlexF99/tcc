@@ -1,5 +1,4 @@
 import time
-import json
 import adapted_paper_metrics
 import metrics_parser
 import pandas as pd
@@ -11,6 +10,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Run metrics on datasets")
 parser.add_argument("--dataset", type=str, required=True, help="Path to the dataset CSV file")
 parser.add_argument("--fds", type=str, required=True, help="Path to the FDs input file")
+parser.add_argument("--type", type=str, required=True, help="Metanome or FDX")
 parser.add_argument("--output", type=str, required=False, help="Output's dir name")
 
 args = parser.parse_args()
@@ -18,6 +18,7 @@ args = parser.parse_args()
 print(args.dataset, args.fds)
 dataset_csv_file = args.dataset
 fds_input_file = args.fds
+source_type = args.type
 
 dir_name = datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
 if (args.output):
@@ -36,8 +37,16 @@ metrics = {
 start_time_file = time.time()
 total_time_metrics = {metric_name: 0 for metric_name in metrics}
 
-results = metrics_parser.load_results(fds_input_file)
-fds = metrics_parser.metanome_parser(results)
+results = (
+    metrics_parser.load_metanome_results(fds_input_file)
+    if source_type == "metanome"
+    else metrics_parser.load_fdx_results(fds_input_file)
+)
+fds = (
+    metrics_parser.metanome_parser(results)
+    if source_type == "metanome"
+    else metrics_parser.fdx_parser(results)
+)
 
 df = pd.read_csv(dataset_csv_file, header="infer")
 

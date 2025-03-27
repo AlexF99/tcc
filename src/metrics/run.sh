@@ -11,6 +11,7 @@ for fd_file in "$RESULTS_DIR"/*; do
   filename=$(basename -- "$fd_file")
   algorithm="${filename%%-*}"
   dataset="${filename#*-}"
+  type="metanome"
 
   # Construct the path to the dataset file
   dataset_file="$DATASETS_DIR/$dataset.csv"
