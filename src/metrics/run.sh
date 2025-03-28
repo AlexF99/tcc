@@ -14,7 +14,7 @@ for fd_file in "$RESULTS_DIR"/*; do
   type="metanome"
 
   # Construct the path to the dataset file
-  dataset_file="$DATASETS_DIR/$dataset.csv"
+  dataset_file="$DATASETS_DIR/$dataset"
 
   # Check if the dataset file exists
   if [ -f "$dataset_file" ]; then
@@ -23,7 +23,7 @@ for fd_file in "$RESULTS_DIR"/*; do
 
     # Run the main.py script with the appropriate arguments
     echo "Running main.py for dataset: $dataset_file and FDs: $fd_file"
-    python3 "$SCRIPT" --dataset "$dataset_file" --fds "$fd_file" --output "$output_dir"
+    python3 "$SCRIPT" --dataset "$dataset_file" --fds "$fd_file" --output "$output_dir" --type "$type"
   else
     echo "Dataset file not found: $dataset_file"
   fi
