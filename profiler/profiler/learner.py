@@ -9,7 +9,7 @@ from copy import deepcopy
 from profiler.graph import *
 from scipy.cluster.vq import vq, kmeans, whiten
 import operator
-
+import os
 
 logging.basicConfig()
 logger = logging.getLogger(__name__)
@@ -192,7 +192,9 @@ class StructureLearner(object):
                     file_name = write_to + "_by_col"
                 else:
                     file_name = write_to + "_by_row"
-                fd_file = open(file_name + ".txt", 'w')
+                # MUDANÇA FEITA PELO ALEXANDRE (precisava criar diretorio e arquivo de saida):
+                os.makedirs(os.path.dirname(file_name + ".txt"), exist_ok=True)
+                fd_file = open(file_name + ".txt", 'a')
                 # attr_file = open(file_name + "_attr.txt", 'w')
             
             # for i, attr in enumerate(U_hat):

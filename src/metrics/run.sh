@@ -28,3 +28,24 @@ for fd_file in "$RESULTS_DIR"/*; do
     echo "Dataset file not found: $dataset_file"
   fi
 done
+
+# todo: make this work with headers
+for fd_file in ../../profiler/results/*; do
+  algorithm="fdx"
+  dataset_name="$(basename ${fd_file%_by_col.txt})"
+  type="fdx"
+
+  dataset_file="$DATASETS_DIR/$dataset_name.csv"
+
+  if [ -f "$dataset_file" ]; then
+    # Construct the output directory name
+    output_dir="${algorithm}-${dataset}"
+
+    # Run the main.py script with the appropriate arguments
+    echo "Running main.py for dataset: $dataset_file and FDs: $fd_file"
+    python3 "$SCRIPT" --dataset "$dataset_file" --fds "$fd_file" --output "$output_dir" --type "$type"
+  else
+    echo "Dataset file not found: $dataset_file"
+  fi
+
+done
