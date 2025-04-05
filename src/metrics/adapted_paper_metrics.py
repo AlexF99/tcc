@@ -15,8 +15,10 @@ def mu(df: pd.DataFrame, lhs: List[Any], rhs: Any) -> float:
     domX_size = df.loc[:, lhs].drop_duplicates().shape[0]
     
     # print((r_size - domX_size))
-    
-    return 1.0 - ((1 - pdepXY) / (1 - pdepY)) * ((r_size - 1) / (r_size - domX_size))
+
+    # if the fd's LHS is a key, rsize=domx_size, therefore there will be a div / 0
+    return 1.0 if r_size == domX_size else 1.0 - ((1 - pdepXY) / (1 - pdepY)) * ((r_size - 1) / (r_size - domX_size))
+
 
 
 
