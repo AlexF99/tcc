@@ -13,14 +13,14 @@ for fd_file in "$RESULTS_DIR"/*; do
   dataset="${filename#*-}"
   type="metanome"
 
-  dataset_file="$DATASETS_DIR/$dataset"
+  dataset_file="$DATASETS_DIR/experiments_header/$dataset"
 
   # Check if the dataset file exists
   if [ -f "$dataset_file" ]; then
     output_dir="${algorithm}-${dataset}"
 
     echo "Running main.py for dataset: $dataset_file and FDs: $fd_file"
-    python3 "$SCRIPT" --dataset "$dataset_file" --fds "$fd_file" --output "$output_dir" --type "$type" --header "False"
+    python3 "$SCRIPT" --dataset "$dataset_file" --fds "$fd_file" --output "$output_dir" --type "$type" --header "True"
   else
     echo "Dataset file not found: $dataset_file"
   fi
@@ -32,7 +32,7 @@ for fd_file in ../../profiler/results/*; do
   dataset_name="$(basename ${fd_file%_by_col.txt})"
   type="fdx"
 
-  dataset_file="$DATASETS_DIR/$dataset_name.csv"
+  dataset_file="$DATASETS_DIR/experiments_header/$dataset_name.csv"
 
   # Check if the dataset file exists
   if [ -f "$dataset_file" ]; then

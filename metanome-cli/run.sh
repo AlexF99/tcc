@@ -18,6 +18,7 @@ for dataset in "$DATASETS_DIR"/*.csv; do
     --separator "," \
     --algorithm-config isFindKeys:false \
     --algorithm-config isFindFds:true \
+    --header \
     --algorithm-config maxUccError:0
 
   LATEST_FILE=$(ls -t "$RESULTS_DIR"/ | head -n1)
@@ -27,6 +28,7 @@ for dataset in "$DATASETS_DIR"/*.csv; do
   java -cp "$METANOME_CLI_JAR:$HYFD_JAR" de.metanome.cli.App --algorithm de.metanome.algorithms.hyfd.HyFD \
     --files "$dataset" \
     --file-key INPUT_GENERATOR \
+    --header \
     --separator ","
 
   LATEST_FILE=$(ls -t "$RESULTS_DIR"/ | head -n1)

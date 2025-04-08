@@ -100,9 +100,24 @@ for lhs_columns, rhs_column in fds:
             )
             continue
 
-final_df = pd.DataFrame(
-    {"fd": fd_ids, "mu": metrics_results["mu"], "rfi": metrics_results["rfi"]}
-)
+mobj = {k: [v["result"] for v in values] for k, values in metrics_results.items()}
+
+# Only include is_key and fi in final results if they exist in the values
+isKey = {}
+fi = {}
+
+for k, values in metrics_results.items():
+    # Check if at least one value has the 'is_key' attribute
+    if any('is_key' in v for v in values):
+        isKey[f"{k}_is_key"] = [v.get('is_key', '-') for v in values]
+    
+    # Check if at least one value has the 'fi' attribute
+    if any('fi' in v for v in values):
+        fi[f"{k}_fi"] = [v.get('fi', '-') for v in values]
+
+print(metrics_results)
+
+final_df = pd.DataFrame({"fd": fd_ids, **mobj, **isKey, **fi})
 
 final_df.to_csv(fds_csv_file, mode="w", header=True, index=False)
 
