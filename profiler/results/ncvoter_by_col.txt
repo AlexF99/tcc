@@ -1,0 +1,7 @@
+race -> ethnic
+race,ethnic -> download_month
+race,download_month -> register_date
+register_date -> street_address
+street_address -> city
+street_address -> last_name
+gender -> first_name

@@ -1,8 +1,8 @@
-c6 -> c1
-c6,c1 -> c2
-c6,c1,c2 -> c4
-c6,c1,c2,c4 -> c5
-c6,c1,c2,c4,c5 -> c7
-c6,c1,c2,c4,c5,c7 -> c8
-c6,c1,c4,c7,c8 -> c9
-c6,c1,c2,c4,c5,c8 -> c3
+f -> a
+f,a -> b
+f,a,b -> d
+f,a,b,d -> e
+f,a,b,d,e -> g
+f,a,b,d,e,g -> h
+f,a,d,g,h -> i
+f,a,b,d,e,h -> c
