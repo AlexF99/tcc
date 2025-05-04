@@ -13,7 +13,7 @@ for fd_file in "$RESULTS_DIR"/*; do
   dataset="${filename#*-}"
   type="metanome"
 
-  dataset_file="$DATASETS_DIR/experiments_header/$dataset"
+  dataset_file="$DATASETS_DIR/experiments/$dataset"
 
   # Check if the dataset file exists
   if [ -f "$dataset_file" ]; then
@@ -32,7 +32,7 @@ for fd_file in ../../profiler/results/*; do
   dataset_name="$(basename ${fd_file%_by_col.txt})"
   type="fdx"
 
-  dataset_file="$DATASETS_DIR/experiments_header/$dataset_name.csv"
+  dataset_file="$DATASETS_DIR/experiments/$dataset_name.csv"
 
   # Check if the dataset file exists
   if [ -f "$dataset_file" ]; then
