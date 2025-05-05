@@ -1,3 +1,4 @@
+"voter_id","voter_reg_num","name_prefix","first_name","middle_name","last_name","name_suffix","age","gender","race","ethnic","street_address","city","state","zip_code","full_phone_num","birth_place","register_date","download_month"
 "00000000","990000454758","","rodney","john","glockner","","37","m","w","nl","1708 pembroke jones dr","wilmington","nc","28405","910 509 3864","nj","01/01/1930","2011-10"
 "00000001","999000021841","","sallie","wilkins","blanchard","","111","f","w","nl","203 e main st","rose hill","nc","28458","910 289 3320","nc","01/01/1930","2011-12"
 "00000002","999000027078","","john","m","goodson","","102","m","w","nl","496 white flash rd","mt olive","nc","28365","910 658 3413","nc","01/01/1930","2011-12"
