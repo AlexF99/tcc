@@ -1,0 +1,6 @@
+../../datasets/experiments/letter.csv,mu,1.424513578414917,17,61
+../../datasets/experiments/letter.csv,rfi,21.488117456436157,17,61
+../../datasets/experiments/letter.csv,g1,1.2687139511108398,17,61
+../../datasets/experiments/letter.csv,g2,1.2755117416381836,17,61
+../../datasets/experiments/letter.csv,g3,0.7439999580383301,17,61
+../../datasets/experiments/letter.csv,total_file_time,26.212900638580322,17,61

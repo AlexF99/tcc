@@ -1,0 +1,758 @@
+fd,mu,rfi,g1,g2,g3,mu_is_key,rfi_fi
+['voter_id']->voter_reg_num,1.0,0.00020072653336455915,1.0,1.0,1.0,False,1.0
+['voter_id']->last_name,1.0,0.00022067359236299655,1.0,1.0,1.0,False,1.0
+['voter_id']->first_name,1.0,0.00024164030249462787,1.0,1.0,1.0,False,1.0
+['voter_id']->register_date,1.0,0.0003121469830604795,1.0,1.0,1.0,False,1.0
+['voter_id']->zip_code,1.0,0.0002856756849223263,1.0,1.0,1.0,False,1.0
+['voter_id']->city,1.0,0.0003013719306523832,1.0,1.0,1.0,False,1.0
+['voter_id']->age,1.0,0.00038632635205537724,1.0,1.0,1.0,False,1.0
+['voter_id']->birth_place,-378.9309319811155,0.0005734161091399681,1.0,1.0,1.0,False,1.0
+['voter_id']->race,1.0,0.000642508304779299,1.0,1.0,1.0,False,1.0
+['voter_id']->name_suffix,-954.1501086757378,0.00036333627455242823,1.0,1.0,1.0,False,1.0
+['voter_id']->gender,1.0,0.0009682165175473045,1.0,1.0,1.0,False,1.0
+['voter_id']->ethnic,1.0,0.0006468940427514225,1.0,1.0,1.0,False,1.0
+['voter_id']->name_prefix,-971.7361246348588,0.00037382201746860577,1.0,1.0,1.0,False,1.0
+"['street_address', 'voter_id']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['street_address', 'voter_id']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['street_address', 'voter_id']->download_month",1.0,-3.5083047578154947e-14,1.0,1.0,1.0,True,1.0
+"['middle_name', 'voter_id']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['middle_name', 'voter_id']->full_phone_num",1.0,0.1490000000040791,1.0,1.0,1.0,True,1.0
+"['middle_name', 'voter_id']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'voter_id']->street_address",1.0,0.6120000000030494,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'voter_id']->middle_name",1.0,0.6120000000006709,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'voter_id']->download_month",1.0,0.611999999999997,1.0,1.0,1.0,True,1.0
+"['download_month', 'voter_id']->street_address",1.0,-1.1158629575902523e-11,1.0,1.0,1.0,True,1.0
+"['download_month', 'voter_id']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['download_month', 'voter_id']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+['voter_reg_num']->voter_id,1.0,0.00020072653336455915,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->last_name,1.0,0.00022067359236299655,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->first_name,1.0,0.00024164030249462787,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->register_date,1.0,0.0003121469830604795,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->zip_code,1.0,0.0002856756849223263,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->city,1.0,0.0003013719306523832,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->age,1.0,0.00038632635205537724,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->birth_place,-378.9309319811155,0.0005734161091399681,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->race,1.0,0.000642508304779299,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->name_suffix,-954.1501086757378,0.00036333627455242823,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->gender,1.0,0.0009682165175473045,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->ethnic,1.0,0.0006468940427514225,1.0,1.0,1.0,False,1.0
+['voter_reg_num']->name_prefix,-971.7361246348588,0.00037382201746860577,1.0,1.0,1.0,False,1.0
+"['street_address', 'voter_reg_num']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['street_address', 'voter_reg_num']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['street_address', 'voter_reg_num']->download_month",1.0,-3.5083047578154947e-14,1.0,1.0,1.0,True,1.0
+"['middle_name', 'voter_reg_num']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['middle_name', 'voter_reg_num']->full_phone_num",1.0,0.1490000000040791,1.0,1.0,1.0,True,1.0
+"['middle_name', 'voter_reg_num']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'voter_reg_num']->street_address",1.0,0.6120000000030494,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'voter_reg_num']->middle_name",1.0,0.6120000000006709,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'voter_reg_num']->download_month",1.0,0.611999999999997,1.0,1.0,1.0,True,1.0
+"['download_month', 'voter_reg_num']->street_address",1.0,-1.1158629575902523e-11,1.0,1.0,1.0,True,1.0
+"['download_month', 'voter_reg_num']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['download_month', 'voter_reg_num']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+['street_address']->zip_code,1.0,0.012382040589480336,1.0,1.0,1.0,False,1.0
+['street_address']->city,1.0,0.013055109859034797,1.0,1.0,1.0,False,1.0
+"['last_name', 'street_address']->race",1.0,0.01991775744744706,1.0,1.0,1.0,False,1.0
+"['last_name', 'middle_name', 'street_address']->age",-155.86359229439788,0.1493863263522146,1.0,1.0,1.0,False,1.0
+"['last_name', 'middle_name', 'register_date', 'street_address']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['last_name', 'middle_name', 'register_date', 'street_address']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['gender', 'last_name', 'middle_name', 'street_address']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['gender', 'last_name', 'middle_name', 'street_address']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['gender', 'last_name', 'middle_name', 'street_address']->first_name",1.0,0.14899999999877378,1.0,1.0,1.0,True,1.0
+"['last_name', 'middle_name', 'name_prefix', 'street_address']->voter_id",1.0,0.9729999999999989,1.0,1.0,1.0,True,1.0
+"['last_name', 'middle_name', 'name_prefix', 'street_address']->voter_reg_num",1.0,0.9729999999999989,1.0,1.0,1.0,True,1.0
+"['last_name', 'middle_name', 'name_prefix', 'street_address']->first_name",1.0,0.972999999999997,1.0,1.0,1.0,True,1.0
+"['gender', 'last_name', 'register_date', 'street_address']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['gender', 'last_name', 'register_date', 'street_address']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['gender', 'last_name', 'register_date', 'street_address']->first_name",1.0,-2.6489921367556235e-12,1.0,1.0,1.0,True,1.0
+"['gender', 'last_name', 'register_date', 'street_address']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['gender', 'last_name', 'register_date', 'street_address']->age",1.0,3.3306690738754696e-13,1.0,1.0,1.0,True,1.0
+"['age', 'last_name', 'street_address']->full_phone_num",-75.64961636828644,0.0017296555915334855,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'last_name', 'street_address']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'last_name', 'street_address']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'last_name', 'street_address']->first_name",1.0,-2.6489921367556235e-12,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'last_name', 'street_address']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'last_name', 'street_address']->register_date",1.0,-9.463541061904834e-13,1.0,1.0,1.0,True,1.0
+"['gender', 'last_name', 'street_address']->full_phone_num",-612.1969309462916,0.00021620695482604813,1.0,1.0,1.0,False,1.0
+"['gender', 'last_name', 'street_address']->birth_place",-378.9309319811155,0.0005734161091399681,1.0,1.0,1.0,False,1.0
+"['gender', 'last_name', 'street_address']->download_month",1.0,0.0009383645935336915,1.0,1.0,1.0,False,1.0
+"['gender', 'last_name', 'street_address']->ethnic",1.0,0.0006468940427514225,1.0,1.0,1.0,False,1.0
+"['first_name', 'street_address']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->last_name",1.0,-5.84976511674995e-12,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->register_date",1.0,-9.463541061904834e-13,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->age",1.0,3.3306690738754696e-13,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->birth_place",1.0,1.6542323066914832e-14,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->download_month",1.0,-3.5083047578154947e-14,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->race",1.0,2.3647750424515834e-14,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->name_suffix",1.0,-3.552713678800501e-15,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->gender",1.0,2.5868196473766147e-14,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->ethnic",1.0,-1.2212453270876722e-14,1.0,1.0,1.0,True,1.0
+"['first_name', 'street_address']->name_prefix",1.0,2.0317081350640365e-14,1.0,1.0,1.0,True,1.0
+"['middle_name', 'street_address']->full_phone_num",-329.1444260568678,0.14921620695218196,1.0,1.0,1.0,False,1.0
+"['middle_name', 'street_address']->birth_place",-313.42559888092336,0.1495734161091451,1.0,1.0,1.0,False,1.0
+"['middle_name', 'street_address']->download_month",-145.32542319564322,0.14993836459354226,1.0,1.0,1.0,False,1.0
+"['middle_name', 'street_address']->race",-530.6714767401998,0.1496425083047751,1.0,1.0,1.0,False,1.0
+"['middle_name', 'street_address']->name_suffix",-478.075290110658,0.14936333627455622,1.0,1.0,1.0,False,1.0
+"['middle_name', 'street_address']->ethnic",-738.91907422504,0.14964689404277043,1.0,1.0,1.0,False,1.0
+"['middle_name', 'register_date', 'street_address']->gender",-308.637922642004,0.1490000000000179,1.0,1.0,1.0,False,1.0
+"['middle_name', 'register_date', 'street_address']->name_prefix",-971.7361246348588,0.14900000000001423,1.0,1.0,1.0,False,1.0
+"['age', 'middle_name', 'register_date', 'street_address']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'middle_name', 'register_date', 'street_address']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'middle_name', 'register_date', 'street_address']->first_name",1.0,0.14899999999877378,1.0,1.0,1.0,True,1.0
+"['age', 'middle_name', 'street_address']->last_name",-148.22645375765427,0.14922067359495517,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'middle_name', 'street_address']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'middle_name', 'street_address']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'middle_name', 'street_address']->first_name",1.0,0.14899999999877378,1.0,1.0,1.0,True,1.0
+"['age', 'middle_name', 'name_prefix', 'street_address']->voter_id",1.0,0.9729999999999989,1.0,1.0,1.0,True,1.0
+"['age', 'middle_name', 'name_prefix', 'street_address']->voter_reg_num",1.0,0.9729999999999989,1.0,1.0,1.0,True,1.0
+"['age', 'middle_name', 'name_prefix', 'street_address']->first_name",1.0,0.972999999999997,1.0,1.0,1.0,True,1.0
+"['gender', 'middle_name', 'street_address']->register_date",-154.8642686313356,0.149000000000446,1.0,1.0,1.0,False,1.0
+"['middle_name', 'name_prefix', 'street_address']->register_date",-1016.8250562301309,0.972999999999998,1.0,1.0,1.0,False,1.0
+"['middle_name', 'name_prefix', 'street_address']->gender",-2020.997978058187,0.973,1.0,1.0,1.0,False,1.0
+"['full_phone_num', 'street_address']->race",-135.486134129615,0.61585504982854,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'street_address']->last_name",-75.61626652658087,0.6124413471981723,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'gender', 'street_address']->voter_id",1.0,0.6120000000031642,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'street_address']->voter_reg_num",1.0,0.6120000000031642,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'street_address']->first_name",1.0,0.6120000000010125,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'street_address']->middle_name",1.0,0.6120000000006709,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'street_address']->register_date",1.0,0.6120000000002196,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'gender', 'street_address']->download_month",-239.40579596170107,0.611999999999997,1.0,1.0,1.0,False,1.0
+"['full_phone_num', 'gender', 'street_address']->ethnic",-1214.6522776529516,0.6119999999999931,1.0,1.0,1.0,False,1.0
+"['register_date', 'street_address']->race",1.0,0.012850166095135673,1.0,1.0,1.0,False,1.0
+"['age', 'register_date', 'street_address']->last_name",1.0,0.0004413471905772015,1.0,1.0,1.0,False,1.0
+"['age', 'register_date', 'street_address']->full_phone_num",-305.5984654731458,0.0004324139029270313,1.0,1.0,1.0,False,1.0
+"['age', 'register_date', 'street_address']->birth_place",-188.96546599055776,0.00114683221826406,1.0,1.0,1.0,False,1.0
+"['age', 'register_date', 'street_address']->name_suffix",-476.5750543378689,0.0007266725491081871,1.0,1.0,1.0,False,1.0
+"['age', 'register_date', 'street_address']->ethnic",1.0,0.0012937880855152795,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'register_date', 'street_address']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'register_date', 'street_address']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'register_date', 'street_address']->first_name",1.0,-2.6489921367556235e-12,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'register_date', 'street_address']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'register_date', 'street_address']->gender",1.0,2.5868196473766147e-14,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'register_date', 'street_address']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'register_date', 'street_address']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'register_date', 'street_address']->first_name",1.0,-2.6489921367556235e-12,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'register_date', 'street_address']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['birth_place', 'gender', 'register_date', 'street_address']->middle_name",-288.88935897526324,0.17424920096193453,1.0,1.0,1.0,False,1.0
+"['download_month', 'register_date', 'street_address']->ethnic",1.0,0.006468940427624914,1.0,1.0,1.0,False,1.0
+"['download_month', 'register_date', 'street_address']->name_prefix",-96.27361246348589,0.003738220174502205,1.0,1.0,1.0,False,1.0
+"['name_suffix', 'register_date', 'street_address']->ethnic",-498.20361418927104,0.9550000000000001,1.0,1.0,1.0,False,1.0
+"['gender', 'register_date', 'street_address']->full_phone_num",-305.5984654731458,0.0004324139029270313,1.0,1.0,1.0,False,1.0
+"['gender', 'register_date', 'street_address']->download_month",1.0,0.001876729187102244,1.0,1.0,1.0,False,1.0
+"['gender', 'register_date', 'street_address']->ethnic",1.0,0.0012937880855152795,1.0,1.0,1.0,False,1.0
+"['ethnic', 'register_date', 'street_address']->name_suffix",-49.271058351354625,0.00690338921655731,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'street_address']->birth_place",-125.64364399370517,0.0017202483273874858,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'gender', 'street_address']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'gender', 'street_address']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'gender', 'street_address']->last_name",1.0,-5.84976511674995e-12,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'gender', 'street_address']->first_name",1.0,-2.6489921367556235e-12,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'gender', 'street_address']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'gender', 'street_address']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'gender', 'street_address']->register_date",1.0,-9.463541061904834e-13,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'street_address']->last_name",1.0,0.00022067359236299655,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'ethnic', 'street_address']->middle_name",-148.97748085872993,0.00024920095978775425,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'ethnic', 'street_address']->full_phone_num",-612.1969309462916,0.00021620695482604813,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'ethnic', 'name_prefix', 'street_address']->voter_id",1.0,0.9729999999999989,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'name_prefix', 'street_address']->voter_reg_num",1.0,0.9729999999999989,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'name_prefix', 'street_address']->first_name",1.0,0.972999999999997,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'name_prefix', 'street_address']->register_date",1.0,0.972999999999998,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'name_prefix', 'street_address']->gender",1.0,0.973,1.0,1.0,1.0,True,1.0
+"['age', 'race', 'street_address']->last_name",1.0,0.0017653887798722012,1.0,1.0,1.0,False,1.0
+"['age', 'race', 'street_address']->full_phone_num",-75.64961636828644,0.0017296555915334855,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'race', 'street_address']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'race', 'street_address']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'race', 'street_address']->first_name",1.0,-2.6489921367556235e-12,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'race', 'street_address']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'race', 'street_address']->register_date",1.0,-9.463541061904834e-13,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'race', 'street_address']->download_month",1.0,-3.5083047578154947e-14,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'street_address']->birth_place",-378.9309319811155,0.0005734161091399681,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'street_address']->ethnic",1.0,0.0006468940427514225,1.0,1.0,1.0,False,1.0
+"['download_month', 'street_address']->name_suffix",-42.41591403071535,0.008124950668121245,1.0,1.0,1.0,False,1.0
+"['download_month', 'gender', 'street_address']->race",1.0,0.003855049828557222,1.0,1.0,1.0,False,1.0
+"['download_month', 'gender', 'street_address']->ethnic",1.0,0.0038813642565701523,1.0,1.0,1.0,False,1.0
+"['download_month', 'ethnic', 'street_address']->race",1.0,0.012897593489882064,1.0,1.0,1.0,False,1.0
+"['gender', 'race', 'street_address']->ethnic",1.0,0.004572223008224685,1.0,1.0,1.0,False,1.0
+"['gender', 'street_address']->name_suffix",-105.12778985285975,0.003401579098895491,1.0,1.0,1.0,False,1.0
+"['gender', 'street_address']->name_prefix",-107.08179162609542,0.003499431959536059,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name']->name_suffix",-94.51501086757378,0.0036333627455548134,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name']->gender",1.0,0.009682165175239787,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name']->name_prefix",-96.27361246348589,0.003738220174502205,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name', 'middle_name']->full_phone_num",-659.2888521137356,0.14921620695218196,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name', 'middle_name']->register_date",-154.8642686313356,0.14931214698445294,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name', 'middle_name']->race",-1062.3429534803995,0.1496425083047751,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name', 'middle_name', 'zip_code']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['first_name', 'last_name', 'middle_name', 'zip_code']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['first_name', 'last_name', 'middle_name', 'zip_code']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['first_name', 'last_name', 'middle_name', 'zip_code']->age",1.0,0.1490000000004923,1.0,1.0,1.0,True,1.0
+"['first_name', 'last_name', 'middle_name', 'zip_code']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'last_name', 'middle_name']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'last_name', 'middle_name']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'last_name', 'middle_name']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'last_name', 'middle_name']->age",1.0,0.1490000000004923,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'last_name', 'middle_name']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['birth_place', 'first_name', 'last_name', 'middle_name']->voter_id",1.0,0.2879999999955333,1.0,1.0,1.0,True,1.0
+"['birth_place', 'first_name', 'last_name', 'middle_name']->voter_reg_num",1.0,0.2879999999955333,1.0,1.0,1.0,True,1.0
+"['birth_place', 'first_name', 'last_name', 'middle_name']->street_address",1.0,0.2879999999958778,1.0,1.0,1.0,True,1.0
+"['birth_place', 'first_name', 'last_name', 'middle_name']->zip_code",1.0,0.2880000000006352,1.0,1.0,1.0,True,1.0
+"['birth_place', 'first_name', 'last_name', 'middle_name']->city",1.0,0.28800000000077,1.0,1.0,1.0,True,1.0
+"['birth_place', 'first_name', 'last_name', 'middle_name']->age",1.0,0.2880000000003855,1.0,1.0,1.0,True,1.0
+"['birth_place', 'first_name', 'last_name', 'middle_name']->download_month",1.0,0.2879999999999817,1.0,1.0,1.0,True,1.0
+"['birth_place', 'first_name', 'last_name', 'middle_name']->ethnic",1.0,0.28800000000000825,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'middle_name']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'middle_name']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'middle_name']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'middle_name']->zip_code",1.0,0.14900000000014169,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'middle_name']->city",1.0,0.14900000000029434,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'middle_name']->age",1.0,0.1490000000004923,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'middle_name']->birth_place",1.0,0.14900000000002167,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'middle_name']->ethnic",1.0,0.1490000000000068,1.0,1.0,1.0,True,1.0
+"['ethnic', 'first_name', 'last_name', 'middle_name']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['ethnic', 'first_name', 'last_name', 'middle_name']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['ethnic', 'first_name', 'last_name', 'middle_name']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['ethnic', 'first_name', 'last_name', 'middle_name']->zip_code",1.0,0.14900000000014169,1.0,1.0,1.0,True,1.0
+"['ethnic', 'first_name', 'last_name', 'middle_name']->city",1.0,0.14900000000029434,1.0,1.0,1.0,True,1.0
+"['ethnic', 'first_name', 'last_name', 'middle_name']->age",1.0,0.1490000000004923,1.0,1.0,1.0,True,1.0
+"['ethnic', 'first_name', 'last_name', 'middle_name']->birth_place",1.0,0.14900000000002167,1.0,1.0,1.0,True,1.0
+"['ethnic', 'first_name', 'last_name', 'middle_name']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['first_name', 'full_phone_num', 'last_name']->race",-872.5112584295362,0.6120000000000064,1.0,1.0,1.0,False,1.0
+"['first_name', 'full_phone_num', 'last_name', 'zip_code']->voter_id",1.0,0.6120000000031642,1.0,1.0,1.0,True,1.0
+"['first_name', 'full_phone_num', 'last_name', 'zip_code']->voter_reg_num",1.0,0.6120000000031642,1.0,1.0,1.0,True,1.0
+"['first_name', 'full_phone_num', 'last_name', 'zip_code']->street_address",1.0,0.6120000000030494,1.0,1.0,1.0,True,1.0
+"['first_name', 'full_phone_num', 'last_name', 'zip_code']->middle_name",1.0,0.6120000000006709,1.0,1.0,1.0,True,1.0
+"['first_name', 'full_phone_num', 'last_name', 'zip_code']->age",1.0,0.6119999999999435,1.0,1.0,1.0,True,1.0
+"['first_name', 'full_phone_num', 'last_name', 'zip_code']->download_month",1.0,0.611999999999997,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'full_phone_num', 'last_name']->street_address",1.0,0.6120000000030494,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'full_phone_num', 'last_name']->middle_name",1.0,0.6120000000006709,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'full_phone_num', 'last_name']->download_month",1.0,0.611999999999997,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'full_phone_num', 'last_name']->city",-625.6596968112912,0.6120000000001997,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'full_phone_num', 'last_name']->birth_place",-1413.9151949641548,0.6120000000000116,1.0,1.0,1.0,False,1.0
+"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->voter_id",1.0,0.6120000000031642,1.0,1.0,1.0,True,1.0
+"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->voter_reg_num",1.0,0.6120000000031642,1.0,1.0,1.0,True,1.0
+"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->street_address",1.0,0.6120000000030494,1.0,1.0,1.0,True,1.0
+"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->middle_name",1.0,0.6120000000006709,1.0,1.0,1.0,True,1.0
+"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->register_date",1.0,0.6120000000002196,1.0,1.0,1.0,True,1.0
+"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->zip_code",1.0,0.6120000000002999,1.0,1.0,1.0,True,1.0
+"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->age",1.0,0.6119999999999435,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'last_name', 'register_date']->ethnic",1.0,0.0019406821282788034,1.0,1.0,1.0,False,1.0
+"['birth_place', 'first_name', 'last_name', 'register_date']->city",-58.38931767165829,0.17490411579299447,1.0,1.0,1.0,False,1.0
+"['birth_place', 'first_name', 'last_name', 'register_date']->ethnic",-575.044379933588,0.17594068212830105,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'last_name', 'register_date']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'register_date']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'register_date']->street_address",1.0,-1.1158629575902523e-11,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'register_date']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'register_date']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'register_date']->zip_code",1.0,-3.872457909892546e-13,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'register_date']->city",1.0,-2.156053113822054e-13,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'register_date']->age",1.0,3.3306690738754696e-13,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'register_date']->birth_place",1.0,1.6542323066914832e-14,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'register_date']->ethnic",1.0,-1.2212453270876722e-14,1.0,1.0,1.0,True,1.0
+"['first_name', 'last_name', 'zip_code']->register_date",1.0,0.0006242939670708658,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name', 'zip_code']->birth_place",-188.96546599055776,0.00114683221826406,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name', 'zip_code']->ethnic",1.0,0.0012937880855152795,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'last_name', 'zip_code']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'zip_code']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'zip_code']->street_address",1.0,-1.1158629575902523e-11,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'zip_code']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'zip_code']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name', 'zip_code']->age",1.0,3.3306690738754696e-13,1.0,1.0,1.0,True,1.0
+"['first_name', 'last_name', 'race', 'zip_code']->voter_id",1.0,0.00020072653336455915,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name', 'race', 'zip_code']->voter_reg_num",1.0,0.00020072653336455915,1.0,1.0,1.0,False,1.0
+"['first_name', 'last_name', 'race', 'zip_code']->age",1.0,0.00038632635205537724,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'last_name']->birth_place",-93.98273299527888,0.0022936644365117997,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'first_name', 'last_name']->full_phone_num",-612.1969309462916,0.00021620695482604813,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->street_address",1.0,-1.1158629575902523e-11,1.0,1.0,1.0,True,1.0
+"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->zip_code",1.0,-3.872457909892546e-13,1.0,1.0,1.0,True,1.0
+"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->age",1.0,3.3306690738754696e-13,1.0,1.0,1.0,True,1.0
+"['city', 'ethnic', 'first_name', 'last_name']->register_date",1.0,0.0009364409510947969,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'last_name']->voter_id",1.0,0.00020072653336455915,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'last_name']->voter_reg_num",1.0,0.00020072653336455915,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'last_name']->register_date",1.0,0.0003121469830604795,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'last_name']->zip_code",1.0,0.0002856756849223263,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'last_name']->city",1.0,0.0003013719306523832,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'last_name']->birth_place",-378.9309319811155,0.0005734161091399681,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'last_name']->ethnic",1.0,0.0006468940427514225,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'first_name', 'last_name']->street_address",1.0,-1.1158629575902523e-11,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'first_name', 'last_name']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'first_name', 'last_name']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['download_month', 'first_name', 'last_name']->race",1.0,0.0019275249142903794,1.0,1.0,1.0,False,1.0
+"['last_name', 'middle_name']->name_suffix",-58.88441126383225,0.15118001764733535,1.0,1.0,1.0,False,1.0
+"['full_phone_num', 'last_name', 'middle_name']->race",-670.8533138481145,0.6590000000000051,1.0,1.0,1.0,False,1.0
+"['full_phone_num', 'last_name', 'middle_name', 'zip_code']->birth_place",-753.403086203882,0.6590000000000027,1.0,1.0,1.0,False,1.0
+"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'zip_code']->street_address",-658.0606942781518,0.6590000000021772,1.0,1.0,1.0,False,1.0
+"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'zip_code']->age",-692.7792437718671,0.6589999999999554,1.0,1.0,1.0,False,1.0
+"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix', 'zip_code']->voter_id",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix', 'zip_code']->voter_reg_num",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix', 'zip_code']->first_name",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix', 'zip_code']->register_date",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->voter_id",1.0,0.6590000000022653,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->voter_reg_num",1.0,0.6590000000022653,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->street_address",1.0,0.6590000000021772,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->first_name",1.0,0.6590000000006189,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->register_date",1.0,0.6589999999998513,1.0,1.0,1.0,True,1.0
+"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->age",1.0,0.6589999999999554,1.0,1.0,1.0,True,1.0
+"['city', 'full_phone_num', 'last_name', 'middle_name']->birth_place",-753.403086203882,0.6590000000000027,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name']->street_address",-658.0606942781518,0.6590000000021772,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name']->age",-692.7792437718671,0.6589999999999554,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix']->voter_id",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix']->voter_reg_num",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix']->first_name",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix']->register_date",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->voter_id",1.0,0.6590000000022653,1.0,1.0,1.0,True,1.0
+"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->voter_reg_num",1.0,0.6590000000022653,1.0,1.0,1.0,True,1.0
+"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->street_address",1.0,0.6590000000021772,1.0,1.0,1.0,True,1.0
+"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->first_name",1.0,0.6590000000006189,1.0,1.0,1.0,True,1.0
+"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->register_date",1.0,0.6589999999998513,1.0,1.0,1.0,True,1.0
+"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->age",1.0,0.6589999999999554,1.0,1.0,1.0,True,1.0
+"['birth_place', 'full_phone_num', 'last_name', 'middle_name']->ethnic",-1714.7183902332304,0.6909999999999962,1.0,1.0,1.0,False,1.0
+"['birth_place', 'full_phone_num', 'gender', 'last_name', 'middle_name']->download_month",-677.5964256925469,0.6909999999999975,1.0,1.0,1.0,False,1.0
+"['download_month', 'full_phone_num', 'last_name', 'middle_name']->ethnic",-1308.011194400809,0.6589999999999949,1.0,1.0,1.0,False,1.0
+"['full_phone_num', 'gender', 'last_name', 'middle_name']->name_prefix",-331.90969116485917,0.6589999999999984,1.0,1.0,1.0,False,1.0
+"['ethnic', 'full_phone_num', 'gender', 'last_name', 'middle_name']->download_month",-646.1708314491872,0.6589999999999974,1.0,1.0,1.0,False,1.0
+"['last_name', 'middle_name', 'register_date']->first_name",-148.66517857142858,0.1492416403039163,1.0,1.0,1.0,False,1.0
+"['last_name', 'middle_name', 'register_date']->full_phone_num",-659.2888521137356,0.14921620695218196,1.0,1.0,1.0,False,1.0
+"['last_name', 'middle_name', 'register_date']->race",-1062.3429534803995,0.1496425083047751,1.0,1.0,1.0,False,1.0
+"['last_name', 'middle_name', 'register_date']->gender",-308.637922642004,0.14996821651753922,1.0,1.0,1.0,False,1.0
+"['last_name', 'middle_name', 'register_date']->name_prefix",-971.7361246348588,0.14937382201746252,1.0,1.0,1.0,False,1.0
+"['last_name', 'middle_name', 'register_date', 'zip_code']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['last_name', 'middle_name', 'register_date', 'zip_code']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['last_name', 'middle_name', 'register_date', 'zip_code']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['last_name', 'middle_name', 'register_date', 'zip_code']->age",1.0,0.1490000000004923,1.0,1.0,1.0,True,1.0
+"['last_name', 'middle_name', 'register_date', 'zip_code']->birth_place",1.0,0.14900000000002167,1.0,1.0,1.0,True,1.0
+"['last_name', 'middle_name', 'register_date', 'zip_code']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['city', 'last_name', 'middle_name', 'register_date']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['city', 'last_name', 'middle_name', 'register_date']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['city', 'last_name', 'middle_name', 'register_date']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['city', 'last_name', 'middle_name', 'register_date']->age",1.0,0.1490000000004923,1.0,1.0,1.0,True,1.0
+"['city', 'last_name', 'middle_name', 'register_date']->birth_place",1.0,0.14900000000002167,1.0,1.0,1.0,True,1.0
+"['city', 'last_name', 'middle_name', 'register_date']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['age', 'last_name', 'middle_name', 'register_date']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'last_name', 'middle_name', 'register_date']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['birth_place', 'last_name', 'middle_name', 'register_date']->voter_id",1.0,0.2879999999955333,1.0,1.0,1.0,True,1.0
+"['birth_place', 'last_name', 'middle_name', 'register_date']->voter_reg_num",1.0,0.2879999999955333,1.0,1.0,1.0,True,1.0
+"['birth_place', 'last_name', 'middle_name', 'register_date']->street_address",1.0,0.2879999999958778,1.0,1.0,1.0,True,1.0
+"['birth_place', 'last_name', 'middle_name', 'register_date']->zip_code",1.0,0.2880000000006352,1.0,1.0,1.0,True,1.0
+"['birth_place', 'last_name', 'middle_name', 'register_date']->city",1.0,0.28800000000077,1.0,1.0,1.0,True,1.0
+"['birth_place', 'last_name', 'middle_name', 'register_date']->age",1.0,0.2880000000003855,1.0,1.0,1.0,True,1.0
+"['birth_place', 'last_name', 'middle_name', 'register_date']->download_month",1.0,0.2879999999999817,1.0,1.0,1.0,True,1.0
+"['birth_place', 'last_name', 'middle_name', 'register_date']->ethnic",1.0,0.28800000000000825,1.0,1.0,1.0,True,1.0
+"['download_month', 'last_name', 'middle_name', 'register_date']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['download_month', 'last_name', 'middle_name', 'register_date']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['download_month', 'last_name', 'middle_name', 'register_date']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['download_month', 'last_name', 'middle_name', 'register_date']->zip_code",1.0,0.14900000000014169,1.0,1.0,1.0,True,1.0
+"['download_month', 'last_name', 'middle_name', 'register_date']->city",1.0,0.14900000000029434,1.0,1.0,1.0,True,1.0
+"['download_month', 'last_name', 'middle_name', 'register_date']->age",1.0,0.1490000000004923,1.0,1.0,1.0,True,1.0
+"['download_month', 'last_name', 'middle_name', 'register_date']->birth_place",1.0,0.14900000000002167,1.0,1.0,1.0,True,1.0
+"['download_month', 'last_name', 'middle_name', 'register_date']->ethnic",1.0,0.1490000000000068,1.0,1.0,1.0,True,1.0
+"['ethnic', 'last_name', 'middle_name', 'register_date']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['ethnic', 'last_name', 'middle_name', 'register_date']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['ethnic', 'last_name', 'middle_name', 'register_date']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['ethnic', 'last_name', 'middle_name', 'register_date']->zip_code",1.0,0.14900000000014169,1.0,1.0,1.0,True,1.0
+"['ethnic', 'last_name', 'middle_name', 'register_date']->city",1.0,0.14900000000029434,1.0,1.0,1.0,True,1.0
+"['ethnic', 'last_name', 'middle_name', 'register_date']->age",1.0,0.1490000000004923,1.0,1.0,1.0,True,1.0
+"['ethnic', 'last_name', 'middle_name', 'register_date']->birth_place",1.0,0.14900000000002167,1.0,1.0,1.0,True,1.0
+"['ethnic', 'last_name', 'middle_name', 'register_date']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['last_name', 'middle_name', 'zip_code']->ethnic",-368.95953711252,0.14964689404277043,1.0,1.0,1.0,False,1.0
+"['birth_place', 'last_name', 'middle_name', 'zip_code']->race",-684.106869356499,0.2886425083047711,1.0,1.0,1.0,False,1.0
+"['download_month', 'last_name', 'middle_name', 'zip_code']->birth_place",-313.42559888092336,0.1495734161091451,1.0,1.0,1.0,False,1.0
+"['download_month', 'last_name', 'middle_name', 'name_prefix', 'zip_code']->gender",-2020.997978058187,0.973,1.0,1.0,1.0,False,1.0
+"['last_name', 'middle_name', 'race', 'zip_code']->birth_place",-208.61706592061557,0.1495734161091451,1.0,1.0,1.0,False,1.0
+"['gender', 'last_name', 'middle_name', 'zip_code']->birth_place",-627.8511977618467,0.14900000000002167,1.0,1.0,1.0,False,1.0
+"['gender', 'last_name', 'middle_name', 'zip_code']->download_month",-291.65084639128645,0.1489999999999736,1.0,1.0,1.0,False,1.0
+"['gender', 'last_name', 'middle_name', 'zip_code']->race",-1062.3429534803995,0.14900000000001945,1.0,1.0,1.0,False,1.0
+"['gender', 'last_name', 'middle_name', 'zip_code']->name_prefix",-971.7361246348588,0.14900000000001423,1.0,1.0,1.0,False,1.0
+"['city', 'last_name', 'middle_name']->zip_code",-36.754910514995345,0.14928567568545137,1.0,1.0,1.0,False,1.0
+"['city', 'last_name', 'middle_name']->ethnic",-368.95953711252,0.14964689404277043,1.0,1.0,1.0,False,1.0
+"['birth_place', 'city', 'last_name', 'middle_name']->race",-684.106869356499,0.2886425083047711,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'last_name', 'middle_name']->birth_place",-313.42559888092336,0.1495734161091451,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'last_name', 'middle_name', 'name_prefix']->gender",-2020.997978058187,0.973,1.0,1.0,1.0,False,1.0
+"['city', 'last_name', 'middle_name', 'race']->birth_place",-208.61706592061557,0.1495734161091451,1.0,1.0,1.0,False,1.0
+"['city', 'gender', 'last_name', 'middle_name']->birth_place",-627.8511977618467,0.14900000000002167,1.0,1.0,1.0,False,1.0
+"['city', 'gender', 'last_name', 'middle_name']->download_month",-291.65084639128645,0.1489999999999736,1.0,1.0,1.0,False,1.0
+"['city', 'gender', 'last_name', 'middle_name']->race",-1062.3429534803995,0.14900000000001945,1.0,1.0,1.0,False,1.0
+"['city', 'gender', 'last_name', 'middle_name']->name_prefix",-971.7361246348588,0.14900000000001423,1.0,1.0,1.0,False,1.0
+"['age', 'last_name', 'middle_name']->street_address",-148.01372298550018,0.14920243038675407,1.0,1.0,1.0,False,1.0
+"['age', 'last_name', 'middle_name']->full_phone_num",-659.2888521137356,0.14921620695218196,1.0,1.0,1.0,False,1.0
+"['age', 'last_name', 'middle_name']->zip_code",-150.01964205998138,0.14928567568545137,1.0,1.0,1.0,False,1.0
+"['age', 'last_name', 'middle_name']->city",-151.5691091909843,0.14930137193116222,1.0,1.0,1.0,False,1.0
+"['age', 'last_name', 'middle_name']->birth_place",-627.8511977618467,0.1495734161091451,1.0,1.0,1.0,False,1.0
+"['age', 'last_name', 'middle_name']->download_month",-291.65084639128645,0.14993836459354226,1.0,1.0,1.0,False,1.0
+"['age', 'last_name', 'middle_name']->ethnic",-1478.83814845008,0.14964689404277043,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'last_name', 'middle_name']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'last_name', 'middle_name']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'last_name', 'middle_name']->first_name",1.0,0.14899999999877378,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'last_name', 'middle_name']->register_date",1.0,0.149000000000446,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'last_name', 'middle_name']->name_prefix",1.0,0.14900000000001423,1.0,1.0,1.0,True,1.0
+"['age', 'last_name', 'middle_name', 'name_prefix']->voter_id",1.0,0.9729999999999989,1.0,1.0,1.0,True,1.0
+"['age', 'last_name', 'middle_name', 'name_prefix']->voter_reg_num",1.0,0.9729999999999989,1.0,1.0,1.0,True,1.0
+"['age', 'last_name', 'middle_name', 'name_prefix']->first_name",1.0,0.972999999999997,1.0,1.0,1.0,True,1.0
+"['age', 'last_name', 'middle_name', 'name_prefix']->register_date",1.0,0.972999999999998,1.0,1.0,1.0,True,1.0
+"['age', 'last_name', 'middle_name', 'name_prefix']->gender",1.0,0.973,1.0,1.0,1.0,True,1.0
+"['birth_place', 'download_month', 'last_name', 'middle_name', 'name_prefix']->gender",-403.81521698431123,0.974,1.0,1.0,1.0,False,1.0
+"['birth_place', 'last_name', 'middle_name', 'race']->ethnic",-316.81758892887626,0.2892937880855355,1.0,1.0,1.0,False,1.0
+"['birth_place', 'ethnic', 'last_name', 'middle_name']->race",-227.36895645216634,0.28928501660952666,1.0,1.0,1.0,False,1.0
+"['download_month', 'last_name', 'middle_name', 'race']->ethnic",-146.98381484500803,0.15158757617106156,1.0,1.0,1.0,False,1.0
+"['download_month', 'gender', 'last_name', 'middle_name']->birth_place",-103.80853296030779,0.1501468322182692,1.0,1.0,1.0,False,1.0
+"['download_month', 'ethnic', 'last_name', 'middle_name']->race",-105.33429534803996,0.15157003321904183,1.0,1.0,1.0,False,1.0
+"['ethnic', 'gender', 'last_name', 'middle_name']->birth_place",-88.83588539454954,0.1495734161091451,1.0,1.0,1.0,False,1.0
+"['ethnic', 'gender', 'last_name', 'middle_name']->race",-150.90613621148566,0.1496425083047751,1.0,1.0,1.0,False,1.0
+"['full_phone_num', 'gender', 'last_name', 'register_date', 'zip_code']->birth_place",-281.983038992831,0.6120000000000116,1.0,1.0,1.0,False,1.0
+"['city', 'full_phone_num', 'last_name', 'name_suffix', 'register_date']->ethnic",-405.7899608295382,0.983,1.0,1.0,1.0,False,1.0
+"['city', 'full_phone_num', 'gender', 'last_name', 'register_date']->birth_place",-234.81919916069248,0.6120000000000116,1.0,1.0,1.0,False,1.0
+"['city', 'full_phone_num', 'gender', 'last_name', 'register_date']->ethnic",-1012.043564710793,0.6119999999999931,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'last_name', 'register_date']->street_address",-305.0281827755909,0.6120000000030494,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'last_name', 'register_date']->zip_code",-309.14772127754554,0.6120000000002999,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'last_name', 'register_date']->city",-312.3298484056456,0.6120000000001997,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'last_name', 'register_date']->birth_place",-706.4575974820774,0.6120000000000116,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'full_phone_num', 'last_name', 'register_date']->voter_id",1.0,0.6120000000031642,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'full_phone_num', 'last_name', 'register_date']->voter_reg_num",1.0,0.6120000000031642,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'full_phone_num', 'last_name', 'register_date']->first_name",1.0,0.6120000000010125,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'full_phone_num', 'last_name', 'register_date']->middle_name",1.0,0.6120000000006709,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'last_name', 'register_date']->voter_id",1.0,0.6120000000031642,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'last_name', 'register_date']->voter_reg_num",1.0,0.6120000000031642,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'last_name', 'register_date']->first_name",1.0,0.6120000000010125,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'last_name', 'register_date']->middle_name",1.0,0.6120000000006709,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'last_name', 'register_date']->download_month",1.0,0.611999999999997,1.0,1.0,1.0,True,1.0
+"['birth_place', 'full_phone_num', 'last_name', 'register_date']->race",-143.5147302548865,0.6499275249142722,1.0,1.0,1.0,False,1.0
+"['birth_place', 'full_phone_num', 'last_name', 'name_suffix', 'register_date']->ethnic",-324.4319686636305,0.983,1.0,1.0,1.0,False,1.0
+"['birth_place', 'full_phone_num', 'gender', 'last_name', 'register_date']->name_suffix",-88.37768270616375,0.6480000000000035,1.0,1.0,1.0,False,1.0
+"['birth_place', 'full_phone_num', 'gender', 'last_name', 'register_date']->ethnic",-584.0732887099767,0.6479999999999945,1.0,1.0,1.0,False,1.0
+"['download_month', 'full_phone_num', 'last_name', 'register_date']->ethnic",-288.44101848879797,0.6132937880855205,1.0,1.0,1.0,False,1.0
+"['download_month', 'full_phone_num', 'gender', 'last_name', 'name_suffix', 'race', 'register_date']->birth_place",-535.5978536457424,0.983,1.0,1.0,1.0,False,1.0
+"['full_phone_num', 'last_name', 'zip_code']->race",-73.02637783301154,0.6164975581332957,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'full_phone_num', 'last_name', 'zip_code']->street_address",-305.0281827755909,0.6120000000030494,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'zip_code']->middle_name",-662.3232207107586,0.6120000000006709,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix', 'zip_code']->voter_id",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix', 'zip_code']->voter_reg_num",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix', 'zip_code']->first_name",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix', 'zip_code']->register_date",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix', 'zip_code']->gender",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'last_name', 'zip_code']->street_address",1.0,0.6120000000030494,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'last_name', 'zip_code']->middle_name",1.0,0.6120000000006709,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'last_name', 'zip_code']->download_month",1.0,0.611999999999997,1.0,1.0,1.0,True,1.0
+"['download_month', 'full_phone_num', 'last_name', 'zip_code']->name_suffix",-28.792560902054586,0.6134533450982279,1.0,1.0,1.0,False,1.0
+"['city', 'full_phone_num', 'last_name']->race",-69.44445632496259,0.6164975581332957,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name']->street_address",-611.0563655511818,0.6120000000030494,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name']->middle_name",-662.3232207107586,0.6120000000006709,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix']->voter_id",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix']->voter_reg_num",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix']->first_name",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix']->register_date",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix']->gender",1.0,0.999,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'full_phone_num', 'gender', 'last_name']->street_address",1.0,0.6120000000030494,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'full_phone_num', 'gender', 'last_name']->middle_name",1.0,0.6120000000006709,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'full_phone_num', 'gender', 'last_name']->download_month",1.0,0.611999999999997,1.0,1.0,1.0,True,1.0
+"['city', 'download_month', 'full_phone_num', 'last_name']->name_suffix",-27.090128850508613,0.6134533450982279,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->voter_id",1.0,0.6480000000024757,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->voter_reg_num",1.0,0.6480000000024757,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->street_address",1.0,0.6480000000023813,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->first_name",1.0,0.648000000000711,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->middle_name",1.0,0.6480000000002941,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->register_date",1.0,0.6479999999999375,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->zip_code",1.0,0.6480000000001476,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->city",1.0,0.648000000000059,1.0,1.0,1.0,True,1.0
+"['age', 'full_phone_num', 'gender', 'last_name']->name_suffix",-162.85908496130023,0.6120000000000048,1.0,1.0,1.0,False,1.0
+"['age', 'last_name', 'register_date', 'zip_code']->birth_place",-125.64364399370517,0.0017202483273874858,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->street_address",1.0,-1.1158629575902523e-11,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->first_name",1.0,-2.6489921367556235e-12,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['download_month', 'last_name', 'register_date', 'zip_code']->name_suffix",-72.47308528274905,0.004723371569222312,1.0,1.0,1.0,False,1.0
+"['download_month', 'last_name', 'register_date', 'zip_code']->ethnic",1.0,0.008409622555916263,1.0,1.0,1.0,False,1.0
+"['download_month', 'gender', 'last_name', 'register_date', 'zip_code']->full_phone_num",-305.5984654731458,0.0004324139029270313,1.0,1.0,1.0,False,1.0
+"['download_month', 'gender', 'last_name', 'register_date', 'zip_code']->birth_place",-188.96546599055776,0.00114683221826406,1.0,1.0,1.0,False,1.0
+"['last_name', 'name_suffix', 'register_date', 'zip_code']->ethnic",-337.7453096284339,0.9550000000000001,1.0,1.0,1.0,False,1.0
+"['ethnic', 'last_name', 'register_date', 'zip_code']->name_suffix",-33.11250388127635,0.010304968315456242,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'last_name', 'register_date']->zip_code",1.0,0.0008570270555474657,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'last_name', 'register_date']->birth_place",-125.64364399370517,0.0017202483273874858,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'download_month', 'last_name', 'register_date']->voter_id",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'last_name', 'register_date']->voter_reg_num",1.0,-1.1782130826532011e-11,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'last_name', 'register_date']->street_address",1.0,-1.1158629575902523e-11,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'last_name', 'register_date']->first_name",1.0,-2.6489921367556235e-12,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'last_name', 'register_date']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'last_name', 'register_date']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['city', 'download_month', 'last_name', 'register_date']->zip_code",1.0,0.003713783908664281,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'last_name', 'register_date']->name_suffix",-72.47308528274905,0.004723371569222312,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'last_name', 'register_date']->ethnic",1.0,0.008409622555916263,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'gender', 'last_name', 'register_date']->full_phone_num",-305.5984654731458,0.0004324139029270313,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'gender', 'last_name', 'register_date']->birth_place",-188.96546599055776,0.00114683221826406,1.0,1.0,1.0,False,1.0
+"['city', 'ethnic', 'last_name', 'register_date']->name_suffix",-30.838336955857923,0.011031640864567982,1.0,1.0,1.0,False,1.0
+"['age', 'last_name', 'register_date']->name_suffix",-190.03002173514756,0.0018166813727756859,1.0,1.0,1.0,False,1.0
+"['age', 'last_name', 'register_date']->ethnic",1.0,0.0032344702138064063,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'last_name', 'register_date']->birth_place",-378.9309319811155,0.0005734161091399681,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'last_name', 'register_date']->gender",1.0,0.0009682165175473045,1.0,1.0,1.0,False,1.0
+"['birth_place', 'download_month', 'last_name', 'register_date']->name_suffix",-38.96461405846564,0.181398278119014,1.0,1.0,1.0,False,1.0
+"['birth_place', 'download_month', 'last_name', 'register_date']->ethnic",-71.0055474916985,0.1869818455641754,1.0,1.0,1.0,False,1.0
+"['download_month', 'last_name', 'register_date']->name_prefix",-26.79246070385311,0.01335383821567071,1.0,1.0,1.0,False,1.0
+"['gender', 'last_name', 'register_date']->name_prefix",-26.79246070385311,0.013488872018152631,1.0,1.0,1.0,False,1.0
+"['last_name', 'zip_code']->city",1.0,0.02641043650331698,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'last_name', 'zip_code']->birth_place",-125.64364399370517,0.0017202483273874858,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'gender', 'last_name', 'zip_code']->street_address",1.0,-1.1158629575902523e-11,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'gender', 'last_name', 'zip_code']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'gender', 'last_name', 'zip_code']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['age', 'gender', 'last_name', 'zip_code']->voter_id",1.0,0.00020072653336455915,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'last_name', 'zip_code']->voter_reg_num",1.0,0.00020072653336455915,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'last_name', 'zip_code']->first_name",1.0,0.00024164030249462787,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'last_name', 'zip_code']->register_date",1.0,0.0003121469830604795,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'last_name', 'zip_code']->birth_place",-378.9309319811155,0.0005734161091399681,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'last_name', 'zip_code']->name_prefix",-971.7361246348588,0.00037382201746860577,1.0,1.0,1.0,False,1.0
+"['download_month', 'last_name', 'zip_code']->race",1.0,0.031577761722540565,1.0,1.0,1.0,False,1.0
+"['gender', 'last_name', 'zip_code']->name_suffix",-28.848440896116806,0.012021418669472594,1.0,1.0,1.0,False,1.0
+"['gender', 'last_name', 'zip_code']->ethnic",1.0,0.020832503495099686,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'download_month', 'last_name']->birth_place",-93.98273299527888,0.0022936644365117997,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'download_month', 'gender', 'last_name']->street_address",1.0,-1.1158629575902523e-11,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'gender', 'last_name']->middle_name",1.0,-2.2730706206175455e-12,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'gender', 'last_name']->full_phone_num",1.0,6.7231775702225605e-12,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'gender', 'last_name']->voter_id",1.0,0.00020072653336455915,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'gender', 'last_name']->voter_reg_num",1.0,0.00020072653336455915,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'gender', 'last_name']->first_name",1.0,0.00024164030249462787,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'gender', 'last_name']->register_date",1.0,0.0003121469830604795,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'gender', 'last_name']->zip_code",1.0,0.0002856756849223263,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'gender', 'last_name']->birth_place",-378.9309319811155,0.0005734161091399681,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'gender', 'last_name']->name_prefix",-971.7361246348588,0.00037382201746860577,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'ethnic', 'last_name']->zip_code",1.0,0.003142432538046247,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'last_name']->race",1.0,0.0335527140315538,1.0,1.0,1.0,False,1.0
+"['city', 'gender', 'last_name']->name_suffix",-23.49102842758302,0.014564772591363462,1.0,1.0,1.0,False,1.0
+"['age', 'last_name']->race",1.0,0.028515388488961846,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'last_name']->name_suffix",-38.79792119482241,0.00898317584512931,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'gender', 'last_name']->name_prefix",-96.27361246348589,0.0038732539769841257,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'last_name']->ethnic",1.0,0.01298184556415316,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'full_phone_num', 'middle_name']->race",-1566.657732312267,0.6590000000000051,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'first_name', 'full_phone_num', 'middle_name']->birth_place",-1507.806172407764,0.6590000000000027,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->voter_id",1.0,0.6590000000022653,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->voter_reg_num",1.0,0.6590000000022653,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->street_address",1.0,0.6590000000021772,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->last_name",1.0,0.6590000000011844,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->register_date",1.0,0.6589999999998513,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->zip_code",1.0,0.6590000000001011,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->city",1.0,0.6590000000000159,1.0,1.0,1.0,True,1.0
+"['birth_place', 'download_month', 'first_name', 'full_phone_num', 'middle_name']->gender",-178.4964803235107,0.6909999999999994,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'full_phone_num', 'middle_name']->name_prefix",-70.3377909638984,0.6589999999999984,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'register_date']->full_phone_num",-131.05777042274713,0.14964862084838393,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'register_date']->name_suffix",-190.63011604426322,0.15009000882366774,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'register_date']->gender",-60.92758452840081,0.1519046495525821,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'register_date']->name_prefix",-193.54722492697178,0.15012146605235888,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'register_date', 'zip_code']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['first_name', 'middle_name', 'register_date', 'zip_code']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['first_name', 'middle_name', 'register_date', 'zip_code']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['first_name', 'middle_name', 'register_date', 'zip_code']->last_name",1.0,0.14899999999674596,1.0,1.0,1.0,True,1.0
+"['first_name', 'middle_name', 'register_date', 'zip_code']->age",1.0,0.1490000000004923,1.0,1.0,1.0,True,1.0
+"['first_name', 'middle_name', 'register_date', 'zip_code']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'middle_name', 'register_date']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'middle_name', 'register_date']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'middle_name', 'register_date']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'middle_name', 'register_date']->last_name",1.0,0.14899999999674596,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'middle_name', 'register_date']->age",1.0,0.1490000000004923,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'middle_name', 'register_date']->birth_place",1.0,0.14900000000002167,1.0,1.0,1.0,True,1.0
+"['city', 'first_name', 'middle_name', 'register_date']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'middle_name', 'register_date']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'middle_name', 'register_date']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'middle_name', 'register_date']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'middle_name', 'register_date']->last_name",1.0,0.14899999999674596,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'middle_name', 'register_date']->zip_code",1.0,0.14900000000014169,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'middle_name', 'register_date']->city",1.0,0.14900000000029434,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'middle_name', 'register_date']->birth_place",1.0,0.14900000000002167,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'middle_name', 'register_date']->download_month",1.0,0.1489999999999736,1.0,1.0,1.0,True,1.0
+"['age', 'first_name', 'middle_name', 'register_date']->ethnic",1.0,0.1490000000000068,1.0,1.0,1.0,True,1.0
+"['birth_place', 'first_name', 'middle_name', 'register_date']->ethnic",-952.4527667866288,0.2892937880855355,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'middle_name', 'register_date']->ethnic",-492.2793828166934,0.15029378808553429,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'zip_code']->full_phone_num",-329.1444260568678,0.14943241390028306,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'zip_code']->race",-530.6714767401998,0.15028501660953064,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'zip_code']->name_suffix",-478.075290110658,0.14972667254911187,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'zip_code']->gender",-153.818961321002,0.15093643303506077,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'zip_code']->ethnic",-738.91907422504,0.15029378808553429,1.0,1.0,1.0,False,1.0
+"['first_name', 'middle_name', 'zip_code']->name_prefix",-485.3680623174294,0.1497476440349106,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'first_name', 'middle_name', 'zip_code']->voter_id",1.0,0.2879999999955333,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'first_name', 'middle_name', 'zip_code']->voter_reg_num",1.0,0.2879999999955333,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'first_name', 'middle_name', 'zip_code']->street_address",1.0,0.2879999999958778,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'first_name', 'middle_name', 'zip_code']->last_name",1.0,0.2879999999986689,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'first_name', 'middle_name', 'zip_code']->register_date",1.0,0.2880000000017451,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'first_name', 'middle_name', 'zip_code']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'first_name', 'middle_name', 'zip_code']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'first_name', 'middle_name', 'zip_code']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'first_name', 'middle_name', 'zip_code']->last_name",1.0,0.14899999999674596,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'first_name', 'middle_name', 'zip_code']->register_date",1.0,0.149000000000446,1.0,1.0,1.0,True,1.0
+"['birth_place', 'first_name', 'middle_name', 'zip_code']->download_month",-564.6606963804733,0.2879999999999817,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'middle_name', 'zip_code']->birth_place",-627.8511977618467,0.1495734161091451,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'middle_name']->full_phone_num",-329.1444260568678,0.14943241390028306,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'middle_name']->zip_code",-74.50982102999069,0.14957135137075883,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'middle_name']->race",-530.6714767401998,0.15028501660953064,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'middle_name']->name_suffix",-478.075290110658,0.14972667254911187,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'middle_name']->gender",-153.818961321002,0.15093643303506077,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'middle_name']->ethnic",-738.91907422504,0.15029378808553429,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'middle_name']->name_prefix",-485.3680623174294,0.1497476440349106,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'city', 'first_name', 'middle_name']->voter_id",1.0,0.2879999999955333,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'city', 'first_name', 'middle_name']->voter_reg_num",1.0,0.2879999999955333,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'city', 'first_name', 'middle_name']->street_address",1.0,0.2879999999958778,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'city', 'first_name', 'middle_name']->last_name",1.0,0.2879999999986689,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'city', 'first_name', 'middle_name']->register_date",1.0,0.2880000000017451,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'first_name', 'middle_name']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'first_name', 'middle_name']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'first_name', 'middle_name']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'first_name', 'middle_name']->last_name",1.0,0.14899999999674596,1.0,1.0,1.0,True,1.0
+"['age', 'city', 'download_month', 'first_name', 'middle_name']->register_date",1.0,0.149000000000446,1.0,1.0,1.0,True,1.0
+"['birth_place', 'city', 'first_name', 'middle_name']->download_month",-564.6606963804733,0.2879999999999817,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'first_name', 'middle_name']->birth_place",-627.8511977618467,0.1495734161091451,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'middle_name']->name_suffix",-190.63011604426322,0.15009000882366774,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'middle_name']->gender",-60.92758452840081,0.1519046495525821,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'middle_name']->name_prefix",-193.54722492697178,0.15012146605235888,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'first_name', 'middle_name']->full_phone_num",-345.1757183691891,0.2882162069497154,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'first_name', 'middle_name']->race",-1026.6603040347486,0.2886425083047711,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->voter_id",1.0,0.2879999999955333,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->voter_reg_num",1.0,0.2879999999955333,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->street_address",1.0,0.2879999999958778,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->last_name",1.0,0.2879999999986689,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->register_date",1.0,0.2880000000017451,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->zip_code",1.0,0.2880000000006352,1.0,1.0,1.0,True,1.0
+"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->city",1.0,0.28800000000077,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->voter_id",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->voter_reg_num",1.0,0.14899999999200264,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->street_address",1.0,0.14899999999248625,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->last_name",1.0,0.14899999999674596,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->register_date",1.0,0.149000000000446,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->zip_code",1.0,0.14900000000014169,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->city",1.0,0.14900000000029434,1.0,1.0,1.0,True,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->birth_place",1.0,0.14900000000002167,1.0,1.0,1.0,True,1.0
+"['age', 'ethnic', 'first_name', 'middle_name', 'race']->full_phone_num",-329.1444260568678,0.14921620695218196,1.0,1.0,1.0,False,1.0
+"['birth_place', 'download_month', 'first_name', 'middle_name', 'race']->gender",-58.84947766503165,0.29380929910513875,1.0,1.0,1.0,False,1.0
+"['birth_place', 'download_month', 'first_name', 'middle_name', 'name_suffix']->gender",-198.70606956977574,0.961,1.0,1.0,1.0,False,1.0
+"['birth_place', 'first_name', 'middle_name', 'name_prefix']->gender",-87.00330804006765,0.974,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'middle_name', 'race']->name_prefix",-45.32076783975518,0.15348586420939248,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'middle_name', 'name_suffix']->name_prefix",-42.46646966508149,0.958,1.0,1.0,1.0,False,1.0
+"['first_name', 'gender', 'middle_name']->name_prefix",-21.621770340345552,0.15759790640132254,1.0,1.0,1.0,False,1.0
+"['first_name', 'full_phone_num', 'register_date', 'zip_code']->age",-643.2987817729629,0.6119999999999435,1.0,1.0,1.0,False,1.0
+"['first_name', 'full_phone_num', 'register_date', 'zip_code']->download_month",-1201.0289798085053,0.611999999999997,1.0,1.0,1.0,False,1.0
+"['first_name', 'full_phone_num', 'register_date', 'zip_code']->race",-4366.55629214768,0.6120000000000064,1.0,1.0,1.0,False,1.0
+"['first_name', 'full_phone_num', 'register_date', 'zip_code']->ethnic",-6077.261388264758,0.6119999999999931,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'full_phone_num', 'register_date']->race",-726.9260486912801,0.6120000000000064,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'first_name', 'full_phone_num', 'register_date']->download_month",-600.0144899042526,0.611999999999997,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'first_name', 'full_phone_num', 'register_date']->ethnic",-2025.087129421586,0.6119999999999931,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'first_name', 'full_phone_num', 'name_prefix', 'register_date']->age",-524.8615057117565,0.999,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'first_name', 'full_phone_num', 'gender', 'register_date']->download_month",-423.2455222853548,0.6479999999999972,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'ethnic', 'first_name', 'full_phone_num', 'gender', 'register_date']->city",-330.76101595891885,0.648000000000059,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'ethnic', 'first_name', 'full_phone_num', 'name_prefix', 'register_date']->city",-510.4648996033332,0.999,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'first_name', 'full_phone_num', 'name_prefix', 'register_date']->download_month",-653.0451801899221,0.999,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'first_name', 'full_phone_num', 'register_date']->birth_place",-470.63839832138495,0.6120000000000116,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'first_name', 'full_phone_num', 'name_suffix', 'register_date']->city",-502.27326957965624,0.9829999999999997,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'register_date']->city",-312.3298484056456,0.6120000000001997,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'full_phone_num', 'name_suffix', 'register_date']->birth_place",-714.4638048609897,0.983,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'full_phone_num', 'gender', 'name_suffix', 'register_date']->city",-502.27326957965624,0.9829999999999997,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'full_phone_num', 'gender', 'name_suffix', 'register_date']->download_month",-964.3549731632032,0.983,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->city",-510.9768764798131,1.0,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->download_month",-981.0498201049882,1.0,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'full_phone_num', 'register_date']->gender",-56.80915456281465,0.6119999999999993,1.0,1.0,1.0,False,1.0
+"['first_name', 'full_phone_num', 'zip_code']->gender",-65.93691580957486,0.6129682165175208,1.0,1.0,1.0,False,1.0
+"['birth_place', 'first_name', 'full_phone_num', 'zip_code']->race",-329.3193834397406,0.648642508304761,1.0,1.0,1.0,False,1.0
+"['birth_place', 'download_month', 'first_name', 'full_phone_num', 'zip_code']->ethnic",-1071.6343626349574,0.6486468940427581,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'full_phone_num', 'race', 'zip_code']->ethnic",-758.7826735330948,0.6126468940427567,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'full_phone_num', 'name_suffix', 'zip_code']->ethnic",-1219.3698824886144,0.983,1.0,1.0,1.0,False,1.0
+"['first_name', 'full_phone_num', 'name_suffix', 'zip_code']->race",-388.7338267230547,0.983,1.0,1.0,1.0,False,1.0
+"['ethnic', 'first_name', 'full_phone_num', 'zip_code']->race",-255.9150760086871,0.612642508304762,1.0,1.0,1.0,False,1.0
+"['birth_place', 'city', 'first_name', 'full_phone_num']->race",-143.5147302548865,0.6492850166095165,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'full_phone_num', 'name_suffix']->race",-199.434539457571,0.983,1.0,1.0,1.0,False,1.0
+"['city', 'ethnic', 'first_name', 'full_phone_num']->race",-131.35019067114183,0.6132850166095176,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'full_phone_num', 'name_prefix']->gender",-61.90996231835713,0.999,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'first_name', 'full_phone_num']->race",-123.78732263279089,0.6120000000000064,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'full_phone_num', 'name_prefix']->gender",-42.25059909387053,0.999,1.0,1.0,1.0,False,1.0
+"['birth_place', 'download_month', 'first_name', 'full_phone_num', 'name_prefix', 'name_suffix', 'race']->gender",-17.89188057608322,1.0,1.0,1.0,1.0,False,1.0
+"['first_name', 'register_date', 'zip_code']->birth_place",-74.9861863962231,0.0028670805456356696,1.0,1.0,1.0,False,1.0
+"['first_name', 'register_date', 'zip_code']->name_suffix",-190.03002173514756,0.0018166813727756859,1.0,1.0,1.0,False,1.0
+"['first_name', 'register_date', 'zip_code']->gender",1.0,0.004841082587632939,1.0,1.0,1.0,False,1.0
+"['first_name', 'register_date', 'zip_code']->name_prefix",-193.54722492697178,0.0018691100872613164,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'register_date', 'zip_code']->race",1.0,0.0012850166095348392,1.0,1.0,1.0,False,1.0
+"['download_month', 'ethnic', 'first_name', 'register_date', 'zip_code']->full_phone_num",-612.1969309462916,0.00021620695482604813,1.0,1.0,1.0,False,1.0
+"['download_month', 'ethnic', 'first_name', 'register_date', 'zip_code']->age",1.0,0.00038632635205537724,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'register_date']->name_suffix",-72.47308528274905,0.004723371569222312,1.0,1.0,1.0,False,1.0
+"['city', 'first_name', 'register_date']->gender",1.0,0.012586814727803874,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'first_name', 'register_date']->birth_place",-125.64364399370517,0.0017202483273874858,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'first_name', 'register_date']->name_prefix",-323.24537487828627,0.00112146605236485,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'first_name', 'register_date']->birth_place",-62.321821996852584,0.0034404966547592064,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'first_name', 'register_date']->race",1.0,0.003855049828557222,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'register_date']->race",1.0,0.007067591352335256,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'ethnic', 'first_name', 'register_date']->name_suffix",-118.89384217539693,0.17690669019644756,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'first_name', 'register_date']->gender",1.0,0.005809299105154264,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'first_name', 'register_date']->name_prefix",-161.12268743914314,0.002242932104709494,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'ethnic', 'first_name', 'register_date']->name_suffix",-190.03002173514756,0.0018166813727756859,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'name_suffix', 'register_date']->ethnic",-1052.8742966217944,0.9550000000000001,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'gender', 'register_date']->name_prefix",-96.27361246348589,0.003738220174502205,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'name_prefix', 'register_date']->gender",-201.19979780581872,0.9749364330350428,1.0,1.0,1.0,False,1.0
+"['first_name', 'zip_code']->city",1.0,0.011548250204673094,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'zip_code']->race",1.0,0.007115018747081647,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'zip_code']->name_suffix",-85.8318280614307,0.00412825164800712,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'zip_code']->gender",1.0,0.010717128422096378,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'zip_code']->ethnic",1.0,0.007159799179279669,1.0,1.0,1.0,False,1.0
+"['age', 'first_name', 'zip_code']->name_prefix",-87.43055678498716,0.004247075994432303,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'first_name', 'zip_code']->full_phone_num",-152.2992327365729,0.0008648277991285536,1.0,1.0,1.0,False,1.0
+"['birth_place', 'first_name', 'zip_code']->name_suffix",-32.07416335873019,0.18306557577857097,1.0,1.0,1.0,False,1.0
+"['birth_place', 'download_month', 'first_name', 'zip_code']->race",-102.47968339238783,0.17983000213756561,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'zip_code']->name_prefix",-59.796007789678676,0.006116186081673303,1.0,1.0,1.0,False,1.0
+"['download_month', 'first_name', 'name_suffix', 'zip_code']->race",-453.35906960795586,0.9549999999999998,1.0,1.0,1.0,False,1.0
+"['download_month', 'ethnic', 'first_name', 'zip_code']->race",1.0,0.008995116266601988,1.0,1.0,1.0,False,1.0
+"['first_name', 'race', 'zip_code']->name_suffix",-27.09265025516876,0.012830491152021284,1.0,1.0,1.0,False,1.0
+"['ethnic', 'first_name', 'zip_code']->name_suffix",-28.848440896116806,0.011889866041576158,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'first_name']->race",1.0,0.01334300007652689,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'first_name']->name_suffix",-46.75750543378689,0.008362371100145594,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'first_name']->ethnic",1.0,0.013421300413065995,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'download_month', 'first_name']->full_phone_num",-75.64961636828644,0.001971917997812711,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'first_name', 'gender']->name_prefix",-59.796007789678676,0.006615470945802504,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'first_name', 'name_prefix']->gender",-125.37487362863669,0.9789942181376219,1.0,1.0,1.0,False,1.0
+"['birth_place', 'city', 'download_month', 'first_name']->race",-50.73984169619391,0.18773769747957836,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'first_name', 'name_suffix']->race",-234.0133118661841,0.9549999999999998,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'ethnic', 'first_name']->race",1.0,0.016942352897401314,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'download_month', 'first_name']->race",-28.56562382639652,0.2013726540636851,1.0,1.0,1.0,False,1.0
+"['birth_place', 'full_phone_num', 'middle_name', 'register_date', 'zip_code']->race",-245.56710766944835,0.6910000000000043,1.0,1.0,1.0,False,1.0
+"['full_phone_num', 'gender', 'middle_name', 'register_date', 'zip_code']->ethnic",-384.0032924708262,0.6589999999999949,1.0,1.0,1.0,False,1.0
+"['birth_place', 'city', 'full_phone_num', 'middle_name', 'register_date']->race",-181.64230197736916,0.6910000000000043,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'middle_name', 'zip_code']->race",-179.88358449756925,0.6590000000000051,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'city', 'full_phone_num', 'middle_name']->race",-158.07555333512798,0.6910000000000043,1.0,1.0,1.0,False,1.0
+"['middle_name', 'register_date', 'zip_code']->name_suffix",-24.895961627603135,0.15276491537345505,1.0,1.0,1.0,False,1.0
+"['middle_name', 'register_date', 'zip_code']->name_prefix",-25.29016553067186,0.15287325397697804,1.0,1.0,1.0,False,1.0
+"['age', 'middle_name', 'register_date', 'zip_code']->ethnic",-245.6396914083467,0.15163154087995256,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'middle_name', 'register_date', 'zip_code']->full_phone_num",-164.0722130284339,0.14964862084838393,1.0,1.0,1.0,False,1.0
+"['age', 'middle_name', 'race', 'register_date', 'zip_code']->full_phone_num",-131.05777042274713,0.14994558193191088,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'middle_name', 'register_date', 'zip_code']->full_phone_num",-219.09628403791186,0.14972937498381034,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'middle_name', 'register_date', 'zip_code']->birth_place",-208.61706592061557,0.15075563917283208,1.0,1.0,1.0,False,1.0
+"['birth_place', 'gender', 'middle_name', 'register_date', 'zip_code']->ethnic",-142.01791501799434,0.2925722230082445,1.0,1.0,1.0,False,1.0
+"['download_month', 'middle_name', 'register_date', 'zip_code']->race",-54.96541860423156,0.15349755813330868,1.0,1.0,1.0,False,1.0
+"['download_month', 'gender', 'middle_name', 'register_date', 'zip_code']->ethnic",-146.98381484500803,0.1522344702138254,1.0,1.0,1.0,False,1.0
+"['gender', 'middle_name', 'register_date', 'zip_code']->race",-41.533718139215985,0.15418749383281072,1.0,1.0,1.0,False,1.0
+"['city', 'middle_name', 'register_date']->name_suffix",-20.776149550484455,0.15543982192324224,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'middle_name', 'register_date']->ethnic",-163.4264609388978,0.1535722230082437,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'download_month', 'middle_name', 'register_date']->full_phone_num",-131.05777042274713,0.14986482779648458,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'middle_name', 'race', 'register_date']->full_phone_num",-81.53610651421695,0.15059420277621505,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'gender', 'middle_name', 'register_date']->full_phone_num",-131.05777042274713,0.15016178888001352,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'gender', 'middle_name', 'register_date']->birth_place",-124.77023955236935,0.15190247139108037,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'middle_name', 'register_date']->race",-45.232302325234755,0.15606759135233106,1.0,1.0,1.0,False,1.0
+"['city', 'download_month', 'middle_name', 'register_date']->name_prefix",-41.29287498412429,0.1531120421919443,1.0,1.0,1.0,False,1.0
+"['city', 'gender', 'middle_name', 'register_date']->race",-34.444765116013315,0.15740003535658864,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'middle_name', 'register_date']->name_prefix",-36.41292787057149,0.1531120421919443,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'middle_name', 'register_date']->name_suffix",-37.32602320885264,0.1531104205626851,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'middle_name', 'register_date']->ethnic",-58.193525938003205,0.15565918768027265,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'middle_name', 'register_date']->name_prefix",-37.90944498539435,0.15322771800895718,1.0,1.0,1.0,False,1.0
+"['middle_name', 'zip_code']->city",-0.037885096537308316,0.17085460693258736,1.0,1.0,1.0,False,1.0
+"['age', 'middle_name', 'zip_code']->name_suffix",-30.938352674043866,0.15496840089148078,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'middle_name', 'zip_code']->name_prefix",-50.19663813867678,0.15299871682365906,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'middle_name']->name_suffix",-19.38618255790034,0.16131993393139843,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'gender', 'middle_name']->name_prefix",-30.378584665640606,0.15780032909407826,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'register_date', 'zip_code']->race",-108.18890730369202,0.6146174606137753,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'download_month', 'full_phone_num', 'register_date', 'zip_code']->name_suffix",-41.74584825077397,0.6487266725491151,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'register_date', 'zip_code']->birth_place",-197.50100939452227,1.0,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'gender', 'register_date', 'zip_code']->ethnic",-336.681188236931,0.6126468940427567,1.0,1.0,1.0,False,1.0
+"['download_month', 'full_phone_num', 'gender', 'register_date', 'zip_code']->city",-6.833246210141141,0.6138082315854143,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'full_phone_num', 'register_date']->race",-71.792604869128,0.6139749523090197,1.0,1.0,1.0,False,1.0
+"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'register_date']->name_suffix",-43.68884135308188,0.6480000000000035,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'full_phone_num', 'gender', 'name_suffix', 'register_date']->ethnic",-313.9341632228683,0.983,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'gender', 'zip_code']->city",-4.696906334648102,0.6149313862400884,1.0,1.0,1.0,False,1.0
+"['age', 'full_phone_num', 'gender', 'zip_code']->race",-38.705057201342555,0.6178774295322997,1.0,1.0,1.0,False,1.0
+"['age', 'download_month', 'ethnic', 'register_date', 'zip_code']->race",1.0,0.025598085261629655,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'race', 'register_date', 'zip_code']->ethnic",1.0,0.025594973755965533,1.0,1.0,1.0,False,1.0
+"['age', 'gender', 'register_date', 'zip_code']->city",1.0,0.01289044372142989,1.0,1.0,1.0,False,1.0
+"['age', 'ethnic', 'gender', 'register_date', 'zip_code']->race",1.0,0.025445129149423207,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'gender', 'name_suffix', 'race', 'register_date']->ethnic",-181.4013205691567,0.9556468940427637,1.0,1.0,1.0,False,1.0
+"['age', 'city', 'ethnic', 'gender', 'register_date']->race",1.0,0.039596500703723225,1.0,1.0,1.0,False,1.0

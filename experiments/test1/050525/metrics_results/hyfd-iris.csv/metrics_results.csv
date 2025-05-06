@@ -1,0 +1,6 @@
+../../datasets/experiments/iris.csv,mu,0.015512228012084961,5,4
+../../datasets/experiments/iris.csv,rfi,0.019173860549926758,5,4
+../../datasets/experiments/iris.csv,g1,0.01172947883605957,5,4
+../../datasets/experiments/iris.csv,g2,0.012096166610717773,5,4
+../../datasets/experiments/iris.csv,g3,0.006574869155883789,5,4
+../../datasets/experiments/iris.csv,total_file_time,0.06700420379638672,5,4

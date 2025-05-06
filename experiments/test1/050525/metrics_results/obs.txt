@@ -1,0 +1,4 @@
+- Para os datasets abalone, ncvoter e echocardiogram o algoritmo HyFD encontrou mais DFs que o Pyro
+    - Pyro por ser aproximado e permitir violações deveria encontrar mais (?)
+- O algoritmo HyFD encontra DFs com o lhs vazio ([] -> state). Essas DFs foram desconsideradas para o cálculo da métrica, por fazerem o algoritmo crashar
+    - Isso aconteceu para os dataset ncvoter com a DF [] -> state

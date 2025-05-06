@@ -1,0 +1,6 @@
+../../datasets/experiments/adult.csv,mu,3.1450297832489014,15,78
+../../datasets/experiments/adult.csv,rfi,17.499231576919556,15,78
+../../datasets/experiments/adult.csv,g1,2.7242777347564697,15,78
+../../datasets/experiments/adult.csv,g2,2.72308611869812,15,78
+../../datasets/experiments/adult.csv,g3,1.5315754413604736,15,78
+../../datasets/experiments/adult.csv,total_file_time,27.65505599975586,15,78
