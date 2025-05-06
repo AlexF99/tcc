@@ -4,7 +4,7 @@
 METANOME_CLI_JAR="metanome-cli-1.1.0.jar"
 PYRO_JAR="../algorithms/pyro-distro-1.0-SNAPSHOT-distro.jar"
 HYFD_JAR="../algorithms/HyFD-1.2-SNAPSHOT.jar"
-DATASETS_DIR="../datasets"
+DATASETS_DIR="../datasets/experiments"
 RESULTS_DIR="results"
 
 # Loop through each CSV file in the datasets directory
@@ -18,8 +18,7 @@ for dataset in "$DATASETS_DIR"/*.csv; do
     --separator "," \
     --algorithm-config isFindKeys:false \
     --algorithm-config isFindFds:true \
-    --header \
-    --algorithm-config maxUccError:0
+    --header 
 
   LATEST_FILE=$(ls -t "$RESULTS_DIR"/ | head -n1)
   mv "$RESULTS_DIR/$LATEST_FILE" "$RESULTS_DIR/pyro-$(basename "$dataset")"

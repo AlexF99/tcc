@@ -37,6 +37,9 @@ metrics_csv_file = os.path.join(output_folder, "metrics_results.csv")
 metrics = {
     "mu": adapted_paper_metrics.mu,
     "rfi": adapted_paper_metrics.reliable_fraction_of_information,
+    "g1": adapted_paper_metrics.g1,
+    "g2": adapted_paper_metrics.g2,
+    "g3": adapted_paper_metrics.g3
 }
 
 start_time_file = time.time()
@@ -68,6 +71,11 @@ metrics_results = {key: [] for key in metrics}
 for lhs_columns, rhs_column in fds:
 
     lhs_columns = [col.strip() for col in lhs_columns]
+    
+    if not lhs_columns:
+        print(f"LHS está vazio: {lhs_columns} -> {rhs_column}")
+        continue
+
     rhs_column = rhs_column.strip()
     fd_identifier = f"{lhs_columns}->{rhs_column}"
 
@@ -80,13 +88,9 @@ for lhs_columns, rhs_column in fds:
     for metric_name, metric_function in metrics.items():
         start_time = time.time()
         try:
-            if not lhs_columns:
-                print("LHS está vazio")
-                continue
-
-            print(
-                f"Calculando {metric_name} para {lhs_columns} -> {rhs_column} no arquivo {dataset_csv_file}"
-            )
+            # print(
+            #     f"Calculando {metric_name} para {lhs_columns} -> {rhs_column} no arquivo {dataset_csv_file}"
+            # )
             result = metric_function(df, lhs_columns, rhs_column)
 
             metrics_results[metric_name].append(result)
@@ -114,8 +118,6 @@ for k, values in metrics_results.items():
     # Check if at least one value has the 'fi' attribute
     if any('fi' in v for v in values):
         fi[f"{k}_fi"] = [v.get('fi', '-') for v in values]
-
-print(metrics_results)
 
 final_df = pd.DataFrame({"fd": fd_ids, **mobj, **isKey, **fi})
 

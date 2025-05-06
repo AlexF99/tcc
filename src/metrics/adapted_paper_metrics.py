@@ -113,3 +113,62 @@ def fraction_of_information(df: pd.DataFrame, lhs: List[Any], rhs: Any) -> float
     )
 
     return (shannonY - shannonYX) / shannonY
+
+def g1(df: pd.DataFrame, lhs: List[Any], rhs: Any) -> float:
+    """This measure is g_1 as proposed by [Kivinen & Mannila, 1995], adapted for lists of columns."""
+    
+    combined_columns = lhs + [rhs]
+    
+    xy_counts = df.loc[:, combined_columns].value_counts().reset_index()
+    xy_counts.columns = combined_columns + ["xy_count"]
+    
+    x_counts = df.loc[:, lhs].value_counts().reset_index()
+    x_counts.columns = lhs + ["x_count"]
+    
+    counts = xy_counts.merge(x_counts, on=lhs)
+    
+    violating_tuple_pairs = (
+        (counts["xy_count"]) * (counts["x_count"] - counts["xy_count"])
+    ).sum()
+    
+    return {
+        "result": 1.0 - (violating_tuple_pairs / (df.shape[0] ** 2))
+    }
+
+
+def g2(df: pd.DataFrame, lhs: List[Any], rhs: Any) -> float:
+    """This measure is g_2 as proposed by [Kivinen & Mannila, 1995], adapted for lists of columns."""
+    combined_columns = lhs + [rhs]
+    
+    xy_counts = df.loc[:, combined_columns].value_counts().reset_index()
+    xy_counts.columns = combined_columns + ["xy_count"]
+    
+    x_counts = df.loc[:, lhs].value_counts().reset_index()
+    x_counts.columns = lhs + ["x_count"]
+    
+    counts = xy_counts.merge(x_counts, on=lhs)
+    
+    violation_participating_tuples = counts[counts["x_count"] > counts["xy_count"]]
+    
+    return {
+        "result": 1.0 - ((violation_participating_tuples["xy_count"] / df.shape[0]).sum())
+    } 
+
+
+
+def g3(df: pd.DataFrame, lhs: List[Any], rhs: Any) -> float:
+    """This measure is g_3 as proposed by [Kivinen & Mannila, 1995]"""
+
+    combined_columns = lhs + [rhs]
+
+    xy_counts = df.loc[:, combined_columns].value_counts().reset_index()
+
+    xy_counts.columns = combined_columns + ["xy_count"]
+    
+    x_groups = xy_counts.groupby(lhs)["xy_count"]
+
+    minimum_deletions_needed = (x_groups.sum() - x_groups.max()).sum()
+
+    return { 
+        "result": 1.0 - (minimum_deletions_needed / df.shape[0])
+    }
