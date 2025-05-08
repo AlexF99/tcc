@@ -35,10 +35,8 @@ fds_csv_file = os.path.join(output_folder, "fds_results.csv")
 metrics_csv_file = os.path.join(output_folder, "metrics_results.csv")
 
 metrics = {
-    "mu": adapted_paper_metrics.mu,
-    "rfi": adapted_paper_metrics.reliable_fraction_of_information,
-    "g1": adapted_paper_metrics.g1,
-    "g2": adapted_paper_metrics.g2,
+    "mu_plus": adapted_paper_metrics.mu_plus,
+    "rfi_prime_plus": adapted_paper_metrics.reliable_fraction_of_information_prime_plus,
     "g3": adapted_paper_metrics.g3
 }
 
@@ -108,7 +106,7 @@ mobj = {k: [v["result"] for v in values] for k, values in metrics_results.items(
 
 # Only include is_key and fi in final results if they exist in the values
 isKey = {}
-fi = {}
+rfi = {}
 
 for k, values in metrics_results.items():
     # Check if at least one value has the 'is_key' attribute
@@ -116,10 +114,10 @@ for k, values in metrics_results.items():
         isKey[f"{k}_is_key"] = [v.get('is_key', '-') for v in values]
     
     # Check if at least one value has the 'fi' attribute
-    if any('fi' in v for v in values):
-        fi[f"{k}_fi"] = [v.get('fi', '-') for v in values]
+    if any('rfi' in v for v in values):
+        rfi[f"{k}_rfi"] = [v.get('rfi', '-') for v in values]
 
-final_df = pd.DataFrame({"fd": fd_ids, **mobj, **isKey, **fi})
+final_df = pd.DataFrame({"fd": fd_ids, **mobj, **isKey, **rfi})
 
 final_df.to_csv(fds_csv_file, mode="w", header=True, index=False)
 
