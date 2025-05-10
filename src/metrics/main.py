@@ -37,7 +37,8 @@ metrics_csv_file = os.path.join(output_folder, "metrics_results.csv")
 metrics = {
     "mu_plus": adapted_paper_metrics.mu_plus,
     "rfi_prime_plus": adapted_paper_metrics.reliable_fraction_of_information_prime_plus,
-    "g3": adapted_paper_metrics.g3
+    "g3": adapted_paper_metrics.g3,
+    "g3_prime": adapted_paper_metrics.g3_prime,
 }
 
 start_time_file = time.time()
@@ -69,7 +70,7 @@ metrics_results = {key: [] for key in metrics}
 for lhs_columns, rhs_column in fds:
 
     lhs_columns = [col.strip() for col in lhs_columns]
-    
+
     if not lhs_columns:
         print(f"LHS está vazio: {lhs_columns} -> {rhs_column}")
         continue
@@ -110,12 +111,12 @@ rfi = {}
 
 for k, values in metrics_results.items():
     # Check if at least one value has the 'is_key' attribute
-    if any('is_key' in v for v in values):
-        isKey[f"{k}_is_key"] = [v.get('is_key', '-') for v in values]
-    
+    if any("is_key" in v for v in values):
+        isKey[f"{k}_is_key"] = [v.get("is_key", "-") for v in values]
+
     # Check if at least one value has the 'fi' attribute
-    if any('rfi' in v for v in values):
-        rfi[f"{k}_rfi"] = [v.get('rfi', '-') for v in values]
+    if any("rfi" in v for v in values):
+        rfi[f"{k}_rfi"] = [v.get("rfi", "-") for v in values]
 
 final_df = pd.DataFrame({"fd": fd_ids, **mobj, **isKey, **rfi})
 

@@ -231,3 +231,37 @@ def g3(df: pd.DataFrame, lhs: List[Any], rhs: Any) -> float:
     minimum_deletions_needed = (x_groups.sum() - x_groups.max()).sum()
 
     return {"result": 1.0 - (minimum_deletions_needed / df.shape[0])}
+
+
+def g3_prime(df: pd.DataFrame, lhs: List[Any], rhs: Any) -> float:
+    """Normalized g3' measure with baselines as proposed by Gianella & Robertson."""
+
+    combined_columns = lhs + [rhs]
+
+    # Get the number of distinct lhs tuples — |dom(X)|
+    domX_size = df[lhs].drop_duplicates().shape[0]
+
+    # Count the occurrences of each (X, Y) combination
+    xy_counts = df.loc[:, combined_columns].value_counts().reset_index()
+    xy_counts.columns = combined_columns + ["xy_count"]
+
+    # Group by X to get all Y-values per X
+    x_groups = xy_counts.groupby(lhs)["xy_count"]
+
+    # Compute the number of tuples to remove to make X → Y hold (keep only max Y per X)
+    minimum_deletions_needed = (x_groups.sum() - x_groups.max()).sum()
+
+    # Compute |R'| as total - deletions
+    r_prime_size = df.shape[0] - minimum_deletions_needed
+    r_size = df.shape[0]
+
+    # Apply the g3' formula: (|R'| - |dom(X)|) / (|R| - |dom(X)|)
+    denominator = r_size - domX_size
+
+    # Avoid division by zero in case domX == total rows
+    if denominator == 0:
+        return {"result": 1.0 if r_prime_size == r_size else 0.0}
+
+    normalized_result = (r_prime_size - domX_size) / denominator
+
+    return {"result": normalized_result}
