@@ -1,0 +1,11 @@
+../../datasets/exp2/ncvoter.csv,mu,0,19,758
+../../datasets/exp2/ncvoter.csv,rfi,0,19,758
+../../datasets/exp2/ncvoter.csv,total_file_time,0.021500825881958008,19,758
+../../datasets/exp2/ncvoter.csv,mu,4.934406995773315,19,758
+../../datasets/exp2/ncvoter.csv,rfi,93.8226387500763,19,758
+../../datasets/exp2/ncvoter.csv,total_file_time,99.62880086898804,19,758
+../../datasets/experiments/ncvoter.csv,mu_plus,4.277249574661255,19,758
+../../datasets/experiments/ncvoter.csv,rfi_prime_plus,90.91123247146606,19,758
+../../datasets/experiments/ncvoter.csv,g3,2.092144250869751,19,758
+../../datasets/experiments/ncvoter.csv,g3_prime,2.529171943664551,19,758
+../../datasets/experiments/ncvoter.csv,total_file_time,99.83574342727661,19,758

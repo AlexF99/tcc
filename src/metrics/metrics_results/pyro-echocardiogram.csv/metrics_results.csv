@@ -1,0 +1,5 @@
+../../datasets/experiments/echocardiogram.csv,mu_plus,1.3097867965698242,13,356
+../../datasets/experiments/echocardiogram.csv,rfi_prime_plus,2.4718544483184814,13,356
+../../datasets/experiments/echocardiogram.csv,g3,0.596306324005127,13,356
+../../datasets/experiments/echocardiogram.csv,g3_prime,0.7264325618743896,13,356
+../../datasets/experiments/echocardiogram.csv,total_file_time,5.114074945449829,13,356
