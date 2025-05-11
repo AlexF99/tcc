@@ -1,0 +1,5 @@
+../../datasets/experiments/abalone.csv,mu_plus,0.3755221366882324,9,85
+../../datasets/experiments/abalone.csv,rfi_prime_plus,43.444637298583984,9,85
+../../datasets/experiments/abalone.csv,g3,0.18212366104125977,9,85
+../../datasets/experiments/abalone.csv,g3_prime,0.21768641471862793,9,85
+../../datasets/experiments/abalone.csv,total_file_time,44.226279735565186,9,85

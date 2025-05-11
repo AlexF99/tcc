@@ -4,4 +4,6 @@ ecp/results
 metanome-cli/results
 profiler/data/
 *__pycache__
+.venv
+.vscode
 # src/metrics/metrics_results

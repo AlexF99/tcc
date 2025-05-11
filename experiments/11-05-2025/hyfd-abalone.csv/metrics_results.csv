@@ -1,0 +1,8 @@
+../../datasets/experiments_header/abalone.csv,mu,1.112891674041748,9,137
+../../datasets/experiments_header/abalone.csv,rfi,173.5483078956604,9,137
+../../datasets/experiments_header/abalone.csv,total_file_time,174.6682424545288,9,137
+../../datasets/experiments/abalone.csv,mu_plus,0.9852449893951416,9,137
+../../datasets/experiments/abalone.csv,rfi_prime_plus,166.08798670768738,9,137
+../../datasets/experiments/abalone.csv,g3,0.5118680000305176,9,137
+../../datasets/experiments/abalone.csv,g3_prime,0.5944058895111084,9,137
+../../datasets/experiments/abalone.csv,total_file_time,168.18693780899048,9,137

@@ -1,9 +1,0 @@
-h -> j
-h -> i
-m -> b
-m,b -> d
-m,d -> l
-l -> g
-l,g -> f
-g -> e
-b -> a

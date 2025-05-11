@@ -1,8 +1,0 @@
-k -> c
-k,c -> e
-k,c,e -> f
-k,c,e,f -> h
-k,c,e,f,h -> i
-e,f,h,i -> j
-k,c,f,i -> d
-k -> b
