@@ -1,9 +1,9 @@
-h -> j
-h -> i
-m -> b
-m,b -> d
-m,d -> l
-l -> g
-l,g -> f
-g -> e
-b -> a
+wall-motion-score  -> mult
+wall-motion-score  -> wall-motion-index 
+still-alive  -> alive-at-1
+still-alive ,alive-at-1 -> group
+still-alive ,group -> pericardial-effusion 
+group,pericardial-effusion  -> fractional-shortening 
+group,fractional-shortening  -> lvdd
+lvdd -> epss
+still-alive  -> survival

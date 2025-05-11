@@ -1,4 +1,4 @@
-b -> d
-b,d -> c
-b -> e
-c,e -> a
+sepal width -> petal width
+sepal width,petal width -> petal length
+sepal width -> class
+petal length,class -> sepal length 

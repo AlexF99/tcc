@@ -1,8 +1,8 @@
-f -> a
-f,a -> b
-f,a,b -> d
-f,a,b,d -> e
-f,a,b,d,e -> g
-f,a,b,d,e,g -> h
-f,a,d,g,h -> i
-f,a,b,d,e,h -> c
+shucked_weight -> sex
+shucked_weight,sex -> length
+shucked_weight,sex,length -> height
+shucked_weight,sex,length,height -> whole_height
+shucked_weight,sex,length,height,whole_height -> viscera_weight
+shucked_weight,sex,length,height,whole_height,viscera_weight -> shell_weight
+shucked_weight,sex,height,viscera_weight,shell_weight -> rings
+shucked_weight,sex,length,height,whole_height,shell_weight -> diameter
