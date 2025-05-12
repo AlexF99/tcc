@@ -1,0 +1,4 @@
+relationship -> sex
+relationship -> Marital-status
+income -> Native-country
+Native-country -> race
