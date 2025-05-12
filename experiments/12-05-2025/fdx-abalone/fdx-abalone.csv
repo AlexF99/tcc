@@ -1,0 +1,9 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+abalone,fdx,['shucked_weight']->sex,0.1446368034351293,0.15693155822152813,0.526671675432006,False,1,0.3627005027531721
+abalone,fdx,"['shucked_weight', 'sex']->length",0.04614159555929709,0.05672091903893221,0.08019441069258809,False,2,0.6059372755566196
+abalone,fdx,"['shucked_weight', 'sex', 'length']->height",0.10554443925072066,0.10391777095944918,0.1386861313868613,False,3,0.9672013406751256
+abalone,fdx,"['shucked_weight', 'sex', 'length', 'height']->whole_height",0.0,0.0,0.0,False,4,0.9954512808235576
+abalone,fdx,"['shucked_weight', 'sex', 'length', 'height', 'whole_height']->viscera_weight",1.0,1.0,1.0,True,-,-
+abalone,fdx,"['shucked_weight', 'sex', 'length', 'height', 'whole_height', 'viscera_weight']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,fdx,"['shucked_weight', 'sex', 'height', 'viscera_weight', 'shell_weight']->rings",1.0,1.0,1.0,True,-,-
+abalone,fdx,"['shucked_weight', 'sex', 'length', 'height', 'whole_height', 'shell_weight']->diameter",1.0,1.0,1.0,True,-,-

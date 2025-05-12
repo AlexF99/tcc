@@ -1,0 +1,143 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+bridges,hyfd,['identif']->erected,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->length,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->location,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->type,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->lanes,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->river,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->purpose,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->material,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->span,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->rel-l,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->clear-g,1.0,1.0,1.0,True,-,-
+bridges,hyfd,['identif']->t-or-d,1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length']->lanes",1.0,1.0,1.0,False,2,0.9907407407407407
+bridges,hyfd,"['erected', 'length']->river",1.0,1.0,1.0,False,2,0.9907407407407407
+bridges,hyfd,"['erected', 'length']->material",1.0,1.0,1.0,False,2,0.9907407407407407
+bridges,hyfd,"['erected', 'length']->span",1.0,1.0,1.0,False,2,0.9907407407407407
+bridges,hyfd,"['erected', 'length']->clear-g",1.0,1.0,1.0,False,2,0.9907407407407407
+bridges,hyfd,"['erected', 'length']->t-or-d",1.0,1.0,1.0,False,2,0.9907407407407407
+bridges,hyfd,"['erected', 'length', 'type']->identif",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'type']->location",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'type']->purpose",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'type']->rel-l",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'purpose']->identif",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'purpose']->location",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'purpose']->type",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'purpose']->rel-l",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'rel-l']->identif",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'rel-l']->location",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'rel-l']->type",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'length', 'rel-l']->purpose",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'location']->identif",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'location']->length",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'location']->type",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'location']->lanes",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'location']->purpose",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'location']->material",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'location']->span",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'location']->rel-l",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'location']->clear-g",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'location']->t-or-d",1.0,1.0,1.0,True,-,-
+bridges,hyfd,"['erected', 'lanes', 'river', 't-or-d', 'type']->span",1.0,1.0,1.0,False,5,0.9537037037037037
+bridges,hyfd,"['erected', 'lanes', 'material', 'type']->purpose",1.0,1.0,1.0,False,4,0.9166666666666666
+bridges,hyfd,"['erected', 'lanes', 'rel-l', 'type']->purpose",1.0,1.0,1.0,False,4,0.9351851851851852
+bridges,hyfd,"['erected', 'material', 'river', 'type']->purpose",1.0,1.0,1.0,False,4,0.9259259259259259
+bridges,hyfd,"['clear-g', 'erected', 'river', 'span', 'type']->lanes",1.0,1.0,1.0,False,5,0.9629629629629629
+bridges,hyfd,"['erected', 'rel-l', 'river', 'type']->purpose",1.0,1.0,1.0,False,4,0.9444444444444444
+bridges,hyfd,"['erected', 'span', 'type']->t-or-d",1.0,1.0,1.0,False,3,0.8888888888888888
+bridges,hyfd,"['clear-g', 'erected', 'lanes', 'rel-l']->purpose",1.0,1.0,1.0,False,4,0.9074074074074074
+bridges,hyfd,"['erected', 'lanes', 'rel-l', 't-or-d']->purpose",1.0,1.0,1.0,False,4,0.9166666666666666
+bridges,hyfd,"['erected', 'purpose', 'river']->material",1.0,1.0,1.0,False,3,0.8888888888888888
+bridges,hyfd,"['clear-g', 'erected', 'purpose', 'river', 'span']->lanes",1.0,1.0,1.0,False,5,0.9444444444444444
+bridges,hyfd,"['erected', 'purpose', 'river', 'span', 't-or-d']->type",1.0,1.0,1.0,False,5,0.9537037037037037
+bridges,hyfd,"['erected', 'rel-l', 'river', 'span', 't-or-d']->type",1.0,1.0,1.0,False,5,0.9629629629629629
+bridges,hyfd,"['clear-g', 'erected', 'river', 'span', 't-or-d']->lanes",1.0,1.0,1.0,False,5,0.9444444444444444
+bridges,hyfd,"['erected', 'rel-l', 'river']->material",1.0,1.0,1.0,False,3,0.9259259259259259
+bridges,hyfd,"['erected', 'rel-l', 'river', 't-or-d']->purpose",1.0,1.0,1.0,False,4,0.9444444444444444
+bridges,hyfd,"['erected', 'purpose', 'span']->material",1.0,1.0,1.0,False,3,0.8240740740740741
+bridges,hyfd,"['erected', 'rel-l', 'span']->material",1.0,1.0,1.0,False,3,0.8796296296296297
+bridges,hyfd,"['length', 'location', 'type']->clear-g",1.0,1.0,1.0,False,3,0.9444444444444444
+bridges,hyfd,"['length', 'location', 'purpose', 'type']->lanes",1.0,1.0,1.0,False,4,0.9722222222222222
+bridges,hyfd,"['length', 'location', 'purpose', 'type']->material",1.0,1.0,1.0,False,4,0.9722222222222222
+bridges,hyfd,"['length', 'location', 'purpose', 'type']->rel-l",1.0,1.0,1.0,False,4,0.9722222222222222
+bridges,hyfd,"['length', 'location', 'span', 'type']->material",1.0,1.0,1.0,False,4,0.9629629629629629
+bridges,hyfd,"['length', 'location', 'span', 'type']->rel-l",1.0,1.0,1.0,False,4,0.9629629629629629
+bridges,hyfd,"['length', 'location', 'rel-l', 'type']->material",1.0,1.0,1.0,False,4,0.9537037037037037
+bridges,hyfd,"['length', 'location', 't-or-d', 'type']->material",1.0,1.0,1.0,False,4,0.9629629629629629
+bridges,hyfd,"['length', 'location', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,False,4,0.9629629629629629
+bridges,hyfd,"['lanes', 'length', 'location', 'material']->type",1.0,1.0,1.0,False,4,0.9722222222222222
+bridges,hyfd,"['lanes', 'length', 'location', 'span']->purpose",1.0,1.0,1.0,False,4,0.9722222222222222
+bridges,hyfd,"['lanes', 'length', 'location', 'rel-l']->type",1.0,1.0,1.0,False,4,0.9722222222222222
+bridges,hyfd,"['lanes', 'length', 'location', 'rel-l']->material",1.0,1.0,1.0,False,4,0.9722222222222222
+bridges,hyfd,"['clear-g', 'lanes', 'length', 'location']->type",1.0,1.0,1.0,False,4,0.9629629629629629
+bridges,hyfd,"['lanes', 'length', 'location', 't-or-d']->type",1.0,1.0,1.0,False,4,0.9814814814814815
+bridges,hyfd,"['lanes', 'length', 'location', 't-or-d']->purpose",1.0,1.0,1.0,False,4,0.9814814814814815
+bridges,hyfd,"['lanes', 'length', 'location', 't-or-d']->material",1.0,1.0,1.0,False,4,0.9814814814814815
+bridges,hyfd,"['lanes', 'length', 'location', 't-or-d']->rel-l",1.0,1.0,1.0,False,4,0.9814814814814815
+bridges,hyfd,"['lanes', 'length', 'location', 't-or-d']->clear-g",1.0,1.0,1.0,False,4,0.9814814814814815
+bridges,hyfd,"['length', 'location', 'material', 'purpose', 't-or-d']->lanes",1.0,1.0,1.0,False,5,0.9814814814814815
+bridges,hyfd,"['length', 'location', 'purpose', 'span', 't-or-d']->type",1.0,1.0,1.0,False,5,0.9907407407407407
+bridges,hyfd,"['length', 'location', 'purpose', 'span', 't-or-d']->lanes",1.0,1.0,1.0,False,5,0.9907407407407407
+bridges,hyfd,"['length', 'location', 'purpose', 'span', 't-or-d']->material",1.0,1.0,1.0,False,5,0.9907407407407407
+bridges,hyfd,"['length', 'location', 'purpose', 'span', 't-or-d']->rel-l",1.0,1.0,1.0,False,5,0.9907407407407407
+bridges,hyfd,"['length', 'location', 'purpose', 'span', 't-or-d']->clear-g",1.0,1.0,1.0,False,5,0.9907407407407407
+bridges,hyfd,"['length', 'location', 'purpose', 'rel-l']->material",1.0,1.0,1.0,False,4,0.9629629629629629
+bridges,hyfd,"['length', 'location', 'purpose', 'rel-l', 't-or-d']->type",1.0,1.0,1.0,False,5,0.9814814814814815
+bridges,hyfd,"['length', 'location', 'purpose', 'rel-l', 't-or-d']->lanes",1.0,1.0,1.0,False,5,0.9814814814814815
+bridges,hyfd,"['clear-g', 'length', 'location', 'purpose']->material",1.0,1.0,1.0,False,4,0.9629629629629629
+bridges,hyfd,"['clear-g', 'length', 'location', 'purpose']->rel-l",1.0,1.0,1.0,False,4,0.9629629629629629
+bridges,hyfd,"['clear-g', 'length', 'location', 'purpose', 't-or-d']->type",1.0,1.0,1.0,False,5,0.9814814814814815
+bridges,hyfd,"['clear-g', 'length', 'location', 'purpose', 't-or-d']->lanes",1.0,1.0,1.0,False,5,0.9814814814814815
+bridges,hyfd,"['length', 'location', 'material']->rel-l",1.0,1.0,1.0,False,3,0.9444444444444444
+bridges,hyfd,"['length', 'location', 'material']->clear-g",1.0,1.0,1.0,False,3,0.9444444444444444
+bridges,hyfd,"['length', 'location', 'material', 't-or-d']->type",1.0,1.0,1.0,False,4,0.9629629629629629
+bridges,hyfd,"['length', 'location', 'rel-l', 'span']->material",1.0,1.0,1.0,False,4,0.9537037037037037
+bridges,hyfd,"['length', 'location', 'rel-l', 'span', 't-or-d']->type",1.0,1.0,1.0,False,5,0.9722222222222222
+bridges,hyfd,"['clear-g', 'length', 'location', 'span']->material",1.0,1.0,1.0,False,4,0.9537037037037037
+bridges,hyfd,"['clear-g', 'length', 'location', 'span']->rel-l",1.0,1.0,1.0,False,4,0.9537037037037037
+bridges,hyfd,"['clear-g', 'length', 'location', 'span', 't-or-d']->type",1.0,1.0,1.0,False,5,0.9722222222222222
+bridges,hyfd,"['length', 'location', 'rel-l']->clear-g",1.0,1.0,1.0,False,3,0.9351851851851852
+bridges,hyfd,"['clear-g', 'length', 'location', 't-or-d']->rel-l",1.0,1.0,1.0,False,4,0.9537037037037037
+bridges,hyfd,"['clear-g', 'lanes', 'length', 'river', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,False,6,0.8888888888888888
+bridges,hyfd,"['lanes', 'length', 'material', 'purpose', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,False,6,0.8703703703703703
+bridges,hyfd,"['clear-g', 'lanes', 'length', 'purpose', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,False,6,0.8611111111111112
+bridges,hyfd,"['lanes', 'length', 'rel-l', 't-or-d', 'type']->clear-g",1.0,1.0,1.0,False,5,0.8333333333333334
+bridges,hyfd,"['length', 'river', 'span', 'type']->rel-l",1.0,1.0,1.0,False,4,0.8703703703703703
+bridges,hyfd,"['length', 'river', 'span', 't-or-d', 'type']->clear-g",1.0,1.0,1.0,False,5,0.8888888888888888
+bridges,hyfd,"['length', 'rel-l', 'river', 't-or-d', 'type']->clear-g",1.0,1.0,1.0,False,5,0.8425925925925926
+bridges,hyfd,"['length', 'material', 'purpose', 'span', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,False,6,0.8981481481481481
+bridges,hyfd,"['clear-g', 'length', 'purpose', 'span', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,False,6,0.8888888888888888
+bridges,hyfd,"['length', 'rel-l', 'span', 't-or-d', 'type']->clear-g",1.0,1.0,1.0,False,5,0.8425925925925926
+bridges,hyfd,"['lanes', 'length', 'material', 'purpose', 'river']->type",1.0,1.0,1.0,False,5,0.9074074074074074
+bridges,hyfd,"['lanes', 'length', 'material', 'purpose', 'river', 't-or-d']->rel-l",1.0,1.0,1.0,False,6,0.9351851851851852
+bridges,hyfd,"['lanes', 'length', 'purpose', 'rel-l', 'river', 'span']->type",1.0,1.0,1.0,False,6,0.9166666666666666
+bridges,hyfd,"['clear-g', 'lanes', 'length', 'purpose', 'river', 'span']->type",1.0,1.0,1.0,False,6,0.9259259259259259
+bridges,hyfd,"['clear-g', 'lanes', 'length', 'purpose', 'river', 't-or-d']->rel-l",1.0,1.0,1.0,False,6,0.9074074074074074
+bridges,hyfd,"['lanes', 'length', 'material', 'rel-l', 'river', 't-or-d']->type",1.0,1.0,1.0,False,6,0.9074074074074074
+bridges,hyfd,"['lanes', 'length', 'rel-l', 'river', 't-or-d']->clear-g",1.0,1.0,1.0,False,5,0.8703703703703703
+bridges,hyfd,"['lanes', 'length', 'material', 'purpose']->clear-g",1.0,1.0,1.0,False,4,0.8055555555555556
+bridges,hyfd,"['lanes', 'length', 'material', 'purpose', 'rel-l', 'span']->type",1.0,1.0,1.0,False,6,0.8981481481481481
+bridges,hyfd,"['clear-g', 'lanes', 'length', 'purpose', 'rel-l', 'span']->type",1.0,1.0,1.0,False,6,0.8888888888888888
+bridges,hyfd,"['lanes', 'length', 'material', 'rel-l']->clear-g",1.0,1.0,1.0,False,4,0.7962962962962963
+bridges,hyfd,"['length', 'material', 'purpose', 'river']->clear-g",1.0,1.0,1.0,False,4,0.8703703703703703
+bridges,hyfd,"['length', 'material', 'purpose', 'river', 'span']->rel-l",1.0,1.0,1.0,False,5,0.9259259259259259
+bridges,hyfd,"['length', 'material', 'purpose', 'river', 't-or-d']->type",1.0,1.0,1.0,False,5,0.9074074074074074
+bridges,hyfd,"['length', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->type",1.0,1.0,1.0,False,6,0.9351851851851852
+bridges,hyfd,"['clear-g', 'length', 'purpose', 'river', 'span']->rel-l",1.0,1.0,1.0,False,5,0.9074074074074074
+bridges,hyfd,"['clear-g', 'length', 'purpose', 'river', 'span', 't-or-d']->type",1.0,1.0,1.0,False,6,0.9351851851851852
+bridges,hyfd,"['length', 'purpose', 'rel-l', 'river', 't-or-d']->clear-g",1.0,1.0,1.0,False,5,0.8888888888888888
+bridges,hyfd,"['length', 'material', 'rel-l', 'river']->clear-g",1.0,1.0,1.0,False,4,0.8333333333333334
+bridges,hyfd,"['length', 'material', 'span']->clear-g",1.0,1.0,1.0,False,3,0.7592592592592593
+bridges,hyfd,['location']->river,1.0,1.0,1.0,False,1,0.5092592592592593
+bridges,hyfd,"['lanes', 'location', 'span', 'type']->purpose",1.0,1.0,1.0,False,4,0.9444444444444444
+bridges,hyfd,"['lanes', 'location', 'rel-l', 'type']->material",1.0,1.0,1.0,False,4,0.9537037037037037
+bridges,hyfd,"['lanes', 'location', 'rel-l', 'type']->clear-g",1.0,1.0,1.0,False,4,0.9537037037037037
+bridges,hyfd,"['lanes', 'location', 't-or-d', 'type']->purpose",1.0,1.0,1.0,False,4,0.9351851851851852
+bridges,hyfd,"['location', 'material', 'type']->clear-g",1.0,1.0,1.0,False,3,0.8796296296296297
+bridges,hyfd,"['clear-g', 'location', 'rel-l', 'type']->material",1.0,1.0,1.0,False,4,0.9074074074074074
+bridges,hyfd,"['lanes', 'location', 'material']->purpose",1.0,1.0,1.0,False,3,0.9351851851851852
+bridges,hyfd,"['lanes', 'location', 'material']->rel-l",1.0,1.0,1.0,False,3,0.9351851851851852
+bridges,hyfd,"['clear-g', 'lanes', 'location', 'span']->purpose",1.0,1.0,1.0,False,4,0.9351851851851852
+bridges,hyfd,"['lanes', 'location', 'rel-l']->purpose",1.0,1.0,1.0,False,3,0.9074074074074074
+bridges,hyfd,"['clear-g', 'lanes', 'location', 't-or-d']->purpose",1.0,1.0,1.0,False,4,0.9074074074074074

@@ -1,0 +1,47 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+breast,hyfd,"['bare_nuclei', 'sample_code_number']->class",1.0,1.0,1.0,False,2,0.9413447782546495
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'sample_code_number']->uniformity_of_cell_shape",1.0,1.0,1.0,False,3,0.9814020028612304
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'sample_code_number']->normal_nucleoli",1.0,1.0,1.0,False,3,0.9814020028612304
+breast,hyfd,"['bare_nuclei', 'bland_chromatin', 'clump_thickness', 'sample_code_number']->single_epithelial_cell_size",1.0,1.0,1.0,False,4,0.9871244635193133
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'mitoses', 'sample_code_number']->marginal_adhesion",1.0,1.0,1.0,False,4,0.9828326180257511
+breast,hyfd,"['clump_thickness', 'sample_code_number']->class",1.0,1.0,1.0,False,2,0.9756795422031473
+breast,hyfd,"['clump_thickness', 'sample_code_number', 'uniformity_of_cell_shape']->normal_nucleoli",1.0,1.0,1.0,False,3,0.977110157367668
+breast,hyfd,"['bland_chromatin', 'clump_thickness', 'sample_code_number', 'uniformity_of_cell_shape']->single_epithelial_cell_size",1.0,1.0,1.0,False,4,0.9842632331902719
+breast,hyfd,"['clump_thickness', 'marginal_adhesion', 'sample_code_number']->uniformity_of_cell_shape",1.0,1.0,1.0,False,3,0.9799713876967096
+breast,hyfd,"['clump_thickness', 'marginal_adhesion', 'sample_code_number']->normal_nucleoli",1.0,1.0,1.0,False,3,0.9799713876967096
+breast,hyfd,"['clump_thickness', 'marginal_adhesion', 'sample_code_number']->mitoses",1.0,1.0,1.0,False,3,0.9799713876967096
+breast,hyfd,"['bland_chromatin', 'clump_thickness', 'marginal_adhesion', 'sample_code_number']->single_epithelial_cell_size",1.0,1.0,1.0,False,4,0.9871244635193133
+breast,hyfd,"['clump_thickness', 'sample_code_number', 'single_epithelial_cell_size']->uniformity_of_cell_shape",1.0,1.0,1.0,False,3,0.9785407725321889
+breast,hyfd,"['clump_thickness', 'sample_code_number', 'single_epithelial_cell_size']->normal_nucleoli",1.0,1.0,1.0,False,3,0.9785407725321889
+breast,hyfd,"['bland_chromatin', 'clump_thickness', 'sample_code_number']->uniformity_of_cell_size",1.0,1.0,1.0,False,3,0.9828326180257511
+breast,hyfd,"['bland_chromatin', 'clump_thickness', 'normal_nucleoli', 'sample_code_number']->single_epithelial_cell_size",1.0,1.0,1.0,False,4,0.9842632331902719
+breast,hyfd,"['clump_thickness', 'normal_nucleoli', 'sample_code_number']->uniformity_of_cell_shape",1.0,1.0,1.0,False,3,0.977110157367668
+breast,hyfd,"['sample_code_number', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,2,0.9470672389127325
+breast,hyfd,"['sample_code_number', 'single_epithelial_cell_size', 'uniformity_of_cell_shape', 'uniformity_of_cell_size']->normal_nucleoli",1.0,1.0,1.0,False,4,0.9642346208869814
+breast,hyfd,"['marginal_adhesion', 'sample_code_number', 'uniformity_of_cell_size']->mitoses",1.0,1.0,1.0,False,3,0.9585121602288984
+breast,hyfd,"['bland_chromatin', 'sample_code_number', 'single_epithelial_cell_size', 'uniformity_of_cell_size']->normal_nucleoli",1.0,1.0,1.0,False,4,0.9728183118741058
+breast,hyfd,"['sample_code_number', 'uniformity_of_cell_shape']->class",1.0,1.0,1.0,False,2,0.9527896995708155
+breast,hyfd,"['marginal_adhesion', 'sample_code_number']->class",1.0,1.0,1.0,False,2,0.9513590844062947
+breast,hyfd,"['bland_chromatin', 'marginal_adhesion', 'sample_code_number']->mitoses",1.0,1.0,1.0,False,3,0.9742489270386266
+breast,hyfd,"['sample_code_number', 'single_epithelial_cell_size']->class",1.0,1.0,1.0,False,2,0.9456366237482118
+breast,hyfd,"['bland_chromatin', 'sample_code_number']->class",1.0,1.0,1.0,False,2,0.9628040057224606
+breast,hyfd,"['normal_nucleoli', 'sample_code_number']->class",1.0,1.0,1.0,False,2,0.9427753934191703
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'marginal_adhesion', 'uniformity_of_cell_shape', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,5,0.49928469241773965
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'marginal_adhesion', 'mitoses', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,5,0.46924177396280403
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'mitoses', 'single_epithelial_cell_size', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,5,0.47353361945636624
+breast,hyfd,"['bare_nuclei', 'bland_chromatin', 'clump_thickness', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,4,0.4434907010014306
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'normal_nucleoli', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,4,0.41487839771101576
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'marginal_adhesion', 'mitoses', 'uniformity_of_cell_shape']->class",1.0,1.0,1.0,False,5,0.48354792560801146
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'single_epithelial_cell_size', 'uniformity_of_cell_shape']->class",1.0,1.0,1.0,False,4,0.45350500715307585
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'normal_nucleoli', 'uniformity_of_cell_shape']->class",1.0,1.0,1.0,False,4,0.43061516452074394
+breast,hyfd,"['bare_nuclei', 'bland_chromatin', 'clump_thickness', 'marginal_adhesion']->class",1.0,1.0,1.0,False,4,0.46065808297567956
+breast,hyfd,"['bare_nuclei', 'clump_thickness', 'normal_nucleoli', 'single_epithelial_cell_size']->class",1.0,1.0,1.0,False,4,0.43061516452074394
+breast,hyfd,"['bare_nuclei', 'bland_chromatin', 'marginal_adhesion', 'uniformity_of_cell_shape', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,5,0.48497854077253216
+breast,hyfd,"['bare_nuclei', 'mitoses', 'normal_nucleoli', 'single_epithelial_cell_size', 'uniformity_of_cell_shape', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,6,0.474964234620887
+breast,hyfd,"['bare_nuclei', 'bland_chromatin', 'marginal_adhesion', 'single_epithelial_cell_size', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,5,0.49213161659513593
+breast,hyfd,"['bare_nuclei', 'bland_chromatin', 'normal_nucleoli', 'single_epithelial_cell_size', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,5,0.47639484978540775
+breast,hyfd,"['bare_nuclei', 'bland_chromatin', 'mitoses', 'single_epithelial_cell_size', 'uniformity_of_cell_size']->class",1.0,1.0,1.0,False,5,0.4563662374821173
+breast,hyfd,"['bare_nuclei', 'bland_chromatin', 'marginal_adhesion', 'mitoses', 'uniformity_of_cell_shape']->class",1.0,1.0,1.0,False,5,0.46494992846924177
+breast,hyfd,"['bare_nuclei', 'marginal_adhesion', 'normal_nucleoli', 'uniformity_of_cell_shape']->class",1.0,1.0,1.0,False,4,0.4105865522174535
+breast,hyfd,"['bare_nuclei', 'bland_chromatin', 'single_epithelial_cell_size', 'uniformity_of_cell_shape']->class",1.0,1.0,1.0,False,4,0.42775393419170243
+breast,hyfd,"['bare_nuclei', 'bland_chromatin', 'mitoses', 'normal_nucleoli', 'single_epithelial_cell_size']->class",1.0,1.0,1.0,False,5,0.4520743919885551

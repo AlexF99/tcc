@@ -1,0 +1,9 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+breast,fdx,['class']->uniformity_of_cell_size,0.26811421510554534,0.29002186405243296,0.6384505021520803,False,1,0.002861230329041488
+breast,fdx,"['class', 'uniformity_of_cell_size']->marginal_adhesion",0.24073836707972696,0.25608284150506083,0.6343612334801763,False,2,0.02575107296137339
+breast,fdx,"['class', 'uniformity_of_cell_size', 'marginal_adhesion']->single_epithelial_cell_size",0.31595118915788434,0.3977649834930101,0.656093489148581,False,3,0.1430615164520744
+breast,fdx,"['class', 'uniformity_of_cell_size', 'marginal_adhesion', 'single_epithelial_cell_size']->bland_chromatin",0.15815034502102554,0.3387127957824532,0.3598326359832636,False,4,0.31616595135908443
+breast,fdx,"['class', 'uniformity_of_cell_size', 'marginal_adhesion', 'single_epithelial_cell_size', 'bland_chromatin']->normal_nucleoli",0.7230622258962333,0.7652052266400206,0.8883248730964467,False,5,0.4363376251788269
+breast,fdx,"['marginal_adhesion', 'single_epithelial_cell_size', 'bland_chromatin', 'normal_nucleoli']->mitoses",0.7552993085775667,0.7699834791697773,0.9458128078817734,False,4,0.41917024320457796
+breast,fdx,"['class', 'uniformity_of_cell_size', 'single_epithelial_cell_size', 'normal_nucleoli']->uniformity_of_cell_shape",0.5131196857425245,0.5920595191527445,0.7515400410677618,False,4,0.3032904148783977
+breast,fdx,['class']->clump_thickness,0.0649733635298042,0.1500455846928694,0.2998565279770445,False,1,0.002861230329041488

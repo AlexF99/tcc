@@ -1,0 +1,5 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+iris,hyfd,"['petal length', 'sepal length', 'sepal width']->class",1.0,1.0,1.0,False,3,0.9533333333333334
+iris,hyfd,"['petal length', 'petal width', 'sepal length']->class",1.0,1.0,1.0,False,3,0.9533333333333334
+iris,hyfd,"['petal length', 'petal width', 'sepal width']->class",1.0,1.0,1.0,False,3,0.9466666666666667
+iris,hyfd,"['petal width', 'sepal length', 'sepal width']->class",1.0,1.0,1.0,False,3,0.9533333333333334

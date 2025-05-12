@@ -1,0 +1,536 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+echocardiogram,hyfd,"['epss', 'lvdd']->group",1.0,1.0,1.0,False,2,0.9545454545454546
+echocardiogram,hyfd,"['epss', 'lvdd', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'lvdd', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'lvdd', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'lvdd', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'lvdd', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'lvdd', 'wall-motion-index']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'fractional-shortening', 'lvdd']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'fractional-shortening', 'lvdd']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'fractional-shortening', 'lvdd']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'fractional-shortening', 'lvdd']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'lvdd', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'lvdd', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'lvdd', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'lvdd', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'lvdd', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'lvdd', 'wall-motion-score']->mult",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'lvdd']->still-alive",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'lvdd']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'still-alive']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'still-alive']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'still-alive']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'still-alive']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'still-alive']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'pericardial-effusion']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'pericardial-effusion']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'pericardial-effusion']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'lvdd', 'mult', 'pericardial-effusion']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'lvdd', 'mult']->fractional-shortening",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'lvdd', 'mult']->wall-motion-score",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'survival', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'survival', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'survival', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'survival', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'survival', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-index']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'wall-motion-index', 'wall-motion-score']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'wall-motion-index', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'wall-motion-index', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'wall-motion-index', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'wall-motion-index', 'wall-motion-score']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'wall-motion-index', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'wall-motion-index', 'wall-motion-score']->group",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'wall-motion-index', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-index']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-index']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-index']->group",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->group",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'still-alive', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->group",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'survival']->epss",1.0,1.0,1.0,False,2,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'survival']->fractional-shortening",1.0,1.0,1.0,False,2,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'survival']->still-alive",1.0,1.0,1.0,False,2,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'survival']->group",1.0,1.0,1.0,False,2,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'survival', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'survival', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'survival', 'wall-motion-score']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'survival', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'survival']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'survival']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'survival']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'survival']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'survival']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'pericardial-effusion', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'pericardial-effusion', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'pericardial-effusion', 'survival']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'pericardial-effusion', 'survival']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'pericardial-effusion', 'survival']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'survival']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'survival']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'survival']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd']->group",1.0,1.0,1.0,False,2,0.9545454545454546
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'wall-motion-score']->epss",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'wall-motion-score']->mult",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'lvdd', 'still-alive']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'lvdd', 'still-alive']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'lvdd', 'still-alive']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'lvdd', 'still-alive']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'lvdd', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'lvdd']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'lvdd']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'lvdd']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'lvdd']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'lvdd']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'lvdd', 'mult', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'lvdd', 'mult', 'pericardial-effusion']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'lvdd', 'mult', 'pericardial-effusion']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'lvdd', 'mult']->epss",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'lvdd', 'mult']->wall-motion-score",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-score']->epss",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-score']->group",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'mult', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'mult', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'pericardial-effusion', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'mult', 'pericardial-effusion', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['lvdd', 'pericardial-effusion', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['lvdd', 'pericardial-effusion', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['group', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'wall-motion-score']->epss",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'wall-motion-score']->mult",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd']->group",1.0,1.0,1.0,False,2,0.9848484848484849
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'mult']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'mult']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'mult']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'mult']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'mult']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'mult']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'mult']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'mult']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'still-alive']->epss",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'still-alive']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'lvdd']->epss",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'lvdd']->still-alive",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['lvdd', 'mult', 'still-alive']->alive-at-1",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['group', 'lvdd', 'mult', 'pericardial-effusion', 'still-alive']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'mult', 'pericardial-effusion', 'still-alive']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'mult', 'pericardial-effusion', 'still-alive']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'mult', 'pericardial-effusion', 'still-alive']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'mult', 'pericardial-effusion', 'still-alive']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['group', 'lvdd', 'mult', 'pericardial-effusion']->fractional-shortening",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'mult', 'pericardial-effusion']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'mult', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'mult', 'pericardial-effusion']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'mult', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'group', 'lvdd', 'mult', 'pericardial-effusion']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'lvdd', 'mult', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-index']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'wall-motion-index']->group",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'wall-motion-index', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'wall-motion-index', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'wall-motion-index', 'wall-motion-score']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'wall-motion-index']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['epss', 'wall-motion-index', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['epss', 'wall-motion-index', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['epss', 'still-alive', 'wall-motion-index', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'group', 'still-alive', 'wall-motion-index', 'wall-motion-score']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'group', 'still-alive', 'wall-motion-index', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'group', 'still-alive', 'wall-motion-index', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'wall-motion-index']->mult",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'wall-motion-index']->still-alive",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'group', 'wall-motion-index']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'group', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'group', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'mult', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['epss', 'mult', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['epss', 'mult', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'group', 'mult', 'still-alive', 'wall-motion-index']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'group', 'mult', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'group', 'mult', 'still-alive', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival']->still-alive",1.0,1.0,1.0,False,2,0.9848484848484849
+echocardiogram,hyfd,"['epss', 'survival']->group",1.0,1.0,1.0,False,2,0.9848484848484849
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'survival']->lvdd",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'survival']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'survival']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'survival']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'survival']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-score']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-score']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'survival', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'survival']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'survival']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'survival']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'survival']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'mult', 'survival']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'mult', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'mult', 'survival']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'mult', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'mult', 'survival']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'mult', 'survival']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'mult', 'survival']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'pericardial-effusion', 'survival']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'survival']->pericardial-effusion",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'wall-motion-score']->lvdd",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'wall-motion-score']->mult",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'wall-motion-score']->group",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-score']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'fractional-shortening']->pericardial-effusion",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'fractional-shortening']->group",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'fractional-shortening', 'still-alive']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'fractional-shortening', 'still-alive']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'fractional-shortening', 'still-alive']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'fractional-shortening', 'still-alive']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss', 'fractional-shortening']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss', 'fractional-shortening']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss', 'fractional-shortening']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss', 'fractional-shortening']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult']->lvdd",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult']->wall-motion-score",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult']->group",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'still-alive']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'still-alive']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'still-alive']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'pericardial-effusion']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'pericardial-effusion']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'mult', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive']->lvdd",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['epss', 'fractional-shortening', 'still-alive']->group",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening']->lvdd",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'fractional-shortening']->group",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'wall-motion-score']->mult",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'group', 'wall-motion-score']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'group', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'group', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'mult', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['epss', 'mult', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'mult', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'mult', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['epss', 'group', 'mult', 'still-alive', 'wall-motion-score']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'group', 'mult', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'group', 'mult', 'still-alive', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['epss', 'mult', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,False,4,0.9848484848484849
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,False,4,0.9772727272727273
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'mult']->wall-motion-index",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'mult']->wall-motion-score",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'mult']->still-alive",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'mult']->pericardial-effusion",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'mult']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'group', 'mult']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'group', 'mult']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'epss', 'group', 'mult']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss', 'group', 'pericardial-effusion']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss', 'group', 'pericardial-effusion']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss', 'pericardial-effusion']->mult",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss', 'group']->lvdd",1.0,1.0,1.0,False,4,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'epss']->still-alive",1.0,1.0,1.0,False,3,0.9848484848484849
+echocardiogram,hyfd,"['epss', 'group', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,False,4,0.9848484848484849
+echocardiogram,hyfd,"['alive-at-1', 'epss', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,False,4,0.9848484848484849
+echocardiogram,hyfd,"['survival', 'wall-motion-index']->still-alive",1.0,1.0,1.0,False,2,0.9090909090909091
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-index']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-index']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['survival', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['survival', 'wall-motion-index', 'wall-motion-score']->group",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-index']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-index']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-index']->group",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['mult', 'survival', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['mult', 'survival', 'wall-motion-index']->group",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['alive-at-1', 'group', 'survival', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,False,4,0.946969696969697
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'still-alive', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,False,5,0.9696969696969697
+echocardiogram,hyfd,"['fractional-shortening', 'group', 'pericardial-effusion', 'wall-motion-index', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,5,0.9696969696969697
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'group', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,False,5,0.9848484848484849
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'group', 'wall-motion-index', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,5,0.9848484848484849
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->group",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'group', 'mult', 'pericardial-effusion', 'wall-motion-index']->still-alive",1.0,1.0,1.0,False,5,0.9772727272727273
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'mult', 'wall-motion-index']->still-alive",1.0,1.0,1.0,False,4,0.9696969696969697
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'group', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,False,4,0.9621212121212122
+echocardiogram,hyfd,"['age-at-heart-attack', 'wall-motion-index', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,3,0.9621212121212122
+echocardiogram,hyfd,"['age-at-heart-attack', 'wall-motion-index', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,False,3,0.9621212121212122
+echocardiogram,hyfd,"['age-at-heart-attack', 'group', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,False,4,0.9772727272727273
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'wall-motion-index']->still-alive",1.0,1.0,1.0,False,3,0.9696969696969697
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,False,3,0.9696969696969697
+echocardiogram,hyfd,"['mult', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,False,2,0.696969696969697
+echocardiogram,hyfd,"['fractional-shortening', 'survival']->still-alive",1.0,1.0,1.0,False,2,0.9772727272727273
+echocardiogram,hyfd,"['fractional-shortening', 'survival']->group",1.0,1.0,1.0,False,2,0.9772727272727273
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-score']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-score']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-score']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'survival', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'survival']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'survival']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'survival']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'survival']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'mult', 'survival']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'mult', 'survival']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'mult', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'mult', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'mult', 'survival']->age-at-heart-attack",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'mult', 'survival']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'mult', 'survival']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'survival']->pericardial-effusion",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['survival', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,False,2,0.946969696969697
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-score']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-score']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-score']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-score']->group",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['mult', 'survival', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['mult', 'survival', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['mult', 'survival', 'wall-motion-score']->group",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['still-alive', 'survival', 'wall-motion-score']->group",1.0,1.0,1.0,False,3,0.9545454545454546
+echocardiogram,hyfd,"['group', 'survival', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,3,0.9545454545454546
+echocardiogram,hyfd,"['alive-at-1', 'survival', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['alive-at-1', 'survival', 'wall-motion-score']->group",1.0,1.0,1.0,False,3,0.9772727272727273
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival']->still-alive",1.0,1.0,1.0,False,2,0.9772727272727273
+echocardiogram,hyfd,"['age-at-heart-attack', 'survival']->pericardial-effusion",1.0,1.0,1.0,False,2,0.9772727272727273
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'survival']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'survival']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'survival']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'survival']->fractional-shortening",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'survival']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'survival']->group",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'survival']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'survival']->group",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['mult', 'pericardial-effusion', 'survival']->still-alive",1.0,1.0,1.0,False,3,0.9166666666666666
+echocardiogram,hyfd,"['group', 'mult', 'survival']->still-alive",1.0,1.0,1.0,False,3,0.9318181818181818
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->group",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['fractional-shortening', 'mult', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,False,4,0.9621212121212122
+echocardiogram,hyfd,"['fractional-shortening', 'mult', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,False,4,0.9621212121212122
+echocardiogram,hyfd,"['fractional-shortening', 'group', 'mult', 'pericardial-effusion', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,5,0.9772727272727273
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'mult', 'pericardial-effusion', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,5,0.9772727272727273
+echocardiogram,hyfd,"['fractional-shortening', 'group', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,False,4,0.946969696969697
+echocardiogram,hyfd,"['alive-at-1', 'fractional-shortening', 'group', 'pericardial-effusion', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,5,0.9696969696969697
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'mult']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'mult']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'mult']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'mult']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'mult']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'mult']->still-alive",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'mult']->pericardial-effusion",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'mult']->group",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'mult']->alive-at-1",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'still-alive']->group",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'still-alive']->alive-at-1",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'fractional-shortening', 'group', 'pericardial-effusion']->epss",1.0,1.0,1.0,False,4,0.9848484848484849
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->lvdd",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->epss",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->survival",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->mult",1.0,1.0,1.0,True,-,-
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening']->still-alive",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening']->group",1.0,1.0,1.0,False,3,0.9924242424242424
+echocardiogram,hyfd,"['fractional-shortening', 'group', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,False,4,0.9393939393939394
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,False,3,0.9696969696969697
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,3,0.9696969696969697
+echocardiogram,hyfd,"['age-at-heart-attack', 'mult', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,False,3,0.9696969696969697
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'group', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,False,4,0.9772727272727273
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'group', 'wall-motion-score']->mult",1.0,1.0,1.0,False,4,0.9772727272727273
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'group', 'wall-motion-score']->still-alive",1.0,1.0,1.0,False,4,0.9772727272727273
+echocardiogram,hyfd,"['alive-at-1', 'mult', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,False,4,0.8181818181818182
+echocardiogram,hyfd,"['alive-at-1', 'group', 'mult', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,False,5,0.8560606060606061
+echocardiogram,hyfd,"['age-at-heart-attack', 'alive-at-1', 'mult', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,False,4,0.9318181818181818

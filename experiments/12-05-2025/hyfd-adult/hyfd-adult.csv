@@ -1,0 +1,192 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+adult,hyfd,"['age', 'fnlwgt']->race",1.0,1.0,1.0,False,2,0.9933296275708727
+adult,hyfd,"['age', 'fnlwgt']->sex",1.0,1.0,1.0,False,2,0.9933296275708727
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt']->Capital-loss",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'age', 'fnlwgt']->Native-country",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'age', 'fnlwgt']->workclass",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'Marital-status', 'age', 'fnlwgt']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'Marital-status', 'age', 'fnlwgt']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'age', 'fnlwgt', 'relationship']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'age', 'fnlwgt', 'relationship']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'age', 'fnlwgt', 'income']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'age', 'fnlwgt', 'income']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Native-country', 'age', 'fnlwgt']->Capital-gain",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Hours-per-week', 'Native-country', 'age', 'fnlwgt']->workclass",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Hours-per-week', 'Marital-status', 'Native-country', 'age', 'fnlwgt']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Marital-status', 'Native-country', 'age', 'fnlwgt']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Native-country', 'age', 'fnlwgt', 'relationship']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Native-country', 'age', 'fnlwgt', 'relationship']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Native-country', 'age', 'fnlwgt', 'income']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Native-country', 'age', 'fnlwgt', 'income']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'age', 'education', 'fnlwgt']->occupation",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'age', 'education', 'fnlwgt']->workclass",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Education-num', 'Hours-per-week', 'age', 'fnlwgt']->occupation",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Education-num', 'Hours-per-week', 'age', 'fnlwgt']->workclass",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt', 'workclass']->Capital-gain",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Hours-per-week', 'Marital-status', 'age', 'fnlwgt', 'workclass']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Marital-status', 'age', 'fnlwgt', 'workclass']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt', 'relationship', 'workclass']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt', 'relationship', 'workclass']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt', 'income', 'workclass']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt', 'income', 'workclass']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Marital-status', 'age', 'fnlwgt']->occupation",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Hours-per-week', 'Marital-status', 'age', 'fnlwgt']->income",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt', 'relationship']->occupation",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt', 'relationship']->income",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt', 'income']->occupation",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt', 'income']->Marital-status",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Hours-per-week', 'age', 'fnlwgt', 'income']->relationship",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Capital-gain', 'age', 'fnlwgt', 'occupation']->Native-country",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'age', 'fnlwgt', 'occupation']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'age', 'fnlwgt', 'occupation']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'age', 'fnlwgt', 'occupation']->workclass",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-loss', 'age', 'fnlwgt', 'income', 'workclass']->education",1.0,1.0,1.0,False,5,0.9994441356309061
+adult,hyfd,"['Capital-loss', 'age', 'fnlwgt', 'income', 'workclass']->Education-num",1.0,1.0,1.0,False,5,0.9994441356309061
+adult,hyfd,"['Capital-loss', 'age', 'fnlwgt', 'income', 'workclass']->Marital-status",1.0,1.0,1.0,False,5,0.9994441356309061
+adult,hyfd,"['Capital-loss', 'age', 'fnlwgt', 'income', 'workclass']->relationship",1.0,1.0,1.0,False,5,0.9994441356309061
+adult,hyfd,"['Native-country', 'age', 'fnlwgt', 'occupation']->Capital-gain",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Native-country', 'age', 'fnlwgt', 'occupation']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Native-country', 'age', 'fnlwgt', 'occupation']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Native-country', 'age', 'fnlwgt', 'occupation']->workclass",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Marital-status', 'Native-country', 'age', 'fnlwgt']->Capital-gain",1.0,1.0,1.0,False,4,0.9983324068927182
+adult,hyfd,"['Marital-status', 'Native-country', 'age', 'fnlwgt', 'income']->education",1.0,1.0,1.0,False,5,0.9988882712618121
+adult,hyfd,"['Marital-status', 'Native-country', 'age', 'fnlwgt', 'income']->Education-num",1.0,1.0,1.0,False,5,0.9988882712618121
+adult,hyfd,"['Native-country', 'age', 'fnlwgt', 'relationship']->Capital-gain",1.0,1.0,1.0,False,4,0.9983324068927182
+adult,hyfd,"['Native-country', 'age', 'fnlwgt', 'income', 'relationship']->education",1.0,1.0,1.0,False,5,0.9988882712618121
+adult,hyfd,"['Native-country', 'age', 'fnlwgt', 'income', 'relationship']->Education-num",1.0,1.0,1.0,False,5,0.9988882712618121
+adult,hyfd,"['Native-country', 'age', 'fnlwgt', 'income']->Capital-gain",1.0,1.0,1.0,False,4,0.9977765425236242
+adult,hyfd,"['age', 'education', 'fnlwgt']->Capital-gain",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['age', 'education', 'fnlwgt']->Native-country",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['age', 'education', 'fnlwgt']->Marital-status",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['age', 'education', 'fnlwgt']->relationship",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['age', 'education', 'fnlwgt']->income",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['Education-num', 'age', 'fnlwgt']->Capital-gain",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['Education-num', 'age', 'fnlwgt']->Native-country",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['Education-num', 'age', 'fnlwgt']->Marital-status",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['Education-num', 'age', 'fnlwgt']->relationship",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['Education-num', 'age', 'fnlwgt']->income",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['age', 'fnlwgt', 'occupation']->Hours-per-week",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['age', 'fnlwgt', 'occupation']->Marital-status",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['age', 'fnlwgt', 'occupation']->relationship",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['age', 'fnlwgt', 'occupation']->income",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['age', 'fnlwgt', 'occupation', 'workclass']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['age', 'fnlwgt', 'occupation', 'workclass']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Marital-status', 'age', 'fnlwgt', 'workclass']->Capital-gain",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Marital-status', 'age', 'fnlwgt', 'income', 'workclass']->education",1.0,1.0,1.0,False,5,0.9994441356309061
+adult,hyfd,"['Marital-status', 'age', 'fnlwgt', 'income', 'workclass']->Education-num",1.0,1.0,1.0,False,5,0.9994441356309061
+adult,hyfd,"['age', 'fnlwgt', 'income', 'relationship', 'workclass']->education",1.0,1.0,1.0,False,5,0.9994441356309061
+adult,hyfd,"['age', 'fnlwgt', 'income', 'relationship', 'workclass']->Education-num",1.0,1.0,1.0,False,5,0.9994441356309061
+adult,hyfd,"['Marital-status', 'age', 'fnlwgt']->Capital-loss",1.0,1.0,1.0,False,3,0.9972206781545303
+adult,hyfd,"['Marital-status', 'age', 'fnlwgt']->relationship",1.0,1.0,1.0,False,3,0.9972206781545303
+adult,hyfd,"['age', 'fnlwgt', 'relationship']->Capital-loss",1.0,1.0,1.0,False,3,0.9972206781545303
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'fnlwgt', 'occupation']->Native-country",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'fnlwgt', 'occupation']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'fnlwgt', 'occupation']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'Hours-per-week', 'fnlwgt', 'occupation']->workclass",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-loss', 'Hours-per-week', 'Marital-status', 'Native-country', 'fnlwgt']->workclass",1.0,1.0,1.0,False,5,0.9961089494163424
+adult,hyfd,"['Capital-loss', 'Hours-per-week', 'Native-country', 'fnlwgt', 'sex']->workclass",1.0,1.0,1.0,False,5,0.9938854919399667
+adult,hyfd,"['Capital-loss', 'Hours-per-week', 'Marital-status', 'fnlwgt', 'income']->relationship",1.0,1.0,1.0,False,5,0.9966648137854364
+adult,hyfd,"['Hours-per-week', 'Native-country', 'education', 'fnlwgt']->workclass",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Education-num', 'Hours-per-week', 'Native-country', 'fnlwgt']->workclass",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Hours-per-week', 'Native-country', 'fnlwgt', 'occupation']->Capital-gain",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Native-country', 'fnlwgt', 'occupation']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Native-country', 'fnlwgt', 'occupation']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Native-country', 'fnlwgt', 'occupation']->workclass",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'Native-country', 'fnlwgt', 'relationship']->Capital-gain",1.0,1.0,1.0,False,4,0.9961089494163424
+adult,hyfd,"['Hours-per-week', 'Native-country', 'fnlwgt', 'relationship']->workclass",1.0,1.0,1.0,False,4,0.9961089494163424
+adult,hyfd,"['Hours-per-week', 'Native-country', 'fnlwgt', 'income']->Capital-gain",1.0,1.0,1.0,False,4,0.9949972206781545
+adult,hyfd,"['Hours-per-week', 'education', 'fnlwgt']->Capital-gain",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['Hours-per-week', 'education', 'fnlwgt']->race",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['Hours-per-week', 'education', 'fnlwgt']->sex",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['Hours-per-week', 'education', 'fnlwgt']->income",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['Education-num', 'Hours-per-week', 'fnlwgt']->Capital-gain",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['Education-num', 'Hours-per-week', 'fnlwgt']->race",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['Education-num', 'Hours-per-week', 'fnlwgt']->sex",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['Education-num', 'Hours-per-week', 'fnlwgt']->income",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['Hours-per-week', 'fnlwgt', 'occupation']->age",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['Hours-per-week', 'fnlwgt', 'occupation']->Marital-status",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['Hours-per-week', 'fnlwgt', 'occupation']->relationship",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['Hours-per-week', 'fnlwgt', 'occupation']->income",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['Hours-per-week', 'fnlwgt', 'occupation', 'workclass']->education",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Hours-per-week', 'fnlwgt', 'occupation', 'workclass']->Education-num",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Capital-gain', 'Native-country', 'fnlwgt', 'occupation']->workclass",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Capital-gain', 'education', 'fnlwgt']->income",1.0,1.0,1.0,False,3,0.9949972206781545
+adult,hyfd,"['Capital-gain', 'Education-num', 'fnlwgt']->income",1.0,1.0,1.0,False,3,0.9949972206781545
+adult,hyfd,"['Capital-gain', 'Marital-status', 'fnlwgt', 'occupation']->Native-country",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Capital-gain', 'Marital-status', 'fnlwgt', 'occupation']->workclass",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Capital-gain', 'fnlwgt', 'occupation', 'relationship']->Native-country",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Capital-gain', 'fnlwgt', 'occupation', 'relationship']->workclass",1.0,1.0,1.0,False,4,0.9994441356309061
+adult,hyfd,"['Capital-gain', 'fnlwgt', 'income', 'occupation']->Native-country",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Capital-gain', 'fnlwgt', 'income', 'occupation']->workclass",1.0,1.0,1.0,False,4,0.9988882712618121
+adult,hyfd,"['Native-country', 'fnlwgt']->race",1.0,1.0,1.0,False,2,0.9772095608671484
+adult,hyfd,"['Native-country', 'education', 'fnlwgt']->sex",1.0,1.0,1.0,False,3,0.9955530850472485
+adult,hyfd,"['Education-num', 'Native-country', 'fnlwgt']->sex",1.0,1.0,1.0,False,3,0.9955530850472485
+adult,hyfd,"['Native-country', 'fnlwgt', 'occupation']->income",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['education', 'fnlwgt']->Capital-loss",1.0,1.0,1.0,False,2,0.9944413563090606
+adult,hyfd,"['education', 'fnlwgt', 'occupation']->Capital-gain",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['education', 'fnlwgt', 'occupation']->Native-country",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['education', 'fnlwgt', 'occupation']->workclass",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['education', 'fnlwgt', 'occupation']->income",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['Marital-status', 'education', 'fnlwgt', 'occupation']->age",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Marital-status', 'education', 'fnlwgt', 'occupation']->Hours-per-week",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['education', 'fnlwgt', 'occupation', 'relationship']->age",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['education', 'fnlwgt', 'occupation', 'relationship']->Hours-per-week",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['education', 'fnlwgt', 'workclass']->Capital-gain",1.0,1.0,1.0,False,3,0.9972206781545303
+adult,hyfd,"['education', 'fnlwgt', 'workclass']->income",1.0,1.0,1.0,False,3,0.9972206781545303
+adult,hyfd,"['Marital-status', 'education', 'fnlwgt']->Capital-gain",1.0,1.0,1.0,False,3,0.9977765425236242
+adult,hyfd,"['Marital-status', 'education', 'fnlwgt']->relationship",1.0,1.0,1.0,False,3,0.9977765425236242
+adult,hyfd,"['Marital-status', 'education', 'fnlwgt']->income",1.0,1.0,1.0,False,3,0.9977765425236242
+adult,hyfd,"['education', 'fnlwgt', 'relationship']->Capital-gain",1.0,1.0,1.0,False,3,0.9977765425236242
+adult,hyfd,"['education', 'fnlwgt', 'relationship']->income",1.0,1.0,1.0,False,3,0.9977765425236242
+adult,hyfd,"['education', 'fnlwgt', 'race']->sex",1.0,1.0,1.0,False,3,0.9949972206781545
+adult,hyfd,"['education', 'fnlwgt', 'income']->Capital-gain",1.0,1.0,1.0,False,3,0.9949972206781545
+adult,hyfd,"['Education-num', 'fnlwgt']->Capital-loss",1.0,1.0,1.0,False,2,0.9944413563090606
+adult,hyfd,"['Education-num', 'fnlwgt', 'occupation']->Capital-gain",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['Education-num', 'fnlwgt', 'occupation']->Native-country",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['Education-num', 'fnlwgt', 'occupation']->workclass",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['Education-num', 'fnlwgt', 'occupation']->income",1.0,1.0,1.0,False,3,0.9994441356309061
+adult,hyfd,"['Education-num', 'Marital-status', 'fnlwgt', 'occupation']->age",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Education-num', 'Marital-status', 'fnlwgt', 'occupation']->Hours-per-week",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Education-num', 'fnlwgt', 'occupation', 'relationship']->age",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Education-num', 'fnlwgt', 'occupation', 'relationship']->Hours-per-week",1.0,1.0,1.0,True,-,-
+adult,hyfd,"['Education-num', 'fnlwgt', 'workclass']->Capital-gain",1.0,1.0,1.0,False,3,0.9972206781545303
+adult,hyfd,"['Education-num', 'fnlwgt', 'workclass']->income",1.0,1.0,1.0,False,3,0.9972206781545303
+adult,hyfd,"['Education-num', 'Marital-status', 'fnlwgt']->Capital-gain",1.0,1.0,1.0,False,3,0.9977765425236242
+adult,hyfd,"['Education-num', 'Marital-status', 'fnlwgt']->relationship",1.0,1.0,1.0,False,3,0.9977765425236242
+adult,hyfd,"['Education-num', 'Marital-status', 'fnlwgt']->income",1.0,1.0,1.0,False,3,0.9977765425236242
+adult,hyfd,"['Education-num', 'fnlwgt', 'relationship']->Capital-gain",1.0,1.0,1.0,False,3,0.9977765425236242
+adult,hyfd,"['Education-num', 'fnlwgt', 'relationship']->income",1.0,1.0,1.0,False,3,0.9977765425236242
+adult,hyfd,"['Education-num', 'fnlwgt', 'race']->sex",1.0,1.0,1.0,False,3,0.9949972206781545
+adult,hyfd,"['Education-num', 'fnlwgt', 'income']->Capital-gain",1.0,1.0,1.0,False,3,0.9949972206781545
+adult,hyfd,"['fnlwgt', 'occupation']->Capital-loss",1.0,1.0,1.0,False,2,0.9972206781545303
+adult,hyfd,"['fnlwgt', 'occupation']->race",1.0,1.0,1.0,False,2,0.9972206781545303
+adult,hyfd,"['fnlwgt', 'occupation']->sex",1.0,1.0,1.0,False,2,0.9972206781545303
+adult,hyfd,"['fnlwgt', 'occupation', 'workclass']->Capital-gain",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['fnlwgt', 'occupation', 'workclass']->income",1.0,1.0,1.0,False,3,0.9988882712618121
+adult,hyfd,"['Marital-status', 'fnlwgt', 'occupation']->relationship",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['Marital-status', 'fnlwgt', 'occupation']->income",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['fnlwgt', 'occupation', 'relationship']->income",1.0,1.0,1.0,False,3,0.9983324068927182
+adult,hyfd,"['fnlwgt', 'workclass']->Native-country",1.0,1.0,1.0,False,2,0.9872151195108394
+adult,hyfd,"['fnlwgt', 'workclass']->race",1.0,1.0,1.0,False,2,0.9872151195108394
+adult,hyfd,"['fnlwgt', 'workclass']->sex",1.0,1.0,1.0,False,2,0.9872151195108394
+adult,hyfd,"['Marital-status', 'fnlwgt', 'income', 'workclass']->relationship",1.0,1.0,1.0,False,4,0.9961089494163424
+adult,hyfd,"['fnlwgt', 'relationship', 'workclass']->Capital-gain",1.0,1.0,1.0,False,3,0.9933296275708727
+adult,hyfd,"['fnlwgt', 'income', 'workclass']->Capital-gain",1.0,1.0,1.0,False,3,0.9927737632017788
+adult,hyfd,"['Marital-status', 'fnlwgt']->race",1.0,1.0,1.0,False,2,0.9849916620344636
+adult,hyfd,"['Marital-status', 'fnlwgt']->sex",1.0,1.0,1.0,False,2,0.9849916620344636
+adult,hyfd,"['fnlwgt', 'relationship']->Marital-status",1.0,1.0,1.0,False,2,0.9872151195108394
+adult,hyfd,"['fnlwgt', 'relationship']->race",1.0,1.0,1.0,False,2,0.9872151195108394
+adult,hyfd,"['fnlwgt', 'relationship']->sex",1.0,1.0,1.0,False,2,0.9872151195108394
+adult,hyfd,"['fnlwgt', 'sex']->race",1.0,1.0,1.0,False,2,0.9738743746525848
+adult,hyfd,"['Capital-gain', 'Capital-loss', 'Hours-per-week', 'age', 'education', 'income', 'occupation', 'race', 'relationship', 'sex']->Native-country",1.0,1.0,1.0,False,10,0.9883268482490273
+adult,hyfd,"['Capital-gain', 'Capital-loss', 'Education-num', 'Hours-per-week', 'age', 'income', 'occupation', 'race', 'relationship', 'sex']->Native-country",1.0,1.0,1.0,False,10,0.9883268482490273
+adult,hyfd,"['Hours-per-week', 'Marital-status', 'Native-country', 'age', 'education', 'occupation', 'race', 'relationship', 'workclass']->Capital-loss",1.0,1.0,1.0,False,9,0.9799888827126181
+adult,hyfd,"['Hours-per-week', 'Marital-status', 'Native-country', 'age', 'education', 'occupation', 'sex', 'workclass']->Capital-loss",1.0,1.0,1.0,False,8,0.9738743746525848
+adult,hyfd,"['Hours-per-week', 'Native-country', 'age', 'education', 'occupation', 'relationship', 'sex', 'workclass']->Capital-loss",1.0,1.0,1.0,False,8,0.9777654252362423
+adult,hyfd,"['Hours-per-week', 'Native-country', 'age', 'education', 'income', 'occupation', 'sex', 'workclass']->Capital-loss",1.0,1.0,1.0,False,8,0.9649805447470817
+adult,hyfd,"['Education-num', 'Hours-per-week', 'Marital-status', 'Native-country', 'age', 'occupation', 'race', 'relationship', 'workclass']->Capital-loss",1.0,1.0,1.0,False,9,0.9799888827126181
+adult,hyfd,"['Education-num', 'Hours-per-week', 'Marital-status', 'Native-country', 'age', 'occupation', 'sex', 'workclass']->Capital-loss",1.0,1.0,1.0,False,8,0.9738743746525848
+adult,hyfd,"['Education-num', 'Hours-per-week', 'Native-country', 'age', 'occupation', 'relationship', 'sex', 'workclass']->Capital-loss",1.0,1.0,1.0,False,8,0.9777654252362423
+adult,hyfd,"['Education-num', 'Hours-per-week', 'Native-country', 'age', 'income', 'occupation', 'sex', 'workclass']->Capital-loss",1.0,1.0,1.0,False,8,0.9649805447470817
+adult,hyfd,['education']->Education-num,1.0,1.0,1.0,False,1,0.008893829905503057
+adult,hyfd,['Education-num']->education,1.0,1.0,1.0,False,1,0.008893829905503057

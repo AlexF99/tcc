@@ -1,0 +1,138 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+abalone,hyfd,"['shell_weight', 'shucked_weight', 'whole_height']->viscera_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'shucked_weight', 'whole_height']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'shucked_weight', 'whole_height']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'shucked_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'shucked_weight', 'whole_height']->rings",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'shucked_weight', 'whole_height']->sex",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shucked_weight', 'viscera_weight', 'whole_height']->diameter",1.0,1.0,1.0,False,3,0.9997605937275557
+abalone,hyfd,"['shucked_weight', 'viscera_weight', 'whole_height']->sex",1.0,1.0,1.0,False,3,0.9997605937275557
+abalone,hyfd,"['length', 'shucked_weight', 'viscera_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'shucked_weight', 'viscera_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'shucked_weight', 'viscera_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'shucked_weight', 'viscera_weight', 'whole_height']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'shucked_weight', 'viscera_weight', 'whole_height']->rings",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['rings', 'shucked_weight', 'viscera_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['rings', 'shucked_weight', 'viscera_weight', 'whole_height']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['rings', 'shucked_weight', 'viscera_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'shucked_weight', 'whole_height']->rings",1.0,1.0,1.0,False,3,0.9997605937275557
+abalone,hyfd,"['diameter', 'length', 'shucked_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'shucked_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'shucked_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'shucked_weight', 'whole_height']->viscera_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'shucked_weight', 'whole_height']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'shucked_weight', 'whole_height']->sex",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'sex', 'shucked_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'sex', 'shucked_weight', 'whole_height']->viscera_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'sex', 'shucked_weight', 'whole_height']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'sex', 'shucked_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'shucked_weight', 'whole_height']->viscera_weight",1.0,1.0,1.0,False,3,0.9997605937275557
+abalone,hyfd,"['diameter', 'shucked_weight', 'whole_height']->sex",1.0,1.0,1.0,False,3,0.9997605937275557
+abalone,hyfd,"['diameter', 'height', 'shucked_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'shucked_weight', 'whole_height']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'shucked_weight', 'whole_height']->rings",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'rings', 'shucked_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'rings', 'shucked_weight', 'whole_height']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'rings', 'shucked_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'viscera_weight', 'whole_height']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'viscera_weight', 'whole_height']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'viscera_weight', 'whole_height']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'viscera_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'viscera_weight', 'whole_height']->rings",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['shell_weight', 'viscera_weight', 'whole_height']->sex",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'shell_weight', 'whole_height']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'shell_weight', 'whole_height']->viscera_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'shell_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'shell_weight', 'whole_height']->rings",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'shell_weight', 'whole_height']->sex",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'sex', 'shell_weight', 'whole_height']->rings",1.0,1.0,1.0,False,5,0.9995211874551113
+abalone,hyfd,"['length', 'rings', 'shell_weight', 'whole_height']->sex",1.0,1.0,1.0,False,4,0.9990423749102226
+abalone,hyfd,"['diameter', 'height', 'shell_weight', 'whole_height']->sex",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['diameter', 'height', 'rings', 'shell_weight', 'whole_height']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'rings', 'shell_weight', 'whole_height']->viscera_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'rings', 'shell_weight', 'whole_height']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'rings', 'sex', 'shell_weight', 'whole_height']->length",1.0,1.0,1.0,False,5,0.9995211874551113
+abalone,hyfd,"['height', 'length', 'viscera_weight', 'whole_height']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'viscera_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'viscera_weight', 'whole_height']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'viscera_weight', 'whole_height']->rings",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'viscera_weight', 'whole_height']->sex",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'viscera_weight', 'whole_height']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'viscera_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'viscera_weight', 'whole_height']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'viscera_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'viscera_weight', 'whole_height']->sex",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'viscera_weight', 'whole_height']->sex",1.0,1.0,1.0,False,3,0.999281781182667
+abalone,hyfd,"['diameter', 'rings', 'viscera_weight', 'whole_height']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'rings', 'viscera_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'rings', 'viscera_weight', 'whole_height']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'rings', 'viscera_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'sex', 'viscera_weight', 'whole_height']->diameter",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['rings', 'sex', 'viscera_weight', 'whole_height']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['rings', 'sex', 'viscera_weight', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['rings', 'sex', 'viscera_weight', 'whole_height']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['rings', 'sex', 'viscera_weight', 'whole_height']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['rings', 'sex', 'viscera_weight', 'whole_height']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'whole_height']->sex",1.0,1.0,1.0,False,4,0.9995211874551113
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'whole_height']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'whole_height']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'whole_height']->viscera_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'rings', 'whole_height']->sex",1.0,1.0,1.0,False,4,0.9990423749102226
+abalone,hyfd,"['length', 'shell_weight', 'shucked_weight', 'viscera_weight']->diameter",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['length', 'shell_weight', 'shucked_weight', 'viscera_weight']->sex",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['diameter', 'shell_weight', 'shucked_weight', 'viscera_weight']->sex",1.0,1.0,1.0,False,4,0.9995211874551113
+abalone,hyfd,"['height', 'shell_weight', 'shucked_weight', 'viscera_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'shell_weight', 'shucked_weight', 'viscera_weight']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'shell_weight', 'shucked_weight', 'viscera_weight']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'shell_weight', 'shucked_weight', 'viscera_weight']->rings",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'shell_weight', 'shucked_weight', 'viscera_weight']->sex",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'shell_weight', 'shucked_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'shell_weight', 'shucked_weight']->viscera_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'sex', 'shell_weight', 'shucked_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'sex', 'shell_weight', 'shucked_weight']->viscera_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'rings', 'shell_weight', 'shucked_weight']->sex",1.0,1.0,1.0,False,5,0.9997605937275557
+abalone,hyfd,"['height', 'length', 'rings', 'shell_weight', 'shucked_weight']->sex",1.0,1.0,1.0,False,5,0.9997605937275557
+abalone,hyfd,"['height', 'length', 'sex', 'shell_weight', 'shucked_weight']->rings",1.0,1.0,1.0,False,5,0.9997605937275557
+abalone,hyfd,"['diameter', 'height', 'rings', 'shell_weight', 'shucked_weight']->sex",1.0,1.0,1.0,False,5,0.9997605937275557
+abalone,hyfd,"['height', 'length', 'shucked_weight', 'viscera_weight']->diameter",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['height', 'length', 'sex', 'shucked_weight', 'viscera_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'length', 'sex', 'shucked_weight', 'viscera_weight']->rings",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'shucked_weight', 'viscera_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'shucked_weight', 'viscera_weight']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'shucked_weight', 'viscera_weight']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'shucked_weight', 'viscera_weight']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'shucked_weight', 'viscera_weight']->sex",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'sex', 'shucked_weight', 'viscera_weight']->shell_weight",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['length', 'sex', 'shucked_weight', 'viscera_weight']->diameter",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['diameter', 'height', 'shucked_weight', 'viscera_weight']->length",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['diameter', 'height', 'sex', 'shucked_weight', 'viscera_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'sex', 'shucked_weight', 'viscera_weight']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'sex', 'shucked_weight', 'viscera_weight']->rings",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'rings', 'shucked_weight', 'viscera_weight']->shell_weight",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['diameter', 'rings', 'shucked_weight', 'viscera_weight']->sex",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['height', 'rings', 'shucked_weight', 'viscera_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'rings', 'shucked_weight', 'viscera_weight']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'rings', 'shucked_weight', 'viscera_weight']->length",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'rings', 'shucked_weight', 'viscera_weight']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['height', 'rings', 'shucked_weight', 'viscera_weight']->sex",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['rings', 'sex', 'shucked_weight', 'viscera_weight']->shell_weight",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['rings', 'sex', 'shucked_weight', 'viscera_weight']->diameter",1.0,1.0,1.0,False,4,0.9997605937275557
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'sex', 'shucked_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'sex', 'shucked_weight']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'sex', 'shucked_weight']->viscera_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'sex', 'shell_weight', 'viscera_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'rings', 'shell_weight', 'viscera_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'rings', 'shell_weight', 'viscera_weight']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'rings', 'shell_weight', 'viscera_weight']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'rings', 'shell_weight', 'viscera_weight']->sex",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'length', 'sex', 'shell_weight', 'viscera_weight']->shucked_weight",1.0,1.0,1.0,False,5,0.9997605937275557
+abalone,hyfd,"['length', 'rings', 'sex', 'shell_weight', 'viscera_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'sex', 'shell_weight', 'viscera_weight']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'sex', 'shell_weight', 'viscera_weight']->diameter",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['length', 'rings', 'sex', 'shell_weight', 'viscera_weight']->height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'rings', 'shell_weight', 'viscera_weight']->sex",1.0,1.0,1.0,False,5,0.9997605937275557
+abalone,hyfd,"['diameter', 'height', 'sex', 'shell_weight', 'viscera_weight']->rings",1.0,1.0,1.0,False,5,0.9997605937275557
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'viscera_weight']->whole_height",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'viscera_weight']->shucked_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'viscera_weight']->shell_weight",1.0,1.0,1.0,True,-,-
+abalone,hyfd,"['diameter', 'height', 'length', 'rings', 'viscera_weight']->sex",1.0,1.0,1.0,True,-,-

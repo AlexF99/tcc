@@ -1,0 +1,10 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+ncvoter,fdx,['name_prefix']->name_suffix,0.0,1.0,1.0,False,1,0.002
+ncvoter,fdx,"['name_prefix', 'name_suffix']->race",0.0,1.0,1.0,False,2,0.004
+ncvoter,fdx,"['name_prefix', 'name_suffix', 'race']->ethnic",0.0,1.0,1.0,False,3,0.01
+ncvoter,fdx,"['name_prefix', 'race']->download_month",0.0,0.9809545694927917,0.993963782696177,False,2,0.006
+ncvoter,fdx,"['race', 'download_month']->register_date",0.004298939342138208,0.030476384614099718,0.15447154471544716,False,2,0.016
+ncvoter,fdx,['register_date']->street_address,0.003378639184940968,0.009377138040594363,0.01544943820224719,False,1,0.288
+ncvoter,fdx,['street_address']->city,1.0,1.0,1.0,False,1,0.958
+ncvoter,fdx,"['street_address', 'city']->last_name",0.737697188984628,0.714197337455607,0.7380952380952381,False,2,0.958
+ncvoter,fdx,['gender']->first_name,0.0039433382894028535,0.05861902784246259,0.04212637913741224,False,1,0.003

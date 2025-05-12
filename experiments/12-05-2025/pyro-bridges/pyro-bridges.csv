@@ -1,0 +1,539 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+bridges,pyro,['identif']->location,1.0,1.0,1.0,True,-,-
+bridges,pyro,['identif']->material,1.0,1.0,1.0,True,-,-
+bridges,pyro,['identif']->type,1.0,1.0,1.0,True,-,-
+bridges,pyro,['identif']->span,1.0,1.0,1.0,True,-,-
+bridges,pyro,['identif']->lanes,1.0,1.0,1.0,True,-,-
+bridges,pyro,['identif']->t-or-d,1.0,1.0,1.0,True,-,-
+bridges,pyro,['identif']->river,1.0,1.0,1.0,True,-,-
+bridges,pyro,['identif']->length,1.0,1.0,1.0,True,-,-
+bridges,pyro,['identif']->clear-g,1.0,1.0,1.0,True,-,-
+bridges,pyro,['identif']->erected,1.0,1.0,1.0,True,-,-
+bridges,pyro,['identif']->purpose,1.0,1.0,1.0,True,-,-
+bridges,pyro,"['erected', 'location']->identif",1.0,1.0,1.0,True,-,-
+bridges,pyro,['erected']->span,0.328025037653203,0.3605764198473722,0.6052631578947368,False,1,0.6481481481481481
+bridges,pyro,['location']->span,0.30259217246144887,0.31304070501655423,0.6037735849056604,False,1,0.5092592592592593
+bridges,pyro,"['erected', 'length']->location",0.0,0.0,0.0,False,2,0.9907407407407407
+bridges,pyro,['erected']->clear-g,0.50244557729402,0.49118629121520174,0.8421052631578947,False,1,0.6481481481481481
+bridges,pyro,['location']->river,1.0,1.0,1.0,False,1,0.5092592592592593
+bridges,pyro,['erected']->purpose,0.5641630051481259,0.575587035313866,0.8157894736842105,False,1,0.6481481481481481
+bridges,pyro,['erected']->material,0.6984279421282276,0.716209437323048,0.868421052631579,False,1,0.6481481481481481
+bridges,pyro,['location']->clear-g,0.0,0.0,0.6226415094339622,False,1,0.5092592592592593
+bridges,pyro,['erected']->river,0.0,0.0,0.39473684210526316,False,1,0.6481481481481481
+bridges,pyro,['location']->purpose,0.503927043123787,0.49060104956470557,0.8113207547169812,False,1,0.5092592592592593
+bridges,pyro,['location']->material,0.0,0.0,0.5283018867924528,False,1,0.5092592592592593
+bridges,pyro,['erected']->t-or-d,0.16716085989621832,0.18899405802476638,0.7631578947368421,False,1,0.6481481481481481
+bridges,pyro,['erected']->type,0.2925942032392277,0.27461947958574734,0.5,False,1,0.6481481481481481
+bridges,pyro,['location']->t-or-d,0.17728762512179952,0.16732330521340347,0.7547169811320755,False,1,0.5092592592592593
+bridges,pyro,['erected']->lanes,0.20339158308344552,0.19570471731441802,0.5526315789473685,False,1,0.6481481481481481
+bridges,pyro,['location']->lanes,0.0,0.0,0.39622641509433965,False,1,0.5092592592592593
+bridges,pyro,"['length', 'location']->erected",0.0,0.0,0.0,False,2,0.8981481481481481
+bridges,pyro,"['length', 'material']->clear-g",0.8127299925205689,0.8134365017332894,0.9428571428571428,False,2,0.6759259259259259
+bridges,pyro,"['length', 'location']->type",0.319655690446222,0.32772397654518937,0.5454545454545454,False,2,0.8981481481481481
+bridges,pyro,"['length', 'type']->material",0.3194777315924374,0.3982627728126581,0.7647058823529411,False,2,0.6851851851851852
+bridges,pyro,"['erected', 'type']->location",0.0,0.0,0.0,False,2,0.8148148148148148
+bridges,pyro,"['erected', 'location']->length",1.0,1.0,1.0,True,-,-
+bridges,pyro,"['length', 'material', 'river']->span",0.22614402958667623,0.26164903836816955,0.5652173913043478,False,3,0.7870370370370371
+bridges,pyro,"['length', 'type']->t-or-d",0.4427742928157161,0.44366529262939236,0.8823529411764706,False,2,0.6851851851851852
+bridges,pyro,"['erected', 'length']->identif",0.0,6.16768256376986e-11,0.0,False,2,0.9907407407407407
+bridges,pyro,"['length', 'location']->identif",0.0,4.374637736058134e-12,0.0,False,2,0.8981481481481481
+bridges,pyro,"['length', 'type']->lanes",0.39812074142033993,0.4541866390647595,0.7058823529411765,False,2,0.6851851851851852
+bridges,pyro,"['length', 'material', 'river']->purpose",0.0,0.0,0.5217391304347826,False,3,0.7870370370370371
+bridges,pyro,"['length', 'span', 'type']->river",0.11679605216444644,0.109330228004123,0.5217391304347826,False,3,0.7870370370370371
+bridges,pyro,"['location', 'type']->erected",0.0,0.0,0.0,False,2,0.8240740740740741
+bridges,pyro,"['length', 'type']->clear-g",0.5162897619780891,0.4948726951536533,0.8529411764705882,False,2,0.6851851851851852
+bridges,pyro,"['location', 'span']->type",0.14761460067400178,0.14903948128340502,0.3939393939393939,False,2,0.6944444444444444
+bridges,pyro,"['length', 'river', 'type']->location",0.18425649578651693,0.19530566546178973,0.25,False,3,0.7777777777777778
+bridges,pyro,"['location', 'type']->length",0.26353047297827226,0.28897190505580345,0.3157894736842105,False,2,0.8240740740740741
+bridges,pyro,"['length', 'rel-l', 'span']->material",0.06765833663889886,0.15212585953010468,0.6666666666666666,False,3,0.75
+bridges,pyro,"['location', 'type']->identif",0.0,3.171303910192556e-12,0.0,False,2,0.8240740740740741
+bridges,pyro,"['length', 'river', 'type']->erected",0.0,0.0,0.0,False,3,0.7777777777777778
+bridges,pyro,"['length', 'river', 'type']->span",0.17832764505119403,0.20859194600936296,0.5416666666666666,False,3,0.7777777777777778
+bridges,pyro,"['erected', 'type']->length",0.0,0.0,0.0,False,2,0.8148148148148148
+bridges,pyro,"['erected', 'type']->identif",0.0,2.915445703432823e-12,0.0,False,2,0.8148148148148148
+bridges,pyro,"['length', 'river', 'type']->purpose",0.0,0.007818231114452422,0.5416666666666666,False,3,0.7777777777777778
+bridges,pyro,"['erected', 'span']->location",0.0,0.0,0.0,False,2,0.7777777777777778
+bridges,pyro,"['length', 'rel-l']->clear-g",0.5618362004487663,0.5499178492556921,0.8857142857142857,False,2,0.6759259259259259
+bridges,pyro,"['length', 'rel-l']->t-or-d",0.20700871898054862,0.2574649800397189,0.8285714285714286,False,2,0.6759259259259259
+bridges,pyro,"['length', 'river', 'type']->identif",0.0,1.8193207522728e-12,0.0,False,3,0.7777777777777778
+bridges,pyro,"['location', 'span']->erected",0.0,0.0,0.0,False,2,0.6944444444444444
+bridges,pyro,"['length', 'material', 'span']->location",0.1052506482281772,0.13862110601840777,0.19230769230769232,False,3,0.7592592592592593
+bridges,pyro,"['length', 'material']->type",0.6568631011685948,0.6624365784540617,0.8,False,2,0.6759259259259259
+bridges,pyro,"['rel-l', 'span', 'type']->material",0.7404418271137826,0.7609308230638328,0.9230769230769231,False,3,0.2777777777777778
+bridges,pyro,"['length', 'purpose', 'span']->lanes",0.44399983962150646,0.49113422339523216,0.72,False,3,0.7685185185185185
+bridges,pyro,"['rel-l', 'type']->clear-g",0.5317480294574534,0.5142925265512788,0.8681318681318682,False,2,0.1574074074074074
+bridges,pyro,"['length', 'span', 'type']->location",0.10321507083536796,0.11379997134128876,0.17391304347826086,False,3,0.7870370370370371
+bridges,pyro,"['length', 'material', 'span']->erected",0.0022873750353196165,0.012999766737005558,0.038461538461538464,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'length', 'material']->river",0.008654444358037416,0.007649502279463039,0.42857142857142855,False,3,0.7407407407407407
+bridges,pyro,"['length', 'rel-l', 'river']->span",0.3332160095089992,0.38485456677161056,0.6153846153846154,False,3,0.7592592592592593
+bridges,pyro,"['erected', 'river']->location",0.0,0.0,0.0,False,2,0.8425925925925926
+bridges,pyro,"['lanes', 'span', 'type']->t-or-d",0.44066988998668655,0.48212236716014656,0.8507462686567164,False,3,0.37962962962962965
+bridges,pyro,"['location', 'span']->length",0.1301991600054192,0.17252957981361358,0.21212121212121213,False,2,0.6944444444444444
+bridges,pyro,"['erected', 'span']->identif",0.0,2.1859555617146134e-12,0.0,False,2,0.7777777777777778
+bridges,pyro,"['erected', 'span']->length",0.0,0.0,0.041666666666666664,False,2,0.7777777777777778
+bridges,pyro,"['lanes', 'location']->type",0.23754517032766198,0.220269360739212,0.4090909090909091,False,2,0.7962962962962963
+bridges,pyro,"['length', 'rel-l', 'type']->span",0.3750583887102653,0.3424306079385164,0.7037037037037037,False,3,0.75
+bridges,pyro,"['lanes', 'length', 'type']->river",0.08865625392571519,0.11726601723751669,0.5,False,3,0.7592592592592593
+bridges,pyro,"['location', 'span']->identif",0.0,9.480766000174403e-13,0.0,False,2,0.6944444444444444
+bridges,pyro,"['length', 'purpose', 'span', 'type']->erected",0.0,0.0,0.0,False,4,0.8518518518518519
+bridges,pyro,"['clear-g', 'length', 'river']->material",0.13779112597041865,0.1134242631157435,0.7241379310344828,False,3,0.7314814814814815
+bridges,pyro,"['length', 'material', 'span']->purpose",0.02327811922939027,0.004126711127084988,0.5769230769230769,False,3,0.7592592592592593
+bridges,pyro,"['length', 'material', 'span']->identif",2.220446049250313e-16,1.6974022660798352e-12,0.0,False,3,0.7592592592592593
+bridges,pyro,"['length', 'span', 'type']->purpose",0.009892044303896008,0.0,0.5652173913043478,False,3,0.7870370370370371
+bridges,pyro,"['material', 'span', 'type']->clear-g",0.6130646535979543,0.6220926241177626,0.8837209302325582,False,3,0.2037037037037037
+bridges,pyro,"['length', 'river', 'span']->location",0.13949735306828026,0.2323870830928939,0.23076923076923078,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'length', 'rel-l']->type",0.5826410599970226,0.595798875719554,0.7407407407407407,False,3,0.75
+bridges,pyro,"['rel-l', 'river', 'span', 'type']->lanes",0.28413624575049745,0.34118421378178726,0.631578947368421,False,4,0.4722222222222222
+bridges,pyro,"['lanes', 'length', 'span']->river",0.046454113716141276,0.09919240757124054,0.4827586206896552,False,3,0.7314814814814815
+bridges,pyro,"['lanes', 'location']->erected",0.0,0.0,0.0,False,2,0.7962962962962963
+bridges,pyro,"['length', 'material']->t-or-d",0.3564905919030654,0.3909736817683148,0.8571428571428571,False,2,0.6759259259259259
+bridges,pyro,"['lanes', 'length', 'span']->type",0.3400147849255355,0.4211479240669721,0.5517241379310345,False,3,0.7314814814814815
+bridges,pyro,"['clear-g', 'length', 'span']->material",0.2851306171020561,0.34469904441812965,0.7666666666666667,False,3,0.7222222222222222
+bridges,pyro,"['lanes', 'length', 'span']->t-or-d",0.29844584749878567,0.27026496269710043,0.8275862068965517,False,3,0.7314814814814815
+bridges,pyro,"['lanes', 'length', 'span']->purpose",0.036274231211159025,0.017734776523040053,0.6551724137931034,False,3,0.7314814814814815
+bridges,pyro,"['length', 'material', 'river']->lanes",0.3442824195536247,0.39775144647571276,0.6521739130434783,False,3,0.7870370370370371
+bridges,pyro,"['length', 'purpose', 'span', 'type']->identif",1.1102230246251565e-16,2.8322442085612867e-12,0.0,False,4,0.8518518518518519
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'type']->span",0.32197665815413123,0.3118132163832383,0.6363636363636364,False,5,0.5925925925925926
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'span', 'type']->length",0.2044696541446116,0.2143863653860276,0.3103448275862069,False,6,0.7314814814814815
+bridges,pyro,"['location', 'rel-l']->type",0.15366883257214403,0.13839360673786383,0.3548387096774194,False,2,0.7129629629629629
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'span', 'type']->location",0.10803104416892662,0.09937270264325412,0.13793103448275862,False,6,0.7314814814814815
+bridges,pyro,"['length', 'river', 'span']->lanes",0.2965845549342606,0.308934266008248,0.6153846153846154,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'span', 'type']->river",0.19599950297034352,0.22367645449078055,0.5869565217391305,False,5,0.5740740740740741
+bridges,pyro,"['erected', 'river']->identif",0.0,3.3411814323803576e-12,0.0,False,2,0.8425925925925926
+bridges,pyro,"['length', 'purpose', 'river']->erected",0.0,0.0,0.0,False,3,0.7592592592592593
+bridges,pyro,"['erected', 'river']->length",0.0,0.0,0.058823529411764705,False,2,0.8425925925925926
+bridges,pyro,"['rel-l', 'span', 'type']->t-or-d",0.5533616227278193,0.5553111059505053,0.8974358974358975,False,3,0.2777777777777778
+bridges,pyro,"['lanes', 'length', 'type']->purpose",0.0,0.06340147781299436,0.5384615384615384,False,3,0.7592592592592593
+bridges,pyro,"['erected', 'rel-l']->location",0.0,0.0,0.0,False,2,0.7870370370370371
+bridges,pyro,"['lanes', 'rel-l', 'type']->t-or-d",0.3746915523421711,0.3814058127989999,0.8493150684931506,False,3,0.32407407407407407
+bridges,pyro,"['lanes', 'length', 'material']->span",0.26591250046881354,0.2711034515607455,0.6071428571428571,False,3,0.7407407407407407
+bridges,pyro,"['length', 'rel-l', 'span']->lanes",0.32330433155580396,0.3857745055428691,0.6666666666666666,False,3,0.75
+bridges,pyro,"['length', 'rel-l', 'span']->type",0.5651183564091112,0.5948533634589053,0.7037037037037037,False,3,0.75
+bridges,pyro,"['lanes', 'location']->length",0.1682529467551822,0.16980122275949877,0.22727272727272727,False,2,0.7962962962962963
+bridges,pyro,"['length', 'rel-l', 'span']->river",0.25152422427871546,0.254739162973831,0.6296296296296297,False,3,0.75
+bridges,pyro,"['lanes', 'location']->identif",0.0,2.5472155702944074e-12,0.0,False,2,0.7962962962962963
+bridges,pyro,"['lanes', 'rel-l', 'span', 'type']->purpose",0.32957601533348235,0.34950516964600137,0.7454545454545455,False,4,0.49074074074074076
+bridges,pyro,"['lanes', 'length', 'river']->span",0.23992799009863763,0.22656639576742488,0.5555555555555556,False,3,0.75
+bridges,pyro,"['length', 'rel-l', 'river']->lanes",0.1665937766976211,0.24519971755317743,0.5769230769230769,False,3,0.7592592592592593
+bridges,pyro,"['length', 'rel-l', 'river']->location",0.14055014507963925,0.19875040838773889,0.23076923076923078,False,3,0.7592592592592593
+bridges,pyro,"['length', 'rel-l', 'type']->river",0.16815012242339344,0.14951206336874814,0.5555555555555556,False,3,0.75
+bridges,pyro,"['erected', 'lanes']->length",0.0,0.0,0.043478260869565216,False,2,0.7870370370370371
+bridges,pyro,"['lanes', 'rel-l', 'river', 'span']->t-or-d",0.1622390754785118,0.22445536024470839,0.7692307692307693,False,4,0.39814814814814814
+bridges,pyro,"['lanes', 'length', 'rel-l']->span",0.288352148420408,0.2790526422720129,0.6666666666666666,False,3,0.75
+bridges,pyro,"['clear-g', 'purpose', 'river', 'type']->material",0.7685030564685212,0.7863892526779516,0.921875,False,4,0.4074074074074074
+bridges,pyro,"['lanes', 'material', 'rel-l', 'river']->clear-g",0.6957994416304958,0.6820753978849771,0.9104477611940298,False,4,0.37962962962962965
+bridges,pyro,"['lanes', 'length', 'rel-l']->river",0.025331155870077615,0.008237922571358752,0.48148148148148145,False,3,0.75
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'span', 'type']->erected",0.0613548219768022,0.07429375926102762,0.10344827586206896,False,6,0.7314814814814815
+bridges,pyro,"['length', 'rel-l', 'river']->purpose",0.0,0.0,0.5769230769230769,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'length', 'type']->span",0.3037663832623133,0.27250962138831253,0.6538461538461539,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'span']->type",0.37007871817775784,0.4072529205018053,0.5625,False,5,0.5555555555555556
+bridges,pyro,"['erected', 'rel-l']->length",0.0,0.0,0.0,False,2,0.7870370370370371
+bridges,pyro,"['length', 'river']->t-or-d",0.20348517531616062,0.16998317359004933,0.8108108108108109,False,2,0.6574074074074074
+bridges,pyro,"['location', 'rel-l']->length",0.14352675352146493,0.165221494612704,0.22580645161290322,False,2,0.7129629629629629
+bridges,pyro,"['length', 'purpose', 'rel-l', 'span']->location",0.12649227528089835,0.11756226954052935,0.16666666666666666,False,4,0.8333333333333334
+bridges,pyro,"['location', 'rel-l']->erected",0.0,0.0,0.0,False,2,0.7129629629629629
+bridges,pyro,"['length', 'rel-l', 'span']->purpose",0.0,0.0,0.5185185185185185,False,3,0.75
+bridges,pyro,"['length', 'purpose', 'river']->identif",0.0,1.5912630100674262e-12,0.0,False,3,0.7592592592592593
+bridges,pyro,"['length', 'purpose', 'span']->clear-g",0.0,0.0,0.64,False,3,0.7685185185185185
+bridges,pyro,"['clear-g', 'purpose', 'span', 'type']->material",0.8186590878379846,0.8375482347705369,0.9428571428571428,False,4,0.35185185185185186
+bridges,pyro,"['length', 'purpose', 'type']->river",0.20214216920803663,0.14318808572887257,0.5769230769230769,False,3,0.7592592592592593
+bridges,pyro,"['erected', 'purpose']->length",0.0,0.0,0.0,False,2,0.7037037037037037
+bridges,pyro,"['lanes', 'length', 'rel-l']->purpose",0.136128030574465,0.14701731771253881,0.6666666666666666,False,3,0.75
+bridges,pyro,"['location', 'material']->type",0.25448861098704745,0.26136477360669097,0.43333333333333335,False,2,0.7222222222222222
+bridges,pyro,"['river', 'span', 'type']->t-or-d",0.5715272024302676,0.6093741499986541,0.8823529411764706,False,3,0.37037037037037035
+bridges,pyro,"['purpose', 'rel-l', 'river', 'type']->lanes",0.4127837289222904,0.4539524325008043,0.711864406779661,False,4,0.4537037037037037
+bridges,pyro,"['location', 'purpose']->length",0.05001439506841865,0.06182236688791474,0.13636363636363635,False,2,0.5925925925925926
+bridges,pyro,"['length', 'rel-l', 'type']->purpose",0.10578994634888428,0.11059397429539683,0.6296296296296297,False,3,0.75
+bridges,pyro,"['length', 'purpose', 'type']->location",0.08314201598962812,0.07415217001712666,0.11538461538461539,False,3,0.7592592592592593
+bridges,pyro,"['length', 'purpose', 'span']->river",0.0,0.0,0.48,False,3,0.7685185185185185
+bridges,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'river']->span",0.3471767993099045,0.357730502976269,0.6428571428571429,False,5,0.48148148148148145
+bridges,pyro,"['rel-l', 'river', 'type']->t-or-d",0.5176260359358951,0.5246676134646594,0.8857142857142857,False,3,0.35185185185185186
+bridges,pyro,"['erected', 'lanes']->location",0.0,0.0,0.0,False,2,0.7870370370370371
+bridges,pyro,"['lanes', 'rel-l', 'river', 'span']->clear-g",0.5985884011276679,0.5958781520216968,0.8769230769230769,False,4,0.39814814814814814
+bridges,pyro,"['length', 'purpose', 'rel-l']->river",0.035801773077221766,0.01762187101125604,0.5,False,3,0.7407407407407407
+bridges,pyro,"['lanes', 'length', 'rel-l', 'river']->erected",0.0,0.0,0.0,False,4,0.8333333333333334
+bridges,pyro,"['length', 'rel-l', 'river']->type",0.5590265473695577,0.5506525691599412,0.7307692307692307,False,3,0.7592592592592593
+bridges,pyro,"['purpose', 'river', 'span', 'type']->lanes",0.3310163414229008,0.37232651885471113,0.6785714285714286,False,4,0.48148148148148145
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'span', 'type']->identif",0.0,1.4648152608299735e-12,0.0,False,6,0.7314814814814815
+bridges,pyro,"['lanes', 'river', 'type']->t-or-d",0.4013370138912319,0.391214765081178,0.8676470588235294,False,3,0.37037037037037035
+bridges,pyro,"['rel-l', 'river', 'span', 'type']->purpose",0.258558255186515,0.25429670109859226,0.7192982456140351,False,4,0.4722222222222222
+bridges,pyro,"['length', 'purpose', 'river']->lanes",0.3284634815086672,0.35975525464106295,0.6923076923076923,False,3,0.7592592592592593
+bridges,pyro,"['length', 'material', 'type']->span",0.23519258898098494,0.2443555210847618,0.6,False,3,0.7222222222222222
+bridges,pyro,"['lanes', 'length', 'river']->type",0.31365618154363095,0.410047160623212,0.5555555555555556,False,3,0.75
+bridges,pyro,"['clear-g', 'lanes', 'length', 'purpose']->river",0.03555756922067799,0.0,0.43478260869565216,False,4,0.7870370370370371
+bridges,pyro,"['erected', 'rel-l']->identif",0.0,2.3174827528179833e-12,0.0,False,2,0.7870370370370371
+bridges,pyro,"['location', 'material']->length",0.1269374068554392,0.1503221593126696,0.2,False,2,0.7222222222222222
+bridges,pyro,"['lanes', 'material', 'rel-l', 'span']->clear-g",0.6727924403317068,0.6485077534587272,0.918918918918919,False,4,0.3148148148148148
+bridges,pyro,"['length', 'river', 'span']->purpose",0.0,0.0,0.46153846153846156,False,3,0.7592592592592593
+bridges,pyro,"['length', 'river', 'span']->type",0.27489091971003476,0.2733243029696524,0.5384615384615384,False,3,0.7592592592592593
+bridges,pyro,"['length', 'purpose', 'rel-l']->material",0.113234544115146,0.1088301108906196,0.6785714285714286,False,3,0.7407407407407407
+bridges,pyro,"['clear-g', 'length', 'purpose']->material",0.35259920563371494,0.34943943264486715,0.75,False,3,0.7407407407407407
+bridges,pyro,"['location', 'rel-l']->identif",0.0,1.1568107603513253e-12,0.0,False,2,0.7129629629629629
+bridges,pyro,"['length', 'purpose', 'rel-l', 'span']->erected",0.0,0.0,0.0,False,4,0.8333333333333334
+bridges,pyro,"['length', 'purpose', 'rel-l']->lanes",0.35712481456236755,0.4142149773722596,0.6785714285714286,False,3,0.7407407407407407
+bridges,pyro,"['length', 'material', 'river']->location",0.16643105764533483,0.2170260086949624,0.2608695652173913,False,3,0.7870370370370371
+bridges,pyro,"['length', 'purpose']->t-or-d",0.15359586087956212,0.15988358891121957,0.8,False,2,0.6759259259259259
+bridges,pyro,"['location', 'purpose']->type",0.10069430346339592,0.08217116827094428,0.3409090909090909,False,2,0.5925925925925926
+bridges,pyro,"['length', 'rel-l', 'river', 'span']->erected",0.0,0.0,0.0,False,4,0.8240740740740741
+bridges,pyro,"['length', 'purpose', 'river']->clear-g",0.0,0.0,0.6538461538461539,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'length', 'river']->purpose",0.0,0.0,0.5185185185185185,False,3,0.75
+bridges,pyro,"['material', 'purpose', 'rel-l', 'river', 'type']->span",0.4242330726135216,0.4212667216350618,0.6792452830188679,False,5,0.5092592592592593
+bridges,pyro,"['erected', 'material']->length",0.0,0.0,0.030303030303030304,False,2,0.6944444444444444
+bridges,pyro,"['length', 'material', 'type']->river",0.12679213002566203,0.09695040753773221,0.5333333333333333,False,3,0.7222222222222222
+bridges,pyro,"['clear-g', 'rel-l', 'river', 'span']->material",0.6133628868852984,0.6508707787273091,0.8648648648648649,False,4,0.3148148148148148
+bridges,pyro,"['length', 'river', 'span']->clear-g",0.0,0.0,0.6153846153846154,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'length', 'rel-l', 'river']->identif",0.0,2.6675431836464317e-12,0.0,False,4,0.8333333333333334
+bridges,pyro,"['length', 'purpose', 'river']->type",0.30356443467207184,0.35478173473227276,0.5384615384615384,False,3,0.7592592592592593
+bridges,pyro,"['length', 'purpose', 'rel-l', 'type']->erected",0.0,0.0,0.0,False,4,0.7962962962962963
+bridges,pyro,"['lanes', 'length', 'rel-l', 'span']->location",0.06168363764044893,0.05617553410657129,0.1,False,4,0.8148148148148148
+bridges,pyro,"['clear-g', 'purpose', 'rel-l', 'span', 't-or-d', 'type']->lanes",0.3430169045100284,0.3804124153139907,0.6730769230769231,False,6,0.5185185185185185
+bridges,pyro,"['purpose', 'river', 'type']->t-or-d",0.4625361055220206,0.47574691508961675,0.8666666666666667,False,3,0.3055555555555556
+bridges,pyro,"['length', 'purpose', 'span']->type",0.30249626746634295,0.36077350751825843,0.56,False,3,0.7685185185185185
+bridges,pyro,"['rel-l', 'river', 'type']->material",0.6229696523230832,0.6409626122300964,0.8857142857142857,False,3,0.35185185185185186
+bridges,pyro,"['length', 'rel-l', 'span', 'type']->erected",0.0,0.0,0.0,False,4,0.8240740740740741
+bridges,pyro,"['lanes', 'material', 'river', 'span']->clear-g",0.5613236121327514,0.5602699749213218,0.8636363636363636,False,4,0.3888888888888889
+bridges,pyro,"['length', 'purpose', 'rel-l', 'span']->identif",0.0,2.6275403162209368e-12,0.0,False,4,0.8333333333333334
+bridges,pyro,"['lanes', 'length', 'material', 'type']->location",0.09586437469467468,0.08577358952384849,0.13043478260869565,False,4,0.7870370370370371
+bridges,pyro,"['length', 'purpose', 'rel-l']->type",0.5099901103809094,0.5446173013433627,0.75,False,3,0.7407407407407407
+bridges,pyro,"['lanes', 'material', 'rel-l', 'span', 'type']->river",0.2293615067567164,0.25469363876686574,0.5961538461538461,False,5,0.5185185185185185
+bridges,pyro,"['lanes', 'rel-l', 'river', 't-or-d', 'type']->purpose",0.27317075070490515,0.28529078465995883,0.7391304347826086,False,5,0.5740740740740741
+bridges,pyro,"['lanes', 'material', 'rel-l', 'river', 't-or-d', 'type']->span",0.3802771356671295,0.3644745463523577,0.6585365853658537,False,6,0.6203703703703703
+bridges,pyro,"['material', 'rel-l', 'river', 'span']->clear-g",0.6271714783817626,0.5992010490733101,0.9041095890410958,False,4,0.32407407407407407
+bridges,pyro,"['length', 'rel-l', 'river']->material",0.01773672578908625,0.003149496603970916,0.6538461538461539,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'length', 'purpose']->type",0.29255517395388986,0.3673560865811886,0.5862068965517241,False,3,0.7314814814814815
+bridges,pyro,"['length', 'rel-l', 'river', 'span']->identif",0.0,2.4528793362693075e-12,0.0,False,4,0.8240740740740741
+bridges,pyro,"['lanes', 'length', 'rel-l', 'type']->location",0.1063653691813794,0.08615521477307511,0.14285714285714285,False,4,0.8055555555555556
+bridges,pyro,"['length', 'material', 'span']->river",0.04429881495749732,0.03825884490224997,0.46153846153846156,False,3,0.7592592592592593
+bridges,pyro,"['length', 'river', 'span']->material",0.0,0.0,0.4230769230769231,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'length', 'river', 'span']->erected",0.042523222521932524,0.03130623796948584,0.05263157894736842,False,4,0.8240740740740741
+bridges,pyro,"['length', 'material', 'rel-l']->span",0.2822943511875734,0.29987036914028065,0.6428571428571429,False,3,0.7407407407407407
+bridges,pyro,"['river', 'span', 'type']->clear-g",0.543697066522944,0.5314040475640416,0.8676470588235294,False,3,0.37037037037037035
+bridges,pyro,"['erected', 'purpose']->location",0.0,0.0,0.0,False,2,0.7037037037037037
+bridges,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->lanes",0.3303383485024659,0.315704623718104,0.6666666666666666,False,6,0.5555555555555556
+bridges,pyro,"['length', 'material', 'rel-l']->river",0.09624804194949566,0.07059506413435948,0.5357142857142857,False,3,0.7407407407407407
+bridges,pyro,"['material', 'purpose', 'rel-l', 'river', 'span', 'type']->length",0.08059333084947828,0.08033257243171746,0.175,False,6,0.6296296296296297
+bridges,pyro,"['purpose', 'river', 'span', 'type']->material",0.6013778141165227,0.6080301352309401,0.875,False,4,0.48148148148148145
+bridges,pyro,"['lanes', 'length', 'rel-l', 'span']->erected",0.0,0.0,0.0,False,4,0.8148148148148148
+bridges,pyro,"['length', 'purpose', 'rel-l', 'type']->identif",0.0,2.0177172454245664e-12,0.0,False,4,0.7962962962962963
+bridges,pyro,"['lanes', 'material', 'river', 'span', 'type']->purpose",0.2120303633773002,0.24602345750417234,0.6744186046511628,False,5,0.6018518518518519
+bridges,pyro,"['length', 'purpose', 'river']->location",0.123457757130509,0.17371482587575485,0.23076923076923078,False,3,0.7592592592592593
+bridges,pyro,"['material', 'river', 'type']->clear-g",0.5804813472352739,0.5689500717396011,0.8765432098765432,False,3,0.25
+bridges,pyro,"['purpose', 'rel-l', 'type']->t-or-d",0.44057693041719115,0.449807055077341,0.8658536585365854,False,3,0.24074074074074073
+bridges,pyro,"['clear-g', 'river', 'span', 'type']->material",0.74361263690088,0.7383146329144848,0.9322033898305084,False,4,0.4537037037037037
+bridges,pyro,"['length', 'purpose', 'type']->span",0.20958314460545957,0.2297749782705445,0.5769230769230769,False,3,0.7592592592592593
+bridges,pyro,"['length', 'rel-l', 'span', 'type']->identif",0.0,1.98143637588361e-12,0.0,False,4,0.8240740740740741
+bridges,pyro,"['lanes', 'length', 'span', 'type']->erected",0.0,0.0,0.0,False,4,0.8148148148148148
+bridges,pyro,"['lanes', 'material', 'rel-l', 'river', 'span']->purpose",0.12206060875300917,0.1513284379268612,0.660377358490566,False,5,0.5092592592592593
+bridges,pyro,"['lanes', 'length', 'span']->clear-g",0.15244177649395219,0.1275708527250594,0.7241379310344828,False,3,0.7314814814814815
+bridges,pyro,"['length', 'material', 'purpose']->river",0.014631177206026913,0.0,0.46153846153846156,False,3,0.7592592592592593
+bridges,pyro,"['erected', 'lanes']->identif",0.0,2.3757383089158066e-12,0.0,False,2,0.7870370370370371
+bridges,pyro,"['length', 'material', 'purpose']->location",0.09428922552166863,0.10452922298422937,0.15384615384615385,False,3,0.7592592592592593
+bridges,pyro,"['purpose', 'span', 'type']->t-or-d",0.4597371963034288,0.4755029982434264,0.8734177215189873,False,3,0.26851851851851855
+bridges,pyro,"['lanes', 'material', 'rel-l', 'river', 'span', 't-or-d']->type",0.49455615207226256,0.50427774086803,0.6904761904761905,False,6,0.6111111111111112
+bridges,pyro,"['length', 'material', 'purpose']->span",0.2454227840943498,0.26951062150882316,0.6153846153846154,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'length', 'river']->clear-g",0.0,0.0,0.6296296296296297,False,3,0.75
+bridges,pyro,"['length', 'purpose', 'river']->span",0.07039198659046364,0.07462913198003412,0.5,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'length', 'purpose', 'span']->location",0.07351825842696613,0.09346079902957416,0.15,False,4,0.8148148148148148
+bridges,pyro,"['lanes', 'length', 'material']->purpose",0.0425206019347899,0.052398248797663936,0.6071428571428571,False,3,0.7407407407407407
+bridges,pyro,"['lanes', 'length', 'river', 'span']->identif",0.0,2.5978743943550015e-12,0.0,False,4,0.8240740740740741
+bridges,pyro,"['length', 'purpose', 'rel-l']->span",0.16388065859055656,0.12358519225222546,0.5714285714285714,False,3,0.7407407407407407
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'span']->t-or-d",0.12266084771540031,0.20690125019821742,0.7464788732394366,False,4,0.3425925925925926
+bridges,pyro,"['length', 'material', 'type']->purpose",0.022064800122843065,0.016147232732701057,0.6,False,3,0.7222222222222222
+bridges,pyro,"['lanes', 'length', 'purpose', 'rel-l']->location",0.08704353932584263,0.09538032085727444,0.13636363636363635,False,4,0.7962962962962963
+bridges,pyro,"['clear-g', 'material', 'river', 'span', 't-or-d', 'type']->lanes",0.3152960987931517,0.35773405888255017,0.68,False,6,0.5370370370370371
+bridges,pyro,"['lanes', 'span', 'type']->clear-g",0.6083474820092776,0.5973112971021716,0.8656716417910447,False,3,0.37962962962962965
+bridges,pyro,"['lanes', 'length', 'rel-l']->material",0.0322887742959137,0.13730291009544915,0.6666666666666666,False,3,0.75
+bridges,pyro,"['length', 'material', 'rel-l']->purpose",0.15923485840054297,0.10052859604409664,0.6428571428571429,False,3,0.7407407407407407
+bridges,pyro,"['lanes', 'material', 'rel-l', 'river', 'span', 'type']->length",0.1235203321268894,0.12446632598258148,0.22857142857142856,False,6,0.6759259259259259
+bridges,pyro,"['lanes', 'length', 'material', 'type']->erected",0.0,0.0,0.0,False,4,0.7870370370370371
+bridges,pyro,"['lanes', 'length', 'material', 'rel-l']->erected",0.0,0.0,0.0,False,4,0.7962962962962963
+bridges,pyro,"['lanes', 'length', 'rel-l', 'span']->identif",0.0,2.1664622547455244e-12,0.0,False,4,0.8148148148148148
+bridges,pyro,"['lanes', 'length', 'purpose']->span",0.18835335548293008,0.1644761246246741,0.5862068965517241,False,3,0.7314814814814815
+bridges,pyro,"['length', 'material', 'span']->lanes",0.3721237505127487,0.43473451309421024,0.6538461538461539,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'material', 'type']->clear-g",0.6311478256223951,0.6286887726001715,0.8928571428571429,False,3,0.2222222222222222
+bridges,pyro,"['lanes', 'river', 'type']->clear-g",0.5677369956534892,0.5113745754941783,0.8823529411764706,False,3,0.37037037037037035
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river']->t-or-d",0.24866299244743817,0.3052211297954851,0.7971014492753623,False,4,0.3611111111111111
+bridges,pyro,"['lanes', 'length', 'span', 'type']->identif",0.0,2.310672981868124e-12,0.0,False,4,0.8148148148148148
+bridges,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'river']->type",0.4562272698270907,0.4916434051543371,0.6607142857142857,False,5,0.48148148148148145
+bridges,pyro,"['location', 'material']->erected",0.0,0.0,0.0,False,2,0.7222222222222222
+bridges,pyro,"['erected', 'material']->location",0.0,0.0,0.0,False,2,0.6944444444444444
+bridges,pyro,"['lanes', 'material', 'purpose', 'river', 't-or-d', 'type']->span",0.366820687844578,0.36519739339400714,0.6666666666666666,False,6,0.5833333333333334
+bridges,pyro,"['purpose', 'rel-l', 'river', 'span']->t-or-d",0.21295334194219995,0.2651066740895368,0.7910447761194029,False,4,0.37962962962962965
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'type']->material",0.6366312782814167,0.6670991364307617,0.8769230769230769,False,4,0.39814814814814814
+bridges,pyro,"['length', 'material', 'purpose']->lanes",0.4538011244999731,0.4827750233095157,0.7307692307692307,False,3,0.7592592592592593
+bridges,pyro,"['clear-g', 'length', 'span']->river",0.05930865541643948,0.05930681823645238,0.5,False,3,0.7222222222222222
+bridges,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'river', 't-or-d', 'type']->length",0.07286722438602833,0.09972243658029617,0.20588235294117646,False,7,0.6851851851851852
+bridges,pyro,"['clear-g', 'location']->erected",0.0,0.0,0.0,False,2,0.6574074074074074
+bridges,pyro,"['purpose', 'span', 'type']->clear-g",0.5224037378222548,0.5065765875892572,0.8734177215189873,False,3,0.26851851851851855
+bridges,pyro,"['clear-g', 'length', 'river']->purpose",0.0,0.0,0.5517241379310345,False,3,0.7314814814814815
+bridges,pyro,"['clear-g', 'length', 'span']->t-or-d",0.44502570981444023,0.48306793471538273,0.8666666666666667,False,3,0.7222222222222222
+bridges,pyro,"['clear-g', 'length', 't-or-d', 'type']->river",0.1559459593210275,0.12965445278524135,0.5185185185185185,False,4,0.75
+bridges,pyro,"['clear-g', 'length', 'river']->span",0.19819225143457242,0.2423662574744032,0.5517241379310345,False,3,0.7314814814814815
+bridges,pyro,"['lanes', 'length', 'material', 'type']->identif",0.0,1.7803746474707576e-12,0.0,False,4,0.7870370370370371
+bridges,pyro,"['lanes', 'length', 'material', 'rel-l']->identif",0.0,1.894716139284953e-12,0.0,False,4,0.7962962962962963
+bridges,pyro,"['material', 'purpose', 'rel-l', 'river', 'span', 'type']->location",0.11663009129213464,0.1132520635320659,0.15,False,6,0.6296296296296297
+bridges,pyro,"['clear-g', 'lanes', 'length']->material",0.20221914718210254,0.2825717524158619,0.7419354838709677,False,3,0.7129629629629629
+bridges,pyro,"['purpose', 'river', 't-or-d', 'type']->clear-g",0.3785718862289549,0.32440597293735357,0.8181818181818182,False,4,0.3888888888888889
+bridges,pyro,"['lanes', 'material', 'purpose', 'river', 'span', 't-or-d']->type",0.45902635104957523,0.49983754190208357,0.6666666666666666,False,6,0.5833333333333334
+bridges,pyro,"['clear-g', 'lanes', 'length']->t-or-d",0.08975573873347609,0.14105995519863002,0.7741935483870968,False,3,0.7129629629629629
+bridges,pyro,"['clear-g', 'length', 'span']->purpose",0.0,0.0,0.5,False,3,0.7222222222222222
+bridges,pyro,"['clear-g', 'material', 'purpose', 'river', 't-or-d', 'type']->lanes",0.4189971129067398,0.458671406586371,0.7307692307692307,False,6,0.5185185185185185
+bridges,pyro,"['clear-g', 'length', 'material', 't-or-d']->river",0.0,0.0,0.41935483870967744,False,4,0.7129629629629629
+bridges,pyro,"['erected', 'purpose']->identif",1.1102230246251565e-16,1.1484134369158674e-12,0.0,False,2,0.7037037037037037
+bridges,pyro,"['length', 'material', 'purpose']->erected",0.0,0.0,0.0,False,3,0.7592592592592593
+bridges,pyro,"['clear-g', 'length', 'purpose']->span",0.14221017889959875,0.12783569210039886,0.5714285714285714,False,3,0.7407407407407407
+bridges,pyro,"['lanes', 'material', 'purpose', 'river', 'span', 'type']->length",0.08718878758656978,0.06039985004969256,0.17647058823529413,False,6,0.6851851851851852
+bridges,pyro,"['purpose', 'rel-l', 'river', 'span']->clear-g",0.3840085287846483,0.38171740945667965,0.8208955223880597,False,4,0.37962962962962965
+bridges,pyro,"['length', 't-or-d', 'type']->purpose",0.010173324973128506,0.033591859412381325,0.59375,False,3,0.7037037037037037
+bridges,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'span', 't-or-d']->type",0.5158499755418022,0.5080421236025415,0.6666666666666666,False,6,0.5
+bridges,pyro,"['clear-g', 'material', 'span', 'type']->t-or-d",0.4418535366790106,0.4542395793515443,0.8717948717948718,False,4,0.2777777777777778
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'type']->material",0.7790166395742566,0.8038320532383817,0.9315068493150684,False,4,0.32407407407407407
+bridges,pyro,"['location', 'material']->identif",0.0,1.1682631853721234e-12,0.0,False,2,0.7222222222222222
+bridges,pyro,"['lanes', 'length', 'purpose', 'span']->erected",0.0,0.0,0.0,False,4,0.8148148148148148
+bridges,pyro,"['lanes', 'material', 'rel-l', 'river', 'span', 'type']->location",0.06772170947030476,0.07515175836060463,0.11428571428571428,False,6,0.6759259259259259
+bridges,pyro,"['length', 't-or-d', 'type']->span",0.24469348910475108,0.22412001168984835,0.625,False,3,0.7037037037037037
+bridges,pyro,"['length', 'material', 't-or-d']->purpose",0.04644148399074899,0.008393780831658256,0.6060606060606061,False,3,0.6944444444444444
+bridges,pyro,"['lanes', 'length', 'purpose', 'type']->erected",0.0,0.0,0.0,False,4,0.8148148148148148
+bridges,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'span', 'type']->lanes",0.30127182910288963,0.3390245144627703,0.6551724137931034,False,6,0.46296296296296297
+bridges,pyro,"['material', 'purpose', 'type']->clear-g",0.6501567077483303,0.6286923583792149,0.9111111111111111,False,3,0.16666666666666666
+bridges,pyro,"['clear-g', 'lanes', 'length', 't-or-d']->span",0.35951693357836667,0.3225955770691442,0.7037037037037037,False,4,0.75
+bridges,pyro,"['clear-g', 'lanes', 'rel-l', 'span']->t-or-d",0.19796646545942265,0.2572715781347763,0.7866666666666666,False,4,0.3055555555555556
+bridges,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'span', 't-or-d', 'type']->length",0.12945525139226588,0.1266120550426259,0.23684210526315788,False,7,0.6481481481481481
+bridges,pyro,"['clear-g', 'lanes', 'rel-l', 'span']->material",0.5976358587861959,0.6392397088537847,0.8666666666666667,False,4,0.3055555555555556
+bridges,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->type",0.4372357209561317,0.43379255893668495,0.6363636363636364,False,7,0.5925925925925926
+bridges,pyro,"['lanes', 'length', 'purpose', 'rel-l']->erected",0.0,0.0,0.0,False,4,0.7962962962962963
+bridges,pyro,"['clear-g', 'location']->identif",0.0,4.602963131866804e-13,0.0,False,2,0.6574074074074074
+bridges,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'river', 'span', 'type']->location",0.08070356390449407,0.07988491014778255,0.125,False,7,0.7037037037037037
+bridges,pyro,"['clear-g', 'location']->type",0.23278973479956044,0.22006416066482576,0.40540540540540543,False,2,0.6574074074074074
+bridges,pyro,"['clear-g', 'length', 'purpose', 't-or-d']->river",0.01343903102885069,0.0,0.4583333333333333,False,4,0.7777777777777778
+bridges,pyro,"['length', 'material', 't-or-d']->span",0.287500895009427,0.29059151901259994,0.6363636363636364,False,3,0.6944444444444444
+bridges,pyro,"['length', 'material', 'rel-l']->lanes",0.32485694811182864,0.39696045648349165,0.6428571428571429,False,3,0.7407407407407407
+bridges,pyro,"['lanes', 'length', 'span']->material",0.0,0.0,0.5172413793103449,False,3,0.7314814814814815
+bridges,pyro,"['lanes', 'material', 'purpose', 'river']->clear-g",0.5297993174436548,0.5155957841143461,0.863013698630137,False,4,0.32407407407407407
+bridges,pyro,"['lanes', 'length', 'purpose', 't-or-d']->river",0.0,0.032068057071801645,0.4583333333333333,False,4,0.7777777777777778
+bridges,pyro,"['clear-g', 'length', 'river']->type",0.537904412816242,0.5407247225701827,0.7241379310344828,False,3,0.7314814814814815
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->length",0.05108734018354377,0.059464238086648004,0.15789473684210525,False,6,0.6481481481481481
+bridges,pyro,"['lanes', 'length', 'material', 'rel-l']->location",0.10087621297242066,0.09397004410133544,0.13636363636363635,False,4,0.7962962962962963
+bridges,pyro,"['length', 'material', 'purpose']->identif",0.0,1.6033117045660345e-12,0.0,False,3,0.7592592592592593
+bridges,pyro,"['lanes', 'purpose', 'span', 'type']->material",0.616713841023538,0.6249758375983233,0.8813559322033898,False,4,0.4537037037037037
+bridges,pyro,"['clear-g', 'material', 'rel-l', 'river', 't-or-d', 'type']->lanes",0.36657958936937296,0.4286801034327067,0.6730769230769231,False,6,0.5185185185185185
+bridges,pyro,"['lanes', 'purpose', 'river', 'span']->t-or-d",0.1479910362900606,0.20303253578627517,0.7538461538461538,False,4,0.39814814814814814
+bridges,pyro,"['lanes', 'material', 'purpose', 'span']->clear-g",0.6013533655652696,0.5793590611879705,0.8947368421052632,False,4,0.2962962962962963
+bridges,pyro,"['clear-g', 'lanes', 'river', 'span']->t-or-d",0.21439618100761404,0.27391468750731746,0.7941176470588235,False,4,0.37037037037037035
+bridges,pyro,"['clear-g', 'lanes', 'length', 't-or-d']->river",0.0,0.0,0.37037037037037035,False,4,0.75
+bridges,pyro,"['length', 'material', 'rel-l', 'type']->location",0.12182283306580921,0.14495006985028744,0.2,False,4,0.7685185185185185
+bridges,pyro,"['clear-g', 'length', 'span']->type",0.4780737574172135,0.507413021795209,0.6666666666666666,False,3,0.7222222222222222
+bridges,pyro,"['lanes', 'length', 'purpose', 'span']->identif",0.0,2.1473818662299516e-12,0.0,False,4,0.8148148148148148
+bridges,pyro,"['clear-g', 'lanes', 'span', 't-or-d', 'type']->material",0.701469004896683,0.6984221863635588,0.9215686274509803,False,5,0.5277777777777778
+bridges,pyro,"['material', 'purpose', 'rel-l', 'river', 'span', 'type']->erected",0.052496938953996986,0.07375279502132309,0.1,False,6,0.6296296296296297
+bridges,pyro,"['material', 'purpose', 'river', 'span']->clear-g",0.52696963086361,0.4677087104039679,0.875,False,4,0.3333333333333333
+bridges,pyro,"['clear-g', 'lanes', 'rel-l', 'river', 'span']->purpose",0.1603219801564102,0.17236107985174445,0.6842105263157895,False,5,0.4722222222222222
+bridges,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'type']->span",0.3965493755391363,0.3925085016122105,0.68,False,5,0.5370370370370371
+bridges,pyro,"['clear-g', 'length', 'purpose']->type",0.5062596275669715,0.5247034154613871,0.7142857142857143,False,3,0.7407407407407407
+bridges,pyro,"['lanes', 'length', 'purpose', 'type']->identif",0.0,2.0875623704112703e-12,0.0,False,4,0.8148148148148148
+bridges,pyro,"['clear-g', 'length', 'river']->lanes",0.18384076074708666,0.25862992626110887,0.5862068965517241,False,3,0.7314814814814815
+bridges,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'rel-l', 'span', 't-or-d']->river",0.1794285269905459,0.18492252554137384,0.5918367346938775,False,7,0.5462962962962963
+bridges,pyro,"['lanes', 'material', 'purpose', 'rel-l']->clear-g",0.6157395060370736,0.6035576224847654,0.8987341772151899,False,4,0.26851851851851855
+bridges,pyro,"['lanes', 'length', 'purpose', 'rel-l']->identif",0.0,1.9400501276851903e-12,0.0,False,4,0.7962962962962963
+bridges,pyro,"['clear-g', 'lanes', 'rel-l', 'river']->t-or-d",0.24153151230615932,0.2853440096234218,0.8055555555555556,False,4,0.3333333333333333
+bridges,pyro,"['lanes', 'length', 'river']->material",0.0,0.0,0.4444444444444444,False,3,0.75
+bridges,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->location",0.10183681530898825,0.11190322572420269,0.15625,False,7,0.7037037037037037
+bridges,pyro,"['clear-g', 'location']->length",0.14665485157288394,0.16190892936227272,0.21621621621621623,False,2,0.6574074074074074
+bridges,pyro,"['length', 'rel-l', 't-or-d']->type",0.5140666334558694,0.5692297468703634,0.75,False,3,0.7037037037037037
+bridges,pyro,"['clear-g', 'length', 'span']->lanes",0.29212942544404763,0.38248816627994325,0.6333333333333333,False,3,0.7222222222222222
+bridges,pyro,"['material', 'purpose', 'rel-l', 'river']->clear-g",0.5268744126728417,0.47916695333474174,0.875,False,4,0.3333333333333333
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l', 'river', 't-or-d']->span",0.30334964326825686,0.3181922026260286,0.6346153846153846,False,6,0.5185185185185185
+bridges,pyro,"['clear-g', 'length', 'purpose']->lanes",0.33696680008976987,0.40531340770936064,0.6785714285714286,False,3,0.7407407407407407
+bridges,pyro,"['erected', 'material']->identif",0.0,1.090253097331599e-12,0.0,False,2,0.6944444444444444
+bridges,pyro,"['lanes', 'purpose', 'river', 'type']->material",0.5602433723572086,0.5717268133259966,0.864406779661017,False,4,0.4537037037037037
+bridges,pyro,"['clear-g', 'lanes', 'length', 't-or-d']->purpose",0.0,0.0,0.5925925925925926,False,4,0.75
+bridges,pyro,"['lanes', 'material', 'rel-l', 'river', 'span', 't-or-d', 'type']->erected",0.05670806366975667,0.06607832318158328,0.1,False,7,0.7222222222222222
+bridges,pyro,"['clear-g', 'length', 'material']->lanes",0.3360507020344229,0.41199257101809006,0.6666666666666666,False,3,0.6944444444444444
+bridges,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'rel-l']->t-or-d",0.300759086134351,0.3601087116287348,0.821917808219178,False,5,0.32407407407407407
+bridges,pyro,"['clear-g', 'erected']->location",0.0,0.0,0.0,False,2,0.7037037037037037
+bridges,pyro,"['clear-g', 'lanes', 'length']->type",0.5478966292967352,0.5478394253656564,0.7096774193548387,False,3,0.7129629629629629
+bridges,pyro,"['clear-g', 'erected']->length",0.0,0.0,0.03125,False,2,0.7037037037037037
+bridges,pyro,"['lanes', 'rel-l', 'river', 'span']->material",0.4205486223415613,0.4440430349026201,0.8,False,4,0.39814814814814814
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'river', 't-or-d', 'type']->span",0.42482935153583656,0.4164375445207198,0.7045454545454546,False,6,0.5925925925925926
+bridges,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'river']->t-or-d",0.2870091762697392,0.3079859298963388,0.828125,False,5,0.4074074074074074
+bridges,pyro,"['length', 'rel-l', 't-or-d']->lanes",0.2593347222522081,0.3002922375970865,0.65625,False,3,0.7037037037037037
+bridges,pyro,['identif']->rel-l,1.0,1.0,1.0,True,-,-
+bridges,pyro,"['material', 'purpose', 'span', 't-or-d']->clear-g",0.5759896396022055,0.5524591859123292,0.8765432098765432,False,4,0.25
+bridges,pyro,"['clear-g', 'lanes', 'river', 'type']->material",0.6791273304244345,0.6701366311785577,0.9166666666666666,False,4,0.4444444444444444
+bridges,pyro,"['lanes', 'material', 'rel-l', 'river', 'type']->purpose",0.2927952308712649,0.31098173530492235,0.723404255319149,False,5,0.5648148148148148
+bridges,pyro,"['lanes', 'material', 'purpose', 'river', 'span', 't-or-d', 'type']->erected",0.06928321950299443,0.08736612277105286,0.12903225806451613,False,7,0.7129629629629629
+bridges,pyro,"['clear-g', 'lanes', 'length', 'river']->location",0.1462166432584262,0.15887110366823165,0.2,False,4,0.8148148148148148
+bridges,pyro,"['clear-g', 'lanes', 'rel-l', 'river', 't-or-d', 'type']->span",0.3603008785801073,0.35452139350451845,0.6744186046511628,False,6,0.6018518518518519
+bridges,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'river', 'span', 'type']->identif",0.0,8.397810759129951e-13,0.0,False,7,0.6759259259259259
+bridges,pyro,"['clear-g', 'lanes', 'rel-l', 'river']->material",0.45167302451614233,0.4694874183388197,0.8333333333333334,False,4,0.3333333333333333
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river']->clear-g",0.5725358524926023,0.565869683601854,0.8695652173913043,False,4,0.3611111111111111
+bridges,pyro,"['lanes', 'material', 'rel-l', 'river']->t-or-d",0.16997938179354943,0.2230338628353864,0.7910447761194029,False,4,0.37962962962962965
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river', 't-or-d']->type",0.42597428158324724,0.44514941374399475,0.6440677966101694,False,5,0.4537037037037037
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'span']->clear-g",0.551381587957062,0.5473736433374449,0.8732394366197183,False,4,0.3425925925925926
+bridges,pyro,"['length', 'river', 't-or-d']->lanes",0.27223884731602954,0.2715309594488798,0.6666666666666666,False,3,0.6944444444444444
+bridges,pyro,"['lanes', 'river', 'span', 'type']->material",0.5355704390809507,0.5487966039501471,0.8541666666666666,False,4,0.5555555555555556
+bridges,pyro,['erected']->rel-l,0.19188811188811183,0.16287898208280746,0.5526315789473685,False,1,0.6481481481481481
+bridges,pyro,['location']->rel-l,0.19595408365219635,0.17597257864645724,0.5660377358490566,False,1,0.5092592592592593
+bridges,pyro,"['clear-g', 'length', 'purpose', 'span']->location",0.1012806771141328,0.10416904050512159,0.15789473684210525,False,4,0.8240740740740741
+bridges,pyro,"['lanes', 'length', 'purpose']->clear-g",0.0,0.0,0.6551724137931034,False,3,0.7314814814814815
+bridges,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'span', 'type']->length",0.12629093325814622,0.15710140995774838,0.24324324324324326,False,6,0.6574074074074074
+bridges,pyro,"['length', 'material', 't-or-d']->lanes",0.3005536702982673,0.35856273590650706,0.6363636363636364,False,3,0.6944444444444444
+bridges,pyro,"['clear-g', 'lanes', 'river', 'span']->material",0.45240135648936997,0.4717345819856129,0.8235294117647058,False,4,0.37037037037037035
+bridges,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->erected",0.054602501311876606,0.06399881752278362,0.09375,False,7,0.7037037037037037
+bridges,pyro,"['length', 'river', 't-or-d']->purpose",0.0,0.0,0.5151515151515151,False,3,0.6944444444444444
+bridges,pyro,"['clear-g', 'lanes', 'length', 'span']->location",0.04900368679775258,0.04570658235654385,0.08333333333333333,False,4,0.7777777777777778
+bridges,pyro,"['length', 'span', 't-or-d']->lanes",0.30636254501800664,0.36032061565657164,0.6470588235294118,False,3,0.6851851851851852
+bridges,pyro,"['purpose', 'rel-l', 'river', 't-or-d', 'type']->span",0.42218999824014214,0.4295082510811757,0.6730769230769231,False,5,0.5185185185185185
+bridges,pyro,"['length', 'span', 't-or-d']->purpose",0.0,0.0,0.5294117647058824,False,3,0.6851851851851852
+bridges,pyro,"['length', 'type']->rel-l",0.47484045366398187,0.5061829606642252,0.7352941176470589,False,2,0.6851851851851852
+bridges,pyro,"['lanes', 'purpose', 'river', 'span', 't-or-d']->clear-g",0.3636510014127816,0.370661170830106,0.7962962962962963,False,5,0.5
+bridges,pyro,"['lanes', 'material', 'rel-l', 'river', 'span', 't-or-d', 'type']->identif",0.0,1.364943130859443e-12,0.0,False,7,0.7222222222222222
+bridges,pyro,"['clear-g', 'lanes', 'length', 'purpose']->location",0.09586437469467468,0.087822179465956,0.13043478260869565,False,4,0.7870370370370371
+bridges,pyro,"['length', 'river', 't-or-d']->span",0.18790424592472343,0.18752203129455833,0.5757575757575758,False,3,0.6944444444444444
+bridges,pyro,"['length', 'purpose', 't-or-d']->lanes",0.3766172036975004,0.4000044397270644,0.7419354838709677,False,3,0.7129629629629629
+bridges,pyro,"['clear-g', 'lanes', 'rel-l', 'river', 'span', 't-or-d']->type",0.4720555843752341,0.5039515401461773,0.6739130434782609,False,6,0.5740740740740741
+bridges,pyro,"['length', 'material', 'river']->erected",0.03327223916465705,0.019608398397191806,0.043478260869565216,False,3,0.7870370370370371
+bridges,pyro,"['length', 'purpose', 'span']->material",0.0,0.0,0.52,False,3,0.7685185185185185
+bridges,pyro,"['length', 'purpose', 'river']->material",0.0,0.0,0.38461538461538464,False,3,0.7592592592592593
+bridges,pyro,"['material', 'purpose', 'rel-l', 'span', 't-or-d', 'type']->lanes",0.23942863051538477,0.27210198463277063,0.6140350877192983,False,6,0.4722222222222222
+bridges,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'river', 't-or-d']->span",0.40984060308292325,0.42302589320804823,0.7090909090909091,False,6,0.49074074074074076
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l', 'span', 't-or-d']->type",0.5421512058352963,0.534260979110472,0.6981132075471698,False,6,0.5092592592592593
+bridges,pyro,"['clear-g', 'purpose', 'river', 'span']->material",0.5774781972277934,0.5943467775912082,0.8591549295774648,False,4,0.3425925925925926
+bridges,pyro,"['span', 't-or-d', 'type']->clear-g",0.5116034300734706,0.49507913002792076,0.8641975308641975,False,3,0.25
+bridges,pyro,"['length', 'material', 't-or-d', 'type']->location",0.1124034410112359,0.09998661944240415,0.14285714285714285,False,4,0.7407407407407407
+bridges,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'river', 'span', 't-or-d', 'type']->identif",0.0,1.5263843410137755e-12,0.0,False,8,0.7314814814814815
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'span']->material",0.6044016164036564,0.6210201533947368,0.8831168831168831,False,4,0.28703703703703703
+bridges,pyro,"['clear-g', 'length', 'river', 'span']->erected",0.04252322252193386,0.02816436944471466,0.05263157894736842,False,4,0.8240740740740741
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'river', 'span', 't-or-d']->type",0.42962365146185777,0.47809346250134127,0.6595744680851063,False,6,0.5648148148148148
+bridges,pyro,"['length', 'material']->rel-l",0.49097831399369796,0.4888267858303788,0.7714285714285715,False,2,0.6759259259259259
+bridges,pyro,"['clear-g', 'lanes', 'length', 't-or-d', 'type']->location",0.06168363764044893,0.05896749811136999,0.1,False,5,0.8148148148148148
+bridges,pyro,"['clear-g', 'purpose', 'rel-l', 'type']->material",0.7811508330027765,0.8082381302891889,0.9305555555555556,False,4,0.3333333333333333
+bridges,pyro,"['lanes', 'material', 'river', 't-or-d']->clear-g",0.586656289797651,0.5858820631747307,0.8648648648648649,False,4,0.3148148148148148
+bridges,pyro,"['lanes', 'rel-l', 'river', 'span', 't-or-d', 'type']->length",0.10379449164844079,0.12770489605774288,0.24242424242424243,False,6,0.6944444444444444
+bridges,pyro,"['lanes', 'length', 'purpose', 't-or-d']->material",0.0,0.0,0.5,False,4,0.7777777777777778
+bridges,pyro,"['lanes', 'length', 'material', 't-or-d']->location",0.04900368679775258,0.054654212541359694,0.08333333333333333,False,4,0.7777777777777778
+bridges,pyro,"['material', 'river', 'span', 't-or-d']->clear-g",0.5720026804278666,0.559238794345313,0.881578947368421,False,4,0.2962962962962963
+bridges,pyro,"['clear-g', 'length', 'rel-l', 'span']->location",0.11522120786516887,0.13632791826342877,0.20833333333333334,False,4,0.7777777777777778
+bridges,pyro,"['clear-g', 'length', 'purpose', 'span']->erected",0.0,0.0,0.0,False,4,0.8240740740740741
+bridges,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->identif",1.1102230246251565e-16,1.1780515807725537e-12,0.0,False,7,0.7037037037037037
+bridges,pyro,"['clear-g', 'lanes', 'material', 'rel-l', 'river', 't-or-d']->type",0.5397270661451099,0.5682263768009045,0.7307692307692307,False,6,0.5185185185185185
+bridges,pyro,"['location', 't-or-d']->type",0.09783330973104254,0.08671085299428098,0.36585365853658536,False,2,0.6203703703703703
+bridges,pyro,"['material', 'purpose', 'river', 't-or-d']->clear-g",0.5167680704984373,0.5081803125954582,0.8589743589743589,False,4,0.2777777777777778
+bridges,pyro,"['length', 'span', 't-or-d']->type",0.279788771247668,0.3388959634220407,0.5294117647058824,False,3,0.6851851851851852
+bridges,pyro,"['length', 'river', 't-or-d']->type",0.2408035243006209,0.32401266334111517,0.5151515151515151,False,3,0.6944444444444444
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'river', 't-or-d']->material",0.445902768393843,0.46292241168584736,0.8307692307692308,False,5,0.39814814814814814
+bridges,pyro,"['clear-g', 'lanes', 'length', 'river']->erected",0.03986356480671682,0.02575459389209798,0.05,False,4,0.8148148148148148
+bridges,pyro,"['length', 'material', 'river']->identif",0.0,2.0075868665495287e-12,0.0,False,3,0.7870370370370371
+bridges,pyro,"['lanes', 'purpose', 'river', 'span', 'type']->rel-l",0.4019972027972022,0.3521658809241933,0.725,False,5,0.6296296296296297
+bridges,pyro,"['erected', 't-or-d']->length",0.0,0.0,0.03225806451612903,False,2,0.7129629629629629
+bridges,pyro,"['lanes', 'material', 'span', 't-or-d']->clear-g",0.5962126878357248,0.6133700583578979,0.8701298701298701,False,4,0.28703703703703703
+bridges,pyro,"['clear-g', 'erected']->identif",1.1102230246251565e-16,1.1438892693263454e-12,0.0,False,2,0.7037037037037037
+bridges,pyro,"['clear-g', 'lanes', 'length', 'purpose']->erected",0.0,0.0,0.0,False,4,0.7870370370370371
+bridges,pyro,"['length', 'purpose', 'rel-l', 't-or-d']->location",0.03852894479726432,0.05026928791653504,0.08695652173913043,False,4,0.7870370370370371
+bridges,pyro,"['location', 't-or-d']->length",0.0767647486459958,0.07831782814328603,0.17073170731707318,False,2,0.6203703703703703
+bridges,pyro,"['clear-g', 'lanes', 'material', 'rel-l', 'river', 'span']->type",0.43139395776175593,0.4519685074950034,0.6458333333333334,False,6,0.5555555555555556
+bridges,pyro,"['clear-g', 'length', 'river']->rel-l",0.6563202314926457,0.6767716750751744,0.8275862068965517,False,3,0.7314814814814815
+bridges,pyro,"['lanes', 'material', 'purpose', 't-or-d']->clear-g",0.591992051977544,0.6022087195629263,0.8795180722891566,False,4,0.23148148148148148
+bridges,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'span', 'type']->location",0.1272538338900695,0.11763139328490697,0.16216216216216217,False,6,0.6574074074074074
+bridges,pyro,"['purpose', 'rel-l', 'river', 'span', 't-or-d', 'type']->length",0.05609881921357307,0.09159998831689867,0.1794871794871795,False,6,0.6388888888888888
+bridges,pyro,"['length', 'river', 'span']->rel-l",0.29894566971490066,0.36002251023892345,0.6153846153846154,False,3,0.7592592592592593
+bridges,pyro,"['clear-g', 'length', 'river', 'span']->identif",0.0,2.4528793362693075e-12,0.0,False,4,0.8240740740740741
+bridges,pyro,"['clear-g', 'length', 'purpose', 'type']->erected",0.0,0.0,0.0,False,4,0.7962962962962963
+bridges,pyro,"['purpose', 'rel-l', 'river', 'span']->material",0.5034927927371693,0.5358506155053885,0.8208955223880597,False,4,0.37962962962962965
+bridges,pyro,"['material', 'rel-l', 'river', 't-or-d']->clear-g",0.6207002086023277,0.5915713059101478,0.8961038961038961,False,4,0.28703703703703703
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'river']->material",0.36730223883354973,0.3806849966847854,0.782608695652174,False,4,0.3611111111111111
+bridges,pyro,"['erected', 't-or-d']->location",0.0,0.0,0.0,False,2,0.7129629629629629
+bridges,pyro,"['clear-g', 'length', 'purpose', 'span']->identif",0.0,2.3893390426032163e-12,0.0,False,4,0.8240740740740741
+bridges,pyro,"['clear-g', 'lanes', 'length']->rel-l",0.4970093132673771,0.5195508323291468,0.7741935483870968,False,3,0.7129629629629629
+bridges,pyro,"['clear-g', 'lanes', 'length', 't-or-d', 'type']->erected",0.0,0.0,0.0,False,5,0.8148148148148148
+bridges,pyro,"['rel-l', 'river', 'span', 't-or-d']->clear-g",0.45448349076155103,0.4298739613675586,0.8493150684931506,False,4,0.32407407407407407
+bridges,pyro,"['clear-g', 'length', 'river', 't-or-d']->location",0.13167696629213366,0.15765912179356975,0.2,False,4,0.7685185185185185
+bridges,pyro,"['clear-g', 'lanes', 'length', 'river']->identif",0.0,2.3157666333199337e-12,0.0,False,4,0.8148148148148148
+bridges,pyro,"['lanes', 'length', 'span']->rel-l",0.27084157222088157,0.26137990842344433,0.6206896551724138,False,3,0.7314814814814815
+bridges,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'river', 't-or-d']->type",0.5047674344413959,0.544344117747263,0.7090909090909091,False,6,0.49074074074074076
+bridges,pyro,"['lanes', 'length', 'river', 't-or-d']->location",0.04093462717058205,0.055097176181805124,0.09090909090909091,False,4,0.7962962962962963
+bridges,pyro,"['lanes', 'length', 'river']->rel-l",0.08043423243423242,0.12515985137028218,0.5185185185185185,False,3,0.75
+bridges,pyro,"['clear-g', 'lanes', 'length', 'span']->identif",0.0,1.903409605282938e-12,0.0,False,4,0.7777777777777778
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 'span']->material",0.5203972745636848,0.5617999618038572,0.8450704225352113,False,4,0.3425925925925926
+bridges,pyro,"['clear-g', 'lanes', 'length', 'purpose']->identif",0.0,1.8179733102469065e-12,0.0,False,4,0.7870370370370371
+bridges,pyro,"['length', 'purpose', 'span', 't-or-d']->location",0.004925762439807357,0.01424336977201453,0.047619047619047616,False,4,0.8055555555555556
+bridges,pyro,"['length', 'span', 't-or-d']->clear-g",0.2585463504773634,0.24172709734048556,0.7647058823529411,False,3,0.6851851851851852
+bridges,pyro,"['lanes', 'length', 'material', 't-or-d']->erected",0.010385691796396368,0.015694475731541754,0.041666666666666664,False,4,0.7777777777777778
+bridges,pyro,"['clear-g', 'length', 'purpose', 'type']->identif",0.0,1.8803355566136033e-12,0.0,False,4,0.7962962962962963
+bridges,pyro,"['clear-g', 'lanes', 'length', 't-or-d', 'type']->identif",0.0,1.9757981398234726e-12,0.0,False,5,0.8148148148148148
+bridges,pyro,"['clear-g', 'length', 'purpose']->rel-l",0.5858239163433963,0.6003081626095007,0.8214285714285714,False,3,0.7407407407407407
+bridges,pyro,"['length', 'rel-l', 'span', 't-or-d']->location",0.0912701896067416,0.07406429020565976,0.125,False,4,0.7777777777777778
+bridges,pyro,"['lanes', 'material', 'rel-l', 't-or-d']->clear-g",0.6808556937172778,0.6774788969691671,0.9,False,4,0.25925925925925924
+bridges,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 't-or-d']->material",0.5149783576201663,0.5334871314326091,0.8571428571428571,False,5,0.4166666666666667
+bridges,pyro,"['lanes', 'length', 'span', 't-or-d']->location",0.0,0.00734445299265399,0.04,False,4,0.7685185185185185
+bridges,pyro,"['length', 'river', 't-or-d']->clear-g",0.0,0.0,0.6363636363636364,False,3,0.6944444444444444
+bridges,pyro,"['length', 'purpose', 't-or-d']->clear-g",0.0,0.0,0.6129032258064516,False,3,0.7129629629629629
+bridges,pyro,"['length', 'purpose', 'river']->rel-l",0.15666272189349084,0.23010448120982377,0.5769230769230769,False,3,0.7592592592592593
+bridges,pyro,"['clear-g', 'length', 'span', 'type']->identif",6.661338147750939e-16,1.884198914088105e-12,0.0,False,4,0.8055555555555556
+bridges,pyro,"['clear-g', 'length', 'material', 't-or-d', 'type']->erected",0.0,0.0,0.0,False,5,0.7592592592592593
+bridges,pyro,"['clear-g', 'purpose', 'rel-l', 'span', 't-or-d']->material",0.7190042872282207,0.7485537832575535,0.9104477611940298,False,5,0.37962962962962965
+bridges,pyro,"['lanes', 'length', 'material', 't-or-d']->identif",0.0,1.809290280191332e-12,0.0,False,4,0.7777777777777778
+bridges,pyro,"['length', 'purpose', 'span']->rel-l",0.23160103896103723,0.24422502633508897,0.6,False,3,0.7685185185185185
+bridges,pyro,"['lanes', 'rel-l', 'river', 't-or-d']->clear-g",0.490750337756939,0.4958766518007075,0.8405797101449275,False,4,0.3611111111111111
+bridges,pyro,"['lanes', 'rel-l', 'span', 't-or-d']->clear-g",0.43639626170286683,0.4601365063192594,0.821917808219178,False,4,0.32407407407407407
+bridges,pyro,"['length', 'rel-l', 't-or-d']->material",0.07807875385225538,0.125988129197859,0.71875,False,3,0.7037037037037037
+bridges,pyro,"['clear-g', 'length', 'material', 't-or-d', 'type']->identif",2.220446049250313e-16,1.7448430374208819e-12,0.0,False,5,0.7592592592592593
+bridges,pyro,"['lanes', 'length', 'purpose']->rel-l",0.18538606221364828,0.22766676218151186,0.5862068965517241,False,3,0.7314814814814815
+bridges,pyro,"['length', 'span', 't-or-d']->material",0.0,0.0,0.5588235294117647,False,3,0.6851851851851852
+bridges,pyro,"['clear-g', 'length', 't-or-d']->material",0.16507621692072294,0.2594384905263344,0.7222222222222222,False,3,0.6666666666666666
+bridges,pyro,"['lanes', 'material', 'purpose', 'river', 'span', 't-or-d', 'type']->location",0.05104884015947775,0.05632766658671865,0.0967741935483871,False,7,0.7129629629629629
+bridges,pyro,"['purpose', 'river', 't-or-d', 'type']->material",0.4965868918863757,0.5174896080554648,0.8484848484848485,False,4,0.3888888888888889
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->location",0.09187399678972652,0.09806939251606954,0.14285714285714285,False,7,0.6759259259259259
+bridges,pyro,"['clear-g', 'length', 'river', 't-or-d']->identif",0.0,1.9385769432793197e-12,0.0,False,4,0.7685185185185185
+bridges,pyro,"['length', 'rel-l', 'river', 't-or-d']->identif",0.0,2.0866365964361195e-12,0.0,False,4,0.7962962962962963
+bridges,pyro,"['clear-g', 'length', 'river', 't-or-d']->erected",0.029756865488891893,0.0177660526278397,0.04,False,4,0.7685185185185185
+bridges,pyro,"['length', 'rel-l', 'river', 't-or-d']->erected",0.0,0.0,0.0,False,4,0.7962962962962963
+bridges,pyro,"['erected', 't-or-d']->identif",0.0,1.1840530166875533e-12,0.0,False,2,0.7129629629629629
+bridges,pyro,"['purpose', 'span', 't-or-d', 'type']->material",0.6682132940443133,0.682882312791041,0.9,False,4,0.35185185185185186
+bridges,pyro,"['lanes', 'purpose', 'rel-l', 't-or-d']->clear-g",0.453237198132486,0.45261157711302397,0.8395061728395061,False,4,0.25
+bridges,pyro,"['location', 'purpose', 't-or-d']->identif",0.0,8.985286166261136e-13,0.0,False,3,0.6851851851851852
+bridges,pyro,"['lanes', 'length', 'river', 't-or-d']->identif",0.0,1.837895034119478e-12,0.0,False,4,0.7962962962962963
+bridges,pyro,"['material', 'purpose', 'river', 'span', 'type']->rel-l",0.44488523241464395,0.43442768641974483,0.7254901960784313,False,5,0.5277777777777778
+bridges,pyro,"['length', 'purpose', 'rel-l', 't-or-d']->erected",0.0,0.0,0.0,False,4,0.7870370370370371
+bridges,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'span', 't-or-d', 'type']->erected",0.02199818722470459,0.03569085392253776,0.06060606060606061,False,7,0.6944444444444444
+bridges,pyro,"['lanes', 'material', 'river', 'span', 'type']->rel-l",0.46063229793462324,0.4355064564885037,0.7674418604651163,False,5,0.6018518518518519
+bridges,pyro,"['length', 'river', 'span', 't-or-d']->identif",0.0,2.230274323952399e-12,0.0,False,4,0.7870370370370371
+bridges,pyro,"['length', 'purpose', 'span', 't-or-d']->identif",0.0,2.095424798361896e-12,0.0,False,4,0.8055555555555556
+bridges,pyro,"['clear-g', 'lanes', 'length', 'rel-l', 'type']->erected",0.0,0.0,0.0,False,5,0.8148148148148148
+bridges,pyro,"['clear-g', 'length', 'span', 'type']->erected",0.0,0.0,0.0,False,4,0.8055555555555556
+bridges,pyro,"['lanes', 'material', 'purpose', 'river', 'type']->rel-l",0.3833276157804455,0.36016142385737515,0.7169811320754716,False,5,0.5092592592592593
+bridges,pyro,"['length', 'span', 't-or-d', 'type']->identif",0.0,2.122663323041984e-12,0.0,False,4,0.8055555555555556
+bridges,pyro,"['length', 'purpose', 't-or-d', 'type']->identif",0.0,1.9257900664073824e-12,0.0,False,4,0.7870370370370371
+bridges,pyro,"['clear-g', 'lanes', 'length', 'span']->erected",0.01740423298932925,0.01759831074550744,0.041666666666666664,False,4,0.7777777777777778
+bridges,pyro,"['length', 'rel-l', 'span', 't-or-d']->erected",0.0,0.0,0.0,False,4,0.7777777777777778
+bridges,pyro,"['lanes', 'length', 'span', 't-or-d']->identif",0.0,1.680565178065862e-12,0.0,False,4,0.7685185185185185
+bridges,pyro,"['lanes', 'material', 'purpose', 'span', 't-or-d', 'type']->rel-l",0.48977765317686217,0.47114574413856236,0.7608695652173914,False,6,0.5740740740740741
+bridges,pyro,"['length', 'purpose', 'rel-l', 't-or-d']->identif",0.0,1.7226972693721834e-12,0.0,False,4,0.7870370370370371
+bridges,pyro,"['lanes', 'material', 'purpose', 'river', 'span', 't-or-d']->rel-l",0.33401318681318637,0.31019272206352744,0.6888888888888889,False,6,0.5833333333333334
+bridges,pyro,"['length', 'rel-l', 'span', 't-or-d']->identif",0.0,1.8611004359722468e-12,0.0,False,4,0.7777777777777778
+bridges,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'river', 'span', 'type']->erected",0.035201248157125775,0.05973915466221299,0.09375,False,7,0.7037037037037037
+bridges,pyro,"['length', 'material', 'rel-l', 't-or-d', 'type']->identif",5.551115123125783e-16,1.8193207522728e-12,0.0,False,5,0.7777777777777778
+bridges,pyro,"['lanes', 'length', 'rel-l', 't-or-d', 'type']->identif",0.0,2.0846203699492193e-12,0.0,False,5,0.8333333333333334
+bridges,pyro,"['material', 'purpose', 'rel-l', 'river', 'span', 't-or-d', 'type']->identif",0.0,7.845354035075145e-13,0.0,False,7,0.6666666666666666
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'river', 'type']->rel-l",0.47534348004936255,0.4414989151425025,0.7647058823529411,False,5,0.5277777777777778
+bridges,pyro,"['clear-g', 'purpose', 'river', 'span', 'type']->rel-l",0.42138533806618916,0.4050762113476247,0.723404255319149,False,5,0.5648148148148148
+bridges,pyro,"['clear-g', 'lanes', 'length', 'rel-l', 'type']->identif",0.0,1.88487521036342e-12,0.0,False,5,0.8148148148148148
+bridges,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'span', 't-or-d', 'type']->identif",0.0,1.0716688066312446e-12,0.0,False,7,0.6944444444444444
+bridges,pyro,"['length', 'span', 't-or-d', 'type']->erected",0.0,0.0,0.0,False,4,0.8055555555555556
+bridges,pyro,"['length', 'purpose', 'span', 't-or-d']->erected",0.0,0.0,0.0,False,4,0.8055555555555556
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'river', 'span', 't-or-d']->rel-l",0.345814185814186,0.31978013419905277,0.7021276595744681,False,6,0.5648148148148148
+bridges,pyro,"['length', 'river', 'span', 't-or-d']->erected",0.03327223916465749,0.02320570014363648,0.043478260869565216,False,4,0.7870370370370371
+bridges,pyro,"['clear-g', 'length', 'span']->rel-l",0.5078641358641354,0.5339234433813129,0.7666666666666667,False,3,0.7222222222222222
+bridges,pyro,"['length', 'purpose', 't-or-d', 'type']->erected",0.0,0.0,0.0,False,4,0.7870370370370371
+bridges,pyro,"['lanes', 'length', 'span', 't-or-d']->erected",0.016281266398460614,0.013249182517250912,0.04,False,4,0.7685185185185185
+bridges,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'river', 'span']->rel-l",0.3734335451782257,0.3503850352752266,0.7021276595744681,False,6,0.5648148148148148
+bridges,pyro,"['location', 'purpose', 't-or-d']->erected",0.0,0.0,0.0,False,3,0.6851851851851852
+bridges,pyro,"['lanes', 'length', 'river', 't-or-d']->erected",0.035269610571341925,0.015000507411157198,0.045454545454545456,False,4,0.7962962962962963
+bridges,pyro,"['length', 'material', 'rel-l', 't-or-d', 'type']->erected",0.0,0.0,0.0,False,5,0.7777777777777778
+bridges,pyro,"['clear-g', 'lanes', 'purpose', 'span', 't-or-d', 'type']->rel-l",0.5230779402415764,0.49688668275026815,0.7777777777777778,False,6,0.5833333333333334
+bridges,pyro,"['lanes', 'length', 'rel-l', 't-or-d', 'type']->erected",0.0,0.0,0.0,False,5,0.8333333333333334
+bridges,pyro,"['purpose', 'river', 'span', 't-or-d', 'type']->rel-l",0.39264594229300154,0.36124579570197085,0.7058823529411765,False,5,0.5277777777777778
+bridges,pyro,"['clear-g', 'length', 't-or-d']->rel-l",0.5320219780219776,0.540700147508137,0.7777777777777778,False,3,0.6666666666666666
+bridges,pyro,"['length', 'span', 't-or-d']->rel-l",0.2785092554504315,0.26451735082046124,0.6470588235294118,False,3,0.6851851851851852
+bridges,pyro,"['length', 'river', 't-or-d']->rel-l",0.10909454182181377,0.14889601896585147,0.5454545454545454,False,3,0.6944444444444444
+bridges,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'span', 'type']->rel-l",0.46057279618776936,0.449505157099782,0.7450980392156863,False,6,0.5277777777777778
