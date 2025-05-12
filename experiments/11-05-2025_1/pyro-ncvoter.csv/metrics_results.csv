@@ -1,0 +1,5 @@
+../../datasets/experiments/ncvoter.csv,mu_plus,3.3774373531341553,19,753
+../../datasets/experiments/ncvoter.csv,rfi_prime_plus,68.39104628562927,19,753
+../../datasets/experiments/ncvoter.csv,g3,1.6059255599975586,19,753
+../../datasets/experiments/ncvoter.csv,g3_prime,1.950437068939209,19,753
+../../datasets/experiments/ncvoter.csv,total_file_time,75.35333371162415,19,753

@@ -1,0 +1,143 @@
+fd,mu_plus,rfi_prime_plus,g3,g3_prime,mu_plus_is_key,rfi_prime_plus_rfi
+['identif']->erected,1.0,1.0,1.0,1.0,True,9.00390872971002e-14
+['identif']->length,1.0,1.0,1.0,1.0,True,9.847678228425139e-14
+['identif']->location,1.0,1.0,1.0,1.0,True,5.162537064506978e-14
+['identif']->type,1.0,1.0,1.0,1.0,True,-2.220446049250313e-15
+['identif']->lanes,1.0,1.0,1.0,1.0,True,1.7763568394002505e-15
+['identif']->river,1.0,1.0,1.0,1.0,True,-7.327471962526033e-15
+['identif']->purpose,1.0,1.0,1.0,1.0,True,-1.1102230246251565e-15
+['identif']->material,1.0,1.0,1.0,1.0,True,3.774758283725532e-15
+['identif']->span,1.0,1.0,1.0,1.0,True,-2.220446049250313e-16
+['identif']->rel-l,1.0,1.0,1.0,1.0,True,-3.1086244689504383e-15
+['identif']->clear-g,1.0,1.0,1.0,1.0,True,-2.220446049250313e-16
+['identif']->t-or-d,1.0,1.0,1.0,1.0,True,-4.6629367034256575e-15
+"['erected', 'length']->lanes",1.0,1.0,1.0,1.0,False,0.006713256531721945
+"['erected', 'length']->river",1.0,1.0,1.0,1.0,False,0.007420073133200478
+"['erected', 'length']->material",1.0,1.0,1.0,1.0,False,0.006845400164916859
+"['erected', 'length']->span",1.0,1.0,1.0,1.0,False,0.007080366065122301
+"['erected', 'length']->clear-g",1.0,1.0,1.0,1.0,False,0.007968429193501936
+"['erected', 'length']->t-or-d",1.0,1.0,1.0,1.0,False,0.006993686426414625
+"['erected', 'length', 'type']->identif",1.0,1.0,1.0,1.0,True,1.6964207816272392e-13
+"['erected', 'length', 'type']->location",1.0,1.0,1.0,1.0,True,5.162537064506978e-14
+"['erected', 'length', 'type']->purpose",1.0,1.0,1.0,1.0,True,-1.1102230246251565e-15
+"['erected', 'length', 'type']->rel-l",1.0,1.0,1.0,1.0,True,-3.1086244689504383e-15
+"['erected', 'length', 'purpose']->identif",1.0,1.0,1.0,1.0,True,1.6964207816272392e-13
+"['erected', 'length', 'purpose']->location",1.0,1.0,1.0,1.0,True,5.162537064506978e-14
+"['erected', 'length', 'purpose']->type",1.0,1.0,1.0,1.0,True,-2.220446049250313e-15
+"['erected', 'length', 'purpose']->rel-l",1.0,1.0,1.0,1.0,True,-3.1086244689504383e-15
+"['erected', 'length', 'rel-l']->identif",1.0,1.0,1.0,1.0,True,1.6964207816272392e-13
+"['erected', 'length', 'rel-l']->location",1.0,1.0,1.0,1.0,True,5.162537064506978e-14
+"['erected', 'length', 'rel-l']->type",1.0,1.0,1.0,1.0,True,-2.220446049250313e-15
+"['erected', 'length', 'rel-l']->purpose",1.0,1.0,1.0,1.0,True,-1.1102230246251565e-15
+"['erected', 'location']->identif",1.0,1.0,1.0,1.0,True,1.6964207816272392e-13
+"['erected', 'location']->length",1.0,1.0,1.0,1.0,True,9.847678228425139e-14
+"['erected', 'location']->type",1.0,1.0,1.0,1.0,True,-2.220446049250313e-15
+"['erected', 'location']->lanes",1.0,1.0,1.0,1.0,True,1.7763568394002505e-15
+"['erected', 'location']->purpose",1.0,1.0,1.0,1.0,True,-1.1102230246251565e-15
+"['erected', 'location']->material",1.0,1.0,1.0,1.0,True,3.774758283725532e-15
+"['erected', 'location']->span",1.0,1.0,1.0,1.0,True,-2.220446049250313e-16
+"['erected', 'location']->rel-l",1.0,1.0,1.0,1.0,True,-3.1086244689504383e-15
+"['erected', 'location']->clear-g",1.0,1.0,1.0,1.0,True,-2.220446049250313e-16
+"['erected', 'location']->t-or-d",1.0,1.0,1.0,1.0,True,-4.6629367034256575e-15
+"['erected', 'lanes', 'river', 't-or-d', 'type']->span",1.0,1.0,1.0,1.0,False,0.03540183032561195
+"['erected', 'lanes', 'material', 'type']->purpose",1.0,1.0,1.0,1.0,False,0.07041487858866047
+"['erected', 'lanes', 'rel-l', 'type']->purpose",1.0,1.0,1.0,1.0,False,0.05414551439836934
+"['erected', 'material', 'river', 'type']->purpose",1.0,1.0,1.0,1.0,False,0.06267980510317894
+"['clear-g', 'erected', 'river', 'span', 'type']->lanes",1.0,1.0,1.0,1.0,False,0.026853026126882007
+"['erected', 'rel-l', 'river', 'type']->purpose",1.0,1.0,1.0,1.0,False,0.04641044091288793
+"['erected', 'span', 'type']->t-or-d",1.0,1.0,1.0,1.0,False,0.08463863621422019
+"['clear-g', 'erected', 'lanes', 'rel-l']->purpose",1.0,1.0,1.0,1.0,False,0.07814995207414188
+"['erected', 'lanes', 'rel-l', 't-or-d']->purpose",1.0,1.0,1.0,1.0,False,0.07041487858866047
+"['erected', 'purpose', 'river']->material",1.0,1.0,1.0,1.0,False,0.08393681362584215
+"['clear-g', 'erected', 'purpose', 'river', 'span']->lanes",1.0,1.0,1.0,1.0,False,0.04027953919032201
+"['erected', 'purpose', 'river', 'span', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.029148773368498526
+"['erected', 'rel-l', 'river', 'span', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.023319018694798355
+"['clear-g', 'erected', 'river', 'span', 't-or-d']->lanes",1.0,1.0,1.0,1.0,False,0.04027953919032201
+"['erected', 'rel-l', 'river']->material",1.0,1.0,1.0,1.0,False,0.05655521296619026
+"['erected', 'rel-l', 'river', 't-or-d']->purpose",1.0,1.0,1.0,1.0,False,0.04641044091288793
+"['erected', 'purpose', 'span']->material",1.0,1.0,1.0,1.0,False,0.13502107938116814
+"['erected', 'rel-l', 'span']->material",1.0,1.0,1.0,1.0,False,0.09078221379075524
+"['length', 'location', 'type']->clear-g",1.0,1.0,1.0,1.0,False,0.049119874370829986
+"['length', 'location', 'purpose', 'type']->lanes",1.0,1.0,1.0,1.0,False,0.0213479078926202
+"['length', 'location', 'purpose', 'type']->material",1.0,1.0,1.0,1.0,False,0.0214322063181841
+"['length', 'location', 'purpose', 'type']->rel-l",1.0,1.0,1.0,1.0,False,0.022747828114435542
+"['length', 'location', 'span', 'type']->material",1.0,1.0,1.0,1.0,False,0.028277606483097073
+"['length', 'location', 'span', 'type']->rel-l",1.0,1.0,1.0,1.0,False,0.029927907122465958
+"['length', 'location', 'rel-l', 'type']->material",1.0,1.0,1.0,1.0,False,0.03601901247145145
+"['length', 'location', 't-or-d', 'type']->material",1.0,1.0,1.0,1.0,False,0.028277606483097073
+"['length', 'location', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,1.0,False,0.029927907122465958
+"['lanes', 'length', 'location', 'material']->type",1.0,1.0,1.0,1.0,False,0.01896956053967125
+"['lanes', 'length', 'location', 'span']->purpose",1.0,1.0,1.0,1.0,False,0.023205220456443243
+"['lanes', 'length', 'location', 'rel-l']->type",1.0,1.0,1.0,1.0,False,0.01896956053967125
+"['lanes', 'length', 'location', 'rel-l']->material",1.0,1.0,1.0,1.0,False,0.0214322063181841
+"['clear-g', 'lanes', 'length', 'location']->type",1.0,1.0,1.0,1.0,False,0.02479931521337131
+"['lanes', 'length', 'location', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.013139805865971077
+"['lanes', 'length', 'location', 't-or-d']->purpose",1.0,1.0,1.0,1.0,False,0.016269364190290014
+"['lanes', 'length', 'location', 't-or-d']->material",1.0,1.0,1.0,1.0,False,0.014586806153271237
+"['lanes', 'length', 'location', 't-or-d']->rel-l",1.0,1.0,1.0,1.0,False,0.015567749106405349
+"['lanes', 'length', 'location', 't-or-d']->clear-g",1.0,1.0,1.0,1.0,False,0.01659150799191267
+"['length', 'location', 'material', 'purpose', 't-or-d']->lanes",1.0,1.0,1.0,1.0,False,0.014634651360900253
+"['length', 'location', 'purpose', 'span', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.00582975467369784
+"['length', 'location', 'purpose', 'span', 't-or-d']->lanes",1.0,1.0,1.0,1.0,False,0.006713256531721945
+"['length', 'location', 'purpose', 'span', 't-or-d']->material",1.0,1.0,1.0,1.0,False,0.006845400164916859
+"['length', 'location', 'purpose', 'span', 't-or-d']->rel-l",1.0,1.0,1.0,1.0,False,0.007180079008027085
+"['length', 'location', 'purpose', 'span', 't-or-d']->clear-g",1.0,1.0,1.0,1.0,False,0.007968429193501936
+"['length', 'location', 'purpose', 'rel-l']->material",1.0,1.0,1.0,1.0,False,0.028277606483097073
+"['length', 'location', 'purpose', 'rel-l', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.013139805865971077
+"['length', 'location', 'purpose', 'rel-l', 't-or-d']->lanes",1.0,1.0,1.0,1.0,False,0.014634651360900253
+"['clear-g', 'length', 'location', 'purpose']->material",1.0,1.0,1.0,1.0,False,0.028277606483097073
+"['clear-g', 'length', 'location', 'purpose']->rel-l",1.0,1.0,1.0,1.0,False,0.029927907122465958
+"['clear-g', 'length', 'location', 'purpose', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.013139805865971077
+"['clear-g', 'length', 'location', 'purpose', 't-or-d']->lanes",1.0,1.0,1.0,1.0,False,0.014634651360900253
+"['length', 'location', 'material']->rel-l",1.0,1.0,1.0,1.0,False,0.045495656228874526
+"['length', 'location', 'material']->clear-g",1.0,1.0,1.0,1.0,False,0.049119874370829986
+"['length', 'location', 'material', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.02479931521337131
+"['length', 'location', 'rel-l', 'span']->material",1.0,1.0,1.0,1.0,False,0.03512300664801005
+"['length', 'location', 'rel-l', 'span', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.017489264021098072
+"['clear-g', 'length', 'location', 'span']->material",1.0,1.0,1.0,1.0,False,0.03512300664801005
+"['clear-g', 'length', 'location', 'span']->rel-l",1.0,1.0,1.0,1.0,False,0.03710798613049626
+"['clear-g', 'length', 'location', 'span', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.017489264021098072
+"['length', 'location', 'rel-l']->clear-g",1.0,1.0,1.0,1.0,False,0.05708830356433203
+"['clear-g', 'length', 'location', 't-or-d']->rel-l",1.0,1.0,1.0,1.0,False,0.03710798613049626
+"['clear-g', 'lanes', 'length', 'river', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,1.0,False,0.09473564962515202
+"['lanes', 'length', 'material', 'purpose', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,1.0,False,0.10865275597897806
+"['clear-g', 'lanes', 'length', 'purpose', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,1.0,False,0.1196740883034092
+"['lanes', 'length', 'rel-l', 't-or-d', 'type']->clear-g",1.0,1.0,1.0,1.0,False,0.15395578474643057
+"['length', 'river', 'span', 'type']->rel-l",1.0,1.0,1.0,1.0,False,0.1105143864289595
+"['length', 'river', 'span', 't-or-d', 'type']->clear-g",1.0,1.0,1.0,1.0,False,0.09914917720154359
+"['length', 'rel-l', 'river', 't-or-d', 'type']->clear-g",1.0,1.0,1.0,1.0,False,0.14186433271496102
+"['length', 'material', 'purpose', 'span', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,1.0,False,0.08260364235937401
+"['clear-g', 'length', 'purpose', 'span', 't-or-d', 'type']->rel-l",1.0,1.0,1.0,1.0,False,0.09406802634603995
+"['length', 'rel-l', 'span', 't-or-d', 'type']->clear-g",1.0,1.0,1.0,1.0,False,0.1438442274072772
+"['lanes', 'length', 'material', 'purpose', 'river']->type",1.0,1.0,1.0,1.0,False,0.06198078644829008
+"['lanes', 'length', 'material', 'purpose', 'river', 't-or-d']->rel-l",1.0,1.0,1.0,1.0,False,0.0531187868991394
+"['lanes', 'length', 'purpose', 'rel-l', 'river', 'span']->type",1.0,1.0,1.0,1.0,False,0.05542838510044523
+"['clear-g', 'lanes', 'length', 'purpose', 'river', 'span']->type",1.0,1.0,1.0,1.0,False,0.04959863042674484
+"['clear-g', 'lanes', 'length', 'purpose', 'river', 't-or-d']->rel-l",1.0,1.0,1.0,1.0,False,0.07586661501357828
+"['lanes', 'length', 'material', 'rel-l', 'river', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.06346108296686326
+"['lanes', 'length', 'rel-l', 'river', 't-or-d']->clear-g",1.0,1.0,1.0,1.0,False,0.11625024290340658
+"['lanes', 'length', 'material', 'purpose']->clear-g",1.0,1.0,1.0,1.0,False,0.17439269909387822
+"['lanes', 'length', 'material', 'purpose', 'rel-l', 'span']->type",1.0,1.0,1.0,1.0,False,0.06708789444784524
+"['clear-g', 'lanes', 'length', 'purpose', 'rel-l', 'span']->type",1.0,1.0,1.0,1.0,False,0.07774647018429615
+"['lanes', 'length', 'material', 'rel-l']->clear-g",1.0,1.0,1.0,1.0,False,0.18637319984976408
+"['length', 'material', 'purpose', 'river']->clear-g",1.0,1.0,1.0,1.0,False,0.11377673637873087
+"['length', 'material', 'purpose', 'river', 'span']->rel-l",1.0,1.0,1.0,1.0,False,0.058648223154587176
+"['length', 'material', 'purpose', 'river', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.06198078644829008
+"['length', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.04597181894576308
+"['clear-g', 'length', 'purpose', 'river', 'span']->rel-l",1.0,1.0,1.0,1.0,False,0.07586661501357828
+"['clear-g', 'length', 'purpose', 'river', 'span', 't-or-d']->type",1.0,1.0,1.0,1.0,False,0.04597181894576308
+"['length', 'purpose', 'rel-l', 'river', 't-or-d']->clear-g",1.0,1.0,1.0,1.0,False,0.09874930645161006
+"['length', 'material', 'rel-l', 'river']->clear-g",1.0,1.0,1.0,1.0,False,0.15088691453460246
+"['length', 'material', 'span']->clear-g",1.0,1.0,1.0,1.0,False,0.21862127434662193
+['location']->river,1.0,1.0,1.0,1.0,False,0.42031795380008496
+"['lanes', 'location', 'span', 'type']->purpose",1.0,1.0,1.0,1.0,False,0.04641044091288793
+"['lanes', 'location', 'rel-l', 'type']->material",1.0,1.0,1.0,1.0,False,0.03512300664801005
+"['lanes', 'location', 'rel-l', 'type']->clear-g",1.0,1.0,1.0,1.0,False,0.04049679557241914
+"['lanes', 'location', 't-or-d', 'type']->purpose",1.0,1.0,1.0,1.0,False,0.05494473161769753
+"['location', 'material', 'type']->clear-g",1.0,1.0,1.0,1.0,False,0.10489887872534498
+"['clear-g', 'location', 'rel-l', 'type']->material",1.0,1.0,1.0,1.0,False,0.07024601329601632
+"['lanes', 'location', 'material']->purpose",1.0,1.0,1.0,1.0,False,0.05494473161769753
+"['lanes', 'location', 'material']->rel-l",1.0,1.0,1.0,1.0,False,0.05146814414655676
+"['clear-g', 'lanes', 'location', 'span']->purpose",1.0,1.0,1.0,1.0,False,0.05414551439836934
+"['lanes', 'location', 'rel-l']->purpose",1.0,1.0,1.0,1.0,False,0.07894916929346985
+"['clear-g', 'lanes', 'location', 't-or-d']->purpose",1.0,1.0,1.0,1.0,False,0.07814995207414188

@@ -1,0 +1,9 @@
+fd,mu_plus,rfi_prime_plus,g3,g3_prime,mu_plus_is_key,rfi_prime_plus_rfi
+['shucked_weight']->sex,0.1446368034351293,0.15693155822152813,0.6983480967201341,0.526671675432006,False,0.09399584387480481
+"['shucked_weight', 'sex']->length",0.04614159555929709,0.05672091903893221,0.6375389035192722,0.08019441069258809,False,0.007865505868089095
+"['shucked_weight', 'sex', 'length']->height",0.10554443925072066,0.10391777095944918,0.9717500598515681,0.1386861313868613,False,0.001332104006082746
+"['shucked_weight', 'sex', 'length', 'height']->whole_height",0.0,0.0,0.9954512808235576,0.0,False,-2.504753585652608e-07
+"['shucked_weight', 'sex', 'length', 'height', 'whole_height']->viscera_weight",1.0,1.0,1.0,1.0,True,1.3454015679315035e-11
+"['shucked_weight', 'sex', 'length', 'height', 'whole_height', 'viscera_weight']->shell_weight",1.0,1.0,1.0,1.0,True,1.4226175792941831e-11
+"['shucked_weight', 'sex', 'height', 'viscera_weight', 'shell_weight']->rings",1.0,1.0,1.0,1.0,True,-8.65529869997772e-13
+"['shucked_weight', 'sex', 'length', 'height', 'whole_height', 'shell_weight']->diameter",1.0,1.0,1.0,1.0,True,5.252465129501616e-13

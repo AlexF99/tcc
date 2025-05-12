@@ -1,0 +1,62 @@
+fd,mu_plus,rfi_prime_plus,g3,g3_prime,mu_plus_is_key,rfi_prime_plus_rfi
+"['Y-ege', 'high', 'onpix', 'width', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'y-bar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.04086755329835434
+"['Y-ege', 'high', 'onpix', 'width', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.04421864139031495
+"['Y-ege', 'high', 'onpix', 'width', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-box', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.042718919295720026
+"['Y-ege', 'high', 'onpix', 'width', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-bar', 'y-box']->lettr",1.0,1.0,1.0,1.0,False,0.04718421007118201
+"['Y-ege', 'high', 'width', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.04358493245159423
+"['Y-ege', 'high', 'width', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'xybar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.046851621457207226
+"['Y-ege', 'high', 'width', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box']->lettr",1.0,1.0,1.0,1.0,False,0.0489005844370205
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-box', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.044147054214250026
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'y-bar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.04528705735852234
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'y-bar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.04368972999758369
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.04618150218710493
+"['Y-ege', 'high', 'onpix', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box']->lettr",1.0,1.0,1.0,1.0,False,0.051681674492334184
+"['Y-ege', 'high', 'onpix', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.04867108341837456
+"['Y-ege', 'high', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.045701503321633585
+"['Y-ege', 'high', 'x-bar', 'x-box', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.04510875981789131
+"['Y-ege', 'high', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box']->lettr",1.0,1.0,1.0,1.0,False,0.05107835481433831
+"['Y-ege', 'high', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.048737194620774194
+"['Y-ege', 'high', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'xybar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.05106478102078027
+"['Y-ege', 'high', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.04933261701082958
+"['Y-ege', 'high', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.05334609933509593
+"['Y-ege', 'high', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.050703903893412505
+"['Y-ege', 'high', 'width', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.06671381579484137
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-box', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.06051095857683075
+"['Y-ege', 'high', 'onpix', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.07027716415969543
+"['Y-ege', 'high', 'onpix', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.06726833627863693
+"['Y-ege', 'high', 'x-bar', 'x-box', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.06359184696513476
+"['Y-ege', 'high', 'x-bar', 'x-box', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.06651051150327758
+"['Y-ege', 'high', 'onpix', 'width', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-bar', 'y-box', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.04479456376040192
+"['Y-ege', 'high', 'onpix', 'width', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xybar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.0489568670458812
+"['Y-ege', 'high', 'width', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.04527453944215487
+"['Y-ege', 'high', 'width', 'x-bar', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.044529404488192426
+"['Y-ege', 'high', 'width', 'x-bar', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.047121614492910635
+"['Y-ege', 'high', 'width', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.04681219128276615
+"['Y-ege', 'high', 'width', 'x-bar', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'xybar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.05093022807546743
+"['Y-ege', 'high', 'width', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-box']->lettr",1.0,1.0,1.0,1.0,False,0.05768713152682514
+"['Y-ege', 'high', 'width', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.04867666578623031
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.051878222691921105
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xybar', 'y-bar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.0545922102963996
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x2bar', 'x2ybr', 'xegvy', 'xybar', 'y-bar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.05480505629729171
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box']->lettr",1.0,1.0,1.0,1.0,False,0.06657355280940813
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.05439042039046604
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'xybar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.06640584640795044
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-box', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.061827833358041984
+"['Y-ege', 'high', 'onpix', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.06035322664367415
+"['Y-ege', 'high', 'onpix', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.05859299591754197
+"['Y-ege', 'high', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.05746184391444309
+"['Y-ege', 'high', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.055239328673860055
+"['Y-ege', 'high', 'x-bar', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.055805417746021546
+"['Y-ege', 'high', 'x-bar', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.058170964372030065
+"['Y-ege', 'high', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y-box', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.06399993299719697
+"['Y-ege', 'high', 'onpix', 'width', 'x-bar', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'xybar', 'y-bar']->lettr",1.0,1.0,1.0,1.0,False,0.07381788424988656
+"['Y-ege', 'high', 'onpix', 'width', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar']->lettr",1.0,1.0,1.0,1.0,False,0.0752918589208762
+"['Y-ege', 'high', 'width', 'x-bar', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.06289082572122617
+"['Y-ege', 'high', 'width', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.07760604066366283
+"['Y-ege', 'high', 'width', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.0743678317375076
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.07121764801311814
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-ege', 'x2bar', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.08010137578992005
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar']->lettr",1.0,1.0,1.0,1.0,False,0.0866651712201475
+"['Y-ege', 'high', 'onpix', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.07478357252798218
+"['Y-ege', 'high', 'onpix', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y2bar']->lettr",1.0,1.0,1.0,1.0,False,0.0825913997539961
+"['Y-ege', 'high', 'x-bar', 'x-ege', 'x2bar', 'x2ybr', 'xegvy', 'xy2br', 'xybar', 'y-bar', 'y2bar', 'yegvx']->lettr",1.0,1.0,1.0,1.0,False,0.07776080311813349

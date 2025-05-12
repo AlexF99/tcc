@@ -1,0 +1,536 @@
+fd,mu_plus,rfi_prime_plus,g3,g3_prime,mu_plus_is_key,rfi_prime_plus_rfi
+"['epss', 'lvdd']->group",1.0,1.0,1.0,1.0,False,0.04327490479163909
+"['epss', 'lvdd', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['epss', 'fractional-shortening', 'lvdd', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'fractional-shortening', 'lvdd', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['epss', 'fractional-shortening', 'lvdd', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'fractional-shortening', 'lvdd', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['epss', 'fractional-shortening', 'lvdd', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['epss', 'lvdd', 'still-alive', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['age-at-heart-attack', 'epss', 'fractional-shortening', 'lvdd']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'epss', 'fractional-shortening', 'lvdd']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'epss', 'fractional-shortening', 'lvdd']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'epss', 'fractional-shortening', 'lvdd']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['epss', 'fractional-shortening', 'lvdd', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,1.0,False,0.0070696054074848025
+"['alive-at-1', 'epss', 'lvdd', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['alive-at-1', 'epss', 'lvdd', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['alive-at-1', 'epss', 'lvdd', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['alive-at-1', 'epss', 'lvdd', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,False,0.002784227989447774
+"['alive-at-1', 'epss', 'lvdd', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.0035455915364032142
+"['age-at-heart-attack', 'epss', 'lvdd']->still-alive",1.0,1.0,1.0,1.0,False,0.0070696054074848025
+"['age-at-heart-attack', 'epss', 'lvdd']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['epss', 'lvdd', 'mult', 'still-alive']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['epss', 'lvdd', 'mult', 'still-alive']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'lvdd', 'mult', 'still-alive']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'lvdd', 'mult', 'still-alive']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['epss', 'lvdd', 'mult', 'still-alive']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'lvdd', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['epss', 'lvdd', 'mult', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['epss', 'lvdd', 'mult', 'pericardial-effusion']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'lvdd', 'mult', 'pericardial-effusion']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'lvdd', 'mult', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['epss', 'lvdd', 'mult', 'pericardial-effusion']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'lvdd', 'mult', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['epss', 'lvdd', 'mult', 'pericardial-effusion']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['alive-at-1', 'epss', 'lvdd', 'mult']->fractional-shortening",1.0,1.0,1.0,1.0,False,0.002784227989447774
+"['alive-at-1', 'epss', 'lvdd', 'mult']->wall-motion-score",1.0,1.0,1.0,1.0,False,0.003006559261287123
+"['lvdd', 'survival', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['lvdd', 'survival', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['lvdd', 'survival', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['lvdd', 'survival', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['lvdd', 'survival', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['fractional-shortening', 'lvdd', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.006339458493676231
+"['fractional-shortening', 'lvdd', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-index']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['lvdd', 'wall-motion-index', 'wall-motion-score']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['lvdd', 'wall-motion-index', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['lvdd', 'wall-motion-index', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['lvdd', 'wall-motion-index', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['lvdd', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['lvdd', 'wall-motion-index', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['lvdd', 'wall-motion-index', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['lvdd', 'wall-motion-index', 'wall-motion-score']->group",1.0,1.0,1.0,1.0,True,2.220446049250313e-16
+"['lvdd', 'wall-motion-index', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['age-at-heart-attack', 'lvdd', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['lvdd', 'mult', 'wall-motion-index']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['lvdd', 'mult', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['lvdd', 'mult', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['lvdd', 'mult', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['lvdd', 'mult', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['lvdd', 'mult', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['lvdd', 'mult', 'wall-motion-index']->group",1.0,1.0,1.0,1.0,True,2.220446049250313e-16
+"['lvdd', 'mult', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->group",1.0,1.0,1.0,1.0,False,0.006135546102821743
+"['alive-at-1', 'lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['alive-at-1', 'lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['alive-at-1', 'lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['alive-at-1', 'lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['alive-at-1', 'lvdd', 'pericardial-effusion', 'still-alive', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['group', 'lvdd', 'still-alive', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.006339458493676231
+"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['alive-at-1', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,1.0,False,0.002784227989447774
+"['alive-at-1', 'lvdd', 'pericardial-effusion', 'wall-motion-index']->group",1.0,1.0,1.0,1.0,False,0.006135546102821743
+"['lvdd', 'survival']->epss",1.0,1.0,1.0,1.0,False,0.002499584523042775
+"['lvdd', 'survival']->fractional-shortening",1.0,1.0,1.0,1.0,False,0.002784227989447774
+"['lvdd', 'survival']->still-alive",1.0,1.0,1.0,1.0,False,0.0070696054074848025
+"['lvdd', 'survival']->group",1.0,1.0,1.0,1.0,False,0.006135546102821743
+"['lvdd', 'survival', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['lvdd', 'survival', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['lvdd', 'survival', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['lvdd', 'survival', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['age-at-heart-attack', 'lvdd', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'lvdd', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'lvdd', 'survival']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'lvdd', 'survival']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['lvdd', 'mult', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['lvdd', 'mult', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['lvdd', 'mult', 'survival']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['lvdd', 'mult', 'survival']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['lvdd', 'mult', 'survival']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['lvdd', 'pericardial-effusion', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['lvdd', 'pericardial-effusion', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['lvdd', 'pericardial-effusion', 'survival']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['lvdd', 'pericardial-effusion', 'survival']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['lvdd', 'pericardial-effusion', 'survival']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['alive-at-1', 'lvdd', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['alive-at-1', 'lvdd', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['alive-at-1', 'lvdd', 'survival']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['alive-at-1', 'lvdd', 'survival']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['alive-at-1', 'lvdd', 'survival']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['fractional-shortening', 'lvdd']->group",1.0,1.0,1.0,1.0,False,0.04327490479163909
+"['fractional-shortening', 'lvdd', 'wall-motion-score']->epss",1.0,1.0,1.0,1.0,False,0.002499584523042775
+"['fractional-shortening', 'lvdd', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.0035455915364032142
+"['fractional-shortening', 'lvdd', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['fractional-shortening', 'lvdd', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['fractional-shortening', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['fractional-shortening', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['fractional-shortening', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['age-at-heart-attack', 'fractional-shortening', 'lvdd', 'still-alive']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'fractional-shortening', 'lvdd', 'still-alive']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'fractional-shortening', 'lvdd', 'still-alive']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'fractional-shortening', 'lvdd', 'still-alive']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'fractional-shortening', 'lvdd', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'lvdd']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'lvdd']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'lvdd']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'lvdd']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'lvdd']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['fractional-shortening', 'lvdd', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['alive-at-1', 'fractional-shortening', 'lvdd', 'mult', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['alive-at-1', 'fractional-shortening', 'lvdd', 'mult', 'pericardial-effusion']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['alive-at-1', 'fractional-shortening', 'lvdd', 'mult', 'pericardial-effusion']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['alive-at-1', 'fractional-shortening', 'lvdd', 'mult']->epss",1.0,1.0,1.0,1.0,False,0.002499584523042775
+"['alive-at-1', 'fractional-shortening', 'lvdd', 'mult']->wall-motion-score",1.0,1.0,1.0,1.0,False,0.003006559261287123
+"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['age-at-heart-attack', 'lvdd', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['lvdd', 'mult', 'wall-motion-score']->epss",1.0,1.0,1.0,1.0,False,0.002499584523042775
+"['lvdd', 'mult', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,False,0.002784227989447774
+"['lvdd', 'mult', 'wall-motion-score']->group",1.0,1.0,1.0,1.0,False,0.006135546102821743
+"['lvdd', 'mult', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['lvdd', 'mult', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['lvdd', 'mult', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['lvdd', 'mult', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['lvdd', 'mult', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['lvdd', 'mult', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['lvdd', 'mult', 'pericardial-effusion', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['lvdd', 'mult', 'pericardial-effusion', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['alive-at-1', 'group', 'lvdd', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['lvdd', 'pericardial-effusion', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.014139210814965386
+"['lvdd', 'pericardial-effusion', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,False,0.012841206621102219
+"['group', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['group', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['group', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['group', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['group', 'lvdd', 'pericardial-effusion', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['group', 'lvdd', 'wall-motion-score']->epss",1.0,1.0,1.0,1.0,False,0.0049991690459546545
+"['alive-at-1', 'group', 'lvdd', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,False,0.002784227989447774
+"['alive-at-1', 'group', 'lvdd', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.0035455915364032142
+"['age-at-heart-attack', 'lvdd']->group",1.0,1.0,1.0,1.0,False,0.012271092205643486
+"['age-at-heart-attack', 'lvdd', 'mult']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'lvdd', 'mult']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'lvdd', 'mult']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'lvdd', 'mult']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'lvdd', 'mult']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'lvdd', 'mult']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['age-at-heart-attack', 'lvdd', 'mult']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['age-at-heart-attack', 'lvdd', 'mult']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['age-at-heart-attack', 'lvdd', 'still-alive']->epss",1.0,1.0,1.0,1.0,False,0.002499584523042775
+"['age-at-heart-attack', 'lvdd', 'still-alive']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['age-at-heart-attack', 'lvdd', 'pericardial-effusion']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['age-at-heart-attack', 'alive-at-1', 'lvdd']->epss",1.0,1.0,1.0,1.0,False,0.002499584523042775
+"['age-at-heart-attack', 'alive-at-1', 'lvdd']->still-alive",1.0,1.0,1.0,1.0,False,0.0070696054074848025
+"['lvdd', 'mult', 'still-alive']->alive-at-1",1.0,1.0,1.0,1.0,False,0.019261809931652052
+"['group', 'lvdd', 'mult', 'pericardial-effusion', 'still-alive']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['group', 'lvdd', 'mult', 'pericardial-effusion', 'still-alive']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['group', 'lvdd', 'mult', 'pericardial-effusion', 'still-alive']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['group', 'lvdd', 'mult', 'pericardial-effusion', 'still-alive']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['group', 'lvdd', 'mult', 'pericardial-effusion', 'still-alive']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['group', 'lvdd', 'mult', 'pericardial-effusion']->fractional-shortening",1.0,1.0,1.0,1.0,False,0.002784227989447774
+"['alive-at-1', 'group', 'lvdd', 'mult', 'pericardial-effusion']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['alive-at-1', 'group', 'lvdd', 'mult', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['alive-at-1', 'group', 'lvdd', 'mult', 'pericardial-effusion']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['alive-at-1', 'group', 'lvdd', 'mult', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['alive-at-1', 'group', 'lvdd', 'mult', 'pericardial-effusion']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['alive-at-1', 'lvdd', 'mult', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,1.0,False,0.0070696054074848025
+"['epss', 'survival', 'wall-motion-index']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['epss', 'survival', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'survival', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['epss', 'survival', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'survival', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['epss', 'survival', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['epss', 'survival', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['epss', 'fractional-shortening', 'wall-motion-index']->group",1.0,1.0,1.0,1.0,False,0.006135546102821743
+"['epss', 'fractional-shortening', 'wall-motion-index', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'fractional-shortening', 'wall-motion-index', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'fractional-shortening', 'wall-motion-index', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['epss', 'fractional-shortening', 'mult', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'fractional-shortening', 'mult', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'fractional-shortening', 'mult', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['alive-at-1', 'epss', 'fractional-shortening', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['epss', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.007091183072785667
+"['epss', 'wall-motion-index', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.012678916987353794
+"['epss', 'wall-motion-index', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,False,0.012841206621102219
+"['epss', 'still-alive', 'wall-motion-index', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,False,0.0029805395116315747
+"['epss', 'group', 'still-alive', 'wall-motion-index', 'wall-motion-score']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['epss', 'group', 'still-alive', 'wall-motion-index', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'group', 'still-alive', 'wall-motion-index', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'epss', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,False,0.003006559261287123
+"['age-at-heart-attack', 'epss', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,False,0.0035455915364032142
+"['age-at-heart-attack', 'epss', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,False,0.0070696054074848025
+"['age-at-heart-attack', 'epss', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.006339458493676231
+"['age-at-heart-attack', 'epss', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['age-at-heart-attack', 'epss', 'group', 'wall-motion-index']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'epss', 'group', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'epss', 'group', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'mult', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.012678916987353794
+"['epss', 'mult', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,False,0.012841206621102219
+"['epss', 'mult', 'still-alive', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,False,0.0029805395116315747
+"['epss', 'group', 'mult', 'still-alive', 'wall-motion-index']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['epss', 'group', 'mult', 'still-alive', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'group', 'mult', 'still-alive', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'survival']->still-alive",1.0,1.0,1.0,1.0,False,0.014139210814965386
+"['epss', 'survival']->group",1.0,1.0,1.0,1.0,False,0.012271092205643486
+"['epss', 'fractional-shortening', 'survival']->lvdd",1.0,1.0,1.0,1.0,False,0.0023701245954584893
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'survival']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'survival']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'survival']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'survival']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['epss', 'survival', 'wall-motion-score']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['epss', 'survival', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['epss', 'survival', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'survival', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'survival', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['epss', 'survival', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['age-at-heart-attack', 'epss', 'survival']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'epss', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'epss', 'survival']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'epss', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'epss', 'survival']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'epss', 'survival']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['epss', 'mult', 'survival']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['epss', 'mult', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['epss', 'mult', 'survival']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'mult', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['epss', 'mult', 'survival']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'mult', 'survival']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['epss', 'mult', 'survival']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['epss', 'pericardial-effusion', 'survival']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['alive-at-1', 'epss', 'survival']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.006339458493676231
+"['epss', 'fractional-shortening', 'wall-motion-score']->lvdd",1.0,1.0,1.0,1.0,False,0.0023701245954584893
+"['epss', 'fractional-shortening', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.0035455915364032142
+"['epss', 'fractional-shortening', 'wall-motion-score']->group",1.0,1.0,1.0,1.0,False,0.006135546102821743
+"['epss', 'fractional-shortening', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'fractional-shortening', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'fractional-shortening', 'pericardial-effusion', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['age-at-heart-attack', 'epss', 'fractional-shortening']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.012678916987353794
+"['age-at-heart-attack', 'epss', 'fractional-shortening']->group",1.0,1.0,1.0,1.0,False,0.012271092205643486
+"['age-at-heart-attack', 'epss', 'fractional-shortening', 'still-alive']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'epss', 'fractional-shortening', 'still-alive']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'epss', 'fractional-shortening', 'still-alive']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'epss', 'fractional-shortening', 'still-alive']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'alive-at-1', 'epss', 'fractional-shortening']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'alive-at-1', 'epss', 'fractional-shortening']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'alive-at-1', 'epss', 'fractional-shortening']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'alive-at-1', 'epss', 'fractional-shortening']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['epss', 'fractional-shortening', 'mult']->lvdd",1.0,1.0,1.0,1.0,False,0.0023701245954584893
+"['epss', 'fractional-shortening', 'mult']->wall-motion-score",1.0,1.0,1.0,1.0,False,0.003006559261287123
+"['epss', 'fractional-shortening', 'mult']->group",1.0,1.0,1.0,1.0,False,0.006135546102821743
+"['epss', 'fractional-shortening', 'mult']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['epss', 'fractional-shortening', 'mult', 'still-alive']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['epss', 'fractional-shortening', 'mult', 'still-alive']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'fractional-shortening', 'mult', 'still-alive']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'fractional-shortening', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['epss', 'fractional-shortening', 'mult', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['epss', 'fractional-shortening', 'mult', 'pericardial-effusion']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'fractional-shortening', 'mult', 'pericardial-effusion']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['epss', 'fractional-shortening', 'mult', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['epss', 'fractional-shortening', 'still-alive']->lvdd",1.0,1.0,1.0,1.0,False,0.005620855895881571
+"['epss', 'fractional-shortening', 'still-alive']->group",1.0,1.0,1.0,1.0,False,0.01312337461101254
+"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['alive-at-1', 'epss', 'fractional-shortening', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['alive-at-1', 'epss', 'fractional-shortening']->lvdd",1.0,1.0,1.0,1.0,False,0.00474024919076943
+"['alive-at-1', 'epss', 'fractional-shortening']->group",1.0,1.0,1.0,1.0,False,0.012271092205643486
+"['age-at-heart-attack', 'epss', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.0028339728982335055
+"['age-at-heart-attack', 'epss', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.0035455915364032142
+"['age-at-heart-attack', 'epss', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.0070696054074848025
+"['age-at-heart-attack', 'epss', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.006339458493676231
+"['age-at-heart-attack', 'epss', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['age-at-heart-attack', 'epss', 'group', 'wall-motion-score']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'epss', 'group', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'epss', 'group', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'mult', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,False,0.019261809931652052
+"['epss', 'mult', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.0028339728982335055
+"['epss', 'mult', 'still-alive', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,False,0.0029805395116315747
+"['epss', 'mult', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.006339458493676231
+"['epss', 'group', 'mult', 'still-alive', 'wall-motion-score']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['epss', 'group', 'mult', 'still-alive', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['epss', 'group', 'mult', 'still-alive', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['epss', 'mult', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.005667945796367646
+"['alive-at-1', 'epss', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.019018375481031358
+"['age-at-heart-attack', 'epss', 'mult']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.0028339728982335055
+"['age-at-heart-attack', 'epss', 'mult']->wall-motion-score",1.0,1.0,1.0,1.0,False,0.003006559261287123
+"['age-at-heart-attack', 'epss', 'mult']->still-alive",1.0,1.0,1.0,1.0,False,0.0070696054074848025
+"['age-at-heart-attack', 'epss', 'mult']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.006339458493676231
+"['age-at-heart-attack', 'epss', 'mult']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['age-at-heart-attack', 'epss', 'group', 'mult']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'epss', 'group', 'mult']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'epss', 'group', 'mult']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'alive-at-1', 'epss', 'group', 'pericardial-effusion']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'alive-at-1', 'epss', 'group', 'pericardial-effusion']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'alive-at-1', 'epss', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.0028339728982335055
+"['age-at-heart-attack', 'alive-at-1', 'epss', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,1.0,False,0.003006559261287123
+"['age-at-heart-attack', 'alive-at-1', 'epss', 'pericardial-effusion']->mult",1.0,1.0,1.0,1.0,False,0.0035455915364032142
+"['age-at-heart-attack', 'alive-at-1', 'epss', 'group']->lvdd",1.0,1.0,1.0,1.0,False,0.0023701245954584893
+"['age-at-heart-attack', 'alive-at-1', 'epss']->still-alive",1.0,1.0,1.0,1.0,False,0.014139210814965386
+"['epss', 'group', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.013141699446369226
+"['alive-at-1', 'epss', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.012678916987353794
+"['survival', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,False,0.0863858118751506
+"['fractional-shortening', 'survival', 'wall-motion-index']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['fractional-shortening', 'survival', 'wall-motion-index']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['fractional-shortening', 'survival', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['fractional-shortening', 'survival', 'wall-motion-index']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['fractional-shortening', 'survival', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['fractional-shortening', 'survival', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['fractional-shortening', 'survival', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['survival', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.010636774609166677
+"['survival', 'wall-motion-index', 'wall-motion-score']->group",1.0,1.0,1.0,1.0,False,0.01840663830846534
+"['age-at-heart-attack', 'survival', 'wall-motion-index']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'survival', 'wall-motion-index']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'survival', 'wall-motion-index']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'survival', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'survival', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'survival', 'wall-motion-index']->group",1.0,1.0,1.0,1.0,True,2.220446049250313e-16
+"['age-at-heart-attack', 'survival', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['mult', 'survival', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.019018375481031358
+"['mult', 'survival', 'wall-motion-index']->group",1.0,1.0,1.0,1.0,False,0.01840663830846534
+"['alive-at-1', 'group', 'survival', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.044376209455741944
+"['alive-at-1', 'fractional-shortening', 'still-alive', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.01531568448357934
+"['fractional-shortening', 'group', 'pericardial-effusion', 'wall-motion-index', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.028278421629926442
+"['alive-at-1', 'fractional-shortening', 'group', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.007091183072785667
+"['alive-at-1', 'fractional-shortening', 'group', 'wall-motion-index', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.014139210814965386
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->group",1.0,1.0,1.0,1.0,True,2.220446049250313e-16
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['fractional-shortening', 'group', 'mult', 'pericardial-effusion', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,False,0.02120881622244586
+"['alive-at-1', 'fractional-shortening', 'mult', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,False,0.028795270625052938
+"['alive-at-1', 'fractional-shortening', 'group', 'wall-motion-index']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.03216007492740203
+"['age-at-heart-attack', 'wall-motion-index', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.03586487603253352
+"['age-at-heart-attack', 'wall-motion-index', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,False,0.0331123351339081
+"['age-at-heart-attack', 'group', 'wall-motion-index', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.010636774609166677
+"['age-at-heart-attack', 'mult', 'wall-motion-index']->still-alive",1.0,1.0,1.0,1.0,False,0.028278421629926442
+"['age-at-heart-attack', 'mult', 'wall-motion-index']->alive-at-1",1.0,1.0,1.0,1.0,False,0.025682413242201663
+"['mult', 'wall-motion-index']->wall-motion-score",1.0,1.0,1.0,1.0,False,0.16665555181352665
+"['fractional-shortening', 'survival']->still-alive",1.0,1.0,1.0,1.0,False,0.02120881622244586
+"['fractional-shortening', 'survival']->group",1.0,1.0,1.0,1.0,False,0.01840663830846534
+"['fractional-shortening', 'survival', 'wall-motion-score']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['fractional-shortening', 'survival', 'wall-motion-score']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['fractional-shortening', 'survival', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['fractional-shortening', 'survival', 'wall-motion-score']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['fractional-shortening', 'survival', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['fractional-shortening', 'survival', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['age-at-heart-attack', 'fractional-shortening', 'survival']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'fractional-shortening', 'survival']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'fractional-shortening', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'fractional-shortening', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'fractional-shortening', 'survival']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'fractional-shortening', 'survival']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['fractional-shortening', 'mult', 'survival']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['fractional-shortening', 'mult', 'survival']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['fractional-shortening', 'mult', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['fractional-shortening', 'mult', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['fractional-shortening', 'mult', 'survival']->age-at-heart-attack",1.0,1.0,1.0,1.0,True,3.7192471324942744e-14
+"['fractional-shortening', 'mult', 'survival']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['fractional-shortening', 'mult', 'survival']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['alive-at-1', 'fractional-shortening', 'survival']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.006339458493676231
+"['survival', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.044376209455741944
+"['age-at-heart-attack', 'survival', 'wall-motion-score']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'survival', 'wall-motion-score']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'survival', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'survival', 'wall-motion-score']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'survival', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'survival', 'wall-motion-score']->group",1.0,1.0,1.0,1.0,True,2.220446049250313e-16
+"['age-at-heart-attack', 'survival', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['mult', 'survival', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.00850191869450212
+"['mult', 'survival', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.02120881622244586
+"['mult', 'survival', 'wall-motion-score']->group",1.0,1.0,1.0,1.0,False,0.01840663830846534
+"['still-alive', 'survival', 'wall-motion-score']->group",1.0,1.0,1.0,1.0,False,0.03681327661693057
+"['group', 'survival', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.04241763244488761
+"['alive-at-1', 'survival', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.02120881622244586
+"['alive-at-1', 'survival', 'wall-motion-score']->group",1.0,1.0,1.0,1.0,False,0.01840663830846534
+"['age-at-heart-attack', 'survival']->still-alive",1.0,1.0,1.0,1.0,False,0.02120881622244586
+"['age-at-heart-attack', 'survival']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.019018375481031358
+"['age-at-heart-attack', 'mult', 'survival']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'mult', 'survival']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'mult', 'survival']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'mult', 'survival']->fractional-shortening",1.0,1.0,1.0,1.0,True,6.750155989720952e-14
+"['age-at-heart-attack', 'mult', 'survival']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'mult', 'survival']->group",1.0,1.0,1.0,1.0,True,2.220446049250313e-16
+"['age-at-heart-attack', 'mult', 'survival']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['age-at-heart-attack', 'alive-at-1', 'survival']->group",1.0,1.0,1.0,1.0,False,0.006135546102821743
+"['mult', 'pericardial-effusion', 'survival']->still-alive",1.0,1.0,1.0,1.0,False,0.07886190603386856
+"['group', 'mult', 'survival']->still-alive",1.0,1.0,1.0,1.0,False,0.06472269521890739
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->group",1.0,1.0,1.0,1.0,True,2.220446049250313e-16
+"['age-at-heart-attack', 'fractional-shortening', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['fractional-shortening', 'mult', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.015093046760288331
+"['fractional-shortening', 'mult', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.01601622902980604
+"['fractional-shortening', 'group', 'mult', 'pericardial-effusion', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.02120881622244586
+"['alive-at-1', 'fractional-shortening', 'mult', 'pericardial-effusion', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.021725665217572465
+"['fractional-shortening', 'group', 'still-alive', 'wall-motion-score']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.044838991914757265
+"['alive-at-1', 'fractional-shortening', 'group', 'pericardial-effusion', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.028278421629926442
+"['age-at-heart-attack', 'fractional-shortening', 'mult']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'fractional-shortening', 'mult']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'fractional-shortening', 'mult']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'fractional-shortening', 'mult']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'fractional-shortening', 'mult']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'fractional-shortening', 'mult']->still-alive",1.0,1.0,1.0,1.0,True,4.107825191113079e-15
+"['age-at-heart-attack', 'fractional-shortening', 'mult']->pericardial-effusion",1.0,1.0,1.0,1.0,True,-1.3322676295501878e-15
+"['age-at-heart-attack', 'fractional-shortening', 'mult']->group",1.0,1.0,1.0,1.0,True,2.220446049250313e-16
+"['age-at-heart-attack', 'fractional-shortening', 'mult']->alive-at-1",1.0,1.0,1.0,1.0,True,2.6645352591003757e-15
+"['age-at-heart-attack', 'fractional-shortening', 'still-alive']->group",1.0,1.0,1.0,1.0,False,0.006135546102821743
+"['age-at-heart-attack', 'fractional-shortening', 'still-alive']->alive-at-1",1.0,1.0,1.0,1.0,False,0.006420603310552497
+"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'fractional-shortening', 'pericardial-effusion', 'still-alive']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'fractional-shortening', 'group', 'pericardial-effusion']->epss",1.0,1.0,1.0,1.0,False,0.0049991690459546545
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->lvdd",1.0,1.0,1.0,1.0,True,1.4799272918253337e-13
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->epss",1.0,1.0,1.0,1.0,True,1.3133938381315602e-13
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->wall-motion-index",1.0,1.0,1.0,1.0,True,9.836575998178887e-14
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->survival",1.0,1.0,1.0,1.0,True,9.248157795127554e-14
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->wall-motion-score",1.0,1.0,1.0,1.0,True,5.395683899678261e-14
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening', 'pericardial-effusion']->mult",1.0,1.0,1.0,1.0,True,2.2315482794965646e-14
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening']->still-alive",1.0,1.0,1.0,1.0,False,0.0070696054074848025
+"['age-at-heart-attack', 'alive-at-1', 'fractional-shortening']->group",1.0,1.0,1.0,1.0,False,0.006135546102821743
+"['fractional-shortening', 'group', 'mult', 'still-alive']->pericardial-effusion",1.0,1.0,1.0,1.0,False,0.05071566794941951
+"['age-at-heart-attack', 'mult', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.011335891592636704
+"['age-at-heart-attack', 'mult', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.028278421629926442
+"['age-at-heart-attack', 'mult', 'wall-motion-score']->alive-at-1",1.0,1.0,1.0,1.0,False,0.025682413242201663
+"['age-at-heart-attack', 'alive-at-1', 'group', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.00850191869450212
+"['age-at-heart-attack', 'alive-at-1', 'group', 'wall-motion-score']->mult",1.0,1.0,1.0,1.0,False,0.010636774609166677
+"['age-at-heart-attack', 'alive-at-1', 'group', 'wall-motion-score']->still-alive",1.0,1.0,1.0,1.0,False,0.02120881622244586
+"['alive-at-1', 'mult', 'still-alive', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.08790437185489508
+"['alive-at-1', 'group', 'mult', 'pericardial-effusion', 'wall-motion-score']->wall-motion-index",1.0,1.0,1.0,1.0,False,0.060499098444800836
+"['age-at-heart-attack', 'alive-at-1', 'mult', 'pericardial-effusion']->still-alive",1.0,1.0,1.0,1.0,False,0.06414329766245574

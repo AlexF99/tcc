@@ -1,0 +1,5 @@
+../../datasets/experiments/bridges.csv,mu_plus,0.5625975131988525,13,142
+../../datasets/experiments/bridges.csv,rfi_prime_plus,0.7811586856842041,13,142
+../../datasets/experiments/bridges.csv,g3,0.2619924545288086,13,142
+../../datasets/experiments/bridges.csv,g3_prime,0.3189988136291504,13,142
+../../datasets/experiments/bridges.csv,total_file_time,1.9299407005310059,13,142
