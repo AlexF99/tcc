@@ -29,15 +29,19 @@ dir_name = datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
 if args.output:
     dir_name = args.output
 output_folder = os.path.join("metrics_results", dir_name)
+
+print(f"Output folder: {output_folder}")
+algorithm = output_folder.split("/")[1].split("-")[0]
+dataset = output_folder.split("/")[1].split("-")[1]
+
 os.makedirs(output_folder, exist_ok=True)
 
-fds_csv_file = os.path.join(output_folder, "fds_results.csv")
-metrics_csv_file = os.path.join(output_folder, "metrics_results.csv")
+fds_csv_file = os.path.join(output_folder, f"{algorithm}-{dataset}.csv")
+metrics_csv_file = os.path.join(output_folder, f"{algorithm}-{dataset}-runtime.csv")
 
 metrics = {
     "mu_plus": adapted_paper_metrics.mu_plus,
     "rfi_prime_plus": adapted_paper_metrics.reliable_fraction_of_information_prime_plus,
-    "g3": adapted_paper_metrics.g3,
     "g3_prime": adapted_paper_metrics.g3_prime,
 }
 
@@ -107,18 +111,21 @@ mobj = {k: [v["result"] for v in values] for k, values in metrics_results.items(
 
 # Only include is_key and fi in final results if they exist in the values
 isKey = {}
-rfi = {}
+lhs_size = {}
+lhs_uniqueness = {}
 
 for k, values in metrics_results.items():
     # Check if at least one value has the 'is_key' attribute
     if any("is_key" in v for v in values):
-        isKey[f"{k}_is_key"] = [v.get("is_key", "-") for v in values]
+        isKey[f"is_key"] = [v.get("is_key", "-") for v in values]
+    
+    if any("lhs_size" in v for v in values):
+        lhs_size[f"lhs_size"] = [v.get("lhs_size", "-") for v in values]
+    
+    if any("lhs_uniqueness" in v for v in values):
+        lhs_uniqueness[f"lhs_uniqueness"] = [v.get("lhs_uniqueness", "-") for v in values]
 
-    # Check if at least one value has the 'fi' attribute
-    if any("rfi" in v for v in values):
-        rfi[f"{k}_rfi"] = [v.get("rfi", "-") for v in values]
-
-final_df = pd.DataFrame({"fd": fd_ids, **mobj, **isKey, **rfi})
+final_df = pd.DataFrame({"dataset": dataset, "algorithm": algorithm, "fd": fd_ids, **mobj, **isKey, **lhs_size, **lhs_uniqueness})
 
 final_df.to_csv(fds_csv_file, mode="w", header=True, index=False)
 

@@ -32,6 +32,7 @@ def mu_plus(df: pd.DataFrame, lhs: List[Any], rhs: Any) -> float:
     r_size = df.shape[0]
 
     domX_size = df.loc[:, lhs].drop_duplicates().shape[0]
+    lhs_uniqueness = domX_size / r_size
 
     # if the fd's LHS is a key, rsize=domx_size, therefore there will be a div / 0
     if r_size == domX_size:
@@ -43,6 +44,8 @@ def mu_plus(df: pd.DataFrame, lhs: List[Any], rhs: Any) -> float:
             0,
         ),
         "is_key": False,
+        "lhs_uniqueness": lhs_uniqueness,
+        "lhs_size": len(lhs),
     }
 
 
@@ -139,7 +142,6 @@ def reliable_fraction_of_information_prime_plus(
 
     return {
         "result": rfi_prime_plus,
-        "rfi": rfi,
     }
 
 
