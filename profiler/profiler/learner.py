@@ -194,7 +194,7 @@ class StructureLearner(object):
                     file_name = write_to + "_by_row"
                 # MUDANÇA FEITA PELO ALEXANDRE (precisava criar diretorio e arquivo de saida):
                 os.makedirs(os.path.dirname(file_name + ".txt"), exist_ok=True)
-                fd_file = open(file_name + ".txt", 'a')
+                fd_file = open(file_name + ".txt", 'w')
                 # attr_file = open(file_name + "_attr.txt", 'w')
             
             # for i, attr in enumerate(U_hat):
