@@ -1,0 +1,4 @@
+../../datasets/experiments/adult.csv,mu_plus,1.7025401592254639,15,380
+../../datasets/experiments/adult.csv,rfi_prime_plus,20.8808913230896,15,380
+../../datasets/experiments/adult.csv,g3_prime,0.9934916496276855,15,380
+../../datasets/experiments/adult.csv,total_file_time,23.590895414352417,15,380

@@ -1,0 +1,560 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+threshold,pyro,['identif']->purpose,1.0,1.0,1.0,True,-,-
+threshold,pyro,['identif']->erected,1.0,1.0,1.0,True,-,-
+threshold,pyro,['identif']->clear-g,1.0,1.0,1.0,True,-,-
+threshold,pyro,['identif']->length,1.0,1.0,1.0,True,-,-
+threshold,pyro,['identif']->type,1.0,1.0,1.0,True,-,-
+threshold,pyro,['erected']->identif,0.0,6.441623239198874e-13,0.0,False,1,0.6481481481481481
+threshold,pyro,['identif']->t-or-d,1.0,1.0,1.0,True,-,-
+threshold,pyro,['identif']->rel-l,1.0,1.0,1.0,True,-,-
+threshold,pyro,['identif']->lanes,1.0,1.0,1.0,True,-,-
+threshold,pyro,['identif']->river,1.0,1.0,1.0,True,-,-
+threshold,pyro,['identif']->span,1.0,1.0,1.0,True,-,-
+threshold,pyro,['identif']->location,1.0,1.0,1.0,True,-,-
+threshold,pyro,['erected']->span,0.328025037653203,0.3605764198473722,0.6052631578947368,False,1,0.6481481481481481
+threshold,pyro,['erected']->lanes,0.20339158308344507,0.19570471731441802,0.5526315789473685,False,1,0.6481481481481481
+threshold,pyro,['location']->lanes,0.0,0.0,0.39622641509433965,False,1,0.5092592592592593
+threshold,pyro,['location']->span,0.30259217246144887,0.31304070501655423,0.6037735849056604,False,1,0.5092592592592593
+threshold,pyro,['erected']->purpose,0.5641630051481259,0.575587035313866,0.8157894736842105,False,1,0.6481481481481481
+threshold,pyro,['erected']->length,0.0,0.0,0.02631578947368421,False,1,0.6481481481481481
+threshold,pyro,['erected']->clear-g,0.50244557729402,0.49118629121520174,0.8421052631578947,False,1,0.6481481481481481
+threshold,pyro,['location']->identif,0.0,0.0,0.0,False,1,0.5092592592592593
+threshold,pyro,['location']->length,0.1043718190253915,0.1349790458299362,0.20754716981132076,False,1,0.5092592592592593
+threshold,pyro,['erected']->location,0.0,0.0,0.0,False,1,0.6481481481481481
+threshold,pyro,['location']->purpose,0.5039270431237866,0.49060104956470557,0.8113207547169812,False,1,0.5092592592592593
+threshold,pyro,['location']->erected,0.0,0.0,0.0,False,1,0.5092592592592593
+threshold,pyro,['location']->clear-g,0.0,0.0,0.6226415094339622,False,1,0.5092592592592593
+threshold,pyro,['location']->river,1.0,1.0,1.0,False,1,0.5092592592592593
+threshold,pyro,['erected']->rel-l,0.19188811188811183,0.16287898208280746,0.5526315789473685,False,1,0.6481481481481481
+threshold,pyro,['erected']->river,0.0,0.0,0.39473684210526316,False,1,0.6481481481481481
+threshold,pyro,['location']->rel-l,0.1959540836521967,0.17597257864645696,0.5660377358490566,False,1,0.5092592592592593
+threshold,pyro,"['length', 'type']->lanes",0.39812074142033993,0.4541866390647595,0.7058823529411765,False,2,0.6851851851851852
+threshold,pyro,"['length', 'material']->span",0.2192435745629303,0.2429267467074714,0.5714285714285714,False,2,0.6759259259259259
+threshold,pyro,"['length', 'material']->clear-g",0.8127299925205689,0.8134365017332894,0.9428571428571428,False,2,0.6759259259259259
+threshold,pyro,"['length', 'material', 'river']->identif",0.0,2.0075868665495287e-12,0.0,False,3,0.7870370370370371
+threshold,pyro,"['length', 'material', 'river']->erected",0.03327223916465749,0.019608398397191806,0.043478260869565216,False,3,0.7870370370370371
+threshold,pyro,"['length', 'material', 'river']->location",0.16643105764533428,0.2170260086949624,0.2608695652173913,False,3,0.7870370370370371
+threshold,pyro,"['length', 'type']->river",0.14317964529306537,0.121381073447343,0.5588235294117647,False,2,0.6851851851851852
+threshold,pyro,"['length', 'type']->rel-l",0.47484045366398253,0.5061829606642252,0.7352941176470589,False,2,0.6851851851851852
+threshold,pyro,"['length', 'material']->purpose",0.0,0.0,0.5714285714285714,False,2,0.6759259259259259
+threshold,pyro,"['length', 'span']->lanes",0.27925905136121265,0.33540424080720077,0.6388888888888888,False,2,0.6666666666666666
+threshold,pyro,"['length', 'type']->span",0.19585523891888068,0.19651671934145262,0.5882352941176471,False,2,0.6851851851851852
+threshold,pyro,['erected']->t-or-d,0.16716085989621832,0.18899405802476638,0.7631578947368421,False,1,0.6481481481481481
+threshold,pyro,"['length', 'river', 'type']->identif",0.0,1.8193207522728e-12,0.0,False,3,0.7777777777777778
+threshold,pyro,"['length', 'type']->clear-g",0.5162897619780891,0.4948726951536533,0.8529411764705882,False,2,0.6851851851851852
+threshold,pyro,['erected']->type,0.2925942032392277,0.27461947958574734,0.5,False,1,0.6481481481481481
+threshold,pyro,['location']->t-or-d,0.17728762512179952,0.16732330521340347,0.7547169811320755,False,1,0.5092592592592593
+threshold,pyro,"['length', 'span']->river",0.07983383881587391,0.08885876382374924,0.5277777777777778,False,2,0.6666666666666666
+threshold,pyro,['location']->type,0.08542307465428445,0.06380233397451668,0.3584905660377358,False,1,0.5092592592592593
+threshold,pyro,"['length', 'span']->rel-l",0.2018648018648017,0.19218616502419328,0.5833333333333334,False,2,0.6666666666666666
+threshold,pyro,"['length', 'type']->purpose",0.0,0.0,0.5294117647058824,False,2,0.6851851851851852
+threshold,pyro,"['length', 'river']->span",0.15270376703823774,0.16435138943887978,0.5675675675675675,False,2,0.6574074074074074
+threshold,pyro,"['length', 'river', 'type']->erected",0.0,0.0,0.0,False,3,0.7777777777777778
+threshold,pyro,"['purpose', 'rel-l', 'river', 'type']->length",0.07087421469888833,0.1108871154923193,0.22033898305084745,False,4,0.4537037037037037
+threshold,pyro,"['length', 'river', 'type']->location",0.18425649578651693,0.19530566546178973,0.25,False,3,0.7777777777777778
+threshold,pyro,"['length', 'type']->t-or-d",0.4427742928157161,0.44366529262939236,0.8823529411764706,False,2,0.6851851851851852
+threshold,pyro,"['length', 'material']->type",0.6568631011685948,0.6624365784540617,0.8,False,2,0.6759259259259259
+threshold,pyro,"['river', 'span', 'type']->lanes",0.2581270327384395,0.31627695246063414,0.6470588235294118,False,3,0.37037037037037035
+threshold,pyro,"['length', 'rel-l']->clear-g",0.5618362004487646,0.5499178492556921,0.8857142857142857,False,2,0.6759259259259259
+threshold,pyro,"['length', 'span']->purpose",0.0,0.0,0.5555555555555556,False,2,0.6666666666666666
+threshold,pyro,"['purpose', 'river', 'span', 'type']->rel-l",0.42570914799486204,0.39550114186390883,0.7321428571428571,False,4,0.48148148148148145
+threshold,pyro,"['length', 'river']->lanes",0.21455933299884988,0.2371823165069385,0.6486486486486487,False,2,0.6574074074074074
+threshold,pyro,"['lanes', 'rel-l', 'span', 'type']->river",0.2287652022347919,0.2676076920267927,0.6,False,4,0.49074074074074076
+threshold,pyro,"['length', 'material', 'span']->identif",0.0,1.6974022660798352e-12,0.0,False,3,0.7592592592592593
+threshold,pyro,"['rel-l', 'type']->clear-g",0.5317480294574537,0.5142925265512788,0.8681318681318682,False,2,0.1574074074074074
+threshold,pyro,"['length', 'river']->rel-l",0.045242325242324855,0.117600053366768,0.5135135135135135,False,2,0.6574074074074074
+threshold,pyro,"['length', 'span']->t-or-d",0.2943214844623284,0.27717973159210574,0.8055555555555556,False,2,0.6666666666666666
+threshold,pyro,"['purpose', 'rel-l', 'river', 'type']->span",0.40932638831059587,0.41258169908543635,0.6779661016949152,False,4,0.4537037037037037
+threshold,pyro,"['length', 'span']->type",0.22456347434016033,0.2653722654477764,0.5,False,2,0.6666666666666666
+threshold,pyro,"['length', 'material', 'span']->erected",0.0022873750353196165,0.012999766737005558,0.038461538461538464,False,3,0.7592592592592593
+threshold,pyro,"['rel-l', 'span', 'type']->purpose",0.30888206204401125,0.3210684241919079,0.7435897435897436,False,3,0.2777777777777778
+threshold,pyro,"['span', 'type']->t-or-d",0.4787036827707819,0.48492729618757213,0.8876404494382022,False,2,0.17592592592592593
+threshold,pyro,"['lanes', 'length', 'material']->river",0.008654444358036861,0.007649502279463039,0.42857142857142855,False,3,0.7407407407407407
+threshold,pyro,"['length', 'rel-l']->lanes",0.17758309610681222,0.2661701134343738,0.6,False,2,0.6759259259259259
+threshold,pyro,"['length', 'material', 'span']->location",0.10525064822817587,0.13862110601840777,0.19230769230769232,False,3,0.7592592592592593
+threshold,pyro,"['length', 'span', 'type']->identif",0.0,1.7404980990624574e-12,0.0,False,3,0.7870370370370371
+threshold,pyro,"['material', 'type']->clear-g",0.5796885285619393,0.5483661383536506,0.8877551020408163,False,2,0.09259259259259259
+threshold,pyro,"['length', 'rel-l']->river",0.07137413484718846,0.032295219369198484,0.5428571428571428,False,2,0.6759259259259259
+threshold,pyro,"['rel-l', 'river', 'span', 'type']->length",0.12325056306937243,0.14809548295968972,0.24561403508771928,False,4,0.4722222222222222
+threshold,pyro,"['lanes', 'length']->type",0.28169919151224576,0.34865330117992777,0.5714285714285714,False,2,0.6759259259259259
+threshold,pyro,"['length', 'span', 'type']->erected",0.0,0.0,0.0,False,3,0.7870370370370371
+threshold,pyro,"['lanes', 'length', 'material']->rel-l",0.4689550449550445,0.5004179655416074,0.75,False,3,0.7407407407407407
+threshold,pyro,"['lanes', 'length']->t-or-d",0.16890549647088904,0.16246398506686904,0.8,False,2,0.6759259259259259
+threshold,pyro,"['lanes', 'length']->purpose",0.0,0.010216500908684612,0.5714285714285714,False,2,0.6759259259259259
+threshold,pyro,"['length', 'span', 'type']->location",0.10321507083536796,0.11379997134128876,0.17391304347826086,False,3,0.7870370370370371
+threshold,pyro,"['rel-l', 'river', 'type']->lanes",0.329570513685024,0.38554152036137673,0.6714285714285714,False,3,0.35185185185185186
+threshold,pyro,"['lanes', 'length', 'rel-l']->span",0.28835214842040735,0.2790526422720129,0.6666666666666666,False,3,0.75
+threshold,pyro,"['lanes', 'material', 'rel-l']->clear-g",0.6338185811560295,0.598427813411186,0.9090909090909091,False,3,0.18518518518518517
+threshold,pyro,"['length', 'purpose']->river",0.042702276337862166,0.0,0.5142857142857142,False,2,0.6759259259259259
+threshold,pyro,"['length', 'river', 'span']->identif",0.0,1.6536651973161958e-12,0.0,False,3,0.7592592592592593
+threshold,pyro,"['length', 'river', 'span']->erected",0.028201988670766065,0.010343517527208686,0.038461538461538464,False,3,0.7592592592592593
+threshold,pyro,"['length', 'river', 'span']->location",0.13949735306827937,0.2323870830928939,0.23076923076923078,False,3,0.7592592592592593
+threshold,pyro,"['span', 'type']->clear-g",0.5242715958081565,0.506980227082712,0.8651685393258427,False,2,0.17592592592592593
+threshold,pyro,"['lanes', 'rel-l', 'river', 'span']->type",0.30540773206248817,0.3353202483818233,0.5538461538461539,False,4,0.39814814814814814
+threshold,pyro,"['length', 'span']->clear-g",0.029637247569184733,0.022282546461773505,0.6666666666666666,False,2,0.6666666666666666
+threshold,pyro,"['length', 'rel-l']->type",0.43625821476424387,0.4653096197057498,0.7142857142857143,False,2,0.6759259259259259
+threshold,pyro,"['rel-l', 'river', 'span', 'type']->location",0.09509430176565015,0.10455158067743359,0.15789473684210525,False,4,0.4722222222222222
+threshold,pyro,"['purpose', 'rel-l', 'river', 'span', 'type']->identif",0.0,3.0466712159689567e-13,0.0,False,5,0.5925925925925926
+threshold,pyro,"['lanes', 'river', 'type']->t-or-d",0.40133701389123133,0.391214765081178,0.8676470588235294,False,3,0.37037037037037035
+threshold,pyro,"['length', 'river']->type",0.21147833854399234,0.2621182778721578,0.5135135135135135,False,2,0.6574074074074074
+threshold,pyro,"['purpose', 'rel-l', 'span', 'type']->lanes",0.21667096355540205,0.2668997864267148,0.6119402985074627,False,4,0.37962962962962965
+threshold,pyro,"['lanes', 'rel-l', 'river', 't-or-d', 'type']->length",0.07376846692153138,0.12972553934695388,0.2391304347826087,False,5,0.5740740740740741
+threshold,pyro,"['lanes', 'purpose', 'river', 'type']->rel-l",0.3255357893262357,0.3084832868428619,0.6779661016949152,False,4,0.4537037037037037
+threshold,pyro,"['purpose', 'rel-l', 'river', 'span', 'type']->erected",0.04062922384594603,0.06155835517775497,0.09090909090909091,False,5,0.5925925925925926
+threshold,pyro,"['rel-l', 'river', 'span']->clear-g",0.4380271734195281,0.423814677618654,0.8433734939759037,False,3,0.23148148148148148
+threshold,pyro,"['lanes', 'rel-l', 'river', 'type']->span",0.3079984346904302,0.31521074267721305,0.6415094339622641,False,4,0.5092592592592593
+threshold,pyro,"['lanes', 'rel-l', 'river', 'type']->purpose",0.24569133941307253,0.2728931468970564,0.7169811320754716,False,4,0.5092592592592593
+threshold,pyro,"['lanes', 'purpose', 'span', 'type']->river",0.1798999843148833,0.227736560294384,0.559322033898305,False,4,0.4537037037037037
+threshold,pyro,"['lanes', 'river', 'span']->t-or-d",0.14572885313868744,0.20363157288010758,0.7721518987341772,False,3,0.26851851851851855
+threshold,pyro,"['length', 'rel-l', 'river']->location",0.14055014507963925,0.19875040838773889,0.23076923076923078,False,3,0.7592592592592593
+threshold,pyro,"['length', 'rel-l', 'river']->identif",0.0,1.5701840705979683e-12,0.0,False,3,0.7592592592592593
+threshold,pyro,"['purpose', 'rel-l', 'river', 'span']->lanes",0.18052215168095198,0.18079688170508174,0.6119402985074627,False,4,0.37962962962962965
+threshold,pyro,"['material', 'span', 't-or-d']->clear-g",0.5832635655174079,0.5609862510340592,0.8817204301075269,False,3,0.1388888888888889
+threshold,pyro,"['lanes', 'river', 'span', 'type']->rel-l",0.42370225927918226,0.37346936737212355,0.7291666666666666,False,4,0.5555555555555556
+threshold,pyro,"['length', 'rel-l', 'span']->location",0.09455758426966321,0.11960586369448897,0.18518518518518517,False,3,0.75
+threshold,pyro,"['length', 'rel-l', 'span']->identif",0.0,1.4645746162915147e-12,0.0,False,3,0.75
+threshold,pyro,"['lanes', 'river', 'span', 'type']->purpose",0.2338026761844384,0.27714653901713154,0.6875,False,4,0.5555555555555556
+threshold,pyro,"['length', 'purpose']->lanes",0.3282767903681256,0.3928369797274318,0.7142857142857143,False,2,0.6759259259259259
+threshold,pyro,"['length', 'rel-l']->t-or-d",0.20700871898054862,0.2574649800397189,0.8285714285714286,False,2,0.6759259259259259
+threshold,pyro,"['length', 'rel-l', 'type']->location",0.11173254414125189,0.11230363608617953,0.18518518518518517,False,3,0.75
+threshold,pyro,"['length', 'rel-l', 'type']->identif",0.0,1.316172895648374e-12,0.0,False,3,0.75
+threshold,pyro,"['purpose', 'river', 'type']->lanes",0.38459019285513785,0.42761088456940105,0.72,False,3,0.3055555555555556
+threshold,pyro,"['purpose', 'rel-l', 'span', 'type']->river",0.13470985745297326,0.14753543878681985,0.5223880597014925,False,4,0.37962962962962965
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'span', 'type']->length",0.16619662411715153,0.1823655861465081,0.2826086956521739,False,5,0.5740740740740741
+threshold,pyro,"['lanes', 'length', 'material']->erected",0.0037682101002020074,0.006998279909413657,0.03571428571428571,False,3,0.7407407407407407
+threshold,pyro,"['length', 'rel-l']->purpose",0.0,0.0,0.6285714285714286,False,2,0.6759259259259259
+threshold,pyro,"['material', 'purpose', 'rel-l', 'span']->clear-g",0.5959755450990787,0.5445643175882041,0.8987341772151899,False,4,0.26851851851851855
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river']->type",0.4243176327315701,0.45149369273218504,0.6567164179104478,False,4,0.37962962962962965
+threshold,pyro,"['material', 'purpose', 'river', 'type']->span",0.32348799062812317,0.34062422984508955,0.6617647058823529,False,4,0.37037037037037035
+threshold,pyro,"['rel-l', 'type']->t-or-d",0.44310674793572136,0.421263506661693,0.8791208791208791,False,2,0.1574074074074074
+threshold,pyro,"['lanes', 'length']->clear-g",0.03392456459023374,0.010155694475437998,0.7142857142857143,False,2,0.6759259259259259
+threshold,pyro,"['lanes', 'rel-l', 'river', 'span']->purpose",0.08872151853878829,0.10480710308552456,0.6615384615384615,False,4,0.39814814814814814
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'span']->river",0.0934189787609706,0.13158534142434905,0.5352112676056338,False,4,0.3425925925925926
+threshold,pyro,"['length', 'material']->lanes",0.3276573152199632,0.4055006745413017,0.6571428571428571,False,2,0.6759259259259259
+threshold,pyro,"['lanes', 'length', 'type']->erected",0.0,0.0,0.0,False,3,0.7592592592592593
+threshold,pyro,"['material', 'river', 'span', 'type']->rel-l",0.44414248251748245,0.44794327531534006,0.734375,False,4,0.4074074074074074
+threshold,pyro,"['lanes', 'river', 'type']->clear-g",0.5677369956534883,0.5113745754941783,0.8823529411764706,False,3,0.37037037037037035
+threshold,pyro,"['length', 'river']->purpose",0.0,0.0,0.5405405405405406,False,2,0.6574074074074074
+threshold,pyro,"['lanes', 'rel-l', 'river']->t-or-d",0.19184647729248638,0.2519264032342629,0.8024691358024691,False,3,0.25
+threshold,pyro,"['lanes', 'purpose', 'river', 'span', 'type']->length",0.10570883010432175,0.097331924009362,0.225,False,5,0.6296296296296297
+threshold,pyro,"['lanes', 'length', 'river']->location",0.10403959336543589,0.11720327860597844,0.18518518518518517,False,3,0.75
+threshold,pyro,"['lanes', 'length', 'material']->identif",0.0,1.397350741911735e-12,0.0,False,3,0.7407407407407407
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river']->span",0.3913970090833213,0.41534683204991146,0.6716417910447762,False,4,0.37962962962962965
+threshold,pyro,"['lanes', 'material', 'span']->clear-g",0.5641060075187572,0.533570905447859,0.8837209302325582,False,3,0.2037037037037037
+threshold,pyro,"['lanes', 'material', 'river', 'type']->rel-l",0.322641554249946,0.31786061608318095,0.6666666666666666,False,4,0.4166666666666667
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'type']->river",0.10476734417050504,0.13073864989878245,0.5409836065573771,False,5,0.4351851851851852
+threshold,pyro,"['lanes', 'material', 'river', 'span', 't-or-d']->type",0.42988284321143966,0.45547574558079246,0.6545454545454545,False,5,0.49074074074074076
+threshold,pyro,"['rel-l', 'river', 'span']->t-or-d",0.18227710408263564,0.2653958404456418,0.7831325301204819,False,3,0.23148148148148148
+threshold,pyro,"['lanes', 'length', 'river']->erected",0.02676228791324098,0.006947710833079186,0.037037037037037035,False,3,0.75
+threshold,pyro,"['lanes', 'rel-l', 'span']->clear-g",0.4180957187012827,0.42541098434990987,0.8313253012048193,False,3,0.23148148148148148
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'span']->length",0.0858257265275707,0.07727038973817592,0.1875,False,5,0.5555555555555556
+threshold,pyro,"['lanes', 'rel-l', 'span']->t-or-d",0.13161004954658406,0.2222268572363201,0.7710843373493976,False,3,0.23148148148148148
+threshold,pyro,"['lanes', 'material', 'river', 'type']->span",0.22319852196460244,0.23228222222887576,0.6031746031746031,False,4,0.4166666666666667
+threshold,pyro,"['lanes', 'length', 'type']->location",0.08964455488331824,0.08103503615402578,0.15384615384615385,False,3,0.7592592592592593
+threshold,pyro,"['clear-g', 'material', 'river', 't-or-d', 'type']->lanes",0.27496892666693395,0.344265689964425,0.6666666666666666,False,5,0.4166666666666667
+threshold,pyro,"['lanes', 'length', 'type']->identif",0.0,1.3671730825199103e-12,0.0,False,3,0.7592592592592593
+threshold,pyro,"['length', 'river']->t-or-d",0.20348517531616062,0.16998317359004933,0.8108108108108109,False,2,0.6574074074074074
+threshold,pyro,"['lanes', 'rel-l', 'river']->clear-g",0.48989684932093347,0.4675855646121549,0.8518518518518519,False,3,0.25
+threshold,pyro,"['material', 'river', 'span', 'type']->purpose",0.20821054281619467,0.23006816451621243,0.6875,False,4,0.4074074074074074
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 'span']->rel-l",0.3007290487290485,0.27197379886791395,0.6666666666666666,False,5,0.5
+threshold,pyro,"['lanes', 'material', 'rel-l', 'span', 't-or-d']->type",0.4706929292235231,0.4784394082118674,0.6615384615384615,False,5,0.39814814814814814
+threshold,pyro,"['length', 'river']->clear-g",0.0,0.0,0.6216216216216216,False,2,0.6574074074074074
+threshold,pyro,"['material', 'rel-l', 'river', 'type']->span",0.42090939096673874,0.41955449712180076,0.671875,False,4,0.4074074074074074
+threshold,pyro,"['lanes', 'rel-l', 'river', 'span', 'type']->erected",0.03992526626775372,0.04607192066124319,0.07692307692307693,False,5,0.6388888888888888
+threshold,pyro,"['lanes', 'material', 'span', 't-or-d', 'type']->river",0.18389282041976673,0.24581180578569414,0.5555555555555556,False,5,0.5
+threshold,pyro,"['lanes', 'length', 'river']->identif",0.0,1.4495800621699864e-12,0.0,False,3,0.75
+threshold,pyro,"['lanes', 'river', 'span']->clear-g",0.29483690885062397,0.29949189158109557,0.7848101265822784,False,3,0.26851851851851855
+threshold,pyro,"['material', 'rel-l', 'span', 'type']->lanes",0.17222902048835254,0.21881586079612508,0.6,False,4,0.3055555555555556
+threshold,pyro,"['lanes', 'material', 'purpose', 'span', 'type']->rel-l",0.44564586928223304,0.4370644005177333,0.7407407407407407,False,5,0.5
+threshold,pyro,"['length', 'purpose']->t-or-d",0.15359586087956312,0.15988358891121957,0.8,False,2,0.6759259259259259
+threshold,pyro,"['lanes', 'length', 'span']->erected",0.012563859752823592,0.005415392767313893,0.034482758620689655,False,3,0.7314814814814815
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'type']->location",0.055316216438056176,0.07491798312104173,0.11363636363636363,False,5,0.5925925925925926
+threshold,pyro,"['material', 'purpose', 'rel-l', 'river', 'span']->type",0.30809254659341667,0.3308480578705117,0.5344827586206896,False,5,0.46296296296296297
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'type']->span",0.21731674580664628,0.25312930320899657,0.5901639344262295,False,5,0.4351851851851852
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river']->purpose",0.19916137275346224,0.24340710073993976,0.6865671641791045,False,4,0.37962962962962965
+threshold,pyro,"['length', 'purpose']->rel-l",0.12273132581703972,0.2070113507974835,0.5714285714285714,False,2,0.6759259259259259
+threshold,pyro,"['lanes', 'material', 'river']->clear-g",0.5348261032161559,0.509949793839814,0.8690476190476191,False,3,0.2222222222222222
+threshold,pyro,"['length', 'purpose']->type",0.24933908176937558,0.2837923504921115,0.5714285714285714,False,2,0.6759259259259259
+threshold,pyro,"['material', 'rel-l', 'span', 't-or-d', 'type']->river",0.1452667684496518,0.17306428051798126,0.5362318840579711,False,5,0.3611111111111111
+threshold,pyro,"['length', 'purpose']->span",0.0818940104264333,0.07350252774941572,0.5428571428571428,False,2,0.6759259259259259
+threshold,pyro,"['lanes', 'length', 'span']->location",0.040987625920185566,0.04844102998523482,0.10344827586206896,False,3,0.7314814814814815
+threshold,pyro,"['lanes', 'rel-l', 'river', 'span', 'type']->identif",0.0,6.302587097341896e-13,0.0,False,5,0.6388888888888888
+threshold,pyro,"['material', 'purpose', 'river', 'type']->rel-l",0.34558782394076504,0.34635794738573616,0.6764705882352942,False,4,0.37037037037037035
+threshold,pyro,"['material', 'purpose', 'river', 'span', 'type']->length",0.0326663452266156,0.014572652846983251,0.13725490196078433,False,5,0.5277777777777778
+threshold,pyro,"['length', 'rel-l', 'river']->erected",0.0,0.0,0.0,False,3,0.7592592592592593
+threshold,pyro,"['lanes', 'material', 'river', 'type']->purpose",0.24078191007606975,0.2804234765816993,0.6984126984126984,False,4,0.4166666666666667
+threshold,pyro,"['material', 'rel-l', 'river']->clear-g",0.5711991043538986,0.5163762797653486,0.8928571428571429,False,3,0.2222222222222222
+threshold,pyro,"['clear-g', 'material', 'rel-l', 'river', 'span', 't-or-d']->lanes",0.1790882754487031,0.16669629325109214,0.576271186440678,False,6,0.4537037037037037
+threshold,pyro,"['purpose', 'river', 'type']->t-or-d",0.4625361055220206,0.47574691508961675,0.8666666666666667,False,3,0.3055555555555556
+threshold,pyro,"['lanes', 'length', 'span']->identif",0.0,1.318013399115131e-12,0.0,False,3,0.7314814814814815
+threshold,pyro,"['material', 'purpose', 'rel-l', 'river']->span",0.386581880970172,0.4185690686651482,0.6805555555555556,False,4,0.3333333333333333
+threshold,pyro,"['lanes', 'material', 'rel-l', 'span', 't-or-d']->river",0.16694774468862672,0.18653659415714877,0.5846153846153846,False,5,0.39814814814814814
+threshold,pyro,"['material', 'river', 'span']->clear-g",0.5379956675466576,0.4697880454149394,0.8823529411764706,False,3,0.21296296296296297
+threshold,pyro,"['lanes', 'length', 'rel-l']->identif",0.0,1.262358129448592e-12,0.0,False,3,0.75
+threshold,pyro,"['length', 'rel-l', 'span']->erected",0.0,0.0,0.0,False,3,0.75
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'river']->type",0.348345395987006,0.3894159649614906,0.5942028985507246,False,4,0.3611111111111111
+threshold,pyro,"['lanes', 'length', 'rel-l']->erected",0.0,0.0,0.0,False,3,0.75
+threshold,pyro,"['lanes', 'purpose', 'type']->t-or-d",0.3564570757880614,0.35286178900302234,0.85,False,3,0.25925925925925924
+threshold,pyro,"['lanes', 'material', 'rel-l', 'span']->purpose",0.26117679370993574,0.29627994298750693,0.7027027027027027,False,4,0.3148148148148148
+threshold,pyro,"['clear-g', 'length']->rel-l",0.5138643627840299,0.4928412362013706,0.7894736842105263,False,2,0.6481481481481481
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'river']->span",0.2676005994302475,0.2905151873009099,0.6086956521739131,False,4,0.3611111111111111
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'span', 'type']->location",0.04220429286761096,0.04649711356324294,0.08695652173913043,False,5,0.5740740740740741
+threshold,pyro,"['length', 'purpose']->clear-g",0.0,0.0,0.6285714285714286,False,2,0.6759259259259259
+threshold,pyro,"['length', 'rel-l', 'type']->erected",0.0,0.0,0.0,False,3,0.75
+threshold,pyro,"['material', 'purpose', 'span', 't-or-d', 'type']->lanes",0.23462225397392433,0.24672863476549192,0.6363636363636364,False,5,0.3888888888888889
+threshold,pyro,"['lanes', 'material', 'river', 'span']->purpose",0.16958094346941577,0.21416101717079436,0.6818181818181818,False,4,0.3888888888888889
+threshold,pyro,"['lanes', 'purpose', 'river', 'type']->span",0.2754802899420239,0.2596425056895295,0.6440677966101694,False,4,0.4537037037037037
+threshold,pyro,"['purpose', 'river', 'type']->clear-g",0.4284263275991017,0.37295953046724584,0.84,False,3,0.3055555555555556
+threshold,pyro,"['clear-g', 'material', 'purpose', 'span', 't-or-d', 'type']->river",0.07898786841900629,0.13385605006270013,0.5,False,6,0.4444444444444444
+threshold,pyro,"['length', 'purpose', 'river']->identif",0.0,1.5912630100674262e-12,0.0,False,3,0.7592592592592593
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'span']->type",0.3596056014514959,0.34996031602589645,0.5915492957746479,False,4,0.3425925925925926
+threshold,pyro,"['lanes', 'material', 'purpose', 'river']->span",0.3167591910637402,0.3386550312658959,0.6712328767123288,False,4,0.32407407407407407
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river', 'type']->length",0.06484843200050738,0.10973804282391642,0.2127659574468085,False,5,0.5648148148148148
+threshold,pyro,"['lanes', 'material', 'span', 'type']->purpose",0.3026223746395724,0.34432648431501783,0.7142857142857143,False,4,0.4166666666666667
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'span']->t-or-d",0.16120097206616268,0.21648156450308806,0.7922077922077922,False,4,0.28703703703703703
+threshold,pyro,"['length', 'purpose', 'type']->identif",0.0,1.6509102669115253e-12,0.0,False,3,0.7592592592592593
+threshold,pyro,"['lanes', 'purpose', 'river', 'span', 'type']->location",0.07816757373595495,0.09484824384166839,0.15,False,5,0.6296296296296297
+threshold,pyro,"['length', 'purpose', 'river']->erected",0.0,0.0,0.0,False,3,0.7592592592592593
+threshold,pyro,"['purpose', 'rel-l', 'river']->clear-g",0.33498669101148304,0.3090903578728902,0.8117647058823529,False,3,0.21296296296296297
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 'span']->type",0.3230623081449343,0.34343539426953595,0.5555555555555556,False,5,0.5
+threshold,pyro,"['length', 'purpose', 'span']->identif",0.0,1.5647652993798903e-12,0.0,False,3,0.7685185185185185
+threshold,pyro,"['material', 'purpose', 'rel-l', 'river', 't-or-d']->lanes",0.28770523435307305,0.26738034654160087,0.65625,False,5,0.4074074074074074
+threshold,pyro,"['material', 'rel-l', 'river', 'span', 't-or-d']->purpose",0.06048197592446958,0.09410111526135975,0.6461538461538462,False,5,0.39814814814814814
+threshold,pyro,"['lanes', 'length', 'rel-l']->location",0.0682584269662917,0.054203907130189966,0.1111111111111111,False,3,0.75
+threshold,pyro,"['length', 'purpose', 'type']->erected",0.0,0.0,0.0,False,3,0.7592592592592593
+threshold,pyro,"['length', 'purpose', 'rel-l']->identif",0.0,1.310555706181533e-12,0.0,False,3,0.7407407407407407
+threshold,pyro,"['clear-g', 'purpose', 'river', 'type']->rel-l",0.3606656468531466,0.35270528207948865,0.6875,False,4,0.4074074074074074
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river']->t-or-d",0.10917848689935761,0.15624048936202448,0.7792207792207793,False,4,0.28703703703703703
+threshold,pyro,"['material', 'purpose', 'river', 't-or-d']->clear-g",0.5167680704984373,0.5081803125954582,0.8589743589743589,False,4,0.2777777777777778
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 't-or-d']->type",0.504030514899615,0.5102235429585887,0.704225352112676,False,5,0.3425925925925926
+threshold,pyro,"['length', 'purpose', 'span']->erected",0.0,0.0,0.0,False,3,0.7685185185185185
+threshold,pyro,"['lanes', 'material', 'rel-l', 'span', 'type']->length",0.15373187263556154,0.14192744313801006,0.2692307692307692,False,5,0.5185185185185185
+threshold,pyro,"['clear-g', 'lanes', 'length']->span",0.24339733810172992,0.24044964931018814,0.6129032258064516,False,3,0.7129629629629629
+threshold,pyro,"['material', 'rel-l', 'river', 'type']->purpose",0.21416852417109955,0.2130715959972814,0.703125,False,4,0.4074074074074074
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'span', 't-or-d']->river",0.1426947344979459,0.18652518603594756,0.5666666666666667,False,6,0.4444444444444444
+threshold,pyro,"['length', 'purpose', 'rel-l']->erected",0.0,0.0,0.0,False,3,0.7407407407407407
+threshold,pyro,"['clear-g', 'purpose', 'river', 'span']->t-or-d",0.15945248958539937,0.21590718397121028,0.7887323943661971,False,4,0.3425925925925926
+threshold,pyro,"['purpose', 'river', 'span', 't-or-d']->clear-g",0.20475241878693262,0.1896843715073092,0.7777777777777778,False,4,0.3333333333333333
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'span']->location",0.1053590238764045,0.09898090472379985,0.14583333333333334,False,5,0.5555555555555556
+threshold,pyro,"['clear-g', 'material', 'purpose', 'river', 'span', 't-or-d']->lanes",0.2367904169924937,0.23198751663596703,0.6363636363636364,False,6,0.49074074074074076
+threshold,pyro,"['lanes', 'material', 'rel-l', 'type']->purpose",0.3766463188020053,0.4021965677967642,0.7536231884057971,False,4,0.3611111111111111
+threshold,pyro,"['lanes', 'length', 'purpose']->identif",0.0,1.1596177781130498e-12,0.0,False,3,0.7314814814814815
+threshold,pyro,"['clear-g', 'length']->type",0.4257354205664131,0.44172139633656016,0.6842105263157895,False,2,0.6481481481481481
+threshold,pyro,"['lanes', 'material', 'river', 'span', 'type']->length",0.07589981977610627,0.042684836048237036,0.18604651162790697,False,5,0.6018518518518519
+threshold,pyro,"['clear-g', 'river', 'span', 'type']->rel-l",0.42290766860258366,0.42614943583427545,0.711864406779661,False,4,0.4537037037037037
+threshold,pyro,"['lanes', 'purpose', 'rel-l']->t-or-d",0.14415293279143004,0.2456859305457978,0.7777777777777778,False,3,0.16666666666666666
+threshold,pyro,"['lanes', 'purpose', 'type']->clear-g",0.549681656694091,0.512119833612019,0.875,False,3,0.25925925925925924
+threshold,pyro,"['lanes', 'length', 'purpose']->erected",0.0,0.0,0.0,False,3,0.7314814814814815
+threshold,pyro,"['material', 'purpose', 'rel-l', 't-or-d', 'type']->lanes",0.29127530061855056,0.33234121702436925,0.6571428571428571,False,5,0.35185185185185186
+threshold,pyro,"['length', 'purpose', 'river']->location",0.12345775713050988,0.17371482587575485,0.23076923076923078,False,3,0.7592592592592593
+threshold,pyro,"['clear-g', 'lanes', 'length']->river",0.0,0.0,0.41935483870967744,False,3,0.7129629629629629
+threshold,pyro,"['purpose', 'rel-l', 'river']->t-or-d",0.13579358503964944,0.15150968555997552,0.8,False,3,0.21296296296296297
+threshold,pyro,"['clear-g', 'purpose', 'river', 'type']->span",0.32251534195326825,0.3355153892852419,0.671875,False,4,0.4074074074074074
+threshold,pyro,"['clear-g', 'length', 'material']->river",0.018846966860031733,0.0,0.45454545454545453,False,3,0.6944444444444444
+threshold,pyro,"['clear-g', 'length', 't-or-d']->purpose",0.0,0.0,0.5555555555555556,False,3,0.6666666666666666
+threshold,pyro,"['lanes', 'purpose', 'rel-l']->clear-g",0.38263074621713355,0.3682987865070785,0.8333333333333334,False,3,0.16666666666666666
+threshold,pyro,"['length', 'purpose', 'type']->location",0.08314201598962812,0.07415217001712666,0.11538461538461539,False,3,0.7592592592592593
+threshold,pyro,"['rel-l', 'span', 't-or-d', 'type']->lanes",0.17067659959193893,0.2115089705106157,0.6056338028169014,False,4,0.3425925925925926
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'river']->length",0.036018811399373574,0.03198210626072205,0.16071428571428573,False,5,0.48148148148148145
+threshold,pyro,"['lanes', 'purpose', 'river', 'span', 'type']->identif",0.0,6.146092005391838e-13,0.0,False,5,0.6296296296296297
+threshold,pyro,"['length', 'purpose', 'span']->location",0.07718940609951808,0.10068024922449391,0.16,False,3,0.7685185185185185
+threshold,pyro,"['clear-g', 'lanes', 'river', 'type']->rel-l",0.4424027972027972,0.41928719394510744,0.7166666666666667,False,4,0.4444444444444444
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'span']->t-or-d",0.19436073454300407,0.20456005680527375,0.8076923076923077,False,4,0.2777777777777778
+threshold,pyro,"['lanes', 'material', 'purpose', 't-or-d']->clear-g",0.5919920519775436,0.6022087195629262,0.8795180722891566,False,4,0.23148148148148148
+threshold,pyro,"['clear-g', 'lanes', 'river', 'type']->span",0.27580467314255697,0.2689070822497591,0.6333333333333333,False,4,0.4444444444444444
+threshold,pyro,"['length', 'purpose', 'rel-l']->location",0.07979785313001564,0.08145785322048282,0.14285714285714285,False,3,0.7407407407407407
+threshold,pyro,"['clear-g', 'length', 't-or-d']->lanes",0.22455996150916158,0.3012955612625418,0.6388888888888888,False,3,0.6666666666666666
+threshold,pyro,"['lanes', 'purpose', 'river', 'span', 'type']->erected",0.04786470176666069,0.06113381025194146,0.1,False,5,0.6296296296296297
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'river']->type",0.3838762956561078,0.44062345842769657,0.625,False,4,0.3333333333333333
+threshold,pyro,"['lanes', 'purpose', 'span', 't-or-d']->clear-g",0.2971435657205843,0.29437355309072083,0.7866666666666666,False,4,0.3055555555555556
+threshold,pyro,"['lanes', 'length', 'purpose']->location",0.06430707574583472,0.06812779647374294,0.13793103448275862,False,3,0.7314814814814815
+threshold,pyro,"['lanes', 'material', 'purpose', 'span', 't-or-d', 'type']->length",0.09098383797243381,0.048138374669159434,0.1956521739130435,False,6,0.5740740740740741
+threshold,pyro,"['length', 'material']->t-or-d",0.3564905919030654,0.3909736817683148,0.8571428571428571,False,2,0.6759259259259259
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'span']->identif",1.1102230246251565e-16,1.5268001511319906e-13,0.0,False,5,0.5555555555555556
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 'span']->rel-l",0.3445081463990549,0.3312793864434308,0.6909090909090909,False,5,0.49074074074074076
+threshold,pyro,"['clear-g', 'river', 'span', 'type']->purpose",0.10524142370452227,0.15027787010180876,0.6101694915254238,False,4,0.4537037037037037
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 't-or-d']->lanes",0.39944854471938374,0.36878904729383716,0.7142857142857143,False,5,0.4166666666666667
+threshold,pyro,"['clear-g', 'length', 'rel-l']->span",0.18904637694134574,0.1903624357544639,0.5806451612903226,False,3,0.7129629629629629
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'span', 't-or-d']->river",0.22956157674320743,0.254868982958089,0.625,False,5,0.4074074074074074
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'span']->erected",0.03424873185237021,0.05272091264089371,0.08333333333333333,False,5,0.5555555555555556
+threshold,pyro,"['river', 't-or-d', 'type']->clear-g",0.4004275726992801,0.3365437774585718,0.8311688311688312,False,3,0.28703703703703703
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 'span', 't-or-d']->length",0.0,0.0,0.08888888888888889,False,6,0.5833333333333334
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'span', 'type']->rel-l",0.47308702275426073,0.4601763684396576,0.7547169811320755,False,5,0.5092592592592593
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'type']->identif",0.0,3.9245844448572034e-13,0.0,False,5,0.5925925925925926
+threshold,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'river']->lanes",0.34370964339477517,0.3377206242227866,0.6875,False,5,0.4074074074074074
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'span', 't-or-d']->type",0.48011944125827277,0.4937628869901391,0.6875,False,5,0.4074074074074074
+threshold,pyro,"['material', 'river', 'type']->t-or-d",0.4004159024871532,0.4039573882340004,0.8641975308641975,False,3,0.25
+threshold,pyro,"['material', 'purpose', 'river', 'span', 'type']->location",0.09632559484467929,0.10108064008351679,0.1568627450980392,False,5,0.5277777777777778
+threshold,pyro,"['lanes', 't-or-d', 'type']->clear-g",0.5509758355139203,0.49985607024350964,0.8701298701298701,False,3,0.28703703703703703
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 'type']->length",0.05095584897626315,0.050199976746395536,0.18867924528301888,False,5,0.5092592592592593
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l', 'type']->river",0.13240478001833544,0.14906116746186016,0.559322033898305,False,5,0.4537037037037037
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'span', 'type']->identif",0.0,2.777238196529874e-13,0.0,False,5,0.5740740740740741
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'river', 'type']->erected",0.05058279135592414,0.05543745756252082,0.09090909090909091,False,5,0.5925925925925926
+threshold,pyro,"['clear-g', 'rel-l', 'river', 't-or-d', 'type']->span",0.41153006472274256,0.3946347085200632,0.6909090909090909,False,5,0.49074074074074076
+threshold,pyro,"['clear-g', 'purpose', 'span', 'type']->lanes",0.2986862445921826,0.3191549826132514,0.6857142857142857,False,4,0.35185185185185186
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'river']->purpose",0.21153551303587148,0.2462443550257983,0.7083333333333334,False,4,0.3333333333333333
+threshold,pyro,"['length', 'material', 'type']->location",0.0991196829855534,0.11035835870132164,0.16666666666666666,False,3,0.7222222222222222
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'span', 'type']->erected",0.038765010533040045,0.052011801701617434,0.08695652173913043,False,5,0.5740740740740741
+threshold,pyro,"['clear-g', 'lanes', 'material', 'rel-l', 'span']->river",0.21509262671720364,0.23075791017887157,0.6231884057971014,False,5,0.3611111111111111
+threshold,pyro,"['lanes', 'material', 'type']->t-or-d",0.32984272477900867,0.29628391628472867,0.8571428571428571,False,3,0.2222222222222222
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 'span']->type",0.3181661572014408,0.34883528373179057,0.5636363636363636,False,5,0.49074074074074076
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'river']->span",0.37133263494184987,0.39371967924388457,0.6666666666666666,False,4,0.3333333333333333
+threshold,pyro,"['material', 'rel-l', 't-or-d']->clear-g",0.6592274471011166,0.6047562417639595,0.9032258064516129,False,3,0.1388888888888889
+threshold,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'span', 'type']->length",0.10222253015497795,0.09255063538479395,0.22413793103448276,False,6,0.46296296296296297
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'span']->purpose",0.2639197420279471,0.2860621974375625,0.72,False,4,0.3055555555555556
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 't-or-d', 'type']->lanes",0.3515634966703237,0.4010464485071427,0.6875,False,5,0.4074074074074074
+threshold,pyro,"['lanes', 'length', 'material']->location",0.07617501003210247,0.062315307100510614,0.10714285714285714,False,3,0.7407407407407407
+threshold,pyro,"['length', 'material', 't-or-d']->rel-l",0.5477838525111254,0.561240329974334,0.7878787878787878,False,3,0.6944444444444444
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l', 'type']->span",0.2584010135754219,0.27161971708665544,0.6271186440677966,False,5,0.4537037037037037
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'span']->type",0.2947321407583271,0.3191858399243171,0.5263157894736842,False,5,0.4722222222222222
+threshold,pyro,"['clear-g', 'lanes', 'material', 'rel-l']->t-or-d",0.2660826749112558,0.3086233374489389,0.8292682926829268,False,4,0.24074074074074073
+threshold,pyro,"['clear-g', 'lanes', 'river', 'span', 't-or-d']->purpose",0.10876374826695379,0.1676860413743337,0.6379310344827587,False,5,0.46296296296296297
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 't-or-d', 'type']->river",0.08793242491236097,0.12191485097186765,0.5357142857142857,False,5,0.48148148148148145
+threshold,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'type']->lanes",0.3455538374019792,0.3986542285815625,0.676056338028169,False,5,0.3425925925925926
+threshold,pyro,"['purpose', 'rel-l', 'span', 't-or-d']->clear-g",0.44269048352325235,0.4232938766909366,0.8266666666666667,False,4,0.3055555555555556
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'rel-l', 't-or-d', 'type']->length",0.11274608629911453,0.13991125134891264,0.24489795918367346,False,7,0.5462962962962963
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river', 'span', 't-or-d']->identif",0.0,5.308065239494236e-13,0.0,False,6,0.6111111111111112
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river', 'span', 't-or-d']->erected",0.032300728582494664,0.03594874652634521,0.07142857142857142,False,6,0.6111111111111112
+threshold,pyro,"['clear-g', 'rel-l', 'span', 'type']->lanes",0.24109839220560536,0.294766980364088,0.6428571428571429,False,4,0.35185185185185186
+threshold,pyro,"['clear-g', 'lanes', 'river', 't-or-d', 'type']->purpose",0.1522018916232456,0.20428976846708943,0.6538461538461539,False,5,0.5185185185185185
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 't-or-d']->span",0.3467183853164425,0.35829161166677487,0.6923076923076923,False,5,0.39814814814814814
+threshold,pyro,"['clear-g', 'lanes', 'material', 'span']->t-or-d",0.2355430864969108,0.2711681729937392,0.8227848101265823,False,4,0.26851851851851855
+threshold,pyro,"['clear-g', 'lanes', 'material', 'rel-l', 't-or-d', 'type']->river",0.17331007192441328,0.1778476044300714,0.6,False,6,0.49074074074074076
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river', 'span']->length",0.06820240538922884,0.03387644878302868,0.16981132075471697,False,5,0.5092592592592593
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'river', 't-or-d']->location",0.06200402512529879,0.08219085573792828,0.12244897959183673,False,6,0.5462962962962963
+threshold,pyro,"['length', 'material', 'type']->identif",0.0,1.3103962042071848e-12,0.0,False,3,0.7222222222222222
+threshold,pyro,"['length', 'material', 'type']->erected",0.0,0.0,0.0,False,3,0.7222222222222222
+threshold,pyro,"['length', 'material', 't-or-d']->river",0.0,0.0,0.42424242424242425,False,3,0.6944444444444444
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 't-or-d']->span",0.29984594035526035,0.33799909544940754,0.6349206349206349,False,5,0.4166666666666667
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'river']->type",0.4715880814138965,0.4931914190704643,0.671875,False,5,0.4074074074074074
+threshold,pyro,"['lanes', 'length', 't-or-d']->rel-l",0.2000809513067573,0.19513781080462028,0.6451612903225806,False,3,0.7129629629629629
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'span', 't-or-d']->length",0.06713859910581232,0.039595679849316355,0.16666666666666666,False,6,0.5
+threshold,pyro,"['clear-g', 'rel-l', 'river', 'span', 't-or-d']->purpose",0.0,0.016080266743677515,0.609375,False,5,0.4074074074074074
+threshold,pyro,"['lanes', 'material', 'purpose', 'river']->t-or-d",0.07566347302021559,0.13873742600451464,0.7534246575342466,False,4,0.32407407407407407
+threshold,pyro,['identif']->material,1.0,1.0,1.0,True,-,-
+threshold,pyro,"['clear-g', 'rel-l', 'river', 'type']->purpose",0.09344064725824586,0.11215287545227133,0.639344262295082,False,4,0.4351851851851852
+threshold,pyro,"['lanes', 'length', 't-or-d']->river",0.0,0.03737485506458554,0.45161290322580644,False,3,0.7129629629629629
+threshold,pyro,"['lanes', 'material', 'river', 'span', 'type']->location",0.05047809968643835,0.04223772188070587,0.09302325581395349,False,5,0.6018518518518519
+threshold,pyro,"['clear-g', 'length', 't-or-d']->river",0.018951706975658844,0.0,0.4444444444444444,False,3,0.6666666666666666
+threshold,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'river', 't-or-d']->type",0.45915313870076846,0.44689138425544706,0.6428571428571429,False,6,0.48148148148148145
+threshold,pyro,"['material', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->length",0.0,0.0,0.1,False,6,0.5370370370370371
+threshold,pyro,"['material', 'purpose', 'river', 'span']->t-or-d",0.12427482967389047,0.2147284893566013,0.7777777777777778,False,4,0.3333333333333333
+threshold,pyro,"['material', 'rel-l', 'river', 'span', 'type']->identif",0.0,1.273658607499306e-13,0.0,False,5,0.5092592592592593
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 't-or-d', 'type']->purpose",0.3335352158448954,0.3575058978877752,0.7543859649122807,False,5,0.4722222222222222
+threshold,pyro,"['length', 'material', 'rel-l']->location",0.11447363706718583,0.13676011988734493,0.21428571428571427,False,3,0.7407407407407407
+threshold,pyro,"['material', 'rel-l', 'river', 'span', 'type']->erected",0.03382497087468328,0.04500644893119503,0.07547169811320754,False,5,0.5092592592592593
+threshold,pyro,"['clear-g', 'lanes', 'material', 'river', 't-or-d']->span",0.3649892769346691,0.386509711576208,0.6666666666666666,False,5,0.3888888888888889
+threshold,pyro,['erected']->material,0.6984279421282276,0.716209437323048,0.868421052631579,False,1,0.6481481481481481
+threshold,pyro,"['lanes', 'material', 'purpose', 'span']->t-or-d",0.12401666778983278,0.21799012480833294,0.7631578947368421,False,4,0.2962962962962963
+threshold,pyro,['location']->material,0.0,0.0,0.5283018867924528,False,1,0.5092592592592593
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 't-or-d']->rel-l",0.3732399029541882,0.3743937070234438,0.6984126984126984,False,5,0.4166666666666667
+threshold,pyro,"['clear-g', 'lanes', 'material', 'rel-l', 'span']->type",0.4366960349978778,0.43715022023325634,0.6521739130434783,False,5,0.3611111111111111
+threshold,pyro,"['rel-l', 'river', 't-or-d', 'type']->purpose",0.22070290870004228,0.22784011216209143,0.6984126984126984,False,4,0.4166666666666667
+threshold,pyro,"['clear-g', 'material', 'purpose', 'type']->t-or-d",0.38746656826877257,0.37033444596554066,0.8690476190476191,False,4,0.2222222222222222
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'span', 'type']->length",0.15565362576408404,0.16850250176397027,0.29411764705882354,False,5,0.5277777777777778
+threshold,pyro,"['lanes', 'material', 'river', 'span', 'type']->identif",0.0,4.839468534466081e-13,0.0,False,5,0.6018518518518519
+threshold,pyro,"['river', 'span', 't-or-d', 'type']->purpose",0.23497806180286762,0.276128243251899,0.6721311475409836,False,4,0.4351851851851852
+threshold,pyro,"['length', 'type']->material",0.3194777315924374,0.3982627728126581,0.7647058823529411,False,2,0.6851851851851852
+threshold,pyro,"['material', 'purpose', 'rel-l', 'river', 'type']->location",0.0733268629425482,0.08644055490034581,0.1320754716981132,False,5,0.5092592592592593
+threshold,pyro,"['lanes', 'material', 'river', 'span', 'type']->erected",0.03908009974331972,0.048820255732911724,0.09302325581395349,False,5,0.6018518518518519
+threshold,pyro,"['lanes', 'rel-l', 'river', 't-or-d']->purpose",0.14819933233000082,0.2028087276524973,0.6666666666666666,False,4,0.3611111111111111
+threshold,pyro,"['length', 'material', 'rel-l']->identif",0.0,1.295891668569225e-12,0.0,False,3,0.7407407407407407
+threshold,pyro,"['clear-g', 'lanes', 'material', 'river', 'span']->type",0.3748419172092802,0.38000199364787385,0.6140350877192983,False,5,0.4722222222222222
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 't-or-d']->rel-l",0.40229321447782984,0.3908101673543467,0.7230769230769231,False,5,0.39814814814814814
+threshold,pyro,"['length', 'material', 'rel-l']->erected",0.0,0.0,0.0,False,3,0.7407407407407407
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'span', 't-or-d']->type",0.47527467619472963,0.46997691031579886,0.6833333333333333,False,6,0.4444444444444444
+threshold,pyro,"['clear-g', 'river', 'type']->t-or-d",0.39220746702436793,0.3908049670457906,0.8666666666666667,False,3,0.3055555555555556
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'span', 'type']->length",0.1378921464263796,0.0906794163747935,0.23529411764705882,False,6,0.5277777777777778
+threshold,pyro,"['length', 'span']->material",0.0,0.0,0.5,False,2,0.6666666666666666
+threshold,pyro,"['lanes', 'material', 'rel-l', 'span', 'type']->location",0.02429403900172855,0.03445275936232197,0.07692307692307693,False,5,0.5185185185185185
+threshold,pyro,"['clear-g', 'length']->t-or-d",0.18892858536258983,0.27170303877692015,0.8157894736842105,False,2,0.6481481481481481
+threshold,pyro,"['clear-g', 'material', 'rel-l', 'river', 'span']->purpose",0.0,0.023764712134061398,0.6268656716417911,False,5,0.37962962962962965
+threshold,pyro,"['lanes', 'material', 'rel-l', 'span', 't-or-d', 'type']->identif",0.0,3.9886273635031855e-13,0.0,False,6,0.5740740740740741
+threshold,pyro,"['clear-g', 'material', 'rel-l', 'river', 'span', 't-or-d']->type",0.3749451447864024,0.38989836304159536,0.5932203389830508,False,6,0.4537037037037037
+threshold,pyro,"['clear-g', 'material', 'purpose', 'river', 'span', 't-or-d']->type",0.3639549820434145,0.3839238066562408,0.5818181818181818,False,6,0.49074074074074076
+threshold,pyro,"['lanes', 'material', 'rel-l', 'span', 'type']->erected",0.032135456811860474,0.040395848318451395,0.07692307692307693,False,5,0.5185185185185185
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l', 'span', 't-or-d']->length",0.06758991086241306,0.06920441988732558,0.18867924528301888,False,6,0.5092592592592593
+threshold,pyro,"['clear-g', 'lanes', 'material', 'river']->t-or-d",0.17571589620329398,0.18063198806757247,0.8157894736842105,False,4,0.2962962962962963
+threshold,pyro,"['purpose', 'river', 't-or-d', 'type']->rel-l",0.33414863458220045,0.32316775773635226,0.6666666666666666,False,4,0.3888888888888889
+threshold,pyro,"['rel-l', 'span', 'type']->material",0.7404418271137826,0.7609308230638328,0.9230769230769231,False,3,0.2777777777777778
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river', 't-or-d', 'type']->location",0.03508666758015866,0.05314289182550829,0.0975609756097561,False,6,0.6203703703703703
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river', 't-or-d', 'type']->identif",0.0,6.107939077567169e-13,0.0,False,6,0.6203703703703703
+threshold,pyro,"['length', 'rel-l']->material",0.0,0.0,0.6857142857142857,False,2,0.6759259259259259
+threshold,pyro,"['length', 'rel-l', 't-or-d']->span",0.25490361895914426,0.22818489750395268,0.65625,False,3,0.7037037037037037
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river', 't-or-d', 'type']->erected",0.036576833321245505,0.03472585633471626,0.07317073170731707,False,6,0.6203703703703703
+threshold,pyro,"['clear-g', 'purpose', 'span', 't-or-d', 'type']->rel-l",0.4630251060414994,0.45892335675013846,0.7377049180327869,False,5,0.4351851851851852
+threshold,pyro,"['clear-g', 'length', 't-or-d']->span",0.3185838052732246,0.3150259319501907,0.6666666666666666,False,3,0.6666666666666666
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 't-or-d']->type",0.4625178879054972,0.5095223902250363,0.6825396825396826,False,5,0.4166666666666667
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 't-or-d']->type",0.3940750629450943,0.4358001269402973,0.6461538461538462,False,5,0.39814814814814814
+threshold,pyro,"['lanes', 'material', 'rel-l', 'river', 'span', 't-or-d']->location",0.042534324122907474,0.0660791889025932,0.09523809523809523,False,6,0.6111111111111112
+threshold,pyro,"['material', 'purpose', 'span', 't-or-d', 'type']->rel-l",0.489420216147489,0.49117826406239534,0.7575757575757576,False,5,0.3888888888888889
+threshold,pyro,"['lanes', 'length', 't-or-d']->span",0.26040749957957876,0.22752096414052148,0.6129032258064516,False,3,0.7129629629629629
+threshold,pyro,"['length', 'material', 'purpose']->identif",0.0,1.6033117045660345e-12,0.0,False,3,0.7592592592592593
+threshold,pyro,"['lanes', 'purpose', 'river', 'span', 't-or-d']->type",0.3386886152406474,0.3860847700770589,0.5740740740740741,False,5,0.5
+threshold,pyro,"['length', 'material', 'purpose']->erected",0.0,0.0,0.0,False,3,0.7592592592592593
+threshold,pyro,"['clear-g', 'length']->material",0.15242379524459881,0.18022001291113834,0.7368421052631579,False,2,0.6481481481481481
+threshold,pyro,"['clear-g', 'lanes', 'river', 'span', 't-or-d']->type",0.3700322628658088,0.42143593651036215,0.6206896551724138,False,5,0.46296296296296297
+threshold,pyro,"['length', 'material', 'purpose']->location",0.09428922552166863,0.10452922298422937,0.15384615384615385,False,3,0.7592592592592593
+threshold,pyro,"['clear-g', 'purpose', 'river', 'span', 'type']->length",0.06364882065963351,0.06434972369688005,0.19148936170212766,False,5,0.5648148148148148
+threshold,pyro,"['clear-g', 'lanes', 'material', 'rel-l', 't-or-d', 'type']->span",0.31520090210751095,0.3378392947214692,0.6363636363636364,False,6,0.49074074074074076
+threshold,pyro,"['clear-g', 'lanes', 'material', 'river', 't-or-d']->type",0.4457539891997241,0.49279429294431665,0.6666666666666666,False,5,0.3888888888888889
+threshold,pyro,"['purpose', 'rel-l', 'river', 'span', 't-or-d']->type",0.36939826117325447,0.39477767782017753,0.5964912280701754,False,5,0.4722222222222222
+threshold,pyro,"['lanes', 'purpose', 'span', 't-or-d', 'type']->rel-l",0.4274553681612504,0.3843514876789775,0.7254901960784313,False,5,0.5277777777777778
+threshold,pyro,"['lanes', 'river', 't-or-d', 'type']->span",0.31630860895915525,0.29139950158946903,0.6610169491525424,False,4,0.4537037037037037
+threshold,pyro,"['clear-g', 'length', 'river']->identif",0.0,1.385491552991368e-12,0.0,False,3,0.7314814814814815
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'span', 't-or-d', 'type']->location",0.015056447015226793,0.023901828241438945,0.06976744186046512,False,7,0.6018518518518519
+threshold,pyro,"['purpose', 'river', 't-or-d', 'type']->span",0.37973092803757014,0.3879665297268948,0.696969696969697,False,4,0.3888888888888889
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 't-or-d', 'type']->location",0.03648475120385253,0.049681956695859196,0.08888888888888889,False,6,0.5833333333333334
+threshold,pyro,"['clear-g', 'purpose', 'type']->material",0.8052593508645025,0.8334390369840916,0.9411764705882353,False,3,0.21296296296296297
+threshold,pyro,"['lanes', 'material', 'purpose', 't-or-d', 'type']->rel-l",0.3820801017164651,0.40411302832085205,0.6818181818181818,False,5,0.3888888888888889
+threshold,pyro,"['material', 'purpose', 'river', 'span', 'type']->identif",0.0,1.9560265958529915e-13,0.0,False,5,0.5277777777777778
+threshold,pyro,"['material', 'purpose', 'river', 'span', 'type']->erected",0.04052413338958116,0.06019679277334908,0.09803921568627451,False,5,0.5277777777777778
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 't-or-d', 'type']->span",0.23447388788685686,0.2444987977967546,0.6071428571428571,False,5,0.48148148148148145
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 'span', 't-or-d']->location",0.05473314606741586,0.06165111754271081,0.1111111111111111,False,6,0.5833333333333334
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'river', 'span', 't-or-d']->length",0.06986854467699088,0.06100089753934436,0.1956521739130435,False,6,0.5740740740740741
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 't-or-d', 'type']->rel-l",0.39547014523937574,0.41092719606162115,0.6875,False,5,0.4074074074074074
+threshold,pyro,"['clear-g', 'river', 'span']->material",0.5163890057591058,0.5376240205280494,0.8488372093023255,False,3,0.2037037037037037
+threshold,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'span', 't-or-d', 'type']->location",0.01941713483146057,0.038219885649160575,0.0784313725490196,False,7,0.5277777777777778
+threshold,pyro,"['clear-g', 'span', 'type']->material",0.8022886236625009,0.8030101102040959,0.9493670886075949,False,3,0.26851851851851855
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'river', 't-or-d']->identif",0.0,1.7840595117208436e-13,0.0,False,6,0.5462962962962963
+threshold,pyro,"['lanes', 'material', 'river', 'span', 't-or-d']->rel-l",0.3524864358781713,0.32230054496143923,0.7090909090909091,False,5,0.49074074074074076
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'river', 't-or-d']->erected",0.04089486065547432,0.04875544095935822,0.08163265306122448,False,6,0.5462962962962963
+threshold,pyro,"['clear-g', 'length', 'river']->location",0.14201081391487225,0.19849821964781866,0.2413793103448276,False,3,0.7314814814814815
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 't-or-d', 'type']->length",0.040578609170263125,0.06765773553021905,0.20454545454545456,False,6,0.5925925925925926
+threshold,pyro,"['length', 'river']->material",0.0,0.0,0.40540540540540543,False,2,0.6574074074074074
+threshold,pyro,"['clear-g', 'rel-l', 'span']->material",0.6352326145479387,0.6844074702911149,0.8876404494382022,False,3,0.17592592592592593
+threshold,pyro,"['material', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->location",0.08945876805778474,0.11638973806198115,0.16,False,6,0.5370370370370371
+threshold,pyro,"['lanes', 'material', 'purpose', 'span', 't-or-d']->rel-l",0.38497970414931093,0.37039098996087955,0.7164179104477612,False,5,0.37962962962962965
+threshold,pyro,"['lanes', 'material', 'span', 't-or-d', 'type']->rel-l",0.43964257964257913,0.44672395235319484,0.7037037037037037,False,5,0.5
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 't-or-d', 'type']->identif",0.0,3.996316885602733e-13,0.0,False,6,0.5833333333333334
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'span', 't-or-d']->location",0.03918622926698756,0.04836995576033509,0.09259259259259259,False,6,0.5
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 't-or-d', 'type']->erected",0.041360853594542446,0.049235969158471456,0.08888888888888889,False,6,0.5833333333333334
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 'span', 't-or-d']->length",0.0,0.0,0.1276595744680851,False,6,0.5648148148148148
+threshold,pyro,"['rel-l', 'river', 'type']->material",0.6229696523230832,0.6409626122300967,0.8857142857142857,False,3,0.35185185185185186
+threshold,pyro,"['lanes', 'purpose', 'river', 'span', 't-or-d']->rel-l",0.17635298035297997,0.12418804232716028,0.5925925925925926,False,5,0.5
+threshold,pyro,"['clear-g', 'length', 'purpose']->location",0.08652599031185448,0.07288266349224075,0.14285714285714285,False,3,0.7407407407407407
+threshold,pyro,"['clear-g', 'length', 'span']->location",0.07979785313001553,0.09788898786144265,0.16666666666666666,False,3,0.7222222222222222
+threshold,pyro,"['clear-g', 'lanes', 'river', 'span', 't-or-d']->rel-l",0.3604379979798351,0.33090605314556953,0.7068965517241379,False,5,0.46296296296296297
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'span', 't-or-d', 'type']->identif",3.3306690738754696e-16,4.805125046615111e-13,0.0,False,7,0.6018518518518519
+threshold,pyro,"['river', 'span', 'type']->material",0.6382317941059802,0.6482378759558394,0.8970588235294118,False,3,0.37037037037037035
+threshold,pyro,"['clear-g', 'length', 'type']->location",0.10841543070451398,0.11711905604292826,0.20689655172413793,False,3,0.7314814814814815
+threshold,pyro,"['material', 'purpose', 'river', 'span', 't-or-d']->rel-l",0.33930192884039023,0.31882498598612996,0.6825396825396826,False,5,0.4166666666666667
+threshold,pyro,"['clear-g', 'river', 'type']->material",0.7384996883322941,0.7338860390516878,0.9333333333333333,False,3,0.3055555555555556
+threshold,pyro,"['clear-g', 'lanes', 'length']->location",0.06304707321493308,0.05924470689840088,0.12903225806451613,False,3,0.7129629629629629
+threshold,pyro,"['lanes', 'material', 'purpose', 'span', 't-or-d', 'type']->erected",0.04421022543935882,0.06579991525151425,0.10869565217391304,False,6,0.5740740740740741
+threshold,pyro,"['clear-g', 'material', 'purpose', 'river', 'span', 't-or-d']->rel-l",0.324571311206276,0.2948764963431217,0.6727272727272727,False,6,0.49074074074074076
+threshold,pyro,"['clear-g', 'length', 'material']->location",0.09352918850812098,0.10063298877358808,0.18181818181818182,False,3,0.6944444444444444
+threshold,pyro,"['rel-l', 'river', 'span']->material",0.4558322824931499,0.5055971951421406,0.8192771084337349,False,3,0.23148148148148148
+threshold,pyro,"['clear-g', 'length', 'rel-l', 't-or-d']->location",0.10291870324561092,0.08807799243164505,0.1724137931034483,False,4,0.7314814814814815
+threshold,pyro,"['purpose', 'river', 'span', 't-or-d', 'type']->length",0.00834481333517001,0.013420477230635995,0.13725490196078433,False,5,0.5277777777777778
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'span', 't-or-d']->rel-l",0.3799548896504248,0.36001979390358624,0.7076923076923077,False,5,0.39814814814814814
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l', 'river', 't-or-d']->length",0.036089218158890546,0.06894647001906883,0.19230769230769232,False,6,0.5185185185185185
+threshold,pyro,"['clear-g', 'rel-l', 'type']->material",0.7675714474603801,0.7810315491314341,0.9382716049382716,False,3,0.25
+threshold,pyro,"['material', 'purpose', 'rel-l', 'river', 'type']->identif",0.0,1.3647564459407642e-13,0.0,False,5,0.5092592592592593
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 'span', 't-or-d']->identif",0.0,4.3167114629341314e-13,0.0,False,6,0.5833333333333334
+threshold,pyro,"['lanes', 'material', 'purpose', 'river', 'span', 't-or-d']->erected",0.034676528648891924,0.05034935426116268,0.08888888888888889,False,6,0.5833333333333334
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'river']->material",0.45167302451614233,0.46948741833881946,0.8333333333333334,False,4,0.3333333333333333
+threshold,pyro,"['material', 'purpose', 'rel-l', 'river', 'type']->erected",0.05416549780363755,0.0714877179503531,0.11320754716981132,False,5,0.5092592592592593
+threshold,pyro,"['clear-g', 'material', 'purpose', 'span', 'type']->rel-l",0.425454197975937,0.43883301269786074,0.7101449275362319,False,5,0.3611111111111111
+threshold,pyro,"['lanes', 'rel-l', 'span', 't-or-d', 'type']->length",0.1275489855710602,0.1478292392358667,0.2708333333333333,False,5,0.5555555555555556
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'river', 'span', 't-or-d']->location",0.03679628070695773,0.056089062691036216,0.08695652173913043,False,6,0.5740740740740741
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'span', 't-or-d', 'type']->length",0.09473804883640946,0.11442570283857167,0.23076923076923078,False,6,0.5185185185185185
+threshold,pyro,"['length', 'purpose']->material",0.0,0.0,0.45714285714285713,False,2,0.6759259259259259
+threshold,pyro,"['lanes', 'length', 'purpose']->material",0.0,0.0,0.4827586206896552,False,3,0.7314814814814815
+threshold,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'span', 't-or-d', 'type']->identif",0.0,2.3721394447273847e-13,0.0,False,7,0.5277777777777778
+threshold,pyro,"['material', 'purpose', 'rel-l', 'span', 't-or-d', 'type']->length",0.07028590477684515,0.06586706994071372,0.19298245614035087,False,6,0.4722222222222222
+threshold,pyro,"['clear-g', 'purpose', 'river', 'span', 'type']->location",0.10729035039786894,0.11957174821666916,0.1702127659574468,False,5,0.5648148148148148
+threshold,pyro,"['clear-g', 'length', 'span']->identif",0.0,1.2607581738591583e-12,0.0,False,3,0.7222222222222222
+threshold,pyro,"['material', 'purpose', 'rel-l', 'span', 't-or-d', 'type']->erected",0.042523222521933746,0.0633604956638375,0.10526315789473684,False,6,0.4722222222222222
+threshold,pyro,"['clear-g', 'length', 'purpose']->identif",0.0,1.2262412449061583e-12,0.0,False,3,0.7407407407407407
+threshold,pyro,"['clear-g', 'lanes', 'length']->identif",0.0,1.0714752566360341e-12,0.0,False,3,0.7129629629629629
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'river']->rel-l",0.37519642857142843,0.35621877345405306,0.703125,False,5,0.4074074074074074
+threshold,pyro,"['purpose', 'span', 'type']->material",0.6923240688634167,0.7030515859181836,0.9113924050632911,False,3,0.26851851851851855
+threshold,pyro,"['clear-g', 'length', 'type']->identif",0.0,1.1695743304419737e-12,0.0,False,3,0.7314814814814815
+threshold,pyro,"['purpose', 'rel-l', 'type']->material",0.662097440731306,0.6993395581659091,0.8902439024390244,False,3,0.24074074074074073
+threshold,pyro,"['clear-g', 'lanes', 'material', 'rel-l', 'river', 'span']->location",0.03541802518057802,0.051927993981081125,0.08333333333333333,False,6,0.5555555555555556
+threshold,pyro,"['clear-g', 'lanes', 'material', 'river', 'span']->rel-l",0.4295958778064036,0.3940974074591486,0.7543859649122807,False,5,0.4722222222222222
+threshold,pyro,"['purpose', 'rel-l', 'span']->material",0.5153779659885686,0.5719764424282989,0.8372093023255814,False,3,0.2037037037037037
+threshold,pyro,"['material', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->erected",0.027831779904545106,0.04157795965249247,0.08,False,6,0.5370370370370371
+threshold,pyro,"['clear-g', 'length', 'material', 't-or-d']->identif",0.0,1.2715427785789983e-12,0.0,False,4,0.7129629629629629
+threshold,pyro,"['clear-g', 'length', 'rel-l', 't-or-d']->identif",0.0,1.1662931315822042e-12,0.0,False,4,0.7314814814814815
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'span', 't-or-d']->erected",0.0383484511523694,0.07358907933041779,0.1111111111111111,False,6,0.5
+threshold,pyro,"['lanes', 'material', 'purpose', 'rel-l', 'span', 't-or-d']->identif",0.0,1.0076492318737808e-13,0.0,False,6,0.5
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 't-or-d', 'type']->location",0.04532595213774948,0.06378458615164413,0.11363636363636363,False,6,0.5925925925925926
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'span']->material",0.6044016164036561,0.6210201533947368,0.8831168831168831,False,4,0.28703703703703703
+threshold,pyro,"['clear-g', 'lanes', 'material', 'span', 'type']->rel-l",0.4691350754508644,0.48000619305485714,0.7192982456140351,False,5,0.4722222222222222
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l']->material",0.534937540700893,0.5618154300074223,0.8518518518518519,False,4,0.25
+threshold,pyro,"['clear-g', 'material', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->identif",0.0,4.412982181806275e-13,0.0,False,7,0.5925925925925926
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river']->material",0.43201630214720255,0.4293647996172913,0.8378378378378378,False,4,0.3148148148148148
+threshold,pyro,"['clear-g', 'purpose', 'river', 'span', 'type']->identif",1.1102230246251565e-16,3.3665656300636957e-13,0.0,False,5,0.5648148148148148
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 'span', 't-or-d']->location",0.056827486253884896,0.06895170394675024,0.1276595744680851,False,6,0.5648148148148148
+threshold,pyro,"['purpose', 'river', 'type']->material",0.5545617952059838,0.5709058637775951,0.8666666666666667,False,3,0.3055555555555556
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'type']->location",0.08076394462279268,0.08850714105936716,0.14,False,5,0.5370370370370371
+threshold,pyro,"['lanes', 'rel-l', 'span']->material",0.3836452207389345,0.4592801746643508,0.7951807228915663,False,3,0.23148148148148148
+threshold,pyro,"['clear-g', 'length', 'river']->erected",0.02418075552043797,0.007096965513526821,0.034482758620689655,False,3,0.7314814814814815
+threshold,pyro,"['clear-g', 'rel-l', 'river', 'span', 'type']->identif",1.1102230246251565e-16,2.237914930116214e-13,0.0,False,5,0.5370370370370371
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'river', 'span', 't-or-d']->identif",0.0,3.757240065333679e-13,0.0,False,6,0.5740740740740741
+threshold,pyro,"['lanes', 'purpose', 'river', 'span']->material",0.2938812202352312,0.2988185884156319,0.7538461538461538,False,4,0.39814814814814814
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 't-or-d', 'type']->identif",0.0,4.946331431604406e-13,0.0,False,6,0.5925925925925926
+threshold,pyro,"['lanes', 'rel-l', 'type']->material",0.6290250575769162,0.6454501506995909,0.8904109589041096,False,3,0.32407407407407407
+threshold,pyro,"['clear-g', 'length', 'purpose']->erected",0.0,0.0,0.0,False,3,0.7407407407407407
+threshold,pyro,"['lanes', 'span', 'type']->material",0.6358384414877043,0.6468842726649866,0.8955223880597015,False,3,0.37962962962962965
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->length",0.022663235842026785,0.022313007037974432,0.14583333333333334,False,6,0.5555555555555556
+threshold,pyro,"['clear-g', 'lanes', 'length']->erected",0.0,0.0,0.03225806451612903,False,3,0.7129629629629629
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'type']->identif",0.0,2.4377366900727344e-13,0.0,False,5,0.5370370370370371
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l', 'river', 't-or-d']->location",0.06539937415112984,0.08513240165319859,0.1346153846153846,False,6,0.5185185185185185
+threshold,pyro,"['length', 'material', 't-or-d']->location",0.09319139427987755,0.06935805754538328,0.12121212121212122,False,3,0.6944444444444444
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river']->material",0.39935217139429025,0.4023413820441978,0.8181818181818182,False,4,0.28703703703703703
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 'river']->material",0.36730223883354973,0.3806849966847854,0.782608695652174,False,4,0.3611111111111111
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'river', 'type']->location",0.038940233747993824,0.05725247819528974,0.10416666666666667,False,6,0.5555555555555556
+threshold,pyro,"['clear-g', 'length', 'type']->erected",0.0,0.0,0.0,False,3,0.7314814814814815
+threshold,pyro,"['lanes', 'river', 'type']->material",0.5415342161246117,0.5669397851426696,0.8676470588235294,False,3,0.37037037037037035
+threshold,pyro,"['lanes', 'purpose', 'type']->material",0.5937145014842353,0.6272672874897673,0.875,False,3,0.25925925925925924
+threshold,pyro,"['length', 'river', 't-or-d']->location",0.09648488800525323,0.13154850585493544,0.18181818181818182,False,3,0.6944444444444444
+threshold,pyro,"['clear-g', 'lanes', 'material', 'rel-l', 'span', 'type']->identif",0.0,2.8557427407042005e-13,0.0,False,6,0.5462962962962963
+threshold,pyro,"['length', 'span', 't-or-d']->location",0.06374368567651767,0.056255838430856055,0.11764705882352941,False,3,0.6851851851851852
+threshold,pyro,"['length', 't-or-d', 'type']->location",0.09655350245786487,0.06743586921975638,0.125,False,3,0.7037037037037037
+threshold,pyro,"['clear-g', 'lanes', 'type']->material",0.7470809107134206,0.7428212812812443,0.9367088607594937,False,3,0.26851851851851855
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'rel-l', 'river']->identif",2.220446049250313e-16,2.8920160028602404e-13,0.0,False,6,0.5277777777777778
+threshold,pyro,"['length', 'river', 't-or-d']->identif",0.0,1.126885808634546e-12,0.0,False,3,0.6944444444444444
+threshold,pyro,"['clear-g', 'length', 'material', 't-or-d']->erected",0.0,0.0032398588868630274,0.03225806451612903,False,4,0.7129629629629629
+threshold,pyro,"['clear-g', 'length', 'rel-l', 't-or-d']->erected",0.0,0.0,0.0,False,4,0.7314814814814815
+threshold,pyro,"['length', 'span', 't-or-d']->identif",0.0,1.063066446331221e-12,0.0,False,3,0.6851851851851852
+threshold,pyro,"['length', 'purpose', 't-or-d']->location",0.015599515222906035,0.0356505750345427,0.0967741935483871,False,3,0.7129629629629629
+threshold,pyro,"['length', 't-or-d', 'type']->identif",1.1102230246251565e-16,1.1743978086049277e-12,0.0,False,3,0.7037037037037037
+threshold,pyro,"['purpose', 'rel-l', 'river', 't-or-d', 'type']->location",0.05550622569144359,0.06898205825740167,0.11538461538461539,False,5,0.5185185185185185
+threshold,pyro,"['rel-l', 'river', 'span', 't-or-d', 'type']->identif",0.0,1.8180242866078176e-13,0.0,False,5,0.5277777777777778
+threshold,pyro,"['purpose', 'river', 'span', 't-or-d', 'type']->location",0.06835314181852514,0.10517099886291598,0.13725490196078433,False,5,0.5277777777777778
+threshold,pyro,"['lanes', 'length', 't-or-d']->material",0.0,0.0,0.5161290322580645,False,3,0.7129629629629629
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l', 'river', 't-or-d']->identif",2.220446049250313e-16,1.8101926152850752e-13,0.0,False,6,0.5185185185185185
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->location",0.07869087329454227,0.09856460954646268,0.14583333333333334,False,6,0.5555555555555556
+threshold,pyro,"['clear-g', 'purpose', 'river', 'span', 'type']->erected",0.014059226122910773,0.029644947385341357,0.06382978723404255,False,5,0.5648148148148148
+threshold,pyro,"['clear-g', 'rel-l', 'river', 'span', 'type']->erected",0.008580924061070694,0.013553566384042851,0.04,False,5,0.5370370370370371
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'rel-l', 'river']->location",0.049062883580398564,0.0703529224197158,0.11764705882352941,False,6,0.5277777777777778
+threshold,pyro,"['clear-g', 'lanes', 'rel-l', 'river', 'span', 't-or-d']->erected",0.005808382322744388,0.013771660995554822,0.043478260869565216,False,6,0.5740740740740741
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 'span', 't-or-d']->identif",1.1102230246251565e-16,4.0141389169226037e-13,0.0,False,6,0.5648148148148148
+threshold,pyro,"['rel-l', 't-or-d', 'type']->material",0.6872203058718258,0.7049529168051988,0.9156626506024096,False,3,0.23148148148148148
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'type']->erected",0.030141882605762227,0.04296852703432227,0.08,False,5,0.5370370370370371
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 't-or-d', 'type']->erected",0.01804228218868764,0.030648760909323416,0.06818181818181818,False,6,0.5925925925925926
+threshold,pyro,"['lanes', 'rel-l', 'river', 't-or-d']->material",0.28613718172209446,0.2773733371561374,0.782608695652174,False,4,0.3611111111111111
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'rel-l', 'river']->erected",0.023679634526540982,0.04667779791730915,0.0784313725490196,False,6,0.5277777777777778
+threshold,pyro,"['clear-g', 'lanes', 'material', 'purpose', 'river', 'type']->erected",0.03050550988280576,0.04235275326919449,0.08333333333333333,False,6,0.5555555555555556
+threshold,pyro,"['clear-g', 'lanes', 'river', 't-or-d']->material",0.4026682346026169,0.42176847552749885,0.8289473684210527,False,4,0.2962962962962963
+threshold,pyro,"['clear-g', 'length', 'span']->erected",0.0,0.0025023708282439993,0.03333333333333333,False,3,0.7222222222222222
+threshold,pyro,"['lanes', 'purpose', 'rel-l', 't-or-d']->material",0.4117129535730927,0.42450953848573847,0.8271604938271605,False,4,0.25
+threshold,pyro,"['clear-g', 'rel-l', 'river', 't-or-d']->material",0.5219268212614869,0.5334387999259755,0.8701298701298701,False,4,0.28703703703703703
+threshold,pyro,"['clear-g', 'lanes', 'span', 't-or-d']->material",0.5566718422394742,0.5868502813264257,0.8666666666666667,False,4,0.3055555555555556
+threshold,pyro,"['purpose', 'rel-l', 'river', 't-or-d']->material",0.38080050356924566,0.3906322741595736,0.8108108108108109,False,4,0.3148148148148148
+threshold,pyro,"['clear-g', 'purpose', 'river', 't-or-d']->material",0.5039058784042095,0.5075605801580597,0.8589743589743589,False,4,0.2777777777777778
+threshold,pyro,"['rel-l', 'river', 'span', 't-or-d', 'type']->erected",0.031323356699685,0.04371550342584481,0.0784313725490196,False,5,0.5277777777777778
+threshold,pyro,"['length', 'river', 't-or-d']->erected",0.019956429786760488,0.0009608828116576865,0.030303030303030304,False,3,0.6944444444444444
+threshold,pyro,"['length', 't-or-d', 'type']->erected",0.0,0.0,0.0,False,3,0.7037037037037037
+threshold,pyro,"['purpose', 'rel-l', 'river', 't-or-d', 'type']->erected",0.03829017755027919,0.054750414916364856,0.09615384615384616,False,5,0.5185185185185185
+threshold,pyro,"['length', 'span', 't-or-d']->erected",0.0,0.0004950407353345256,0.029411764705882353,False,3,0.6851851851851852
+threshold,pyro,"['clear-g', 'purpose', 'span', 't-or-d']->material",0.652289994812803,0.6808575346847524,0.8974358974358975,False,4,0.2777777777777778
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'rel-l', 'river', 't-or-d']->erected",0.017558486641922166,0.026604403147277446,0.057692307692307696,False,6,0.5185185185185185
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 'river', 'span', 't-or-d']->erected",0.010219294771153797,0.02827981615954066,0.06382978723404255,False,6,0.5648148148148148
+threshold,pyro,"['clear-g', 'lanes', 'purpose', 't-or-d']->material",0.5003521072342967,0.5386835170302914,0.8571428571428571,False,4,0.2222222222222222
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->erected",0.008631056498163536,0.012162969476589446,0.041666666666666664,False,6,0.5555555555555556
+threshold,pyro,"['clear-g', 'purpose', 'rel-l', 'river', 'span', 't-or-d']->erected",0.008631056498163536,0.012162969476589446,0.041666666666666664,False,6,0.5555555555555556
+threshold,pyro,"['clear-g', 'lanes', 'material', 'rel-l', 'river', 'span']->erected",0.010786751293135888,0.027409156146527582,0.0625,False,6,0.5555555555555556

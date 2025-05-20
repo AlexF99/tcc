@@ -1,0 +1,135 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+threshold,pyro,['sample_code_number']->clump_thickness,0.17085888367992985,0.15515936908842462,0.2962962962962963,False,1,0.9227467811158798
+threshold,pyro,['sample_code_number']->single_epithelial_cell_size,0.5053852441426425,0.5033831865364847,0.7037037037037037,False,1,0.9227467811158798
+threshold,pyro,['clump_thickness']->sample_code_number,0.00036433856967954537,0.0034547580325525857,0.008708272859216255,False,1,0.01430615164520744
+threshold,pyro,['sample_code_number']->class,0.822642964949402,0.8225204180959934,0.9259259259259259,False,1,0.9227467811158798
+threshold,pyro,['sample_code_number']->bland_chromatin,0.2974061169183104,0.30688290861593076,0.4444444444444444,False,1,0.9227467811158798
+threshold,pyro,['sample_code_number']->marginal_adhesion,0.3671304562479565,0.39397918204039417,0.6111111111111112,False,1,0.9227467811158798
+threshold,pyro,['sample_code_number']->bare_nuclei,0.6060122653313601,0.6212251260952449,0.7592592592592593,False,1,0.9227467811158798
+threshold,pyro,['sample_code_number']->mitoses,0.49976402164209166,0.5134964281486968,0.8518518518518519,False,1,0.9227467811158798
+threshold,pyro,['sample_code_number']->uniformity_of_cell_size,0.48679187279871283,0.497328214128807,0.6851851851851852,False,1,0.9227467811158798
+threshold,pyro,['sample_code_number']->normal_nucleoli,0.47666667451510514,0.4885887558246556,0.7222222222222222,False,1,0.9227467811158798
+threshold,pyro,['sample_code_number']->uniformity_of_cell_shape,0.4292768331518093,0.4499549193618273,0.6111111111111112,False,1,0.9227467811158798
+threshold,pyro,['uniformity_of_cell_shape']->mitoses,0.1339151729798299,0.1807767204671969,0.8258345428156749,False,1,0.01430615164520744
+threshold,pyro,['clump_thickness']->normal_nucleoli,0.16051491310019195,0.14382964731484335,0.6444121915820029,False,1,0.01430615164520744
+threshold,pyro,['bland_chromatin']->sample_code_number,0.0003706788623576429,0.006203808108996646,0.008708272859216255,False,1,0.01430615164520744
+threshold,pyro,['clump_thickness']->mitoses,0.13080736113541092,0.143290595506952,0.8258345428156749,False,1,0.01430615164520744
+threshold,pyro,['bland_chromatin']->normal_nucleoli,0.22082552372940134,0.22149984628286343,0.6589259796806967,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_size']->mitoses,0.1511618526212396,0.20342055584169255,0.8258345428156749,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_size']->normal_nucleoli,0.27470500070496484,0.2733265240483479,0.683599419448476,False,1,0.01430615164520744
+threshold,pyro,['clump_thickness']->uniformity_of_cell_shape,0.16434429212620427,0.18051769795086156,0.555878084179971,False,1,0.01430615164520744
+threshold,pyro,['single_epithelial_cell_size']->mitoses,0.14847426342029435,0.21283043637323254,0.8258345428156749,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_shape']->uniformity_of_cell_size,0.39659376208073027,0.43986590381617374,0.6850507982583455,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_shape']->normal_nucleoli,0.2485107202964124,0.24863994431464329,0.6690856313497823,False,1,0.01430615164520744
+threshold,pyro,['clump_thickness']->bland_chromatin,0.054011514051633513,0.112077662504228,0.3134978229317852,False,1,0.01430615164520744
+threshold,pyro,['bland_chromatin']->clump_thickness,0.04594378758087947,0.10154347123753521,0.2728592162554427,False,1,0.01430615164520744
+threshold,pyro,['clump_thickness']->marginal_adhesion,0.1212256837197947,0.11056726274549618,0.5892597968069666,False,1,0.01430615164520744
+threshold,pyro,['bland_chromatin']->mitoses,0.10598023523032019,0.1363553336534955,0.8258345428156749,False,1,0.01430615164520744
+threshold,pyro,['single_epithelial_cell_size']->normal_nucleoli,0.22923021026015833,0.22313442184053425,0.6661828737300436,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_size']->uniformity_of_cell_shape,0.3517061484403833,0.41090414547636434,0.6574746008708273,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_shape']->bland_chromatin,0.08993862652948925,0.19866477652124043,0.3134978229317852,False,1,0.01430615164520744
+threshold,pyro,['bland_chromatin']->marginal_adhesion,0.19957336333715958,0.21007347254175063,0.6168359941944848,False,1,0.01430615164520744
+threshold,pyro,['normal_nucleoli']->mitoses,0.15149816712971975,0.18523844344797233,0.8258345428156749,False,1,0.01430615164520744
+threshold,pyro,['bare_nuclei']->normal_nucleoli,0.19105444839792984,0.1829438338883062,0.6351744186046512,False,1,0.015736766809728183
+threshold,pyro,['bland_chromatin']->uniformity_of_cell_shape,0.18927575457323453,0.22113740054579897,0.5747460087082729,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_shape']->class,0.7489159339967257,0.7082475099667149,0.9216255442670537,False,1,0.01430615164520744
+threshold,pyro,['marginal_adhesion']->mitoses,0.1268777608408974,0.15178562992306074,0.8258345428156749,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_shape']->marginal_adhesion,0.21265676433781966,0.2202026941425795,0.6240928882438317,False,1,0.01430615164520744
+threshold,pyro,['marginal_adhesion']->normal_nucleoli,0.1806516226669025,0.15960213353695268,0.6647314949201741,False,1,0.01430615164520744
+threshold,pyro,['single_epithelial_cell_size']->uniformity_of_cell_shape,0.2008490785770245,0.22458382713123456,0.5718432510885341,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_size']->class,0.774880238496731,0.733561307813674,0.9259796806966618,False,1,0.01430615164520744
+threshold,pyro,['bare_nuclei']->mitoses,0.1355745799183703,0.1606764127343124,0.8255813953488372,False,1,0.015736766809728183
+threshold,pyro,['class']->normal_nucleoli,0.23404443121092944,0.2287467860878967,0.6614060258249641,False,1,0.002861230329041488
+threshold,pyro,['uniformity_of_cell_size']->marginal_adhesion,0.22999172261710055,0.2390825959409583,0.6298984034833092,False,1,0.01430615164520744
+threshold,pyro,['clump_thickness']->bare_nuclei,0.19243199963077218,0.1593304860007271,0.6647314949201741,False,1,0.01430615164520744
+threshold,pyro,['bare_nuclei']->uniformity_of_cell_shape,0.18912838005112143,0.20846179337387966,0.565406976744186,False,1,0.015736766809728183
+threshold,pyro,['class']->mitoses,0.14921922362070195,0.18257935747564005,0.8278335724533716,False,1,0.002861230329041488
+threshold,pyro,['clump_thickness']->class,0.550998309361927,0.4949438707674173,0.8592162554426706,False,1,0.01430615164520744
+threshold,pyro,['single_epithelial_cell_size']->marginal_adhesion,0.1913064056400139,0.1990905462963217,0.6110304789550073,False,1,0.01430615164520744
+threshold,pyro,['bland_chromatin']->bare_nuclei,0.2775640929269185,0.228356439949755,0.7111756168359942,False,1,0.01430615164520744
+threshold,pyro,['bare_nuclei']->class,0.7052379858685536,0.634383311283623,0.9098837209302325,False,1,0.015736766809728183
+threshold,pyro,['marginal_adhesion']->uniformity_of_cell_shape,0.17810208194789356,0.19287554266530288,0.5732946298984035,False,1,0.01430615164520744
+threshold,pyro,['bare_nuclei']->marginal_adhesion,0.19385501671975747,0.19697180031061684,0.627906976744186,False,1,0.015736766809728183
+threshold,pyro,['uniformity_of_cell_shape']->bare_nuclei,0.2877790486682603,0.24894485003285807,0.6995645863570392,False,1,0.01430615164520744
+threshold,pyro,['bland_chromatin']->class,0.6536773242150236,0.5851639330642157,0.9056603773584906,False,1,0.01430615164520744
+threshold,pyro,['normal_nucleoli']->uniformity_of_cell_shape,0.18482110292715836,0.2022945137819956,0.5776487663280117,False,1,0.01430615164520744
+threshold,pyro,['normal_nucleoli']->marginal_adhesion,0.15418294000549726,0.14829279967284825,0.6081277213352685,False,1,0.01430615164520744
+threshold,pyro,['clump_thickness']->single_epithelial_cell_size,0.12224290342212518,0.13966094024664796,0.5732946298984035,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_size']->bare_nuclei,0.30548791941469833,0.2716271032052479,0.7111756168359942,False,1,0.01430615164520744
+threshold,pyro,['single_epithelial_cell_size']->class,0.6330616733333376,0.5484284321464022,0.8940493468795355,False,1,0.01430615164520744
+threshold,pyro,['bland_chromatin']->single_epithelial_cell_size,0.16761159019038274,0.18877566124533285,0.5805515239477503,False,1,0.01430615164520744
+threshold,pyro,['clump_thickness']->uniformity_of_cell_size,0.18765983446112233,0.19267428191685404,0.6037735849056604,False,1,0.01430615164520744
+threshold,pyro,['marginal_adhesion']->class,0.551473219038378,0.4777318630231509,0.8621190130624092,False,1,0.01430615164520744
+threshold,pyro,['single_epithelial_cell_size']->bare_nuclei,0.2490163270923068,0.208458558631772,0.6806966618287373,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_shape']->single_epithelial_cell_size,0.2005067316367357,0.2457825729601063,0.6008708272859217,False,1,0.01430615164520744
+threshold,pyro,['bland_chromatin']->uniformity_of_cell_size,0.24161886653560383,0.25990401042959876,0.6269956458635704,False,1,0.01430615164520744
+threshold,pyro,"['single_epithelial_cell_size', 'uniformity_of_cell_shape']->sample_code_number",0.0012943684969903835,0.010117857866107024,0.011182108626198083,False,2,0.1044349070100143
+threshold,pyro,"['bare_nuclei', 'single_epithelial_cell_size']->bland_chromatin",0.108867087925129,0.24445492103149852,0.33814102564102566,False,2,0.1072961373390558
+threshold,pyro,['normal_nucleoli']->class,0.5960787130046323,0.5065687186223262,0.8940493468795355,False,1,0.01430615164520744
+threshold,pyro,['marginal_adhesion']->bare_nuclei,0.2424216288571459,0.20592259668155902,0.6894049346879536,False,1,0.01430615164520744
+threshold,pyro,['uniformity_of_cell_size']->single_epithelial_cell_size,0.2301875299464975,0.2805536989960813,0.6052249637155298,False,1,0.01430615164520744
+threshold,pyro,['single_epithelial_cell_size']->uniformity_of_cell_size,0.2568124924507712,0.2743964865582838,0.6269956458635704,False,1,0.01430615164520744
+threshold,pyro,"['single_epithelial_cell_size', 'uniformity_of_cell_shape']->clump_thickness",0.0705604067961021,0.16927520028713836,0.30670926517571884,False,2,0.1044349070100143
+threshold,pyro,"['class', 'mitoses']->marginal_adhesion",0.21356025384921906,0.22369001679107747,0.6096491228070176,False,2,0.02145922746781116
+threshold,pyro,['bare_nuclei']->single_epithelial_cell_size,0.17668671332451735,0.19115683551164606,0.5813953488372093,False,1,0.015736766809728183
+threshold,pyro,['normal_nucleoli']->bare_nuclei,0.2197647258284049,0.17768138779521456,0.6792452830188679,False,1,0.01430615164520744
+threshold,pyro,['bare_nuclei']->uniformity_of_cell_size,0.22961600638399426,0.24355550980449978,0.6090116279069767,False,1,0.015736766809728183
+threshold,pyro,"['class', 'mitoses']->uniformity_of_cell_shape",0.23391657210802508,0.27930270180000366,0.5862573099415205,False,2,0.02145922746781116
+threshold,pyro,['marginal_adhesion']->single_epithelial_cell_size,0.17112115440922926,0.19088105943734343,0.5950653120464441,False,1,0.01430615164520744
+threshold,pyro,['marginal_adhesion']->uniformity_of_cell_size,0.21740140086309134,0.22417169756426095,0.6197387518142236,False,1,0.01430615164520744
+threshold,pyro,['normal_nucleoli']->uniformity_of_cell_size,0.23484004609421683,0.23808293956407198,0.6298984034833092,False,1,0.01430615164520744
+threshold,pyro,['normal_nucleoli']->single_epithelial_cell_size,0.17340763102931012,0.19877977120613582,0.5965166908563135,False,1,0.01430615164520744
+threshold,pyro,"['class', 'mitoses']->bare_nuclei",0.33490747344130667,0.29922133196821665,0.7339181286549707,False,2,0.02145922746781116
+threshold,pyro,"['single_epithelial_cell_size', 'uniformity_of_cell_size']->bland_chromatin",0.10630910625532908,0.2491869605011531,0.32114467408585057,False,2,0.10014306151645208
+threshold,pyro,"['single_epithelial_cell_size', 'uniformity_of_cell_size']->clump_thickness",0.07758046583576683,0.17097390359944253,0.31160572337042924,False,2,0.10014306151645208
+threshold,pyro,"['class', 'mitoses']->uniformity_of_cell_size",0.28495392579227063,0.3061510535173096,0.6388888888888888,False,2,0.02145922746781116
+threshold,pyro,"['class', 'mitoses']->single_epithelial_cell_size",0.223730366685283,0.2539819657952276,0.6081871345029239,False,2,0.02145922746781116
+threshold,pyro,"['uniformity_of_cell_shape', 'uniformity_of_cell_size']->clump_thickness",0.07246992720386514,0.17115080998015386,0.31545741324921134,False,2,0.09298998569384835
+threshold,pyro,"['bare_nuclei', 'single_epithelial_cell_size', 'uniformity_of_cell_size']->sample_code_number",0.0030878105579481563,0.011581611719435428,0.013565891472868217,False,3,0.26180257510729615
+threshold,pyro,"['marginal_adhesion', 'single_epithelial_cell_size']->bland_chromatin",0.10122042099738437,0.22938466416688774,0.3359872611464968,False,2,0.10157367668097282
+threshold,pyro,"['bare_nuclei', 'uniformity_of_cell_size']->bland_chromatin",0.1330116209382496,0.28046865789323994,0.3564516129032258,False,2,0.11301859799713877
+threshold,pyro,"['bare_nuclei', 'marginal_adhesion']->bland_chromatin",0.11720267913395566,0.25810374496305805,0.3508771929824561,False,2,0.10300429184549356
+threshold,pyro,"['marginal_adhesion', 'uniformity_of_cell_shape']->clump_thickness",0.07477324056051793,0.16801066686497845,0.3051948051948052,False,2,0.11874105865522175
+threshold,pyro,"['marginal_adhesion', 'uniformity_of_cell_shape', 'uniformity_of_cell_size']->sample_code_number",0.004922954112136391,0.008397880210097363,0.015968063872255488,False,3,0.2832618025751073
+threshold,pyro,"['marginal_adhesion', 'uniformity_of_cell_size']->bland_chromatin",0.12256008343145297,0.267694697502355,0.3559870550161812,False,2,0.11587982832618025
+threshold,pyro,"['marginal_adhesion', 'single_epithelial_cell_size']->clump_thickness",0.06301461612514836,0.13092132115478058,0.2929936305732484,False,2,0.10157367668097282
+threshold,pyro,"['normal_nucleoli', 'single_epithelial_cell_size']->bland_chromatin",0.11430269952159111,0.25131442099554546,0.3333333333333333,False,2,0.1072961373390558
+threshold,pyro,"['marginal_adhesion', 'uniformity_of_cell_size']->clump_thickness",0.07346113104786156,0.17080131898208656,0.3155339805825243,False,2,0.11587982832618025
+threshold,pyro,"['bare_nuclei', 'marginal_adhesion', 'uniformity_of_cell_shape']->sample_code_number",0.00543230259147498,0.010710743164761689,0.01818181818181818,False,3,0.2918454935622318
+threshold,pyro,"['marginal_adhesion', 'normal_nucleoli']->bland_chromatin",0.11156928056763826,0.24924205042462838,0.33278955954323003,False,2,0.12303290414878398
+threshold,pyro,"['bare_nuclei', 'uniformity_of_cell_shape']->clump_thickness",0.08817387716443337,0.18663411557069995,0.3198051948051948,False,2,0.11874105865522175
+threshold,pyro,"['class', 'mitoses', 'single_epithelial_cell_size']->bland_chromatin",0.10701743228440108,0.2456902070315404,0.32755905511811023,False,3,0.09155937052932761
+threshold,pyro,"['bare_nuclei', 'normal_nucleoli']->bland_chromatin",0.11393604353002151,0.2646070752759513,0.32741935483870965,False,2,0.11301859799713877
+threshold,pyro,"['normal_nucleoli', 'uniformity_of_cell_shape']->clump_thickness",0.07606419724951485,0.17425011128601553,0.31382113821138213,False,2,0.12017167381974249
+threshold,pyro,"['bare_nuclei', 'single_epithelial_cell_size']->clump_thickness",0.06821451678351376,0.1625194006005451,0.30288461538461536,False,2,0.1072961373390558
+threshold,pyro,"['bare_nuclei', 'uniformity_of_cell_shape', 'uniformity_of_cell_size']->sample_code_number",0.0021601044916877976,0.010315863297656113,0.01160541586073501,False,3,0.2603719599427754
+threshold,pyro,"['bare_nuclei', 'marginal_adhesion', 'uniformity_of_cell_size']->sample_code_number",0.006006206661596458,0.011221329206057567,0.017857142857142856,False,3,0.27896995708154504
+threshold,pyro,"['normal_nucleoli', 'uniformity_of_cell_size']->bland_chromatin",0.11929033203481343,0.2701993384791898,0.3344103392568659,False,2,0.11444921316165951
+threshold,pyro,"['bare_nuclei', 'uniformity_of_cell_size']->clump_thickness",0.07563599930295528,0.17959571117622625,0.31290322580645163,False,2,0.11301859799713877
+threshold,pyro,"['bare_nuclei', 'marginal_adhesion']->clump_thickness",0.06380317843498162,0.1475703275393,0.2982456140350877,False,2,0.10300429184549356
+threshold,pyro,"['bare_nuclei', 'marginal_adhesion', 'single_epithelial_cell_size']->sample_code_number",0.004715802967607097,0.010721015916197358,0.015625,False,3,0.2675250357653791
+threshold,pyro,"['class', 'normal_nucleoli', 'uniformity_of_cell_size']->bland_chromatin",0.12647686993657847,0.2852238906276655,0.33499170812603646,False,3,0.13733905579399142
+threshold,pyro,"['normal_nucleoli', 'single_epithelial_cell_size']->clump_thickness",0.05813064927176914,0.14124037970480627,0.2916666666666667,False,2,0.1072961373390558
+threshold,pyro,"['bare_nuclei', 'marginal_adhesion', 'normal_nucleoli']->sample_code_number",0.005103625889825381,0.011005670769625645,0.015968063872255488,False,3,0.2832618025751073
+threshold,pyro,"['bare_nuclei', 'mitoses', 'normal_nucleoli']->clump_thickness",0.07474614058629037,0.17390713922614867,0.30727272727272725,False,3,0.21316165951359084
+threshold,pyro,"['class', 'marginal_adhesion', 'mitoses']->bland_chromatin",0.11225942197623184,0.2521896684011881,0.34181240063593005,False,3,0.10014306151645208
+threshold,pyro,"['marginal_adhesion', 'normal_nucleoli', 'uniformity_of_cell_shape']->sample_code_number",0.004782722680462537,0.009697393092581741,0.01652892561983471,False,3,0.30758226037195996
+threshold,pyro,"['class', 'marginal_adhesion', 'normal_nucleoli']->clump_thickness",0.07620715349068241,0.1818640116443232,0.3096446700507614,False,3,0.15450643776824036
+threshold,pyro,"['marginal_adhesion', 'single_epithelial_cell_size', 'uniformity_of_cell_size']->sample_code_number",0.004623775568620148,0.00933996661906482,0.014112903225806451,False,3,0.290414878397711
+threshold,pyro,"['mitoses', 'normal_nucleoli', 'uniformity_of_cell_size']->clump_thickness",0.0835815477902514,0.19296711733810112,0.3240223463687151,False,3,0.2317596566523605
+threshold,pyro,"['marginal_adhesion', 'normal_nucleoli', 'single_epithelial_cell_size']->sample_code_number",0.005418335695121845,0.00957872586390007,0.014492753623188406,False,3,0.3090128755364807
+threshold,pyro,"['bare_nuclei', 'normal_nucleoli', 'uniformity_of_cell_shape']->sample_code_number",0.004251981143522099,0.012903647258180913,0.016227180527383367,False,3,0.2947067238912732
+threshold,pyro,"['class', 'mitoses', 'uniformity_of_cell_shape']->clump_thickness",0.07552718997243246,0.18324940783106927,0.31329113924050633,False,3,0.09585121602288985
+threshold,pyro,"['class', 'marginal_adhesion', 'uniformity_of_cell_shape']->sample_code_number",0.002951584276775221,0.00859843854728766,0.015126050420168067,False,3,0.14878397711015737
+threshold,pyro,"['marginal_adhesion', 'mitoses', 'normal_nucleoli']->clump_thickness",0.07422890937440463,0.16637867873150497,0.3102803738317757,False,3,0.23462088698140202
+threshold,pyro,"['normal_nucleoli', 'single_epithelial_cell_size', 'uniformity_of_cell_size']->sample_code_number",0.0038680043685231924,0.011630823262326987,0.012,False,3,0.28469241773962806
+threshold,pyro,"['marginal_adhesion', 'mitoses', 'uniformity_of_cell_shape']->sample_code_number",0.0033098824099540014,0.00891003200587459,0.01694915254237288,False,3,0.24034334763948498
+threshold,pyro,"['bare_nuclei', 'normal_nucleoli', 'single_epithelial_cell_size']->sample_code_number",0.003499047500471919,0.012265657421043828,0.013725490196078431,False,3,0.2703862660944206
+threshold,pyro,"['normal_nucleoli', 'uniformity_of_cell_shape', 'uniformity_of_cell_size']->sample_code_number",0.0033188311713175933,0.010284502372850127,0.009727626459143969,False,3,0.2646638054363376
+threshold,pyro,"['class', 'normal_nucleoli', 'uniformity_of_cell_shape', 'uniformity_of_cell_size']->sample_code_number",0.0034137274290251263,0.01050020900099247,0.00998003992015968,False,4,0.2832618025751073
+threshold,pyro,"['mitoses', 'normal_nucleoli', 'single_epithelial_cell_size', 'uniformity_of_cell_size']->sample_code_number",0.00546893461142739,0.011960950836440184,0.013392857142857142,False,4,0.3590844062947067
+threshold,pyro,"['bare_nuclei', 'class', 'normal_nucleoli', 'single_epithelial_cell_size']->sample_code_number",0.0035825984365951413,0.01239037562890277,0.014028056112224449,False,4,0.2861230329041488
+threshold,pyro,"['class', 'marginal_adhesion', 'mitoses', 'single_epithelial_cell_size']->sample_code_number",0.005484458335464293,0.009864700720225937,0.015180265654648957,False,4,0.24606580829756797
+threshold,pyro,"['marginal_adhesion', 'mitoses', 'normal_nucleoli', 'uniformity_of_cell_size']->sample_code_number",0.004974276097807984,0.010329664819338103,0.015765765765765764,False,4,0.3648068669527897
+threshold,pyro,"['bare_nuclei', 'class', 'mitoses', 'uniformity_of_cell_shape']->sample_code_number",0.0020139002345874735,0.011264141493322485,0.013133208255159476,False,4,0.2374821173104435
+threshold,pyro,"['class', 'marginal_adhesion', 'mitoses', 'normal_nucleoli', 'uniformity_of_cell_size']->sample_code_number",0.006506282559488041,0.010493536873835837,0.016166281755196306,False,5,0.3805436337625179

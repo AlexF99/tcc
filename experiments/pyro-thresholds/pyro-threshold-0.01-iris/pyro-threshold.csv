@@ -1,0 +1,20 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+threshold,pyro,['petal length']->class,0.8691028037383178,0.873178933397902,0.9345794392523364,False,1,0.2866666666666667
+threshold,pyro,['petal width']->class,0.8903841145833337,0.8891730528937036,0.953125,False,1,0.14666666666666667
+threshold,pyro,['sepal length']->class,0.3792386473429953,0.40775467308460356,0.6956521739130435,False,1,0.23333333333333334
+threshold,pyro,"['petal length', 'sepal width']->sepal length",0.18084490740740733,0.21160713839495912,0.25,False,2,0.8133333333333334
+threshold,pyro,"['sepal length', 'sepal width']->petal length",0.16409849799533271,0.1695623240194282,0.20588235294117646,False,2,0.7733333333333333
+threshold,pyro,"['petal length', 'sepal length']->sepal width",0.188140001857926,0.1959929519014393,0.25925925925925924,False,2,0.82
+threshold,pyro,"['petal length', 'sepal length']->petal width",0.18954730925069918,0.19755587975887356,0.25925925925925924,False,2,0.82
+threshold,pyro,"['petal width', 'sepal width']->sepal length",0.0641946191474495,0.07481773555184987,0.1320754716981132,False,2,0.6466666666666666
+threshold,pyro,"['petal length', 'petal width']->sepal length",0.05833092206790147,0.06825611518888906,0.14583333333333334,False,2,0.68
+threshold,pyro,"['petal length', 'sepal width']->petal width",0.17365142802113154,0.2115514333937179,0.2857142857142857,False,2,0.8133333333333334
+threshold,pyro,"['petal width', 'sepal length']->sepal width",0.08366293652324941,0.08425416790231512,0.175,False,2,0.7333333333333333
+threshold,pyro,"['petal width', 'sepal length']->petal length",0.11465365763432944,0.1292339001224622,0.175,False,2,0.7333333333333333
+threshold,pyro,"['class', 'petal width', 'sepal width']->sepal length",0.07012962962962954,0.08032800430386289,0.14,False,3,0.6666666666666666
+threshold,pyro,"['sepal length', 'sepal width']->petal width",0.12956443170488563,0.13098075319506333,0.20588235294117646,False,2,0.7733333333333333
+threshold,pyro,"['petal width', 'sepal width']->petal length",0.07311953291722584,0.09299782742426646,0.1509433962264151,False,2,0.6466666666666666
+threshold,pyro,"['petal length', 'petal width']->sepal width",0.03574988745256957,0.027090869185481103,0.14583333333333334,False,2,0.68
+threshold,pyro,"['class', 'sepal length']->petal length",0.10839352074215736,0.1724994860186092,0.22580645161290322,False,2,0.38
+threshold,pyro,"['class', 'sepal length']->petal width",0.1824542410159552,0.23628137710888722,0.3548387096774194,False,2,0.38
+threshold,pyro,"['class', 'sepal length']->sepal width",0.06414996089365788,0.0946858274615025,0.21505376344086022,False,2,0.38
