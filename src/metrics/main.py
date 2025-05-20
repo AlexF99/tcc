@@ -27,12 +27,12 @@ source_type = args.type
 
 dir_name = datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
 if args.output:
-    dir_name = args.output
+    dir_name = args.output.split(".csv")[0]
 output_folder = os.path.join("metrics_results", dir_name)
 
 print(f"Output folder: {output_folder}")
 algorithm = output_folder.split("/")[1].split("-")[0]
-dataset = output_folder.split("/")[1].split("-")[1]
+dataset = output_folder.split("/")[1].split("-")[1].split(".")[0]
 
 os.makedirs(output_folder, exist_ok=True)
 

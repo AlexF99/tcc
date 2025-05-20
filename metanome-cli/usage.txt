@@ -7,7 +7,7 @@ Pyro:
 	--algorithm-config isFindFds:true
 	
 	Obs: POSSÍVEL parâmetro que define error threshold
-	--algorithm-config maxUccError:0
+	--algorithm-config maxUccError:0 errDev:0
 
 HyFD:
 	java -cp metanome-cli-1.1.0.jar:../algorithms/HyFD-1.2-SNAPSHOT.jar de.metanome.cli.App --algorithm de.metanome.algorithms.hyfd.HyFD \
@@ -17,3 +17,6 @@ HyFD:
 
 Obs:
  - Cada algoritmo possui um --file-key diferente - precisa ver no código qual é
+
+run.sh
+ - É possível rodar o pyro para diferentes thresholds colocando a flag pyro-threshold, ex: ./run.sh pyro-threshold 
