@@ -1,0 +1,11 @@
+Law Code Category Description -> Offense Description
+Law Code Category Description,Offense Description -> PD Code Description
+Law Code Category Description -> Complaint Precinct Code
+Law Code Category Description -> County
+Complaint Precinct Code,County -> Offense Category
+County,Offense Category -> Bias Motive Description
+County,Bias Motive Description -> Arrest Date
+Arrest Date -> Arrest Id
+County -> Patrol Borough Name
+Complaint Precinct Code -> Full Complaint ID
+Complaint Precinct Code,Full Complaint ID -> Complaint Year Number
