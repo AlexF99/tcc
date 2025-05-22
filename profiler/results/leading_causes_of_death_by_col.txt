@@ -1,0 +1,6 @@
+Death_Rate float -> Sex str
+Death_Rate float,Sex str -> Deaths int
+Death_Rate float,Sex str -> Age_Adjusted_Death_Rate float
+Sex str,Age_Adjusted_Death_Rate float -> Race_Ethnicity str
+Sex str,Race_Ethnicity str -> Year int
+Sex str,Year int -> Leading_Cause str

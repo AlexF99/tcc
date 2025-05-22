@@ -1,0 +1,16 @@
+Latitude -> Y
+Longitude -> X
+City -> Borough Name
+SourceID -> Activated
+SourceID -> Name
+Neighborhood Tabulation Area Code (NTACODE) -> Neighborhood Tabulation Area (NTA)
+Census Tract -> BCTCB2010
+BIN -> BBL
+SSID -> Provider
+SSID,Provider -> Location_T
+SSID,Location_T -> Remarks
+Remarks -> Type
+Borough -> BoroCode
+Borough,BoroCode -> Council Distrcit
+Borough,BoroCode,Council Distrcit -> Postcode
+Borough,BoroCode,Council Distrcit,Postcode -> BoroCD
