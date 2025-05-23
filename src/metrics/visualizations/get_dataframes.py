@@ -2,17 +2,21 @@ import os
 import pandas as pd
 
 
-def get_global_df(results_path="../../../experiments/12-05-2025"):
-    algorithms = ["fdx", "pyro"]
-    datasets = [
-        "abalone",
-        "adult",
-        "bridges",
-        "echocardiogram",
-        "iris",
-        "letter",
-        "ncvoter",
-    ]
+def get_global_df(results_path="../../../experiments/nyc-experiments"):
+    # Extract dataset names from the filenames within results_path directory
+    datasets = set()
+    if os.path.exists(results_path):
+        for filename in os.listdir(results_path):
+            if filename.endswith('.csv'):
+                continue
+            parts = filename.split('-')
+            if len(parts) >= 2:
+                # Extract dataset name (everything after the algorithm name)
+                dataset_name = '-'.join(parts[1:])
+                datasets.add(dataset_name)
+    
+    datasets = sorted(list(datasets))
+    algorithms = ["fdx", "pyro", "hyfd"]
 
     fds_results = {}
 
@@ -41,6 +45,9 @@ def get_global_df(results_path="../../../experiments/12-05-2025"):
 
             # Calculate LHS size based on 'fd' structure
             temp_df["lhs_size"] = df["fd"].str.split("->").str[0].str.count(",") + 1
+            
+            # Include fd in the dataframe
+            temp_df["fd"] = df["fd"]
 
             # Add identifying columns
             temp_df["algorithm"] = algo
