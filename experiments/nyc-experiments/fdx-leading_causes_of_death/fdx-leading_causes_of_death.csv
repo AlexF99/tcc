@@ -1,0 +1,7 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+leading_causes_of_death,fdx,['Death_Rate float']->Sex str,0.046251116999673325,0.04619071419060598,0.5598159509202454,False,1,0.4040219378427788
+leading_causes_of_death,fdx,"['Death_Rate float', 'Sex str']->Deaths int",0.11851521531607201,0.33594227722435954,0.2834507042253521,False,2,0.48080438756855576
+leading_causes_of_death,fdx,"['Death_Rate float', 'Sex str']->Age_Adjusted_Death_Rate float",0.6367197427727491,0.827231990172734,0.6883802816901409,False,2,0.48080438756855576
+leading_causes_of_death,fdx,"['Sex str', 'Age_Adjusted_Death_Rate float']->Race_Ethnicity str",0.3159626378243543,0.4949378021793978,0.46075085324232085,False,2,0.4643510054844607
+leading_causes_of_death,fdx,"['Sex str', 'Race_Ethnicity str']->Year int",0.0,0.0,0.1266173752310536,False,2,0.010968921389396709
+leading_causes_of_death,fdx,"['Sex str', 'Year int']->Leading_Cause str",0.0,0.0,0.07421150278293136,False,2,0.014625228519195612

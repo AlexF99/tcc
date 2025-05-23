@@ -1,0 +1,645 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+arrest_data_to_data,hyfd,['ARREST_KEY']->Latitude,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->Longitude,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->New Georeferenced Column,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->Y_COORD_CD,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->X_COORD_CD,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->LAW_CODE,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->ARREST_DATE,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->PD_CD,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->PD_DESC,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->ARREST_PRECINCT,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->KY_CD,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->OFNS_DESC,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->JURISDICTION_CODE,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->PERP_RACE,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->LAW_CAT_CD,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->ARREST_BORO,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->AGE_GROUP,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['ARREST_KEY']->PERP_SEX,1.0,1.0,1.0,True,-,-
+arrest_data_to_data,hyfd,['Latitude']->Longitude,0.9836554691280791,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,['Latitude']->New Georeferenced Column,0.9836554691280791,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,['Latitude']->Y_COORD_CD,0.9836547469790237,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,['Latitude']->X_COORD_CD,0.9836544515360173,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,"['LAW_CODE', 'Latitude']->ARREST_PRECINCT",0.9169941312387585,1.0,1.0,False,2,0.950950950950951
+arrest_data_to_data,hyfd,"['LAW_CODE', 'Latitude']->ARREST_BORO",0.8932029204711482,1.0,1.0,False,2,0.950950950950951
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CODE', 'Latitude']->PERP_RACE",0.0,1.0,1.0,False,3,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CODE', 'Latitude']->PERP_SEX",0.0,1.0,1.0,False,3,0.994994994994995
+arrest_data_to_data,hyfd,"['LAW_CODE', 'Latitude', 'PERP_RACE']->JURISDICTION_CODE",0.4396097848319448,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'Latitude']->JURISDICTION_CODE",0.4396097848319448,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude']->ARREST_PRECINCT",0.6610593692249306,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude']->JURISDICTION_CODE",0.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude']->ARREST_BORO",0.5639119252571885,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'PD_CD', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Latitude', 'PD_CD', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'PD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'PD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Latitude', 'PD_CD', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'PD_CD', 'PERP_SEX']->PERP_RACE",0.004350092574278985,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'PD_CD', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'PD_DESC', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Latitude', 'PD_DESC', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'PD_DESC']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'PD_DESC']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Latitude', 'PD_DESC', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'PD_DESC', 'PERP_SEX']->PERP_RACE",0.004350092574278985,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'PD_DESC', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Latitude']->PD_CD",0.2554094358628751,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Latitude']->PD_DESC",0.25519294572765505,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Latitude', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'Latitude', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'LAW_CAT_CD', 'Latitude']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'LAW_CAT_CD', 'Latitude']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'Latitude', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Latitude', 'PERP_SEX']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Latitude', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'OFNS_DESC']->PD_CD",0.40432754869029675,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'OFNS_DESC']->PD_DESC",0.4041543565821206,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'OFNS_DESC']->KY_CD",0.23749778018229373,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'OFNS_DESC', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Latitude', 'OFNS_DESC', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'OFNS_DESC']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'OFNS_DESC']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Latitude', 'OFNS_DESC', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'OFNS_DESC', 'PERP_SEX']->PERP_RACE",0.004350092574278985,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'OFNS_DESC', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Latitude', 'PERP_RACE']->PERP_SEX",0.0,1.0,1.0,False,3,0.990990990990991
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'PERP_RACE']->PD_CD",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'PERP_RACE']->PD_DESC",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'PERP_RACE']->KY_CD",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Latitude', 'PERP_RACE']->OFNS_DESC",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'Latitude']->PERP_SEX",0.0,1.0,1.0,False,3,0.990990990990991
+arrest_data_to_data,hyfd,"['Latitude', 'PD_CD']->ARREST_PRECINCT",0.9374263450876795,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Latitude', 'PD_CD']->ARREST_BORO",0.9194914323551733,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Latitude', 'PD_CD', 'PERP_RACE']->JURISDICTION_CODE",0.6036264331738146,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude', 'PD_CD', 'PERP_RACE']->LAW_CAT_CD",0.16247892970902234,1.0,1.0,False,4,0.9769769769769769
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude', 'PD_CD']->JURISDICTION_CODE",0.5723337831612211,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude', 'PD_CD', 'PERP_SEX']->LAW_CAT_CD",0.39803173072835973,1.0,1.0,False,4,0.9679679679679679
+arrest_data_to_data,hyfd,"['Latitude', 'PD_DESC']->PD_CD",0.9358506590897243,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Latitude', 'PD_DESC']->ARREST_PRECINCT",0.9374263450876795,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Latitude', 'PD_DESC']->KY_CD",0.9178843763273239,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Latitude', 'PD_DESC']->OFNS_DESC",0.9340041464112092,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Latitude', 'PD_DESC']->ARREST_BORO",0.9194914323551733,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Latitude', 'PD_DESC', 'PERP_RACE']->JURISDICTION_CODE",0.6036264331738146,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude', 'PD_DESC', 'PERP_RACE']->LAW_CAT_CD",0.16247892970902234,1.0,1.0,False,4,0.9769769769769769
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude', 'PD_DESC']->JURISDICTION_CODE",0.5723337831612211,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude', 'PD_DESC', 'PERP_SEX']->LAW_CAT_CD",0.39803173072835973,1.0,1.0,False,4,0.9679679679679679
+arrest_data_to_data,hyfd,"['KY_CD', 'Latitude']->ARREST_PRECINCT",0.9339726043944674,1.0,1.0,False,2,0.9229229229229229
+arrest_data_to_data,hyfd,"['KY_CD', 'Latitude']->ARREST_BORO",0.9150477776475048,1.0,1.0,False,2,0.9229229229229229
+arrest_data_to_data,hyfd,"['KY_CD', 'Latitude', 'PERP_RACE']->JURISDICTION_CODE",0.5767886395866273,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'Latitude', 'PERP_RACE']->LAW_CAT_CD",0.1850275739091657,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'Latitude']->JURISDICTION_CODE",0.538314879549048,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'Latitude', 'PERP_SEX']->LAW_CAT_CD",0.4273166735577921,1.0,1.0,False,4,0.9629629629629629
+arrest_data_to_data,hyfd,"['Latitude', 'OFNS_DESC']->ARREST_PRECINCT",0.9491589053837396,1.0,1.0,False,2,0.91991991991992
+arrest_data_to_data,hyfd,"['Latitude', 'OFNS_DESC']->ARREST_BORO",0.9345867887885783,1.0,1.0,False,2,0.91991991991992
+arrest_data_to_data,hyfd,"['Latitude', 'OFNS_DESC', 'PERP_RACE']->JURISDICTION_CODE",0.6683404849005388,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude', 'OFNS_DESC', 'PERP_RACE']->KY_CD",0.7947109408183098,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude', 'OFNS_DESC', 'PERP_RACE']->LAW_CAT_CD",0.2591159762810582,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude', 'OFNS_DESC']->JURISDICTION_CODE",0.6388596391139201,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'Latitude']->ARREST_PRECINCT",0.9823926945051912,1.0,1.0,False,2,0.7687687687687688
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'Latitude']->ARREST_BORO",0.9773460740393345,1.0,1.0,False,2,0.7687687687687688
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'Latitude']->ARREST_PRECINCT",0.9428751745884718,1.0,1.0,False,2,0.8218218218218218
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'Latitude']->ARREST_BORO",0.9265020098748075,1.0,1.0,False,2,0.8218218218218218
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'Latitude']->ARREST_PRECINCT",0.9833307886504065,1.0,1.0,False,2,0.7557557557557557
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude']->ARREST_PRECINCT",0.9723313770795862,1.0,1.0,False,2,0.8528528528528528
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Latitude']->ARREST_BORO",0.9644009734903828,1.0,1.0,False,2,0.8528528528528528
+arrest_data_to_data,hyfd,"['Latitude', 'PERP_SEX']->ARREST_PRECINCT",0.9803512677811554,1.0,1.0,False,2,0.7927927927927928
+arrest_data_to_data,hyfd,"['Latitude', 'PERP_SEX']->ARREST_BORO",0.9747195318989674,1.0,1.0,False,2,0.7927927927927928
+arrest_data_to_data,hyfd,['Longitude']->Latitude,0.9836554691280791,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,['Longitude']->New Georeferenced Column,0.9836554691280791,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,['Longitude']->Y_COORD_CD,0.9836547469790237,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,['Longitude']->X_COORD_CD,0.9836544515360173,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,"['LAW_CODE', 'Longitude']->ARREST_PRECINCT",0.9169941312387585,1.0,1.0,False,2,0.950950950950951
+arrest_data_to_data,hyfd,"['LAW_CODE', 'Longitude']->ARREST_BORO",0.8932029204711482,1.0,1.0,False,2,0.950950950950951
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CODE', 'Longitude']->PERP_RACE",0.0,1.0,1.0,False,3,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CODE', 'Longitude']->PERP_SEX",0.0,1.0,1.0,False,3,0.994994994994995
+arrest_data_to_data,hyfd,"['LAW_CODE', 'Longitude', 'PERP_RACE']->JURISDICTION_CODE",0.4396097848319448,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'Longitude']->JURISDICTION_CODE",0.4396097848319448,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude']->ARREST_PRECINCT",0.6610593692249306,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude']->JURISDICTION_CODE",0.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude']->ARREST_BORO",0.5639119252571885,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'PD_CD', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Longitude', 'PD_CD', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'PD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'PD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Longitude', 'PD_CD', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'PD_CD', 'PERP_SEX']->PERP_RACE",0.004350092574278985,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'PD_CD', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'PD_DESC', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Longitude', 'PD_DESC', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'PD_DESC']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'PD_DESC']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Longitude', 'PD_DESC', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'PD_DESC', 'PERP_SEX']->PERP_RACE",0.004350092574278985,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'PD_DESC', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Longitude']->PD_CD",0.2554094358628751,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Longitude']->PD_DESC",0.25519294572765505,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Longitude', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'Longitude', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'LAW_CAT_CD', 'Longitude']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'LAW_CAT_CD', 'Longitude']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'Longitude', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Longitude', 'PERP_SEX']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Longitude', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'OFNS_DESC']->PD_CD",0.40432754869029675,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'OFNS_DESC']->PD_DESC",0.4041543565821206,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'OFNS_DESC']->KY_CD",0.23749778018229373,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'OFNS_DESC', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Longitude', 'OFNS_DESC', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'OFNS_DESC']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'OFNS_DESC']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'Longitude', 'OFNS_DESC', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'OFNS_DESC', 'PERP_SEX']->PERP_RACE",0.004350092574278985,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'OFNS_DESC', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Longitude', 'PERP_RACE']->PERP_SEX",0.0,1.0,1.0,False,3,0.990990990990991
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'PERP_RACE']->PD_CD",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'PERP_RACE']->PD_DESC",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'PERP_RACE']->KY_CD",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'Longitude', 'PERP_RACE']->OFNS_DESC",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'Longitude']->PERP_SEX",0.0,1.0,1.0,False,3,0.990990990990991
+arrest_data_to_data,hyfd,"['Longitude', 'PD_CD']->ARREST_PRECINCT",0.9374263450876795,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Longitude', 'PD_CD']->ARREST_BORO",0.9194914323551733,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Longitude', 'PD_CD', 'PERP_RACE']->JURISDICTION_CODE",0.6036264331738146,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude', 'PD_CD', 'PERP_RACE']->LAW_CAT_CD",0.16247892970902234,1.0,1.0,False,4,0.9769769769769769
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude', 'PD_CD']->JURISDICTION_CODE",0.5723337831612211,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude', 'PD_CD', 'PERP_SEX']->LAW_CAT_CD",0.39803173072835973,1.0,1.0,False,4,0.9679679679679679
+arrest_data_to_data,hyfd,"['Longitude', 'PD_DESC']->PD_CD",0.9358506590897243,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Longitude', 'PD_DESC']->ARREST_PRECINCT",0.9374263450876795,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Longitude', 'PD_DESC']->KY_CD",0.9178843763273239,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Longitude', 'PD_DESC']->OFNS_DESC",0.9340041464112092,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Longitude', 'PD_DESC']->ARREST_BORO",0.9194914323551733,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['Longitude', 'PD_DESC', 'PERP_RACE']->JURISDICTION_CODE",0.6036264331738146,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude', 'PD_DESC', 'PERP_RACE']->LAW_CAT_CD",0.16247892970902234,1.0,1.0,False,4,0.9769769769769769
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude', 'PD_DESC']->JURISDICTION_CODE",0.5723337831612211,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude', 'PD_DESC', 'PERP_SEX']->LAW_CAT_CD",0.39803173072835973,1.0,1.0,False,4,0.9679679679679679
+arrest_data_to_data,hyfd,"['KY_CD', 'Longitude']->ARREST_PRECINCT",0.9339726043944674,1.0,1.0,False,2,0.9229229229229229
+arrest_data_to_data,hyfd,"['KY_CD', 'Longitude']->ARREST_BORO",0.9150477776475048,1.0,1.0,False,2,0.9229229229229229
+arrest_data_to_data,hyfd,"['KY_CD', 'Longitude', 'PERP_RACE']->JURISDICTION_CODE",0.5767886395866273,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'Longitude', 'PERP_RACE']->LAW_CAT_CD",0.1850275739091657,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'Longitude']->JURISDICTION_CODE",0.538314879549048,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'Longitude', 'PERP_SEX']->LAW_CAT_CD",0.4273166735577921,1.0,1.0,False,4,0.9629629629629629
+arrest_data_to_data,hyfd,"['Longitude', 'OFNS_DESC']->ARREST_PRECINCT",0.9491589053837396,1.0,1.0,False,2,0.91991991991992
+arrest_data_to_data,hyfd,"['Longitude', 'OFNS_DESC']->ARREST_BORO",0.9345867887885783,1.0,1.0,False,2,0.91991991991992
+arrest_data_to_data,hyfd,"['Longitude', 'OFNS_DESC', 'PERP_RACE']->JURISDICTION_CODE",0.6683404849005388,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude', 'OFNS_DESC', 'PERP_RACE']->KY_CD",0.7947109408183098,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude', 'OFNS_DESC', 'PERP_RACE']->LAW_CAT_CD",0.2591159762810582,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude', 'OFNS_DESC']->JURISDICTION_CODE",0.6388596391139201,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'Longitude']->ARREST_PRECINCT",0.9823926945051912,1.0,1.0,False,2,0.7687687687687688
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'Longitude']->ARREST_BORO",0.9773460740393345,1.0,1.0,False,2,0.7687687687687688
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'Longitude']->ARREST_PRECINCT",0.9428751745884718,1.0,1.0,False,2,0.8218218218218218
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'Longitude']->ARREST_BORO",0.9265020098748075,1.0,1.0,False,2,0.8218218218218218
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'Longitude']->ARREST_PRECINCT",0.9833307886504065,1.0,1.0,False,2,0.7557557557557557
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude']->ARREST_PRECINCT",0.9723313770795862,1.0,1.0,False,2,0.8528528528528528
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Longitude']->ARREST_BORO",0.9644009734903828,1.0,1.0,False,2,0.8528528528528528
+arrest_data_to_data,hyfd,"['Longitude', 'PERP_SEX']->ARREST_PRECINCT",0.9803512677811554,1.0,1.0,False,2,0.7927927927927928
+arrest_data_to_data,hyfd,"['Longitude', 'PERP_SEX']->ARREST_BORO",0.9747195318989674,1.0,1.0,False,2,0.7927927927927928
+arrest_data_to_data,hyfd,['New Georeferenced Column']->Latitude,0.9836554691280791,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,['New Georeferenced Column']->Longitude,0.9836554691280791,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,['New Georeferenced Column']->Y_COORD_CD,0.9836547469790237,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,['New Georeferenced Column']->X_COORD_CD,0.9836544515360173,1.0,1.0,False,1,0.7547547547547547
+arrest_data_to_data,hyfd,"['LAW_CODE', 'New Georeferenced Column']->ARREST_PRECINCT",0.9169941312387585,1.0,1.0,False,2,0.950950950950951
+arrest_data_to_data,hyfd,"['LAW_CODE', 'New Georeferenced Column']->ARREST_BORO",0.8932029204711482,1.0,1.0,False,2,0.950950950950951
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CODE', 'New Georeferenced Column']->PERP_RACE",0.0,1.0,1.0,False,3,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CODE', 'New Georeferenced Column']->PERP_SEX",0.0,1.0,1.0,False,3,0.994994994994995
+arrest_data_to_data,hyfd,"['LAW_CODE', 'New Georeferenced Column', 'PERP_RACE']->JURISDICTION_CODE",0.4396097848319448,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'New Georeferenced Column']->JURISDICTION_CODE",0.4396097848319448,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column']->ARREST_PRECINCT",0.6610593692249306,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column']->JURISDICTION_CODE",0.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column']->ARREST_BORO",0.5639119252571885,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'PD_CD', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'New Georeferenced Column', 'PD_CD', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'PD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'PD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'New Georeferenced Column', 'PD_CD', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'PD_CD', 'PERP_SEX']->PERP_RACE",0.004350092574278985,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'PD_CD', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'PD_DESC', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'New Georeferenced Column', 'PD_DESC', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'PD_DESC']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'PD_DESC']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'New Georeferenced Column', 'PD_DESC', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'PD_DESC', 'PERP_SEX']->PERP_RACE",0.004350092574278985,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'PD_DESC', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'New Georeferenced Column']->PD_CD",0.2554094358628751,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'New Georeferenced Column']->PD_DESC",0.25519294572765505,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'New Georeferenced Column', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'New Georeferenced Column', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'LAW_CAT_CD', 'New Georeferenced Column']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'LAW_CAT_CD', 'New Georeferenced Column']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'New Georeferenced Column', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'New Georeferenced Column', 'PERP_SEX']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'New Georeferenced Column', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'OFNS_DESC']->PD_CD",0.40432754869029675,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'OFNS_DESC']->PD_DESC",0.4041543565821206,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'OFNS_DESC']->KY_CD",0.23749778018229373,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'OFNS_DESC', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'New Georeferenced Column', 'OFNS_DESC', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'OFNS_DESC']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'OFNS_DESC']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'New Georeferenced Column', 'OFNS_DESC', 'PERP_SEX']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'OFNS_DESC', 'PERP_SEX']->PERP_RACE",0.004350092574278985,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'OFNS_DESC', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'New Georeferenced Column', 'PERP_RACE']->PERP_SEX",0.0,1.0,1.0,False,3,0.990990990990991
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'PERP_RACE']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'PERP_RACE']->PD_CD",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'PERP_RACE']->PD_DESC",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'PERP_RACE']->KY_CD",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column', 'PERP_RACE']->OFNS_DESC",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'New Georeferenced Column']->PERP_SEX",0.0,1.0,1.0,False,3,0.990990990990991
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PD_CD']->ARREST_PRECINCT",0.9374263450876795,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PD_CD']->ARREST_BORO",0.9194914323551733,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PD_CD', 'PERP_RACE']->JURISDICTION_CODE",0.6036264331738146,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column', 'PD_CD', 'PERP_RACE']->LAW_CAT_CD",0.16247892970902234,1.0,1.0,False,4,0.9769769769769769
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column', 'PD_CD']->JURISDICTION_CODE",0.5723337831612211,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column', 'PD_CD', 'PERP_SEX']->LAW_CAT_CD",0.39803173072835973,1.0,1.0,False,4,0.9679679679679679
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PD_DESC']->PD_CD",0.9358506590897243,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PD_DESC']->ARREST_PRECINCT",0.9374263450876795,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PD_DESC']->KY_CD",0.9178843763273239,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PD_DESC']->OFNS_DESC",0.9340041464112092,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PD_DESC']->ARREST_BORO",0.9194914323551733,1.0,1.0,False,2,0.934934934934935
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PD_DESC', 'PERP_RACE']->JURISDICTION_CODE",0.6036264331738146,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column', 'PD_DESC', 'PERP_RACE']->LAW_CAT_CD",0.16247892970902234,1.0,1.0,False,4,0.9769769769769769
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column', 'PD_DESC']->JURISDICTION_CODE",0.5723337831612211,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column', 'PD_DESC', 'PERP_SEX']->LAW_CAT_CD",0.39803173072835973,1.0,1.0,False,4,0.9679679679679679
+arrest_data_to_data,hyfd,"['KY_CD', 'New Georeferenced Column']->ARREST_PRECINCT",0.9339726043944674,1.0,1.0,False,2,0.9229229229229229
+arrest_data_to_data,hyfd,"['KY_CD', 'New Georeferenced Column']->ARREST_BORO",0.9150477776475048,1.0,1.0,False,2,0.9229229229229229
+arrest_data_to_data,hyfd,"['KY_CD', 'New Georeferenced Column', 'PERP_RACE']->JURISDICTION_CODE",0.5767886395866273,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'New Georeferenced Column', 'PERP_RACE']->LAW_CAT_CD",0.1850275739091657,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'New Georeferenced Column']->JURISDICTION_CODE",0.538314879549048,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'New Georeferenced Column', 'PERP_SEX']->LAW_CAT_CD",0.4273166735577921,1.0,1.0,False,4,0.9629629629629629
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'OFNS_DESC']->ARREST_PRECINCT",0.9491589053837396,1.0,1.0,False,2,0.91991991991992
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'OFNS_DESC']->ARREST_BORO",0.9345867887885783,1.0,1.0,False,2,0.91991991991992
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'OFNS_DESC', 'PERP_RACE']->JURISDICTION_CODE",0.6683404849005388,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column', 'OFNS_DESC', 'PERP_RACE']->KY_CD",0.7947109408183098,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column', 'OFNS_DESC', 'PERP_RACE']->LAW_CAT_CD",0.2591159762810582,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column', 'OFNS_DESC']->JURISDICTION_CODE",0.6388596391139201,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'New Georeferenced Column']->ARREST_PRECINCT",0.9823926945051912,1.0,1.0,False,2,0.7687687687687688
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'New Georeferenced Column']->ARREST_BORO",0.9773460740393345,1.0,1.0,False,2,0.7687687687687688
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'New Georeferenced Column']->ARREST_PRECINCT",0.9428751745884718,1.0,1.0,False,2,0.8218218218218218
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'New Georeferenced Column']->ARREST_BORO",0.9265020098748075,1.0,1.0,False,2,0.8218218218218218
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'New Georeferenced Column']->ARREST_PRECINCT",0.9833307886504065,1.0,1.0,False,2,0.7557557557557557
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column']->ARREST_PRECINCT",0.9723313770795862,1.0,1.0,False,2,0.8528528528528528
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'New Georeferenced Column']->ARREST_BORO",0.9644009734903828,1.0,1.0,False,2,0.8528528528528528
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PERP_SEX']->ARREST_PRECINCT",0.9803512677811554,1.0,1.0,False,2,0.7927927927927928
+arrest_data_to_data,hyfd,"['New Georeferenced Column', 'PERP_SEX']->ARREST_BORO",0.9747195318989674,1.0,1.0,False,2,0.7927927927927928
+arrest_data_to_data,hyfd,"['LAW_CODE', 'Y_COORD_CD']->X_COORD_CD",1.0,1.0,1.0,False,2,0.94994994994995
+arrest_data_to_data,hyfd,"['LAW_CODE', 'Y_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.94994994994995
+arrest_data_to_data,hyfd,"['LAW_CODE', 'Y_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.94994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CODE', 'Y_COORD_CD']->PERP_RACE",1.0,1.0,1.0,False,3,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CODE', 'Y_COORD_CD']->PERP_SEX",1.0,1.0,1.0,False,3,0.994994994994995
+arrest_data_to_data,hyfd,"['LAW_CODE', 'PERP_RACE', 'Y_COORD_CD']->Latitude",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['LAW_CODE', 'PERP_RACE', 'Y_COORD_CD']->Longitude",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['LAW_CODE', 'PERP_RACE', 'Y_COORD_CD']->New Georeferenced Column",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['LAW_CODE', 'PERP_RACE', 'Y_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'Y_COORD_CD']->Latitude",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'Y_COORD_CD']->Longitude",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'Y_COORD_CD']->New Georeferenced Column",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'Y_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Y_COORD_CD']->Latitude",0.666299161364949,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Y_COORD_CD']->Longitude",0.666299161364949,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Y_COORD_CD']->New Georeferenced Column",0.666299161364949,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Y_COORD_CD']->X_COORD_CD",1.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Y_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Y_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'Y_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_CD', 'PERP_RACE', 'Y_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_CD', 'PERP_RACE', 'Y_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'PD_CD', 'Y_COORD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PD_CD', 'Y_COORD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_CD', 'PERP_SEX', 'Y_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_CD', 'PERP_SEX', 'Y_COORD_CD']->PERP_RACE",1.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_CD', 'PERP_SEX', 'Y_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_DESC', 'PERP_RACE', 'Y_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_DESC', 'PERP_RACE', 'Y_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'PD_DESC', 'Y_COORD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PD_DESC', 'Y_COORD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_DESC', 'PERP_SEX', 'Y_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_DESC', 'PERP_SEX', 'Y_COORD_CD']->PERP_RACE",1.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_DESC', 'PERP_SEX', 'Y_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Y_COORD_CD']->PD_CD",0.8510818871725784,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'Y_COORD_CD']->PD_DESC",0.8510385891455343,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'PERP_RACE', 'Y_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'PERP_RACE', 'Y_COORD_CD']->LAW_CODE",0.7417483986878728,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'LAW_CAT_CD', 'Y_COORD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'LAW_CAT_CD', 'Y_COORD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'PERP_SEX', 'Y_COORD_CD']->LAW_CODE",0.7417483986878728,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'PERP_SEX', 'Y_COORD_CD']->PERP_RACE",0.7510875231435766,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'PERP_SEX', 'Y_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'Y_COORD_CD']->PD_CD",1.0,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'Y_COORD_CD']->PD_DESC",1.0,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'Y_COORD_CD']->KY_CD",0.8474995560364621,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'PERP_RACE', 'Y_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'OFNS_DESC', 'PERP_RACE', 'Y_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'OFNS_DESC', 'Y_COORD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'OFNS_DESC', 'Y_COORD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'OFNS_DESC', 'PERP_SEX', 'Y_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'PERP_SEX', 'Y_COORD_CD']->PERP_RACE",1.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'PERP_SEX', 'Y_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PERP_RACE', 'Y_COORD_CD']->PERP_SEX",1.0,1.0,1.0,False,3,0.990990990990991
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PERP_RACE', 'Y_COORD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PERP_RACE', 'Y_COORD_CD']->PD_CD",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PERP_RACE', 'Y_COORD_CD']->PD_DESC",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PERP_RACE', 'Y_COORD_CD']->KY_CD",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PERP_RACE', 'Y_COORD_CD']->OFNS_DESC",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'Y_COORD_CD']->PERP_SEX",0.0,1.0,1.0,False,3,0.990990990990991
+arrest_data_to_data,hyfd,"['PD_CD', 'Y_COORD_CD']->X_COORD_CD",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_CD', 'Y_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_CD', 'Y_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_CD', 'PERP_RACE', 'Y_COORD_CD']->Latitude",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_CD', 'PERP_RACE', 'Y_COORD_CD']->Longitude",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_CD', 'PERP_RACE', 'Y_COORD_CD']->New Georeferenced Column",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_CD', 'PERP_RACE', 'Y_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'PERP_RACE', 'Y_COORD_CD']->LAW_CAT_CD",0.4974873578254153,1.0,1.0,False,4,0.9769769769769769
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'Y_COORD_CD']->Latitude",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'Y_COORD_CD']->Longitude",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'Y_COORD_CD']->New Georeferenced Column",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'Y_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'PERP_SEX', 'Y_COORD_CD']->LAW_CAT_CD",0.6388190384370172,1.0,1.0,False,4,0.9679679679679679
+arrest_data_to_data,hyfd,"['PD_DESC', 'Y_COORD_CD']->X_COORD_CD",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'Y_COORD_CD']->PD_CD",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'Y_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'Y_COORD_CD']->KY_CD",0.9838257104887157,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'Y_COORD_CD']->OFNS_DESC",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'Y_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'PERP_RACE', 'Y_COORD_CD']->Latitude",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_DESC', 'PERP_RACE', 'Y_COORD_CD']->Longitude",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_DESC', 'PERP_RACE', 'Y_COORD_CD']->New Georeferenced Column",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_DESC', 'PERP_RACE', 'Y_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'PERP_RACE', 'Y_COORD_CD']->LAW_CAT_CD",0.4974873578254153,1.0,1.0,False,4,0.9769769769769769
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'Y_COORD_CD']->Latitude",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'Y_COORD_CD']->Longitude",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'Y_COORD_CD']->New Georeferenced Column",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'Y_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'PERP_SEX', 'Y_COORD_CD']->LAW_CAT_CD",0.6388190384370172,1.0,1.0,False,4,0.9679679679679679
+arrest_data_to_data,hyfd,"['KY_CD', 'Y_COORD_CD']->X_COORD_CD",0.9871645532895011,1.0,1.0,False,2,0.9219219219219219
+arrest_data_to_data,hyfd,"['KY_CD', 'Y_COORD_CD']->ARREST_PRECINCT",0.9869638218932669,1.0,1.0,False,2,0.9219219219219219
+arrest_data_to_data,hyfd,"['KY_CD', 'Y_COORD_CD']->ARREST_BORO",0.9832273817406616,1.0,1.0,False,2,0.9219219219219219
+arrest_data_to_data,hyfd,"['KY_CD', 'PERP_RACE', 'Y_COORD_CD']->Latitude",0.8957184879265472,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['KY_CD', 'PERP_RACE', 'Y_COORD_CD']->Longitude",0.8957184879265472,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['KY_CD', 'PERP_RACE', 'Y_COORD_CD']->New Georeferenced Column",0.8957184879265472,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['KY_CD', 'PERP_RACE', 'Y_COORD_CD']->JURISDICTION_CODE",0.9153577279173273,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'PERP_RACE', 'Y_COORD_CD']->LAW_CAT_CD",0.48138118339674396,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'Y_COORD_CD']->Latitude",0.8862383504653242,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'Y_COORD_CD']->Longitude",0.8862383504653242,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'Y_COORD_CD']->New Georeferenced Column",0.8862383504653242,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'Y_COORD_CD']->JURISDICTION_CODE",0.9076629759098116,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'PERP_SEX', 'Y_COORD_CD']->LAW_CAT_CD",0.6355651559004147,1.0,1.0,False,4,0.9629629629629629
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'Y_COORD_CD']->X_COORD_CD",1.0,1.0,1.0,False,2,0.918918918918919
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'Y_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.918918918918919
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'Y_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.918918918918919
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'PERP_RACE', 'Y_COORD_CD']->Latitude",0.9182773456403956,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'PERP_RACE', 'Y_COORD_CD']->Longitude",0.9182773456403956,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'PERP_RACE', 'Y_COORD_CD']->New Georeferenced Column",0.9182773456403956,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'PERP_RACE', 'Y_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'PERP_RACE', 'Y_COORD_CD']->KY_CD",0.9589421881636628,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'PERP_RACE', 'Y_COORD_CD']->LAW_CAT_CD",0.5554695857686365,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'Y_COORD_CD']->Latitude",0.9110131096973197,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'Y_COORD_CD']->Longitude",0.9110131096973197,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'Y_COORD_CD']->New Georeferenced Column",0.9110131096973197,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'Y_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'Y_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.7647647647647647
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'Y_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.7647647647647647
+arrest_data_to_data,hyfd,"['PERP_RACE', 'Y_COORD_CD']->X_COORD_CD",1.0,1.0,1.0,False,2,0.8548548548548549
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'Y_COORD_CD']->ARREST_PRECINCT",0.9664783991541144,1.0,1.0,False,2,0.8178178178178178
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'Y_COORD_CD']->ARREST_BORO",0.9568704101902717,1.0,1.0,False,2,0.8178178178178178
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CAT_CD', 'Y_COORD_CD']->X_COORD_CD",0.942790580376061,1.0,1.0,False,3,0.8948948948948949
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'PERP_SEX', 'Y_COORD_CD']->X_COORD_CD",0.9612452318676542,1.0,1.0,False,3,0.8448448448448449
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'Y_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.7507507507507507
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Y_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.8478478478478478
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'Y_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.8478478478478478
+arrest_data_to_data,hyfd,"['PERP_SEX', 'Y_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.7877877877877878
+arrest_data_to_data,hyfd,"['PERP_SEX', 'Y_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.7877877877877878
+arrest_data_to_data,hyfd,"['LAW_CODE', 'X_COORD_CD']->Y_COORD_CD",1.0,1.0,1.0,False,2,0.94994994994995
+arrest_data_to_data,hyfd,"['LAW_CODE', 'X_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.94994994994995
+arrest_data_to_data,hyfd,"['LAW_CODE', 'X_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.94994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CODE', 'X_COORD_CD']->PERP_RACE",1.0,1.0,1.0,False,3,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CODE', 'X_COORD_CD']->PERP_SEX",1.0,1.0,1.0,False,3,0.994994994994995
+arrest_data_to_data,hyfd,"['LAW_CODE', 'PERP_RACE', 'X_COORD_CD']->Latitude",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['LAW_CODE', 'PERP_RACE', 'X_COORD_CD']->Longitude",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['LAW_CODE', 'PERP_RACE', 'X_COORD_CD']->New Georeferenced Column",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['LAW_CODE', 'PERP_RACE', 'X_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'X_COORD_CD']->Latitude",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'X_COORD_CD']->Longitude",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'X_COORD_CD']->New Georeferenced Column",0.86191689435791,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CODE', 'X_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.970970970970971
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'X_COORD_CD']->Latitude",0.666299161364949,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'X_COORD_CD']->Longitude",0.666299161364949,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'X_COORD_CD']->New Georeferenced Column",0.666299161364949,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'X_COORD_CD']->Y_COORD_CD",1.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'X_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'X_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'X_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_CD', 'PERP_RACE', 'X_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_CD', 'PERP_RACE', 'X_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'PD_CD', 'X_COORD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PD_CD', 'X_COORD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_CD', 'PERP_SEX', 'X_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_CD', 'PERP_SEX', 'X_COORD_CD']->PERP_RACE",1.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_CD', 'PERP_SEX', 'X_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_DESC', 'PERP_RACE', 'X_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_DESC', 'PERP_RACE', 'X_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'PD_DESC', 'X_COORD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PD_DESC', 'X_COORD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_DESC', 'PERP_SEX', 'X_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_DESC', 'PERP_SEX', 'X_COORD_CD']->PERP_RACE",1.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_DESC', 'PERP_SEX', 'X_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'X_COORD_CD']->PD_CD",0.8510818871725784,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'X_COORD_CD']->PD_DESC",0.8510385891455343,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'PERP_RACE', 'X_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'PERP_RACE', 'X_COORD_CD']->LAW_CODE",0.7417483986878728,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'LAW_CAT_CD', 'X_COORD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'LAW_CAT_CD', 'X_COORD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'PERP_SEX', 'X_COORD_CD']->LAW_CODE",0.7417483986878728,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'PERP_SEX', 'X_COORD_CD']->PERP_RACE",0.7510875231435766,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'PERP_SEX', 'X_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'X_COORD_CD']->PD_CD",1.0,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'X_COORD_CD']->PD_DESC",1.0,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'X_COORD_CD']->KY_CD",0.8474995560364621,1.0,1.0,False,3,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'PERP_RACE', 'X_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'OFNS_DESC', 'PERP_RACE', 'X_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'OFNS_DESC', 'X_COORD_CD']->PERP_RACE",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'OFNS_DESC', 'X_COORD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'OFNS_DESC', 'PERP_SEX', 'X_COORD_CD']->LAW_CODE",1.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'PERP_SEX', 'X_COORD_CD']->PERP_RACE",1.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'OFNS_DESC', 'PERP_SEX', 'X_COORD_CD']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PERP_RACE', 'X_COORD_CD']->PERP_SEX",1.0,1.0,1.0,False,3,0.990990990990991
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PERP_RACE', 'X_COORD_CD']->LAW_CODE",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PERP_RACE', 'X_COORD_CD']->PD_CD",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PERP_RACE', 'X_COORD_CD']->PD_DESC",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PERP_RACE', 'X_COORD_CD']->KY_CD",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'LAW_CAT_CD', 'PERP_RACE', 'X_COORD_CD']->OFNS_DESC",0.0,1.0,1.0,False,5,0.995995995995996
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'X_COORD_CD']->PERP_SEX",0.0,1.0,1.0,False,3,0.990990990990991
+arrest_data_to_data,hyfd,"['PD_CD', 'X_COORD_CD']->Y_COORD_CD",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_CD', 'X_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_CD', 'X_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_CD', 'PERP_RACE', 'X_COORD_CD']->Latitude",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_CD', 'PERP_RACE', 'X_COORD_CD']->Longitude",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_CD', 'PERP_RACE', 'X_COORD_CD']->New Georeferenced Column",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_CD', 'PERP_RACE', 'X_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'PERP_RACE', 'X_COORD_CD']->LAW_CAT_CD",0.4974873578254153,1.0,1.0,False,4,0.9769769769769769
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'X_COORD_CD']->Latitude",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'X_COORD_CD']->Longitude",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'X_COORD_CD']->New Georeferenced Column",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'X_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_CD', 'PERP_SEX', 'X_COORD_CD']->LAW_CAT_CD",0.6388190384370172,1.0,1.0,False,4,0.9679679679679679
+arrest_data_to_data,hyfd,"['PD_DESC', 'X_COORD_CD']->Y_COORD_CD",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'X_COORD_CD']->PD_CD",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'X_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'X_COORD_CD']->KY_CD",0.9838257104887157,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'X_COORD_CD']->OFNS_DESC",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'X_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.933933933933934
+arrest_data_to_data,hyfd,"['PD_DESC', 'PERP_RACE', 'X_COORD_CD']->Latitude",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_DESC', 'PERP_RACE', 'X_COORD_CD']->Longitude",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_DESC', 'PERP_RACE', 'X_COORD_CD']->New Georeferenced Column",0.9023314618629119,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['PD_DESC', 'PERP_RACE', 'X_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.958958958958959
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'PERP_RACE', 'X_COORD_CD']->LAW_CAT_CD",0.4974873578254153,1.0,1.0,False,4,0.9769769769769769
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'X_COORD_CD']->Latitude",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'X_COORD_CD']->Longitude",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'X_COORD_CD']->New Georeferenced Column",0.8946207877994576,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'X_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.9619619619619619
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC', 'PERP_SEX', 'X_COORD_CD']->LAW_CAT_CD",0.6388190384370172,1.0,1.0,False,4,0.9679679679679679
+arrest_data_to_data,hyfd,"['ARREST_PRECINCT', 'JURISDICTION_CODE', 'X_COORD_CD']->Y_COORD_CD",1.0,1.0,1.0,False,3,0.7657657657657657
+arrest_data_to_data,hyfd,"['KY_CD', 'X_COORD_CD']->Y_COORD_CD",0.9871647852880158,1.0,1.0,False,2,0.9219219219219219
+arrest_data_to_data,hyfd,"['KY_CD', 'X_COORD_CD']->ARREST_PRECINCT",0.9869638218932669,1.0,1.0,False,2,0.9219219219219219
+arrest_data_to_data,hyfd,"['KY_CD', 'X_COORD_CD']->ARREST_BORO",0.9832273817406616,1.0,1.0,False,2,0.9219219219219219
+arrest_data_to_data,hyfd,"['KY_CD', 'PERP_RACE', 'X_COORD_CD']->Latitude",0.8957184879265472,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['KY_CD', 'PERP_RACE', 'X_COORD_CD']->Longitude",0.8957184879265472,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['KY_CD', 'PERP_RACE', 'X_COORD_CD']->New Georeferenced Column",0.8957184879265472,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['KY_CD', 'PERP_RACE', 'X_COORD_CD']->JURISDICTION_CODE",0.9153577279173273,1.0,1.0,False,3,0.9519519519519519
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'PERP_RACE', 'X_COORD_CD']->LAW_CAT_CD",0.48138118339674396,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'X_COORD_CD']->Latitude",0.8862383504653242,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'X_COORD_CD']->Longitude",0.8862383504653242,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'X_COORD_CD']->New Georeferenced Column",0.8862383504653242,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'X_COORD_CD']->JURISDICTION_CODE",0.9076629759098116,1.0,1.0,False,3,0.955955955955956
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'PERP_SEX', 'X_COORD_CD']->LAW_CAT_CD",0.6355651559004147,1.0,1.0,False,4,0.9629629629629629
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'X_COORD_CD']->Y_COORD_CD",1.0,1.0,1.0,False,2,0.918918918918919
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'X_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.918918918918919
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'X_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.918918918918919
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'PERP_RACE', 'X_COORD_CD']->Latitude",0.9182773456403956,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'PERP_RACE', 'X_COORD_CD']->Longitude",0.9182773456403956,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'PERP_RACE', 'X_COORD_CD']->New Georeferenced Column",0.9182773456403956,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['OFNS_DESC', 'PERP_RACE', 'X_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.950950950950951
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'PERP_RACE', 'X_COORD_CD']->KY_CD",0.9589421881636628,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'PERP_RACE', 'X_COORD_CD']->LAW_CAT_CD",0.5554695857686365,1.0,1.0,False,4,0.973973973973974
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'X_COORD_CD']->Latitude",0.9110131096973197,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'X_COORD_CD']->Longitude",0.9110131096973197,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'X_COORD_CD']->New Georeferenced Column",0.9110131096973197,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'OFNS_DESC', 'X_COORD_CD']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.954954954954955
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'PERP_RACE', 'X_COORD_CD']->Y_COORD_CD",1.0,1.0,1.0,False,3,0.8648648648648649
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'PERP_RACE', 'X_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,3,0.8648648648648649
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'PERP_RACE', 'X_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,3,0.8648648648648649
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'JURISDICTION_CODE', 'X_COORD_CD']->Y_COORD_CD",1.0,1.0,1.0,False,3,0.7657657657657657
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'JURISDICTION_CODE', 'X_COORD_CD']->Y_COORD_CD",1.0,1.0,1.0,False,3,0.8588588588588588
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'PERP_SEX', 'X_COORD_CD']->Y_COORD_CD",1.0,1.0,1.0,False,3,0.7997997997997998
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'PERP_RACE', 'X_COORD_CD']->ARREST_PRECINCT",0.9383744307681697,1.0,1.0,False,3,0.9009009009009009
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'PERP_RACE', 'X_COORD_CD']->ARREST_BORO",0.9207112591376714,1.0,1.0,False,3,0.9009009009009009
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CAT_CD', 'X_COORD_CD']->Y_COORD_CD",0.9427916144265834,1.0,1.0,False,3,0.8948948948948949
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'X_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.7497497497497497
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'X_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.8478478478478478
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'X_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.8478478478478478
+arrest_data_to_data,hyfd,"['PERP_SEX', 'X_COORD_CD']->ARREST_PRECINCT",1.0,1.0,1.0,False,2,0.7867867867867868
+arrest_data_to_data,hyfd,"['PERP_SEX', 'X_COORD_CD']->ARREST_BORO",1.0,1.0,1.0,False,2,0.7867867867867868
+arrest_data_to_data,hyfd,['LAW_CODE']->PD_CD,1.0,1.0,1.0,False,1,0.1891891891891892
+arrest_data_to_data,hyfd,['LAW_CODE']->PD_DESC,1.0,1.0,1.0,False,1,0.1891891891891892
+arrest_data_to_data,hyfd,['LAW_CODE']->KY_CD,0.9986820949287102,1.0,1.0,False,1,0.1891891891891892
+arrest_data_to_data,hyfd,['LAW_CODE']->OFNS_DESC,1.0,1.0,1.0,False,1,0.1891891891891892
+arrest_data_to_data,hyfd,['LAW_CODE']->LAW_CAT_CD,0.9857311225061538,1.0,1.0,False,1,0.1891891891891892
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'LAW_CODE']->JURISDICTION_CODE",1.0,1.0,1.0,False,3,0.991991991991992
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'LAW_CODE']->PERP_SEX",1.0,1.0,1.0,False,3,0.991991991991992
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_BORO', 'ARREST_DATE', 'JURISDICTION_CODE', 'LAW_CODE', 'PERP_RACE']->ARREST_PRECINCT",1.0,1.0,1.0,False,6,0.994994994994995
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_BORO', 'ARREST_DATE', 'LAW_CODE', 'PERP_RACE']->PERP_SEX",1.0,1.0,1.0,False,5,0.993993993993994
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'PD_CD', 'PERP_RACE']->PERP_SEX",1.0,1.0,1.0,False,5,0.992992992992993
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'PD_CD', 'PERP_RACE']->LAW_CODE",1.0,1.0,1.0,False,6,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'LAW_CAT_CD', 'PD_CD']->PERP_SEX",0.0,1.0,1.0,False,5,0.990990990990991
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'LAW_CAT_CD', 'PD_CD']->LAW_CODE",0.11456593835840445,1.0,1.0,False,6,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'PD_CD', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.991991991991992
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'PD_CD', 'PERP_SEX']->LAW_CODE",1.0,1.0,1.0,False,5,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'PD_CD', 'PERP_SEX']->JURISDICTION_CODE",1.0,1.0,1.0,False,4,0.990990990990991
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'PD_CD', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.990990990990991
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'ARREST_DATE', 'PD_CD', 'PERP_RACE']->LAW_CAT_CD",0.5184253845826896,1.0,1.0,False,4,0.975975975975976
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_CD', 'PERP_RACE']->LAW_CAT_CD",0.537688369199382,1.0,1.0,False,4,0.974974974974975
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'ARREST_DATE', 'PD_CD', 'PERP_SEX']->LAW_CAT_CD",0.6497639160601378,1.0,1.0,False,4,0.9669669669669669
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_CD', 'PERP_SEX']->LAW_CAT_CD",0.7777347928843182,1.0,1.0,False,4,0.9479479479479479
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_DESC']->OFNS_DESC",1.0,1.0,1.0,False,2,0.8378378378378378
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'PD_DESC']->PD_CD",1.0,1.0,1.0,False,3,0.988988988988989
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'PD_DESC']->KY_CD",0.9029542629322941,1.0,1.0,False,3,0.988988988988989
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'PD_DESC', 'PERP_RACE']->PERP_SEX",1.0,1.0,1.0,False,5,0.992992992992993
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'PD_DESC', 'PERP_RACE']->LAW_CODE",1.0,1.0,1.0,False,6,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'LAW_CAT_CD', 'PD_DESC']->PERP_SEX",0.0,1.0,1.0,False,5,0.990990990990991
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'LAW_CAT_CD', 'PD_DESC']->LAW_CODE",0.11456593835840445,1.0,1.0,False,6,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'PD_DESC', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.991991991991992
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'PD_DESC', 'PERP_SEX']->LAW_CODE",1.0,1.0,1.0,False,5,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'PD_DESC', 'PERP_SEX']->JURISDICTION_CODE",1.0,1.0,1.0,False,4,0.990990990990991
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'PD_DESC', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.990990990990991
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'KY_CD', 'PD_DESC']->PD_CD",0.9934848325638003,1.0,1.0,False,3,0.8398398398398398
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_DESC', 'PERP_RACE']->PD_CD",1.0,1.0,1.0,False,3,0.9359359359359359
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'PD_DESC', 'PERP_RACE']->KY_CD",0.9833202639414881,1.0,1.0,False,3,0.9359359359359359
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'ARREST_DATE', 'PD_DESC', 'PERP_RACE']->LAW_CAT_CD",0.5184253845826896,1.0,1.0,False,4,0.975975975975976
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_DESC', 'PERP_RACE']->LAW_CAT_CD",0.537688369199382,1.0,1.0,False,4,0.974974974974975
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'LAW_CAT_CD', 'PD_DESC']->PD_CD",0.9604141725395454,1.0,1.0,False,3,0.8418418418418419
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_DESC']->PD_CD",1.0,1.0,1.0,False,3,0.92992992992993
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_DESC']->KY_CD",0.9847499556036462,1.0,1.0,False,3,0.92992992992993
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'PD_DESC', 'PERP_SEX']->LAW_CAT_CD",0.7777347928843182,1.0,1.0,False,4,0.9479479479479479
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'KY_CD']->PD_CD",0.8957573210208049,1.0,1.0,False,4,0.98998998998999
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'KY_CD']->PD_DESC",0.895727012401874,1.0,1.0,False,4,0.98998998998999
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'KY_CD', 'PERP_RACE']->PERP_SEX",0.4694991912140424,1.0,1.0,False,5,0.992992992992993
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'KY_CD', 'PERP_RACE']->LAW_CODE",0.7933987189502982,1.0,1.0,False,6,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'KY_CD', 'LAW_CAT_CD']->PERP_SEX",0.0,1.0,1.0,False,5,0.990990990990991
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'KY_CD', 'LAW_CAT_CD']->LAW_CODE",0.0,1.0,1.0,False,6,0.992992992992993
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'KY_CD', 'PERP_SEX']->LAW_CODE",0.8524276563930702,1.0,1.0,False,6,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'KY_CD', 'PERP_RACE']->PD_CD",0.869696651276006,1.0,1.0,False,4,0.991991991991992
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'KY_CD', 'PERP_RACE']->PD_DESC",0.8696587655023426,1.0,1.0,False,4,0.991991991991992
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'KY_CD', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.991991991991992
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'KY_CD', 'PERP_RACE', 'PERP_SEX']->LAW_CODE",0.7933987189502982,1.0,1.0,False,6,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'KY_CD', 'PERP_RACE', 'PERP_SEX']->JURISDICTION_CODE",0.4195958485759589,1.0,1.0,False,5,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'KY_CD', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.98998998998999
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'OFNS_DESC']->KY_CD",0.9110414076879363,1.0,1.0,False,3,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'OFNS_DESC']->PD_CD",1.0,1.0,1.0,False,4,0.98998998998999
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'OFNS_DESC']->PD_DESC",1.0,1.0,1.0,False,4,0.98998998998999
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'OFNS_DESC', 'PERP_RACE']->PERP_SEX",1.0,1.0,1.0,False,5,0.992992992992993
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'OFNS_DESC', 'PERP_RACE']->LAW_CODE",1.0,1.0,1.0,False,6,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'LAW_CAT_CD', 'OFNS_DESC']->PERP_SEX",0.0,1.0,1.0,False,5,0.990990990990991
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'LAW_CAT_CD', 'OFNS_DESC']->LAW_CODE",0.11456593835840445,1.0,1.0,False,6,0.992992992992993
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'OFNS_DESC', 'PERP_SEX']->LAW_CODE",1.0,1.0,1.0,False,6,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'OFNS_DESC', 'PERP_RACE']->PD_CD",1.0,1.0,1.0,False,4,0.991991991991992
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'OFNS_DESC', 'PERP_RACE']->PD_DESC",1.0,1.0,1.0,False,4,0.991991991991992
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'OFNS_DESC', 'PERP_RACE']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.991991991991992
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'OFNS_DESC', 'PERP_RACE', 'PERP_SEX']->LAW_CODE",1.0,1.0,1.0,False,6,0.994994994994995
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'OFNS_DESC', 'PERP_RACE', 'PERP_SEX']->JURISDICTION_CODE",1.0,1.0,1.0,False,5,0.992992992992993
+arrest_data_to_data,hyfd,"['ARREST_DATE', 'ARREST_PRECINCT', 'OFNS_DESC', 'PERP_SEX']->LAW_CAT_CD",0.0,1.0,1.0,False,4,0.98998998998999
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'ARREST_PRECINCT', 'JURISDICTION_CODE', 'PERP_RACE']->PERP_SEX",1.0,1.0,1.0,False,5,0.987987987987988
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'ARREST_DATE', 'KY_CD', 'PERP_RACE']->LAW_CAT_CD",0.5005892877153831,1.0,1.0,False,4,0.972972972972973
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_BORO', 'ARREST_DATE', 'KY_CD', 'PERP_RACE', 'PERP_SEX']->PD_CD",0.869696651276006,1.0,1.0,False,6,0.991991991991992
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_BORO', 'ARREST_DATE', 'KY_CD', 'PERP_RACE', 'PERP_SEX']->PD_DESC",0.8696587655023426,1.0,1.0,False,6,0.991991991991992
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'PERP_RACE']->LAW_CAT_CD",0.6355651559004147,1.0,1.0,False,4,0.9629629629629629
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'ARREST_DATE', 'KY_CD', 'PERP_SEX']->LAW_CAT_CD",0.7003535726292298,1.0,1.0,False,4,0.954954954954955
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'KY_CD', 'PERP_SEX']->LAW_CAT_CD",0.8248819580300695,1.0,1.0,False,4,0.9229229229229229
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'JURISDICTION_CODE', 'OFNS_DESC', 'PERP_SEX']->KY_CD",0.9827822079396006,1.0,1.0,False,5,0.9379379379379379
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'JURISDICTION_CODE', 'OFNS_DESC', 'PERP_SEX']->LAW_CAT_CD",0.8135840198384605,1.0,1.0,False,5,0.9379379379379379
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_BORO', 'ARREST_DATE', 'OFNS_DESC', 'PERP_RACE', 'PERP_SEX']->PD_CD",1.0,1.0,1.0,False,6,0.991991991991992
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_BORO', 'ARREST_DATE', 'OFNS_DESC', 'PERP_RACE', 'PERP_SEX']->PD_DESC",1.0,1.0,1.0,False,6,0.991991991991992
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'OFNS_DESC', 'PERP_RACE']->KY_CD",0.9711485646555469,1.0,1.0,False,4,0.9629629629629629
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_DATE', 'OFNS_DESC', 'PERP_RACE']->LAW_CAT_CD",0.6876272764860689,1.0,1.0,False,4,0.9629629629629629
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_BORO', 'ARREST_DATE', 'OFNS_DESC']->KY_CD",0.9618748890091156,1.0,1.0,False,4,0.9719719719719719
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_BORO', 'ARREST_DATE', 'OFNS_DESC', 'PERP_SEX']->LAW_CAT_CD",0.4221104614992276,1.0,1.0,False,5,0.97997997997998
+arrest_data_to_data,hyfd,['PD_CD']->PD_DESC,1.0,1.0,1.0,False,1,0.1021021021021021
+arrest_data_to_data,hyfd,['PD_CD']->KY_CD,0.9988099184974975,1.0,1.0,False,1,0.1021021021021021
+arrest_data_to_data,hyfd,['PD_CD']->OFNS_DESC,1.0,1.0,1.0,False,1,0.1021021021021021
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_PRECINCT', 'PD_CD', 'PERP_RACE']->LAW_CAT_CD",0.8479238056576914,1.0,1.0,False,4,0.923923923923924
+arrest_data_to_data,hyfd,"['ARREST_PRECINCT', 'PD_DESC']->OFNS_DESC",1.0,1.0,1.0,False,2,0.7257257257257257
+arrest_data_to_data,hyfd,"['ARREST_PRECINCT', 'KY_CD', 'PD_DESC']->PD_CD",0.9961815868505789,1.0,1.0,False,3,0.7267267267267268
+arrest_data_to_data,hyfd,"['ARREST_PRECINCT', 'LAW_CAT_CD', 'PD_DESC']->PD_CD",0.9769204400784065,1.0,1.0,False,3,0.7287287287287287
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'KY_CD', 'PD_DESC', 'PERP_RACE']->PD_CD",0.9981711810705405,1.0,1.0,False,4,0.4294294294294294
+arrest_data_to_data,hyfd,"['JURISDICTION_CODE', 'PD_DESC']->OFNS_DESC",1.0,1.0,1.0,False,2,0.16216216216216217
+arrest_data_to_data,hyfd,"['PD_DESC', 'PERP_RACE']->OFNS_DESC",1.0,1.0,1.0,False,2,0.25825825825825827
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'LAW_CAT_CD', 'PD_DESC', 'PERP_RACE']->PD_CD",0.98896902867945,1.0,1.0,False,4,0.43243243243243246
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'PD_DESC']->KY_CD",0.991650813682443,1.0,1.0,False,2,0.1041041041041041
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'PD_DESC']->OFNS_DESC",0.9928105075699363,1.0,1.0,False,2,0.1041041041041041
+arrest_data_to_data,hyfd,"['ARREST_BORO', 'PD_DESC']->OFNS_DESC",1.0,1.0,1.0,False,2,0.26126126126126126
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'PD_DESC']->OFNS_DESC",1.0,1.0,1.0,False,2,0.2222222222222222
+arrest_data_to_data,hyfd,['ARREST_PRECINCT']->ARREST_BORO,1.0,1.0,1.0,False,1,0.07707707707707707
+arrest_data_to_data,hyfd,"['AGE_GROUP', 'ARREST_PRECINCT', 'KY_CD', 'PERP_RACE']->LAW_CAT_CD",0.8609887708073747,1.0,1.0,False,4,0.9029029029029029
+arrest_data_to_data,hyfd,['KY_CD']->OFNS_DESC,0.9988711235570339,1.0,1.0,False,1,0.04904904904904905
+arrest_data_to_data,hyfd,"['LAW_CAT_CD', 'OFNS_DESC']->KY_CD",0.9921009283782098,1.0,1.0,False,2,0.05305305305305305

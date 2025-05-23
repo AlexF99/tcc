@@ -1,0 +1,12 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+hate_crimes,fdx,['Law Code Category Description']->Offense Description,0.19311058921784896,0.32136774936021145,0.4647800676714857,False,1,0.001228878648233487
+hate_crimes,fdx,"['Law Code Category Description', 'Offense Description']->PD Code Description",0.7057308349070834,0.7913734578956544,0.8315789473684211,False,2,0.007680491551459293
+hate_crimes,fdx,['Law Code Category Description']->Complaint Precinct Code,0.0005186502959567685,0.0032175596761137132,0.04337127037834512,False,1,0.001228878648233487
+hate_crimes,fdx,['Law Code Category Description']->County,0.0017515844544341297,0.0014135504108754192,0.3881882497693018,False,1,0.001228878648233487
+hate_crimes,fdx,"['Complaint Precinct Code', 'County']->Offense Category",0.088263843929265,0.09514410289353806,0.5443675267463813,False,2,0.023655913978494623
+hate_crimes,fdx,"['County', 'Offense Category']->Bias Motive Description",0.5689788317910712,0.6613506234435461,0.7826356589147286,False,2,0.009216589861751152
+hate_crimes,fdx,"['County', 'Bias Motive Description']->Arrest Date",0.0,0.14711049150529168,0.6324273072060683,False,2,0.02795698924731183
+hate_crimes,fdx,['Arrest Date']->Arrest Id,0.001244042143485058,0.8198302371918391,0.7385412514946194,False,1,0.22918586789554532
+hate_crimes,fdx,['County']->Patrol Borough Name,0.48754061149012584,0.6878559446227246,0.6387692307692308,False,1,0.0015360983102918587
+hate_crimes,fdx,['Complaint Precinct Code']->Full Complaint ID,0.0051427728823446595,0.0321852670951725,0.033983637507866586,False,1,0.023655913978494623
+hate_crimes,fdx,"['Complaint Precinct Code', 'Full Complaint ID']->Complaint Year Number",1.0,1.0,1.0,False,2,0.9188940092165898
