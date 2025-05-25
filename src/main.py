@@ -62,11 +62,8 @@ class CSVProcessor:
         self.algorithm.set("Pyro")  # Default selection
         self.algorithms = ["Pyro", "FDX"]
 
-        self.na_values = tk.StringVar()
-        self.na_values.set("empty")
-
-        self.sparsity = tk.DoubleVar()
-        self.sparsity.set(0.02)
+        self.na_values = "empty"
+        self.sparsity = 0.0
 
         self.algo_dropdown = ttk.Combobox(
             self.algo_frame,

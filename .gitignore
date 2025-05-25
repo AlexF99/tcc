@@ -3,6 +3,7 @@ metanome/results
 ecp/results
 metanome-cli/results
 profiler/data/
+src/data/
 *__pycache__
 .venv
 .vscode

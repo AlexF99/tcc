@@ -1,0 +1,9 @@
+name_prefix -> name_suffix
+name_prefix,name_suffix -> race
+name_prefix,name_suffix,race -> ethnic
+name_prefix,race -> download_month
+race,download_month -> register_date
+register_date -> street_address
+street_address -> city
+street_address,city -> last_name
+gender -> first_name
