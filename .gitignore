@@ -8,3 +8,5 @@ src/data/
 .venv
 .vscode
 src/metrics/metrics_results
+src/results
+src/metrics_results

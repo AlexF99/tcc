@@ -3,7 +3,8 @@ from tkinter import filedialog, messagebox, ttk
 import subprocess
 import threading
 import os
-from fdx_src import fdx
+from metrics.main import run_metrics
+# from fdx_src import fdx
 
 class CSVProcessor:
     def __init__(self, root):
@@ -11,9 +12,27 @@ class CSVProcessor:
         self.root.title("CSV File Processor")
         self.root.geometry("600x400")
         self.file_path = None
+        self.metrics_csv_path = None
+        self.metrics_fds_path = None
+        
+        # Create a notebook for tabs
+        self.notebook = ttk.Notebook(root)
+        self.notebook.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+        
+        # Create the processing tab
+        self.create_processing_tab()
+        
+        # Create the metrics tab
+        self.create_metrics_tab()
+    
+    def create_processing_tab(self):
+        """Create the main processing tab"""
+        # Create a frame for the processing tab
+        self.processing_frame = tk.Frame(self.notebook)
+        self.notebook.add(self.processing_frame, text="Processing")
         
         # Create a frame for the content
-        self.main_frame = tk.Frame(root, padx=20, pady=20)
+        self.main_frame = tk.Frame(self.processing_frame, padx=20, pady=20)
         self.main_frame.pack(fill=tk.BOTH, expand=True)
         
         # Add a label with instructions
@@ -123,6 +142,139 @@ class CSVProcessor:
         self.output_text.config(yscrollcommand=self.scrollbar.set)
         self.scrollbar.config(command=self.output_text.yview)
     
+    def create_metrics_tab(self):
+        """Create the metrics tab"""
+        # Create a frame for the metrics tab
+        self.metrics_frame = tk.Frame(self.notebook)
+        self.notebook.add(self.metrics_frame, text="Metrics")
+        
+        # Create a frame for the content
+        metrics_content = tk.Frame(self.metrics_frame, padx=20, pady=20)
+        metrics_content.pack(fill=tk.BOTH, expand=True)
+        
+        # Add a label for the metrics tab
+        metrics_label = tk.Label(
+            metrics_content,
+            text="Algorithm Performance Metrics",
+            font=("Arial", 14, "bold")
+        )
+        metrics_label.pack(pady=20)
+        
+        # CSV file selection section
+        csv_frame = tk.Frame(metrics_content)
+        csv_frame.pack(fill=tk.X, pady=10)
+        
+        self.csv_select_button = tk.Button(
+            csv_frame,
+            text="Select CSV File",
+            command=self.select_metrics_csv,
+            width=20,
+            height=2,
+            bg="#4CAF50",
+            fg="white",
+            font=("Arial", 10, "bold")
+        )
+        self.csv_select_button.pack(side=tk.LEFT, padx=(0, 10))
+        
+        self.csv_file_label = tk.Label(
+            csv_frame,
+            text="No CSV file selected",
+            font=("Arial", 10),
+            wraplength=300
+        )
+        self.csv_file_label.pack(side=tk.LEFT)
+        
+        # FDS file selection section
+        fds_frame = tk.Frame(metrics_content)
+        fds_frame.pack(fill=tk.X, pady=10)
+        
+        self.fds_select_button = tk.Button(
+            fds_frame,
+            text="Select FDS File",
+            command=self.select_metrics_fds,
+            width=20,
+            height=2,
+            bg="#FF9800",
+            fg="white",
+            font=("Arial", 10, "bold")
+        )
+        self.fds_select_button.pack(side=tk.LEFT, padx=(0, 10))
+        
+        self.fds_file_label = tk.Label(
+            fds_frame,
+            text="No FDS file selected",
+            font=("Arial", 10),
+            wraplength=300
+        )
+        self.fds_file_label.pack(side=tk.LEFT)
+        
+        # Add observation about file relationship
+        observation_label = tk.Label(
+            metrics_content,
+            text="Note: The FDS file must be related to the selected CSV dataset",
+            font=("Arial", 9, "italic"),
+            fg="orange"
+        )
+        observation_label.pack(pady=(10, 0))
+        
+        # Add run metrics button (disabled initially)
+        self.run_metrics_button = tk.Button(
+            metrics_content,
+            text="Run Metrics Analysis",
+            command=self.run_metrics_analysis,
+            width=20,
+            height=2,
+            state=tk.DISABLED,
+            bg="#9C27B0",
+            fg="white",
+            font=("Arial", 10, "bold")
+        )
+        self.run_metrics_button.pack(pady=20)
+        
+        # Add a progress bar for metrics (hidden initially)
+        self.metrics_progress = ttk.Progressbar(
+            metrics_content, 
+            orient="horizontal", 
+            length=400, 
+            mode="indeterminate"
+        )
+        
+        # Add metrics output text area
+        self.metrics_output_frame = tk.Frame(metrics_content)
+        self.metrics_output_frame.pack(fill=tk.BOTH, expand=True, pady=10)
+        
+        self.metrics_output_label = tk.Label(
+            self.metrics_output_frame,
+            text="Metrics Analysis Output:",
+            font=("Arial", 10)
+        )
+        self.metrics_output_label.pack(anchor=tk.W)
+        
+        self.metrics_output_text = tk.Text(
+            self.metrics_output_frame,
+            height=8,
+            width=50,
+            font=("Courier", 9),
+            wrap=tk.WORD,
+            state=tk.DISABLED
+        )
+        self.metrics_output_text.pack(fill=tk.BOTH, expand=True)
+        
+        # Add scrollbar to metrics output text
+        self.metrics_scrollbar = tk.Scrollbar(self.metrics_output_text)
+        self.metrics_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        self.metrics_output_text.config(yscrollcommand=self.metrics_scrollbar.set)
+        self.metrics_scrollbar.config(command=self.metrics_output_text.yview)
+        
+        # Placeholder content for metrics display
+        placeholder_label = tk.Label(
+            metrics_content,
+            text="Select files and run analysis to display metrics results",
+            font=("Arial", 10),
+            fg="gray"
+        )
+        placeholder_label.pack(pady=10)
+    
     def select_file(self):
         """Open a file dialog to select a CSV file"""
         file_path = filedialog.askopenfilename(
@@ -135,6 +287,38 @@ class CSVProcessor:
             self.file_path = file_path
             self.file_label.config(text=f"Selected: {os.path.basename(file_path)}")
             self.process_button.config(state=tk.NORMAL)
+    
+    def select_metrics_csv(self):
+        """Open a file dialog to select a CSV file for metrics"""
+        file_path = filedialog.askopenfilename(
+            title="Select CSV dataset for metrics",
+            filetypes=[("CSV files", "*.csv"), ("All files", "*.*")],
+            initialdir="../datasets"
+        )
+        
+        if file_path:
+            self.metrics_csv_path = file_path
+            self.csv_file_label.config(text=f"CSV: {os.path.basename(file_path)}")
+            self.check_metrics_files_selected()
+    
+    def select_metrics_fds(self):
+        """Open a file dialog to select an FDS file for metrics"""
+        file_path = filedialog.askopenfilename(
+            title="Select FDS file for metrics",
+            filetypes=[("FDS files", "*_fds"), ("All files", "*.*")],
+            initialdir="./results"
+        )
+        
+        if file_path:
+            self.metrics_fds_path = file_path
+            self.fds_file_label.config(text=f"FDS: {os.path.basename(file_path)}")
+            self.check_metrics_files_selected()
+    
+    def check_metrics_files_selected(self):
+        """Enable run metrics button if both files are selected"""
+        if hasattr(self, 'metrics_csv_path') and hasattr(self, 'metrics_fds_path'):
+            if self.metrics_csv_path and self.metrics_fds_path:
+                self.run_metrics_button.config(state=tk.NORMAL)
     
     def process_file(self):
         """Process the selected CSV file with the chosen algorithm"""
@@ -168,18 +352,18 @@ class CSVProcessor:
         try:
             self.update_output(f"Processing {os.path.basename(file_path)} with {algorithm}...\n")
 
-            if algorithm == "FDX":
-                fdx(file_path, na_values=self.na_values, sparsity=self.sparsity)
-            elif algorithm == "Pyro":
+            # if algorithm == "FDX":
+            #     fdx(file_path, na_values=self.na_values, sparsity=self.sparsity)
+            if algorithm == "Pyro":
                 script_name = "run_pyro.sh"
-                script_path = os.path.join("../metanome-cli", script_name)
+                script_path = os.path.join("./", script_name)
                 os.chmod(script_path, 0o755)
                 
                 script_dir = os.path.dirname(script_path)
                 
                 # Run the script and capture output
                 process = subprocess.Popen(
-                    [script_name, file_path],
+                    [script_path, file_path],
                     stdout=subprocess.PIPE,
                     stderr=subprocess.PIPE,
                     text=True,
@@ -215,6 +399,81 @@ class CSVProcessor:
         self.progress.stop()
         self.progress.pack_forget()
         self.process_button.config(state=tk.NORMAL)
+    
+    def run_metrics_analysis(self):
+        """Run the metrics analysis on the selected files"""
+        if not self.metrics_csv_path or not self.metrics_fds_path:
+            messagebox.showerror("Error", "Please select both CSV and FDS files")
+            return
+        
+        # Disable the button during processing
+        self.run_metrics_button.config(state=tk.DISABLED)
+        
+        # Show progress bar
+        self.metrics_progress.pack(pady=10)
+        self.metrics_progress.start()
+        
+        # Clear previous output
+        self.metrics_output_text.config(state=tk.NORMAL)
+        self.metrics_output_text.delete(1.0, tk.END)
+        self.metrics_output_text.config(state=tk.DISABLED)
+        
+        # Run the metrics analysis in a separate thread
+        metrics_thread = threading.Thread(
+            target=self.execute_metrics_analysis
+        )
+        metrics_thread.daemon = True
+        metrics_thread.start()
+    
+    def execute_metrics_analysis(self):
+        """Execute the metrics analysis"""
+        try:
+            # Determine source_type based on filename
+            source_type = "metanome" if "_fds" in os.path.basename(self.metrics_fds_path) else "fdx"
+            has_header = True  # Always true as specified
+            
+            self.update_metrics_output(f"Starting metrics analysis...\n")
+            self.update_metrics_output(f"CSV: {os.path.basename(self.metrics_csv_path)}\n")
+            self.update_metrics_output(f"FDS: {os.path.basename(self.metrics_fds_path)}\n")
+            self.update_metrics_output(f"Source type: {source_type}\n")
+            self.update_metrics_output(f"Has header: {has_header}\n\n")
+            
+            # Call the run_metrics function
+            results = run_metrics(
+                dataset_csv_file=self.metrics_csv_path,
+                fds_input_file=self.metrics_fds_path,
+                source_type=source_type,
+                hasHeader=has_header
+            )
+            
+            self.update_metrics_output("Metrics analysis completed successfully!\n\n")
+            self.update_metrics_output(f"Results saved to: {results['output_folder']}\n")
+            self.update_metrics_output(f"FDs CSV: {results['fds_csv_file']}\n")
+            self.update_metrics_output(f"Runtime CSV: {results['metrics_csv_file']}\n")
+            self.update_metrics_output(f"Total time: {results['total_time']:.2f} seconds\n")
+            self.update_metrics_output(f"Number of FDs processed: {results['num_fds']}\n")
+            
+        except Exception as e:
+            self.update_metrics_output(f"Error during metrics analysis: {str(e)}\n")
+        finally:
+            # Re-enable the button and hide progress bar
+            self.root.after(0, self.finish_metrics_processing)
+    
+    def update_metrics_output(self, text):
+        """Update the metrics output text area safely from any thread"""
+        def update():
+            self.metrics_output_text.config(state=tk.NORMAL)
+            self.metrics_output_text.insert(tk.END, text)
+            self.metrics_output_text.see(tk.END)
+            self.metrics_output_text.config(state=tk.DISABLED)
+        
+        self.root.after(0, update)
+    
+    def finish_metrics_processing(self):
+        """Clean up after metrics processing is done"""
+        self.metrics_progress.stop()
+        self.metrics_progress.pack_forget()
+        self.run_metrics_button.config(state=tk.NORMAL)
 
 if __name__ == "__main__":
     root = tk.Tk()
