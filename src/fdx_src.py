@@ -27,10 +27,10 @@ def fdx(dataset_path, na_values="empty", sparsity=0.0):
     # pf.session.timer.to_csv()
     return parent_sets
 
-
 if __name__ == "__main__":
     fdx(
         dataset_path="../datasets/new_datasets/hate_crimes.csv",
         na_values="empty",
         sparsity=0.02,
     )
+    print("Hello")
