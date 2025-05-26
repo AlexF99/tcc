@@ -6,8 +6,12 @@ import os
 from metrics.main import run_metrics
 from pandastable import Table
 import pandas as pd
+try:
+    from fdx_src import fdx
+except:
+    print("Warning: Could not import fdx_src module. FDX functionality will not be available.")
+    fdx = None
 
-# from fdx_src import fdx
 
 class CSVProcessor:
     def __init__(self, root):
@@ -408,9 +412,9 @@ class CSVProcessor:
         try:
             self.update_output(f"Processing {os.path.basename(file_path)} with {algorithm}...\n")
 
-            # if algorithm == "FDX":
-            #     fdx(file_path, na_values=self.na_values, sparsity=self.sparsity)
-            if algorithm == "Pyro":
+            if algorithm == "FDX":
+                fdx(file_path, na_values=self.na_values, sparsity=self.sparsity)
+            elif algorithm == "Pyro":
                 script_name = "run_pyro.sh"
                 script_path = os.path.join("./", script_name)
                 os.chmod(script_path, 0o755)
