@@ -13,7 +13,10 @@ class CSVProcessor:
     def __init__(self, root):
         self.root = root
         self.root.title("CSV File Processor")
-        self.root.geometry("600x400")
+        
+        # self.root.state('zoomed')  # For Windows
+        self.root.attributes('-zoomed', True) # For Linux/Mac
+        
         self.file_path = None
         self.metrics_csv_path = None
         self.metrics_fds_path = None
