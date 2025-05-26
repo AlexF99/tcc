@@ -25,12 +25,8 @@ class CSVProcessor:
         self.notebook = ttk.Notebook(root)
         self.notebook.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
         
-        # Create the processing tab
         self.create_processing_tab()
-        
-        # Create the metrics tab
         self.create_metrics_tab()
-
         self.create_views_tab()
 
     def create_views_tab(self):
@@ -555,16 +551,91 @@ class CSVProcessor:
                 # Load the CSV into a pandas DataFrame
                 df = pd.read_csv(file_path)
                 
-                # Create the pandastable
-                self.pt = Table(self.table_frame, dataframe=df)
-                self.pt.show()
+                # Create a container frame to hold table and plot side by side
+                container_frame = tk.Frame(self.table_frame)
+                container_frame.pack(fill=tk.BOTH, expand=True)
                 
-                # Add a scrollbar if needed
+                # Create left frame for table (65% width)
+                table_frame = tk.Frame(container_frame)
+                table_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 5))
+                table_frame.config(width=int(self.table_frame.winfo_width() * 0.65))
+                
+                # Create right frame for plot (35% width)
+                plot_frame = tk.Frame(container_frame)
+                plot_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=(5, 0))
+                plot_frame.config(width=int(self.table_frame.winfo_width() * 0.35))
+                
+                # Create the pandastable in the table frame
+                self.pt = Table(table_frame, dataframe=df)
+                self.pt.show()
                 self.pt.showIndex()
                 self.pt.redraw()
                 
+                # Create the KDE plot in the plot frame
+                self.create_kde_plot(plot_frame, df)
+                
             except Exception as e:
                 messagebox.showerror("Error", f"Could not load the CSV file: {str(e)}")
+
+    def create_kde_plot(self, parent_frame, df):
+        """Create a KDE distribution plot with the data"""
+        try:
+            # Import matplotlib and configure it for tkinter
+            import matplotlib
+            matplotlib.use("TkAgg")
+            from matplotlib.figure import Figure
+            from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+            import numpy as np
+            
+            # Create plot title and frame
+            plot_title = tk.Label(parent_frame, text="Metrics Distribution", font=("Arial", 10, "bold"))
+            plot_title.pack(pady=(0, 5))
+            
+            # Create matplotlib figure and axis
+            fig = Figure(figsize=(5, 4), dpi=100)
+            ax = fig.add_subplot(111)
+            
+            # Select numeric columns for plotting (up to 3)
+            numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+            cols_to_plot = numeric_cols[:3]  # Take up to 3 numeric columns
+            
+            if not cols_to_plot:
+                # No numeric columns found
+                error_label = tk.Label(parent_frame, text="No numeric columns found for plotting",
+                                      font=("Arial", 10), fg="red")
+                error_label.pack(pady=20)
+                return
+            
+            # Plot KDE for each selected column
+            colors = ['blue', 'red', 'green']
+            for i, col in enumerate(cols_to_plot):
+                # Only plot if data exists and is valid
+                if df[col].notna().any():
+                    df[col].plot.kde(ax=ax, color=colors[i], label=col)
+            
+            # Set fixed x-axis range from 0 to 1
+            ax.set_xlim(0, 1)
+            
+            ax.set_title("KDE Distribution Plot")
+            ax.set_xlabel("Value")
+            ax.set_ylabel("Density")
+            ax.legend()
+            
+            # Create a canvas to display the plot in tkinter
+            canvas = FigureCanvasTkAgg(fig, master=parent_frame)
+            canvas.draw()
+            canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
+            
+            # Add a note about the plot
+            note_text = "Showing distribution of up to 3 numeric columns"
+            note = tk.Label(parent_frame, text=note_text, font=("Arial", 8, "italic"), fg="gray")
+            note.pack(pady=(5, 0))
+            
+        except Exception as e:
+            # If plotting fails, show error message
+            error_label = tk.Label(parent_frame, text=f"Could not create plot: {str(e)}",
+                                  font=("Arial", 10), fg="red", wraplength=200)
+            error_label.pack(pady=20)
 
 if __name__ == "__main__":
     root = tk.Tk()
