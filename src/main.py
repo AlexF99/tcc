@@ -4,6 +4,9 @@ import subprocess
 import threading
 import os
 from metrics.main import run_metrics
+from pandastable import Table
+import pandas as pd
+
 # from fdx_src import fdx
 
 class CSVProcessor:
@@ -24,6 +27,60 @@ class CSVProcessor:
         
         # Create the metrics tab
         self.create_metrics_tab()
+
+        self.create_views_tab()
+
+    def create_views_tab(self):
+        """Create the views tab"""
+        self.views_frame = tk.Frame(self.notebook)
+        self.notebook.add(self.views_frame, text="Views")
+        
+        # Create a frame for the content
+        views_content = tk.Frame(self.views_frame, padx=20, pady=20)
+        views_content.pack(fill=tk.BOTH, expand=True)
+        
+        # Add a label with instructions
+        self.views_label = tk.Label(
+            views_content, 
+            text="Select a CSV file to view",
+            font=("Arial", 12)
+        )
+        self.views_label.pack(pady=10)
+        
+        # Add a button to select the file
+        self.view_select_button = tk.Button(
+            views_content,
+            text="Choose CSV File",
+            command=self.select_view_file,
+            width=20,
+            height=2,
+            bg="#4CAF50",
+            fg="white",
+            font=("Arial", 10, "bold")
+        )
+        self.view_select_button.pack(pady=10)
+        
+        # Add a label to display the selected file path
+        self.view_file_label = tk.Label(
+            views_content,
+            text="No file selected",
+            font=("Arial", 10),
+            wraplength=400
+        )
+        self.view_file_label.pack(pady=10)
+        
+        # Create a frame for the table
+        self.table_frame = tk.Frame(views_content)
+        self.table_frame.pack(fill=tk.BOTH, expand=True, pady=10)
+        
+        # Create a placeholder for the table
+        self.placeholder_label = tk.Label(
+            self.table_frame,
+            text="Select a CSV file to display data",
+            font=("Arial", 10),
+            fg="gray"
+        )
+        self.placeholder_label.pack(pady=20)
     
     def create_processing_tab(self):
         """Create the main processing tab"""
@@ -474,6 +531,37 @@ class CSVProcessor:
         self.metrics_progress.stop()
         self.metrics_progress.pack_forget()
         self.run_metrics_button.config(state=tk.NORMAL)
+
+    def select_view_file(self):
+        """Open a file dialog to select a CSV file to view"""
+        file_path = filedialog.askopenfilename(
+            title="Select CSV file to view",
+            filetypes=[("CSV files", "*.csv"), ("All files", "*.*")],
+            initialdir="./metrics_results"
+        )
+        
+        if file_path:
+            try:
+                # Update the label with selected file
+                self.view_file_label.config(text=f"Selected: {os.path.basename(file_path)}")
+                
+                # Clear the table frame
+                for widget in self.table_frame.winfo_children():
+                    widget.destroy()
+                
+                # Load the CSV into a pandas DataFrame
+                df = pd.read_csv(file_path)
+                
+                # Create the pandastable
+                self.pt = Table(self.table_frame, dataframe=df)
+                self.pt.show()
+                
+                # Add a scrollbar if needed
+                self.pt.showIndex()
+                self.pt.redraw()
+                
+            except Exception as e:
+                messagebox.showerror("Error", f"Could not load the CSV file: {str(e)}")
 
 if __name__ == "__main__":
     root = tk.Tk()
