@@ -532,50 +532,84 @@ class CSVProcessor:
         self.run_metrics_button.config(state=tk.NORMAL)
 
     def select_view_file(self):
-        """Open a file dialog to select a CSV file to view"""
-        file_path = filedialog.askopenfilename(
-            title="Select CSV file to view",
-            filetypes=[("CSV files", "*.csv"), ("All files", "*.*")],
-            initialdir="./metrics_results"
-        )
+        """Open file dialogs to select multiple CSV files to view, possibly from different directories"""
+        all_files = []
         
-        if file_path:
-            try:
-                # Update the label with selected file
-                self.view_file_label.config(text=f"Selected: {os.path.basename(file_path)}")
-                
-                # Clear the table frame
-                for widget in self.table_frame.winfo_children():
-                    widget.destroy()
-                
-                # Load the CSV into a pandas DataFrame
+        while True:
+            file_paths = filedialog.askopenfilenames(
+                title="Select CSV file(s) to view (Cancel when done)",
+                filetypes=[("CSV files", "*.csv"), ("All files", "*.*")],
+                initialdir="./metrics_results"
+            )
+            
+            if not file_paths:  # User clicked Cancel
+                break
+            
+            all_files.extend(file_paths)
+            
+            continue_selecting = messagebox.askyesno(
+                "Continue Selection?", 
+                f"Added {len(file_paths)} file(s). Select more files from another directory?"
+            )
+            
+            if not continue_selecting:
+                break
+        
+        if all_files:
+            self.process_selected_files(all_files)
+
+    def process_selected_files(self, file_paths):
+        """Process the selected CSV files"""
+        try:
+            # Update the label with selected files
+            if len(file_paths) == 1:
+                self.view_file_label.config(text=f"Selected: {os.path.basename(file_paths[0])}")
+            else:
+                self.view_file_label.config(text=f"Selected: {len(file_paths)} files")
+            
+            # Clear the table frame
+            for widget in self.table_frame.winfo_children():
+                widget.destroy()
+            
+            # Load and merge the CSV files into a pandas DataFrame
+            dfs = []
+            for file_path in file_paths:
                 df = pd.read_csv(file_path)
-                
-                # Create a container frame to hold table and plot side by side
-                container_frame = tk.Frame(self.table_frame)
-                container_frame.pack(fill=tk.BOTH, expand=True)
-                
-                # Create left frame for table (65% width)
-                table_frame = tk.Frame(container_frame)
-                table_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 5))
-                table_frame.config(width=int(self.table_frame.winfo_width() * 0.65))
-                
-                # Create right frame for plot (35% width)
-                plot_frame = tk.Frame(container_frame)
-                plot_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=(5, 0))
-                plot_frame.config(width=int(self.table_frame.winfo_width() * 0.35))
-                
-                # Create the pandastable in the table frame
-                self.pt = Table(table_frame, dataframe=df)
-                self.pt.show()
-                self.pt.showIndex()
-                self.pt.redraw()
-                
-                # Create the KDE plot in the plot frame
-                self.create_kde_plot(plot_frame, df)
-                
-            except Exception as e:
-                messagebox.showerror("Error", f"Could not load the CSV file: {str(e)}")
+                # Add filename as a column to identify source
+                df['source_file'] = os.path.basename(file_path)
+                dfs.append(df)
+            
+            # Combine all dataframes
+            if len(dfs) > 1:
+                df = pd.concat(dfs, ignore_index=True)
+            else:
+                df = dfs[0]
+            
+            # Create a container frame to hold table and plot side by side
+            container_frame = tk.Frame(self.table_frame)
+            container_frame.pack(fill=tk.BOTH, expand=True)
+            
+            # Create left frame for table (65% width)
+            table_frame = tk.Frame(container_frame)
+            table_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 5))
+            table_frame.config(width=int(self.table_frame.winfo_width() * 0.65))
+            
+            # Create right frame for plot (35% width)
+            plot_frame = tk.Frame(container_frame)
+            plot_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=(5, 0))
+            plot_frame.config(width=int(self.table_frame.winfo_width() * 0.35))
+            
+            # Create the pandastable in the table frame
+            self.pt = Table(table_frame, dataframe=df)
+            self.pt.show()
+            self.pt.showIndex()
+            self.pt.redraw()
+            
+            # Create the KDE plot in the plot frame
+            self.create_kde_plot(plot_frame, df)
+            
+        except Exception as e:
+            messagebox.showerror("Error", f"Could not load the CSV file(s): {str(e)}")
 
     def create_kde_plot(self, parent_frame, df):
         """Create a KDE distribution plot with the data"""
