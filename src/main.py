@@ -414,6 +414,8 @@ class CSVProcessor:
 
             if algorithm == "FDX":
                 fdx(file_path, na_values=self.na_values, sparsity=self.sparsity)
+                self.update_output(f"FDX finished.")
+
             elif algorithm == "Pyro":
                 script_name = "run_pyro.sh"
                 script_path = os.path.join("./", script_name)

@@ -19,16 +19,6 @@ def run_metrics(dataset_csv_file, fds_input_file, source_type, hasHeader, output
     Returns:
         dict: Results containing output paths and metrics
     """
-    dir_name = datetime.now().strftime("%d-%m-%Y-%H-%M-%S")
-    if output_dir_name:
-        dir_name = output_dir_name.split(".csv")[0]
-    output_folder = os.path.join("metrics_results", dir_name)
-
-    print(f"Output folder: {output_folder}")
-    
-    # Extract dataset name from the CSV file path
-    dataset = os.path.basename(dataset_csv_file).split(".csv")[0]
-    
     # Extract algorithm from FDS filename if metanome, otherwise from output folder or default
     if source_type == "metanome":
         # For metanome, FDS file follows pattern: algorithmname_dataset_fds
@@ -38,12 +28,15 @@ def run_metrics(dataset_csv_file, fds_input_file, source_type, hasHeader, output
             algorithm = fds_filename.split("_")[0]
         else:
             algorithm = "unknown"
-    elif output_dir_name:
-        algorithm = output_folder.split("/")[1].split("-")[0]
     else:
-        algorithm = "unknown"
+        algorithm = "fdx"
 
-    print(dataset);
+    dataset = os.path.basename(dataset_csv_file).split(".csv")[0]
+
+    dir_name = datetime.now().strftime("%d-%m-%Y-%H-%M-%S-") + algorithm + "-" + dataset
+    if output_dir_name:
+        dir_name = output_dir_name.split(".csv")[0]
+    output_folder = os.path.join("metrics_results", dir_name)
 
     os.makedirs(output_folder, exist_ok=True)
 
