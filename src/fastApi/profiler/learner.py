@@ -187,14 +187,14 @@ class StructureLearner(object):
 
         def get_dependencies_helper(U_hat, s_func, write_to=None, by_col=True):
             parent_sets = {}
-            if write_to is not None:
-                if by_col:
-                    file_name = write_to + "_by_col"
-                else:
-                    file_name = write_to + "_by_row"
+            # if write_to is not None:
+            #     if by_col:
+            #         file_name = write_to + "_by_col"
+            #     else:
+            #         file_name = write_to + "_by_row"
                 # MUDANÇA FEITA PELO ALEXANDRE (precisava criar diretorio e arquivo de saida):
-                os.makedirs(os.path.dirname(file_name + ".txt"), exist_ok=True)
-                fd_file = open(file_name + ".txt", 'w')
+                # os.makedirs(os.path.dirname(file_name + ".txt"), exist_ok=True)
+                # fd_file = open(file_name + ".txt", 'w')
                 # attr_file = open(file_name + "_attr.txt", 'w')
             
             # for i, attr in enumerate(U_hat):
@@ -211,10 +211,10 @@ class StructureLearner(object):
                     parent_sets[attr] = parents
                 if len(parents) > 0:
                     s, _ = s_func((parents, attr))
-                    fd_file.write("{} -> {}\n".format(",".join(parents), attr))
+                    # fd_file.write("{} -> {}\n".format(",".join(parents), attr))
                     # attr_file.write(attr + "\n")
                     print("{} -> {} ({})".format(",".join(parents), attr, s))
-            fd_file.close()
+            # fd_file.close()
             # attr_file.close()
             return parent_sets
 

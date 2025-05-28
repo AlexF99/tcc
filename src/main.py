@@ -6,11 +6,7 @@ import os
 from metrics.main import run_metrics
 from pandastable import Table
 import pandas as pd
-try:
-    from fdx_src import fdx
-except:
-    print("Warning: Could not import fdx_src module. FDX functionality will not be available.")
-    fdx = None
+import requests
 
 
 class CSVProcessor:
@@ -413,7 +409,27 @@ class CSVProcessor:
             self.update_output(f"Processing {os.path.basename(file_path)} with {algorithm}...\n")
 
             if algorithm == "FDX":
-                fdx(file_path, na_values=self.na_values, sparsity=self.sparsity)
+                # fdx(file_path, na_values=self.na_values, sparsity=self.sparsity)
+                url = "http://localhost:8000/profile-file/"
+                files = {"file": open(file_path, "rb")}
+
+                response = requests.post(url, files=files)
+
+                fds = response.json()['fds']
+                dataset_name = response.json()['dataset_name']
+
+                # Create results directory if it doesn't exist
+                os.makedirs("results", exist_ok=True)
+                
+                # Write FDs to file
+                result_file_path = f"results/fdx-{dataset_name}.txt"
+                with open(result_file_path, 'w') as f:
+                    for fd in fds:
+                        f.write(f"{fd}\n")
+                
+                self.update_output(f"Results saved to {result_file_path}")
+
+                # self.update_output(response.json())
                 self.update_output(f"FDX finished.")
 
             elif algorithm == "Pyro":

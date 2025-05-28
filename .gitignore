@@ -10,3 +10,5 @@ src/data/
 src/metrics/metrics_results
 src/results
 src/metrics_results
+src/fastApi/data/
+src/fastApi/results/
