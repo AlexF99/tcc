@@ -139,6 +139,7 @@ class CSVProcessor:
 
         self.na_values = "empty"
         self.sparsity = 0.002
+        self.error_rate = 0.01
 
         self.algo_dropdown = ttk.Combobox(
             self.algo_frame,
@@ -148,6 +149,14 @@ class CSVProcessor:
             width=20
         )
         self.algo_dropdown.pack(side=tk.LEFT)
+        self.algo_dropdown.bind("<<ComboboxSelected>>", self.update_config_fields)
+        
+        # Create a frame for algorithm configuration
+        self.config_frame = tk.Frame(self.main_frame)
+        self.config_frame.pack(pady=10, fill=tk.X)
+        
+        # Initial config fields
+        self.create_config_fields("Pyro")
         
         # Add a button to process the file (disabled initially)
         self.process_button = tk.Button(
@@ -446,6 +455,9 @@ class CSVProcessor:
                 
                 script_dir = os.path.dirname(script_path)
                 
+                # Include error rate parameter
+                self.update_output(f"Using error rate: {self.error_rate}")
+                
                 # Run the script and capture output
                 process = subprocess.Popen(
                     [script_path, file_path],
@@ -630,6 +642,98 @@ class CSVProcessor:
             
         except Exception as e:
             messagebox.showerror("Error", f"Could not load the CSV file(s): {str(e)}")
+
+    def update_config_fields(self, event=None):
+        """Update configuration fields based on selected algorithm"""
+        # Clear existing config fields
+        for widget in self.config_frame.winfo_children():
+            widget.destroy()
+        
+        # Create new config fields for the selected algorithm
+        selected_algorithm = self.algorithm.get()
+        self.create_config_fields(selected_algorithm)
+    
+    def create_config_fields(self, algorithm):
+        """Create configuration fields for the specified algorithm"""
+        if algorithm == "Pyro":
+            # Configuration for Pyro
+            error_label = tk.Label(
+                self.config_frame,
+                text="Error Rate:",
+                font=("Arial", 10)
+            )
+            error_label.grid(row=0, column=0, padx=(0, 10), pady=5, sticky=tk.W)
+            
+            self.error_rate_var = tk.StringVar(value=str(self.error_rate))
+            error_entry = tk.Entry(
+                self.config_frame,
+                textvariable=self.error_rate_var,
+                width=10
+            )
+            error_entry.grid(row=0, column=1, pady=5, sticky=tk.W)
+            
+            # Bind validation and update function
+            error_entry.bind("<FocusOut>", self.update_pyro_config)
+            error_entry.bind("<Return>", self.update_pyro_config)
+            
+        elif algorithm == "FDX":
+            # Configuration for FDX
+            sparsity_label = tk.Label(
+                self.config_frame,
+                text="Sparsity:",
+                font=("Arial", 10)
+            )
+            sparsity_label.grid(row=0, column=0, padx=(0, 10), pady=5, sticky=tk.W)
+            
+            self.sparsity_var = tk.StringVar(value=str(self.sparsity))
+            sparsity_entry = tk.Entry(
+                self.config_frame,
+                textvariable=self.sparsity_var,
+                width=10
+            )
+            sparsity_entry.grid(row=0, column=1, pady=5, sticky=tk.W)
+            
+            na_label = tk.Label(
+                self.config_frame,
+                text="NA Values:",
+                font=("Arial", 10)
+            )
+            na_label.grid(row=1, column=0, padx=(0, 10), pady=5, sticky=tk.W)
+            
+            self.na_values_var = tk.StringVar(value=self.na_values)
+            na_entry = tk.Entry(
+                self.config_frame,
+                textvariable=self.na_values_var,
+                width=15
+            )
+            na_entry.grid(row=1, column=1, pady=5, sticky=tk.W)
+            
+            # Bind validation and update functions
+            sparsity_entry.bind("<FocusOut>", self.update_fdx_config)
+            sparsity_entry.bind("<Return>", self.update_fdx_config)
+            na_entry.bind("<FocusOut>", self.update_fdx_config)
+            na_entry.bind("<Return>", self.update_fdx_config)
+    
+    def update_pyro_config(self, event=None):
+        """Update Pyro configuration when fields change"""
+        try:
+            self.error_rate = float(self.error_rate_var.get())
+            if self.error_rate < 0 or self.error_rate > 1:
+                raise ValueError("Error rate must be between 0 and 1")
+        except ValueError as e:
+            messagebox.showerror("Invalid Input", str(e))
+            self.error_rate_var.set(str(self.error_rate))  # Reset to previous value
+    
+    def update_fdx_config(self, event=None):
+        """Update FDX configuration when fields change"""
+        try:
+            self.sparsity = float(self.sparsity_var.get())
+            if self.sparsity < 0 or self.sparsity > 1:
+                raise ValueError("Sparsity must be between 0 and 1")
+            self.na_values = self.na_values_var.get()
+        except ValueError as e:
+            messagebox.showerror("Invalid Input", str(e))
+            self.sparsity_var.set(str(self.sparsity))  # Reset to previous value
 
 if __name__ == "__main__":
     root = tk.Tk()
