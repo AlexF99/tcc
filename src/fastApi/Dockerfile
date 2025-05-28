@@ -25,5 +25,5 @@ RUN mkdir -p results data
 # Expose port 8000
 EXPOSE 8000
 
-# Command to run the application
+# Instead of a fixed CMD, use ENTRYPOINT to allow override from docker-compose
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"] 
