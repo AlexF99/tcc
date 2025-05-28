@@ -9,32 +9,10 @@ import os
 
 app = FastAPI(title="Data Profiler API", description="API for data profiling and dependency analysis")
 
-class ProfilerRequest(BaseModel):
-    dataset_path: str
-    na_values: str = "empty"
-    sparsity: float = 0.0
-
 class ProfilerResponse(BaseModel):
     fds: List[str]
     dataset_name: str
 
-@app.post("/profile", response_model=ProfilerResponse)
-def profile_dataset(request: ProfilerRequest = Body(...)):
-    try:
-        parent_sets = fdx(
-            dataset_path=request.dataset_path,
-            na_values=request.na_values,
-            sparsity=request.sparsity
-        )
-        
-        dataset_name = request.dataset_path.split("/")[-1].split(".")[0]
-        
-        return ProfilerResponse(
-            parent_sets=parent_sets,
-            dataset_name=dataset_name
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error processing dataset: {str(e)}")
 
 @app.post("/profile-file", response_model=ProfilerResponse)
 async def profile_dataset_from_file(
@@ -42,6 +20,8 @@ async def profile_dataset_from_file(
     na_values: str = "empty",
     sparsity: float = 0.0
 ):
+    print(f"Received sparsityyyy: {sparsity}")
+    print(f"Received na_values: {na_values}")
     try:
         # Create a temporary file to save the uploaded CSV
         with tempfile.NamedTemporaryFile(delete=False, suffix='.csv') as temp_file:

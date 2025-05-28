@@ -138,7 +138,7 @@ class CSVProcessor:
         self.algorithms = ["Pyro", "FDX"]
 
         self.na_values = "empty"
-        self.sparsity = 0.0
+        self.sparsity = 0.002
 
         self.algo_dropdown = ttk.Combobox(
             self.algo_frame,
@@ -412,8 +412,15 @@ class CSVProcessor:
                 # fdx(file_path, na_values=self.na_values, sparsity=self.sparsity)
                 url = "http://localhost:8000/profile-file/"
                 files = {"file": open(file_path, "rb")}
-
-                response = requests.post(url, files=files)
+                form_data = {
+                    "na_values": self.na_values,
+                    "sparsity": self.sparsity
+                }
+                response = requests.post(
+                    url, 
+                    files=files, 
+                    params=form_data
+                )
 
                 fds = response.json()['fds']
                 dataset_name = response.json()['dataset_name']
