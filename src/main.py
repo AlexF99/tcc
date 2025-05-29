@@ -460,7 +460,7 @@ class CSVProcessor:
                 
                 # Run the script and capture output
                 process = subprocess.Popen(
-                    [script_path, file_path],
+                    [script_path, file_path, str(self.error_rate)],
                     stdout=subprocess.PIPE,
                     stderr=subprocess.PIPE,
                     text=True,
@@ -675,6 +675,7 @@ class CSVProcessor:
             # Bind validation and update function
             error_entry.bind("<FocusOut>", self.update_pyro_config)
             error_entry.bind("<Return>", self.update_pyro_config)
+            self.error_rate_var.trace_add("write", lambda name, index, mode: self.update_pyro_config())
             
         elif algorithm == "FDX":
             # Configuration for FDX
@@ -711,8 +712,11 @@ class CSVProcessor:
             # Bind validation and update functions
             sparsity_entry.bind("<FocusOut>", self.update_fdx_config)
             sparsity_entry.bind("<Return>", self.update_fdx_config)
+            self.sparsity_var.trace_add("write", lambda name, index, mode: self.update_fdx_config())
+            
             na_entry.bind("<FocusOut>", self.update_fdx_config)
             na_entry.bind("<Return>", self.update_fdx_config)
+            self.na_values_var.trace_add("write", lambda name, index, mode: self.update_fdx_config())
     
     def update_pyro_config(self, event=None):
         """Update Pyro configuration when fields change"""
