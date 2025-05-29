@@ -135,7 +135,7 @@ class CSVProcessor:
         
         self.algorithm = tk.StringVar()
         self.algorithm.set("Pyro")  # Default selection
-        self.algorithms = ["Pyro", "FDX"]
+        self.algorithms = ["Pyro", "FDX", "HyFD"]
 
         self.na_values = "empty"
         self.sparsity = 0.002
@@ -468,6 +468,26 @@ class CSVProcessor:
                     cwd=script_dir
                 )
                 
+                stdout, stderr = process.communicate()
+                self.update_output(f"Output:\n{stdout}")
+                self.update_output(f"Error:\n{stderr}")
+
+            elif algorithm == "HyFD":
+                script_name = "run_hyfd.sh"
+                script_path = os.path.join("./", script_name)
+                print(script_path)
+                os.chmod(script_path, 0o755)
+                
+                script_dir = os.path.dirname(script_path)
+                
+                process = subprocess.Popen(
+                    [script_path, file_path], 
+                    stdout=subprocess.PIPE, 
+                    stderr=subprocess.PIPE, 
+                    text=True, 
+                    shell=False, 
+                    cwd=script_dir
+                )
                 stdout, stderr = process.communicate()
                 self.update_output(f"Output:\n{stdout}")
                 self.update_output(f"Error:\n{stderr}")
