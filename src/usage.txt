@@ -15,6 +15,27 @@ HyFD:
 	--file-key INPUT_GENERATOR \
 	--separator ","
 
+FDX:
+	cd fastApi
+	sudo docker compose build
+	sudo docker compose up
+	hit POST endpoint localhost:8000/profile-file with file and parameters
+	example with requests lib:
+	url = "http://localhost:8000/profile-file/"
+	files = {"file": open(file_path, "rb")}
+	form_data = {
+		"na_values": self.na_values,
+		"sparsity": self.sparsity
+	}
+	response = requests.post(
+		url, 
+		files=files, 
+		params=form_data
+	)
+
+	fds = response.json()['fds']
+	dataset_name = response.json()['dataset_name']
+
 Obs:
  - Cada algoritmo possui um --file-key diferente - precisa ver no código qual é
 
