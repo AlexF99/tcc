@@ -1,0 +1,47 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+leading_causes_of_death,pyro,['Age_Adjusted_Death_Rate float']->Death_Rate float,0.5256066816440367,0.7620465583850865,0.5892053973013494,False,1,0.3903107861060329
+leading_causes_of_death,pyro,"['Death_Rate float', 'Leading_Cause str']->Deaths int",0.17085320773138046,0.27751647657293804,0.29691211401425177,False,2,0.6151736745886655
+leading_causes_of_death,pyro,"['Deaths int', 'Year int']->Leading_Cause str",0.0,0.0,0.09395973154362416,False,2,0.7276051188299817
+leading_causes_of_death,pyro,"['Deaths int', 'Leading_Cause str']->Year int",0.0,0.0,0.15040650406504066,False,2,0.7751371115173674
+leading_causes_of_death,pyro,['Deaths int']->Sex str,0.020494143955416266,0.015065138094338425,0.5961844197138315,False,1,0.4250457038391225
+leading_causes_of_death,pyro,['Deaths int']->Race_Ethnicity str,0.3006151348409045,0.4291356314326142,0.5007949125596184,False,1,0.4250457038391225
+leading_causes_of_death,pyro,['Death_Rate float']->Age_Adjusted_Death_Rate float,0.5383148109735565,0.765894793573312,0.602760736196319,False,1,0.4040219378427788
+leading_causes_of_death,pyro,['Deaths int']->Age_Adjusted_Death_Rate float,0.3968142440091599,0.574099663886204,0.5039745627980922,False,1,0.4250457038391225
+leading_causes_of_death,pyro,['Deaths int']->Death_Rate float,0.41965908607394464,0.5981296725650139,0.534181240063593,False,1,0.4250457038391225
+leading_causes_of_death,pyro,"['Age_Adjusted_Death_Rate float', 'Leading_Cause str']->Sex str",0.1073300769995218,0.10404850773471966,0.5985915492957746,False,2,0.6106032906764168
+leading_causes_of_death,pyro,"['Death_Rate float', 'Leading_Cause str']->Race_Ethnicity str",0.41404639019390244,0.5850293752169277,0.5605700712589073,False,2,0.6151736745886655
+leading_causes_of_death,pyro,"['Death_Rate float', 'Leading_Cause str']->Year int",0.0,0.0,0.1163895486935867,False,2,0.6151736745886655
+leading_causes_of_death,pyro,"['Leading_Cause str', 'Year int']->Death_Rate float",0.0,0.0,0.2543103448275862,False,2,0.15173674588665448
+leading_causes_of_death,pyro,"['Age_Adjusted_Death_Rate float', 'Leading_Cause str']->Deaths int",0.16064474981648047,0.27140099702962406,0.284037558685446,False,2,0.6106032906764168
+leading_causes_of_death,pyro,"['Death_Rate float', 'Leading_Cause str']->Sex str",0.08090486705969102,0.07878107212351436,0.5843230403800475,False,2,0.6151736745886655
+leading_causes_of_death,pyro,"['Leading_Cause str', 'Year int']->Age_Adjusted_Death_Rate float",0.0,0.0,0.25538793103448276,False,2,0.15173674588665448
+leading_causes_of_death,pyro,"['Age_Adjusted_Death_Rate float', 'Leading_Cause str']->Race_Ethnicity str",0.373528310653784,0.5538346298787072,0.5258215962441315,False,2,0.6106032906764168
+leading_causes_of_death,pyro,"['Death_Rate float', 'Race_Ethnicity str', 'Year int']->Leading_Cause str",0.0,0.0,0.04071246819338423,False,3,0.6407678244972578
+leading_causes_of_death,pyro,"['Leading_Cause str', 'Year int']->Sex str",0.0,0.0,0.5150862068965517,False,2,0.15173674588665448
+leading_causes_of_death,pyro,"['Leading_Cause str', 'Race_Ethnicity str']->Death_Rate float",0.2557693979327317,0.16017324797967855,0.3709349593495935,False,2,0.10054844606946983
+leading_causes_of_death,pyro,"['Leading_Cause str', 'Race_Ethnicity str']->Age_Adjusted_Death_Rate float",0.25312483104793204,0.1517417347752757,0.3628048780487805,False,2,0.10054844606946983
+leading_causes_of_death,pyro,"['Age_Adjusted_Death_Rate float', 'Year int']->Race_Ethnicity str",0.3658177171091791,0.5696120287204972,0.4988235294117647,False,2,0.6115173674588665
+leading_causes_of_death,pyro,"['Death_Rate float', 'Year int']->Race_Ethnicity str",0.37304376893095637,0.5725557214778335,0.5080459770114942,False,2,0.6023765996343693
+leading_causes_of_death,pyro,"['Deaths int', 'Sex str']->Year int",0.01866617477217769,0.024808289066338154,0.199203187250996,False,2,0.5411334552102377
+leading_causes_of_death,pyro,"['Deaths int', 'Sex str']->Leading_Cause str",0.03875754714178237,0.011344906603805455,0.15338645418326693,False,2,0.5411334552102377
+leading_causes_of_death,pyro,"['Age_Adjusted_Death_Rate float', 'Race_Ethnicity str', 'Year int']->Deaths int",0.1563153156666881,0.2870635312595413,0.3333333333333333,False,3,0.6489945155393053
+leading_causes_of_death,pyro,"['Death_Rate float', 'Race_Ethnicity str', 'Year int']->Deaths int",0.17823009073786023,0.29547975238868635,0.3511450381679389,False,3,0.6407678244972578
+leading_causes_of_death,pyro,"['Death_Rate float', 'Year int']->Sex str",0.0,0.0,0.5149425287356322,False,2,0.6023765996343693
+leading_causes_of_death,pyro,"['Leading_Cause str', 'Year int']->Race_Ethnicity str",0.0,0.0,0.11853448275862069,False,2,0.15173674588665448
+leading_causes_of_death,pyro,"['Age_Adjusted_Death_Rate float', 'Leading_Cause str']->Year int",0.0,0.0,0.11267605633802817,False,2,0.6106032906764168
+leading_causes_of_death,pyro,"['Leading_Cause str', 'Year int']->Deaths int",0.0052620862082772835,0.0,0.061422413793103446,False,2,0.15173674588665448
+leading_causes_of_death,pyro,"['Age_Adjusted_Death_Rate float', 'Year int']->Sex str",0.0,0.0,0.5035294117647059,False,2,0.6115173674588665
+leading_causes_of_death,pyro,"['Age_Adjusted_Death_Rate float', 'Sex str', 'Year int']->Leading_Cause str",0.0,0.0,0.046153846153846156,False,3,0.643510054844607
+leading_causes_of_death,pyro,"['Leading_Cause str', 'Race_Ethnicity str']->Sex str",0.02046862583643716,0.031820188335537625,0.5355691056910569,False,2,0.10054844606946983
+leading_causes_of_death,pyro,"['Race_Ethnicity str', 'Sex str', 'Year int']->Age_Adjusted_Death_Rate float",0.2642951401928405,0.1908813141463979,0.3637274549098196,False,3,0.08775137111517367
+leading_causes_of_death,pyro,"['Leading_Cause str', 'Race_Ethnicity str', 'Sex str']->Deaths int",0.061240898502366026,0.06580134432391142,0.12831858407079647,False,3,0.1736745886654479
+leading_causes_of_death,pyro,"['Race_Ethnicity str', 'Sex str', 'Year int']->Death_Rate float",0.26503616274377184,0.19345696529276266,0.3657314629258517,False,3,0.08775137111517367
+leading_causes_of_death,pyro,"['Deaths int', 'Race_Ethnicity str']->Year int",0.006456634633945302,0.020684801326446015,0.18594104308390022,False,2,0.596892138939671
+leading_causes_of_death,pyro,"['Deaths int', 'Race_Ethnicity str']->Leading_Cause str",0.08396788335483762,0.03812474817517089,0.19727891156462585,False,2,0.596892138939671
+leading_causes_of_death,pyro,"['Leading_Cause str', 'Race_Ethnicity str', 'Sex str']->Year int",0.0,0.0,0.0,False,3,0.1736745886654479
+leading_causes_of_death,pyro,"['Age_Adjusted_Death_Rate float', 'Sex str', 'Year int']->Deaths int",0.14301758654223995,0.27750722094464675,0.3230769230769231,False,3,0.643510054844607
+leading_causes_of_death,pyro,"['Death_Rate float', 'Sex str', 'Year int']->Deaths int",0.16444214687868397,0.28562305961020934,0.34,False,3,0.6343692870201096
+leading_causes_of_death,pyro,"['Age_Adjusted_Death_Rate float', 'Race_Ethnicity str', 'Year int']->Leading_Cause str",0.0,0.0,0.041666666666666664,False,3,0.6489945155393053
+leading_causes_of_death,pyro,"['Race_Ethnicity str', 'Sex str', 'Year int']->Leading_Cause str",0.0,0.0,0.0,False,3,0.08775137111517367
+leading_causes_of_death,pyro,"['Race_Ethnicity str', 'Sex str', 'Year int']->Deaths int",0.049803174608894496,0.07219351658898045,0.13326653306613226,False,3,0.08775137111517367
+leading_causes_of_death,pyro,"['Death_Rate float', 'Sex str', 'Year int']->Leading_Cause str",0.0,0.0,0.0475,False,3,0.6343692870201096

@@ -1,0 +1,758 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+ncvoter,hyfd,['voter_id']->voter_reg_num,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->last_name,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->first_name,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->register_date,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->zip_code,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->city,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->age,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->birth_place,0.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->race,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->name_suffix,0.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->gender,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->ethnic,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_id']->name_prefix,0.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,"['street_address', 'voter_id']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['street_address', 'voter_id']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['street_address', 'voter_id']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['middle_name', 'voter_id']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['middle_name', 'voter_id']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['middle_name', 'voter_id']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'voter_id']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'voter_id']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'voter_id']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'voter_id']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'voter_id']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'voter_id']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,['voter_reg_num']->voter_id,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->last_name,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->first_name,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->register_date,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->zip_code,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->city,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->age,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->birth_place,0.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->race,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->name_suffix,0.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->gender,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->ethnic,1.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,['voter_reg_num']->name_prefix,0.0,1.0,1.0,False,1,0.999
+ncvoter,hyfd,"['street_address', 'voter_reg_num']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['street_address', 'voter_reg_num']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['street_address', 'voter_reg_num']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['middle_name', 'voter_reg_num']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['middle_name', 'voter_reg_num']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['middle_name', 'voter_reg_num']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'voter_reg_num']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'voter_reg_num']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'voter_reg_num']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'voter_reg_num']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'voter_reg_num']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'voter_reg_num']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,['street_address']->zip_code,1.0,1.0,1.0,False,1,0.958
+ncvoter,hyfd,['street_address']->city,1.0,1.0,1.0,False,1,0.958
+ncvoter,hyfd,"['last_name', 'street_address']->race",1.0,1.0,1.0,False,2,0.969
+ncvoter,hyfd,"['last_name', 'middle_name', 'street_address']->age",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['gender', 'last_name', 'middle_name', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['gender', 'last_name', 'middle_name', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['gender', 'last_name', 'middle_name', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['last_name', 'middle_name', 'name_prefix', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['last_name', 'middle_name', 'name_prefix', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['last_name', 'middle_name', 'name_prefix', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['gender', 'last_name', 'register_date', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['gender', 'last_name', 'register_date', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['gender', 'last_name', 'register_date', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['gender', 'last_name', 'register_date', 'street_address']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['gender', 'last_name', 'register_date', 'street_address']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'last_name', 'street_address']->full_phone_num",0.0,1.0,1.0,False,3,0.992
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'street_address']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'street_address']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['gender', 'last_name', 'street_address']->full_phone_num",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['gender', 'last_name', 'street_address']->birth_place",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['gender', 'last_name', 'street_address']->download_month",1.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['gender', 'last_name', 'street_address']->ethnic",1.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['first_name', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->race",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->name_suffix",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->gender",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->ethnic",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'street_address']->name_prefix",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['middle_name', 'street_address']->full_phone_num",0.0,1.0,1.0,False,2,0.998
+ncvoter,hyfd,"['middle_name', 'street_address']->birth_place",0.0,1.0,1.0,False,2,0.998
+ncvoter,hyfd,"['middle_name', 'street_address']->download_month",0.0,1.0,1.0,False,2,0.998
+ncvoter,hyfd,"['middle_name', 'street_address']->race",0.0,1.0,1.0,False,2,0.998
+ncvoter,hyfd,"['middle_name', 'street_address']->name_suffix",0.0,1.0,1.0,False,2,0.998
+ncvoter,hyfd,"['middle_name', 'street_address']->ethnic",0.0,1.0,1.0,False,2,0.998
+ncvoter,hyfd,"['middle_name', 'register_date', 'street_address']->gender",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['middle_name', 'register_date', 'street_address']->name_prefix",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'middle_name', 'register_date', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'middle_name', 'register_date', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'middle_name', 'register_date', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'middle_name', 'street_address']->last_name",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'gender', 'middle_name', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'middle_name', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'middle_name', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'middle_name', 'name_prefix', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'middle_name', 'name_prefix', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'middle_name', 'name_prefix', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['gender', 'middle_name', 'street_address']->register_date",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['middle_name', 'name_prefix', 'street_address']->register_date",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['middle_name', 'name_prefix', 'street_address']->gender",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['full_phone_num', 'street_address']->race",0.0,1.0,1.0,False,2,0.968
+ncvoter,hyfd,"['age', 'full_phone_num', 'street_address']->last_name",0.0,1.0,1.0,False,3,0.992
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'street_address']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'street_address']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'gender', 'street_address']->download_month",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['full_phone_num', 'gender', 'street_address']->ethnic",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['register_date', 'street_address']->race",1.0,1.0,1.0,False,2,0.98
+ncvoter,hyfd,"['age', 'register_date', 'street_address']->last_name",1.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['age', 'register_date', 'street_address']->full_phone_num",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['age', 'register_date', 'street_address']->birth_place",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['age', 'register_date', 'street_address']->name_suffix",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['age', 'register_date', 'street_address']->ethnic",1.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['age', 'download_month', 'register_date', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'register_date', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'register_date', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'register_date', 'street_address']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'register_date', 'street_address']->gender",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'register_date', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'register_date', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'register_date', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'register_date', 'street_address']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'gender', 'register_date', 'street_address']->middle_name",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['download_month', 'register_date', 'street_address']->ethnic",1.0,1.0,1.0,False,3,0.99
+ncvoter,hyfd,"['download_month', 'register_date', 'street_address']->name_prefix",0.0,1.0,1.0,False,3,0.99
+ncvoter,hyfd,"['name_suffix', 'register_date', 'street_address']->ethnic",0.0,1.0,1.0,False,3,0.981
+ncvoter,hyfd,"['gender', 'register_date', 'street_address']->full_phone_num",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['gender', 'register_date', 'street_address']->download_month",1.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['gender', 'register_date', 'street_address']->ethnic",1.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['ethnic', 'register_date', 'street_address']->name_suffix",0.0,1.0,1.0,False,3,0.981
+ncvoter,hyfd,"['age', 'download_month', 'street_address']->birth_place",0.0,1.0,1.0,False,3,0.997
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'street_address']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'street_address']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'street_address']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'street_address']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'street_address']->last_name",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'street_address']->middle_name",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'street_address']->full_phone_num",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'name_prefix', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'name_prefix', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'name_prefix', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'name_prefix', 'street_address']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'name_prefix', 'street_address']->gender",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'race', 'street_address']->last_name",1.0,1.0,1.0,False,3,0.992
+ncvoter,hyfd,"['age', 'race', 'street_address']->full_phone_num",0.0,1.0,1.0,False,3,0.992
+ncvoter,hyfd,"['age', 'gender', 'race', 'street_address']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'race', 'street_address']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'race', 'street_address']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'race', 'street_address']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'race', 'street_address']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'race', 'street_address']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'street_address']->birth_place",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'gender', 'street_address']->ethnic",1.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['download_month', 'street_address']->name_suffix",0.0,1.0,1.0,False,2,0.978
+ncvoter,hyfd,"['download_month', 'gender', 'street_address']->race",1.0,1.0,1.0,False,3,0.994
+ncvoter,hyfd,"['download_month', 'gender', 'street_address']->ethnic",1.0,1.0,1.0,False,3,0.994
+ncvoter,hyfd,"['download_month', 'ethnic', 'street_address']->race",1.0,1.0,1.0,False,3,0.98
+ncvoter,hyfd,"['gender', 'race', 'street_address']->ethnic",1.0,1.0,1.0,False,3,0.993
+ncvoter,hyfd,"['gender', 'street_address']->name_suffix",0.0,1.0,1.0,False,2,0.991
+ncvoter,hyfd,"['gender', 'street_address']->name_prefix",0.0,1.0,1.0,False,2,0.991
+ncvoter,hyfd,"['first_name', 'last_name']->name_suffix",0.0,1.0,1.0,False,2,0.99
+ncvoter,hyfd,"['first_name', 'last_name']->gender",1.0,1.0,1.0,False,2,0.99
+ncvoter,hyfd,"['first_name', 'last_name']->name_prefix",0.0,1.0,1.0,False,2,0.99
+ncvoter,hyfd,"['first_name', 'last_name', 'middle_name']->full_phone_num",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['first_name', 'last_name', 'middle_name']->register_date",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['first_name', 'last_name', 'middle_name']->race",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['first_name', 'last_name', 'middle_name', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'last_name', 'middle_name', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'last_name', 'middle_name', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'last_name', 'middle_name', 'zip_code']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'last_name', 'middle_name', 'zip_code']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'last_name', 'middle_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'last_name', 'middle_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'last_name', 'middle_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'last_name', 'middle_name']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'last_name', 'middle_name']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'first_name', 'last_name', 'middle_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'first_name', 'last_name', 'middle_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'first_name', 'last_name', 'middle_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'first_name', 'last_name', 'middle_name']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'first_name', 'last_name', 'middle_name']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'first_name', 'last_name', 'middle_name']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'first_name', 'last_name', 'middle_name']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'first_name', 'last_name', 'middle_name']->ethnic",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'middle_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'middle_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'middle_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'middle_name']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'middle_name']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'middle_name']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'middle_name']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'middle_name']->ethnic",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'first_name', 'last_name', 'middle_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'first_name', 'last_name', 'middle_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'first_name', 'last_name', 'middle_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'first_name', 'last_name', 'middle_name']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'first_name', 'last_name', 'middle_name']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'first_name', 'last_name', 'middle_name']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'first_name', 'last_name', 'middle_name']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'first_name', 'last_name', 'middle_name']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'last_name']->race",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'last_name', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'last_name', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'last_name', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'last_name', 'zip_code']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'last_name', 'zip_code']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'last_name', 'zip_code']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'full_phone_num', 'last_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'full_phone_num', 'last_name']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'full_phone_num', 'last_name']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'full_phone_num', 'last_name']->city",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['download_month', 'first_name', 'full_phone_num', 'last_name']->birth_place",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'ethnic', 'first_name', 'full_phone_num', 'last_name']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'last_name', 'register_date']->ethnic",1.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['birth_place', 'first_name', 'last_name', 'register_date']->city",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['birth_place', 'first_name', 'last_name', 'register_date']->ethnic",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'register_date']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'register_date']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'register_date']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'register_date']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'register_date']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'register_date']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'register_date']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'register_date']->ethnic",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'last_name', 'zip_code']->register_date",1.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['first_name', 'last_name', 'zip_code']->birth_place",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['first_name', 'last_name', 'zip_code']->ethnic",1.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'zip_code']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'zip_code']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name', 'zip_code']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'last_name', 'race', 'zip_code']->voter_id",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['first_name', 'last_name', 'race', 'zip_code']->voter_reg_num",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['first_name', 'last_name', 'race', 'zip_code']->age",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['city', 'first_name', 'last_name']->birth_place",0.0,1.0,1.0,False,3,0.996
+ncvoter,hyfd,"['city', 'download_month', 'first_name', 'last_name']->full_phone_num",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'download_month', 'ethnic', 'first_name', 'last_name']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'ethnic', 'first_name', 'last_name']->register_date",1.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['age', 'first_name', 'last_name']->voter_id",1.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'first_name', 'last_name']->voter_reg_num",1.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'first_name', 'last_name']->register_date",1.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'first_name', 'last_name']->zip_code",1.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'first_name', 'last_name']->city",1.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'first_name', 'last_name']->birth_place",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'first_name', 'last_name']->ethnic",1.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'last_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'last_name']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'last_name']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'first_name', 'last_name']->race",1.0,1.0,1.0,False,3,0.997
+ncvoter,hyfd,"['last_name', 'middle_name']->name_suffix",0.0,1.0,1.0,False,2,0.984
+ncvoter,hyfd,"['full_phone_num', 'last_name', 'middle_name']->race",0.0,1.0,1.0,False,3,0.993
+ncvoter,hyfd,"['full_phone_num', 'last_name', 'middle_name', 'zip_code']->birth_place",0.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'zip_code']->street_address",0.0,1.0,1.0,False,5,0.999
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'zip_code']->age",0.0,1.0,1.0,False,5,0.999
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix', 'zip_code']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix', 'zip_code']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['full_phone_num', 'gender', 'last_name', 'middle_name', 'zip_code']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'full_phone_num', 'last_name', 'middle_name']->birth_place",0.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name']->street_address",0.0,1.0,1.0,False,5,0.999
+ncvoter,hyfd,"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name']->age",0.0,1.0,1.0,False,5,0.999
+ncvoter,hyfd,"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'download_month', 'full_phone_num', 'last_name', 'middle_name', 'name_prefix']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'full_phone_num', 'gender', 'last_name', 'middle_name']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'full_phone_num', 'last_name', 'middle_name']->ethnic",0.0,1.0,1.0,False,4,0.996
+ncvoter,hyfd,"['birth_place', 'full_phone_num', 'gender', 'last_name', 'middle_name']->download_month",0.0,1.0,1.0,False,5,0.998
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'last_name', 'middle_name']->ethnic",0.0,1.0,1.0,False,4,0.995
+ncvoter,hyfd,"['full_phone_num', 'gender', 'last_name', 'middle_name']->name_prefix",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['ethnic', 'full_phone_num', 'gender', 'last_name', 'middle_name']->download_month",0.0,1.0,1.0,False,5,0.998
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date']->first_name",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date']->full_phone_num",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date']->race",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date']->gender",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date']->name_prefix",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date', 'zip_code']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date', 'zip_code']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['last_name', 'middle_name', 'register_date', 'zip_code']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'last_name', 'middle_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'last_name', 'middle_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'last_name', 'middle_name', 'register_date']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'last_name', 'middle_name', 'register_date']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'last_name', 'middle_name', 'register_date']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'last_name', 'middle_name', 'register_date']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'last_name', 'middle_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'last_name', 'middle_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'last_name', 'middle_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'last_name', 'middle_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'last_name', 'middle_name', 'register_date']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'last_name', 'middle_name', 'register_date']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'last_name', 'middle_name', 'register_date']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'last_name', 'middle_name', 'register_date']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'last_name', 'middle_name', 'register_date']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'last_name', 'middle_name', 'register_date']->ethnic",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'register_date']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'register_date']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'register_date']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'register_date']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'register_date']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'register_date']->ethnic",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'last_name', 'middle_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'last_name', 'middle_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'last_name', 'middle_name', 'register_date']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'last_name', 'middle_name', 'register_date']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'last_name', 'middle_name', 'register_date']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'last_name', 'middle_name', 'register_date']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'last_name', 'middle_name', 'register_date']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['ethnic', 'last_name', 'middle_name', 'register_date']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['last_name', 'middle_name', 'zip_code']->ethnic",0.0,1.0,1.0,False,3,0.996
+ncvoter,hyfd,"['birth_place', 'last_name', 'middle_name', 'zip_code']->race",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'zip_code']->birth_place",0.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'name_prefix', 'zip_code']->gender",0.0,1.0,1.0,False,5,0.999
+ncvoter,hyfd,"['last_name', 'middle_name', 'race', 'zip_code']->birth_place",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['gender', 'last_name', 'middle_name', 'zip_code']->birth_place",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['gender', 'last_name', 'middle_name', 'zip_code']->download_month",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['gender', 'last_name', 'middle_name', 'zip_code']->race",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['gender', 'last_name', 'middle_name', 'zip_code']->name_prefix",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['city', 'last_name', 'middle_name']->zip_code",0.0,1.0,1.0,False,3,0.996
+ncvoter,hyfd,"['city', 'last_name', 'middle_name']->ethnic",0.0,1.0,1.0,False,3,0.996
+ncvoter,hyfd,"['birth_place', 'city', 'last_name', 'middle_name']->race",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['city', 'download_month', 'last_name', 'middle_name']->birth_place",0.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['city', 'download_month', 'last_name', 'middle_name', 'name_prefix']->gender",0.0,1.0,1.0,False,5,0.999
+ncvoter,hyfd,"['city', 'last_name', 'middle_name', 'race']->birth_place",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['city', 'gender', 'last_name', 'middle_name']->birth_place",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['city', 'gender', 'last_name', 'middle_name']->download_month",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['city', 'gender', 'last_name', 'middle_name']->race",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['city', 'gender', 'last_name', 'middle_name']->name_prefix",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'last_name', 'middle_name']->street_address",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'last_name', 'middle_name']->full_phone_num",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'last_name', 'middle_name']->zip_code",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'last_name', 'middle_name']->city",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'last_name', 'middle_name']->birth_place",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'last_name', 'middle_name']->download_month",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'last_name', 'middle_name']->ethnic",0.0,1.0,1.0,False,3,0.999
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'middle_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'middle_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'middle_name']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'middle_name']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'middle_name']->name_prefix",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'last_name', 'middle_name', 'name_prefix']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'last_name', 'middle_name', 'name_prefix']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'last_name', 'middle_name', 'name_prefix']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'last_name', 'middle_name', 'name_prefix']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'last_name', 'middle_name', 'name_prefix']->gender",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'download_month', 'last_name', 'middle_name', 'name_prefix']->gender",0.0,1.0,1.0,False,5,0.995
+ncvoter,hyfd,"['birth_place', 'last_name', 'middle_name', 'race']->ethnic",0.0,1.0,1.0,False,4,0.991
+ncvoter,hyfd,"['birth_place', 'ethnic', 'last_name', 'middle_name']->race",0.0,1.0,1.0,False,4,0.991
+ncvoter,hyfd,"['download_month', 'last_name', 'middle_name', 'race']->ethnic",0.0,1.0,1.0,False,4,0.99
+ncvoter,hyfd,"['download_month', 'gender', 'last_name', 'middle_name']->birth_place",0.0,1.0,1.0,False,4,0.994
+ncvoter,hyfd,"['download_month', 'ethnic', 'last_name', 'middle_name']->race",0.0,1.0,1.0,False,4,0.99
+ncvoter,hyfd,"['ethnic', 'gender', 'last_name', 'middle_name']->birth_place",0.0,1.0,1.0,False,4,0.993
+ncvoter,hyfd,"['ethnic', 'gender', 'last_name', 'middle_name']->race",0.0,1.0,1.0,False,4,0.993
+ncvoter,hyfd,"['full_phone_num', 'gender', 'last_name', 'register_date', 'zip_code']->birth_place",0.0,1.0,1.0,False,5,0.995
+ncvoter,hyfd,"['city', 'full_phone_num', 'last_name', 'name_suffix', 'register_date']->ethnic",0.0,1.0,1.0,False,5,0.976
+ncvoter,hyfd,"['city', 'full_phone_num', 'gender', 'last_name', 'register_date']->birth_place",0.0,1.0,1.0,False,5,0.994
+ncvoter,hyfd,"['city', 'full_phone_num', 'gender', 'last_name', 'register_date']->ethnic",0.0,1.0,1.0,False,5,0.994
+ncvoter,hyfd,"['age', 'full_phone_num', 'last_name', 'register_date']->street_address",0.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['age', 'full_phone_num', 'last_name', 'register_date']->zip_code",0.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['age', 'full_phone_num', 'last_name', 'register_date']->city",0.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['age', 'full_phone_num', 'last_name', 'register_date']->birth_place",0.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['age', 'download_month', 'full_phone_num', 'last_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'full_phone_num', 'last_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'full_phone_num', 'last_name', 'register_date']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'full_phone_num', 'last_name', 'register_date']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'last_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'last_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'last_name', 'register_date']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'last_name', 'register_date']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'last_name', 'register_date']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'full_phone_num', 'last_name', 'register_date']->race",0.0,1.0,1.0,False,4,0.968
+ncvoter,hyfd,"['birth_place', 'full_phone_num', 'last_name', 'name_suffix', 'register_date']->ethnic",0.0,1.0,1.0,False,5,0.97
+ncvoter,hyfd,"['birth_place', 'full_phone_num', 'gender', 'last_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,5,0.989
+ncvoter,hyfd,"['birth_place', 'full_phone_num', 'gender', 'last_name', 'register_date']->ethnic",0.0,1.0,1.0,False,5,0.989
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'last_name', 'register_date']->ethnic",0.0,1.0,1.0,False,4,0.979
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'gender', 'last_name', 'name_suffix', 'race', 'register_date']->birth_place",0.0,1.0,1.0,False,7,0.996
+ncvoter,hyfd,"['full_phone_num', 'last_name', 'zip_code']->race",0.0,1.0,1.0,False,3,0.941
+ncvoter,hyfd,"['age', 'download_month', 'full_phone_num', 'last_name', 'zip_code']->street_address",0.0,1.0,1.0,False,5,0.998
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'zip_code']->middle_name",0.0,1.0,1.0,False,6,0.999
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix', 'zip_code']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix', 'zip_code']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix', 'zip_code']->gender",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'last_name', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'last_name', 'zip_code']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'last_name', 'zip_code']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'last_name', 'zip_code']->name_suffix",0.0,1.0,1.0,False,4,0.967
+ncvoter,hyfd,"['city', 'full_phone_num', 'last_name']->race",0.0,1.0,1.0,False,3,0.938
+ncvoter,hyfd,"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name']->street_address",0.0,1.0,1.0,False,6,0.999
+ncvoter,hyfd,"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name']->middle_name",0.0,1.0,1.0,False,6,0.999
+ncvoter,hyfd,"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'ethnic', 'full_phone_num', 'last_name', 'name_prefix']->gender",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'full_phone_num', 'gender', 'last_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'full_phone_num', 'gender', 'last_name']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'full_phone_num', 'gender', 'last_name']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'download_month', 'full_phone_num', 'last_name']->name_suffix",0.0,1.0,1.0,False,4,0.965
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'full_phone_num', 'gender', 'last_name']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'last_name']->name_suffix",0.0,1.0,1.0,False,4,0.994
+ncvoter,hyfd,"['age', 'last_name', 'register_date', 'zip_code']->birth_place",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'last_name', 'register_date', 'zip_code']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['download_month', 'last_name', 'register_date', 'zip_code']->name_suffix",0.0,1.0,1.0,False,4,0.987
+ncvoter,hyfd,"['download_month', 'last_name', 'register_date', 'zip_code']->ethnic",1.0,1.0,1.0,False,4,0.987
+ncvoter,hyfd,"['download_month', 'gender', 'last_name', 'register_date', 'zip_code']->full_phone_num",0.0,1.0,1.0,False,5,0.998
+ncvoter,hyfd,"['download_month', 'gender', 'last_name', 'register_date', 'zip_code']->birth_place",0.0,1.0,1.0,False,5,0.998
+ncvoter,hyfd,"['last_name', 'name_suffix', 'register_date', 'zip_code']->ethnic",0.0,1.0,1.0,False,4,0.972
+ncvoter,hyfd,"['ethnic', 'last_name', 'register_date', 'zip_code']->name_suffix",0.0,1.0,1.0,False,4,0.972
+ncvoter,hyfd,"['age', 'city', 'last_name', 'register_date']->zip_code",1.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['age', 'city', 'last_name', 'register_date']->birth_place",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['age', 'city', 'download_month', 'last_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'last_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'last_name', 'register_date']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'last_name', 'register_date']->first_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'last_name', 'register_date']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'last_name', 'register_date']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'download_month', 'last_name', 'register_date']->zip_code",1.0,1.0,1.0,False,4,0.987
+ncvoter,hyfd,"['city', 'download_month', 'last_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,4,0.987
+ncvoter,hyfd,"['city', 'download_month', 'last_name', 'register_date']->ethnic",1.0,1.0,1.0,False,4,0.987
+ncvoter,hyfd,"['city', 'download_month', 'gender', 'last_name', 'register_date']->full_phone_num",0.0,1.0,1.0,False,5,0.998
+ncvoter,hyfd,"['city', 'download_month', 'gender', 'last_name', 'register_date']->birth_place",0.0,1.0,1.0,False,5,0.998
+ncvoter,hyfd,"['city', 'ethnic', 'last_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,4,0.97
+ncvoter,hyfd,"['age', 'last_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['age', 'last_name', 'register_date']->ethnic",1.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['age', 'download_month', 'last_name', 'register_date']->birth_place",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'download_month', 'last_name', 'register_date']->gender",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['birth_place', 'download_month', 'last_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,4,0.976
+ncvoter,hyfd,"['birth_place', 'download_month', 'last_name', 'register_date']->ethnic",0.0,1.0,1.0,False,4,0.976
+ncvoter,hyfd,"['download_month', 'last_name', 'register_date']->name_prefix",0.0,1.0,1.0,False,3,0.965
+ncvoter,hyfd,"['gender', 'last_name', 'register_date']->name_prefix",0.0,1.0,1.0,False,3,0.965
+ncvoter,hyfd,"['last_name', 'zip_code']->city",1.0,1.0,1.0,False,2,0.916
+ncvoter,hyfd,"['age', 'download_month', 'last_name', 'zip_code']->birth_place",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'last_name', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'last_name', 'zip_code']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'last_name', 'zip_code']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'zip_code']->voter_id",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'zip_code']->voter_reg_num",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'zip_code']->first_name",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'zip_code']->register_date",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'zip_code']->birth_place",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'gender', 'last_name', 'zip_code']->name_prefix",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['download_month', 'last_name', 'zip_code']->race",1.0,1.0,1.0,False,3,0.951
+ncvoter,hyfd,"['gender', 'last_name', 'zip_code']->name_suffix",0.0,1.0,1.0,False,3,0.968
+ncvoter,hyfd,"['gender', 'last_name', 'zip_code']->ethnic",1.0,1.0,1.0,False,3,0.968
+ncvoter,hyfd,"['age', 'city', 'download_month', 'last_name']->birth_place",0.0,1.0,1.0,False,4,0.996
+ncvoter,hyfd,"['age', 'city', 'download_month', 'gender', 'last_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'gender', 'last_name']->middle_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'gender', 'last_name']->full_phone_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'gender', 'last_name']->voter_id",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'city', 'gender', 'last_name']->voter_reg_num",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'city', 'gender', 'last_name']->first_name",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'city', 'gender', 'last_name']->register_date",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'city', 'gender', 'last_name']->zip_code",1.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'city', 'gender', 'last_name']->birth_place",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'city', 'gender', 'last_name']->name_prefix",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'city', 'ethnic', 'last_name']->zip_code",1.0,1.0,1.0,False,4,0.989
+ncvoter,hyfd,"['city', 'download_month', 'last_name']->race",1.0,1.0,1.0,False,3,0.948
+ncvoter,hyfd,"['city', 'gender', 'last_name']->name_suffix",0.0,1.0,1.0,False,3,0.961
+ncvoter,hyfd,"['age', 'last_name']->race",1.0,1.0,1.0,False,2,0.956
+ncvoter,hyfd,"['age', 'download_month', 'last_name']->name_suffix",0.0,1.0,1.0,False,3,0.976
+ncvoter,hyfd,"['age', 'download_month', 'gender', 'last_name']->name_prefix",0.0,1.0,1.0,False,4,0.99
+ncvoter,hyfd,"['age', 'gender', 'last_name']->ethnic",1.0,1.0,1.0,False,3,0.98
+ncvoter,hyfd,"['age', 'first_name', 'full_phone_num', 'middle_name']->race",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'full_phone_num', 'middle_name']->birth_place",0.0,1.0,1.0,False,5,0.999
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'middle_name']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'download_month', 'first_name', 'full_phone_num', 'middle_name']->gender",0.0,1.0,1.0,False,5,0.992
+ncvoter,hyfd,"['download_month', 'first_name', 'full_phone_num', 'middle_name']->name_prefix",0.0,1.0,1.0,False,4,0.986
+ncvoter,hyfd,"['first_name', 'middle_name', 'register_date']->full_phone_num",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['first_name', 'middle_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['first_name', 'middle_name', 'register_date']->gender",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['first_name', 'middle_name', 'register_date']->name_prefix",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['first_name', 'middle_name', 'register_date', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'middle_name', 'register_date', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'middle_name', 'register_date', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'middle_name', 'register_date', 'zip_code']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'middle_name', 'register_date', 'zip_code']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['first_name', 'middle_name', 'register_date', 'zip_code']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'middle_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'middle_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'middle_name', 'register_date']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'middle_name', 'register_date']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'middle_name', 'register_date']->age",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'middle_name', 'register_date']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['city', 'first_name', 'middle_name', 'register_date']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'middle_name', 'register_date']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'middle_name', 'register_date']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'middle_name', 'register_date']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'middle_name', 'register_date']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'middle_name', 'register_date']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'middle_name', 'register_date']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'middle_name', 'register_date']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'middle_name', 'register_date']->download_month",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'first_name', 'middle_name', 'register_date']->ethnic",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'first_name', 'middle_name', 'register_date']->ethnic",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['download_month', 'first_name', 'middle_name', 'register_date']->ethnic",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['first_name', 'middle_name', 'zip_code']->full_phone_num",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['first_name', 'middle_name', 'zip_code']->race",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['first_name', 'middle_name', 'zip_code']->name_suffix",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['first_name', 'middle_name', 'zip_code']->gender",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['first_name', 'middle_name', 'zip_code']->ethnic",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['first_name', 'middle_name', 'zip_code']->name_prefix",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['age', 'birth_place', 'first_name', 'middle_name', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'first_name', 'middle_name', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'first_name', 'middle_name', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'first_name', 'middle_name', 'zip_code']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'first_name', 'middle_name', 'zip_code']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'middle_name', 'zip_code']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'middle_name', 'zip_code']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'middle_name', 'zip_code']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'middle_name', 'zip_code']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'middle_name', 'zip_code']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'first_name', 'middle_name', 'zip_code']->download_month",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['download_month', 'first_name', 'middle_name', 'zip_code']->birth_place",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['city', 'first_name', 'middle_name']->full_phone_num",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['city', 'first_name', 'middle_name']->zip_code",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['city', 'first_name', 'middle_name']->race",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['city', 'first_name', 'middle_name']->name_suffix",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['city', 'first_name', 'middle_name']->gender",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['city', 'first_name', 'middle_name']->ethnic",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['city', 'first_name', 'middle_name']->name_prefix",0.0,1.0,1.0,False,3,0.998
+ncvoter,hyfd,"['age', 'birth_place', 'city', 'first_name', 'middle_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'city', 'first_name', 'middle_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'city', 'first_name', 'middle_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'city', 'first_name', 'middle_name']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'city', 'first_name', 'middle_name']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'first_name', 'middle_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'first_name', 'middle_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'first_name', 'middle_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'first_name', 'middle_name']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'city', 'download_month', 'first_name', 'middle_name']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['birth_place', 'city', 'first_name', 'middle_name']->download_month",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['city', 'download_month', 'first_name', 'middle_name']->birth_place",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['age', 'first_name', 'middle_name']->name_suffix",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['age', 'first_name', 'middle_name']->gender",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['age', 'first_name', 'middle_name']->name_prefix",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['age', 'birth_place', 'first_name', 'middle_name']->full_phone_num",0.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['age', 'birth_place', 'first_name', 'middle_name']->race",0.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'ethnic', 'first_name', 'middle_name']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->voter_id",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->voter_reg_num",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->street_address",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->last_name",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->register_date",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->zip_code",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->city",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'middle_name', 'race']->birth_place",1.0,1.0,1.0,True,-,-
+ncvoter,hyfd,"['age', 'ethnic', 'first_name', 'middle_name', 'race']->full_phone_num",0.0,1.0,1.0,False,5,0.998
+ncvoter,hyfd,"['birth_place', 'download_month', 'first_name', 'middle_name', 'race']->gender",0.0,1.0,1.0,False,5,0.99
+ncvoter,hyfd,"['birth_place', 'download_month', 'first_name', 'middle_name', 'name_suffix']->gender",0.0,1.0,1.0,False,5,0.99
+ncvoter,hyfd,"['birth_place', 'first_name', 'middle_name', 'name_prefix']->gender",0.0,1.0,1.0,False,4,0.977
+ncvoter,hyfd,"['download_month', 'first_name', 'middle_name', 'race']->name_prefix",0.0,1.0,1.0,False,4,0.979
+ncvoter,hyfd,"['download_month', 'first_name', 'middle_name', 'name_suffix']->name_prefix",0.0,1.0,1.0,False,4,0.977
+ncvoter,hyfd,"['first_name', 'gender', 'middle_name']->name_prefix",0.0,1.0,1.0,False,3,0.957
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'register_date', 'zip_code']->age",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'register_date', 'zip_code']->download_month",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'register_date', 'zip_code']->race",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'register_date', 'zip_code']->ethnic",0.0,1.0,1.0,False,4,0.999
+ncvoter,hyfd,"['city', 'first_name', 'full_phone_num', 'register_date']->race",0.0,1.0,1.0,False,4,0.994
+ncvoter,hyfd,"['age', 'city', 'first_name', 'full_phone_num', 'register_date']->download_month",0.0,1.0,1.0,False,5,0.998
+ncvoter,hyfd,"['city', 'download_month', 'first_name', 'full_phone_num', 'register_date']->ethnic",0.0,1.0,1.0,False,5,0.997
+ncvoter,hyfd,"['city', 'download_month', 'first_name', 'full_phone_num', 'name_prefix', 'register_date']->age",0.0,1.0,1.0,False,6,0.998
+ncvoter,hyfd,"['age', 'birth_place', 'first_name', 'full_phone_num', 'gender', 'register_date']->download_month",0.0,1.0,1.0,False,6,0.997
+ncvoter,hyfd,"['age', 'birth_place', 'ethnic', 'first_name', 'full_phone_num', 'gender', 'register_date']->city",0.0,1.0,1.0,False,7,0.998
+ncvoter,hyfd,"['age', 'birth_place', 'ethnic', 'first_name', 'full_phone_num', 'name_prefix', 'register_date']->city",0.0,1.0,1.0,False,7,0.998
+ncvoter,hyfd,"['age', 'birth_place', 'first_name', 'full_phone_num', 'name_prefix', 'register_date']->download_month",0.0,1.0,1.0,False,6,0.997
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'full_phone_num', 'register_date']->birth_place",0.0,1.0,1.0,False,5,0.997
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'full_phone_num', 'name_suffix', 'register_date']->city",0.0,1.0,1.0,False,6,0.998
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'full_phone_num', 'register_date']->city",0.0,1.0,1.0,False,6,0.998
+ncvoter,hyfd,"['age', 'first_name', 'full_phone_num', 'name_suffix', 'register_date']->birth_place",0.0,1.0,1.0,False,5,0.997
+ncvoter,hyfd,"['age', 'first_name', 'full_phone_num', 'gender', 'name_suffix', 'register_date']->city",0.0,1.0,1.0,False,6,0.998
+ncvoter,hyfd,"['age', 'first_name', 'full_phone_num', 'gender', 'name_suffix', 'register_date']->download_month",0.0,1.0,1.0,False,6,0.998
+ncvoter,hyfd,"['age', 'first_name', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->city",0.0,1.0,1.0,False,6,0.998
+ncvoter,hyfd,"['age', 'first_name', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->download_month",0.0,1.0,1.0,False,6,0.998
+ncvoter,hyfd,"['download_month', 'first_name', 'full_phone_num', 'register_date']->gender",0.0,1.0,1.0,False,4,0.978
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'zip_code']->gender",0.0,1.0,1.0,False,3,0.981
+ncvoter,hyfd,"['birth_place', 'first_name', 'full_phone_num', 'zip_code']->race",0.0,1.0,1.0,False,4,0.986
+ncvoter,hyfd,"['birth_place', 'download_month', 'first_name', 'full_phone_num', 'zip_code']->ethnic",0.0,1.0,1.0,False,5,0.994
+ncvoter,hyfd,"['download_month', 'first_name', 'full_phone_num', 'race', 'zip_code']->ethnic",0.0,1.0,1.0,False,5,0.992
+ncvoter,hyfd,"['download_month', 'first_name', 'full_phone_num', 'name_suffix', 'zip_code']->ethnic",0.0,1.0,1.0,False,5,0.992
+ncvoter,hyfd,"['first_name', 'full_phone_num', 'name_suffix', 'zip_code']->race",0.0,1.0,1.0,False,4,0.982
+ncvoter,hyfd,"['ethnic', 'first_name', 'full_phone_num', 'zip_code']->race",0.0,1.0,1.0,False,4,0.983
+ncvoter,hyfd,"['birth_place', 'city', 'first_name', 'full_phone_num']->race",0.0,1.0,1.0,False,4,0.968
+ncvoter,hyfd,"['city', 'first_name', 'full_phone_num', 'name_suffix']->race",0.0,1.0,1.0,False,4,0.965
+ncvoter,hyfd,"['city', 'ethnic', 'first_name', 'full_phone_num']->race",0.0,1.0,1.0,False,4,0.967
+ncvoter,hyfd,"['city', 'first_name', 'full_phone_num', 'name_prefix']->gender",0.0,1.0,1.0,False,4,0.967
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'full_phone_num']->race",0.0,1.0,1.0,False,4,0.965
+ncvoter,hyfd,"['age', 'first_name', 'full_phone_num', 'name_prefix']->gender",0.0,1.0,1.0,False,4,0.952
+ncvoter,hyfd,"['birth_place', 'download_month', 'first_name', 'full_phone_num', 'name_prefix', 'name_suffix', 'race']->gender",0.0,1.0,1.0,False,7,0.89
+ncvoter,hyfd,"['first_name', 'register_date', 'zip_code']->birth_place",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['first_name', 'register_date', 'zip_code']->name_suffix",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['first_name', 'register_date', 'zip_code']->gender",1.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['first_name', 'register_date', 'zip_code']->name_prefix",0.0,1.0,1.0,False,3,0.995
+ncvoter,hyfd,"['download_month', 'first_name', 'register_date', 'zip_code']->race",1.0,1.0,1.0,False,4,0.998
+ncvoter,hyfd,"['download_month', 'ethnic', 'first_name', 'register_date', 'zip_code']->full_phone_num",0.0,1.0,1.0,False,5,0.999
+ncvoter,hyfd,"['download_month', 'ethnic', 'first_name', 'register_date', 'zip_code']->age",1.0,1.0,1.0,False,5,0.999
+ncvoter,hyfd,"['city', 'first_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,3,0.987
+ncvoter,hyfd,"['city', 'first_name', 'register_date']->gender",1.0,1.0,1.0,False,3,0.987
+ncvoter,hyfd,"['age', 'city', 'first_name', 'register_date']->birth_place",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['age', 'city', 'first_name', 'register_date']->name_prefix",0.0,1.0,1.0,False,4,0.997
+ncvoter,hyfd,"['city', 'download_month', 'first_name', 'register_date']->birth_place",0.0,1.0,1.0,False,4,0.994
+ncvoter,hyfd,"['city', 'download_month', 'first_name', 'register_date']->race",1.0,1.0,1.0,False,4,0.994
+ncvoter,hyfd,"['age', 'first_name', 'register_date']->race",1.0,1.0,1.0,False,3,0.989
+ncvoter,hyfd,"['age', 'birth_place', 'ethnic', 'first_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,5,0.992
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'register_date']->gender",1.0,1.0,1.0,False,4,0.994
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'register_date']->name_prefix",0.0,1.0,1.0,False,4,0.994
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'first_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,5,0.995
+ncvoter,hyfd,"['age', 'first_name', 'name_suffix', 'register_date']->ethnic",0.0,1.0,1.0,False,4,0.991
+ncvoter,hyfd,"['age', 'first_name', 'gender', 'register_date']->name_prefix",0.0,1.0,1.0,False,4,0.99
+ncvoter,hyfd,"['age', 'first_name', 'name_prefix', 'register_date']->gender",0.0,1.0,1.0,False,4,0.99
+ncvoter,hyfd,"['first_name', 'zip_code']->city",1.0,1.0,1.0,False,2,0.963
+ncvoter,hyfd,"['age', 'first_name', 'zip_code']->race",1.0,1.0,1.0,False,3,0.989
+ncvoter,hyfd,"['age', 'first_name', 'zip_code']->name_suffix",0.0,1.0,1.0,False,3,0.989
+ncvoter,hyfd,"['age', 'first_name', 'zip_code']->gender",1.0,1.0,1.0,False,3,0.989
+ncvoter,hyfd,"['age', 'first_name', 'zip_code']->ethnic",1.0,1.0,1.0,False,3,0.989
+ncvoter,hyfd,"['age', 'first_name', 'zip_code']->name_prefix",0.0,1.0,1.0,False,3,0.989
+ncvoter,hyfd,"['age', 'download_month', 'first_name', 'zip_code']->full_phone_num",0.0,1.0,1.0,False,4,0.996
+ncvoter,hyfd,"['birth_place', 'first_name', 'zip_code']->name_suffix",0.0,1.0,1.0,False,3,0.971
+ncvoter,hyfd,"['birth_place', 'download_month', 'first_name', 'zip_code']->race",0.0,1.0,1.0,False,4,0.988
+ncvoter,hyfd,"['download_month', 'first_name', 'zip_code']->name_prefix",0.0,1.0,1.0,False,3,0.984
+ncvoter,hyfd,"['download_month', 'first_name', 'name_suffix', 'zip_code']->race",0.0,1.0,1.0,False,4,0.985
+ncvoter,hyfd,"['download_month', 'ethnic', 'first_name', 'zip_code']->race",1.0,1.0,1.0,False,4,0.986
+ncvoter,hyfd,"['first_name', 'race', 'zip_code']->name_suffix",0.0,1.0,1.0,False,3,0.966
+ncvoter,hyfd,"['ethnic', 'first_name', 'zip_code']->name_suffix",0.0,1.0,1.0,False,3,0.968
+ncvoter,hyfd,"['age', 'city', 'first_name']->race",1.0,1.0,1.0,False,3,0.98
+ncvoter,hyfd,"['age', 'city', 'first_name']->name_suffix",0.0,1.0,1.0,False,3,0.98
+ncvoter,hyfd,"['age', 'city', 'first_name']->ethnic",1.0,1.0,1.0,False,3,0.98
+ncvoter,hyfd,"['age', 'city', 'download_month', 'first_name']->full_phone_num",0.0,1.0,1.0,False,4,0.992
+ncvoter,hyfd,"['age', 'city', 'first_name', 'gender']->name_prefix",0.0,1.0,1.0,False,4,0.984
+ncvoter,hyfd,"['age', 'city', 'first_name', 'name_prefix']->gender",0.0,1.0,1.0,False,4,0.984
+ncvoter,hyfd,"['birth_place', 'city', 'download_month', 'first_name']->race",0.0,1.0,1.0,False,4,0.976
+ncvoter,hyfd,"['city', 'download_month', 'first_name', 'name_suffix']->race",0.0,1.0,1.0,False,4,0.971
+ncvoter,hyfd,"['city', 'download_month', 'ethnic', 'first_name']->race",1.0,1.0,1.0,False,4,0.974
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'first_name']->race",0.0,1.0,1.0,False,4,0.958
+ncvoter,hyfd,"['birth_place', 'full_phone_num', 'middle_name', 'register_date', 'zip_code']->race",0.0,1.0,1.0,False,5,0.98
+ncvoter,hyfd,"['full_phone_num', 'gender', 'middle_name', 'register_date', 'zip_code']->ethnic",0.0,1.0,1.0,False,5,0.983
+ncvoter,hyfd,"['birth_place', 'city', 'full_phone_num', 'middle_name', 'register_date']->race",0.0,1.0,1.0,False,5,0.973
+ncvoter,hyfd,"['age', 'full_phone_num', 'middle_name', 'zip_code']->race",0.0,1.0,1.0,False,4,0.974
+ncvoter,hyfd,"['age', 'birth_place', 'city', 'full_phone_num', 'middle_name']->race",0.0,1.0,1.0,False,5,0.969
+ncvoter,hyfd,"['middle_name', 'register_date', 'zip_code']->name_suffix",0.0,1.0,1.0,False,3,0.963
+ncvoter,hyfd,"['middle_name', 'register_date', 'zip_code']->name_prefix",0.0,1.0,1.0,False,3,0.963
+ncvoter,hyfd,"['age', 'middle_name', 'register_date', 'zip_code']->ethnic",0.0,1.0,1.0,False,4,0.994
+ncvoter,hyfd,"['age', 'download_month', 'middle_name', 'register_date', 'zip_code']->full_phone_num",0.0,1.0,1.0,False,5,0.996
+ncvoter,hyfd,"['age', 'middle_name', 'race', 'register_date', 'zip_code']->full_phone_num",0.0,1.0,1.0,False,5,0.995
+ncvoter,hyfd,"['age', 'gender', 'middle_name', 'register_date', 'zip_code']->full_phone_num",0.0,1.0,1.0,False,5,0.997
+ncvoter,hyfd,"['age', 'gender', 'middle_name', 'register_date', 'zip_code']->birth_place",0.0,1.0,1.0,False,5,0.997
+ncvoter,hyfd,"['birth_place', 'gender', 'middle_name', 'register_date', 'zip_code']->ethnic",0.0,1.0,1.0,False,5,0.98
+ncvoter,hyfd,"['download_month', 'middle_name', 'register_date', 'zip_code']->race",0.0,1.0,1.0,False,4,0.981
+ncvoter,hyfd,"['download_month', 'gender', 'middle_name', 'register_date', 'zip_code']->ethnic",0.0,1.0,1.0,False,5,0.99
+ncvoter,hyfd,"['gender', 'middle_name', 'register_date', 'zip_code']->race",0.0,1.0,1.0,False,4,0.975
+ncvoter,hyfd,"['city', 'middle_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,3,0.956
+ncvoter,hyfd,"['age', 'city', 'middle_name', 'register_date']->ethnic",0.0,1.0,1.0,False,4,0.991
+ncvoter,hyfd,"['age', 'city', 'download_month', 'middle_name', 'register_date']->full_phone_num",0.0,1.0,1.0,False,5,0.995
+ncvoter,hyfd,"['age', 'city', 'middle_name', 'race', 'register_date']->full_phone_num",0.0,1.0,1.0,False,5,0.992
+ncvoter,hyfd,"['age', 'city', 'gender', 'middle_name', 'register_date']->full_phone_num",0.0,1.0,1.0,False,5,0.995
+ncvoter,hyfd,"['age', 'city', 'gender', 'middle_name', 'register_date']->birth_place",0.0,1.0,1.0,False,5,0.995
+ncvoter,hyfd,"['city', 'download_month', 'middle_name', 'register_date']->race",0.0,1.0,1.0,False,4,0.977
+ncvoter,hyfd,"['city', 'download_month', 'middle_name', 'register_date']->name_prefix",0.0,1.0,1.0,False,4,0.977
+ncvoter,hyfd,"['city', 'gender', 'middle_name', 'register_date']->race",0.0,1.0,1.0,False,4,0.97
+ncvoter,hyfd,"['age', 'download_month', 'middle_name', 'register_date']->name_prefix",0.0,1.0,1.0,False,4,0.974
+ncvoter,hyfd,"['age', 'gender', 'middle_name', 'register_date']->name_suffix",0.0,1.0,1.0,False,4,0.975
+ncvoter,hyfd,"['age', 'gender', 'middle_name', 'register_date']->ethnic",0.0,1.0,1.0,False,4,0.975
+ncvoter,hyfd,"['age', 'gender', 'middle_name', 'register_date']->name_prefix",0.0,1.0,1.0,False,4,0.975
+ncvoter,hyfd,"['middle_name', 'zip_code']->city",0.0,1.0,1.0,False,2,0.853
+ncvoter,hyfd,"['age', 'middle_name', 'zip_code']->name_suffix",0.0,1.0,1.0,False,3,0.97
+ncvoter,hyfd,"['age', 'gender', 'middle_name', 'zip_code']->name_prefix",0.0,1.0,1.0,False,4,0.981
+ncvoter,hyfd,"['age', 'city', 'middle_name']->name_suffix",0.0,1.0,1.0,False,3,0.953
+ncvoter,hyfd,"['age', 'city', 'gender', 'middle_name']->name_prefix",0.0,1.0,1.0,False,4,0.969
+ncvoter,hyfd,"['age', 'full_phone_num', 'register_date', 'zip_code']->race",0.0,1.0,1.0,False,4,0.96
+ncvoter,hyfd,"['age', 'birth_place', 'download_month', 'full_phone_num', 'register_date', 'zip_code']->name_suffix",0.0,1.0,1.0,False,6,0.977
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'register_date', 'zip_code']->birth_place",0.0,1.0,1.0,False,7,0.989
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'register_date', 'zip_code']->ethnic",0.0,1.0,1.0,False,5,0.982
+ncvoter,hyfd,"['download_month', 'full_phone_num', 'gender', 'register_date', 'zip_code']->city",0.0,1.0,1.0,False,5,0.92
+ncvoter,hyfd,"['age', 'city', 'full_phone_num', 'register_date']->race",0.0,1.0,1.0,False,4,0.94
+ncvoter,hyfd,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'register_date']->name_suffix",0.0,1.0,1.0,False,8,0.978
+ncvoter,hyfd,"['age', 'city', 'full_phone_num', 'gender', 'name_suffix', 'register_date']->ethnic",0.0,1.0,1.0,False,6,0.969
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'zip_code']->city",0.0,1.0,1.0,False,4,0.89
+ncvoter,hyfd,"['age', 'full_phone_num', 'gender', 'zip_code']->race",0.0,1.0,1.0,False,4,0.89
+ncvoter,hyfd,"['age', 'download_month', 'ethnic', 'register_date', 'zip_code']->race",1.0,1.0,1.0,False,5,0.961
+ncvoter,hyfd,"['age', 'gender', 'race', 'register_date', 'zip_code']->ethnic",1.0,1.0,1.0,False,5,0.961
+ncvoter,hyfd,"['age', 'gender', 'register_date', 'zip_code']->city",1.0,1.0,1.0,False,4,0.96
+ncvoter,hyfd,"['age', 'ethnic', 'gender', 'register_date', 'zip_code']->race",1.0,1.0,1.0,False,5,0.961
+ncvoter,hyfd,"['age', 'city', 'gender', 'name_suffix', 'race', 'register_date']->ethnic",0.0,1.0,1.0,False,6,0.948
+ncvoter,hyfd,"['age', 'city', 'ethnic', 'gender', 'register_date']->race",1.0,1.0,1.0,False,5,0.941

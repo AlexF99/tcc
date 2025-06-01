@@ -1,0 +1,9 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+leading_causes_of_death,hyfd,"['Death_Rate float', 'Deaths int', 'Leading_Cause str', 'Year int']->Age_Adjusted_Death_Rate float",1.0,1.0,1.0,False,4,0.9478976234003657
+leading_causes_of_death,hyfd,"['Age_Adjusted_Death_Rate float', 'Deaths int', 'Year int']->Death_Rate float",1.0,1.0,1.0,False,3,0.79981718464351
+leading_causes_of_death,hyfd,"['Deaths int', 'Race_Ethnicity str', 'Sex str', 'Year int']->Death_Rate float",1.0,1.0,1.0,False,4,0.8601462522851919
+leading_causes_of_death,hyfd,"['Death_Rate float', 'Leading_Cause str', 'Race_Ethnicity str', 'Year int']->Age_Adjusted_Death_Rate float",1.0,1.0,1.0,False,4,0.8756855575868373
+leading_causes_of_death,hyfd,"['Age_Adjusted_Death_Rate float', 'Leading_Cause str', 'Race_Ethnicity str', 'Year int']->Death_Rate float",1.0,1.0,1.0,False,4,0.8756855575868373
+leading_causes_of_death,hyfd,"['Leading_Cause str', 'Race_Ethnicity str', 'Sex str', 'Year int']->Deaths int",1.0,1.0,1.0,True,-,-
+leading_causes_of_death,hyfd,"['Leading_Cause str', 'Race_Ethnicity str', 'Sex str', 'Year int']->Death_Rate float",1.0,1.0,1.0,True,-,-
+leading_causes_of_death,hyfd,"['Leading_Cause str', 'Race_Ethnicity str', 'Sex str', 'Year int']->Age_Adjusted_Death_Rate float",1.0,1.0,1.0,True,-,-
