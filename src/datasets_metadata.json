@@ -1,0 +1,26 @@
+[
+    {
+        "name": "adult",
+        "na_values": ""
+    },
+    {
+        "name": "ncvoter",
+        "na_values": ""
+    },
+    {
+        "name": "iris",
+        "na_values": ""
+    },
+    {
+        "name": "hate_crimes",
+        "na_values": ""
+    },
+    {
+        "name": "leading_causes_of_death",
+        "na_values": "."
+    },
+    {
+        "name": "wifi_hotspot_location",
+        "na_values": ""
+    }
+]
