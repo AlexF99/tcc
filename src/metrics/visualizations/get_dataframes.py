@@ -2,6 +2,22 @@ import os
 import pandas as pd
 
 
+def get_datasets_info():
+    data = []
+    datasets_path = "../../../datasets/final"
+    if os.path.exists(datasets_path):
+        for filename in os.listdir(datasets_path):
+            if filename.endswith('.csv'):
+                file_path = os.path.join(datasets_path, filename)
+                df = pd.read_csv(file_path)
+                num_rows = len(df)
+                num_columns = len(df.columns)
+                data.append([filename.split('.')[0], num_rows, num_columns])
+
+    # Create a DataFrame with dataset information
+    datasets_info = pd.DataFrame(data, columns=['dataset', 'num_rows', 'num_columns'])
+    return datasets_info
+
 def get_global_df(results_path="../../../experiments/nyc-experiments"):
     # Extract dataset names from the filenames within results_path directory
     datasets = set()
