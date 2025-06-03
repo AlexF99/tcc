@@ -1,0 +1,718 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+sisu_ufpr_curitiba_politecnico,hyfd,['NU_CPF']->MUNICIPIO_CANDIDATO,1.0,1.0,1.0,False,1,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,['NU_CPF']->SG_UF_CANDIDATO,1.0,1.0,1.0,False,1,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,['NU_CPF']->TP_MOD_CONCORRENCIA,1.0,1.0,1.0,False,1,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CPF']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CPF']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CPF']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CPF']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CPF']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CPF']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CPF']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CPF']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CPF']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTA_CANDIDATO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CPF']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CPF']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTACORTE']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTACORTE']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTACORTE']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTACORTE']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTACORTE']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTACORTE']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'NU_NOTACORTE']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_CPF']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CPF']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CPF']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CPF']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CPF']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CPF']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CPF']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CPF']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CPF']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CPF']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CPF']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CPF']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CPF']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CPF', 'ST_OPCAO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,['NO_INSCRITO']->SG_UF_CANDIDATO,1.0,1.0,1.0,False,1,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,['NO_INSCRITO']->TP_SEXO,1.0,1.0,1.0,False,1,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,['NO_INSCRITO']->ST_OPCAO,1.0,1.0,1.0,False,1,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_INSCRITO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_INSCRITO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_INSCRITO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTACORTE']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTACORTE']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTACORTE']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTACORTE']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTACORTE']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_NOTACORTE']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'NU_CLASSIFICACAO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NO_INSCRITO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NO_INSCRITO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NO_INSCRITO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NO_INSCRITO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NO_INSCRITO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NO_INSCRITO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NO_INSCRITO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NO_INSCRITO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NO_INSCRITO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NO_INSCRITO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NO_INSCRITO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_INSCRITO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_INSCRITO', 'TP_MOD_CONCORRENCIA']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->SG_UF_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTA_CANDIDATO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,2,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->DS_GRAU",1.0,1.0,1.0,False,2,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->DS_TURNO",1.0,1.0,1.0,False,2,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->ST_OPCAO",1.0,1.0,1.0,False,2,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTACORTE', 'NU_NOTA_CANDIDATO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTACORTE', 'NU_NOTA_CANDIDATO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTACORTE', 'NU_NOTA_CANDIDATO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTACORTE', 'NU_NOTA_CANDIDATO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTACORTE', 'NU_NOTA_CANDIDATO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTACORTE', 'NU_NOTA_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,2,0.9739204788371099
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NU_NOTACORTE', 'NU_NOTA_CANDIDATO']->ST_OPCAO",0.0,1.0,1.0,False,3,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,3,0.9974348011970928
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,False,3,0.9974348011970928
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO']->ST_OPCAO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->DS_TURNO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->ST_OPCAO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'MUNICIPIO_CANDIDATO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->DS_GRAU",1.0,1.0,1.0,False,3,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_NOTA_CANDIDATO']->ST_OPCAO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->CO_IES_CURSO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->DS_TURNO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->ST_OPCAO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->CO_IES_CURSO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_NOTACORTE', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_NOTACORTE', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_NOTACORTE', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_NOTACORTE', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_NOTACORTE', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_NOTACORTE', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_NOTACORTE', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->SG_UF_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_NOTACORTE', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_NOTACORTE', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->SG_UF_CANDIDATO",0.0,1.0,1.0,False,3,0.9987174005985464
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->SG_UF_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->SG_UF_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,3,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->DS_TURNO",1.0,1.0,1.0,False,3,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->TP_SEXO",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,3,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,False,5,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_SEXO']->DS_GRAU",1.0,1.0,1.0,False,5,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,False,4,0.9987174005985464
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->TP_SEXO",1.0,1.0,1.0,False,4,0.9987174005985464
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,3,0.9974348011970928
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_NOTA_CANDIDATO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->DS_TURNO",1.0,1.0,1.0,False,4,0.9974348011970928
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_NOTA_CANDIDATO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9978623343309106
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DS_TURNO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,5,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,False,5,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,3,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->DS_TURNO",1.0,1.0,1.0,False,3,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_CURSO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,False,6,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_CURSO', 'NU_NOTA_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,5,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_NOTA_CANDIDATO', 'TP_MOD_CONCORRENCIA']->DS_GRAU",1.0,1.0,1.0,False,3,0.9961522017956391
+sisu_ufpr_curitiba_politecnico,hyfd,"['NO_CURSO', 'NU_NOTA_CANDIDATO', 'TP_SEXO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,3,0.9970072680632749
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,False,2,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,2,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,2,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->TP_SEXO",1.0,1.0,1.0,False,2,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->ST_OPCAO",1.0,1.0,1.0,False,2,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_NOTACORTE']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_NOTACORTE']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_NOTACORTE']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_NOTACORTE']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DT_NASCIMENTO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NO_CURSO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NO_CURSO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NO_CURSO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NO_CURSO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NO_CURSO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NO_CURSO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NO_CURSO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DT_NASCIMENTO', 'NO_CURSO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_GRAU', 'DT_NASCIMENTO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_GRAU', 'DT_NASCIMENTO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_GRAU', 'DT_NASCIMENTO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_GRAU', 'DT_NASCIMENTO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_GRAU', 'DT_NASCIMENTO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_GRAU', 'DT_NASCIMENTO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_GRAU', 'DT_NASCIMENTO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_GRAU', 'DT_NASCIMENTO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'DT_NASCIMENTO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'DT_NASCIMENTO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'DT_NASCIMENTO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'DT_NASCIMENTO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'DT_NASCIMENTO']->NU_CLASSIFICACAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'DT_NASCIMENTO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'DT_NASCIMENTO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'DT_NASCIMENTO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,2,0.926891834117144
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_NOTACORTE']->TP_SEXO",0.0003966547924595387,1.0,1.0,False,3,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_NOTACORTE']->ST_OPCAO",0.0,1.0,1.0,False,3,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->ST_OPCAO",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO']->TP_SEXO",1.0,1.0,1.0,False,4,0.9970072680632749
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'TP_MOD_CONCORRENCIA']->DS_TURNO",1.0,1.0,1.0,False,4,0.9987174005985464
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'TP_MOD_CONCORRENCIA']->TP_SEXO",1.0,1.0,1.0,False,4,0.9987174005985464
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'TP_MOD_CONCORRENCIA']->ST_OPCAO",1.0,1.0,1.0,False,4,0.9987174005985464
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'TP_SEXO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9970072680632749
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'ST_OPCAO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9978623343309106
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'ST_OPCAO']->TP_SEXO",1.0,1.0,1.0,False,4,0.9978623343309106
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NO_CURSO']->DS_GRAU",1.0,1.0,1.0,False,3,0.9957246686618213
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NO_CURSO']->TP_SEXO",1.0,1.0,1.0,False,4,0.9970072680632749
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'TP_MOD_CONCORRENCIA']->ST_OPCAO",1.0,1.0,1.0,False,5,0.9987174005985464
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'ST_OPCAO']->CO_IES_CURSO",1.0,1.0,1.0,False,4,0.9978623343309106
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'ST_OPCAO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9978623343309106
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'ST_OPCAO']->TP_SEXO",1.0,1.0,1.0,False,4,0.9978623343309106
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_NOTACORTE', 'ST_OPCAO']->TP_SEXO",0.7500991636981149,1.0,1.0,False,3,0.9965797349294571
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->SG_UF_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->SG_UF_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->DS_GRAU",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'NU_CLASSIFICACAO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO']->ST_OPCAO",1.0,1.0,1.0,False,4,0.9978623343309106
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->CO_IES_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->NO_CURSO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->DS_TURNO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->ST_OPCAO",1.0,1.0,1.0,False,5,0.9987174005985464
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,False,5,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,False,5,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_GRAU', 'DT_NASCIMENTO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,5,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->DS_TURNO",1.0,1.0,1.0,False,4,0.9944420692603677
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'DT_NASCIMENTO', 'ST_OPCAO', 'TP_SEXO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9918768704574604
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'SG_UF_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->CO_IES_CURSO",1.0,1.0,1.0,False,6,0.9957246686618213
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'SG_UF_CANDIDATO', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->DS_TURNO",1.0,1.0,1.0,False,6,0.9957246686618213
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'SG_UF_CANDIDATO', 'TP_SEXO']->DS_GRAU",1.0,1.0,1.0,False,4,0.9871740059854639
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->DS_GRAU",1.0,1.0,1.0,False,4,0.9884566053869175
+sisu_ufpr_curitiba_politecnico,hyfd,"['DT_NASCIMENTO', 'NO_CURSO', 'TP_MOD_CONCORRENCIA']->DS_GRAU",1.0,1.0,1.0,False,3,0.986746472851646
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,2,0.8076100897819581
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_NOTACORTE', 'TP_SEXO']->ST_OPCAO",0.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_SEXO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_SEXO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_GRAU', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->DS_TURNO",1.0,1.0,1.0,False,6,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->TP_SEXO",1.0,1.0,1.0,False,5,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,5,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->DS_TURNO",1.0,1.0,1.0,False,5,0.9987174005985464
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,False,5,0.9987174005985464
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'ST_OPCAO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9923044035912784
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'TP_MOD_CONCORRENCIA']->DS_GRAU",1.0,1.0,1.0,False,4,0.9952971355280035
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->ST_OPCAO",1.0,1.0,1.0,False,5,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'MUNICIPIO_CANDIDATO', 'NO_CURSO', 'ST_OPCAO']->DS_GRAU",1.0,1.0,1.0,False,4,0.9914493373236426
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DS_TURNO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DS_TURNO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DS_TURNO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DS_TURNO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DS_TURNO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DS_TURNO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'DS_TURNO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->ST_OPCAO",1.0,1.0,1.0,False,5,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->TP_SEXO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'ST_OPCAO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'ST_OPCAO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'NU_CLASSIFICACAO', 'ST_OPCAO']->TP_SEXO",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO']->CO_IES_CURSO",1.0,1.0,1.0,False,3,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO']->DS_GRAU",1.0,1.0,1.0,False,3,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'TP_MOD_CONCORRENCIA']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->NU_NOTACORTE",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_TURNO', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->ST_OPCAO",1.0,1.0,1.0,False,5,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO', 'TP_MOD_CONCORRENCIA']->TP_SEXO",1.0,1.0,1.0,False,4,0.9991449337323642
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->DS_TURNO",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'NU_CLASSIFICACAO', 'ST_OPCAO']->TP_SEXO",1.0,1.0,1.0,False,4,0.9995724668661822
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'DS_GRAU', 'DS_TURNO', 'NU_CLASSIFICACAO', 'ST_OPCAO', 'TP_SEXO']->TP_MOD_CONCORRENCIA",1.0,1.0,1.0,False,6,0.9982898674647285
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'CO_INSCRICAO_ENEM', 'ST_OPCAO', 'TP_MOD_CONCORRENCIA']->DS_TURNO",1.0,1.0,1.0,False,4,0.9811885421120137
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'SG_UF_CANDIDATO', 'ST_OPCAO']->DS_GRAU",1.0,1.0,1.0,False,4,0.9726378794356563
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'TP_MOD_CONCORRENCIA', 'TP_SEXO']->DS_GRAU",1.0,1.0,1.0,False,4,0.9794784095767421
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_INSCRICAO_ENEM', 'NO_CURSO', 'ST_OPCAO', 'TP_SEXO']->DS_GRAU",1.0,1.0,1.0,False,4,0.9705002137665669
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NU_NOTACORTE']->SG_UF_CANDIDATO",0.9971976060805005,1.0,1.0,False,2,0.5014963659683626
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NU_CLASSIFICACAO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,2,0.4125694741342454
+sisu_ufpr_curitiba_politecnico,hyfd,"['CO_IES_CURSO', 'MUNICIPIO_CANDIDATO', 'TP_SEXO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,3,0.3950406156477127
+sisu_ufpr_curitiba_politecnico,hyfd,"['MUNICIPIO_CANDIDATO', 'NO_CURSO', 'TP_SEXO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,3,0.37793929029499784
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'MUNICIPIO_CANDIDATO']->SG_UF_CANDIDATO",1.0,1.0,1.0,False,2,0.1923899102180419
+sisu_ufpr_curitiba_politecnico,hyfd,['NU_NOTACORTE']->CO_IES_CURSO,0.9995188799752188,1.0,1.0,False,1,0.06669516887558785
+sisu_ufpr_curitiba_politecnico,hyfd,['NU_NOTACORTE']->NO_CURSO,0.9995138745286901,1.0,1.0,False,1,0.06669516887558785
+sisu_ufpr_curitiba_politecnico,hyfd,['NU_NOTACORTE']->DS_GRAU,0.9992207626959763,1.0,1.0,False,1,0.06669516887558785
+sisu_ufpr_curitiba_politecnico,hyfd,['NU_NOTACORTE']->DS_TURNO,0.9992565956204791,1.0,1.0,False,1,0.06669516887558785
+sisu_ufpr_curitiba_politecnico,hyfd,['NU_NOTACORTE']->TP_MOD_CONCORRENCIA,0.9990711949073264,1.0,1.0,False,1,0.06669516887558785
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->NU_CPF",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->NO_INSCRITO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->NU_NOTA_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->DT_NASCIMENTO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->CO_INSCRICAO_ENEM",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->MUNICIPIO_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->SG_UF_CANDIDATO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->TP_SEXO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->ST_OPCAO",1.0,1.0,1.0,True,-,-
+sisu_ufpr_curitiba_politecnico,hyfd,['CO_IES_CURSO']->NO_CURSO,1.0,1.0,1.0,False,1,0.012825994014536126
+sisu_ufpr_curitiba_politecnico,hyfd,['CO_IES_CURSO']->DS_GRAU,1.0,1.0,1.0,False,1,0.012825994014536126
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_CURSO']->CO_IES_CURSO",1.0,1.0,1.0,False,2,0.013681060282171868
+sisu_ufpr_curitiba_politecnico,hyfd,"['DS_TURNO', 'NO_CURSO']->DS_GRAU",1.0,1.0,1.0,False,2,0.013681060282171868
