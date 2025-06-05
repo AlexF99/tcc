@@ -48,7 +48,7 @@ def get_global_df(results_path="../../../experiments/nyc-experiments"):
 
     metrics = ["rfi_prime_plus", "mu_plus", "g3_prime"]
 
-    global_df = pd.DataFrame(columns=["algorithm", "dataset", "lhs_size"])
+    global_df = pd.DataFrame(columns=["algorithm", "dataset", "lhs_size", "lhs_uniqueness"])
 
     for (algo, dataset), df in fds_results.items():
         if "fd" in df.columns:
@@ -68,6 +68,9 @@ def get_global_df(results_path="../../../experiments/nyc-experiments"):
             # Add identifying columns
             temp_df["algorithm"] = algo
             temp_df["dataset"] = dataset
+
+            # Calculate LHS uniqueness based on 'fd' structure
+            temp_df["lhs_uniqueness"] = df["lhs_uniqueness"]
 
             # Append to the global DataFrame
             global_df = pd.concat([global_df, temp_df], ignore_index=True)
