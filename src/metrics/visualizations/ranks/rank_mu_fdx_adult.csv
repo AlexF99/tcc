@@ -1,0 +1,5 @@
+fd,mu_plus,rfi_prime_plus,g3_prime
+['relationship']->Marital-status,0.592,0.580,0.808
+['relationship']->sex,0.415,0.426,0.785
+['Native-country']->race,0.123,0.145,0.866
+['income']->Native-country,0.000,0.004,0.902

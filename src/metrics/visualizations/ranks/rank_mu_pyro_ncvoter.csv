@@ -1,0 +1,31 @@
+fd,mu_plus,rfi_prime_plus,g3_prime
+['voter_id']->last_name,1.000,1.000,1.000
+['voter_reg_num']->city,1.000,1.000,1.000
+['street_address']->zip_code,1.000,1.000,1.000
+['voter_reg_num']->voter_id,1.000,1.000,1.000
+['street_address']->city,1.000,1.000,1.000
+['voter_id']->register_date,1.000,1.000,1.000
+['voter_reg_num']->ethnic,1.000,1.000,1.000
+['voter_reg_num']->gender,1.000,1.000,1.000
+['voter_reg_num']->last_name,1.000,1.000,1.000
+['voter_reg_num']->zip_code,1.000,1.000,1.000
+['voter_reg_num']->race,1.000,1.000,1.000
+['voter_reg_num']->age,1.000,1.000,1.000
+['voter_id']->age,1.000,1.000,1.000
+['voter_id']->race,1.000,1.000,1.000
+['voter_id']->gender,1.000,1.000,1.000
+['voter_id']->zip_code,1.000,1.000,1.000
+['voter_id']->ethnic,1.000,1.000,1.000
+['voter_id']->voter_reg_num,1.000,1.000,1.000
+['voter_reg_num']->first_name,1.000,1.000,1.000
+['voter_id']->city,1.000,1.000,1.000
+['voter_id']->first_name,1.000,1.000,1.000
+['voter_reg_num']->register_date,1.000,1.000,1.000
+['zip_code']->city,0.993,0.995,0.996
+['first_name']->gender,0.859,0.851,0.950
+"['city', 'ethnic']->zip_code",0.795,0.866,0.830
+"['city', 'race']->zip_code",0.790,0.864,0.822
+"['city', 'gender']->zip_code",0.785,0.843,0.821
+"['city', 'download_month']->zip_code",0.775,0.836,0.806
+"['city', 'register_date']->zip_code",0.760,0.804,0.790
+['street_address']->last_name,0.738,0.714,0.738

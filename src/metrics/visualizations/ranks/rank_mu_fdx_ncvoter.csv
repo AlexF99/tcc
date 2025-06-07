@@ -1,0 +1,10 @@
+fd,mu_plus,rfi_prime_plus,g3_prime
+['street_address']->city,1.000,1.000,1.000
+"['street_address', 'city']->last_name",0.738,0.714,0.738
+"['race', 'download_month']->register_date",0.004,0.030,0.154
+['gender']->first_name,0.004,0.059,0.042
+['register_date']->street_address,0.003,0.009,0.015
+['name_prefix']->name_suffix,0.000,1.000,1.000
+"['name_prefix', 'name_suffix']->race",0.000,1.000,1.000
+"['name_prefix', 'name_suffix', 'race']->ethnic",0.000,1.000,1.000
+"['name_prefix', 'race']->download_month",0.000,0.981,0.994

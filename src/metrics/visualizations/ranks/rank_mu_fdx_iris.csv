@@ -1,0 +1,5 @@
+fd,mu_plus,rfi_prime_plus,g3_prime
+['sepal width']->class,0.172,0.197,0.535
+"['sepal width', 'petal width']->petal length",0.073,0.093,0.151
+['sepal width']->petal width,0.072,0.098,0.268
+"['petal length', 'class']->sepal length",0.062,0.117,0.167

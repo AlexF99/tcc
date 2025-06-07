@@ -1,0 +1,31 @@
+fd,mu_plus,rfi_prime_plus,g3_prime
+['education']->Education-num,1.000,1.000,1.000
+['Education-num']->education,1.000,1.000,1.000
+['fnlwgt']->race,0.899,0.896,0.980
+['fnlwgt']->sex,0.890,0.888,0.959
+"['age', 'relationship']->Marital-status",0.702,0.714,0.851
+"['income', 'race', 'relationship', 'sex', 'workclass']->Marital-status",0.629,0.632,0.819
+"['Education-num', 'Hours-per-week', 'relationship']->Marital-status",0.628,0.636,0.812
+"['Hours-per-week', 'education', 'relationship']->Marital-status",0.628,0.636,0.812
+"['Education-num', 'relationship', 'workclass']->Marital-status",0.626,0.631,0.816
+"['education', 'relationship', 'workclass']->Marital-status",0.626,0.631,0.816
+"['Capital-gain', 'race', 'relationship', 'sex', 'workclass']->Marital-status",0.625,0.626,0.818
+"['Native-country', 'race', 'relationship', 'sex', 'workclass']->Marital-status",0.625,0.634,0.816
+"['Capital-loss', 'race', 'relationship', 'sex', 'workclass']->Marital-status",0.624,0.628,0.816
+"['education', 'relationship', 'sex']->Marital-status",0.622,0.630,0.816
+"['Education-num', 'relationship', 'sex']->Marital-status",0.622,0.630,0.816
+"['Capital-loss', 'Native-country', 'income', 'relationship', 'sex', 'workclass']->Marital-status",0.621,0.627,0.814
+"['education', 'race', 'relationship']->Marital-status",0.620,0.624,0.816
+"['Education-num', 'race', 'relationship']->Marital-status",0.620,0.624,0.816
+"['occupation', 'relationship']->Marital-status",0.620,0.622,0.814
+"['Hours-per-week', 'Marital-status', 'sex']->relationship",0.618,0.655,0.784
+"['Hours-per-week', 'race', 'relationship']->Marital-status",0.616,0.621,0.810
+"['Capital-gain', 'Capital-loss', 'Native-country', 'relationship', 'sex', 'workclass']->Marital-status",0.616,0.619,0.814
+"['Hours-per-week', 'relationship', 'sex']->Marital-status",0.616,0.623,0.808
+"['Capital-gain', 'Native-country', 'income', 'relationship', 'sex', 'workclass']->Marital-status",0.615,0.619,0.812
+"['Education-num', 'income', 'relationship']->Marital-status",0.615,0.613,0.812
+"['education', 'income', 'relationship']->Marital-status",0.615,0.613,0.812
+"['Education-num', 'Native-country', 'relationship']->Marital-status",0.613,0.616,0.813
+"['Native-country', 'education', 'relationship']->Marital-status",0.613,0.616,0.813
+"['Hours-per-week', 'relationship', 'workclass']->Marital-status",0.611,0.618,0.805
+"['Capital-loss', 'Education-num', 'relationship']->Marital-status",0.611,0.610,0.811

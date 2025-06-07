@@ -1,0 +1,16 @@
+fd,mu_plus,rfi_prime_plus,g3_prime
+['petal width']->class,0.890,0.889,0.953
+['petal length']->class,0.869,0.873,0.935
+"['sepal length', 'sepal width']->class",0.489,0.503,0.676
+"['petal length', 'sepal length']->petal width",0.190,0.198,0.259
+"['petal length', 'sepal length']->sepal width",0.188,0.196,0.259
+"['petal length', 'sepal width']->sepal length",0.181,0.212,0.250
+"['petal length', 'sepal width']->petal width",0.174,0.212,0.286
+"['sepal length', 'sepal width']->petal length",0.164,0.170,0.206
+"['sepal length', 'sepal width']->petal width",0.130,0.131,0.206
+"['petal width', 'sepal length']->petal length",0.115,0.129,0.175
+"['petal width', 'sepal length']->sepal width",0.084,0.084,0.175
+"['petal width', 'sepal width']->petal length",0.073,0.093,0.151
+"['petal width', 'sepal width']->sepal length",0.064,0.075,0.132
+"['petal length', 'petal width']->sepal length",0.058,0.068,0.146
+"['petal length', 'petal width']->sepal width",0.036,0.027,0.146

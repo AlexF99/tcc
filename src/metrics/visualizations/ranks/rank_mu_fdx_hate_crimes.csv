@@ -1,0 +1,12 @@
+fd,mu_plus,rfi_prime_plus,g3_prime
+"['Complaint Precinct Code', 'Full Complaint ID']->Complaint Year Number",1.000,1.000,1.000
+"['Law Code Category Description', 'Offense Description']->PD Code Description",0.706,0.791,0.832
+"['County', 'Offense Category']->Bias Motive Description",0.569,0.661,0.783
+['County']->Patrol Borough Name,0.488,0.688,0.639
+['Law Code Category Description']->Offense Description,0.193,0.321,0.465
+"['Complaint Precinct Code', 'County']->Offense Category",0.088,0.095,0.544
+['Complaint Precinct Code']->Full Complaint ID,0.005,0.032,0.034
+['Law Code Category Description']->County,0.002,0.001,0.388
+['Arrest Date']->Arrest Id,0.001,0.820,0.739
+['Law Code Category Description']->Complaint Precinct Code,0.001,0.003,0.043
+"['County', 'Bias Motive Description']->Arrest Date",0.000,0.147,0.632

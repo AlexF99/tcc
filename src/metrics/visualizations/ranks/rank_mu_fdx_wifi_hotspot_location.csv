@@ -1,0 +1,17 @@
+fd,mu_plus,rfi_prime_plus,g3_prime
+['Census Tract']->BCTCB2010,1.000,1.000,1.000
+['Borough']->BoroCode,1.000,1.000,1.000
+['City']->Borough Name,0.998,0.996,0.999
+['Longitude']->X,0.994,0.996,0.994
+['Latitude']->Y,0.994,0.996,0.994
+['Neighborhood Tabulation Area Code (NTACODE)']->Neighborhood Tabulation Area (NTA),0.994,0.997,0.996
+['SSID']->Provider,0.864,0.924,0.925
+"['SSID', 'Provider']->Location_T",0.854,0.880,0.921
+"['Borough', 'BoroCode', 'Council Distrcit', 'Postcode']->BoroCD",0.801,0.891,0.858
+"['SSID', 'Location_T']->Remarks",0.616,0.615,0.916
+['BIN']->BBL,0.596,0.673,0.757
+['Remarks']->Type,0.378,1.000,1.000
+"['Borough', 'BoroCode', 'Council Distrcit']->Postcode",0.294,0.625,0.426
+"['Borough', 'BoroCode']->Council Distrcit",0.095,0.359,0.216
+['SourceID']->Activated,0.072,0.998,0.997
+['SourceID']->Name,0.035,0.860,0.782
