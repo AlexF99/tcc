@@ -1,0 +1,31 @@
+rfi_prime_plus,mu_plus,g3_prime,fd
+1.0,1.0,1.0,['voter_id']->last_name
+1.0,1.0,1.0,['voter_reg_num']->city
+1.0,1.0,1.0,['street_address']->zip_code
+1.0,1.0,1.0,['voter_reg_num']->voter_id
+1.0,1.0,1.0,['street_address']->city
+1.0,1.0,1.0,['voter_id']->register_date
+1.0,1.0,1.0,['voter_reg_num']->ethnic
+1.0,1.0,1.0,['voter_reg_num']->gender
+1.0,1.0,1.0,['voter_reg_num']->last_name
+1.0,1.0,1.0,['voter_reg_num']->zip_code
+1.0,1.0,1.0,['voter_reg_num']->race
+1.0,1.0,1.0,['voter_reg_num']->age
+1.0,1.0,1.0,['voter_id']->age
+1.0,1.0,1.0,['voter_id']->race
+1.0,1.0,1.0,['voter_id']->gender
+1.0,1.0,1.0,['voter_id']->zip_code
+1.0,1.0,1.0,['voter_id']->ethnic
+1.0,1.0,1.0,['voter_id']->voter_reg_num
+1.0,1.0,1.0,['voter_reg_num']->first_name
+1.0,1.0,1.0,['voter_id']->city
+1.0,1.0,1.0,['voter_id']->first_name
+1.0,1.0,1.0,['voter_reg_num']->register_date
+0.995363729037704,0.9933492022052932,0.9960578186596584,['zip_code']->city
+0.8508187615302197,0.858771063558445,0.949814126394052,['first_name']->gender
+0.8659819396198939,0.7952376498327481,0.8300907911802854,"['city', 'ethnic']->zip_code"
+0.8641105441148024,0.7899947460648804,0.8220451527224436,"['city', 'race']->zip_code"
+0.8433510925492961,0.7846169867927069,0.8207681365576103,"['city', 'gender']->zip_code"
+0.8356502384470739,0.7745056785637918,0.8056737588652483,"['city', 'download_month']->zip_code"
+0.8036887128416165,0.7597558550753791,0.7901907356948229,"['city', 'register_date']->zip_code"
+0.714197337455607,0.737697188984628,0.7380952380952381,['street_address']->last_name

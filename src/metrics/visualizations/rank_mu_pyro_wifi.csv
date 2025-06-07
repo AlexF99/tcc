@@ -1,0 +1,31 @@
+rfi_prime_plus,mu_plus,g3_prime,fd
+1.0,1.0,1.0,['OBJECTID']->Borough
+1.0,1.0,1.0,['X']->Neighborhood Tabulation Area Code (NTACODE)
+1.0,1.0,1.0,['Latitude']->BoroCode
+1.0,1.0,1.0,['Latitude']->Type
+1.0,1.0,1.0,['OBJECTID']->BoroCode
+1.0,1.0,1.0,['OBJECTID']->Type
+1.0,1.0,1.0,['Neighborhood Tabulation Area (NTA)']->Borough Name
+1.0,1.0,1.0,['Neighborhood Tabulation Area (NTA)']->Neighborhood Tabulation Area Code (NTACODE)
+1.0,1.0,1.0,['OBJECTID']->DOITT_ID
+1.0,1.0,1.0,['OBJECTID']->City
+1.0,1.0,1.0,['Neighborhood Tabulation Area Code (NTACODE)']->Borough
+1.0,1.0,1.0,['Latitude']->City
+1.0,1.0,1.0,['OBJECTID']->BCTCB2010
+1.0,1.0,1.0,['BCTCB2010']->Census Tract
+1.0,1.0,1.0,['DOITT_ID']->Census Tract
+1.0,1.0,1.0,['OBJECTID']->Census Tract
+1.0,1.0,1.0,['Longitude']->City
+1.0,1.0,1.0,['Longitude']->Type
+1.0,1.0,1.0,['Longitude']->BoroCode
+1.0,1.0,1.0,['X']->Type
+1.0,1.0,1.0,['Y']->Neighborhood Tabulation Area Code (NTACODE)
+1.0,1.0,1.0,['OBJECTID']->BBL
+1.0,1.0,1.0,['DOITT_ID']->BBL
+1.0,1.0,1.0,['DOITT_ID']->Type
+1.0,1.0,1.0,['Y']->Postcode
+1.0,1.0,1.0,"['Location (Lat, Long)']->Borough"
+1.0,1.0,1.0,['DOITT_ID']->Postcode
+1.0,1.0,1.0,['Y']->BoroCode
+1.0,1.0,1.0,"['Location (Lat, Long)']->Council Distrcit"
+1.0,1.0,1.0,['Y']->Type
