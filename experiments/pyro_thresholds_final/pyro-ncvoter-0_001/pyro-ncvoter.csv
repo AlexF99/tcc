@@ -1,0 +1,1000 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+ncvoter,pyro,['voter_id']->street_address,0.0,0.0,0.0,False,1,0.999
+ncvoter,pyro,['voter_id']->first_name,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_id']->full_phone_num,0.0,0.0,0.0,False,1,0.999
+ncvoter,pyro,['voter_id']->register_date,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_id']->middle_name,0.0,0.0,0.0,False,1,0.999
+ncvoter,pyro,['voter_id']->birth_place,0.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_id']->city,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_id']->ethnic,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_id']->name_prefix,0.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_id']->race,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_id']->gender,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_id']->name_suffix,0.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_reg_num']->middle_name,0.0,0.0,0.0,False,1,0.999
+ncvoter,pyro,['voter_reg_num']->full_phone_num,0.0,0.0,0.0,False,1,0.999
+ncvoter,pyro,['voter_reg_num']->street_address,0.0,0.0,0.0,False,1,0.999
+ncvoter,pyro,['voter_reg_num']->name_suffix,0.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['street_address']->middle_name,0.0,0.027943705314498853,0.30952380952380953,False,1,0.958
+ncvoter,pyro,['street_address']->full_phone_num,0.0,0.5636606238034131,0.9285714285714286,False,1,0.958
+ncvoter,pyro,['voter_reg_num']->city,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_reg_num']->birth_place,0.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['voter_reg_num']->gender,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['street_address']->city,1.0,1.0,1.0,False,1,0.958
+ncvoter,pyro,['last_name']->full_phone_num,0.0,0.06424518285141002,0.7869318181818182,False,1,0.648
+ncvoter,pyro,['voter_reg_num']->ethnic,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['street_address']->birth_place,0.0,0.6560214875148004,0.9523809523809523,False,1,0.958
+ncvoter,pyro,['street_address']->gender,0.0,0.0,0.21428571428571427,False,1,0.958
+ncvoter,pyro,['voter_reg_num']->register_date,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['street_address']->ethnic,0.21176193222005713,0.20688464980949384,0.9285714285714286,False,1,0.958
+ncvoter,pyro,['street_address']->register_date,0.4396059373274137,0.4348642801492035,0.47619047619047616,False,1,0.958
+ncvoter,pyro,['zip_code']->city,0.9933492022052933,0.9953637290377039,0.9960578186596584,False,1,0.239
+ncvoter,pyro,['first_name']->gender,0.8587710635584459,0.8508187615302197,0.949814126394052,False,1,0.462
+ncvoter,pyro,['last_name']->birth_place,0.0,0.2768027361753787,0.9318181818181818,False,1,0.648
+ncvoter,pyro,['last_name']->ethnic,0.36246767642911304,0.36148384201639344,0.9488636363636364,False,1,0.648
+ncvoter,pyro,['voter_reg_num']->first_name,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['first_name']->ethnic,0.0,0.0,0.929368029739777,False,1,0.462
+ncvoter,pyro,['last_name']->gender,0.0,0.0,0.5397727272727273,False,1,0.648
+ncvoter,pyro,['street_address']->first_name,0.0,0.0,0.0,False,1,0.958
+ncvoter,pyro,['voter_reg_num']->race,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['street_address']->race,0.6035261172705505,0.5989674839840773,0.9523809523809523,False,1,0.958
+ncvoter,pyro,['street_address']->name_suffix,0.0,0.47392576283654203,1.0,False,1,0.958
+ncvoter,pyro,"['first_name', 'last_name']->middle_name",0.0,0.052506907952786556,0.3,False,2,0.99
+ncvoter,pyro,['last_name']->name_suffix,0.0,0.07890713508508883,1.0,False,1,0.648
+ncvoter,pyro,"['first_name', 'middle_name']->full_phone_num",0.0,0.98367470740164,1.0,False,2,0.952
+ncvoter,pyro,['first_name']->name_suffix,0.0,0.0,0.9888475836431226,False,1,0.462
+ncvoter,pyro,"['last_name', 'middle_name']->first_name",0.0,0.9919335556105504,0.6875,False,2,0.984
+ncvoter,pyro,"['first_name', 'last_name']->city",0.38562774822422374,0.38562774818242224,0.4,False,2,0.99
+ncvoter,pyro,['voter_reg_num']->name_prefix,0.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['last_name']->race,0.3688178365311118,0.3774569588766343,0.9289772727272727,False,1,0.648
+ncvoter,pyro,"['first_name', 'last_name']->street_address",0.0,0.0,0.0,False,2,0.99
+ncvoter,pyro,"['middle_name', 'zip_code']->ethnic",0.0,1.0,1.0,False,2,0.853
+ncvoter,pyro,['first_name']->race,0.1282412215829979,0.16509934141880248,0.912639405204461,False,1,0.462
+ncvoter,pyro,['zip_code']->race,0.3390761088112162,0.3670297400704819,0.938239159001314,False,1,0.239
+ncvoter,pyro,"['last_name', 'zip_code']->first_name",0.01546556122449061,0.018115547011843654,0.023809523809523808,False,2,0.916
+ncvoter,pyro,"['first_name', 'zip_code']->full_phone_num",0.0,0.05313842571208253,0.7837837837837838,False,2,0.963
+ncvoter,pyro,"['first_name', 'last_name']->register_date",0.4769655415055848,0.47696554135156427,0.5,False,2,0.99
+ncvoter,pyro,"['middle_name', 'zip_code']->name_suffix",0.0,0.9153627441998071,1.0,False,2,0.853
+ncvoter,pyro,"['last_name', 'middle_name']->city",0.0,0.9897687640652255,0.6875,False,2,0.984
+ncvoter,pyro,"['first_name', 'zip_code']->street_address",0.0,0.0,0.0,False,2,0.963
+ncvoter,pyro,"['first_name', 'zip_code']->birth_place",0.0,0.34909088086129036,0.8648648648648649,False,2,0.963
+ncvoter,pyro,"['city', 'last_name']->first_name",0.03115501519756836,0.03580994681255628,0.0425531914893617,False,2,0.906
+ncvoter,pyro,"['first_name', 'zip_code']->register_date",0.0670196145775297,0.08770575514839317,0.10810810810810811,False,2,0.963
+ncvoter,pyro,['street_address']->name_prefix,0.0,0.12197616269628872,1.0,False,1,0.958
+ncvoter,pyro,"['city', 'middle_name']->name_suffix",0.0,0.8773473452860189,1.0,False,2,0.821
+ncvoter,pyro,"['city', 'middle_name']->race",0.0,0.9044684305973696,0.9776536312849162,False,2,0.821
+ncvoter,pyro,"['register_date', 'zip_code']->ethnic",0.4672943821930753,0.46508528883353245,0.9636363636363636,False,2,0.67
+ncvoter,pyro,['last_name']->name_prefix,0.0,0.40304418308426326,1.0,False,1,0.648
+ncvoter,pyro,"['first_name', 'middle_name']->city",0.0,0.9527774385632262,0.5,False,2,0.952
+ncvoter,pyro,['first_name']->name_prefix,0.0,0.10594596316682413,1.0,False,1,0.462
+ncvoter,pyro,"['last_name', 'zip_code']->register_date",0.2984696548765402,0.30200764147494125,0.34523809523809523,False,2,0.916
+ncvoter,pyro,['zip_code']->name_prefix,0.0,0.2515397616815288,1.0,False,1,0.239
+ncvoter,pyro,"['first_name', 'zip_code']->middle_name",0.0,0.0,0.13513513513513514,False,2,0.963
+ncvoter,pyro,['middle_name']->name_prefix,0.0,0.0,1.0,False,1,0.416
+ncvoter,pyro,"['city', 'first_name']->full_phone_num",0.0,0.27510261195878394,0.8125,False,2,0.936
+ncvoter,pyro,"['last_name', 'zip_code']->middle_name",0.0,0.047935681401701104,0.34523809523809523,False,2,0.916
+ncvoter,pyro,"['middle_name', 'register_date']->race",0.0,0.8989148762263234,0.9774011299435028,False,2,0.823
+ncvoter,pyro,"['middle_name', 'zip_code']->first_name",0.0,0.8967386097557597,0.5714285714285714,False,2,0.853
+ncvoter,pyro,"['middle_name', 'zip_code']->gender",0.0,0.7242928548097742,0.8095238095238095,False,2,0.853
+ncvoter,pyro,"['last_name', 'zip_code']->street_address",0.3570836496311123,0.3531141992840578,0.36904761904761907,False,2,0.916
+ncvoter,pyro,"['middle_name', 'register_date']->ethnic",0.0,0.8354962501249652,0.9717514124293786,False,2,0.823
+ncvoter,pyro,"['city', 'first_name']->birth_place",0.0,0.4458120669845336,0.90625,False,2,0.936
+ncvoter,pyro,"['city', 'first_name']->register_date",0.09831038665806757,0.12857017871492843,0.15625,False,2,0.936
+ncvoter,pyro,"['city', 'first_name']->middle_name",0.0,0.0,0.09375,False,2,0.936
+ncvoter,pyro,"['last_name', 'register_date']->city",0.4231246462199284,0.42068515866836775,0.4507042253521127,False,2,0.929
+ncvoter,pyro,"['city', 'last_name']->register_date",0.2914923292735223,0.293990539042753,0.3404255319148936,False,2,0.906
+ncvoter,pyro,"['city', 'last_name']->middle_name",0.0,0.025137786214079756,0.30851063829787234,False,2,0.906
+ncvoter,pyro,"['city', 'register_date']->race",0.6846574213386158,0.6837302283405752,0.9673024523160763,False,2,0.633
+ncvoter,pyro,"['middle_name', 'zip_code']->full_phone_num",0.0,0.9558612670820698,0.9523809523809523,False,2,0.853
+ncvoter,pyro,"['city', 'middle_name']->full_phone_num",0.0,0.9451815453510538,0.9497206703910615,False,2,0.821
+ncvoter,pyro,"['first_name', 'register_date']->city",0.0892384136090395,0.09367023086030954,0.1326530612244898,False,2,0.902
+ncvoter,pyro,"['city', 'first_name']->street_address",0.0,0.0,0.0,False,2,0.936
+ncvoter,pyro,"['city', 'middle_name']->gender",0.0,0.662861492602259,0.7877094972067039,False,2,0.821
+ncvoter,pyro,"['city', 'middle_name']->ethnic",0.0,0.8648626911096754,0.9832402234636871,False,2,0.821
+ncvoter,pyro,"['age', 'register_date']->name_prefix",0.0,0.0,1.0,False,2,0.57
+ncvoter,pyro,"['city', 'last_name']->street_address",0.3155398035079837,0.31335806891527884,0.32978723404255317,False,2,0.906
+ncvoter,pyro,"['city', 'middle_name']->first_name",0.0,0.8507222010790019,0.5083798882681564,False,2,0.821
+ncvoter,pyro,"['age', 'middle_name']->race",0.0,0.8549769157641831,0.9723320158102767,False,2,0.747
+ncvoter,pyro,"['city', 'register_date']->ethnic",0.09309666452293308,0.07865299140729444,0.9400544959128065,False,2,0.633
+ncvoter,pyro,"['age', 'zip_code']->name_suffix",0.0,0.004205231867107647,1.0,False,2,0.698
+ncvoter,pyro,"['age', 'city']->name_suffix",0.0,0.07857648008930035,1.0,False,2,0.649
+ncvoter,pyro,"['first_name', 'register_date']->full_phone_num",0.0,0.0,0.8061224489795918,False,2,0.902
+ncvoter,pyro,"['middle_name', 'zip_code']->birth_place",0.0,0.8742194095381635,0.9659863945578231,False,2,0.853
+ncvoter,pyro,"['city', 'middle_name']->birth_place",0.0,0.8459733871921833,0.9608938547486033,False,2,0.821
+ncvoter,pyro,"['age', 'middle_name', 'register_date']->city",0.0,0.9819558657544527,0.813953488372093,False,3,0.957
+ncvoter,pyro,"['middle_name', 'zip_code']->register_date",0.0,0.881041922543915,0.6190476190476191,False,2,0.853
+ncvoter,pyro,"['city', 'middle_name']->register_date",0.0,0.835240680606948,0.5810055865921788,False,2,0.821
+ncvoter,pyro,"['middle_name', 'register_date']->full_phone_num",0.0,0.946966882152095,0.9717514124293786,False,2,0.823
+ncvoter,pyro,"['city', 'register_date']->name_prefix",0.0,0.0,1.0,False,2,0.633
+ncvoter,pyro,"['first_name', 'middle_name']->birth_place",0.0,0.8890590536190627,0.875,False,2,0.952
+ncvoter,pyro,"['last_name', 'register_date']->first_name",0.06155684104627879,0.06273101854293368,0.07042253521126761,False,2,0.929
+ncvoter,pyro,"['last_name', 'middle_name']->register_date",0.0,0.9891787293586648,0.6875,False,2,0.984
+ncvoter,pyro,"['register_date', 'zip_code']->gender",0.009225818676525166,0.010614133133010725,0.6090909090909091,False,2,0.67
+ncvoter,pyro,"['age', 'last_name']->city",0.26694219958572296,0.26581049660538286,0.29545454545454547,False,2,0.956
+ncvoter,pyro,"['first_name', 'middle_name']->register_date",0.0,0.95220005950469,0.5208333333333334,False,2,0.952
+ncvoter,pyro,"['age', 'city']->race",0.6148055329818958,0.6361127398611738,0.9572649572649573,False,2,0.649
+ncvoter,pyro,"['middle_name', 'zip_code']->street_address",0.0,0.9111405507332672,0.564625850340136,False,2,0.853
+ncvoter,pyro,"['first_name', 'register_date']->birth_place",0.0,0.4327491440176491,0.9081632653061225,False,2,0.902
+ncvoter,pyro,"['city', 'middle_name']->street_address",0.0,0.8712121373322093,0.5027932960893855,False,2,0.821
+ncvoter,pyro,"['middle_name', 'register_date']->gender",0.0,0.6181710706251208,0.768361581920904,False,2,0.823
+ncvoter,pyro,"['register_date', 'zip_code']->full_phone_num",0.0,0.029758361626829207,0.7151515151515152,False,2,0.67
+ncvoter,pyro,"['age', 'middle_name']->name_suffix",0.0,0.8176174599264199,1.0,False,2,0.747
+ncvoter,pyro,"['age', 'city']->name_prefix",0.0,0.0,1.0,False,2,0.649
+ncvoter,pyro,"['age', 'city']->ethnic",0.06407455587681099,0.10754716278760151,0.9287749287749287,False,2,0.649
+ncvoter,pyro,"['age', 'zip_code']->ethnic",0.32395604074518514,0.31233626662988273,0.9503311258278145,False,2,0.698
+ncvoter,pyro,"['register_date', 'zip_code']->birth_place",0.0,0.5516601876545434,0.9424242424242424,False,2,0.67
+ncvoter,pyro,"['last_name', 'middle_name']->street_address",0.0,0.9932613387115389,0.6875,False,2,0.984
+ncvoter,pyro,"['age', 'first_name']->city",0.11558765025755624,0.15304678461727372,0.18181818181818182,False,2,0.89
+ncvoter,pyro,"['age', 'last_name']->register_date",0.06091540406684681,0.06556240966771659,0.11363636363636363,False,2,0.956
+ncvoter,pyro,"['age', 'city', 'register_date']->middle_name",0.0,0.0,0.13861386138613863,False,3,0.899
+ncvoter,pyro,"['age', 'register_date', 'zip_code']->middle_name",0.0,0.0,0.16216216216216217,False,3,0.926
+ncvoter,pyro,"['first_name', 'middle_name']->street_address",0.0,0.9658786066500494,0.4583333333333333,False,2,0.952
+ncvoter,pyro,"['age', 'middle_name', 'register_date']->first_name",0.0,0.9740111366087496,0.6511627906976745,False,3,0.957
+ncvoter,pyro,"['age', 'register_date']->race",0.7833685145411959,0.7846196231355428,0.9790697674418605,False,2,0.57
+ncvoter,pyro,"['city', 'register_date']->birth_place",0.0,0.5536425684332363,0.9427792915531336,False,2,0.633
+ncvoter,pyro,"['age', 'middle_name']->ethnic",0.0,0.8058469827623439,0.9762845849802372,False,2,0.747
+ncvoter,pyro,"['age', 'first_name']->register_date",0.02018211442046336,0.02962517753229935,0.1,False,2,0.89
+ncvoter,pyro,"['age', 'zip_code']->gender",0.015927060236742396,0.010464904338944194,0.6026490066225165,False,2,0.698
+ncvoter,pyro,"['last_name', 'register_date']->middle_name",0.0,0.0,0.2676056338028169,False,2,0.929
+ncvoter,pyro,"['middle_name', 'register_date']->birth_place",0.0,0.8546537640013798,0.9717514124293786,False,2,0.823
+ncvoter,pyro,"['middle_name', 'register_date']->name_suffix",0.0,0.8009622384581874,1.0,False,2,0.823
+ncvoter,pyro,"['full_phone_num', 'last_name']->city",0.0,0.9994977451055022,0.9947089947089947,False,2,0.811
+ncvoter,pyro,"['first_name', 'register_date']->middle_name",0.0,0.0,0.20408163265306123,False,2,0.902
+ncvoter,pyro,"['age', 'register_date']->ethnic",0.13471368008131257,0.14924295045631933,0.9418604651162791,False,2,0.57
+ncvoter,pyro,"['age', 'middle_name']->gender",0.0,0.6303544667184098,0.8260869565217391,False,2,0.747
+ncvoter,pyro,"['age', 'last_name']->middle_name",0.0,0.003853784652573496,0.29545454545454547,False,2,0.956
+ncvoter,pyro,"['register_date', 'zip_code']->name_suffix",0.0,0.0,0.996969696969697,False,2,0.67
+ncvoter,pyro,"['age', 'register_date', 'zip_code']->first_name",0.01589647683397677,0.01920700920374624,0.02702702702702703,False,3,0.926
+ncvoter,pyro,"['last_name', 'register_date']->street_address",0.2393665713945553,0.24187018530787577,0.2535211267605634,False,2,0.929
+ncvoter,pyro,"['age', 'first_name']->middle_name",0.0,0.0,0.18181818181818182,False,2,0.89
+ncvoter,pyro,"['first_name', 'register_date']->street_address",0.0,0.0,0.0,False,2,0.902
+ncvoter,pyro,"['city', 'register_date']->name_suffix",0.0,0.0,0.997275204359673,False,2,0.633
+ncvoter,pyro,"['age', 'first_name']->birth_place",0.0,0.20840337178490162,0.9,False,2,0.89
+ncvoter,pyro,"['city', 'full_phone_num']->race",0.0,1.0,1.0,False,2,0.489
+ncvoter,pyro,"['age', 'city', 'register_date']->gender",0.0,0.0,0.5247524752475248,False,3,0.899
+ncvoter,pyro,"['age', 'zip_code']->birth_place",0.0,0.5383160214384941,0.9370860927152318,False,2,0.698
+ncvoter,pyro,"['age', 'register_date']->name_suffix",0.0,0.0,0.9976744186046511,False,2,0.57
+ncvoter,pyro,"['download_month', 'zip_code']->ethnic",0.19032648249644102,0.19354162639669903,0.9445277361319341,False,2,0.333
+ncvoter,pyro,"['age', 'city', 'register_date']->first_name",0.01376856435643481,0.016588498348757245,0.0297029702970297,False,3,0.899
+ncvoter,pyro,"['age', 'city']->birth_place",0.0,0.49031616421046903,0.9230769230769231,False,2,0.649
+ncvoter,pyro,"['age', 'middle_name', 'register_date']->street_address",0.0,0.9782320031833333,0.6511627906976745,False,3,0.957
+ncvoter,pyro,"['age', 'middle_name']->birth_place",0.0,0.6719712500352901,0.9525691699604744,False,2,0.747
+ncvoter,pyro,"['full_phone_num', 'last_name']->middle_name",0.0,0.9973561633460044,0.9841269841269841,False,2,0.811
+ncvoter,pyro,"['age', 'gender', 'zip_code']->register_date",0.0940150429893778,0.10686913379567209,0.1761904761904762,False,3,0.79
+ncvoter,pyro,"['age', 'city']->full_phone_num",0.0,0.1263732388339176,0.717948717948718,False,2,0.649
+ncvoter,pyro,"['download_month', 'full_phone_num', 'register_date']->name_prefix",0.0,1.0,1.0,False,3,0.579
+ncvoter,pyro,"['download_month', 'first_name', 'full_phone_num']->city",0.0,0.9993062540781702,0.9950738916256158,False,3,0.797
+ncvoter,pyro,"['age', 'register_date', 'zip_code']->street_address",0.015675117228013402,0.024301489764578903,0.02702702702702703,False,3,0.926
+ncvoter,pyro,"['full_phone_num', 'zip_code']->name_suffix",0.0,0.9627089351771881,1.0,False,2,0.512
+ncvoter,pyro,"['age', 'first_name']->full_phone_num",0.0,0.21026591342503573,0.8545454545454545,False,2,0.89
+ncvoter,pyro,"['download_month', 'first_name', 'full_phone_num']->middle_name",0.0,0.9992363682529514,0.9950738916256158,False,3,0.797
+ncvoter,pyro,"['age', 'zip_code']->full_phone_num",0.0,0.05839572883795425,0.7185430463576159,False,2,0.698
+ncvoter,pyro,"['full_phone_num', 'middle_name']->name_suffix",0.0,1.0,1.0,False,2,0.62
+ncvoter,pyro,"['age', 'middle_name']->full_phone_num",0.0,0.9210677314697232,0.9683794466403162,False,2,0.747
+ncvoter,pyro,"['download_month', 'middle_name']->ethnic",0.0,0.6327035773778682,0.9728155339805825,False,2,0.485
+ncvoter,pyro,"['age', 'full_phone_num', 'register_date']->birth_place",0.0,1.0,1.0,False,3,0.756
+ncvoter,pyro,"['age', 'download_month', 'middle_name']->register_date",0.0,0.8217222894574704,0.5578947368421052,False,3,0.81
+ncvoter,pyro,"['full_phone_num', 'middle_name', 'register_date']->city",0.0,1.0,1.0,False,3,0.873
+ncvoter,pyro,"['city', 'full_phone_num']->name_suffix",0.0,0.962829740781975,1.0,False,2,0.489
+ncvoter,pyro,"['full_phone_num', 'register_date', 'zip_code']->first_name",0.0,0.9919115798253475,0.9123711340206185,False,3,0.806
+ncvoter,pyro,"['first_name', 'full_phone_num']->birth_place",0.0,1.0,1.0,False,2,0.718
+ncvoter,pyro,"['age', 'city', 'register_date']->street_address",0.00650916741675911,0.015590096336649517,0.019801980198019802,False,3,0.899
+ncvoter,pyro,"['age', 'last_name']->first_name",0.01836444805194981,0.01718152361505763,0.022727272727272728,False,2,0.956
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num']->race",0.0,1.0,1.0,False,3,0.487
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name']->city",0.0,1.0,1.0,False,3,0.826
+ncvoter,pyro,"['full_phone_num', 'register_date', 'zip_code']->middle_name",0.0,0.9917822271982017,0.9381443298969072,False,3,0.806
+ncvoter,pyro,"['download_month', 'full_phone_num', 'register_date']->ethnic",0.0,1.0,1.0,False,3,0.579
+ncvoter,pyro,"['full_phone_num', 'register_date']->race",0.0,1.0,1.0,False,2,0.536
+ncvoter,pyro,"['birth_place', 'download_month', 'first_name']->full_phone_num",0.0,0.6728350947813226,0.7785234899328859,False,3,0.702
+ncvoter,pyro,"['age', 'full_phone_num', 'gender']->name_suffix",0.0,0.9761779007299949,1.0,False,3,0.46
+ncvoter,pyro,"['full_phone_num', 'register_date', 'zip_code']->street_address",0.0,0.9939019342682908,0.9226804123711341,False,3,0.806
+ncvoter,pyro,"['full_phone_num', 'gender', 'zip_code']->birth_place",0.0,1.0,1.0,False,3,0.594
+ncvoter,pyro,"['age', 'download_month', 'zip_code']->register_date",0.08559926504799786,0.11950189250485926,0.1782178217821782,False,3,0.798
+ncvoter,pyro,"['city', 'download_month', 'gender']->name_prefix",0.0,0.3036520505503698,1.0,False,3,0.394
+ncvoter,pyro,"['age', 'last_name']->street_address",0.1703781438421671,0.17476332243117787,0.18181818181818182,False,2,0.956
+ncvoter,pyro,"['age', 'first_name']->street_address",0.0,0.0,0.0,False,2,0.89
+ncvoter,pyro,"['age', 'gender', 'zip_code']->first_name",0.024633290816326148,0.03679653077041151,0.047619047619047616,False,3,0.79
+ncvoter,pyro,"['city', 'download_month', 'gender']->ethnic",0.03578689012487424,0.01793580025141086,0.9389438943894389,False,3,0.394
+ncvoter,pyro,"['full_phone_num', 'last_name']->first_name",0.0,0.9968371922265598,0.9576719576719577,False,2,0.811
+ncvoter,pyro,"['full_phone_num', 'last_name']->register_date",0.0,0.9973431345958435,0.9735449735449735,False,2,0.811
+ncvoter,pyro,"['full_phone_num', 'gender', 'register_date']->name_suffix",0.0,0.9709649832616327,1.0,False,3,0.573
+ncvoter,pyro,"['city', 'full_phone_num', 'gender', 'register_date']->middle_name",0.0,0.9950779515347146,0.95,False,4,0.84
+ncvoter,pyro,"['gender', 'zip_code']->name_suffix",0.0,0.20890568933971562,0.993993993993994,False,2,0.334
+ncvoter,pyro,"['age', 'download_month', 'gender']->name_prefix",0.0,0.39187897900355345,1.0,False,3,0.179
+ncvoter,pyro,"['full_phone_num', 'gender', 'middle_name']->race",0.0,1.0,1.0,False,3,0.644
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'register_date']->city",0.0,0.9952954841215302,0.9560439560439561,False,4,0.818
+ncvoter,pyro,"['full_phone_num', 'middle_name', 'register_date']->first_name",0.0,1.0,1.0,False,3,0.873
+ncvoter,pyro,"['gender', 'middle_name']->name_suffix",0.0,0.47705032868038844,0.9944954128440368,False,2,0.455
+ncvoter,pyro,"['age', 'gender', 'zip_code']->street_address",0.004670242762239374,0.0036665497957067525,0.004761904761904762,False,3,0.79
+ncvoter,pyro,"['download_month', 'first_name', 'full_phone_num']->register_date",0.0,0.9987330554038155,0.9901477832512315,False,3,0.797
+ncvoter,pyro,"['download_month', 'last_name']->city",0.16256075452391816,0.1628269175452027,0.2170212765957447,False,2,0.765
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num']->ethnic",0.0,1.0,1.0,False,3,0.461
+ncvoter,pyro,"['full_phone_num', 'last_name']->street_address",0.0,0.999340147902817,0.9894179894179894,False,2,0.811
+ncvoter,pyro,"['city', 'gender']->name_suffix",0.0,0.20272959806047633,0.9928876244665719,False,2,0.297
+ncvoter,pyro,"['download_month', 'gender', 'register_date']->name_prefix",0.0,0.0,1.0,False,3,0.395
+ncvoter,pyro,"['full_phone_num', 'zip_code']->ethnic",0.0,1.0,1.0,False,2,0.512
+ncvoter,pyro,"['birth_place', 'download_month', 'full_phone_num', 'name_prefix', 'name_suffix', 'zip_code']->gender",0.0,1.0,1.0,False,6,0.664
+ncvoter,pyro,"['age', 'full_phone_num', 'zip_code']->first_name",0.0,0.9931550200171156,0.9085365853658537,False,3,0.836
+ncvoter,pyro,"['full_phone_num', 'middle_name']->ethnic",0.0,1.0,1.0,False,2,0.62
+ncvoter,pyro,"['download_month', 'zip_code']->name_suffix",0.0,0.11459338545945609,1.0,False,2,0.333
+ncvoter,pyro,"['download_month', 'middle_name', 'register_date']->city",0.0,0.9154916727537841,0.6693548387096774,False,3,0.876
+ncvoter,pyro,"['download_month', 'first_name', 'full_phone_num']->street_address",0.0,0.999214161745062,0.9901477832512315,False,3,0.797
+ncvoter,pyro,"['age', 'full_phone_num', 'zip_code']->register_date",0.0,0.9931242535165538,0.9329268292682927,False,3,0.836
+ncvoter,pyro,"['age', 'full_phone_num', 'zip_code']->middle_name",0.0,0.9921571389988567,0.9207317073170732,False,3,0.836
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'gender']->birth_place",0.0,1.0,1.0,False,4,0.634
+ncvoter,pyro,"['download_month', 'gender', 'register_date']->race",0.6489181089099727,0.6327048297458227,0.9702479338842975,False,3,0.395
+ncvoter,pyro,"['download_month', 'middle_name']->name_suffix",0.0,0.40607563571621363,0.996116504854369,False,2,0.485
+ncvoter,pyro,"['city', 'download_month', 'register_date']->full_phone_num",0.0,0.13383767209862682,0.7472527472527473,False,3,0.727
+ncvoter,pyro,"['city', 'full_phone_num', 'register_date']->gender",0.0,0.9666945681157035,0.9601769911504425,False,3,0.774
+ncvoter,pyro,"['full_phone_num', 'middle_name', 'register_date']->street_address",0.0,1.0,1.0,False,3,0.873
+ncvoter,pyro,"['city', 'download_month']->race",0.3407838805753153,0.3626202115077857,0.9347517730496454,False,2,0.295
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'register_date']->middle_name",0.0,0.9950163558805775,0.9505494505494505,False,4,0.818
+ncvoter,pyro,"['age', 'download_month', 'middle_name']->first_name",0.0,0.8494834782493398,0.5157894736842106,False,3,0.81
+ncvoter,pyro,"['age', 'full_phone_num', 'zip_code']->street_address",0.0,0.9949422266522561,0.9207317073170732,False,3,0.836
+ncvoter,pyro,"['age', 'city', 'full_phone_num', 'gender']->register_date",0.0,0.9938976775413604,0.9315068493150684,False,4,0.854
+ncvoter,pyro,"['city', 'download_month', 'ethnic', 'full_phone_num']->name_prefix",0.0,1.0,1.0,False,4,0.56
+ncvoter,pyro,"['download_month', 'last_name']->middle_name",0.0,0.008622491804099216,0.251063829787234,False,2,0.765
+ncvoter,pyro,"['city', 'download_month', 'ethnic']->name_suffix",0.0,0.04025878715056908,0.9956204379562044,False,3,0.315
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num']->race",0.0,1.0,1.0,False,3,0.461
+ncvoter,pyro,"['download_month', 'full_phone_num', 'zip_code']->birth_place",0.0,1.0,1.0,False,3,0.583
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'name_prefix']->ethnic",0.0,1.0,1.0,False,4,0.557
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'register_date']->first_name",0.0,0.9959010844300635,0.9505494505494505,False,4,0.818
+ncvoter,pyro,"['age', 'download_month', 'middle_name']->street_address",0.0,0.8701190351143607,0.5105263157894737,False,3,0.81
+ncvoter,pyro,"['age', 'download_month', 'zip_code']->middle_name",0.0,0.008085920394050972,0.22772277227722773,False,3,0.798
+ncvoter,pyro,"['gender', 'zip_code']->ethnic",0.2306202919398056,0.24600479433552025,0.9459459459459459,False,2,0.334
+ncvoter,pyro,"['age', 'download_month', 'gender']->name_suffix",0.0,0.2554792853121476,0.9939098660170523,False,3,0.179
+ncvoter,pyro,"['age', 'download_month', 'gender', 'register_date']->full_phone_num",0.0,0.05290888039060469,0.7716535433070866,False,4,0.746
+ncvoter,pyro,"['download_month', 'gender', 'middle_name']->race",0.0,0.496160753774008,0.9397849462365592,False,3,0.535
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num', 'register_date']->city",0.0,0.9966068699998016,0.9675675675675676,False,4,0.815
+ncvoter,pyro,"['age', 'download_month', 'middle_name']->city",0.0,0.8460799607247037,0.5894736842105263,False,3,0.81
+ncvoter,pyro,"['download_month', 'full_phone_num', 'middle_name']->race",0.0,1.0,1.0,False,3,0.658
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'register_date']->street_address",0.0,0.996578893918421,0.9505494505494505,False,4,0.818
+ncvoter,pyro,"['city', 'gender', 'register_date']->full_phone_num",0.0,0.040398776751112975,0.7220216606498195,False,3,0.723
+ncvoter,pyro,"['download_month', 'full_phone_num', 'register_date']->name_suffix",0.0,0.9790125882232334,1.0,False,3,0.579
+ncvoter,pyro,"['gender', 'middle_name', 'register_date']->city",0.0,0.9130987682995815,0.6614173228346457,False,3,0.873
+ncvoter,pyro,"['age', 'city', 'download_month', 'gender']->first_name",0.002783943535514588,0.019318272562985347,0.0223463687150838,False,4,0.821
+ncvoter,pyro,"['birth_place', 'city']->race",0.0,0.606565857515987,0.9529243937232525,False,2,0.299
+ncvoter,pyro,"['gender', 'last_name']->city",0.12842031742127014,0.12422618245368738,0.17410714285714285,False,2,0.776
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num']->name_suffix",0.0,0.9735952761408834,1.0,False,3,0.461
+ncvoter,pyro,"['birth_place', 'gender', 'middle_name']->ethnic",0.0,0.7070840779218666,0.9671052631578947,False,3,0.544
+ncvoter,pyro,"['download_month', 'first_name']->birth_place",0.0,0.11800199894478092,0.9034653465346535,False,2,0.596
+ncvoter,pyro,"['download_month', 'last_name']->first_name",0.0010448328267479434,0.004586323845749848,0.01276595744680851,False,2,0.765
+ncvoter,pyro,"['age', 'gender', 'middle_name']->city",0.0,0.8356958628311971,0.5515463917525774,False,3,0.806
+ncvoter,pyro,"['birth_place', 'download_month', 'register_date']->race",0.0,0.7603666794169934,0.9744027303754266,False,3,0.414
+ncvoter,pyro,"['full_phone_num', 'gender', 'register_date']->ethnic",0.0,1.0,1.0,False,3,0.573
+ncvoter,pyro,"['age', 'download_month', 'register_date']->birth_place",0.0,0.37464783509266086,0.9300291545189504,False,3,0.657
+ncvoter,pyro,"['age', 'city', 'download_month', 'gender']->street_address",0.0,0.0,0.0,False,4,0.821
+ncvoter,pyro,"['age', 'download_month', 'zip_code']->first_name",0.0031130026267931488,0.008530785334799177,0.01485148514851485,False,3,0.798
+ncvoter,pyro,"['download_month', 'gender', 'register_date']->ethnic",0.18402983131719586,0.18015123104169087,0.9504132231404959,False,3,0.395
+ncvoter,pyro,"['download_month', 'last_name']->street_address",0.050125290008178,0.05331105171818241,0.06382978723404255,False,2,0.765
+ncvoter,pyro,"['birth_place', 'download_month', 'full_phone_num', 'gender', 'name_prefix', 'zip_code']->register_date",0.0,1.0,1.0,False,6,0.731
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'name_suffix', 'zip_code']->gender",0.0,1.0,1.0,False,6,0.662
+ncvoter,pyro,"['birth_place', 'download_month', 'middle_name']->race",0.0,0.7442221283251236,0.9655172413793104,False,3,0.565
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender']->city",0.0,0.9979215225453424,0.9800995024875622,False,4,0.799
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'full_phone_num', 'gender']->name_prefix",0.0,1.0,1.0,False,5,0.554
+ncvoter,pyro,"['birth_place', 'full_phone_num', 'middle_name']->race",0.0,1.0,1.0,False,3,0.669
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name']->register_date",0.0,1.0,1.0,False,3,0.826
+ncvoter,pyro,"['download_month', 'gender', 'register_date']->name_suffix",0.0,0.21066718109048854,0.996694214876033,False,3,0.395
+ncvoter,pyro,"['age', 'download_month', 'zip_code']->street_address",0.010634959910876263,0.01150855747322505,0.01485148514851485,False,3,0.798
+ncvoter,pyro,"['download_month', 'last_name']->register_date",0.06561068653650315,0.07341126988126365,0.14468085106382977,False,2,0.765
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'zip_code']->middle_name",0.0,1.0,1.0,False,7,0.743
+ncvoter,pyro,"['download_month', 'ethnic', 'first_name', 'gender', 'name_suffix', 'race']->full_phone_num",0.0,0.9991195371652674,0.9968253968253968,False,6,0.685
+ncvoter,pyro,"['age', 'birth_place', 'download_month']->race",0.0,0.6052646528587087,0.9533954727030626,False,3,0.249
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'gender']->ethnic",0.0,1.0,1.0,False,4,0.542
+ncvoter,pyro,"['age', 'full_phone_num', 'register_date']->gender",0.0,0.982660126468974,0.9836065573770492,False,3,0.756
+ncvoter,pyro,"['age', 'gender', 'register_date']->birth_place",0.0,0.3797480073470908,0.9319526627218935,False,3,0.662
+ncvoter,pyro,"['birth_place', 'gender', 'register_date']->race",0.0,0.7099978050491362,0.9728813559322034,False,3,0.41
+ncvoter,pyro,"['city', 'download_month', 'gender', 'register_date']->middle_name",0.0,0.0,0.19473684210526315,False,4,0.81
+ncvoter,pyro,"['full_phone_num', 'gender', 'register_date']->name_prefix",0.0,1.0,1.0,False,3,0.573
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'zip_code']->first_name",0.0,1.0,1.0,False,8,0.753
+ncvoter,pyro,"['birth_place', 'race', 'zip_code']->name_suffix",0.0,0.25161832314415766,0.9953632148377125,False,3,0.353
+ncvoter,pyro,"['age', 'full_phone_num', 'gender']->race",0.0,1.0,1.0,False,3,0.46
+ncvoter,pyro,"['age', 'city', 'full_phone_num', 'name_prefix']->gender",0.0,1.0,1.0,False,4,0.809
+ncvoter,pyro,"['birth_place', 'middle_name']->name_suffix",0.0,0.4703075702314956,0.9940357852882704,False,2,0.497
+ncvoter,pyro,"['download_month', 'gender', 'zip_code']->birth_place",0.0,0.4082527867700626,0.9205776173285198,False,3,0.446
+ncvoter,pyro,"['age', 'birth_place', 'download_month', 'gender']->ethnic",0.0,0.36114525958208876,0.9542772861356932,False,4,0.322
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'zip_code']->street_address",0.0,1.0,1.0,False,8,0.753
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'race']->city",0.0,0.6665260425776464,0.12295081967213115,False,6,0.756
+ncvoter,pyro,"['city', 'ethnic', 'gender']->name_prefix",0.0,0.4717957703514128,1.0,False,3,0.318
+ncvoter,pyro,"['age', 'download_month', 'gender']->race",0.3145786894600149,0.37638399293185937,0.9342265529841657,False,3,0.179
+ncvoter,pyro,"['age', 'city', 'download_month', 'full_phone_num', 'name_prefix']->register_date",0.0,1.0,1.0,False,5,0.851
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'register_date']->middle_name",0.0,0.9939858845760315,0.9408284023668639,False,4,0.831
+ncvoter,pyro,"['age', 'birth_place', 'gender']->race",0.0,0.6284589785944531,0.9544846050870147,False,3,0.253
+ncvoter,pyro,"['city', 'download_month', 'register_date']->gender",0.0,0.0,0.5860805860805861,False,3,0.727
+ncvoter,pyro,"['gender', 'last_name']->register_date",0.07978624958638936,0.08386865788530871,0.15178571428571427,False,2,0.776
+ncvoter,pyro,"['city', 'gender']->race",0.3001995126398178,0.3242677837671155,0.930298719772404,False,2,0.297
+ncvoter,pyro,"['download_month', 'register_date', 'zip_code']->first_name",0.000608766233766711,0.0002736273197905721,0.008658008658008658,False,3,0.769
+ncvoter,pyro,"['download_month', 'register_date', 'zip_code']->street_address",0.03483175055732235,0.03439005986476635,0.04329004329004329,False,3,0.769
+ncvoter,pyro,"['age', 'gender', 'middle_name']->register_date",0.0,0.8053411467841084,0.5103092783505154,False,3,0.806
+ncvoter,pyro,"['birth_place', 'city', 'name_suffix', 'race', 'register_date']->full_phone_num",0.0,0.9997077357012276,1.0,False,5,0.696
+ncvoter,pyro,"['city', 'full_phone_num', 'gender', 'name_prefix']->ethnic",0.0,1.0,1.0,False,4,0.568
+ncvoter,pyro,"['download_month', 'register_date', 'zip_code']->middle_name",0.0,0.010182457630624269,0.2554112554112554,False,3,0.769
+ncvoter,pyro,"['age', 'birth_place', 'download_month', 'gender', 'register_date']->city",0.0,0.732492933939184,0.18407960199004975,False,5,0.799
+ncvoter,pyro,"['age', 'city', 'download_month']->gender",0.0,0.0,0.5632183908045977,False,3,0.739
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender']->register_date",0.0,0.9967962083019408,0.9701492537313433,False,4,0.799
+ncvoter,pyro,"['age', 'download_month', 'register_date']->gender",0.05454053714684648,0.049331733602078966,0.6209912536443148,False,3,0.657
+ncvoter,pyro,"['age', 'birth_place', 'download_month', 'register_date']->full_phone_num",0.0,0.6859352346209713,0.7564575645756457,False,4,0.729
+ncvoter,pyro,"['birth_place', 'ethnic', 'gender', 'middle_name']->race",0.0,0.7510387935543166,0.9612756264236902,False,4,0.561
+ncvoter,pyro,"['birth_place', 'city', 'zip_code']->name_suffix",0.0,0.24609526378275542,0.9955686853766618,False,3,0.323
+ncvoter,pyro,"['birth_place', 'zip_code']->ethnic",0.0,0.44248513970116954,0.9544117647058824,False,2,0.32
+ncvoter,pyro,"['birth_place', 'city', 'download_month']->name_suffix",0.0,0.2931205969479947,0.9983606557377049,False,3,0.39
+ncvoter,pyro,"['age', 'birth_place', 'gender', 'register_date']->full_phone_num",0.0,0.6728499665388938,0.737037037037037,False,4,0.73
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'register_date']->name_prefix",0.0,0.16548216466092047,1.0,False,4,0.433
+ncvoter,pyro,"['birth_place', 'middle_name', 'register_date']->city",0.0,0.9419909123921703,0.6382978723404256,False,3,0.859
+ncvoter,pyro,"['birth_place', 'last_name']->city",0.0,0.74866980661128,0.3886792452830189,False,2,0.735
+ncvoter,pyro,"['birth_place', 'city', 'name_suffix', 'register_date']->gender",0.0,1.0,1.0,False,4,0.688
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'register_date']->city",0.0,0.9941479386250298,0.9510869565217391,False,4,0.816
+ncvoter,pyro,"['birth_place', 'download_month', 'name_suffix', 'register_date']->ethnic",0.0,0.980392100777244,0.9964788732394366,False,4,0.432
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'race']->register_date",0.0,0.6721694584881587,0.20866141732283464,False,5,0.746
+ncvoter,pyro,"['birth_place', 'download_month', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'zip_code']->middle_name",0.0,1.0,1.0,False,7,0.741
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'race', 'zip_code']->street_address",0.0,1.0,1.0,False,8,0.754
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'race', 'zip_code']->first_name",0.0,1.0,1.0,False,8,0.754
+ncvoter,pyro,"['age', 'birth_place', 'middle_name']->city",0.0,0.9214690300738526,0.6222222222222222,False,3,0.82
+ncvoter,pyro,"['age', 'name_prefix', 'race', 'register_date']->birth_place",0.0,1.0,1.0,False,4,0.593
+ncvoter,pyro,"['download_month', 'middle_name', 'register_date']->street_address",0.0,0.9287671794088193,0.5806451612903226,False,3,0.876
+ncvoter,pyro,"['download_month', 'middle_name', 'register_date']->first_name",0.0,0.9187404178320727,0.5967741935483871,False,3,0.876
+ncvoter,pyro,"['age', 'city', 'download_month', 'gender']->register_date",0.0744952333289235,0.1200142974354039,0.16759776536312848,False,4,0.821
+ncvoter,pyro,"['age', 'birth_place', 'city', 'name_prefix']->gender",0.0,1.0,1.0,False,4,0.704
+ncvoter,pyro,"['age', 'city', 'download_month', 'gender']->middle_name",0.0,0.01775834802821118,0.24581005586592178,False,4,0.821
+ncvoter,pyro,"['birth_place', 'full_phone_num', 'name_suffix', 'register_date']->ethnic",0.0,1.0,1.0,False,4,0.594
+ncvoter,pyro,"['ethnic', 'middle_name', 'race', 'register_date']->city",0.0,0.8627116458808801,0.577639751552795,False,4,0.839
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num', 'register_date']->first_name",0.0,0.9969337952430468,0.9621621621621622,False,4,0.815
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num', 'register_date']->street_address",0.0,0.9974412536081704,0.9621621621621622,False,4,0.815
+ncvoter,pyro,"['age', 'birth_place', 'city', 'full_phone_num']->gender",0.0,0.9708863153636643,0.9540229885057471,False,4,0.826
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num', 'register_date']->middle_name",0.0,0.9962718589079949,0.9621621621621622,False,4,0.815
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'register_date']->first_name",0.0,0.9940341463605673,0.9171597633136095,False,4,0.831
+ncvoter,pyro,"['city', 'ethnic', 'name_prefix', 'name_suffix']->race",0.0,1.0,1.0,False,4,0.263
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'register_date']->street_address",0.0,0.9953483205818974,0.9230769230769231,False,4,0.831
+ncvoter,pyro,"['birth_place', 'last_name']->register_date",0.0,0.6953732139359131,0.2830188679245283,False,2,0.735
+ncvoter,pyro,"['gender', 'last_name']->first_name",0.024982063137755417,0.031906581983856847,0.044642857142857144,False,2,0.776
+ncvoter,pyro,"['gender', 'last_name']->street_address",0.004372596303735099,0.003646338104083054,0.004464285714285714,False,2,0.776
+ncvoter,pyro,"['gender', 'register_date', 'zip_code']->first_name",0.005395757675800139,0.00985531351461254,0.02145922746781116,False,3,0.767
+ncvoter,pyro,"['gender', 'register_date', 'zip_code']->street_address",0.007061634051165222,0.006603972336177401,0.008583690987124463,False,3,0.767
+ncvoter,pyro,"['age', 'city', 'download_month', 'full_phone_num', 'name_prefix']->middle_name",0.0,1.0,1.0,False,5,0.851
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name']->register_date",0.0,0.9113278518412673,0.5882352941176471,False,4,0.83
+ncvoter,pyro,"['ethnic', 'last_name', 'name_prefix', 'name_suffix', 'race']->city",0.0,1.0,1.0,False,5,0.714
+ncvoter,pyro,"['city', 'full_phone_num', 'gender', 'register_date']->street_address",0.0,0.9961265541521404,0.9375,False,4,0.84
+ncvoter,pyro,"['city', 'full_phone_num', 'gender', 'register_date']->first_name",0.0,0.9953595258298107,0.9375,False,4,0.84
+ncvoter,pyro,"['age', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'register_date']->full_phone_num",0.0,1.0,1.0,False,6,0.702
+ncvoter,pyro,"['gender', 'last_name']->middle_name",0.0,0.017223185669939967,0.2767857142857143,False,2,0.776
+ncvoter,pyro,"['age', 'gender', 'zip_code']->middle_name",0.0,0.01633657993305588,0.24285714285714285,False,3,0.79
+ncvoter,pyro,"['city', 'download_month', 'gender', 'register_date']->first_name",0.010947112098427692,0.018155327905313108,0.031578947368421054,False,4,0.81
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'race']->city",0.0,0.9979215225453424,0.9795918367346939,False,4,0.804
+ncvoter,pyro,"['gender', 'register_date', 'zip_code']->middle_name",0.0,0.013753573479528929,0.23605150214592274,False,3,0.767
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'name_suffix', 'register_date']->full_phone_num",0.0,0.9987762820773732,0.9967637540453075,False,5,0.691
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'name_prefix', 'zip_code']->register_date",0.0,0.9971998361055592,0.970954356846473,False,5,0.759
+ncvoter,pyro,"['birth_place', 'gender', 'name_prefix', 'name_suffix', 'race', 'register_date']->ethnic",0.0,1.0,1.0,False,6,0.454
+ncvoter,pyro,"['city', 'full_phone_num', 'gender', 'name_prefix']->birth_place",0.0,1.0,1.0,False,4,0.568
+ncvoter,pyro,"['birth_place', 'download_month', 'full_phone_num', 'name_suffix', 'race', 'zip_code']->gender",0.0,1.0,1.0,False,6,0.666
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'full_phone_num']->street_address",0.0,0.9980115119418926,0.9696969696969697,False,4,0.802
+ncvoter,pyro,"['age', 'city', 'full_phone_num', 'gender', 'name_prefix']->middle_name",0.0,1.0,1.0,False,5,0.859
+ncvoter,pyro,"['age', 'birth_place', 'download_month', 'gender', 'register_date']->first_name",0.0,0.7425847924269511,0.06467661691542288,False,5,0.799
+ncvoter,pyro,"['ethnic', 'first_name', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'race']->city",0.0,1.0,1.0,False,7,0.791
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'full_phone_num', 'race']->name_suffix",0.0,0.9680643067331596,1.0,False,5,0.522
+ncvoter,pyro,"['gender', 'middle_name', 'register_date']->first_name",0.0,0.9147684928071583,0.5905511811023622,False,3,0.873
+ncvoter,pyro,"['age', 'birth_place', 'download_month', 'gender', 'register_date']->middle_name",0.0,0.7208396738688319,0.20398009950248755,False,5,0.799
+ncvoter,pyro,"['age', 'ethnic', 'gender', 'name_prefix', 'name_suffix']->race",0.0,1.0,1.0,False,5,0.183
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'middle_name']->first_name",0.0,1.0,1.0,False,4,0.871
+ncvoter,pyro,"['city', 'name_prefix', 'name_suffix', 'register_date']->gender",0.0,1.0,1.0,False,4,0.663
+ncvoter,pyro,"['age', 'ethnic', 'gender', 'name_suffix', 'race', 'register_date']->full_phone_num",0.0,0.9982402637256061,0.9966887417218543,False,6,0.698
+ncvoter,pyro,"['city', 'download_month', 'gender', 'name_prefix', 'race']->birth_place",0.0,0.9894926329717784,0.9964664310954063,False,5,0.434
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'name_suffix', 'race']->street_address",0.0,0.9995779695382128,0.9911894273127754,False,7,0.773
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender']->middle_name",0.0,0.9974624301511864,0.9751243781094527,False,4,0.799
+ncvoter,pyro,"['age', 'birth_place', 'name_prefix', 'name_suffix', 'zip_code']->register_date",0.0,1.0,1.0,False,5,0.766
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'full_phone_num']->city",0.0,0.9979215225453424,0.9797979797979798,False,4,0.802
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic']->name_prefix",0.0,0.3964557044691761,1.0,False,4,0.405
+ncvoter,pyro,"['birth_place', 'middle_name', 'register_date']->first_name",0.0,0.9436079472223328,0.5602836879432624,False,3,0.859
+ncvoter,pyro,"['age', 'download_month', 'name_suffix', 'race', 'register_date']->full_phone_num",0.0,0.9985332214832999,0.9968652037617555,False,5,0.681
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'full_phone_num', 'name_suffix']->ethnic",0.0,1.0,1.0,False,5,0.632
+ncvoter,pyro,"['city', 'download_month', 'gender', 'register_date']->street_address",0.010435184695371968,0.008170822205820783,0.010526315789473684,False,4,0.81
+ncvoter,pyro,"['birth_place', 'last_name']->first_name",0.0,0.7140759737939226,0.12830188679245283,False,2,0.735
+ncvoter,pyro,"['age', 'city', 'name_prefix', 'name_suffix']->gender",0.0,1.0,1.0,False,4,0.679
+ncvoter,pyro,"['age', 'birth_place', 'gender', 'middle_name']->first_name",0.0,0.9439767920562018,0.5658914728682171,False,4,0.871
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'name_prefix']->birth_place",0.0,1.0,1.0,False,4,0.557
+ncvoter,pyro,"['age', 'birth_place', 'download_month', 'gender', 'register_date']->street_address",0.0,0.7714669817058787,0.03980099502487562,False,5,0.799
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_suffix', 'race']->middle_name",0.0,0.9993847926442728,0.9914893617021276,False,6,0.765
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_suffix', 'register_date']->city",0.0,0.9987094907241639,0.9875518672199171,False,5,0.759
+ncvoter,pyro,"['age', 'full_phone_num', 'name_prefix']->race",0.0,1.0,1.0,False,3,0.423
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'name_suffix', 'register_date']->full_phone_num",0.0,0.9997077357012276,1.0,False,5,0.707
+ncvoter,pyro,"['age', 'birth_place', 'city', 'ethnic', 'gender', 'name_prefix']->register_date",0.0,0.9936619356184228,0.9476190476190476,False,6,0.79
+ncvoter,pyro,"['birth_place', 'download_month', 'name_suffix', 'register_date']->name_prefix",0.0,1.0,1.0,False,4,0.432
+ncvoter,pyro,"['birth_place', 'ethnic', 'zip_code']->name_suffix",0.0,0.2590711510621507,0.9954819277108434,False,3,0.336
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'name_prefix', 'name_suffix', 'zip_code']->first_name",0.0,1.0,1.0,False,6,0.777
+ncvoter,pyro,"['gender', 'middle_name', 'register_date']->street_address",0.0,0.9241024668341237,0.5669291338582677,False,3,0.873
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'full_phone_num']->register_date",0.0,0.9930264367967783,0.9214285714285714,False,5,0.86
+ncvoter,pyro,"['name_prefix', 'race', 'zip_code']->ethnic",0.0,1.0,1.0,False,3,0.29
+ncvoter,pyro,"['middle_name', 'name_suffix', 'race', 'register_date']->city",0.0,1.0,1.0,False,4,0.838
+ncvoter,pyro,"['birth_place', 'last_name']->middle_name",0.0,0.6960269199759361,0.2943396226415094,False,2,0.735
+ncvoter,pyro,"['city', 'download_month', 'ethnic', 'gender', 'name_suffix']->birth_place",0.0,0.9978932609600929,0.9982046678635548,False,5,0.443
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_suffix', 'register_date']->city",0.0,1.0,1.0,False,4,0.838
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'middle_name']->street_address",0.0,1.0,1.0,False,4,0.871
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'race']->register_date",0.0,0.9967962083019408,0.9693877551020408,False,4,0.804
+ncvoter,pyro,"['age', 'city', 'ethnic', 'full_phone_num', 'name_suffix']->gender",0.0,1.0,1.0,False,5,0.824
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'name_prefix', 'register_date']->middle_name",0.0,1.0,1.0,False,5,0.827
+ncvoter,pyro,"['name_suffix', 'race', 'zip_code']->ethnic",0.0,1.0,1.0,False,3,0.308
+ncvoter,pyro,"['birth_place', 'name_prefix', 'zip_code']->name_suffix",0.0,1.0,1.0,False,3,0.332
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix', 'register_date']->first_name",0.0,1.0,1.0,False,6,0.782
+ncvoter,pyro,"['age', 'birth_place', 'middle_name', 'race']->register_date",0.0,0.9085164450818648,0.5813953488372093,False,4,0.828
+ncvoter,pyro,"['download_month', 'ethnic', 'register_date']->race",0.6437292919223966,0.64051750855682,0.9672386895475819,False,3,0.359
+ncvoter,pyro,"['city', 'download_month', 'ethnic', 'full_phone_num', 'race']->birth_place",0.0,1.0,1.0,False,5,0.58
+ncvoter,pyro,"['age', 'birth_place', 'name_prefix', 'name_suffix', 'zip_code']->middle_name",0.0,1.0,1.0,False,5,0.766
+ncvoter,pyro,"['birth_place', 'city', 'name_prefix', 'name_suffix', 'register_date']->full_phone_num",0.0,1.0,1.0,False,5,0.699
+ncvoter,pyro,"['birth_place', 'city', 'full_phone_num', 'name_prefix', 'register_date']->first_name",0.0,1.0,1.0,False,5,0.811
+ncvoter,pyro,"['city', 'ethnic', 'full_phone_num', 'gender', 'race']->birth_place",0.0,1.0,1.0,False,5,0.591
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_suffix', 'race']->city",0.0,0.9993568361040537,0.9914893617021276,False,6,0.765
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'full_phone_num', 'name_prefix']->name_suffix",0.0,1.0,1.0,False,5,0.503
+ncvoter,pyro,"['birth_place', 'middle_name', 'register_date']->street_address",0.0,0.9511850198209947,0.5460992907801419,False,3,0.859
+ncvoter,pyro,"['age', 'name_suffix', 'register_date']->birth_place",0.0,1.0,1.0,False,3,0.588
+ncvoter,pyro,"['birth_place', 'last_name']->street_address",0.0,0.7672035231318359,0.2037735849056604,False,2,0.735
+ncvoter,pyro,"['age', 'birth_place', 'name_prefix', 'race', 'zip_code']->register_date",0.0,0.9971998361055592,0.9714285714285714,False,5,0.755
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'register_date']->first_name",0.0,1.0,1.0,False,7,0.797
+ncvoter,pyro,"['birth_place', 'download_month', 'race', 'register_date']->name_prefix",0.0,0.12018404395681861,1.0,False,4,0.429
+ncvoter,pyro,"['age', 'ethnic', 'race', 'register_date']->birth_place",0.0,0.3808103894043244,0.9371859296482412,False,4,0.602
+ncvoter,pyro,"['download_month', 'ethnic', 'first_name', 'name_prefix', 'name_suffix', 'race']->full_phone_num",0.0,1.0,1.0,False,6,0.686
+ncvoter,pyro,"['birth_place', 'download_month', 'full_phone_num', 'name_prefix', 'race', 'zip_code']->gender",0.0,1.0,1.0,False,6,0.662
+ncvoter,pyro,"['age', 'birth_place', 'gender', 'middle_name']->street_address",0.0,0.952177929349724,0.5581395348837209,False,4,0.871
+ncvoter,pyro,"['download_month', 'name_suffix', 'register_date']->race",0.0,1.0,1.0,False,3,0.355
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_suffix']->city",0.0,1.0,1.0,False,4,0.803
+ncvoter,pyro,"['city', 'download_month', 'ethnic', 'gender', 'race']->birth_place",0.0,0.3761437318962786,0.9112318840579711,False,5,0.448
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix', 'register_date']->middle_name",0.0,1.0,1.0,False,6,0.782
+ncvoter,pyro,"['age', 'full_phone_num', 'name_suffix']->race",0.0,1.0,1.0,False,3,0.436
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix', 'race']->ethnic",0.0,1.0,1.0,False,6,0.45
+ncvoter,pyro,"['birth_place', 'city', 'name_prefix', 'register_date']->gender",0.0,1.0,1.0,False,4,0.681
+ncvoter,pyro,"['city', 'download_month', 'gender', 'name_suffix', 'race']->birth_place",0.0,0.9978932609600929,0.9981718464351006,False,5,0.453
+ncvoter,pyro,"['birth_place', 'city', 'full_phone_num', 'name_prefix', 'register_date']->middle_name",0.0,1.0,1.0,False,5,0.811
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'name_prefix', 'name_suffix', 'zip_code']->street_address",0.0,1.0,1.0,False,6,0.777
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_prefix']->city",0.0,1.0,1.0,False,4,0.8
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'name_suffix', 'race']->birth_place",0.0,1.0,1.0,False,5,0.595
+ncvoter,pyro,"['birth_place', 'gender', 'middle_name', 'name_prefix', 'name_suffix']->race",0.0,1.0,1.0,False,5,0.578
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_prefix', 'register_date']->city",0.0,0.9986158269285808,0.9876543209876543,False,5,0.757
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'middle_name']->first_name",0.0,1.0,1.0,False,4,0.879
+ncvoter,pyro,['voter_id']->voter_reg_num,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'register_date']->middle_name",0.0,1.0,1.0,False,7,0.797
+ncvoter,pyro,"['middle_name', 'name_prefix', 'race', 'register_date']->city",0.0,0.9996830422658552,0.9937106918238994,False,4,0.841
+ncvoter,pyro,"['gender', 'middle_name', 'race']->ethnic",0.0,0.6343020836163046,0.9688715953307393,False,3,0.486
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'zip_code']->register_date",0.0,0.9848605823761907,0.9176029962546817,False,6,0.733
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->first_name",0.0,1.0,1.0,False,6,0.838
+ncvoter,pyro,['street_address']->voter_reg_num,0.0,0.0,0.0,False,1,0.958
+ncvoter,pyro,['voter_id']->zip_code,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix', 'register_date']->street_address",0.0,1.0,1.0,False,6,0.782
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'race']->city",0.0,0.9990512628972255,0.9918032786885246,False,6,0.756
+ncvoter,pyro,"['first_name', 'last_name']->voter_reg_num",0.09999819819459022,0.09999819293463265,0.1,False,2,0.99
+ncvoter,pyro,['voter_id']->age,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,"['birth_place', 'city', 'full_phone_num', 'name_prefix', 'register_date']->street_address",0.0,1.0,1.0,False,5,0.811
+ncvoter,pyro,"['city', 'full_phone_num', 'gender', 'name_suffix', 'race']->birth_place",0.0,1.0,1.0,False,5,0.602
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'name_prefix', 'zip_code']->middle_name",0.0,0.9971651975277548,0.966804979253112,False,5,0.759
+ncvoter,pyro,['voter_reg_num']->zip_code,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['street_address']->zip_code,1.0,1.0,1.0,False,1,0.958
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'race']->ethnic",0.0,1.0,1.0,False,4,0.487
+ncvoter,pyro,"['age', 'city', 'download_month', 'full_phone_num', 'name_prefix']->first_name",0.0,1.0,1.0,False,5,0.851
+ncvoter,pyro,"['age', 'birth_place', 'city', 'full_phone_num', 'gender']->middle_name",0.0,0.9945560450231449,0.9206349206349206,False,5,0.874
+ncvoter,pyro,"['city', 'ethnic', 'name_suffix', 'race', 'register_date']->gender",0.0,1.0,1.0,False,5,0.68
+ncvoter,pyro,"['age', 'ethnic', 'name_prefix', 'register_date']->birth_place",0.0,1.0,1.0,False,4,0.606
+ncvoter,pyro,['voter_reg_num']->age,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,['street_address']->age,0.18952975111555426,0.18755118851308344,0.23809523809523808,False,1,0.958
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'race', 'register_date']->street_address",0.0,1.0,1.0,False,8,0.803
+ncvoter,pyro,"['first_name', 'zip_code']->voter_reg_num",0.027025079129286755,0.026054888039882193,0.02702702702702703,False,2,0.963
+ncvoter,pyro,"['first_name', 'last_name']->zip_code",0.18915628424171016,0.1891562841341314,0.2,False,2,0.99
+ncvoter,pyro,"['age', 'download_month', 'gender', 'race']->ethnic",0.24169502297156098,0.23738322711405885,0.9525032092426188,False,4,0.221
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'race', 'register_date']->city",0.06937204335107672,0.09608309310372311,0.1308016877637131,False,6,0.763
+ncvoter,pyro,"['age', 'birth_place', 'city', 'full_phone_num', 'gender']->first_name",0.0,0.995335996106957,0.9126984126984127,False,5,0.874
+ncvoter,pyro,"['last_name', 'zip_code']->voter_reg_num",0.011902783732157363,0.01139071840178896,0.011904761904761904,False,2,0.916
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'race', 'register_date']->gender",0.0,0.3759380360178717,0.6270627062706271,False,5,0.697
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'name_suffix', 'zip_code']->register_date",0.0,1.0,1.0,False,5,0.767
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'name_prefix']->middle_name",0.0,0.9941921930672049,0.9390862944162437,False,6,0.803
+ncvoter,pyro,"['first_name', 'last_name']->age",0.05250179151034762,0.05250179159310944,0.1,False,2,0.99
+ncvoter,pyro,['voter_id']->last_name,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'race', 'zip_code']->gender",0.0,0.9446115064730584,0.95,False,6,0.66
+ncvoter,pyro,"['city', 'last_name']->zip_code",0.8813925415779097,0.8857972471863156,0.8936170212765957,False,2,0.906
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num']->middle_name",0.0,0.9934617363423991,0.9140625,False,6,0.872
+ncvoter,pyro,"['city', 'first_name']->voter_reg_num",0.015623029275334765,0.013601053275497071,0.015625,False,2,0.936
+ncvoter,pyro,"['city', 'first_name']->zip_code",0.495862142871636,0.5136584184299577,0.53125,False,2,0.936
+ncvoter,pyro,"['city', 'last_name']->voter_reg_num",0.01063631716426694,0.010108387011161676,0.010638297872340425,False,2,0.906
+ncvoter,pyro,"['first_name', 'zip_code']->age",0.2602116089870583,0.256877386575731,0.2972972972972973,False,2,0.963
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'middle_name']->street_address",0.0,1.0,1.0,False,4,0.879
+ncvoter,pyro,"['city', 'download_month', 'ethnic', 'gender', 'name_prefix']->birth_place",0.0,0.9894926329717784,0.9965397923875432,False,5,0.422
+ncvoter,pyro,['voter_reg_num']->last_name,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,"['last_name', 'zip_code']->age",0.08508770873353833,0.08798462734700602,0.14285714285714285,False,2,0.916
+ncvoter,pyro,['street_address']->last_name,0.737697188984628,0.714197337455607,0.7380952380952381,False,1,0.958
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'name_prefix']->register_date",0.0,0.9950400037460277,0.9537037037037037,False,5,0.784
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_prefix', 'race', 'register_date']->first_name",0.0,0.9995013390340882,0.9867549668874173,False,5,0.849
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'name_suffix']->ethnic",0.0,1.0,1.0,False,4,0.476
+ncvoter,pyro,"['last_name', 'middle_name']->zip_code",0.0,0.9903941301483017,0.6875,False,2,0.984
+ncvoter,pyro,"['first_name', 'middle_name']->zip_code",0.0,0.9555759248685688,0.5,False,2,0.952
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'name_prefix', 'zip_code']->gender",0.0,1.0,1.0,False,6,0.659
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->street_address",0.0,1.0,1.0,False,6,0.838
+ncvoter,pyro,"['city', 'middle_name']->zip_code",0.0,0.9404415752828836,0.8547486033519553,False,2,0.821
+ncvoter,pyro,"['first_name', 'zip_code']->last_name",0.05261638281917225,0.05057519783964499,0.05405405405405406,False,2,0.963
+ncvoter,pyro,"['city', 'middle_name']->voter_reg_num",0.0,0.8709951535778521,0.4972067039106145,False,2,0.821
+ncvoter,pyro,"['middle_name', 'zip_code']->voter_reg_num",0.0,0.9106029886111098,0.5578231292517006,False,2,0.853
+ncvoter,pyro,"['age', 'city', 'ethnic', 'name_prefix']->gender",0.0,1.0,1.0,False,4,0.674
+ncvoter,pyro,"['last_name', 'middle_name']->voter_reg_num",0.0,0.9919818460136961,0.625,False,2,0.984
+ncvoter,pyro,"['city', 'first_name']->age",0.2350925921047088,0.2686880588947176,0.296875,False,2,0.936
+ncvoter,pyro,['voter_id']->download_month,0.0,0.0,0.0,False,1,0.999
+ncvoter,pyro,"['first_name', 'middle_name']->voter_reg_num",0.0,0.9661591351337012,0.4583333333333333,False,2,0.952
+ncvoter,pyro,"['city', 'last_name']->age",0.07788787432252287,0.08191766024109093,0.13829787234042554,False,2,0.906
+ncvoter,pyro,"['age', 'birth_place', 'city', 'full_phone_num', 'gender']->street_address",0.0,0.9961068929702959,0.9126984126984127,False,5,0.874
+ncvoter,pyro,"['city', 'ethnic', 'full_phone_num', 'name_prefix', 'race', 'register_date']->first_name",0.0,1.0,1.0,False,6,0.803
+ncvoter,pyro,"['last_name', 'register_date']->zip_code",0.3861570461689019,0.3860615306498466,0.4084507042253521,False,2,0.929
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_prefix']->ethnic",0.0,1.0,1.0,False,4,0.187
+ncvoter,pyro,"['city', 'first_name']->last_name",0.050642666950044934,0.05253963972489069,0.0625,False,2,0.936
+ncvoter,pyro,"['first_name', 'register_date']->zip_code",0.027814932636745504,0.03023480082175086,0.05102040816326531,False,2,0.902
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_prefix']->middle_name",0.0,1.0,1.0,False,4,0.8
+ncvoter,pyro,"['last_name', 'register_date']->voter_reg_num",0.01408253323351194,0.013439278744464989,0.014084507042253521,False,2,0.929
+ncvoter,pyro,['voter_reg_num']->download_month,0.0,0.0,0.0,False,1,0.999
+ncvoter,pyro,['street_address']->download_month,0.025744226086319655,0.02304598567956597,0.5238095238095238,False,1,0.958
+ncvoter,pyro,['last_name']->download_month,0.04143042534407615,0.0389958607366879,0.5852272727272727,False,1,0.648
+ncvoter,pyro,"['first_name', 'register_date']->voter_reg_num",0.010202100055276109,0.00913284240515237,0.01020408163265306,False,2,0.902
+ncvoter,pyro,['voter_reg_num']->voter_id,1.0,1.0,1.0,False,1,0.999
+ncvoter,pyro,"['city', 'middle_name']->age",0.0,0.8385704526258319,0.6480446927374302,False,2,0.821
+ncvoter,pyro,"['middle_name', 'zip_code']->age",0.0,0.8704926650962707,0.6530612244897959,False,2,0.853
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'full_phone_num', 'name_suffix', 'register_date']->first_name",0.0,1.0,1.0,False,6,0.824
+ncvoter,pyro,"['age', 'city', 'download_month', 'full_phone_num', 'name_prefix']->street_address",0.0,1.0,1.0,False,5,0.851
+ncvoter,pyro,"['last_name', 'middle_name']->age",0.0,0.9865609133861515,0.6875,False,2,0.984
+ncvoter,pyro,"['age', 'city', 'register_date']->zip_code",0.6052823495896129,0.6259601542850949,0.6534653465346535,False,3,0.899
+ncvoter,pyro,"['first_name', 'middle_name']->age",0.0,0.9411834641122514,0.5208333333333334,False,2,0.952
+ncvoter,pyro,"['age', 'middle_name', 'register_date']->voter_reg_num",0.0,0.9784132201865606,0.6511627906976745,False,3,0.957
+ncvoter,pyro,"['middle_name', 'zip_code']->last_name",0.0,0.9037724363737035,0.564625850340136,False,2,0.853
+ncvoter,pyro,"['city', 'middle_name']->last_name",0.0,0.8610196897812687,0.5027932960893855,False,2,0.821
+ncvoter,pyro,"['first_name', 'zip_code']->download_month",0.0,0.0,0.43243243243243246,False,2,0.963
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'full_phone_num', 'gender', 'name_suffix', 'race', 'zip_code']->register_date",0.0,1.0,1.0,False,8,0.744
+ncvoter,pyro,"['first_name', 'middle_name']->last_name",0.0,0.9642929212600145,0.4791666666666667,False,2,0.952
+ncvoter,pyro,"['age', 'middle_name', 'register_date']->zip_code",0.0,0.9773891962547576,0.7441860465116279,False,3,0.957
+ncvoter,pyro,['street_address']->voter_id,0.0,0.0,0.0,False,1,0.958
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'name_prefix']->ethnic",0.0,1.0,1.0,False,4,0.466
+ncvoter,pyro,"['age', 'last_name']->zip_code",0.25135168289362586,0.25156950127655964,0.2727272727272727,False,2,0.956
+ncvoter,pyro,"['age', 'register_date', 'zip_code']->voter_reg_num",0.013511538561639336,0.012202110084312429,0.013513513513513514,False,3,0.926
+ncvoter,pyro,"['age', 'first_name']->zip_code",0.04620559019731163,0.07133940142916746,0.09090909090909091,False,2,0.89
+ncvoter,pyro,"['last_name', 'register_date']->age",0.011478134074436208,0.014341663884742483,0.07042253521126761,False,2,0.929
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'full_phone_num', 'name_suffix', 'race', 'register_date']->middle_name",0.0,1.0,1.0,False,7,0.842
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_prefix', 'register_date']->first_name",0.0,0.9984749078658753,0.9766355140186916,False,6,0.786
+ncvoter,pyro,"['age', 'birth_place', 'city', 'gender', 'name_prefix', 'race']->register_date",0.0,0.9936619356184228,0.9488372093023256,False,6,0.785
+ncvoter,pyro,"['city', 'first_name']->download_month",0.0,0.0,0.421875,False,2,0.936
+ncvoter,pyro,"['first_name', 'register_date']->age",0.047488573476012874,0.043922250162135454,0.11224489795918367,False,2,0.902
+ncvoter,pyro,"['first_name', 'register_date']->last_name",0.04617159630773837,0.04394123358962431,0.05102040816326531,False,2,0.902
+ncvoter,pyro,"['first_name', 'last_name']->voter_id",0.09999819819459022,0.09999819293463265,0.1,False,2,0.99
+ncvoter,pyro,"['age', 'city', 'register_date']->voter_reg_num",0.009899007914841773,0.00786527960409681,0.009900990099009901,False,3,0.899
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_prefix', 'race', 'register_date']->street_address",0.0,0.9995840393933193,0.9867549668874173,False,5,0.849
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_suffix', 'race', 'register_date']->middle_name",0.0,0.9984567442770991,0.9830508474576272,False,6,0.764
+ncvoter,pyro,"['download_month', 'middle_name', 'register_date']->age",0.0,0.8916836167970269,0.6693548387096774,False,3,0.876
+ncvoter,pyro,"['full_phone_num', 'last_name']->zip_code",0.0,0.9995286426876824,0.9947089947089947,False,2,0.811
+ncvoter,pyro,"['age', 'middle_name', 'register_date']->last_name",0.0,0.9762827702325934,0.6511627906976745,False,3,0.957
+ncvoter,pyro,"['city', 'middle_name']->download_month",0.0,0.6800025757198696,0.7988826815642458,False,2,0.821
+ncvoter,pyro,"['middle_name', 'zip_code']->download_month",0.0,0.7664844528752348,0.8435374149659864,False,2,0.853
+ncvoter,pyro,"['city', 'full_phone_num', 'name_prefix', 'name_suffix', 'race', 'register_date']->street_address",0.0,1.0,1.0,False,6,0.799
+ncvoter,pyro,"['full_phone_num', 'register_date', 'zip_code']->age",0.0,0.9893812299491115,0.9278350515463918,False,3,0.806
+ncvoter,pyro,"['first_name', 'middle_name']->download_month",0.0,0.8830810157502063,0.7708333333333334,False,2,0.952
+ncvoter,pyro,"['first_name', 'zip_code']->voter_id",0.027025079129286755,0.026054888039882193,0.02702702702702703,False,2,0.963
+ncvoter,pyro,"['full_phone_num', 'register_date', 'zip_code']->voter_reg_num",0.0,0.993301887118294,0.9123711340206185,False,3,0.806
+ncvoter,pyro,"['age', 'city', 'full_phone_num', 'gender', 'name_prefix']->first_name",0.0,1.0,1.0,False,5,0.859
+ncvoter,pyro,"['age', 'register_date', 'zip_code']->last_name",0.027803954750151738,0.03486319733643156,0.04054054054054054,False,3,0.926
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'full_phone_num']->register_date",0.0,0.9967962083019408,0.9696969696969697,False,4,0.802
+ncvoter,pyro,"['last_name', 'zip_code']->voter_id",0.011902783732157363,0.01139071840178896,0.011904761904761904,False,2,0.916
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_prefix', 'register_date']->street_address",0.0,0.9983125208225119,0.9672897196261683,False,6,0.786
+ncvoter,pyro,"['download_month', 'first_name', 'full_phone_num']->zip_code",0.0,0.9993490271705004,0.9950738916256158,False,3,0.797
+ncvoter,pyro,"['age', 'last_name']->voter_reg_num",0.02272531622140095,0.021853490282928652,0.022727272727272728,False,2,0.956
+ncvoter,pyro,"['age', 'first_name']->voter_reg_num",0.009088925284953864,0.007728743432100767,0.00909090909090909,False,2,0.89
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'full_phone_num', 'name_suffix', 'register_date']->street_address",0.0,1.0,1.0,False,6,0.824
+ncvoter,pyro,"['first_name', 'register_date']->download_month",0.11281485639494937,0.10905693165674868,0.6020408163265306,False,2,0.902
+ncvoter,pyro,"['age', 'city', 'register_date']->last_name",0.015006905890070366,0.02120676620906543,0.0297029702970297,False,3,0.899
+ncvoter,pyro,"['city', 'first_name']->voter_id",0.015623029275334765,0.013601053275497071,0.015625,False,2,0.936
+ncvoter,pyro,"['city', 'full_phone_num', 'register_date']->zip_code",0.0,0.9984803339504659,0.9911504424778761,False,3,0.774
+ncvoter,pyro,"['city', 'full_phone_num', 'gender', 'register_date']->age",0.0,0.9929046018449836,0.94375,False,4,0.84
+ncvoter,pyro,"['middle_name', 'register_date']->download_month",0.0,0.6151447511212987,0.7627118644067796,False,2,0.823
+ncvoter,pyro,"['city', 'last_name']->voter_id",0.01063631716426694,0.010108387011161676,0.010638297872340425,False,2,0.906
+ncvoter,pyro,"['age', 'city', 'full_phone_num', 'gender', 'name_prefix']->street_address",0.0,1.0,1.0,False,5,0.859
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'name_prefix']->first_name",0.0,0.9957190893778021,0.9441624365482234,False,6,0.803
+ncvoter,pyro,"['register_date', 'zip_code']->download_month",0.032234540914721,0.029159178427130318,0.5848484848484848,False,2,0.67
+ncvoter,pyro,"['age', 'gender', 'zip_code']->voter_reg_num",0.0047599122892568735,0.003804240973545779,0.004761904761904762,False,3,0.79
+ncvoter,pyro,"['full_phone_num', 'last_name']->voter_reg_num",0.0,0.9973829850636662,0.9576719576719577,False,2,0.811
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_prefix']->street_address",0.0,1.0,1.0,False,4,0.8
+ncvoter,pyro,"['full_phone_num', 'middle_name', 'register_date']->zip_code",0.0,1.0,1.0,False,3,0.873
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'race']->first_name",0.0,0.8422289517319899,0.4810810810810811,False,4,0.815
+ncvoter,pyro,"['full_phone_num', 'register_date', 'zip_code']->last_name",0.0,0.9937053755560458,0.9278350515463918,False,3,0.806
+ncvoter,pyro,"['download_month', 'register_date', 'zip_code']->age",0.07445360987282301,0.09162305555530025,0.17316017316017315,False,3,0.769
+ncvoter,pyro,"['age', 'city', 'register_date']->download_month",0.0730486846533781,0.07925164776521976,0.5742574257425742,False,3,0.899
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'full_phone_num', 'gender', 'name_prefix', 'race', 'zip_code']->middle_name",0.0,1.0,1.0,False,8,0.744
+ncvoter,pyro,"['age', 'first_name']->last_name",0.0075849017947338115,0.005693358968202815,0.00909090909090909,False,2,0.89
+ncvoter,pyro,"['download_month', 'first_name', 'full_phone_num']->voter_reg_num",0.0,0.9992208411782779,0.9901477832512315,False,3,0.797
+ncvoter,pyro,"['middle_name', 'zip_code']->voter_id",0.0,0.9106029886111098,0.5578231292517006,False,2,0.853
+ncvoter,pyro,"['city', 'middle_name']->voter_id",0.0,0.8709951535778521,0.4972067039106145,False,2,0.821
+ncvoter,pyro,"['full_phone_num', 'last_name']->age",0.0,0.9960326330276603,0.9682539682539683,False,2,0.811
+ncvoter,pyro,"['age', 'first_name']->download_month",0.0,0.0,0.509090909090909,False,2,0.89
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender', 'race']->street_address",0.0,0.9980115119418926,0.9675675675675676,False,5,0.815
+ncvoter,pyro,"['last_name', 'middle_name']->voter_id",0.0,0.9919818460136961,0.625,False,2,0.984
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name', 'name_prefix', 'race']->first_name",0.0,1.0,1.0,False,5,0.842
+ncvoter,pyro,"['age', 'zip_code']->download_month",0.03516798587476122,0.03362492256862067,0.5894039735099338,False,2,0.698
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name']->zip_code",0.0,1.0,1.0,False,3,0.826
+ncvoter,pyro,"['first_name', 'middle_name']->voter_id",0.0,0.9661591351337012,0.4583333333333333,False,2,0.952
+ncvoter,pyro,"['age', 'middle_name']->download_month",0.0,0.5815363497016022,0.7905138339920948,False,2,0.747
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix']->street_address",0.0,1.0,1.0,False,6,0.798
+ncvoter,pyro,"['download_month', 'first_name', 'full_phone_num']->age",0.0,0.99842236652885,0.9901477832512315,False,3,0.797
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'name_suffix', 'race']->ethnic",0.0,1.0,1.0,False,5,0.595
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'race']->street_address",0.0,0.862608536258593,0.4702702702702703,False,4,0.815
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'name_prefix', 'race', 'register_date']->middle_name",0.0,0.9975408172850453,0.9688888888888889,False,6,0.775
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name', 'race']->first_name",0.0,0.9229874721713692,0.5214723926380368,False,5,0.837
+ncvoter,pyro,"['full_phone_num', 'middle_name', 'register_date']->voter_reg_num",0.0,1.0,1.0,False,3,0.873
+ncvoter,pyro,"['age', 'gender', 'zip_code']->last_name",0.003249318141587354,0.001488854495576279,0.004761904761904762,False,3,0.79
+ncvoter,pyro,"['age', 'birth_place', 'city', 'ethnic', 'full_phone_num', 'name_prefix']->register_date",0.0,1.0,1.0,False,6,0.841
+ncvoter,pyro,"['first_name', 'full_phone_num']->download_month",0.0,0.9880651349581125,0.9858156028368794,False,2,0.718
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'race']->street_address",0.0,0.9953549888854252,0.904,False,7,0.875
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name', 'name_prefix', 'race']->street_address",0.0,1.0,1.0,False,5,0.842
+ncvoter,pyro,"['last_name', 'register_date']->voter_id",0.01408253323351194,0.013439278744464989,0.014084507042253521,False,2,0.929
+ncvoter,pyro,"['age', 'city', 'gender']->zip_code",0.663428332572414,0.6985545081311949,0.7203065134099617,False,3,0.739
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'name_prefix', 'race']->middle_name",0.0,0.9941921930672049,0.941747572815534,False,6,0.794
+ncvoter,pyro,"['age', 'full_phone_num', 'zip_code']->voter_reg_num",0.0,0.9943327561320231,0.9085365853658537,False,3,0.836
+ncvoter,pyro,"['first_name', 'register_date']->voter_id",0.010202100055276109,0.00913284240515237,0.01020408163265306,False,2,0.902
+ncvoter,pyro,"['download_month', 'first_name', 'full_phone_num']->last_name",0.0,0.9991421788268765,0.9901477832512315,False,3,0.797
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num']->first_name",0.0,0.9944359809897783,0.90625,False,6,0.872
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name', 'race']->street_address",0.0,0.9356271985555126,0.5276073619631901,False,5,0.837
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'register_date']->zip_code",0.0,0.9955846843321053,0.9560439560439561,False,4,0.818
+ncvoter,pyro,"['age', 'middle_name', 'register_date']->voter_id",0.0,0.9784132201865606,0.6511627906976745,False,3,0.957
+ncvoter,pyro,"['download_month', 'last_name']->zip_code",0.1566889900675834,0.161886856209551,0.20425531914893616,False,2,0.765
+ncvoter,pyro,"['full_phone_num', 'middle_name', 'register_date']->last_name",0.0,1.0,1.0,False,3,0.873
+ncvoter,pyro,"['age', 'ethnic', 'gender', 'middle_name']->street_address",0.0,0.862608536258593,0.4673913043478261,False,4,0.816
+ncvoter,pyro,"['age', 'download_month', 'middle_name']->voter_reg_num",0.0,0.8699102782730797,0.5052631578947369,False,3,0.81
+ncvoter,pyro,"['city', 'ethnic', 'full_phone_num', 'name_prefix', 'register_date']->middle_name",0.0,1.0,1.0,False,5,0.799
+ncvoter,pyro,"['age', 'ethnic', 'full_phone_num', 'middle_name']->street_address",0.0,1.0,1.0,False,4,0.836
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'full_phone_num', 'name_prefix', 'register_date']->street_address",0.0,1.0,1.0,False,6,0.84
+ncvoter,pyro,"['age', 'register_date', 'zip_code']->voter_id",0.013511538561639336,0.012202110084312429,0.013513513513513514,False,3,0.926
+ncvoter,pyro,"['birth_place', 'download_month', 'full_phone_num', 'gender', 'name_prefix', 'zip_code']->age",0.0,1.0,1.0,False,6,0.731
+ncvoter,pyro,"['age', 'birth_place', 'middle_name', 'name_prefix', 'name_suffix']->register_date",0.0,1.0,1.0,False,5,0.832
+ncvoter,pyro,"['city', 'download_month', 'register_date']->zip_code",0.7299839510122023,0.7580616151845666,0.7765567765567766,False,3,0.727
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'register_date']->voter_reg_num",0.0,0.9966078974521158,0.9505494505494505,False,4,0.818
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'full_phone_num', 'register_date']->middle_name",0.0,0.9916008979029632,0.9297297297297298,False,5,0.815
+ncvoter,pyro,"['age', 'full_phone_num', 'zip_code']->last_name",0.0,0.9944813738432984,0.9207317073170732,False,3,0.836
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'full_phone_num', 'name_prefix', 'register_date']->first_name",0.0,1.0,1.0,False,6,0.84
+ncvoter,pyro,"['age', 'birth_place', 'city', 'gender', 'name_prefix', 'name_suffix']->register_date",0.0,1.0,1.0,False,6,0.792
+ncvoter,pyro,"['full_phone_num', 'middle_name', 'register_date']->age",0.0,1.0,1.0,False,3,0.873
+ncvoter,pyro,"['birth_place', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'zip_code']->download_month",0.0,1.0,1.0,False,6,0.665
+ncvoter,pyro,"['age', 'city', 'register_date']->voter_id",0.009899007914841773,0.00786527960409681,0.009900990099009901,False,3,0.899
+ncvoter,pyro,"['download_month', 'last_name']->age",0.017857254966676894,0.0224197855212986,0.09787234042553192,False,2,0.765
+ncvoter,pyro,"['age', 'city', 'download_month']->zip_code",0.6336629569648831,0.6746180843317566,0.6819923371647509,False,3,0.739
+ncvoter,pyro,"['age', 'download_month', 'middle_name']->last_name",0.0,0.859856775382009,0.5105263157894737,False,3,0.81
+ncvoter,pyro,"['birth_place', 'city', 'gender', 'name_prefix', 'name_suffix', 'race', 'register_date']->middle_name",0.0,1.0,1.0,False,7,0.789
+ncvoter,pyro,"['age', 'city', 'download_month', 'gender']->voter_reg_num",0.0,0.0,0.0,False,4,0.821
+ncvoter,pyro,"['age', 'city', 'ethnic', 'full_phone_num', 'gender']->middle_name",0.0,0.9942374328428764,0.9290780141843972,False,5,0.859
+ncvoter,pyro,"['city', 'full_phone_num', 'register_date']->download_month",0.0,0.979356727542108,0.9734513274336283,False,3,0.774
+ncvoter,pyro,"['download_month', 'last_name']->voter_reg_num",0.0,0.0,0.0,False,2,0.765
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_prefix', 'name_suffix', 'register_date']->first_name",0.0,1.0,1.0,False,6,0.77
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'register_date']->last_name",0.0,0.9962664027482282,0.9505494505494505,False,4,0.818
+ncvoter,pyro,"['full_phone_num', 'register_date', 'zip_code']->voter_id",0.0,0.993301887118294,0.9123711340206185,False,3,0.806
+ncvoter,pyro,"['download_month', 'middle_name', 'register_date']->zip_code",0.0,0.9132778827821401,0.6370967741935484,False,3,0.876
+ncvoter,pyro,"['age', 'last_name']->voter_id",0.02272531622140095,0.021853490282928652,0.022727272727272728,False,2,0.956
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_prefix', 'name_suffix', 'register_date']->street_address",0.0,1.0,1.0,False,6,0.77
+ncvoter,pyro,"['age', 'first_name']->voter_id",0.009088925284953864,0.007728743432100767,0.00909090909090909,False,2,0.89
+ncvoter,pyro,"['age', 'download_month', 'zip_code']->voter_reg_num",0.0,0.0,0.0,False,3,0.798
+ncvoter,pyro,"['birth_place', 'download_month', 'first_name', 'name_prefix', 'name_suffix', 'race']->register_date",0.0,1.0,1.0,False,6,0.757
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'full_phone_num', 'name_suffix']->middle_name",0.0,1.0,1.0,False,6,0.87
+ncvoter,pyro,"['age', 'gender', 'zip_code']->voter_id",0.0047599122892568735,0.003804240973545779,0.004761904761904762,False,3,0.79
+ncvoter,pyro,"['age', 'ethnic', 'gender', 'middle_name']->first_name",0.0,0.8422289517319899,0.4782608695652174,False,4,0.816
+ncvoter,pyro,"['age', 'city', 'download_month', 'gender']->last_name",0.0,0.0,0.0,False,4,0.821
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'register_date']->age",0.0,0.9906964515586726,0.9230769230769231,False,4,0.831
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_suffix', 'race', 'register_date']->street_address",0.0,0.9992845328958706,0.9866071428571429,False,7,0.776
+ncvoter,pyro,"['age', 'ethnic', 'full_phone_num', 'middle_name']->first_name",0.0,1.0,1.0,False,4,0.836
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_suffix']->middle_name",0.0,1.0,1.0,False,4,0.803
+ncvoter,pyro,"['full_phone_num', 'last_name']->voter_id",0.0,0.9973829850636662,0.9576719576719577,False,2,0.811
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'name_suffix']->register_date",0.0,1.0,1.0,False,6,0.756
+ncvoter,pyro,"['gender', 'middle_name', 'register_date']->age",0.0,0.8840742661014915,0.6456692913385826,False,3,0.873
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'name_suffix', 'race', 'register_date']->middle_name",0.0,0.9990774285766949,0.9864253393665159,False,6,0.779
+ncvoter,pyro,"['gender', 'last_name']->age",0.0015862958491155155,0.01165858138933909,0.07589285714285714,False,2,0.776
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_suffix', 'register_date']->first_name",0.0,0.9991423344849376,0.9868421052631579,False,6,0.772
+ncvoter,pyro,"['download_month', 'first_name', 'full_phone_num']->voter_id",0.0,0.9992208411782779,0.9901477832512315,False,3,0.797
+ncvoter,pyro,"['gender', 'register_date', 'zip_code']->age",0.059290903552886576,0.07414378293786698,0.15450643776824036,False,3,0.767
+ncvoter,pyro,"['city', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->middle_name",0.0,1.0,1.0,False,5,0.794
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num', 'register_date']->zip_code",0.0,0.997287061711093,0.972972972972973,False,4,0.815
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender', 'name_suffix']->street_address",0.0,1.0,1.0,False,5,0.814
+ncvoter,pyro,"['age', 'download_month', 'zip_code']->last_name",0.008726748578631871,0.00925040461761223,0.01485148514851485,False,3,0.798
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_suffix']->register_date",0.0,1.0,1.0,False,4,0.803
+ncvoter,pyro,"['birth_place', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'zip_code']->download_month",0.0,1.0,1.0,False,6,0.66
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_suffix', 'race', 'register_date']->street_address",0.0,1.0,1.0,False,5,0.845
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'zip_code']->voter_reg_num",0.0,1.0,1.0,False,8,0.753
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_prefix', 'race', 'register_date']->first_name",0.0,0.9980701780840792,0.973568281938326,False,7,0.773
+ncvoter,pyro,"['age', 'download_month', 'middle_name']->zip_code",0.0,0.8354259735420301,0.5421052631578948,False,3,0.81
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_suffix', 'race']->street_address",0.0,1.0,1.0,False,5,0.82
+ncvoter,pyro,"['full_phone_num', 'middle_name', 'register_date']->voter_id",0.0,1.0,1.0,False,3,0.873
+ncvoter,pyro,"['age', 'birth_place', 'city', 'ethnic', 'gender', 'name_prefix']->middle_name",0.0,0.993173611182456,0.9428571428571428,False,6,0.79
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender']->age",0.0,0.9966375886051867,0.9751243781094527,False,4,0.799
+ncvoter,pyro,"['city', 'gender', 'register_date']->zip_code",0.736035228933098,0.7641844125100746,0.7870036101083032,False,3,0.723
+ncvoter,pyro,"['birth_place', 'download_month', 'first_name', 'gender', 'name_suffix', 'race']->register_date",0.0,0.9993194685471015,0.9918032786885246,False,6,0.756
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_suffix', 'register_date']->street_address",0.0,0.9993670878491234,0.9857142857142858,False,6,0.79
+ncvoter,pyro,"['gender', 'middle_name', 'register_date']->zip_code",0.0,0.9093019868125518,0.6299212598425197,False,3,0.873
+ncvoter,pyro,"['download_month', 'register_date', 'zip_code']->voter_reg_num",0.0,0.0,0.0,False,3,0.769
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'name_suffix']->street_address",0.0,1.0,1.0,False,4,0.81
+ncvoter,pyro,"['gender', 'last_name']->zip_code",0.11125435358896596,0.10896704127227358,0.14285714285714285,False,2,0.776
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'name_suffix']->register_date",0.0,0.9993194685471015,0.9918367346938776,False,6,0.755
+ncvoter,pyro,"['age', 'full_phone_num', 'zip_code']->voter_id",0.0,0.9943327561320231,0.9085365853658537,False,3,0.836
+ncvoter,pyro,"['age', 'gender', 'middle_name']->zip_code",0.0,0.8238802089708381,0.5103092783505154,False,3,0.806
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'race']->age",0.0,0.6254862018186617,0.1885245901639344,False,6,0.756
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name', 'name_prefix', 'name_suffix']->street_address",0.0,1.0,1.0,False,5,0.842
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'zip_code']->last_name",0.0,1.0,1.0,False,8,0.753
+ncvoter,pyro,"['age', 'download_month', 'middle_name']->voter_id",0.0,0.8699102782730797,0.5052631578947369,False,3,0.81
+ncvoter,pyro,"['age', 'full_phone_num', 'register_date']->download_month",0.0,0.9763572456885873,0.9672131147540983,False,3,0.756
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name', 'name_prefix', 'name_suffix']->street_address",0.0,1.0,1.0,False,6,0.842
+ncvoter,pyro,"['city', 'download_month', 'gender', 'register_date']->age",0.08162802860043128,0.11208272753486435,0.1736842105263158,False,4,0.81
+ncvoter,pyro,"['age', 'city', 'full_phone_num']->download_month",0.0,0.9789014543389877,0.9748743718592965,False,3,0.801
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_suffix', 'race', 'register_date']->first_name",0.0,1.0,1.0,False,5,0.845
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'register_date']->voter_id",0.0,0.9966078974521158,0.9505494505494505,False,4,0.818
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_suffix', 'zip_code']->middle_name",0.0,1.0,1.0,False,7,0.743
+ncvoter,pyro,"['download_month', 'register_date', 'zip_code']->last_name",0.04076243955952741,0.04270423632534168,0.05627705627705628,False,3,0.769
+ncvoter,pyro,"['city', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix']->zip_code",0.0,1.0,1.0,False,6,0.65
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'race', 'zip_code']->middle_name",0.0,0.9861758657818938,0.9133858267716536,False,8,0.746
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_prefix']->register_date",0.0,1.0,1.0,False,4,0.8
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'race', 'zip_code']->voter_reg_num",0.0,1.0,1.0,False,8,0.754
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender']->zip_code",0.0,0.9976039076063463,0.9751243781094527,False,4,0.799
+ncvoter,pyro,"['birth_place', 'middle_name', 'register_date']->age",0.0,0.924509037655038,0.6382978723404256,False,3,0.859
+ncvoter,pyro,"['download_month', 'middle_name', 'register_date']->voter_reg_num",0.0,0.929330808688212,0.5806451612903226,False,3,0.876
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'full_phone_num']->middle_name",0.0,0.9974624301511864,0.9747474747474747,False,4,0.802
+ncvoter,pyro,"['birth_place', 'last_name']->age",0.0,0.6179965808931543,0.2,False,2,0.735
+ncvoter,pyro,"['age', 'ethnic', 'name_prefix', 'name_suffix', 'race', 'zip_code']->register_date",0.0,1.0,1.0,False,6,0.75
+ncvoter,pyro,"['age', 'city', 'download_month', 'gender']->voter_id",0.0,0.0,0.0,False,4,0.821
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'name_suffix']->street_address",0.0,1.0,1.0,False,7,0.882
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_prefix', 'register_date']->middle_name",0.0,0.9973509350277124,0.9696969696969697,False,6,0.769
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix']->first_name",0.0,1.0,1.0,False,6,0.798
+ncvoter,pyro,"['download_month', 'last_name']->voter_id",0.0,0.0,0.0,False,2,0.765
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num', 'register_date']->voter_reg_num",0.0,0.9974629645186742,0.9621621621621622,False,4,0.815
+ncvoter,pyro,"['age', 'city', 'download_month', 'ethnic', 'name_prefix', 'name_suffix']->register_date",0.0,1.0,1.0,False,6,0.784
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'race', 'register_date']->middle_name",0.0,0.9973536480531304,0.9666666666666667,False,7,0.79
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'register_date']->voter_reg_num",0.0,0.9950613306475995,0.9171597633136095,False,4,0.831
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_suffix', 'register_date']->middle_name",0.0,0.9989571100208543,0.9868421052631579,False,6,0.772
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'name_suffix']->first_name",0.0,1.0,1.0,False,4,0.81
+ncvoter,pyro,"['age', 'city', 'download_month', 'ethnic', 'name_prefix', 'race']->register_date",0.0,0.993455660657944,0.9459459459459459,False,6,0.778
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'race', 'zip_code']->last_name",0.0,1.0,1.0,False,8,0.754
+ncvoter,pyro,"['age', 'download_month', 'zip_code']->voter_id",0.0,0.0,0.0,False,3,0.798
+ncvoter,pyro,"['gender', 'last_name']->voter_reg_num",0.004462292645802557,0.003767824686776838,0.004464285714285714,False,2,0.776
+ncvoter,pyro,"['birth_place', 'ethnic', 'name_prefix', 'name_suffix', 'race', 'register_date', 'zip_code']->age",0.0,1.0,1.0,False,7,0.754
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'name_suffix', 'race']->download_month",0.0,0.9954490842362838,0.993993993993994,False,5,0.667
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_suffix', 'race']->zip_code",0.0,0.9993965057057804,0.9914893617021276,False,6,0.765
+ncvoter,pyro,"['download_month', 'middle_name', 'register_date']->last_name",0.0,0.9227314463701228,0.5806451612903226,False,3,0.876
+ncvoter,pyro,"['gender', 'register_date', 'zip_code']->voter_reg_num",0.004289852079852774,0.003372405406903529,0.004291845493562232,False,3,0.767
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name', 'name_prefix', 'name_suffix']->first_name",0.0,1.0,1.0,False,5,0.842
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_prefix', 'register_date']->middle_name",0.0,0.9975408172850453,0.9672897196261683,False,6,0.786
+ncvoter,pyro,"['city', 'ethnic', 'full_phone_num', 'name_prefix', 'register_date']->street_address",0.0,1.0,1.0,False,5,0.799
+ncvoter,pyro,"['birth_place', 'city', 'full_phone_num', 'register_date']->age",0.0,0.9883483781273407,0.9246231155778895,False,4,0.801
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num', 'register_date']->last_name",0.0,0.9972073172414953,0.9621621621621622,False,4,0.815
+ncvoter,pyro,"['city', 'full_phone_num', 'gender', 'register_date']->voter_reg_num",0.0,0.9961593779918158,0.9375,False,4,0.84
+ncvoter,pyro,"['age', 'city', 'gender']->download_month",0.019156614631138158,0.025513493325265056,0.5632183908045977,False,3,0.739
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name', 'name_prefix', 'name_suffix']->first_name",0.0,1.0,1.0,False,6,0.842
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_prefix', 'race', 'register_date']->street_address",0.0,0.9979744420607247,0.9647577092511013,False,7,0.773
+ncvoter,pyro,"['age', 'birth_place', 'download_month', 'gender', 'register_date']->zip_code",0.0,0.7244516467675862,0.12437810945273632,False,5,0.799
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'register_date']->last_name",0.0,0.9952833077756463,0.9289940828402367,False,4,0.831
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'register_date']->age",0.0,0.6577107453604051,0.24583333333333332,False,4,0.76
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_suffix', 'register_date']->middle_name",0.0,0.9990774285766949,0.9857142857142858,False,6,0.79
+ncvoter,pyro,"['gender', 'register_date', 'zip_code']->last_name",0.01804798629329285,0.025907061257245657,0.034334763948497854,False,3,0.767
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'gender', 'register_date']->age",0.0,0.6813584374477856,0.26339285714285715,False,5,0.776
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'zip_code']->voter_id",0.0,1.0,1.0,False,8,0.753
+ncvoter,pyro,"['age', 'birth_place', 'city', 'ethnic', 'full_phone_num', 'name_prefix', 'name_suffix']->middle_name",0.0,1.0,1.0,False,7,0.853
+ncvoter,pyro,"['age', 'birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'race']->street_address",0.0,1.0,1.0,False,8,0.807
+ncvoter,pyro,"['city', 'full_phone_num', 'gender', 'register_date']->last_name",0.0,0.995772916198659,0.9375,False,4,0.84
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'full_phone_num']->voter_reg_num",0.0,0.9980283936464094,0.9696969696969697,False,4,0.802
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'name_prefix', 'name_suffix', 'register_date', 'zip_code']->age",0.0,1.0,1.0,False,7,0.748
+ncvoter,pyro,"['download_month', 'register_date', 'zip_code']->voter_id",0.0,0.0,0.0,False,3,0.769
+ncvoter,pyro,"['city', 'gender', 'register_date']->download_month",0.02073731239584864,0.02266334252060916,0.5776173285198556,False,3,0.723
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'name_suffix', 'race']->street_address",0.0,1.0,1.0,False,7,0.775
+ncvoter,pyro,"['age', 'gender', 'register_date']->download_month",0.14198745679692204,0.12944388190641484,0.6568047337278107,False,3,0.662
+ncvoter,pyro,"['ethnic', 'middle_name', 'race', 'register_date']->age",0.0,0.8258660162806608,0.577639751552795,False,4,0.839
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'name_suffix', 'race']->voter_reg_num",0.0,0.9995815579675208,0.9911894273127754,False,7,0.773
+ncvoter,pyro,"['birth_place', 'middle_name', 'register_date']->zip_code",0.0,0.9384602313916202,0.5957446808510638,False,3,0.859
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'full_phone_num']->last_name",0.0,0.9978296013339764,0.9696969696969697,False,4,0.802
+ncvoter,pyro,"['birth_place', 'last_name']->zip_code",0.0,0.7478072715705629,0.35094339622641507,False,2,0.735
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'name_prefix', 'race']->street_address",0.0,0.9987544338469613,0.9791666666666666,False,7,0.76
+ncvoter,pyro,"['city', 'download_month', 'gender', 'register_date']->voter_reg_num",0.0,0.0,0.0,False,4,0.81
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_suffix', 'register_date']->first_name",0.0,0.999241285545844,0.9857142857142858,False,6,0.79
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name']->zip_code",0.0,0.9175623398368261,0.5705882352941176,False,4,0.83
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'race']->age",0.0,0.9966375886051867,0.9744897959183674,False,4,0.804
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_prefix', 'name_suffix', 'register_date']->middle_name",0.0,1.0,1.0,False,6,0.77
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix']->middle_name",0.0,1.0,1.0,False,6,0.798
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'name_suffix', 'race']->last_name",0.0,0.9995392965211254,0.9911894273127754,False,7,0.773
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'name_prefix', 'register_date']->zip_code",0.0,1.0,1.0,False,5,0.827
+ncvoter,pyro,"['age', 'birth_place', 'download_month', 'gender', 'register_date']->voter_reg_num",0.0,0.7729773729382193,0.03980099502487562,False,5,0.799
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'name_prefix', 'race', 'zip_code']->voter_id",0.0,1.0,1.0,False,8,0.754
+ncvoter,pyro,"['city', 'download_month', 'ethnic', 'name_prefix', 'name_suffix', 'race', 'register_date']->middle_name",0.0,1.0,1.0,False,7,0.774
+ncvoter,pyro,"['download_month', 'middle_name', 'register_date']->voter_id",0.0,0.929330808688212,0.5806451612903226,False,3,0.876
+ncvoter,pyro,"['city', 'download_month', 'gender', 'register_date']->last_name",0.0052573779388339625,0.005956843319120199,0.010526315789473684,False,4,0.81
+ncvoter,pyro,"['birth_place', 'city', 'register_date']->zip_code",0.21345471850991948,0.9042527654985862,0.7818181818181819,False,3,0.67
+ncvoter,pyro,"['ethnic', 'first_name', 'full_phone_num', 'name_prefix', 'name_suffix', 'race']->age",0.0,1.0,1.0,False,6,0.785
+ncvoter,pyro,"['birth_place', 'city', 'name_prefix', 'name_suffix', 'register_date']->download_month",0.0,1.0,1.0,False,5,0.699
+ncvoter,pyro,"['age', 'download_month', 'full_phone_num', 'register_date']->voter_id",0.0,0.9974629645186742,0.9621621621621622,False,4,0.815
+ncvoter,pyro,"['age', 'birth_place', 'download_month', 'gender', 'register_date']->last_name",0.0,0.7564543893217244,0.04477611940298507,False,5,0.799
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'register_date']->voter_id",0.0,0.9950613306475995,0.9171597633136095,False,4,0.831
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'name_prefix']->first_name",0.0,0.9973249349724724,0.9576719576719577,False,4,0.811
+ncvoter,pyro,"['age', 'birth_place', 'city', 'name_prefix']->zip_code",0.0,0.9950794110307327,0.9695945945945946,False,4,0.704
+ncvoter,pyro,"['age', 'birth_place', 'city', 'ethnic', 'name_prefix']->download_month",0.0,0.9891982195386766,0.9858156028368794,False,5,0.718
+ncvoter,pyro,"['gender', 'middle_name', 'register_date']->voter_reg_num",0.0,0.9247000643207592,0.5669291338582677,False,3,0.873
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'race']->middle_name",0.0,0.9981846364878608,0.9795081967213115,False,6,0.756
+ncvoter,pyro,"['gender', 'last_name']->voter_id",0.004462292645802557,0.003767824686776838,0.004464285714285714,False,2,0.776
+ncvoter,pyro,"['city', 'ethnic', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->first_name",0.0,1.0,1.0,False,6,0.808
+ncvoter,pyro,"['gender', 'register_date', 'zip_code']->voter_id",0.004289852079852774,0.003372405406903529,0.004291845493562232,False,3,0.767
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'middle_name']->voter_reg_num",0.0,1.0,1.0,False,4,0.871
+ncvoter,pyro,"['birth_place', 'download_month', 'full_phone_num', 'gender', 'race', 'zip_code']->age",0.0,0.9812155832357875,0.917910447761194,False,6,0.732
+ncvoter,pyro,"['city', 'full_phone_num', 'gender', 'register_date']->voter_id",0.0,0.9961593779918158,0.9375,False,4,0.84
+ncvoter,pyro,"['age', 'birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix']->first_name",0.0,1.0,1.0,False,7,0.802
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'gender']->zip_code",0.0,0.996977209902755,0.9831649831649831,False,6,0.703
+ncvoter,pyro,"['gender', 'middle_name', 'register_date']->last_name",0.0,0.9190669741810884,0.5748031496062992,False,3,0.873
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'middle_name']->last_name",0.0,1.0,1.0,False,4,0.871
+ncvoter,pyro,"['city', 'full_phone_num', 'name_prefix', 'register_date']->age",0.0,1.0,1.0,False,4,0.785
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'full_phone_num']->voter_id",0.0,0.9980283936464094,0.9696969696969697,False,4,0.802
+ncvoter,pyro,"['ethnic', 'middle_name', 'race', 'register_date']->zip_code",0.0,0.8596652138623175,0.546583850931677,False,4,0.839
+ncvoter,pyro,"['birth_place', 'middle_name', 'register_date']->voter_reg_num",0.0,0.9515804143957425,0.5460992907801419,False,3,0.859
+ncvoter,pyro,"['birth_place', 'last_name']->voter_reg_num",0.0,0.7471657966033616,0.10943396226415095,False,2,0.735
+ncvoter,pyro,"['age', 'birth_place', 'gender', 'middle_name']->voter_reg_num",0.0,0.9525657768878597,0.5581395348837209,False,4,0.871
+ncvoter,pyro,"['city', 'name_prefix', 'register_date']->zip_code",0.0,0.997218676772409,0.9802816901408451,False,3,0.645
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'name_suffix', 'race']->voter_id",0.0,0.9995815579675208,0.9911894273127754,False,7,0.773
+ncvoter,pyro,"['birth_place', 'middle_name', 'register_date']->last_name",0.0,0.9469422027179862,0.5460992907801419,False,3,0.859
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'name_prefix', 'name_suffix', 'zip_code']->voter_reg_num",0.0,1.0,1.0,False,6,0.777
+ncvoter,pyro,"['ethnic', 'last_name', 'name_prefix', 'name_suffix', 'race']->zip_code",0.0,1.0,1.0,False,5,0.714
+ncvoter,pyro,"['age', 'birth_place', 'gender', 'middle_name']->last_name",0.0,0.9480149358395272,0.5581395348837209,False,4,0.871
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'name_prefix', 'register_date']->download_month",0.0,0.9969540716137191,0.9966666666666667,False,5,0.7
+ncvoter,pyro,"['city', 'download_month', 'gender', 'register_date']->voter_id",0.0,0.0,0.0,False,4,0.81
+ncvoter,pyro,"['city', 'download_month', 'name_prefix', 'name_suffix', 'register_date']->age",0.0,1.0,1.0,False,5,0.751
+ncvoter,pyro,"['age', 'birth_place', 'download_month', 'gender', 'register_date']->voter_id",0.0,0.7729773729382193,0.03980099502487562,False,5,0.799
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'name_prefix', 'name_suffix', 'zip_code']->last_name",0.0,1.0,1.0,False,6,0.777
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_prefix']->zip_code",0.0,1.0,1.0,False,4,0.8
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'name_prefix']->street_address",0.0,0.9958055882527372,0.934010152284264,False,6,0.803
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix', 'register_date']->voter_reg_num",0.0,1.0,1.0,False,6,0.782
+ncvoter,pyro,"['age', 'birth_place', 'city', 'name_prefix', 'name_suffix']->download_month",0.0,1.0,1.0,False,5,0.723
+ncvoter,pyro,"['birth_place', 'city', 'full_phone_num', 'name_prefix', 'register_date']->voter_reg_num",0.0,1.0,1.0,False,5,0.811
+ncvoter,pyro,"['age', 'birth_place', 'middle_name', 'race']->zip_code",0.0,0.9150466118847067,0.563953488372093,False,4,0.828
+ncvoter,pyro,"['gender', 'middle_name', 'register_date']->voter_id",0.0,0.9247000643207592,0.5669291338582677,False,3,0.873
+ncvoter,pyro,"['birth_place', 'city', 'full_phone_num', 'name_prefix', 'register_date']->last_name",0.0,1.0,1.0,False,5,0.811
+ncvoter,pyro,"['birth_place', 'city', 'gender', 'name_prefix', 'race', 'register_date']->age",0.0,0.9988539989844433,0.9911504424778761,False,6,0.774
+ncvoter,pyro,"['age', 'full_phone_num', 'gender', 'middle_name']->voter_id",0.0,1.0,1.0,False,4,0.871
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix', 'register_date']->last_name",0.0,1.0,1.0,False,6,0.782
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'race', 'register_date']->voter_reg_num",0.0,1.0,1.0,False,8,0.803
+ncvoter,pyro,"['birth_place', 'middle_name', 'register_date']->voter_id",0.0,0.9515804143957425,0.5460992907801419,False,3,0.859
+ncvoter,pyro,"['age', 'city', 'ethnic', 'name_prefix', 'name_suffix']->download_month",0.0,1.0,1.0,False,5,0.695
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'full_phone_num', 'name_suffix', 'register_date']->zip_code",0.0,1.0,1.0,False,6,0.839
+ncvoter,pyro,"['birth_place', 'last_name']->voter_id",0.0,0.7471657966033616,0.10943396226415095,False,2,0.735
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'middle_name']->voter_reg_num",0.0,1.0,1.0,False,4,0.879
+ncvoter,pyro,"['age', 'birth_place', 'gender', 'middle_name']->voter_id",0.0,0.9525657768878597,0.5581395348837209,False,4,0.871
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'register_date']->last_name",0.0,1.0,1.0,False,7,0.797
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_suffix', 'race', 'register_date']->zip_code",0.0,0.9987890355715419,0.9872881355932204,False,6,0.764
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_suffix', 'register_date']->age",0.0,1.0,1.0,False,4,0.838
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_prefix', 'race', 'register_date']->voter_reg_num",0.0,0.9995875762330947,0.9867549668874173,False,5,0.849
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'full_phone_num']->age",0.0,0.9966375886051867,0.9747474747474747,False,4,0.802
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'middle_name']->last_name",0.0,1.0,1.0,False,4,0.879
+ncvoter,pyro,"['city', 'ethnic', 'full_phone_num', 'register_date']->age",0.0,0.987672275874846,0.9289099526066351,False,4,0.789
+ncvoter,pyro,"['city', 'ethnic', 'register_date']->zip_code",0.7849802487275563,0.8273688977198106,0.8155619596541787,False,3,0.653
+ncvoter,pyro,"['middle_name', 'name_suffix', 'race', 'register_date']->age",0.0,1.0,1.0,False,4,0.838
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'name_prefix', 'name_suffix', 'zip_code']->voter_id",0.0,1.0,1.0,False,6,0.777
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'full_phone_num', 'gender', 'race', 'zip_code']->download_month",0.0,0.9610868513618788,0.9698795180722891,False,7,0.668
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'full_phone_num']->zip_code",0.0,0.9976039076063463,0.9747474747474747,False,4,0.802
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_prefix', 'race', 'register_date']->last_name",0.0,0.9995459223427251,0.9867549668874173,False,5,0.849
+ncvoter,pyro,"['city', 'ethnic', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->voter_reg_num",0.0,1.0,1.0,False,6,0.808
+ncvoter,pyro,"['city', 'ethnic', 'full_phone_num', 'name_prefix', 'register_date']->last_name",0.0,1.0,1.0,False,5,0.799
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_prefix', 'register_date']->voter_reg_num",0.0,0.9983268513141561,0.9672897196261683,False,6,0.786
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_suffix', 'register_date']->zip_code",0.0,0.9992799049301715,0.9912280701754386,False,6,0.772
+ncvoter,pyro,"['city', 'download_month', 'ethnic', 'name_suffix', 'register_date']->age",0.0,0.9991492732109083,0.9917695473251029,False,5,0.757
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'name_suffix', 'register_date']->download_month",0.0,1.0,1.0,False,5,0.707
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_suffix']->zip_code",0.0,1.0,1.0,False,4,0.803
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'full_phone_num', 'race', 'register_date']->last_name",0.0,0.9935066565103683,0.9180327868852459,False,6,0.817
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_prefix', 'register_date']->last_name",0.0,0.9981580965631374,0.9672897196261683,False,6,0.786
+ncvoter,pyro,"['birth_place', 'city', 'full_phone_num', 'name_prefix', 'register_date']->voter_id",0.0,1.0,1.0,False,5,0.811
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix', 'register_date']->voter_id",0.0,1.0,1.0,False,6,0.782
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'full_phone_num', 'name_suffix', 'register_date']->voter_reg_num",0.0,1.0,1.0,False,6,0.824
+ncvoter,pyro,"['city', 'name_suffix', 'race', 'register_date']->zip_code",0.0,1.0,1.0,False,4,0.662
+ncvoter,pyro,"['age', 'birth_place', 'middle_name', 'name_prefix', 'name_suffix']->zip_code",0.0,1.0,1.0,False,5,0.832
+ncvoter,pyro,"['birth_place', 'city', 'gender', 'name_prefix', 'name_suffix', 'register_date']->age",0.0,1.0,1.0,False,6,0.782
+ncvoter,pyro,"['middle_name', 'name_suffix', 'race', 'register_date']->zip_code",0.0,1.0,1.0,False,4,0.838
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_prefix']->voter_reg_num",0.0,1.0,1.0,False,4,0.8
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_suffix', 'race']->age",0.0,0.9991524763121541,0.9914893617021276,False,6,0.765
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_prefix', 'register_date']->zip_code",0.0,0.9974021053782232,0.9696969696969697,False,6,0.769
+ncvoter,pyro,"['birth_place', 'city', 'gender', 'name_suffix', 'race', 'register_date']->age",0.0,0.9991528173189472,0.9909502262443439,False,6,0.779
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'race']->voter_reg_num",0.0,0.8636204346270677,0.4702702702702703,False,4,0.815
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'race']->last_name",0.0,0.8518304562876075,0.4702702702702703,False,4,0.815
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_prefix']->last_name",0.0,1.0,1.0,False,4,0.8
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_prefix', 'name_suffix', 'register_date']->zip_code",0.0,1.0,1.0,False,5,0.848
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'name_suffix']->age",0.0,0.9991524763121541,0.9918367346938776,False,6,0.755
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender', 'race']->voter_reg_num",0.0,0.9980283936464094,0.9675675675675676,False,5,0.815
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'race', 'register_date']->voter_id",0.0,1.0,1.0,False,8,0.803
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name', 'race']->last_name",0.0,0.9301304278848722,0.5276073619631901,False,5,0.837
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name', 'race']->voter_reg_num",0.0,0.9354880654116463,0.5214723926380368,False,5,0.837
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'middle_name']->voter_id",0.0,1.0,1.0,False,4,0.879
+ncvoter,pyro,"['city', 'download_month', 'ethnic', 'name_prefix', 'race', 'register_date']->age",0.0,0.9988521188217029,0.9915966386554622,False,6,0.762
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender', 'race']->last_name",0.0,0.9978296013339764,0.9675675675675676,False,5,0.815
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_prefix', 'race', 'register_date']->voter_id",0.0,0.9995875762330947,0.9867549668874173,False,5,0.849
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_suffix']->age",0.0,1.0,1.0,False,4,0.803
+ncvoter,pyro,"['city', 'ethnic', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->voter_id",0.0,1.0,1.0,False,6,0.808
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->voter_reg_num",0.0,1.0,1.0,False,6,0.838
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->last_name",0.0,1.0,1.0,False,6,0.838
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'full_phone_num', 'gender', 'name_prefix']->zip_code",0.0,1.0,1.0,False,6,0.698
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_prefix', 'register_date']->voter_id",0.0,0.9983268513141561,0.9672897196261683,False,6,0.786
+ncvoter,pyro,"['birth_place', 'download_month', 'first_name', 'name_prefix', 'name_suffix', 'race']->age",0.0,1.0,1.0,False,6,0.757
+ncvoter,pyro,"['birth_place', 'ethnic', 'full_phone_num', 'gender', 'name_suffix', 'zip_code']->download_month",0.0,1.0,1.0,False,6,0.666
+ncvoter,pyro,"['age', 'birth_place', 'city', 'full_phone_num', 'gender']->voter_reg_num",0.0,0.9961398826790477,0.9126984126984127,False,5,0.874
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'full_phone_num', 'name_suffix', 'register_date']->voter_id",0.0,1.0,1.0,False,6,0.824
+ncvoter,pyro,"['age', 'city', 'full_phone_num', 'name_prefix']->zip_code",0.0,1.0,1.0,False,4,0.809
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_prefix', 'name_suffix', 'register_date']->zip_code",0.0,1.0,1.0,False,6,0.77
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_prefix']->voter_id",0.0,1.0,1.0,False,4,0.8
+ncvoter,pyro,"['age', 'city', 'ethnic', 'name_prefix']->zip_code",0.0,0.9943606761160878,0.9693251533742331,False,4,0.674
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'race']->voter_id",0.0,0.8636204346270677,0.4702702702702703,False,4,0.815
+ncvoter,pyro,"['age', 'birth_place', 'city', 'full_phone_num', 'gender']->last_name",0.0,0.9957514694571791,0.9126984126984127,False,5,0.874
+ncvoter,pyro,"['birth_place', 'download_month', 'full_phone_num', 'gender', 'name_suffix', 'zip_code']->age",0.0,1.0,1.0,False,6,0.731
+ncvoter,pyro,"['middle_name', 'name_prefix', 'race', 'register_date']->zip_code",0.0,0.9994051839809857,0.9874213836477987,False,4,0.841
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender', 'race']->voter_id",0.0,0.9980283936464094,0.9675675675675676,False,5,0.815
+ncvoter,pyro,"['age', 'city', 'download_month', 'full_phone_num', 'name_prefix']->voter_reg_num",0.0,1.0,1.0,False,5,0.851
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name', 'name_prefix', 'race']->voter_reg_num",0.0,1.0,1.0,False,5,0.842
+ncvoter,pyro,"['age', 'city', 'download_month', 'full_phone_num', 'name_prefix']->last_name",0.0,1.0,1.0,False,5,0.851
+ncvoter,pyro,"['age', 'city', 'name_prefix', 'name_suffix', 'race']->zip_code",0.0,1.0,1.0,False,5,0.693
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name', 'race']->voter_id",0.0,0.9354880654116463,0.5214723926380368,False,5,0.837
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'full_phone_num', 'gender', 'zip_code']->age",0.0,0.9812155832357875,0.9176029962546817,False,6,0.733
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name', 'name_prefix', 'race']->last_name",0.0,1.0,1.0,False,5,0.842
+ncvoter,pyro,"['age', 'city', 'full_phone_num', 'gender', 'name_prefix']->voter_reg_num",0.0,1.0,1.0,False,5,0.859
+ncvoter,pyro,"['age', 'birth_place', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->voter_id",0.0,1.0,1.0,False,6,0.838
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'race']->zip_code",0.0,0.9988129713204281,0.9877049180327869,False,6,0.756
+ncvoter,pyro,"['age', 'city', 'full_phone_num', 'gender', 'name_prefix']->last_name",0.0,1.0,1.0,False,5,0.859
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_prefix']->age",0.0,1.0,1.0,False,4,0.8
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_prefix', 'name_suffix', 'register_date']->voter_reg_num",0.0,1.0,1.0,False,6,0.77
+ncvoter,pyro,"['middle_name', 'name_prefix', 'race', 'register_date']->age",0.0,1.0,1.0,False,4,0.841
+ncvoter,pyro,"['age', 'birth_place', 'city', 'full_phone_num', 'gender']->voter_id",0.0,0.9961398826790477,0.9126984126984127,False,5,0.874
+ncvoter,pyro,"['birth_place', 'ethnic', 'first_name', 'name_prefix', 'name_suffix']->download_month",0.0,1.0,1.0,False,5,0.655
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_prefix', 'register_date']->age",0.0,1.0,1.0,False,4,0.841
+ncvoter,pyro,"['age', 'city', 'download_month', 'full_phone_num', 'name_prefix']->voter_id",0.0,1.0,1.0,False,5,0.851
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix', 'race']->voter_reg_num",0.0,1.0,1.0,False,7,0.808
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'race']->age",0.0,0.9993240489485915,0.9959016393442623,False,6,0.756
+ncvoter,pyro,"['age', 'ethnic', 'gender', 'middle_name']->voter_reg_num",0.0,0.8636204346270677,0.4673913043478261,False,4,0.816
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name', 'name_prefix', 'race']->voter_id",0.0,1.0,1.0,False,5,0.842
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_prefix', 'name_suffix', 'register_date']->last_name",0.0,1.0,1.0,False,6,0.77
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_prefix', 'race', 'register_date']->voter_reg_num",0.0,0.9979916379382958,0.9647577092511013,False,7,0.773
+ncvoter,pyro,"['age', 'ethnic', 'full_phone_num', 'middle_name']->voter_reg_num",0.0,1.0,1.0,False,4,0.836
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'name_suffix']->age",0.0,1.0,1.0,False,6,0.756
+ncvoter,pyro,"['city', 'download_month', 'full_phone_num', 'gender', 'name_prefix', 'name_suffix', 'race']->zip_code",0.0,1.0,1.0,False,7,0.675
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'full_phone_num', 'name_prefix', 'register_date']->voter_reg_num",0.0,1.0,1.0,False,6,0.84
+ncvoter,pyro,"['age', 'ethnic', 'gender', 'middle_name']->last_name",0.0,0.8518304562876075,0.4673913043478261,False,4,0.816
+ncvoter,pyro,"['age', 'city', 'full_phone_num', 'gender', 'name_prefix']->voter_id",0.0,1.0,1.0,False,5,0.859
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix']->last_name",0.0,1.0,1.0,False,6,0.798
+ncvoter,pyro,"['birth_place', 'first_name', 'name_prefix', 'name_suffix', 'race']->download_month",0.0,1.0,1.0,False,5,0.66
+ncvoter,pyro,"['age', 'ethnic', 'full_phone_num', 'middle_name']->last_name",0.0,1.0,1.0,False,4,0.836
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'race']->voter_reg_num",0.0,0.9953943214507854,0.904,False,7,0.875
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_prefix', 'race', 'register_date']->last_name",0.0,0.9977891459643095,0.9647577092511013,False,7,0.773
+ncvoter,pyro,"['age', 'download_month', 'gender', 'name_prefix', 'name_suffix', 'register_date']->voter_id",0.0,1.0,1.0,False,6,0.77
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'full_phone_num', 'name_prefix', 'register_date']->last_name",0.0,1.0,1.0,False,6,0.84
+ncvoter,pyro,"['age', 'ethnic', 'gender', 'middle_name']->voter_id",0.0,0.8636204346270677,0.4673913043478261,False,4,0.816
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'name_prefix']->last_name",0.0,0.9954227518842437,0.934010152284264,False,6,0.803
+ncvoter,pyro,"['age', 'ethnic', 'full_phone_num', 'middle_name']->voter_id",0.0,1.0,1.0,False,4,0.836
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'name_prefix', 'name_suffix', 'race']->voter_id",0.0,1.0,1.0,False,7,0.808
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_suffix', 'race', 'register_date']->voter_reg_num",0.0,0.9992906146069127,0.9866071428571429,False,7,0.776
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender', 'name_suffix']->voter_reg_num",0.0,1.0,1.0,False,5,0.814
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_prefix', 'race', 'register_date']->voter_id",0.0,0.9979916379382958,0.9647577092511013,False,7,0.773
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'name_suffix']->last_name",0.0,1.0,1.0,False,7,0.882
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'full_phone_num', 'name_prefix', 'register_date']->voter_id",0.0,1.0,1.0,False,6,0.84
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'race']->last_name",0.0,0.9949312544180935,0.904,False,7,0.875
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'name_suffix']->voter_reg_num",0.0,1.0,1.0,False,4,0.81
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name', 'name_prefix', 'name_suffix']->voter_reg_num",0.0,1.0,1.0,False,6,0.842
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_suffix', 'race']->voter_reg_num",0.0,1.0,1.0,False,5,0.82
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'race']->voter_id",0.0,0.9953943214507854,0.904,False,7,0.875
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'name_prefix']->voter_reg_num",0.0,0.9958411221832674,0.934010152284264,False,6,0.803
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_suffix', 'race', 'register_date']->voter_reg_num",0.0,1.0,1.0,False,5,0.845
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_suffix', 'race', 'register_date']->last_name",0.0,0.9992189911247238,0.9866071428571429,False,7,0.776
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_suffix', 'register_date']->voter_reg_num",0.0,0.9993724682438501,0.9857142857142858,False,6,0.79
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender', 'name_suffix']->last_name",0.0,1.0,1.0,False,5,0.814
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'name_prefix']->voter_id",0.0,0.9958411221832674,0.934010152284264,False,6,0.803
+ncvoter,pyro,"['age', 'birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'race']->voter_reg_num",0.0,1.0,1.0,False,8,0.807
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_suffix', 'register_date']->last_name",0.0,0.9993091036893433,0.9857142857142858,False,6,0.79
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_suffix', 'race']->last_name",0.0,1.0,1.0,False,5,0.82
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_suffix', 'race', 'register_date']->last_name",0.0,1.0,1.0,False,5,0.845
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name', 'name_prefix', 'name_suffix']->voter_reg_num",0.0,1.0,1.0,False,5,0.842
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'name_suffix', 'race']->voter_reg_num",0.0,1.0,1.0,False,7,0.775
+ncvoter,pyro,"['city', 'full_phone_num', 'name_prefix', 'name_suffix', 'register_date']->last_name",0.0,1.0,1.0,False,5,0.794
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'name_suffix']->last_name",0.0,1.0,1.0,False,4,0.81
+ncvoter,pyro,"['age', 'download_month', 'ethnic', 'gender', 'name_suffix', 'race', 'register_date']->voter_id",0.0,0.9992906146069127,0.9866071428571429,False,7,0.776
+ncvoter,pyro,"['birth_place', 'city', 'ethnic', 'full_phone_num', 'name_suffix', 'register_date']->last_name",0.0,1.0,1.0,False,6,0.824
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'name_prefix', 'race']->voter_reg_num",0.0,0.9987650160999312,0.9791666666666666,False,7,0.76
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'gender', 'name_suffix']->voter_id",0.0,1.0,1.0,False,5,0.814
+ncvoter,pyro,"['ethnic', 'middle_name', 'name_suffix', 'race', 'register_date']->voter_id",0.0,1.0,1.0,False,5,0.845
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name', 'name_prefix', 'name_suffix']->last_name",0.0,1.0,1.0,False,6,0.842
+ncvoter,pyro,"['birth_place', 'first_name', 'full_phone_num', 'name_suffix', 'race']->voter_id",0.0,1.0,1.0,False,5,0.82
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'name_suffix']->voter_reg_num",0.0,1.0,1.0,False,7,0.882
+ncvoter,pyro,"['birth_place', 'city', 'download_month', 'ethnic', 'name_suffix', 'register_date']->voter_id",0.0,0.9993724682438501,0.9857142857142858,False,6,0.79
+ncvoter,pyro,"['age', 'gender', 'middle_name', 'name_suffix']->voter_id",0.0,1.0,1.0,False,4,0.81
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name', 'name_prefix', 'name_suffix']->voter_id",0.0,1.0,1.0,False,5,0.842
+ncvoter,pyro,"['age', 'full_phone_num', 'middle_name', 'name_prefix', 'name_suffix']->last_name",0.0,1.0,1.0,False,5,0.842
+ncvoter,pyro,"['age', 'birth_place', 'ethnic', 'middle_name', 'name_prefix', 'name_suffix']->voter_id",0.0,1.0,1.0,False,6,0.842
+ncvoter,pyro,"['age', 'birth_place', 'city', 'download_month', 'ethnic', 'full_phone_num', 'name_suffix']->voter_id",0.0,1.0,1.0,False,7,0.882
+ncvoter,pyro,"['age', 'birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'race']->last_name",0.0,1.0,1.0,False,8,0.807
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'name_suffix', 'race']->last_name",0.0,1.0,1.0,False,7,0.775
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'name_prefix', 'race']->last_name",0.0,0.9986403956530553,0.9791666666666666,False,7,0.76
+ncvoter,pyro,"['age', 'birth_place', 'city', 'ethnic', 'gender', 'name_prefix', 'name_suffix', 'race']->voter_id",0.0,1.0,1.0,False,8,0.807
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'name_suffix', 'race']->voter_id",0.0,1.0,1.0,False,7,0.775
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'name_prefix', 'name_suffix', 'race']->voter_id",0.0,1.0,1.0,False,7,0.775
+ncvoter,pyro,"['birth_place', 'download_month', 'ethnic', 'first_name', 'gender', 'name_prefix', 'race']->voter_id",0.0,0.9987650160999312,0.9791666666666666,False,7,0.76

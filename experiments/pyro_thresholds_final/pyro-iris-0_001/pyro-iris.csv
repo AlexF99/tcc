@@ -1,0 +1,10 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+iris,pyro,"['petal length', 'sepal length']->class",0.9448148148148154,0.94618084196143,0.9629629629629629,False,2,0.82
+iris,pyro,"['petal length', 'petal width']->class",0.9586111111111114,0.9611601883187766,0.9791666666666666,False,2,0.68
+iris,pyro,"['petal width', 'sepal length']->class",0.8385833333333336,0.8453041535530741,0.9,False,2,0.7333333333333333
+iris,pyro,"['petal length', 'sepal width']->class",0.8758333333333335,0.8781684662545052,0.9285714285714286,False,2,0.8133333333333334
+iris,pyro,"['petal width', 'sepal width']->class",0.9156603773584909,0.921373872343051,0.9433962264150944,False,2,0.6466666666666666
+iris,pyro,"['petal length', 'petal width', 'sepal width']->sepal length",0.35329861111111116,0.3808941364210677,0.375,False,3,0.9466666666666667
+iris,pyro,"['petal length', 'petal width', 'sepal length']->sepal width",0.3839750833769754,0.4120104930393851,0.42857142857142855,False,3,0.9533333333333334
+iris,pyro,"['petal width', 'sepal length', 'sepal width']->petal length",0.4094410167655347,0.43814273307592694,0.42857142857142855,False,3,0.9533333333333334
+iris,pyro,"['petal length', 'sepal length', 'sepal width']->petal width",0.3850429231785175,0.41314928128510015,0.42857142857142855,False,3,0.9533333333333334

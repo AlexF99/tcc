@@ -31,7 +31,6 @@ base_command+=" --algorithm-config isFindFds:true"
 if [ -n "$threshold" ]; then
   echo "Using threshold value: $threshold"
   base_command+=" --algorithm-config maxUccError:$threshold"
-  base_command+=" --algorithm-config errorDev:$threshold"
 fi
 
 # Add output filename

@@ -1,0 +1,512 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+hate_crimes,pyro,['Full Complaint ID']->PD Code Description,1.0,1.0,1.0,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->Complaint Precinct Code,1.0,1.0,1.0,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->Month Number,1.0,1.0,1.0,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->Offense Category,1.0,1.0,1.0,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->Patrol Borough Name,1.0,1.0,1.0,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->Complaint Year Number,1.0,1.0,1.0,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->County,1.0,1.0,1.0,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->Law Code Category Description,1.0,1.0,1.0,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->Offense Description,1.0,1.0,1.0,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->Bias Motive Description,0.9949223473908666,0.9953813702946097,0.9962121212121212,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->Arrest Date,0.0,0.0,0.6590909090909091,False,1,0.9188940092165898
+hate_crimes,pyro,['Full Complaint ID']->Record Create Date,1.0,1.0,1.0,False,1,0.9188940092165898
+hate_crimes,pyro,['PD Code Description']->Law Code Category Description,1.0,1.0,1.0,False,1,0.025192012288786484
+hate_crimes,pyro,['Arrest Id']->Arrest Date,0.005207078385853103,1.0,1.0,False,1,0.4288786482334869
+hate_crimes,pyro,['Complaint Precinct Code']->County,1.0,1.0,1.0,False,1,0.023655913978494623
+hate_crimes,pyro,['Record Create Date']->PD Code Description,0.16247058420263327,0.20270156683847199,0.3528761061946903,False,1,0.4445468509984639
+hate_crimes,pyro,['Record Create Date']->Complaint Year Number,0.9983145532475446,0.9985277369214802,0.9988938053097345,False,1,0.4445468509984639
+hate_crimes,pyro,['Record Create Date']->Bias Motive Description,0.2532891375253201,0.2948824604381453,0.5315265486725663,False,1,0.4445468509984639
+hate_crimes,pyro,['Patrol Borough Name']->County,1.0,1.0,1.0,False,1,0.002457757296466974
+hate_crimes,pyro,['Record Create Date']->Law Code Category Description,0.17408990510180766,0.17198473206787057,0.650995575221239,False,1,0.4445468509984639
+hate_crimes,pyro,['Complaint Precinct Code']->PD Code Description,0.03169030673654616,0.06099458227401596,0.27816236626809315,False,1,0.023655913978494623
+hate_crimes,pyro,['Record Create Date']->Offense Category,0.2768762836113855,0.3064901126949524,0.6133849557522124,False,1,0.4445468509984639
+hate_crimes,pyro,['PD Code Description']->Offense Description,1.0,1.0,1.0,False,1,0.025192012288786484
+hate_crimes,pyro,['Complaint Precinct Code']->Bias Motive Description,0.08597399491258118,0.12330451892050744,0.4786028949024544,False,1,0.023655913978494623
+hate_crimes,pyro,['Bias Motive Description']->Offense Category,0.9895048375737955,0.9817741660376955,0.9965912612333436,False,1,0.008602150537634409
+hate_crimes,pyro,['Record Create Date']->Month Number,0.9170050650062402,0.9284156997948776,0.9391592920353983,False,1,0.4445468509984639
+hate_crimes,pyro,['Complaint Precinct Code']->Law Code Category Description,0.024084324873847374,0.018502126710826076,0.5711139081183134,False,1,0.023655913978494623
+hate_crimes,pyro,['Complaint Precinct Code']->Complaint Year Number,0.02768567143077294,0.04070672791684779,0.2986154814348647,False,1,0.023655913978494623
+hate_crimes,pyro,['Record Create Date']->Arrest Date,0.0,0.23127362866261064,0.8152654867256637,False,1,0.4445468509984639
+hate_crimes,pyro,['Offense Description']->Law Code Category Description,0.8265832159582482,0.8249867629559849,0.9375,False,1,0.00706605222734255
+hate_crimes,pyro,['Complaint Precinct Code']->Offense Category,0.08826384392926467,0.09514410289353795,0.5443675267463813,False,1,0.023655913978494623
+hate_crimes,pyro,['Complaint Precinct Code']->Month Number,0.01681827772227884,0.03375578891029983,0.18219005663939586,False,1,0.023655913978494623
+hate_crimes,pyro,['Complaint Precinct Code']->Patrol Borough Name,1.0,1.0,1.0,False,1,0.023655913978494623
+hate_crimes,pyro,['Month Number']->Law Code Category Description,0.0043843304593580434,0.005334057885828245,0.5288313290163429,False,1,0.003686635944700461
+hate_crimes,pyro,['Record Create Date']->County,0.20440905123320596,0.22528925476942743,0.5298672566371682,False,1,0.4445468509984639
+hate_crimes,pyro,['Record Create Date']->Complaint Precinct Code,0.1702328842857359,0.22689138112418547,0.252212389380531,False,1,0.4445468509984639
+hate_crimes,pyro,['Complaint Precinct Code']->Record Create Date,0.010282798770415824,0.057392472516484515,0.0578980490874764,False,1,0.023655913978494623
+hate_crimes,pyro,['Record Create Date']->Offense Description,0.1717075170169351,0.20432681729225693,0.41150442477876104,False,1,0.4445468509984639
+hate_crimes,pyro,['Record Create Date']->Patrol Borough Name,0.1938744936672998,0.232892691929378,0.40873893805309736,False,1,0.4445468509984639
+hate_crimes,pyro,"['Month Number', 'Offense Description']->PD Code Description",0.672362634430562,0.7455714442529641,0.7994214079074252,False,2,0.04423963133640553
+hate_crimes,pyro,['Complaint Precinct Code']->Offense Description,0.03830314923653444,0.05616062360578942,0.3219005663939585,False,1,0.023655913978494623
+hate_crimes,pyro,['Complaint Precinct Code']->Arrest Date,0.0,0.1095053715739526,0.644745122718691,False,1,0.023655913978494623
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->Law Code Category Description",0.017336366088549493,0.014132308183342221,0.5628313065169941,False,2,0.014746543778801843
+hate_crimes,pyro,"['Month Number', 'PD Code Description']->Complaint Year Number",0.07047084107507262,0.0874806627780798,0.34345156889495226,False,2,0.09923195084485407
+hate_crimes,pyro,"['Month Number', 'PD Code Description']->Patrol Borough Name",0.050128441221983344,0.06255254504048895,0.30559345156889495,False,2,0.09923195084485407
+hate_crimes,pyro,"['Month Number', 'PD Code Description']->Record Create Date",0.03714538094699038,0.10097064126478726,0.09038199181446112,False,2,0.09923195084485407
+hate_crimes,pyro,"['Offense Description', 'Patrol Borough Name']->PD Code Description",0.6660007583335249,0.7434951595055261,0.7987959442332065,False,2,0.030414746543778803
+hate_crimes,pyro,"['Month Number', 'Patrol Borough Name']->Complaint Year Number",0.04140460280988589,0.05798564448239841,0.31655587211142766,False,2,0.029493087557603687
+hate_crimes,pyro,"['Bias Motive Description', 'Patrol Borough Name']->Law Code Category Description",0.08402902983990612,0.06269415112146262,0.6301633045148896,False,2,0.04055299539170507
+hate_crimes,pyro,"['Month Number', 'PD Code Description']->County",0.04574836963663487,0.05566888496137413,0.43758526603001363,False,2,0.09923195084485407
+hate_crimes,pyro,"['Month Number', 'PD Code Description']->Bias Motive Description",0.17687351199719037,0.19892788026160615,0.5170532060027285,False,2,0.09923195084485407
+hate_crimes,pyro,"['Month Number', 'PD Code Description']->Arrest Date",0.0,0.12061980889282017,0.6527967257844475,False,2,0.09923195084485407
+hate_crimes,pyro,"['Month Number', 'PD Code Description']->Offense Category",0.1941798523866589,0.18362221102928064,0.5914051841746248,False,2,0.09923195084485407
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->County",0.02038150132189187,0.023392429996995166,0.4238140119384229,False,2,0.022119815668202765
+hate_crimes,pyro,"['PD Code Description', 'Patrol Borough Name']->Month Number",0.03092640049428963,0.04264098970833961,0.18949468085106383,False,2,0.07588325652841782
+hate_crimes,pyro,"['Month Number', 'PD Code Description']->Complaint Precinct Code",0.03795812553429012,0.07828937044680494,0.1251705320600273,False,2,0.09923195084485407
+hate_crimes,pyro,"['Month Number', 'Patrol Borough Name']->PD Code Description",0.02620294477782159,0.053695347687318526,0.2712883823994935,False,2,0.029493087557603687
+hate_crimes,pyro,"['County', 'Month Number']->Patrol Borough Name",0.4889289376024071,0.6820205809221761,0.6428794992175274,False,2,0.018433179723502304
+hate_crimes,pyro,"['PD Code Description', 'Patrol Borough Name']->Complaint Year Number",0.04016010580425333,0.050104593852718295,0.29853723404255317,False,2,0.07588325652841782
+hate_crimes,pyro,"['Month Number', 'Patrol Borough Name']->Arrest Date",0.0,0.10386587918466211,0.6492560937005382,False,2,0.029493087557603687
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->Law Code Category Description",0.08404238887073745,0.06438215903003458,0.6297237218164496,False,2,0.0325652841781874
+hate_crimes,pyro,"['Complaint Year Number', 'PD Code Description']->Month Number",0.03473167138606581,0.056947108010206714,0.19097793875535068,False,2,0.06697388632872504
+hate_crimes,pyro,"['PD Code Description', 'Patrol Borough Name']->Arrest Date",0.0,0.11020042508105511,0.6416223404255319,False,2,0.07588325652841782
+hate_crimes,pyro,"['Month Number', 'Patrol Borough Name']->Offense Description",0.031264752555585584,0.04439490227146338,0.31497309275087054,False,2,0.029493087557603687
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->PD Code Description",0.6712074026045538,0.7484165575295549,0.799305774692332,False,2,0.02642089093701997
+hate_crimes,pyro,"['Month Number', 'Offense Description']->Complaint Year Number",0.04686204646970882,0.06519664149543361,0.3236901317904211,False,2,0.04423963133640553
+hate_crimes,pyro,"['County', 'PD Code Description']->Patrol Borough Name",0.5156301826619276,0.6917104357202166,0.671228413163897,False,2,0.05714285714285714
+hate_crimes,pyro,"['Complaint Year Number', 'PD Code Description']->County",0.03932024546421575,0.044592870872908995,0.4329930852815278,False,2,0.06697388632872504
+hate_crimes,pyro,"['Month Number', 'Patrol Borough Name']->Complaint Precinct Code",0.1286504181413214,0.3869076445620772,0.24881291547958215,False,2,0.029493087557603687
+hate_crimes,pyro,"['Complaint Year Number', 'County']->Law Code Category Description",0.011363599003601843,0.011224800851392634,0.546046511627907,False,2,0.009216589861751152
+hate_crimes,pyro,"['Month Number', 'Patrol Borough Name']->Record Create Date",0.01894994188084853,0.10266200992981785,0.07723963279518835,False,2,0.029493087557603687
+hate_crimes,pyro,"['Month Number', 'Offense Description']->Arrest Date",0.0,0.12098767220026105,0.6361298617807779,False,2,0.04423963133640553
+hate_crimes,pyro,"['PD Code Description', 'Patrol Borough Name']->Complaint Precinct Code",0.14460059579525364,0.41626966171590046,0.26163563829787234,False,2,0.07588325652841782
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->Patrol Borough Name",0.016279482664894207,0.025372133084082798,0.27018535972353125,False,2,0.022119815668202765
+hate_crimes,pyro,"['Month Number', 'Offense Description']->County",0.029938327378710605,0.0394730201339993,0.4214079074252652,False,2,0.04423963133640553
+hate_crimes,pyro,"['PD Code Description', 'Patrol Borough Name']->Record Create Date",0.022415472097311873,0.053310869466254386,0.06050531914893617,False,2,0.07588325652841782
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->Complaint Precinct Code",0.01732723085748944,0.06607654508260724,0.10870248193528118,False,2,0.022119815668202765
+hate_crimes,pyro,"['Month Number', 'Offense Description']->Offense Category",0.16132760097169496,0.15211339904308485,0.5798778527804564,False,2,0.04423963133640553
+hate_crimes,pyro,"['Month Number', 'Offense Category']->Bias Motive Description",0.5641941594353874,0.6577012950852168,0.779102604330091,False,2,0.020890937019969278
+hate_crimes,pyro,"['Complaint Year Number', 'PD Code Description']->Patrol Borough Name",0.03591116043110554,0.04651369730628667,0.2897596312150148,False,2,0.06697388632872504
+hate_crimes,pyro,"['Complaint Year Number', 'PD Code Description']->Complaint Precinct Code",0.027018536051445885,0.06751940445950042,0.10339150477444847,False,2,0.06697388632872504
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->Offense Description",0.019680687763258042,0.032784012039644164,0.2975180647188187,False,2,0.022119815668202765
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->Record Create Date",0.04042657346126566,0.23928762281736013,0.10116242538485705,False,2,0.022119815668202765
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->PD Code Description",0.018967717891223645,0.04584597714766544,0.2554194156456173,False,2,0.022119815668202765
+hate_crimes,pyro,"['Offense Description', 'Patrol Borough Name']->Complaint Year Number",0.018090380552013396,0.027211190999793095,0.2674271229404309,False,2,0.030414746543778803
+hate_crimes,pyro,"['Offense Category', 'PD Code Description']->Bias Motive Description",0.6176497207285294,0.7062654656762288,0.8083170890188434,False,2,0.054377880184331796
+hate_crimes,pyro,"['Bias Motive Description', 'County']->Law Code Category Description",0.0803355914254219,0.059830235820167346,0.6267383059418458,False,2,0.02795698924731183
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->Offense Description",0.026677071721926904,0.03637892466714295,0.31088244465232306,False,2,0.014746543778801843
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->Month Number",0.017572501021939524,0.04213137979629471,0.17399438727782976,False,2,0.014746543778801843
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->County",0.024133570717811303,0.029661610122588663,0.4162196276427895,False,2,0.02642089093701997
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->PD Code Description",0.021737505323219164,0.0470590937789597,0.2637979420018709,False,2,0.014746543778801843
+hate_crimes,pyro,"['Offense Description', 'Patrol Borough Name']->Arrest Date",0.0,0.10619304985667083,0.6245247148288974,False,2,0.030414746543778803
+hate_crimes,pyro,"['Complaint Year Number', 'PD Code Description']->Record Create Date",0.023701262936864587,0.08346879370768963,0.06519591702337833,False,2,0.06697388632872504
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->Complaint Precinct Code",0.12651130479637285,0.42713918315989036,0.23666978484565013,False,2,0.014746543778801843
+hate_crimes,pyro,"['Complaint Year Number', 'County']->Patrol Borough Name",0.48773835072264915,0.6850931587417338,0.635968992248062,False,2,0.009216589861751152
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->Record Create Date",0.009546443965006368,0.08567111635661748,0.052385406922357346,False,2,0.014746543778801843
+hate_crimes,pyro,"['Month Number', 'Offense Description']->Bias Motive Description",0.1431113289757696,0.16086076148855566,0.5046608807457409,False,2,0.04423963133640553
+hate_crimes,pyro,"['PD Code Description', 'Patrol Borough Name']->Offense Category",0.20112745486739148,0.19550129462386168,0.6033909574468085,False,2,0.07588325652841782
+hate_crimes,pyro,"['Offense Description', 'Patrol Borough Name']->Offense Category",0.17036063476977237,0.16701581688395564,0.5918884664131813,False,2,0.030414746543778803
+hate_crimes,pyro,"['Offense Description', 'Patrol Borough Name']->Month Number",0.013628916710200167,0.0267017020887012,0.16571609632446135,False,2,0.030414746543778803
+hate_crimes,pyro,"['Bias Motive Description', 'Month Number']->Offense Description",0.119388343648556,0.1438639319735747,0.4277795891750897,False,2,0.05775729646697389
+hate_crimes,pyro,"['Bias Motive Description', 'Month Number']->PD Code Description",0.10000239726188265,0.14000870015413475,0.3752852950766221,False,2,0.05775729646697389
+hate_crimes,pyro,"['County', 'PD Code Description']->Complaint Year Number",0.03828607217887925,0.047508143599574476,0.2939068100358423,False,2,0.05714285714285714
+hate_crimes,pyro,"['County', 'Offense Description']->Complaint Year Number",0.01749043006795359,0.02573007596846198,0.26051475204017577,False,2,0.02119815668202765
+hate_crimes,pyro,"['Month Number', 'Patrol Borough Name']->Offense Category",0.06771563188932805,0.07504761374670968,0.540360873694207,False,2,0.029493087557603687
+hate_crimes,pyro,"['Offense Category', 'Offense Description']->Bias Motive Description",0.5989429981310683,0.6905976316780988,0.8035826524198617,False,2,0.022427035330261136
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->Arrest Date",0.0,0.11578186711479935,0.6197538655727359,False,2,0.02642089093701997
+hate_crimes,pyro,"['Complaint Year Number', 'PD Code Description']->Arrest Date",0.0,0.11843767922612172,0.6378004609812314,False,2,0.06697388632872504
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->Month Number",0.02006354986822656,0.04390115522562497,0.17260965604291575,False,2,0.02642089093701997
+hate_crimes,pyro,"['Month Number', 'Offense Description']->Complaint Precinct Code",0.020686852179501503,0.0662174010282443,0.10703953712632594,False,2,0.04423963133640553
+hate_crimes,pyro,"['Month Number', 'Offense Description']->Patrol Borough Name",0.029635085788666804,0.0430808463488026,0.28640308582449375,False,2,0.04423963133640553
+hate_crimes,pyro,"['Bias Motive Description', 'Patrol Borough Name']->Offense Description",0.1266189514246855,0.1571653511248004,0.43067563240473905,False,2,0.04055299539170507
+hate_crimes,pyro,"['Month Number', 'Offense Description']->Record Create Date",0.021213927585900905,0.10044462386893244,0.07457409193185471,False,2,0.04423963133640553
+hate_crimes,pyro,"['Arrest Date', 'Patrol Borough Name']->Law Code Category Description",0.0,0.89676749316112,0.9556823168056165,False,2,0.2998463901689708
+hate_crimes,pyro,"['Arrest Date', 'County']->Law Code Category Description",0.0,0.8759664213068263,0.9463979416809606,False,2,0.2835637480798771
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->Arrest Date",0.0,0.14062389213893306,0.648444863336475,False,2,0.022119815668202765
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->Offense Description",0.11813385747705629,0.14436720154711058,0.4293426484598285,False,2,0.0325652841781874
+hate_crimes,pyro,"['Offense Description', 'Patrol Borough Name']->Complaint Precinct Code",0.1299143152393193,0.42939606110010003,0.24746514575411913,False,2,0.030414746543778803
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->Arrest Date",0.0,0.10051160100900017,0.631119426255067,False,2,0.014746543778801843
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->Patrol Borough Name",0.020994034898798808,0.03137363403998444,0.27264121173871886,False,2,0.02642089093701997
+hate_crimes,pyro,"['Offense Description', 'Patrol Borough Name']->Record Create Date",0.009987171304235987,0.047631500292087306,0.04657794676806084,False,2,0.030414746543778803
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->Offense Category",0.06469814403909047,0.0750313182916774,0.5375431982406534,False,2,0.022119815668202765
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->Complaint Precinct Code",0.01363742930978995,0.05652652214494364,0.08583149258441149,False,2,0.02642089093701997
+hate_crimes,pyro,"['Bias Motive Description', 'Offense Description']->PD Code Description",0.6847714483866981,0.7592847967392903,0.8132860367623347,False,2,0.047311827956989246
+hate_crimes,pyro,"['Bias Motive Description', 'Month Number']->Complaint Year Number",0.09004004430131696,0.11274589060272809,0.368112161721552,False,2,0.05775729646697389
+hate_crimes,pyro,"['Arrest Id', 'Patrol Borough Name']->Law Code Category Description",0.0,0.9927666403880546,0.9967602591792657,False,2,0.43102918586789557
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->Record Create Date",0.011266283257593934,0.08349471591475252,0.04891132849479331,False,2,0.02642089093701997
+hate_crimes,pyro,"['Bias Motive Description', 'Patrol Borough Name']->Complaint Year Number",0.054005247631138564,0.06997366946663842,0.313800832532821,False,2,0.04055299539170507
+hate_crimes,pyro,"['Offense Description', 'Patrol Borough Name']->Bias Motive Description",0.15210458582958297,0.17609415463463318,0.5133079847908745,False,2,0.030414746543778803
+hate_crimes,pyro,"['PD Code Description', 'Patrol Borough Name']->Bias Motive Description",0.17881049974321317,0.20628098278845147,0.5262632978723404,False,2,0.07588325652841782
+hate_crimes,pyro,"['Complaint Year Number', 'PD Code Description']->Offense Category",0.1834173026355682,0.17852714268953673,0.5818241685874218,False,2,0.06697388632872504
+hate_crimes,pyro,"['Arrest Id', 'Month Number']->Offense Description",0.0,0.9959679203273677,0.9951298701298701,False,2,0.432258064516129
+hate_crimes,pyro,"['Bias Motive Description', 'Patrol Borough Name']->PD Code Description",0.09995618074314849,0.14286255412941307,0.37720140890169707,False,2,0.04055299539170507
+hate_crimes,pyro,"['County', 'Offense Description']->Patrol Borough Name",0.5083196843947113,0.6927463394243322,0.6619585687382298,False,2,0.02119815668202765
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->Offense Category",0.15855329353419778,0.15519381961941572,0.5736825497002209,False,2,0.02642089093701997
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->PD Code Description",0.09629942255864199,0.13730612669872885,0.3734518894887266,False,2,0.0325652841781874
+hate_crimes,pyro,"['Bias Motive Description', 'Month Number']->Arrest Date",0.0,0.19053420610792748,0.6599282686664493,False,2,0.05775729646697389
+hate_crimes,pyro,"['Month Number', 'Patrol Borough Name']->Bias Motive Description",0.05760218728443234,0.09379462769460264,0.4602722380500158,False,2,0.029493087557603687
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->Offense Category",0.05656013096179391,0.0669824355445779,0.5353913314624259,False,2,0.014746543778801843
+hate_crimes,pyro,"['County', 'PD Code Description']->Complaint Precinct Code",0.0825992451637142,0.29595686756543355,0.18214402085369827,False,2,0.05714285714285714
+hate_crimes,pyro,"['Bias Motive Description', 'PD Code Description']->Complaint Year Number",0.054070402006539675,0.07222392499762499,0.3079514824797844,False,2,0.08817204301075268
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number']->Law Code Category Description",0.0,0.9927666403880546,0.9967637540453075,False,2,0.4304147465437788
+hate_crimes,pyro,"['County', 'PD Code Description']->Record Create Date",0.01700629608540838,0.04515798484194287,0.047898338220918865,False,2,0.05714285714285714
+hate_crimes,pyro,"['Bias Motive Description', 'PD Code Description']->Arrest Date",0.0,0.1748820583035262,0.6411725067385444,False,2,0.08817204301075268
+hate_crimes,pyro,"['County', 'Offense Description']->PD Code Description",0.6614299777027337,0.7405202433786986,0.7966101694915254,False,2,0.02119815668202765
+hate_crimes,pyro,"['Bias Motive Description', 'Patrol Borough Name']->Arrest Date",0.0,0.167981646189159,0.6487351905219341,False,2,0.04055299539170507
+hate_crimes,pyro,"['Arrest Id', 'Patrol Borough Name']->Offense Description",0.0,0.9959679203273677,0.9951403887688985,False,2,0.43102918586789557
+hate_crimes,pyro,"['Arrest Date', 'PD Code Description']->Patrol Borough Name",0.0,0.9760188801015824,0.9738927738927738,False,2,0.34101382488479265
+hate_crimes,pyro,"['County', 'Month Number']->Offense Category",0.04506475358363038,0.04911969233219208,0.5286384976525822,False,2,0.018433179723502304
+hate_crimes,pyro,"['Offense Category', 'Patrol Borough Name']->Bias Motive Description",0.5764985340469206,0.668132134281012,0.7852913680274228,False,2,0.0141321044546851
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->Arrest Date",0.0,0.17606201455468656,0.6408383613845665,False,2,0.0325652841781874
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number']->Offense Description",0.0,0.9959679203273677,0.9951456310679612,False,2,0.4304147465437788
+hate_crimes,pyro,"['Bias Motive Description', 'Month Number']->Complaint Precinct Code",0.0390475449244434,0.09351497044558704,0.12716009129442452,False,2,0.05775729646697389
+hate_crimes,pyro,"['Arrest Id', 'County']->Law Code Category Description",0.0,0.9927666403880546,0.9967654986522911,False,2,0.43010752688172044
+hate_crimes,pyro,"['Bias Motive Description', 'Offense Description']->Arrest Date",0.0,0.17047109527069249,0.6272170267655595,False,2,0.047311827956989246
+hate_crimes,pyro,"['Bias Motive Description', 'Month Number']->Record Create Date",0.028003545879894953,0.1272844225811486,0.0815128790348875,False,2,0.05775729646697389
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'Offense Description']->Complaint Year Number",0.0,0.9941670824594644,0.9936893203883496,False,3,0.3671274961597542
+hate_crimes,pyro,"['County', 'PD Code Description']->Offense Category",0.18815924510279358,0.18092817974647643,0.5959595959595959,False,2,0.05714285714285714
+hate_crimes,pyro,"['County', 'Month Number']->PD Code Description",0.014995895388680736,0.03699358841588951,0.24663536776212833,False,2,0.018433179723502304
+hate_crimes,pyro,"['Bias Motive Description', 'Patrol Borough Name']->Complaint Precinct Code",0.15636128850569309,0.4471817223668242,0.2856227985910983,False,2,0.04055299539170507
+hate_crimes,pyro,"['Bias Motive Description', 'Month Number']->Patrol Borough Name",0.05681068669497025,0.0723589448525848,0.30779263123573525,False,2,0.05775729646697389
+hate_crimes,pyro,"['County', 'Month Number']->Complaint Year Number",0.03458905367330134,0.04964357662564337,0.3051643192488263,False,2,0.018433179723502304
+hate_crimes,pyro,"['County', 'Offense Description']->Offense Category",0.1605871959571864,0.15488876082668132,0.5863151286880101,False,2,0.02119815668202765
+hate_crimes,pyro,"['Complaint Year Number', 'County']->PD Code Description",0.013560959711617526,0.03554904816659849,0.23844961240310078,False,2,0.009216589861751152
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->Bias Motive Description",0.054414476923914434,0.09604012506508988,0.4655984919886899,False,2,0.022119815668202765
+hate_crimes,pyro,"['Bias Motive Description', 'Patrol Borough Name']->Record Create Date",0.015328085449725526,0.05718381151198054,0.0563560678834454,False,2,0.04055299539170507
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->Complaint Precinct Code",0.03136453886203061,0.08943738682165246,0.12003810733566211,False,2,0.0325652841781874
+hate_crimes,pyro,"['Complaint Year Number', 'County']->Offense Category",0.039443128930813365,0.04842528800174044,0.5293023255813953,False,2,0.009216589861751152
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'County']->Offense Description",0.0,0.9959679203273677,0.9949324324324325,False,3,0.4543778801843318
+hate_crimes,pyro,"['Month Number', 'Offense Category']->Arrest Date",0.0004914717401914848,0.14381118711491445,0.6297458424850957,False,2,0.020890937019969278
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->Record Create Date",0.0154111927340298,0.10498192285339608,0.05366783105747856,False,2,0.0325652841781874
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->Patrol Borough Name",0.0507769312790437,0.06719349579043285,0.3029533185138139,False,2,0.0325652841781874
+hate_crimes,pyro,"['Complaint Year Number', 'PD Code Description']->Bias Motive Description",0.164708388134302,0.1956630403710866,0.5077378992426737,False,2,0.06697388632872504
+hate_crimes,pyro,"['Bias Motive Description', 'County']->Patrol Borough Name",0.5150931438564712,0.6951291952817801,0.6599241466498104,False,2,0.02795698924731183
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'County']->Complaint Year Number",0.0,0.9922236750545234,0.9916897506925207,False,3,0.3345622119815668
+hate_crimes,pyro,"['Bias Motive Description', 'County', 'Law Code Category Description']->PD Code Description",0.28831216665891846,0.39634741078185126,0.5339586028460543,False,3,0.05007680491551459
+hate_crimes,pyro,"['County', 'Month Number']->Offense Description",0.018900094518599087,0.030004959770866535,0.29264475743348983,False,2,0.018433179723502304
+hate_crimes,pyro,"['Bias Motive Description', 'PD Code Description']->Patrol Borough Name",0.060792522194322296,0.07718142707359597,0.31502695417789756,False,2,0.08817204301075268
+hate_crimes,pyro,"['Bias Motive Description', 'Offense Description']->County",0.05739458481677695,0.05885443876150201,0.44824250241857466,False,2,0.047311827956989246
+hate_crimes,pyro,"['Offense Category', 'PD Code Description']->Arrest Date",0.0,0.13082553747389736,0.6228070175438597,False,2,0.054377880184331796
+hate_crimes,pyro,"['Bias Motive Description', 'PD Code Description']->County",0.07066760622669088,0.07205534709002409,0.4609164420485175,False,2,0.08817204301075268
+hate_crimes,pyro,"['Arrest Id', 'Patrol Borough Name']->Offense Category",0.0,1.0,1.0,False,2,0.43102918586789557
+hate_crimes,pyro,"['Complaint Year Number', 'County']->Offense Description",0.016700168083554012,0.025533208955769365,0.2855813953488372,False,2,0.009216589861751152
+hate_crimes,pyro,"['Offense Category', 'Patrol Borough Name']->Arrest Date",0.0013664512835570575,0.12586523917253856,0.6244936117170458,False,2,0.0141321044546851
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Category']->Law Code Category Description",0.06751562722619053,0.050333100682322794,0.6175100900341509,False,2,0.010445468509984639
+hate_crimes,pyro,"['Bias Motive Description', 'Month Number']->County",0.06414222911863465,0.06762367022403956,0.45842843169220737,False,2,0.05775729646697389
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Category']->Arrest Date",0.0013775080396857264,0.13693168402927283,0.6175100900341509,False,2,0.010445468509984639
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Category']->Bias Motive Description",0.572127024095079,0.6674337775423911,0.777708786091276,False,2,0.010445468509984639
+hate_crimes,pyro,"['Offense Category', 'Patrol Borough Name']->Law Code Category Description",0.07317297353350316,0.05417128011513166,0.6235587410408227,False,2,0.0141321044546851
+hate_crimes,pyro,"['Arrest Id', 'Patrol Borough Name']->Complaint Year Number",0.0,1.0,1.0,False,2,0.43102918586789557
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'Offense Description']->Patrol Borough Name",0.0,0.9867969297781537,0.9854368932038835,False,3,0.3671274961597542
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->County",0.06357305621792553,0.06706403728546521,0.4576055890758971,False,2,0.0325652841781874
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->Bias Motive Description",0.13956698332483541,0.16634201428277673,0.5001577784790154,False,2,0.02642089093701997
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'PD Code Description']->Record Create Date",0.0,0.9847856223172307,0.9452965235173824,False,3,0.3990783410138249
+hate_crimes,pyro,"['Arrest Id', 'Patrol Borough Name']->PD Code Description",0.0,0.9969792522770466,0.9951403887688985,False,2,0.43102918586789557
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'PD Code Description']->Complaint Precinct Code",0.01452717904500156,0.9910158461916234,0.9800613496932515,False,3,0.3990783410138249
+hate_crimes,pyro,"['Arrest Date', 'Patrol Borough Name']->Offense Description",0.0,0.9341132808485033,0.9341816586222027,False,2,0.2998463901689708
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->Bias Motive Description",0.05126615101557108,0.09677052519237765,0.4586841284689741,False,2,0.014746543778801843
+hate_crimes,pyro,"['County', 'Offense Description']->Month Number",0.011569332692567103,0.022367756021041164,0.1553672316384181,False,2,0.02119815668202765
+hate_crimes,pyro,"['Arrest Id', 'Month Number']->Complaint Year Number",0.0,1.0,1.0,False,2,0.432258064516129
+hate_crimes,pyro,"['Arrest Id', 'Month Number']->Offense Category",0.0,1.0,1.0,False,2,0.432258064516129
+hate_crimes,pyro,"['County', 'PD Code Description']->Month Number",0.02422576641122698,0.03492373234332549,0.1704138155751059,False,2,0.05714285714285714
+hate_crimes,pyro,"['Offense Category', 'Offense Description']->Arrest Date",0.0,0.12624584115445717,0.6096794468887492,False,2,0.022427035330261136
+hate_crimes,pyro,"['Arrest Date', 'Month Number']->Patrol Borough Name",0.0,0.9474015814583129,0.945092952875054,False,2,0.2894009216589862
+hate_crimes,pyro,"['Arrest Date', 'Month Number']->Offense Description",0.0,0.9159109301151129,0.9122351923908344,False,2,0.2894009216589862
+hate_crimes,pyro,"['Arrest Id', 'Month Number']->PD Code Description",0.0,0.9969792522770466,0.9951298701298701,False,2,0.432258064516129
+hate_crimes,pyro,"['Arrest Date', 'Month Number']->County",0.0,0.9425877448728154,0.9584954604409858,False,2,0.2894009216589862
+hate_crimes,pyro,"['Bias Motive Description', 'County', 'Offense Description']->Record Create Date",0.03261564164316022,0.06497110472460436,0.0801658604008293,False,3,0.1109062980030722
+hate_crimes,pyro,"['Arrest Date', 'County']->Patrol Borough Name",0.023790204366076262,0.9765027296120037,0.975557461406518,False,2,0.2835637480798771
+hate_crimes,pyro,"['Bias Motive Description', 'County', 'Offense Description']->Complaint Precinct Code",0.11819549227787829,0.3044031714604197,0.23255010366275053,False,3,0.1109062980030722
+hate_crimes,pyro,"['Arrest Id', 'Month Number']->Bias Motive Description",0.0,1.0,1.0,False,2,0.432258064516129
+hate_crimes,pyro,"['Bias Motive Description', 'County']->Arrest Date",0.0,0.1471104915052915,0.6324273072060683,False,2,0.02795698924731183
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number']->Law Code Category Description",0.0,0.8159785971273317,0.922172679367653,False,2,0.24208909370199694
+hate_crimes,pyro,"['Bias Motive Description', 'Patrol Borough Name']->Month Number",0.02907768092784968,0.04761528144457473,0.1898815241754723,False,2,0.04055299539170507
+hate_crimes,pyro,"['Arrest Date', 'PD Code Description']->County",0.0,0.9745245903530736,0.9794871794871794,False,2,0.34101382488479265
+hate_crimes,pyro,"['Arrest Id', 'PD Code Description']->Offense Category",0.0,1.0,1.0,False,2,0.4485407066052227
+hate_crimes,pyro,"['Arrest Id', 'PD Code Description']->Complaint Year Number",0.0,1.0,1.0,False,2,0.4485407066052227
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number']->Offense Description",0.0,0.8766628407517713,0.8796108633968382,False,2,0.24208909370199694
+hate_crimes,pyro,"['Arrest Id', 'Offense Description']->PD Code Description",0.0,1.0,1.0,False,2,0.4368663594470046
+hate_crimes,pyro,"['Arrest Id', 'Offense Description']->Offense Category",0.0,1.0,1.0,False,2,0.4368663594470046
+hate_crimes,pyro,"['Arrest Id', 'PD Code Description']->Bias Motive Description",0.0,1.0,1.0,False,2,0.4485407066052227
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number']->County",0.0,0.9046792361619173,0.9343331982164572,False,2,0.24208909370199694
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number']->Patrol Borough Name",0.0,0.9119829992169718,0.9132549655451966,False,2,0.24208909370199694
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->Month Number",0.03927755851199244,0.07387864309060294,0.20577961257542077,False,2,0.0325652841781874
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number']->PD Code Description",0.0,0.9969792522770466,0.9951456310679612,False,2,0.4304147465437788
+hate_crimes,pyro,"['County', 'Month Number']->Arrest Date",0.0,0.09451835385317682,0.6284820031298904,False,2,0.018433179723502304
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number']->Offense Category",0.0,1.0,1.0,False,2,0.4304147465437788
+hate_crimes,pyro,"['Bias Motive Description', 'PD Code Description']->Month Number",0.03543164823072886,0.049072961133217956,0.19036388140161725,False,2,0.08817204301075268
+hate_crimes,pyro,"['County', 'PD Code Description']->Arrest Date",0.0,0.09655018194256137,0.6265884652981427,False,2,0.05714285714285714
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'Offense Description']->Complaint Year Number",0.0,1.0,1.0,False,3,0.46574500768049154
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'County']->Offense Description",0.0,0.9437192098383939,0.9404432132963989,False,3,0.3345622119815668
+hate_crimes,pyro,['Full Complaint ID']->Arrest Id,0.0,0.0,0.2727272727272727,False,1,0.9188940092165898
+hate_crimes,pyro,"['County', 'Offense Description']->Arrest Date",0.0,0.09236046693633017,0.6117388575015693,False,2,0.02119815668202765
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'County']->PD Code Description",0.0,0.9969792522770466,0.9949324324324325,False,3,0.4543778801843318
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'Offense Description']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.46574500768049154
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'PD Code Description']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.49001536098310294
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'County']->Complaint Year Number",0.0,1.0,1.0,False,3,0.4543778801843318
+hate_crimes,pyro,"['Arrest Id', 'Offense Category']->Bias Motive Description",0.0,1.0,1.0,False,2,0.4307219662058372
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'Offense Description']->Record Create Date",0.0,0.9998938230159204,0.9994249568717654,False,3,0.46574500768049154
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'PD Code Description']->Record Create Date",0.0,0.9998938230159204,0.9993975903614458,False,3,0.49001536098310294
+hate_crimes,pyro,"['Arrest Id', 'Month Number']->Patrol Borough Name",0.0,1.0,1.0,False,2,0.432258064516129
+hate_crimes,pyro,"['Complaint Year Number', 'County']->Arrest Date",0.0,0.09418161067135157,0.6136434108527132,False,2,0.009216589861751152
+hate_crimes,pyro,"['Arrest Date', 'Month Number']->Offense Category",0.0,0.9434328229266854,0.9606571552096844,False,2,0.2894009216589862
+hate_crimes,pyro,"['Arrest Id', 'Offense Description']->Bias Motive Description",0.0,1.0,1.0,False,2,0.4368663594470046
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'Offense Description']->Month Number",0.0,1.0,1.0,False,3,0.46574500768049154
+hate_crimes,pyro,"['County', 'Month Number']->Complaint Precinct Code",0.06685870897094603,0.27137182885868305,0.16306729264475744,False,2,0.018433179723502304
+hate_crimes,pyro,"['Arrest Date', 'Month Number']->Complaint Year Number",0.022391099865487818,0.9976979164805461,0.9978383052313013,False,2,0.2894009216589862
+hate_crimes,pyro,"['Arrest Id', 'Patrol Borough Name']->Bias Motive Description",0.0,1.0,1.0,False,2,0.43102918586789557
+hate_crimes,pyro,"['Arrest Date', 'Offense Description']->PD Code Description",0.0190591236229799,0.9871273746220737,0.981965734896303,False,2,0.3185867895545315
+hate_crimes,pyro,['Arrest Date']->Arrest Id,0.001244042143485058,0.8198302371918391,0.7385412514946194,False,1,0.22918586789554532
+hate_crimes,pyro,"['County', 'Month Number']->Record Create Date",0.01401848520711313,0.11184891991087825,0.060719874804381846,False,2,0.018433179723502304
+hate_crimes,pyro,"['Arrest Date', 'Offense Category', 'Offense Description']->County",0.0,0.984296291806258,0.9868729488982654,False,3,0.34470046082949307
+hate_crimes,pyro,"['Arrest Id', 'County']->Patrol Borough Name",0.0,1.0,1.0,False,2,0.43010752688172044
+hate_crimes,pyro,['Record Create Date']->Arrest Id,0.0,0.0,0.6587389380530974,False,1,0.4445468509984639
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number']->Bias Motive Description",0.0,1.0,1.0,False,2,0.4304147465437788
+hate_crimes,pyro,"['Complaint Year Number', 'County']->Month Number",0.014418165186749099,0.0354017400606308,0.16217054263565892,False,2,0.009216589861751152
+hate_crimes,pyro,['Complaint Precinct Code']->Arrest Id,0.0,0.0,0.5833857772183764,False,1,0.023655913978494623
+hate_crimes,pyro,"['Arrest Date', 'PD Code Description']->Offense Category",0.0,0.9696139531331988,0.9776223776223776,False,2,0.34101382488479265
+hate_crimes,pyro,"['Arrest Id', 'PD Code Description']->Patrol Borough Name",0.0,1.0,1.0,False,2,0.4485407066052227
+hate_crimes,pyro,"['Arrest Date', 'Patrol Borough Name']->Complaint Year Number",0.0,0.9891959642049164,0.9894690653795525,False,2,0.2998463901689708
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number']->Patrol Borough Name",0.0,1.0,1.0,False,2,0.4304147465437788
+hate_crimes,pyro,"['Arrest Date', 'Patrol Borough Name']->Offense Category",0.0,0.9730125981696641,0.9815708644142168,False,2,0.2998463901689708
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'County']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.4377880184331797
+hate_crimes,pyro,"['Arrest Date', 'Month Number']->PD Code Description",0.0,0.9278173967570079,0.9031560743623,False,2,0.2894009216589862
+hate_crimes,pyro,"['Arrest Date', 'PD Code Description']->Complaint Year Number",0.0,0.9903677573140246,0.9902097902097902,False,2,0.34101382488479265
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'Law Code Category Description']->County",0.0,0.9801769773574227,0.983402489626556,False,3,0.3336405529953917
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->Arrest Date",0.0,0.0743838892817647,0.6047811238745732,False,2,0.010445468509984639
+hate_crimes,pyro,"['Arrest Date', 'Offense Description']->Offense Category",0.0,0.9658678048577674,0.975653742110009,False,2,0.3185867895545315
+hate_crimes,pyro,"['Month Number', 'PD Code Description']->Arrest Id",0.0,0.022422220053899822,0.5982264665757162,False,2,0.09923195084485407
+hate_crimes,pyro,"['Arrest Date', 'Patrol Borough Name']->PD Code Description",0.0,0.942213106888426,0.927599824484423,False,2,0.2998463901689708
+hate_crimes,pyro,"['County', 'Month Number']->Bias Motive Description",0.03976669715271364,0.06842802571046071,0.4569640062597809,False,2,0.018433179723502304
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'County']->Record Create Date",0.0,0.9995757480729138,0.9978142076502732,False,3,0.4377880184331797
+hate_crimes,pyro,"['Arrest Date', 'County', 'Law Code Category Description']->Offense Description",0.0,0.9659316130047257,0.9636445242369839,False,3,0.3155145929339478
+hate_crimes,pyro,"['Arrest Id', 'County', 'Law Code Category Description']->Offense Description",0.0,0.9988035298887908,0.9983677910772579,False,3,0.43533026113671275
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'County']->Month Number",0.0,1.0,1.0,False,3,0.4543778801843318
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'Offense Description']->Patrol Borough Name",0.0,1.0,1.0,False,3,0.46574500768049154
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number']->Offense Category",0.0,0.8996519746727328,0.9351438994730442,False,2,0.24208909370199694
+hate_crimes,pyro,"['Arrest Id', 'Patrol Borough Name']->Complaint Precinct Code",0.0,1.0,1.0,False,2,0.43102918586789557
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number']->PD Code Description",0.0,0.8929358535758469,0.8662342926631537,False,2,0.24208909370199694
+hate_crimes,pyro,"['Arrest Id', 'Month Number']->County",0.0,1.0,1.0,False,2,0.432258064516129
+hate_crimes,pyro,"['Month Number', 'Patrol Borough Name']->Arrest Id",0.0,0.0,0.5865780310224755,False,2,0.029493087557603687
+hate_crimes,pyro,"['Arrest Id', 'Patrol Borough Name']->Record Create Date",0.0,0.9995757480729138,0.9978401727861771,False,2,0.43102918586789557
+hate_crimes,pyro,"['County', 'PD Code Description']->Bias Motive Description",0.1689941816424152,0.19171383453760538,0.5203649397197784,False,2,0.05714285714285714
+hate_crimes,pyro,"['Arrest Id', 'Patrol Borough Name']->Month Number",0.0,1.0,1.0,False,2,0.43102918586789557
+hate_crimes,pyro,"['PD Code Description', 'Patrol Borough Name']->Arrest Id",0.0,0.01868610575196586,0.5920877659574468,False,2,0.07588325652841782
+hate_crimes,pyro,"['County', 'Offense Category']->Bias Motive Description",0.5689788317910712,0.661350623443546,0.7826356589147286,False,2,0.009216589861751152
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'County']->PD Code Description",0.0,0.9491667694025681,0.9321329639889196,False,3,0.3345622119815668
+hate_crimes,pyro,"['Arrest Id', 'County', 'Offense Description']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.44761904761904764
+hate_crimes,pyro,"['County', 'Law Code Category Description', 'Offense Category']->Arrest Date",0.0,0.10994633009900084,0.6196299780495453,False,3,0.020276497695852536
+hate_crimes,pyro,"['Arrest Id', 'PD Code Description']->County",0.0,1.0,1.0,False,2,0.4485407066052227
+hate_crimes,pyro,"['Arrest Date', 'Offense Category', 'Offense Description']->Complaint Year Number",0.0,0.9929992111359259,0.9929676511954993,False,3,0.34470046082949307
+hate_crimes,pyro,"['Arrest Id', 'Offense Category', 'Offense Description']->Complaint Year Number",0.0,1.0,1.0,False,3,0.44731182795698926
+hate_crimes,pyro,"['County', 'Offense Description']->Bias Motive Description",0.14412413092278709,0.16038065825222605,0.507532956685499,False,2,0.02119815668202765
+hate_crimes,pyro,"['Arrest Date', 'County', 'Law Code Category Description']->Offense Category",0.0,0.9699116618072199,0.9789048473967684,False,3,0.3155145929339478
+hate_crimes,pyro,"['Arrest Id', 'County', 'Offense Description']->Record Create Date",0.0,0.9998938230159204,0.9994438264738599,False,3,0.44761904761904764
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number']->County",0.0,1.0,1.0,False,2,0.4304147465437788
+hate_crimes,pyro,"['Arrest Id', 'Month Number']->Complaint Precinct Code",0.0,1.0,1.0,False,2,0.432258064516129
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'Law Code Category Description']->Offense Description",0.0,0.9714009335171812,0.9681881051175657,False,3,0.3336405529953917
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'Law Code Category Description']->Offense Description",0.0,0.9988035298887908,0.9983370288248337,False,3,0.44577572964669737
+hate_crimes,pyro,"['Complaint Year Number', 'County']->Bias Motive Description",0.03697457824769168,0.07622380771003356,0.4573643410852713,False,2,0.009216589861751152
+hate_crimes,pyro,"['Arrest Id', 'Month Number']->Record Create Date",0.0,0.9995757480729138,0.9978354978354979,False,2,0.432258064516129
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'County']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.4543778801843318
+hate_crimes,pyro,"['Arrest Id', 'Offense Category', 'Offense Description']->Patrol Borough Name",0.0,1.0,1.0,False,3,0.44731182795698926
+hate_crimes,pyro,"['Arrest Date', 'Offense Category', 'Offense Description']->Patrol Borough Name",0.0,0.984675618747521,0.9831223628691983,False,3,0.34470046082949307
+hate_crimes,pyro,"['Month Number', 'Offense Description']->Arrest Id",0.0,0.031056664705442077,0.5872709739633558,False,2,0.04423963133640553
+hate_crimes,pyro,"['Arrest Date', 'Patrol Borough Name']->Month Number",0.054789255160633155,0.9617865184686659,0.9543659499780606,False,2,0.2998463901689708
+hate_crimes,pyro,"['Arrest Id', 'Offense Category', 'Offense Description']->County",0.0,1.0,1.0,False,3,0.44731182795698926
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'County']->Record Create Date",0.0,0.9995757480729138,0.9977477477477478,False,3,0.4543778801843318
+hate_crimes,pyro,"['Arrest Id', 'County', 'Law Code Category Description']->Bias Motive Description",0.0,1.0,1.0,False,3,0.43533026113671275
+hate_crimes,pyro,"['Offense Description', 'Patrol Borough Name']->Arrest Id",0.0,0.02327101451314015,0.5807984790874525,False,2,0.030414746543778803
+hate_crimes,pyro,['Record Create Date']->Full Complaint ID,0.09072289712364945,0.12734088770121924,0.12555309734513273,False,1,0.4445468509984639
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->Offense Category",0.05741144062013315,0.05047195954954279,0.5371002794163303,False,2,0.010445468509984639
+hate_crimes,pyro,"['Month Number', 'Offense Category']->Offense Description",0.07490119638161208,0.09471514301703352,0.3733919046124882,False,2,0.020890937019969278
+hate_crimes,pyro,"['Arrest Date', 'Month Number']->Complaint Precinct Code",0.10184511511939742,0.9653947679324796,0.9273670557717251,False,2,0.2894009216589862
+hate_crimes,pyro,"['Arrest Date', 'PD Code Description']->Month Number",0.007784531185515364,0.9697935951645256,0.9599067599067599,False,2,0.34101382488479265
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'Law Code Category Description']->County",0.0,1.0,1.0,False,3,0.44577572964669737
+hate_crimes,pyro,"['Arrest Date', 'County', 'Law Code Category Description']->PD Code Description",0.0,0.9674969224850424,0.9560143626570916,False,3,0.3155145929339478
+hate_crimes,pyro,"['Arrest Id', 'County', 'Law Code Category Description']->PD Code Description",0.0,0.9991040063358282,0.9983677910772579,False,3,0.43533026113671275
+hate_crimes,pyro,"['Arrest Date', 'County', 'Offense Category']->Complaint Year Number",0.0,0.9912217731411292,0.9910793933987511,False,3,0.31121351766513056
+hate_crimes,pyro,"['Arrest Id', 'County', 'Offense Category']->Complaint Year Number",0.0,1.0,1.0,False,3,0.4368663594470046
+hate_crimes,pyro,"['Law Code Category Description', 'Patrol Borough Name']->Offense Category",0.057591816480254354,0.0530399153089057,0.5396284829721362,False,2,0.007680491551459293
+hate_crimes,pyro,"['Arrest Date', 'Patrol Borough Name']->Complaint Precinct Code",0.13273226962345464,0.9838211299938547,0.9648968845985081,False,2,0.2998463901689708
+hate_crimes,pyro,"['Arrest Date', 'Month Number']->Record Create Date",0.10158164008340753,0.9736634136654595,0.9126675313445741,False,2,0.2894009216589862
+hate_crimes,pyro,"['Offense Category', 'Patrol Borough Name']->Offense Description",0.08610618537947512,0.11160979013285338,0.38641321283889063,False,2,0.0141321044546851
+hate_crimes,pyro,"['Arrest Date', 'Patrol Borough Name']->Bias Motive Description",0.0,0.9754652564620212,0.9754278192189557,False,2,0.2998463901689708
+hate_crimes,pyro,"['Arrest Date', 'Patrol Borough Name']->Record Create Date",0.08897000013546419,0.9713614318281977,0.9109258446687144,False,2,0.2998463901689708
+hate_crimes,pyro,['Complaint Precinct Code']->Full Complaint ID,0.0051427728823446595,0.0321852670951725,0.033983637507866586,False,1,0.023655913978494623
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Category']->Offense Description",0.07804767115983768,0.09769599339325621,0.3834212977336231,False,2,0.010445468509984639
+hate_crimes,pyro,"['Month Number', 'Offense Category']->Patrol Borough Name",0.030946439725845876,0.041126031091229406,0.29275180420458113,False,2,0.020890937019969278
+hate_crimes,pyro,"['Arrest Date', 'Month Number']->Bias Motive Description",0.0,0.9499712576614933,0.9494163424124513,False,2,0.2894009216589862
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'Offense Category']->Month Number",0.05905811736066624,0.963552376612708,0.9546049759930162,False,3,0.2961597542242704
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'Law Code Category Description']->PD Code Description",0.0,0.9717711069886453,0.9603503918856616,False,3,0.3336405529953917
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'Law Code Category Description']->PD Code Description",0.0,0.9991040063358282,0.9983370288248337,False,3,0.44577572964669737
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->Arrest Id",0.0,0.023156468684478414,0.5806248027769012,False,2,0.02642089093701997
+hate_crimes,pyro,"['Complaint Year Number', 'PD Code Description']->Arrest Id",0.0,0.020550016888791003,0.5913730655251893,False,2,0.06697388632872504
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'County']->Complaint Precinct Code",0.11366400676732835,0.9745264510614955,0.9453671328671329,False,3,0.29708141321044546
+hate_crimes,pyro,"['Arrest Date', 'PD Code Description']->Bias Motive Description",0.0,0.975284528912231,0.9734265734265735,False,2,0.34101382488479265
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'County']->Record Create Date",0.07997872737672296,0.968845402825086,0.9012237762237763,False,3,0.29708141321044546
+hate_crimes,pyro,"['Month Number', 'PD Code Description']->Full Complaint ID",0.02259155764938281,0.03972225882719706,0.05252387448840382,False,2,0.09923195084485407
+hate_crimes,pyro,"['Arrest Id', 'County', 'Offense Category']->Offense Description",0.0,0.9959679203273677,0.9950900163666121,False,3,0.4368663594470046
+hate_crimes,pyro,"['Month Number', 'Offense Category']->Complaint Year Number",0.057297918266997594,0.07574769365993496,0.33950423595858176,False,2,0.020890937019969278
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->Arrest Id",0.0,0.0,0.5818410304743952,False,2,0.022119815668202765
+hate_crimes,pyro,"['County', 'Law Code Category Description', 'Offense Category']->Patrol Borough Name",0.5045702365588762,0.690543743272452,0.6538099717779868,False,3,0.020276497695852536
+hate_crimes,pyro,"['Arrest Date', 'Law Code Category Description', 'Offense Description']->County",0.0,0.9693043515613115,0.9755656108597285,False,3,0.3210445468509985
+hate_crimes,pyro,"['Arrest Id', 'Law Code Category Description', 'Offense Description']->County",0.0,1.0,1.0,False,3,0.43717357910906296
+hate_crimes,pyro,"['Offense Category', 'Patrol Borough Name']->Complaint Year Number",0.027245794678687374,0.03542105200371632,0.28201932066064195,False,2,0.0141321044546851
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->Arrest Id",0.0,0.0,0.5774867477393202,False,2,0.014746543778801843
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'Offense Description']->Month Number",0.0,0.9763611873044498,0.9689320388349515,False,3,0.3671274961597542
+hate_crimes,pyro,"['Arrest Id', 'County', 'Law Code Category Description']->Offense Category",0.0,1.0,1.0,False,3,0.43533026113671275
+hate_crimes,pyro,"['Arrest Date', 'Offense Category']->Bias Motive Description",0.0,0.9796094105504619,0.9794432548179871,False,2,0.282642089093702
+hate_crimes,pyro,"['Offense Category', 'Offense Description']->PD Code Description",0.6659453031086815,0.7479897794000957,0.7988686360779385,False,2,0.022427035330261136
+hate_crimes,pyro,"['Arrest Date', 'County', 'Offense Description']->Complaint Precinct Code",0.08774934811726975,0.9888818066541335,0.9746835443037974,False,3,0.34470046082949307
+hate_crimes,pyro,"['Arrest Date', 'Offense Description']->Bias Motive Description",0.0,0.9711326704150255,0.9697926059513075,False,2,0.3185867895545315
+hate_crimes,pyro,"['Complaint Year Number', 'Law Code Category Description', 'Offense Category']->Patrol Borough Name",0.029876170818124548,0.0383356506793905,0.2931360201511335,False,3,0.024270353302611368
+hate_crimes,pyro,"['Arrest Date', 'County', 'Offense Description']->Record Create Date",0.06266278214228793,0.9815399696553496,0.9367088607594937,False,3,0.34470046082949307
+hate_crimes,pyro,"['Month Number', 'Patrol Borough Name']->Full Complaint ID",0.006410902588673606,0.0347926382844796,0.04210193099081988,False,2,0.029493087557603687
+hate_crimes,pyro,"['Month Number', 'Offense Category']->County",0.03365878934181965,0.033495906716675905,0.4427361154690932,False,2,0.020890937019969278
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number']->Bias Motive Description",0.0,0.9136054341571196,0.9189298743413052,False,2,0.24208909370199694
+hate_crimes,pyro,"['Bias Motive Description', 'Month Number']->Arrest Id",0.0,0.07914856765557947,0.5940658624062601,False,2,0.05775729646697389
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'Offense Description']->Complaint Precinct Code",0.05867130335500648,0.9891390025454146,0.9757281553398058,False,3,0.3671274961597542
+hate_crimes,pyro,"['Offense Category', 'PD Code Description']->County",0.05235202333603817,0.04898791449312529,0.4535412605588044,False,2,0.054377880184331796
+hate_crimes,pyro,"['Arrest Date', 'County', 'Offense Category']->Offense Description",0.0,0.9394923412970024,0.9375557537912578,False,3,0.31121351766513056
+hate_crimes,pyro,"['PD Code Description', 'Patrol Borough Name']->Full Complaint ID",0.017083646334904112,0.03388120332725719,0.04188829787234043,False,2,0.07588325652841782
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'County']->Month Number",0.018160719345250764,0.9688730415470144,0.9626038781163435,False,3,0.3345622119815668
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'Offense Description']->Record Create Date",0.03699533484746553,0.9827958619968061,0.9407766990291262,False,3,0.3671274961597542
+hate_crimes,pyro,"['Bias Motive Description', 'PD Code Description']->Arrest Id",0.0,0.0985497401296568,0.5940026954177897,False,2,0.08817204301075268
+hate_crimes,pyro,"['Month Number', 'Offense Category']->PD Code Description",0.06183324035199933,0.09140829056396027,0.3360527141512394,False,2,0.020890937019969278
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Category']->County",0.03129871582199428,0.02994215364465362,0.4386836386215461,False,2,0.010445468509984639
+hate_crimes,pyro,"['Bias Motive Description', 'Patrol Borough Name']->Arrest Id",0.0,0.062900653136836,0.5850144092219021,False,2,0.04055299539170507
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->Bias Motive Description",0.042069652218797327,0.05169965045915228,0.4610369450481217,False,2,0.010445468509984639
+hate_crimes,pyro,"['Arrest Id', 'PD Code Description']->Month Number",0.0,1.0,1.0,False,2,0.4485407066052227
+hate_crimes,pyro,"['Offense Category', 'Patrol Borough Name']->PD Code Description",0.06560464989827264,0.10096364863795203,0.3409161732626987,False,2,0.0141321044546851
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->County",0.010107202114418068,0.012381987664039792,0.40577460416019867,False,2,0.010445468509984639
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->Arrest Id",0.0,0.06354527602162191,0.582089552238806,False,2,0.0325652841781874
+hate_crimes,pyro,"['Complaint Year Number', 'Month Number']->Full Complaint ID",0.004864471504905987,0.03252739166004384,0.03864278982092366,False,2,0.022119815668202765
+hate_crimes,pyro,"['Bias Motive Description', 'Offense Description']->Arrest Id",0.0,0.09967802739302793,0.5849725894872622,False,2,0.047311827956989246
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->Patrol Borough Name",0.00843187554054503,0.014134854411450206,0.25333747283452346,False,2,0.010445468509984639
+hate_crimes,pyro,"['Arrest Id', 'Law Code Category Description', 'Offense Category']->Offense Description",0.0,0.9988035298887908,0.9983669025585193,False,3,0.4356374807987711
+hate_crimes,pyro,"['Arrest Date', 'Law Code Category Description', 'Offense Category']->Offense Description",0.0,0.9659552882318769,0.962730130220027,False,3,0.31582181259600617
+hate_crimes,pyro,"['Complaint Year Number', 'PD Code Description']->Full Complaint ID",0.01566316674267454,0.0322731586916114,0.038524860059269014,False,2,0.06697388632872504
+hate_crimes,pyro,"['Complaint Year Number', 'Law Code Category Description', 'Offense Category']->PD Code Description",0.244160935471464,0.3582773329599671,0.5094458438287154,False,3,0.024270353302611368
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'Offense Category']->Month Number",0.0,1.0,1.0,False,3,0.43840245775729647
+hate_crimes,pyro,"['Arrest Date', 'County', 'Law Code Category Description']->Bias Motive Description",0.0,0.9737367465907205,0.9730700179533214,False,3,0.3155145929339478
+hate_crimes,pyro,"['Complaint Year Number', 'Patrol Borough Name']->Full Complaint ID",0.003023059903643155,0.028587219639547953,0.027439975054568133,False,2,0.014746543778801843
+hate_crimes,pyro,"['Arrest Date', 'Offense Category', 'Offense Description']->Complaint Precinct Code",0.08666615287107104,0.9876461455550786,0.972808251289264,False,3,0.34470046082949307
+hate_crimes,pyro,"['Arrest Date', 'Offense Category', 'PD Code Description']->Complaint Precinct Code",0.05294025245529921,0.990287974133941,0.9789215686274509,False,3,0.37327188940092165
+hate_crimes,pyro,"['Bias Motive Description', 'County', 'Law Code Category Description']->Complaint Year Number",0.05514783773193688,0.07008566325223718,0.3114489003880983,False,3,0.05007680491551459
+hate_crimes,pyro,"['County', 'Law Code Category Description', 'Offense Category']->Complaint Year Number",0.026669970891215034,0.03419250512035432,0.28002508623392913,False,3,0.020276497695852536
+hate_crimes,pyro,"['Month Number', 'Offense Category']->Arrest Id",0.0,0.04308919732428475,0.5807969877627863,False,2,0.020890937019969278
+hate_crimes,pyro,"['Arrest Id', 'County', 'Offense Category']->PD Code Description",0.0,0.9969792522770466,0.9950900163666121,False,3,0.4368663594470046
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'County']->Complaint Precinct Code",0.09710699176751969,0.9873184629956115,0.971375807940905,False,3,0.3345622119815668
+hate_crimes,pyro,"['Bias Motive Description', 'County', 'Law Code Category Description']->Offense Description",0.3528935032008672,0.44431400078016225,0.6044631306597671,False,3,0.05007680491551459
+hate_crimes,pyro,"['Arrest Date', 'Offense Category', 'Offense Description']->Record Create Date",0.06561339590168014,0.9817913252632078,0.9390529770276606,False,3,0.34470046082949307
+hate_crimes,pyro,"['Arrest Date', 'Offense Category', 'PD Code Description']->Record Create Date",0.03220335844700295,0.9839703889884637,0.9446078431372549,False,3,0.37327188940092165
+hate_crimes,pyro,"['County', 'Law Code Category Description', 'Offense Category']->Offense Description",0.2989210963896647,0.40079635517461465,0.5669488867983694,False,3,0.020276497695852536
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->Offense Description",0.19826903706372612,0.3232498798269487,0.4644520335299596,False,2,0.010445468509984639
+hate_crimes,pyro,"['Month Number', 'Offense Description']->Full Complaint ID",0.010865131328803734,0.033884229563604026,0.041465766634522665,False,2,0.04423963133640553
+hate_crimes,pyro,"['Offense Category', 'PD Code Description']->Arrest Id",0.0,0.06399276327723413,0.5860948667966212,False,2,0.054377880184331796
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'County']->Record Create Date",0.055175570488986136,0.9748004356373762,0.9187442289935365,False,3,0.3345622119815668
+hate_crimes,pyro,"['Arrest Date', 'County', 'Offense Category']->PD Code Description",0.0,0.9452331375914274,0.928635147190009,False,3,0.31121351766513056
+hate_crimes,pyro,"['Month Number', 'Offense Category']->Complaint Precinct Code",0.019742545988492566,0.06560075519589254,0.10134923125196109,False,2,0.020890937019969278
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->Complaint Year Number",0.028862637487133136,0.04232583000642869,0.29214529649177273,False,2,0.010445468509984639
+hate_crimes,pyro,"['Offense Category', 'Patrol Borough Name']->Arrest Id",0.0,0.03440929295434434,0.5768152072296666,False,2,0.0141321044546851
+hate_crimes,pyro,"['Offense Description', 'Patrol Borough Name']->Full Complaint ID",0.007715171905492868,0.029123361455519192,0.03200253485424588,False,2,0.030414746543778803
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Category']->Arrest Id",0.0,0.03250760265081122,0.5749767153058056,False,2,0.010445468509984639
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'Law Code Category Description']->Month Number",0.05040069616831899,0.9571353911127034,0.9430682312038244,False,3,0.29308755760368665
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'Law Code Category Description']->Month Number",0.0,1.0,1.0,False,3,0.43655913978494626
+hate_crimes,pyro,"['Complaint Year Number', 'Offense Description']->Full Complaint ID",0.006386217008843342,0.02786859426814406,0.02745345534869044,False,2,0.02642089093701997
+hate_crimes,pyro,"['Arrest Date', 'County', 'Law Code Category Description']->Complaint Year Number",0.0,0.991236985729633,0.9914721723518851,False,3,0.3155145929339478
+hate_crimes,pyro,"['Offense Category', 'Offense Description']->Arrest Id",0.0,0.06514542295239939,0.5788812067881836,False,2,0.022427035330261136
+hate_crimes,pyro,"['Law Code Category Description', 'Offense Category', 'Patrol Borough Name']->Complaint Precinct Code",0.1391423696550782,0.4318053465004337,0.26450999048525214,False,3,0.03133640552995392
+hate_crimes,pyro,"['Arrest Id', 'County', 'Law Code Category Description']->Complaint Year Number",0.0,1.0,1.0,False,3,0.43533026113671275
+hate_crimes,pyro,"['Month Number', 'Offense Category']->Record Create Date",0.01598929414347039,0.1264940770157858,0.06149984311264512,False,2,0.020890937019969278
+hate_crimes,pyro,"['Arrest Id', 'Law Code Category Description', 'Offense Category']->PD Code Description",0.0,0.9991040063358282,0.9983669025585193,False,3,0.4356374807987711
+hate_crimes,pyro,"['Arrest Date', 'Law Code Category Description', 'Offense Category']->PD Code Description",0.0,0.966649063312489,0.9537494387067804,False,3,0.31582181259600617
+hate_crimes,pyro,"['Complaint Year Number', 'County', 'Offense Category']->Complaint Precinct Code",0.09326548549891056,0.29006589527379606,0.2043045293928686,False,3,0.04362519201228879
+hate_crimes,pyro,"['Bias Motive Description', 'County']->Arrest Id",0.0,0.059068617641209784,0.5793299620733249,False,2,0.02795698924731183
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->PD Code Description",0.16371391665863755,0.2946348784505656,0.4060850667494567,False,2,0.010445468509984639
+hate_crimes,pyro,"['Law Code Category Description', 'Offense Category', 'Patrol Borough Name']->Record Create Date",0.010277137779252321,0.05350486026620902,0.0520139549635268,False,3,0.03133640552995392
+hate_crimes,pyro,"['Law Code Category Description', 'Offense Description']->PD Code Description",0.7057308349070834,0.7913734578956544,0.8315789473684211,False,2,0.007680491551459293
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'Offense Category']->Complaint Precinct Code",0.10993790121685354,0.9721151207312209,0.9402007856831078,False,3,0.2961597542242704
+hate_crimes,pyro,"['County', 'Month Number']->Arrest Id",0.0,0.0,0.5799687010954616,False,2,0.018433179723502304
+hate_crimes,pyro,"['County', 'Law Code Category Description', 'Offense Category']->PD Code Description",0.2402676762018734,0.35646499703370665,0.4967074317968015,False,3,0.020276497695852536
+hate_crimes,pyro,"['County', 'PD Code Description']->Arrest Id",0.0,0.01862600575673801,0.5871619420006516,False,2,0.05714285714285714
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->Arrest Id",0.0,0.0,0.5728034771809997,False,2,0.010445468509984639
+hate_crimes,pyro,"['Complaint Year Number', 'County']->Arrest Id",0.0,0.0,0.5742635658914729,False,2,0.009216589861751152
+hate_crimes,pyro,"['County', 'PD Code Description']->Full Complaint ID",0.012713755883892675,0.028869863053870536,0.033235581622678395,False,2,0.05714285714285714
+hate_crimes,pyro,"['County', 'Offense Description']->Arrest Id",0.0,0.021101081569236478,0.5775266792215945,False,2,0.02119815668202765
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'Offense Category']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.43840245775729647
+hate_crimes,pyro,"['Law Code Category Description', 'Offense Category', 'Patrol Borough Name']->Month Number",0.019661332255550446,0.03834829190215771,0.17570567713288932,False,3,0.03133640552995392
+hate_crimes,pyro,"['Arrest Id', 'Offense Category', 'PD Code Description']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.46697388632872505
+hate_crimes,pyro,"['Bias Motive Description', 'Month Number']->Full Complaint ID",0.012453833947153936,0.03342146281602955,0.045321160743397454,False,2,0.05775729646697389
+hate_crimes,pyro,"['Arrest Id', 'Offense Category', 'Offense Description']->Month Number",0.0,1.0,1.0,False,3,0.44731182795698926
+hate_crimes,pyro,"['Arrest Date', 'Offense Category', 'Offense Description']->Month Number",0.01265923970795868,0.9753167976655301,0.9681200187529302,False,3,0.34470046082949307
+hate_crimes,pyro,"['Complaint Year Number', 'County', 'Offense Category']->Record Create Date",0.02015909524265569,0.09592542787258476,0.07195631223899775,False,3,0.04362519201228879
+hate_crimes,pyro,"['Arrest Id', 'Offense Category', 'Offense Description']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.44731182795698926
+hate_crimes,pyro,"['Arrest Id', 'County', 'Offense Category']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.4368663594470046
+hate_crimes,pyro,"['County', 'Offense Category', 'Offense Description']->Complaint Precinct Code",0.09540021021065881,0.2975292182600582,0.20582460732984292,False,3,0.061136712749615976
+hate_crimes,pyro,"['Arrest Id', 'County', 'Offense Category']->Month Number",0.0,1.0,1.0,False,3,0.4368663594470046
+hate_crimes,pyro,"['Arrest Date', 'County', 'Offense Category']->Month Number",0.047727034832008686,0.9668577331440834,0.9607493309545049,False,3,0.31121351766513056
+hate_crimes,pyro,"['County', 'Offense Category', 'Offense Description']->Record Create Date",0.02040735287840789,0.0570001652498022,0.06282722513089005,False,3,0.061136712749615976
+hate_crimes,pyro,"['Arrest Date', 'County', 'Offense Category']->Record Create Date",0.08049310848946323,0.9730900901452735,0.915700267618198,False,3,0.31121351766513056
+hate_crimes,pyro,"['Arrest Id', 'County', 'Offense Category']->Record Create Date",0.0,0.9995757480729138,0.9978177850518276,False,3,0.4368663594470046
+hate_crimes,pyro,"['County', 'Law Code Category Description', 'Offense Category']->Arrest Id",0.0,0.03243160834892577,0.576983380370022,False,3,0.020276497695852536
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'Offense Description']->Full Complaint ID",0.0,0.9998115820836687,0.9988499137435307,False,3,0.46574500768049154
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'PD Code Description']->Full Complaint ID",0.0,0.9998115820836687,0.9987951807228915,False,3,0.49001536098310294
+hate_crimes,pyro,"['Bias Motive Description', 'Complaint Year Number']->Full Complaint ID",0.006376698807057046,0.027208311148065687,0.03143855192124484,False,2,0.0325652841781874
+hate_crimes,pyro,"['County', 'Month Number']->Full Complaint ID",0.0038368368323103974,0.02948603694059213,0.03129890453834116,False,2,0.018433179723502304
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->Complaint Precinct Code",0.005969738405676606,0.03193778223348206,0.07420055883266066,False,2,0.010445468509984639
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'County']->Full Complaint ID",0.0,0.9988581156029278,0.9939890710382514,False,3,0.4377880184331797
+hate_crimes,pyro,"['Bias Motive Description', 'County', 'Law Code Category Description']->Month Number",0.029105240938533283,0.049256264990797126,0.1891979301423027,False,3,0.05007680491551459
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'Offense Category']->Record Create Date",0.08191289223873466,0.9686353310014088,0.9000436490615452,False,3,0.2961597542242704
+hate_crimes,pyro,"['Complaint Year Number', 'Law Code Category Description', 'Offense Category']->Month Number",0.02848345825051024,0.06030785104823006,0.19269521410579346,False,3,0.024270353302611368
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'Offense Category']->Record Create Date",0.0,0.9995757480729138,0.9978118161925602,False,3,0.43840245775729647
+hate_crimes,pyro,"['Complaint Year Number', 'County', 'Law Code Category Description']->Complaint Precinct Code",0.07082778520235555,0.2781733004498975,0.16692863879283243,False,3,0.02273425499231951
+hate_crimes,pyro,"['Complaint Year Number', 'County', 'Law Code Category Description']->Complaint Precinct Code",0.07082778520235555,0.2781733004498975,0.16692863879283243,False,3,0.02273425499231951
+hate_crimes,pyro,"['Arrest Date', 'County', 'Law Code Category Description']->Month Number",0.03586874971702769,0.9647992080834983,0.9546678635547576,False,3,0.3155145929339478
+hate_crimes,pyro,"['Bias Motive Description', 'County', 'Offense Description']->Full Complaint ID",0.024456892849400336,0.037418121464100916,0.05563234277816172,False,3,0.1109062980030722
+hate_crimes,pyro,"['Arrest Id', 'Offense Category', 'PD Code Description']->Record Create Date",0.0,0.9998938230159204,0.9994236311239193,False,3,0.46697388632872505
+hate_crimes,pyro,"['Arrest Id', 'County', 'Law Code Category Description']->Month Number",0.0,1.0,1.0,False,3,0.43533026113671275
+hate_crimes,pyro,"['Arrest Id', 'Offense Category', 'Offense Description']->Record Create Date",0.0,0.9998938230159204,0.9994441356309061,False,3,0.44731182795698926
+hate_crimes,pyro,"['Bias Motive Description', 'Patrol Borough Name']->Full Complaint ID",0.008399692393605163,0.028483173545530847,0.03554274735830932,False,2,0.04055299539170507
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->Record Create Date",0.009379929251592256,0.1205029156409111,0.04284383731760323,False,2,0.010445468509984639
+hate_crimes,pyro,"['Arrest Date', 'County', 'Offense Category']->Complaint Precinct Code",0.12180312335361732,0.9851203201367863,0.9669937555753791,False,3,0.31121351766513056
+hate_crimes,pyro,"['Arrest Id', 'Month Number']->Full Complaint ID",0.0,0.9988581156029278,0.9940476190476191,False,2,0.432258064516129
+hate_crimes,pyro,"['Arrest Id', 'Bias Motive Description', 'County']->Full Complaint ID",0.0,0.9988581156029278,0.9938063063063063,False,3,0.4543778801843318
+hate_crimes,pyro,"['Arrest Id', 'Patrol Borough Name']->Full Complaint ID",0.0,0.9988581156029278,0.994060475161987,False,2,0.43102918586789557
+hate_crimes,pyro,"['Arrest Id', 'County', 'Offense Description']->Full Complaint ID",0.0,0.9998115820836687,0.9988876529477196,False,3,0.44761904761904764
+hate_crimes,pyro,"['Arrest Date', 'Month Number']->Full Complaint ID",0.027972478410201007,0.9553845711442392,0.8313878080415046,False,2,0.2894009216589862
+hate_crimes,pyro,"['Complaint Year Number', 'Law Code Category Description', 'Offense Category']->Complaint Precinct Code",0.01897632072154476,0.07188887849751242,0.09949622166246852,False,3,0.024270353302611368
+hate_crimes,pyro,"['Complaint Year Number', 'County', 'Law Code Category Description']->Record Create Date",0.009852142412518639,0.08212794490204603,0.050613014775227914,False,3,0.02273425499231951
+hate_crimes,pyro,"['Law Code Category Description', 'Month Number']->Full Complaint ID",0.001766155596036656,0.025327864242274845,0.022042843837317604,False,2,0.010445468509984639
+hate_crimes,pyro,"['Month Number', 'Offense Category']->Full Complaint ID",0.005444515822601859,0.0286955239289357,0.03326011923438971,False,2,0.020890937019969278
+hate_crimes,pyro,"['Arrest Date', 'Patrol Borough Name']->Full Complaint ID",0.029832262453111213,0.9567194646047493,0.8442299254058798,False,2,0.2998463901689708
+hate_crimes,pyro,"['Arrest Id', 'County', 'Law Code Category Description']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.43533026113671275
+hate_crimes,pyro,"['Bias Motive Description', 'County', 'Law Code Category Description']->Record Create Date",0.014902657274521669,0.05326376408817761,0.054333764553686936,False,3,0.05007680491551459
+hate_crimes,pyro,"['Arrest Date', 'County', 'Law Code Category Description']->Complaint Precinct Code",0.1094426062956444,0.9823365366608785,0.9600538599640933,False,3,0.3155145929339478
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'Law Code Category Description']->Complaint Precinct Code",0.0,1.0,1.0,False,3,0.43655913978494626
+hate_crimes,pyro,"['Arrest Date', 'County', 'Offense Description']->Full Complaint ID",0.017396715936181528,0.9711786183808232,0.8860759493670886,False,3,0.34470046082949307
+hate_crimes,pyro,"['Bias Motive Description', 'County', 'Law Code Category Description']->Complaint Precinct Code",0.09534850691225205,0.3096730367292124,0.20439844760672704,False,3,0.05007680491551459
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'Law Code Category Description']->Complaint Precinct Code",0.09546910652676,0.96434727970918,0.9239461103867883,False,3,0.29308755760368665
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'PD Code Description']->Full Complaint ID",0.0,0.9759637995438146,0.8967280163599182,False,3,0.3990783410138249
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'County']->Full Complaint ID",0.01878577281771987,0.9535639095321243,0.8308566433566433,False,3,0.29708141321044546
+hate_crimes,pyro,"['County', 'Law Code Category Description', 'Offense Description']->Complaint Precinct Code",0.07020769751229716,0.3000037506221663,0.16483170808430325,False,3,0.023348694316436252
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'Law Code Category Description']->Record Create Date",0.08193800218686764,0.9684526531310217,0.8974358974358975,False,3,0.29308755760368665
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'Law Code Category Description']->Record Create Date",0.0,0.9998938568001888,0.9994547437295529,False,3,0.43655913978494626
+hate_crimes,pyro,"['Complaint Year Number', 'Law Code Category Description', 'Offense Category']->Record Create Date",0.010848590761507126,0.09086102339523504,0.05163727959697733,False,3,0.024270353302611368
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'County']->Full Complaint ID",0.0,0.9610274397664419,0.853185595567867,False,3,0.3345622119815668
+hate_crimes,pyro,"['Arrest Date', 'Bias Motive Description', 'Offense Description']->Full Complaint ID",0.0,0.9728245114513054,0.8893203883495145,False,3,0.3671274961597542
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'Offense Category']->Full Complaint ID",0.018996654363359955,0.9534495060347797,0.8293321693583589,False,3,0.2961597542242704
+hate_crimes,pyro,"['Arrest Date', 'Offense Category', 'PD Code Description']->Full Complaint ID",0.0,0.9749396721574982,0.8965686274509804,False,3,0.37327188940092165
+hate_crimes,pyro,"['Arrest Date', 'Offense Category', 'Offense Description']->Full Complaint ID",0.018516771637232976,0.9714003669761956,0.8870135958743554,False,3,0.34470046082949307
+hate_crimes,pyro,"['Arrest Date', 'County', 'Law Code Category Description']->Record Create Date",0.07939181002227336,0.9752138588373354,0.9192100538599641,False,3,0.3155145929339478
+hate_crimes,pyro,"['Arrest Date', 'Complaint Year Number', 'Law Code Category Description']->Full Complaint ID",0.02617135175232632,0.9554908814026151,0.8335506301607997,False,3,0.29308755760368665
+hate_crimes,pyro,"['Arrest Id', 'County', 'Law Code Category Description']->Record Create Date",0.0,0.9998938568001888,0.999455930359086,False,3,0.43533026113671275
+hate_crimes,pyro,"['Law Code Category Description', 'Offense Category', 'Patrol Borough Name']->Full Complaint ID",0.006459502481835688,0.02974188651992262,0.034887408816999685,False,3,0.03133640552995392
+hate_crimes,pyro,"['County', 'Law Code Category Description', 'Offense Description']->Record Create Date",0.007142650959764185,0.041378092532143834,0.03586033343818811,False,3,0.023348694316436252
+hate_crimes,pyro,"['Arrest Id', 'County', 'Law Code Category Description']->Record Create Date",0.0,0.9998938568001888,0.999455930359086,False,3,0.43533026113671275
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'Offense Category']->Full Complaint ID",0.0,0.9988581156029278,0.9939824945295405,False,3,0.43840245775729647
+hate_crimes,pyro,"['Arrest Id', 'Offense Category', 'PD Code Description']->Full Complaint ID",0.0,0.9998115820836687,0.9988472622478386,False,3,0.46697388632872505
+hate_crimes,pyro,"['Complaint Year Number', 'County', 'Offense Category']->Full Complaint ID",0.008208526277379113,0.033345347798730225,0.03854802441374879,False,3,0.04362519201228879
+hate_crimes,pyro,"['Arrest Id', 'Complaint Year Number', 'Law Code Category Description']->Full Complaint ID",0.0,0.9995290882908957,0.9972737186477645,False,3,0.43655913978494626
+hate_crimes,pyro,"['Complaint Year Number', 'Law Code Category Description', 'Offense Category']->Full Complaint ID",0.004787015288862495,0.02836285239305093,0.030541561712846346,False,3,0.024270353302611368
+hate_crimes,pyro,"['County', 'Offense Category', 'Offense Description']->Full Complaint ID",0.015338966004932786,0.032752151881586165,0.04253926701570681,False,3,0.061136712749615976
+hate_crimes,pyro,"['Arrest Id', 'County', 'Offense Category']->Full Complaint ID",0.0,0.9988581156029278,0.993998908892526,False,3,0.4368663594470046
+hate_crimes,pyro,"['Arrest Id', 'Offense Category', 'Offense Description']->Full Complaint ID",0.0,0.9998115820836687,0.9988882712618121,False,3,0.44731182795698926
+hate_crimes,pyro,"['Arrest Date', 'County', 'Offense Category']->Full Complaint ID",0.022035448625130405,0.9588674865977441,0.8496877787689563,False,3,0.31121351766513056
+hate_crimes,pyro,"['Arrest Id', 'County', 'Law Code Category Description']->Full Complaint ID",0.0,0.9995290882908957,0.9972796517954298,False,3,0.43533026113671275
+hate_crimes,pyro,"['Arrest Date', 'County', 'Law Code Category Description']->Full Complaint ID",0.029899836099314125,0.9636328036172335,0.8626570915619389,False,3,0.3155145929339478
+hate_crimes,pyro,"['Bias Motive Description', 'County', 'Law Code Category Description']->Full Complaint ID",0.009740143625670106,0.029213146847615442,0.03622250970245795,False,3,0.05007680491551459
+hate_crimes,pyro,"['Complaint Year Number', 'County', 'Law Code Category Description']->Full Complaint ID",0.0036232689092257075,0.02942371917931016,0.02734988997170701,False,3,0.02273425499231951

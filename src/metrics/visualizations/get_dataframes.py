@@ -79,33 +79,44 @@ def get_global_df(results_path="../../../experiments/nyc-experiments"):
 
 
 def get_thresholds_df(results_path="../../../experiments/pyro-thresholds"):
-    thresholds = ["0.1", "0.01", "0.05", "0.15"]
-    datasets = [
-        "abalone",
-        "adult",
-        "bridges",
-        "echocardiogram",
-        "iris",
-        "letter",
-        "ncvoter",
-    ]
+    datasets = set()
+    thresholds = set()
+    
+    if os.path.exists(results_path):
+        for folder_name in os.listdir(results_path):
+            if os.path.isdir(os.path.join(results_path, folder_name)):
+                parts = folder_name.split('-')
+                if len(parts) >= 3 and parts[0] == "pyro":
+                    dataset = parts[1]
+                    threshold = parts[2].replace('_', '.')
+                    datasets.add(dataset)
+                    thresholds.add(threshold)
+    
+    datasets = sorted(list(datasets))
+    thresholds = sorted(list(thresholds), key=float)
+
+    print(datasets)
+    print(thresholds)
 
     fds_results = {}
 
     for dataset in datasets:
         for threshold in thresholds:
-            folder_name = f"pyro-threshold-{threshold}-{dataset}"
-
+            # Convert threshold from decimal to folder format (0.05 -> 0_05)
+            threshold_folder = threshold.replace('.', '_')
+            folder_name = f"pyro-{dataset}-{threshold_folder}"
+            
             folder_path = os.path.join(results_path, folder_name)
-            file_path = os.path.join(folder_path, f"pyro-threshold.csv")
-
-            if os.path.exists(file_path):
-                df = pd.read_csv(file_path)
+            runtime_file = os.path.join(folder_path, f"pyro-{dataset}-runtime.csv")
+            results_file = os.path.join(folder_path, f"pyro-{dataset}.csv")
+            
+            if os.path.exists(results_file):
+                df = pd.read_csv(results_file)
                 fds_results[(threshold, dataset)] = df
 
     metrics = ["rfi_prime_plus", "mu_plus", "g3_prime"]
 
-    global_df = pd.DataFrame(columns=["threshold", "dataset", "lhs_size"])
+    global_df = pd.DataFrame(columns=["threshold", "dataset", "lhs_size", "fd"])
 
     for (threshold, dataset), df in fds_results.items():
         if "fd" in df.columns:
@@ -118,6 +129,7 @@ def get_thresholds_df(results_path="../../../experiments/pyro-thresholds"):
 
             # Calculate LHS size based on 'fd' structure
             temp_df["lhs_size"] = df["fd"].str.split("->").str[0].str.count(",") + 1
+            temp_df["fd"] = df["fd"]
 
             # Add identifying columns
             temp_df["threshold"] = threshold

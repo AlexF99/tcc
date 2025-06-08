@@ -1,0 +1,1150 @@
+dataset,algorithm,fd,mu_plus,rfi_prime_plus,g3_prime,is_key,lhs_size,lhs_uniqueness
+wifi_hotspot_location,pyro,['OBJECTID']->Type,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['OBJECTID']->Longitude,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['OBJECTID']->Postcode,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['OBJECTID']->SourceID,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['OBJECTID']->Borough Name,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['DOITT_ID']->OBJECTID,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['OBJECTID']->Provider,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['OBJECTID']->BoroCD,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['OBJECTID']->BBL,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['OBJECTID']->BCTCB2010,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['OBJECTID']->Borough,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['OBJECTID']->Location_T,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['DOITT_ID']->BCTCB2010,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['DOITT_ID']->Location_T,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Location']->Location_T,0.9096306095758934,0.9137651207856399,0.9493243243243243,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['Census Tract']->BCTCB2010,1.0,1.0,1.0,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Latitude']->Type,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Latitude']->SourceID,0.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Latitude']->Provider,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Latitude']->BCTCB2010,0.9783487858802041,0.9834625809853872,0.9823529411764705,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Longitude']->Type,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Latitude']->OBJECTID,2.220446049250313e-16,1.2270813224654035e-08,0.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Longitude']->SourceID,0.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Latitude']->Postcode,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Longitude']->OBJECTID,2.220446049250313e-16,1.2270813224654035e-08,0.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Longitude']->Provider,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Longitude']->BCTCB2010,0.9724439093020747,0.9792759639215726,0.9764705882352941,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['X']->Type,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['X']->SourceID,0.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['X']->OBJECTID,0.0,1.2322481555486558e-08,0.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Longitude']->Postcode,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Y']->OBJECTID,0.0,1.2219554810900267e-08,0.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['X']->BCTCB2010,0.9782206721871854,0.9833933203772652,0.9822485207100592,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['DOITT_ID']->BBL,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['X']->Provider,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Y']->Type,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->OBJECTID",0.0,1.2322481555486558e-08,0.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['X']->Postcode,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['DOITT_ID']->Type,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['X']->Longitude,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Y']->BCTCB2010,0.9784754011674545,0.9835312662698285,0.9824561403508771,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Latitude']->BBL,0.9716875398589365,0.9783684441201473,0.9764705882352941,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Location']->OBJECTID,0.0,6.225895463205908e-09,0.0,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['Y']->Provider,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['DOITT_ID']->Longitude,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Type",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Y']->Postcode,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Longitude']->BBL,0.9716875398589365,0.9783684441201473,0.9764705882352941,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->BCTCB2010",0.9782206721871854,0.9833933203772652,0.9822485207100592,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Latitude']->BoroCD,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['DOITT_ID']->Provider,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Longitude",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Latitude']->Borough Name,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['DOITT_ID']->Postcode,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['X']->BBL,0.9776228653999207,0.9826649476725982,0.9822485207100592,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Location']->Type,1.0,1.0,1.0,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['Longitude']->BoroCD,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Location']->BCTCB2010,0.7108016399712827,0.7248967233673862,0.7533783783783784,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Provider",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Latitude']->Longitude,0.9941171620059254,0.995842687205879,0.9941176470588236,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Longitude']->Borough Name,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Postcode",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Y']->BBL,0.9778845862724386,0.9828112246068076,0.9824561403508771,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Name']->Type,0.0,0.9561675519431694,0.9926739926739927,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['X']->Borough Name,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Y']->Longitude,0.9883031291345906,0.9917197949757364,0.9883040935672515,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['X']->BoroCD,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Location']->Provider,0.9794319741193057,0.9833243747536805,0.9864864864864865,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->BBL",0.9776228653999207,0.9826649476725982,0.9822485207100592,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Name']->BCTCB2010,0.5261816951394576,0.9032179825656423,0.8461538461538461,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['Location']->Postcode,0.7964904644077717,0.8110581827125509,0.8277027027027027,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['Y']->Borough Name,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Y']->BoroCD,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Latitude']->Location_T,0.8132767317481554,0.822893602168743,0.9117647058823529,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['DOITT_ID']->Borough Name,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Location']->BBL,0.784846580218027,0.8092375778896498,0.8175675675675675,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['DOITT_ID']->BoroCD,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Provider']->Type,0.997988059010243,0.9972318095134738,0.9996971532404604,False,1,0.005122024706236818
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Borough Name",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Longitude']->Location_T,0.8132767317481588,0.822893602168743,0.9117647058823529,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->BoroCD",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Location']->Longitude,0.2745255638767081,0.24240828501282266,0.28716216216216217,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['X']->Location_T,0.8121718603383847,0.8220000821267126,0.9112426035502958,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Postcode']->BCTCB2010,0.19148709650049578,0.47688050051595193,0.30378137909119796,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['BCTCB2010']->Provider,0.47791026906160594,0.5499492871719962,0.748102638236357,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Y']->Location_T,0.8050203408636959,0.8157938294989898,0.9064327485380117,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Location']->BoroCD,0.8249992669194026,0.8561725790629394,0.8513513513513513,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['Census Tract']->BBL,0.1168838541317474,0.1861352385806626,0.23780267437658115,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Census Tract']->OBJECTID,1.1102230246251565e-16,8.195058834515441e-11,0.0,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['SSID']->Type,0.9979886681355805,0.9972335750153702,0.9996972449288526,False,1,0.004820729135281711
+wifi_hotspot_location,pyro,['Latitude']->Borough,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Census Tract']->Longitude,0.018888131699272614,0.04252624733942846,0.040477050957715935,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Location_T",0.8121718603383812,0.8220000821267126,0.9112426035502958,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Longitude']->Borough,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Y']->SourceID,0.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['BCTCB2010']->OBJECTID,1.1102230246251565e-16,8.195058834515441e-11,0.0,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Name']->Location_T,0.35209117152587444,0.8267731498400525,0.9010989010989011,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['DOITT_ID']->SourceID,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['X']->Borough,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Remarks']->Type,0.3775728978722097,1.0,1.0,False,1,0.08496535100934016
+wifi_hotspot_location,pyro,['BCTCB2010']->Longitude,0.018888131699272614,0.04252624733942846,0.040477050957715935,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Name']->OBJECTID,0.0,0.545010418297859,0.2796092796092796,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['BCTCB2010']->BBL,0.1168838541317474,0.1861352385806626,0.23780267437658115,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->BCTCB2010,0.205724937017156,0.498561531941333,0.3060509554140127,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->SourceID",0.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Y']->Borough,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Name']->Longitude,0.1014976760512114,0.6096530810266937,0.3992673992673993,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['Census Tract']->Provider,0.47791026906160594,0.5499492871719962,0.748102638236357,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['DOITT_ID']->Borough,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Postcode']->OBJECTID,0.0,0.0,0.0,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Name']->BBL,0.43383282318027105,0.8660485230462539,0.7777777777777778,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['Name']->SourceID,0.0,0.9987031068829955,1.0,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Borough",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Postcode']->Longitude,0.00792711801133461,0.02758285199371386,0.03272958373053702,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Name']->Provider,0.5252902288346258,0.9654838732179674,0.9792429792429792,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['Location']->SourceID,0.0,0.9283290486489104,0.9358108108108109,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->OBJECTID,0.0,0.0,0.0,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['BCTCB2010']->Type,0.6048155725275669,0.6168603689464071,0.9154318756776292,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Census Tract']->BoroCD,0.670649478375522,0.7882165095255804,0.7538850740874593,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Longitude,0.008487436386456548,0.026560242347322266,0.033121019108280254,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->OBJECTID,0.0,0.0,0.0,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['Postcode']->BBL,0.06074717453622114,0.11215418292176867,0.19319987289482046,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Borough Name,1.0,1.0,1.0,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['Census Tract']->Postcode,0.6164892440238819,0.7502205644479538,0.7076255872786411,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['BCTCB2010']->SourceID,0.0,0.07659594136968309,0.4239248283339357,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['BBL']->OBJECTID,0.0,2.0374886480701181e-10,0.0,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Longitude,0.008484707989328766,0.02649647090293723,0.033110474371219355,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['Postcode']->Provider,0.3881424485656789,0.4877955487449384,0.7232284715602161,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Borough,1.0,1.0,1.0,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['BoroCD']->OBJECTID,0.0,0.0,0.0,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Census Tract']->Type,0.6048155725275669,0.6168603689464071,0.9154318756776292,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->BBL,0.06417566988166667,0.11226853820426042,0.19547914676854505,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['BBL']->Longitude,0.10108849099932149,0.0637245833296299,0.12083333333333333,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Borough Name,1.0,1.0,1.0,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Council Distrcit']->OBJECTID,0.0,0.0,0.0,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['BoroCD']->Longitude,0.003275022894796864,0.021404750806130052,0.027982779827798277,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Location']->Borough Name,0.8917471799060183,0.8934090518531445,0.9493243243243243,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['BCTCB2010']->BoroCD,0.670649478375522,0.7882165095255804,0.7538850740874593,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Provider,0.4060561857998084,0.5086111865560945,0.725796178343949,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->BBL,0.06806877439737569,0.11291566622114634,0.19713375796178345,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Council Distrcit']->Longitude,0.003183466853730832,0.02012419067231891,0.023561811505507957,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Postcode']->Type,0.48839210135934985,0.4796808806876911,0.9002224340641881,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['BCTCB2010']->Location_T,0.4379156155326104,0.4716232382684034,0.7387061799783159,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['BCTCB2010']->Postcode,0.6164892440238819,0.7502205644479538,0.7076255872786411,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Borough,1.0,1.0,1.0,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Location']->Borough,0.8917471799060183,0.8934090518531445,0.9493243243243243,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['Postcode']->Borough Name,0.9983371151398049,0.9979085763703724,0.9993644741023197,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Provider,0.39959031054459415,0.503346279087825,0.7236548869786692,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->BoroCD,0.8603662330009816,0.9261672632273134,0.9079910856415154,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Type,0.5193796275318017,0.5039579916256961,0.9085987261146496,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Name']->Postcode,0.5917512774095577,0.9364505772311922,0.8986568986568987,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['Census Tract']->SourceID,0.0,0.07659594136968309,0.4239248283339357,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['SSID']->Provider,0.86355209489816,0.9238219834506796,0.9249167423554344,False,1,0.004820729135281711
+wifi_hotspot_location,pyro,['Census Tract']->Location_T,0.4379156155326104,0.4716232382684034,0.7387061799783159,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Type,0.5195326426137715,0.5041569711135386,0.9086278255332697,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['BoroCD']->Borough Name,0.9990815601472548,0.998481097838501,0.9996924969249692,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->BoroCD,0.86459107720731,0.9281351141220403,0.910828025477707,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['BBL']->SourceID,0.0,0.8375285019882702,0.8366666666666667,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Postcode,0.5422291551089934,0.7616616902304706,0.6493630573248408,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Name']->BoroCD,0.6739011795022984,0.9803475090686253,0.9743589743589743,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['Council Distrcit']->Type,0.3401671658968882,0.3152938843030336,0.8723990208078335,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Borough']->Borough Name,1.0,1.0,1.0,False,1,0.0015064778547755348
+wifi_hotspot_location,pyro,['Postcode']->SourceID,0.021145965219158458,0.013261399009368527,0.4238957737527804,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['BoroCD']->Provider,0.32065647268003217,0.4447790134389562,0.6841943419434194,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Postcode']->Location_T,0.3549594641786227,0.38038808534884955,0.7194153161741341,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Postcode']->Borough,0.9983371151398049,0.9979085763703724,0.9993644741023197,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Postcode,0.5397630389178374,0.7602681360275134,0.6494746895893028,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['Postcode']->BoroCD,0.7457154225253708,0.8654303882619124,0.8160152526215443,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['BoroCD']->BBL,0.040072835950986874,0.08957082086583126,0.18511685116851168,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->BCTCB2010,0.20140187705690804,0.49768002282609525,0.30308818847500796,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['City']->Borough Name,0.9981710394612326,0.9964367079625904,0.9993893129770992,False,1,0.013257005122024707
+wifi_hotspot_location,pyro,['BoroCD']->Type,0.3973175518190537,0.3694437570031065,0.8834563345633456,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Location_T,0.3664202620914986,0.3964430311376551,0.7211079274116523,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['BIN']->BBL,0.5961383479183386,0.6734470276614404,0.7574257425742574,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,['Council Distrcit']->BoroCD,0.5182870020673573,0.7620615805548187,0.6410648714810282,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['BBL']->Type,0.166585862841513,0.23272050466709018,0.8066666666666666,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['Council Distrcit']->Provider,0.2758100596019376,0.40421998280327687,0.6554467564259486,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['BBL']->BoroCD,0.5177359650809361,0.359769913042999,0.5691666666666667,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['BBL']->BCTCB2010,0.5146504124196082,0.3038341143974314,0.5275,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['Council Distrcit']->BBL,0.03217787337853628,0.08331643234350024,0.17105263157894737,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Location_T,0.36787558640598794,0.39808746774686765,0.7210191082802547,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Location_T']->Type,0.6313940290216852,0.6753328780850054,0.8976687859521647,False,1,0.004820729135281711
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->OBJECTID",0.0,1.7927367990229696e-10,0.0,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->SourceID,0.019877666760831914,0.0020152556008286595,0.422795288124801,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['BBL']->Provider,0.44301272054510465,0.4684041997451676,0.7166666666666667,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['BIN']->Type,0.0,0.0,0.655940594059406,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,['Provider']->Location_T,0.8536421566376757,0.8796519795965948,0.9209569957601453,False,1,0.005122024706236818
+wifi_hotspot_location,pyro,['SourceID']->Type,0.0,1.0,1.0,False,1,0.5640253088279602
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->SourceID,0.022638223747380892,0.001386485698765121,0.4226114649681529,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Location_T']->Provider,0.6446555367569499,0.689492417544629,0.8016954283984257,False,1,0.004820729135281711
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->OBJECTID",0.0,0.8002811319906423,0.7310104529616724,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['BoroCD']->Borough,0.9990815601472548,0.998481097838501,0.9996924969249692,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['BoroCD']->Location_T,0.2945785892737487,0.31783507428929664,0.6934194341943419,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['BoroCD']->Postcode,0.3382629269962073,0.6633997690046106,0.46248462484624847,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['BoroCD']->SourceID,0.02536286895818496,0.0,0.43050430504305043,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->BoroCD",0.37517189233256365,0.3400449137302704,0.44537815126050423,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->BBL",0.028917529741849468,0.8845247684966129,0.8550522648083624,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['BIN']->SourceID,0.0,0.8530213794241452,0.8778877887788779,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->OBJECTID",0.0,0.8460945258900511,0.6777251184834123,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['BoroCD']->BCTCB2010,0.09940095129240134,0.38737486666645904,0.1857318573185732,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Remarks']->Provider,0.5848792606164818,0.9226243287843634,0.9219624629568653,False,1,0.08496535100934016
+wifi_hotspot_location,pyro,['BIN']->Provider,0.18233534919394268,0.21599153414545158,0.518976897689769,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,['City']->Borough,0.9981710394612326,0.9964367079625904,0.9993893129770992,False,1,0.013257005122024707
+wifi_hotspot_location,pyro,['Council Distrcit']->SourceID,0.02390995237374527,0.0,0.42441860465116277,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['BoroCode']->Borough Name,1.0,1.0,1.0,False,1,0.0015064778547755348
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->BoroCD",0.0005136881791730774,0.7954126833369581,0.7923344947735191,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->BoroCD",0.0,0.8470008110630817,0.7943127962085308,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['Council Distrcit']->Borough Name,0.9712780824311218,0.9787172989573982,0.9831701346389229,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['BBL']->Postcode,0.5107135109609688,0.31871701540972697,0.5383333333333333,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Activated', 'City']->Type",0.32805611578596616,0.34826140337669276,0.8642883413019492,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,['SSID']->Location_T,0.8289579887000394,0.857696270814958,0.9209809264305178,False,1,0.004820729135281711
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Provider",0.0,1.0,1.0,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,['Council Distrcit']->BCTCB2010,0.07590386066891752,0.3495975585545718,0.16217870257037945,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Council Distrcit']->Location_T,0.2405661311941244,0.2673108446312277,0.6603427172582619,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['BoroCode']->Borough,1.0,1.0,1.0,False,1,0.0015064778547755348
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->OBJECTID",0.0,8.182213644442215e-12,0.0,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->BoroCD",0.26771166469377683,0.34107563782473493,0.376992376992377,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Longitude",0.09436466907798025,0.06473501220548866,0.1092436974789916,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,['BBL']->Location_T,0.40704919627275504,0.44371202923742886,0.685,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Activated', 'Borough']->Type",0.2589724709625094,0.29592359529898765,0.8422770123277737,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['Census Tract']->Borough Name,0.5718843801219295,0.6159320648873884,0.7824358511022769,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Remarks']->Location_T,0.5255298019998069,0.8461235464612075,0.9140599275600922,False,1,0.08496535100934016
+wifi_hotspot_location,pyro,['Council Distrcit']->Postcode,0.28577495311087486,0.6189682279835234,0.4170746634026928,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->BBL",0.1311794476166166,0.2792211408726675,0.22765072765072766,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,['BCTCB2010']->Borough Name,0.5718843801219295,0.6159320648873884,0.7824358511022769,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Borough Name']->Borough,1.0,1.0,1.0,False,1,0.0015064778547755348
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->SourceID",0.11951525021176213,0.49845929049093113,0.4968814968814969,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['Activated', 'City']->Provider",0.43798976192205497,0.41681484522675627,0.6884884148584038,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,['Name']->Borough Name,0.5767346676075601,0.9986043714416528,0.9987789987789988,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['BIN']->Location_T,0.2639831646962896,0.3183791558251592,0.6336633663366337,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->BCTCB2010",0.3185306552527545,0.2769533989327169,0.35126050420168065,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,['Council Distrcit']->Borough,0.9712780824311218,0.9787172989573982,0.9831701346389229,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Longitude",0.0,0.8156749528230298,0.7428571428571429,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['BBL']->Borough Name,0.4968072623685673,0.4550194060590843,0.735,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['BIN', 'City']->OBJECTID",0.0,1.4406536383401552e-10,0.0,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['Activated', 'City']->SourceID",0.045622668846520664,0.504574873572706,0.5045972784111806,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Longitude",0.0,0.8629319737554506,0.7402843601895734,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['Census Tract']->Borough,0.5718843801219295,0.6159320648873884,0.7824358511022769,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['BIN']->Borough Name,0.23191438998709624,0.17519763040749387,0.5717821782178217,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Postcode",0.34528667211700315,0.3052156866492439,0.3941176470588235,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Location_T",0.0,0.8125092695610722,0.8786581013561742,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->BCTCB2010",0.022086312394344887,0.8269320454487129,0.7721254355400697,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['BCTCB2010']->Borough,0.5718843801219295,0.6159320648873884,0.7824358511022769,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Activated', 'City']->BoroCD",0.2611873430179479,0.4132494593163571,0.3997793306362633,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,"['BIN', 'City']->BoroCD",0.3588683867927768,0.4456613453487432,0.45484672742336374,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->BCTCB2010",0.0,0.8695550193984092,0.7753554502369668,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['Name']->Borough,0.5767346676075601,0.9986043714416528,0.9987789987789988,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Postcode",0.01400668221429946,0.8010597647787572,0.7853658536585366,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Longitude",0.003505106522404766,0.029868870938370616,0.01178101178101178,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,['BBL']->Borough,0.4968072623685673,0.4550194060590843,0.735,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Activated', 'City']->Location_T",0.44644297198438265,0.42125409220980176,0.7418168444280986,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Borough Name",0.0,0.7686162916499861,0.8662020905923344,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode']->SourceID",0.047660489294617636,0.5130176277514249,0.5116026105873822,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Postcode",0.0,0.8500580853153394,0.7848341232227488,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['BIN']->Borough,0.23191438998709624,0.17519763040749387,0.5717821782178217,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,"['Activated', 'Borough']->Provider",0.4013342883725678,0.39184143778599656,0.6693255982596084,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Provider",0.0,1.0,1.0,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->BCTCB2010",0.08343830327085722,0.19473228207206633,0.15072765072765074,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->OBJECTID",1.1102230246251565e-16,7.60351844831454e-12,0.0,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->OBJECTID",0.0,0.8002811319906423,0.7310104529616724,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->BBL",0.1270250014434553,0.2758184009104919,0.22514721163837895,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->BBL",0.028917529741849468,0.8845247684966129,0.8550522648083624,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Borough Name",0.5284138152124757,0.5663630261295156,0.7480942480942481,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode']->Type",0.2589724709625094,0.29592359529898765,0.8422770123277737,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['BIN', 'City']->Longitude",0.09175293261671535,0.06219978458699538,0.10936205468102735,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Postcode",0.17023639444515692,0.26233112404753606,0.2623007623007623,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->BoroCD",0.0005136881791730774,0.7954126833369581,0.7923344947735191,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->BoroCD",0.26191630979282066,0.29740568778711185,0.3664703844821614,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Provider",0.0,1.0,1.0,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['City', 'SourceID']->BBL",0.019925773331596286,0.9146751826471884,0.8515346181299072,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Borough",0.0,0.7686162916499861,0.8662020905923344,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['City', 'SourceID']->OBJECTID",0.0,0.833903623576935,0.7266238401142041,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Location_T",0.0,0.8125092695610722,0.8819444444444444,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough']->Location_T",0.4176158545801113,0.3872519873621573,0.7218999274836838,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['City', 'SourceID']->BoroCD",0.012264474082867793,0.8755120347388968,0.8301213418986438,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['BIN', 'City']->BCTCB2010",0.3072360130926052,0.2786548952026448,0.34382767191383595,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name']->Type",0.2589724709625094,0.29592359529898765,0.8422770123277737,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Borough",0.5284138152124757,0.5663630261295156,0.7480942480942481,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->OBJECTID",0.0,1.442059374866577e-10,0.0,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'City']->Postcode",0.15325277147392669,0.3091096490102839,0.2736300110334682,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,"['BIN', 'City']->Postcode",0.3287423917257378,0.37155308060107983,0.40182270091135047,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,['OBJECTID']->DOITT_ID,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->BoroCD",0.35904793623763664,0.44533782337031474,0.4544701986754967,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Borough Name",0.0,0.7686162916499861,0.8662020905923344,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Borough Name",0.478396698741528,0.48160838813611795,0.70973328714929,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name']->Provider",0.4013342883725678,0.39184143778599656,0.6693255982596084,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['Latitude']->DOITT_ID,2.220446049250313e-16,1.2270813224654035e-08,0.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Longitude",0.0,0.8156749528230298,0.7428571428571429,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Longitude",0.0030214422342010883,0.02810837793441048,0.009698649116730169,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name']->SourceID",0.047660489294617636,0.5130176277514249,0.5116026105873822,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Activated', 'City']->BBL",0.07458561233672734,0.26079637778134174,0.22140492828245678,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,['Longitude']->DOITT_ID,2.220446049250313e-16,1.2270813224654035e-08,0.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['X']->DOITT_ID,0.0,1.2322481555486558e-08,0.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Longitude",0.0,0.8503821011203972,0.7480371163454675,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Borough",0.0,0.7686162916499861,0.8662020905923344,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Borough",0.478396698741528,0.48160838813611795,0.70973328714929,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,['Y']->DOITT_ID,0.0,1.2219554810900267e-08,0.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->BCTCB2010",0.022086312394344887,0.8269320454487129,0.7721254355400697,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->BCTCB2010",0.07738106624713303,0.17256299793077423,0.1420159334949775,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Location_T",0.0,0.8125092695610722,0.8819444444444444,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->DOITT_ID",0.0,1.2322481555486558e-08,0.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->BBL",0.04646945030386551,0.9146751826471884,0.8555555555555555,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['City', 'SourceID']->BCTCB2010",0.01144686073779766,0.8721124721705119,0.7894361170592434,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name']->Location_T",0.4176158545801113,0.3872519873621573,0.7218999274836838,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['Location']->DOITT_ID,0.0,6.225895463205908e-09,0.0,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Postcode",0.16379894748723645,0.2269906151793488,0.24870107377900935,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Postcode",0.01400668221429946,0.8010597647787572,0.7853658536585366,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->BoroCD",0.0390156445764569,0.8755120347388968,0.8347222222222223,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['Census Tract']->DOITT_ID,1.1102230246251565e-16,8.195058834515441e-11,0.0,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Postcode",0.012291458186876048,0.8647459360026766,0.8115631691648822,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->BCTCB2010",0.30782948600491344,0.2793549992630834,0.3443708609271523,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,['BCTCB2010']->DOITT_ID,1.1102230246251565e-16,8.195058834515441e-11,0.0,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode']->BoroCD",0.2524176247265547,0.40462356408302236,0.39013778100072516,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Longitude",0.09167761722310841,0.06217889752824949,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->OBJECTID",0.0,0.833903623576935,0.7340277777777777,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->BCTCB2010",0.03822017492614871,0.8721124721705119,0.7951388888888888,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Provider",0.0,1.0,1.0,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['Name']->DOITT_ID,0.0,0.545010418297859,0.2796092796092796,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['Activated', 'Borough']->SourceID",0.047660489294617636,0.5130176277514249,0.5116026105873822,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Longitude",0.001907292671080918,0.8503821011203972,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Postcode",0.32901601379838963,0.37027935207323276,0.4014900662251656,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,['Postcode']->DOITT_ID,0.0,0.0,0.0,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,"['Activated', 'Borough']->BBL",0.06594451061340789,0.24780230066052145,0.2182741116751269,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode']->Provider",0.4013342883725678,0.39184143778599656,0.6693255982596084,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Location_T",0.0,0.8125092695610722,0.8819444444444444,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Postcode",0.039041897860981445,0.8647459360026768,0.8166666666666667,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Borough Name",0.0,0.7977300048474204,0.888268156424581,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->DOITT_ID,0.0,0.0,0.0,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Borough",0.0,0.7977300048474204,0.888268156424581,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode']->Location_T",0.4176158545801113,0.3872519873621573,0.7218999274836838,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->DOITT_ID,0.0,0.0,0.0,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,"['SourceID', 'Type']->Location_T",0.0,0.7828311519453,0.8435986159169551,False,2,0.5646278999698704
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->BBL",0.04646945030386551,0.9146751826471884,0.8555555555555555,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['BBL']->DOITT_ID,0.0,2.0374886480701181e-10,0.0,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Activated', 'Remarks']->SourceID",0.0,0.5078868055426105,0.4460129721480351,False,2,0.21030430852666465
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode']->BBL",0.06594451061340789,0.24780230066052145,0.2182741116751269,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['OBJECTID']->Council Distrcit,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['BoroCD']->DOITT_ID,0.0,0.0,0.0,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->OBJECTID",0.0,0.4329116841043978,0.2197490894374747,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,['OBJECTID']->BIN,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->BBL",0.04646945030386551,0.9146751826471884,0.8555555555555555,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['Latitude']->Council Distrcit,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Council Distrcit']->DOITT_ID,0.0,0.0,0.0,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->BoroCD",0.35904793623763664,0.44533782337031474,0.4544701986754967,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->BCTCB2010",0.08598028857115825,0.5335488905349551,0.37191420477539455,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,['Longitude']->Council Distrcit,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['DOITT_ID']->BIN,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name']->BBL",0.06594451061340789,0.24780230066052145,0.2182741116751269,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['X']->Council Distrcit,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->Postcode",0.15759333205885595,0.5686290529983107,0.47106434641845407,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,['Location']->BIN,0.9110486003026986,0.9302777169164526,0.9290540540540541,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->BoroCD",0.0390156445764569,0.8755120347388968,0.8347222222222223,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->Longitude",0.002238837982817654,0.45206379313972495,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,['Y']->Council Distrcit,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Latitude']->BIN,0.9706813825583808,0.9772434554298473,0.9764705882352941,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->BBL",0.059868112663924444,0.9081192215452585,0.8589385474860335,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,['DOITT_ID']->Council Distrcit,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Longitude']->BIN,0.9706813825583808,0.9772434554298473,0.9764705882352941,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Council Distrcit",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name']->BoroCD",0.25241762472655493,0.40462356408302236,0.39013778100072516,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Activated', 'Location_T']->Borough Name",0.33631689475276083,0.33619119814763404,0.6360803324099723,False,2,0.1298583910816511
+wifi_hotspot_location,pyro,"['Activated', 'Location_T']->Borough",0.33631689475276094,0.33619119814763404,0.6360803324099723,False,2,0.1298583910816511
+wifi_hotspot_location,pyro,"['Activated', 'Location_T']->BBL",0.11344594690388898,0.2398862458681987,0.20948753462603878,False,2,0.1298583910816511
+wifi_hotspot_location,pyro,['X']->BIN,0.9768276354117384,0.9817621723328485,0.9822485207100592,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->SourceID",0.07074972183649941,0.48953570471485647,0.4970557672324212,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,['Location']->Council Distrcit,0.8306583133274312,0.8572703115333644,0.8547297297297297,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['Y']->BIN,0.9770986572197906,0.9819185041374886,0.9824561403508771,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->DOITT_ID",0.0,1.7927367990229696e-10,0.0,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->BIN",0.9768276354117384,0.9817621723328485,0.9822485207100592,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Census Tract']->Council Distrcit,0.6358139908932648,0.7577434526859056,0.7264185037947235,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Activated', 'Location_T']->SourceID",0.06394653390533456,0.49790880056113956,0.4868421052631579,False,2,0.1298583910816511
+wifi_hotspot_location,pyro,['BBL']->BIN,0.8232346511630263,0.9149500316704128,0.8583333333333333,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['BCTCB2010']->Council Distrcit,0.6358139908932648,0.7577434526859056,0.7264185037947235,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->DOITT_ID",0.0,0.8002811319906423,0.7310104529616724,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'Type']->SourceID",0.06264586307660058,0.5272967177860258,0.49741468459152016,False,2,0.1259415486592347
+wifi_hotspot_location,pyro,['Census Tract']->BIN,0.09204443810425111,0.12876713224429545,0.245030719190459,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Name']->Council Distrcit,0.6449085953384819,0.9656047445757233,0.9584859584859585,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->DOITT_ID",0.0,0.8460945258900511,0.6777251184834123,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['OBJECTID']->Census Tract,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['BCTCB2010']->BIN,0.09204443810425111,0.12876713224429545,0.245030719190459,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->BBL",0.0,0.8845247684966129,0.8220701454234388,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,['Postcode']->Council Distrcit,0.7444406584654031,0.8626128205717004,0.8223705115983476,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->BoroCD",0.35904793623763664,0.44533782337031474,0.4544701986754967,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Postcode",0.32901601379838963,0.37027935207323276,0.4014900662251656,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,['DOITT_ID']->Census Tract,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Name']->BIN,0.46532193311745973,0.862729624621692,0.8302808302808303,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->BoroCD",0.0390156445764569,0.8755120347388968,0.8347222222222223,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Borough Name",0.0,0.7686162916499861,0.8357570573139436,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Postcode",0.039041897860981445,0.8647459360026768,0.8166666666666667,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->OBJECTID",0.0,0.0,0.0,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Location_T']->OBJECTID",0.0,0.0,0.0,False,3,0.18951491413076227
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Borough",0.0,0.7686162916499861,0.8357570573139436,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Council Distrcit,0.7348685585915629,0.8615869925162457,0.813435211716014,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Location_T']->BCTCB2010",0.08174237468565615,0.22082701210519715,0.15613382899628253,False,3,0.18951491413076227
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->Longitude",0.008611187166693512,0.03071339082073088,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->BCTCB2010",0.08042505489270069,0.215240105366889,0.15395894428152493,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Location_T']->Longitude",0.008732410359748477,0.031447965370747705,0.016356877323420074,False,3,0.18951491413076227
+wifi_hotspot_location,pyro,['BCTCB2010']->Census Tract,1.0,1.0,1.0,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->DOITT_ID",0.0,8.182213644442215e-12,0.0,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,['Postcode']->BIN,0.05109281071373262,0.0602675044331769,0.23101366380680013,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Latitude']->Census Tract,0.9783487858802041,0.9834625809853872,0.9823529411764705,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['Activated', 'Remarks']->Borough",0.25195728816418195,0.5652777511336148,0.7535291873330789,False,2,0.21030430852666465
+wifi_hotspot_location,pyro,['Longitude']->Census Tract,0.9724439093020747,0.9792759639215726,0.9764705882352941,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['Activated', 'Remarks']->Borough Name",0.2519572881641817,0.5652777511336149,0.7535291873330789,False,2,0.21030430852666465
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Council Distrcit,0.7387017683174826,0.8632670519163202,0.8159235668789809,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,"['Activated', 'Borough']->BoroCD",0.2524176247265547,0.40462356408302236,0.39013778100072516,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['X']->Census Tract,0.9782206721871854,0.9833933203772652,0.9822485207100592,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->BIN,0.05876229836242752,0.06270073457410645,0.2384590894619548,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['Y']->Census Tract,0.9784754011674545,0.9835312662698285,0.9824561403508771,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->BCTCB2010",0.30782948600491344,0.2793549992630834,0.3443708609271523,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->OBJECTID",0.0,1.442059374866577e-10,0.0,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Longitude",0.09167761722310841,0.06217889752824949,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,['BoroCD']->Council Distrcit,0.6131175884111899,0.8144404540975785,0.7032595325953259,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->Postcode",0.15759333205885595,0.5686290529983107,0.47106434641845407,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Census Tract",0.9782206721871854,0.9833933203772652,0.9822485207100592,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->BIN,0.061233125015913936,0.06254293118165159,0.2394904458598726,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->BCTCB2010",0.03822017492614904,0.8721124721705119,0.7951388888888888,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->OBJECTID",0.0,0.833903623576935,0.7340277777777777,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['BBL']->Council Distrcit,0.5191443900678139,0.364336986453894,0.5858333333333333,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['OBJECTID']->SSID,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Location']->Census Tract,0.7108016399712827,0.7248967233673862,0.7533783783783784,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Longitude",0.001907292671080918,0.8503821011203972,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BIN', 'City']->DOITT_ID",0.0,1.4406536383401552e-10,0.0,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->BoroCD",0.36386624098110243,0.26793048332702835,0.426890756302521,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,['BoroCD']->BIN,0.04127396147718709,0.042639780879644894,0.24077490774907748,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Name']->Census Tract,0.5261816951394576,0.9032179825656423,0.8461538461538461,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['OBJECTID']->BoroCode,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Latitude']->SSID,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Postcode']->Census Tract,0.19148709650049578,0.47688050051595193,0.30378137909119796,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Council Distrcit']->BIN,0.032797347544582967,0.04200230920528224,0.24143206854345164,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Longitude']->SSID,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['OBJECTID']->Remarks,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['X']->SSID,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Latitude']->BoroCode,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->BoroCD",0.0,0.613503696479799,0.5697424892703863,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,['Y']->SSID,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Council Distrcit",0.39865293653527634,0.35155375655449805,0.4638655462184874,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Census Tract,0.205724937017156,0.498561531941333,0.3060509554140127,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Longitude']->BoroCode,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Latitude']->Remarks,0.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['DOITT_ID']->SSID,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->BoroCD",0.0,0.7954126833369581,0.7450812660393499,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,['Longitude']->Remarks,0.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->BIN",0.06457951877652457,0.9299397366083875,0.9156794425087108,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['X']->BoroCode,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->SSID",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->OBJECTID",0.0,0.4329116841043978,0.2197490894374747,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Census Tract,0.20140187705690804,0.49768002282609525,0.30308818847500796,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['X']->Remarks,0.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->Longitude",0.002238837982817654,0.45206379313972495,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->DOITT_ID",0.0,0.8002811319906423,0.7310104529616724,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->DOITT_ID",1.1102230246251565e-16,7.60351844831454e-12,0.0,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,['Y']->BoroCode,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Location']->SSID,0.9736966863358767,0.978249330961752,0.9831081081081081,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Council Distrcit",0.0,0.7816412257751637,0.7797909407665505,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->BCTCB2010",0.08598028857115825,0.5335488905349551,0.37191420477539455,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,['Y']->Remarks,0.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['DOITT_ID']->BoroCode,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['City', 'SourceID']->DOITT_ID",0.0,0.833903623576935,0.7266238401142041,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,['DOITT_ID']->Remarks,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->BoroCode",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->BIN",0.18507028313991813,0.3339888598858781,0.30076230076230076,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,['BBL']->Census Tract,0.5146504124196082,0.3038341143974314,0.5275,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Council Distrcit",0.0,0.8389890329809699,0.7886255924170616,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Remarks",0.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Provider']->SSID,0.9995284203001464,0.9997249433318752,0.9996971532404604,False,1,0.005122024706236818
+wifi_hotspot_location,pyro,['Location']->Remarks,0.0,0.8098020292994631,0.9155405405405406,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->BoroCode,1.0,1.0,1.0,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->BoroCD",0.18585066057083266,0.49893585597512213,0.49923312883435583,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,['BCTCB2010']->SSID,0.47045956345124373,0.5291626484354869,0.7502710516805204,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['BoroCD']->Census Tract,0.09940095129240134,0.38737486666645904,0.1857318573185732,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->Postcode",0.17402555968211186,0.3302100560085685,0.2892228739002933,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->Postcode",0.17402555968211186,0.3302100560085685,0.2892228739002933,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->DOITT_ID",0.0,1.442059374866577e-10,0.0,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,['Name']->Remarks,0.0,0.9631613808665103,0.9804639804639804,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Council Distrcit",0.26366748734595646,0.3324516161308356,0.3700623700623701,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->BoroCode,1.0,1.0,1.0,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Postcode",0.32901601379838963,0.37027935207323276,0.4014900662251656,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,['Council Distrcit']->Census Tract,0.07590386066891752,0.3495975585545718,0.16217870257037945,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Census Tract']->SSID,0.47045956345124373,0.5291626484354869,0.7502710516805204,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->DOITT_ID",0.0,0.833903623576935,0.7340277777777777,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->BoroCD",0.29969087676319206,0.23338222116108753,0.3820794590025359,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,['Census Tract']->Remarks,0.30125180709823207,0.4758070025954579,0.8550777014817492,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Location']->BoroCode,0.8917471799060183,0.8934090518531445,0.9493243243243243,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Postcode",0.039041897860981445,0.8647459360026766,0.8166666666666667,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['Name']->SSID,0.5443665140254721,0.9848248725577075,0.9926739926739927,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->BIN",0.18166442113076087,0.34069218275041874,0.2992726013162452,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->BIN",0.06457951877652457,0.9299397366083875,0.9156794425087108,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->BoroCD",0.008832208762975968,0.8274673044660845,0.8058659217877095,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,['Postcode']->BoroCode,0.9983371151398049,0.9979085763703724,0.9993644741023197,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['BCTCB2010']->Remarks,0.30125180709823207,0.4758070025954579,0.8550777014817492,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Postcode']->SSID,0.3757211801134397,0.45541745930641697,0.7232284715602161,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,"['City', 'SourceID']->BIN",0.04821707919827367,0.943435469870355,0.913633119200571,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,['BoroCD']->BoroCode,0.9990815601472548,0.998481097838501,0.9996924969249692,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['SSID']->Remarks,0.6178308338678931,0.6213179947676188,0.9167423554344535,False,1,0.004820729135281711
+wifi_hotspot_location,pyro,"['BIN', 'Type']->BoroCD",0.30612434414965595,0.21377002232902756,0.37272727272727274,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->SSID,0.39009648208222547,0.47286116199672507,0.7252467367080547,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,"['Activated', 'City']->BIN",0.13621058093846772,0.31664940822118504,0.31445384332475174,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,['Postcode']->Remarks,0.264937674267946,0.3525550960375817,0.8408007626310772,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->Postcode",0.15759333205885595,0.5686290529983107,0.47106434641845407,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Census Tract",0.3185306552527545,0.2769533989327169,0.35126050420168065,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,['Borough']->BoroCode,1.0,1.0,1.0,False,1,0.0015064778547755348
+wifi_hotspot_location,pyro,"['Activated', 'City']->Council Distrcit",0.25100497534625266,0.4167847118493441,0.3843324751746966,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,"['BIN', 'City']->Council Distrcit",0.37190114345079583,0.4724170051291888,0.46727423363711684,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->OBJECTID",0.0,0.0,0.0,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Type']->OBJECTID",0.0,0.0,0.0,False,3,0.18258511599879482
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Remarks,0.277596336124569,0.3529758199280517,0.842725246736708,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->SSID,0.3967129519215383,0.47855680145581886,0.7273885350318471,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['City']->BoroCode,0.9981710394612326,0.9964367079625904,0.9993893129770992,False,1,0.013257005122024707
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->DOITT_ID",0.0,0.4329116841043978,0.2197490894374747,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->BIN",0.07399453330332051,0.943435469870355,0.9159722222222222,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Type']->Longitude",0.003188001845804478,0.030391891724398858,0.01695539992628087,False,3,0.18258511599879482
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->Longitude",0.0030681968638210932,0.029539882996983662,0.016715116279069766,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Census Tract",0.022086312394344887,0.8269320454487129,0.7721254355400697,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['BoroCD']->SSID,0.3086610997381013,0.40838437891569634,0.6854243542435424,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Remarks,0.28216589706465967,0.3581433699777705,0.8429936305732484,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Borough Name']->BoroCode,1.0,1.0,1.0,False,1,0.0015064778547755348
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->BoroCD",0.19233232797355282,0.26164023551612176,0.3143847487001733,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['Activated', 'Borough']->BIN",0.12112951109406767,0.29890899909498697,0.31000725163161713,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Census Tract",0.0,0.8695550193984092,0.7753554502369668,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['Council Distrcit']->SSID,0.2639533568749778,0.36677357010176415,0.6575887392900857,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Provider']->Remarks,0.6177150951743341,0.6178911929088184,0.91671714112659,False,1,0.005122024706236818
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->BCTCB2010",0.07310281653920225,0.20193571061826357,0.15007267441860464,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Type']->BCTCB2010",0.07445412270630214,0.2082648000148971,0.15223000368595652,False,3,0.18258511599879482
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->OBJECTID",0.0,1.442059374866577e-10,0.0,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,['Council Distrcit']->BoroCode,0.9712780824311218,0.9787172989573982,0.9831701346389229,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['BBL']->SSID,0.48793905481114475,0.5334421872168291,0.72,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->OBJECTID",0.0,0.833903623576935,0.7340277777777777,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['BoroCD']->Remarks,0.22799782773262445,0.2633091348154975,0.8219557195571956,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Longitude",0.09167761722310841,0.06217889752824949,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Council Distrcit",0.2527353583280625,0.2879918434451976,0.3574644960166263,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Council Distrcit",0.0,0.7816412257751637,0.7797909407665505,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['Remarks']->SSID,0.7190248335311087,1.0,1.0,False,1,0.08496535100934016
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Census Tract",0.08343830327085722,0.19473228207206633,0.15072765072765074,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,['Census Tract']->BoroCode,0.5718843801219295,0.6159320648873884,0.7824358511022769,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Council Distrcit']->Remarks,0.193439290808738,0.2138866656159843,0.805079559363525,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Longitude",0.001907292671080918,0.8503821011203972,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['OBJECTID']->Activated,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->BIN",0.07399453330332051,0.943435469870355,0.9159722222222222,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Council Distrcit",0.0014419226043119737,0.866673644328559,0.8194147037830122,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,['Location_T']->SSID,0.6958935772375607,0.7272434185975889,0.8516500151377535,False,1,0.004820729135281711
+wifi_hotspot_location,pyro,['Location_T']->Remarks,0.522659401025938,0.5432100672484171,0.9073569482288828,False,1,0.004820729135281711
+wifi_hotspot_location,pyro,['BCTCB2010']->BoroCode,0.5718843801219295,0.6159320648873884,0.7824358511022769,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->BCTCB2010",0.30782948600491344,0.2793549992630834,0.3443708609271523,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode']->BIN",0.12112951109406767,0.29890899909498697,0.31000725163161713,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['Latitude']->Activated,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['BIN']->SSID,0.29085542014619703,0.3268339215668904,0.641914191419142,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,['Longitude']->Activated,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['BBL']->Remarks,0.0,0.0,0.7833333333333333,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['Name']->BoroCode,0.5767346676075601,0.9986043714416528,0.9987789987789988,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->BCTCB2010",0.03822017492614871,0.8721124721705119,0.7951388888888888,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->BIN",0.07399453330332051,0.943435469870355,0.9159722222222222,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['BIN']->Remarks,0.0,0.0,0.7739273927392739,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,['X']->Activated,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Council Distrcit",0.3725841625658054,0.4730296981655578,0.46771523178807944,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,['Y']->Activated,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['BBL']->BoroCode,0.4968072623685673,0.4550194060590843,0.735,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Location_T']->DOITT_ID",0.0,0.0,0.0,False,3,0.18951491413076227
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->DOITT_ID",0.0,0.0,0.0,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Council Distrcit",0.02848620386711187,0.866673644328559,0.8243055555555555,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name']->BIN",0.12112951109406767,0.29890899909498697,0.31000725163161713,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['DOITT_ID']->Activated,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['BIN', 'City']->Census Tract",0.3072360130926052,0.2786548952026448,0.34382767191383595,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->Postcode",0.1618552400172536,0.31761081498591676,0.28234011627906974,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->Postcode",0.1618552400172536,0.31761081498591676,0.28234011627906974,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,['BIN']->BoroCode,0.23191438998709624,0.17519763040749387,0.5717821782178217,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Activated",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->OBJECTID",0.0,1.24336572614931e-10,0.0,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['City', 'SourceID']->SSID",0.0,1.0,1.0,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Longitude",0.09409709635886421,0.06054206068243046,0.10756302521008404,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->BIN",0.09542159404414419,0.9464250611095733,0.9182960893854749,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'Borough']->Council Distrcit",0.24413149977140158,0.40984990016622674,0.37599709934735315,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['Location']->Activated,0.9082856964976423,0.9318917975588845,0.9290540540540541,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Remarks",0.0,1.0,1.0,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['Activated', 'Location_T']->BIN",0.17004448237676417,0.31292245391484275,0.29605263157894735,False,2,0.1298583910816511
+wifi_hotspot_location,pyro,['Name']->Activated,0.6378377885485534,0.9953860871903462,0.9951159951159951,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['Activated', 'City']->SSID",0.4386384700719794,0.41007092187655303,0.7043030525928651,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->DOITT_ID",0.0,1.442059374866577e-10,0.0,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->BoroCode",0.0,0.7686162916499861,0.8662020905923344,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['SourceID']->Activated,0.07236365988401305,0.9983158559480095,0.9972356599861782,False,1,0.5640253088279602
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->BIN",0.0,0.9299397366083875,0.8964927288280582,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->OBJECTID",0.0,0.0,0.0,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Postcode",0.3378914818636256,0.25013856514551125,0.37815126050420167,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->DOITT_ID",0.0,0.833903623576935,0.7340277777777777,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'City']->Remarks",0.33910881666431003,0.13987537404480851,0.8646561235748437,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->Longitude",0.008611187166693512,0.03071339082073088,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->BCTCB2010",0.31450004722599034,0.24408409433013642,0.34369747899159664,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,['BBL']->Activated,0.8148675881800743,0.9127110222118273,0.8541666666666666,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Council Distrcit",0.3725841625658054,0.4730296981655578,0.46771523178807944,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'Remarks']->BIN",0.059967522826398945,0.5353883093624978,0.3807706982067913,False,2,0.21030430852666465
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->BoroCode",0.5284138152124757,0.5663630261295156,0.7480942480942481,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,['BIN']->Activated,0.851809599879448,0.9340042068599259,0.8877887788778878,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Postcode",0.0,0.6392251660064181,0.5622317596566524,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Council Distrcit",0.02848620386711187,0.866673644328559,0.8243055555555555,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Postcode",0.0,0.8010597647787572,0.7365269461077845,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->Longitude",0.008611187166693512,0.03071339082073088,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->BCTCB2010",0.08042505489270069,0.215240105366889,0.15395894428152493,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,['BCTCB2010']->Activated,0.15771582039772358,0.15443704709735895,0.42862305746295626,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Census Tract",0.07738106624713303,0.17256299793077423,0.1420159334949775,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Census Tract",0.022086312394344887,0.8269320454487129,0.7721254355400697,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->OBJECTID",0.0,0.0,0.0,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name']->Council Distrcit",0.24413149977140125,0.40984990016622674,0.37599709934735315,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Census Tract",0.01144686073779766,0.8721124721705119,0.7894361170592434,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,['OBJECTID']->Neighborhood Tabulation Area (NTA),1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Longitude",0.09813603915158475,0.0531607412912158,0.1073541842772612,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->DOITT_ID",0.0,0.4329116841043978,0.2197490894374747,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->OBJECTID",0.0,9.926736014119983e-11,0.0,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,['Census Tract']->Activated,0.15771582039772358,0.15443704709735895,0.42862305746295626,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->SSID",0.0,1.0,1.0,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough']->SSID",0.40100465790506135,0.3824895632103181,0.6849166062364032,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->Postcode",0.17402555968211164,0.3302100560085685,0.2892228739002933,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Council Distrcit",0.3725841625658054,0.4730296981655578,0.46771523178807944,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->BCTCB2010",0.08042505489270069,0.215240105366889,0.15395894428152493,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Remarks",0.0,1.0,1.0,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name']->Remarks",0.3310844743874112,0.1370956944938838,0.8662073966642495,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->OBJECTID",0.0,0.8321711228670753,0.7388268156424581,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Longitude",0.004843825688165326,0.8463364175893423,0.755586592178771,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Postcode",0.2911914561898884,0.225379417057148,0.33136094674556216,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,['Latitude']->Neighborhood Tabulation Area (NTA),1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Postcode']->Activated,0.1333452961879591,0.11577387196083602,0.43374642516682554,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Council Distrcit",0.02848620386711187,0.866673644328559,0.8243055555555555,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['Longitude']->Neighborhood Tabulation Area (NTA),1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->BCTCB2010",0.2882167717311739,0.2209241162151257,0.3127641589180051,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Census Tract",0.30782948600491344,0.2793549992630834,0.3443708609271523,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,['X']->Neighborhood Tabulation Area (NTA),1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Activated,0.1326212612083646,0.12253745394107127,0.4348933460681312,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['Y']->Neighborhood Tabulation Area (NTA),1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->BoroCode",0.478396698741528,0.48160838813611795,0.70973328714929,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->BoroCode",0.0,0.7686162916499861,0.8662020905923344,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->BCTCB2010",0.02630315153292795,0.8551558543829981,0.784217877094972,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode']->Council Distrcit",0.24413149977140158,0.40984990016622674,0.37599709934735315,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->OBJECTID",0.0,0.4329116841043978,0.2197490894374747,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->SSID",0.0,1.0,1.0,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Remarks",0.0,1.0,1.0,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,['DOITT_ID']->Neighborhood Tabulation Area (NTA),1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Postcode",0.11582708094495331,0.47492348824396985,0.4121932515337423,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Census Tract",0.03822017492614871,0.8721124721705119,0.7951388888888888,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->Longitude",0.002238837982817654,0.45206379313972495,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Activated,0.13234502594123343,0.12084333505009003,0.43471337579617836,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Neighborhood Tabulation Area (NTA)",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Council Distrcit",0.3881410159639639,0.2783275926545724,0.4445378151260504,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Postcode",0.018333115934474287,0.8319081493945768,0.7939944134078212,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name']->SSID",0.40100465790506135,0.3824895632103181,0.6849166062364032,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Activated', 'Borough']->Remarks",0.3310844743874112,0.1370956944938838,0.8662073966642495,False,2,0.169026815305815
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Neighborhood Tabulation Area (NTA),0.9938133471327156,0.9974008999556847,0.9955428207577205,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->BCTCB2010",0.08598028857115825,0.5335488905349551,0.37191420477539455,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,['BoroCD']->Activated,0.12015007531045918,0.12855206902433988,0.44157441574415746,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->BoroCode",0.0,0.7977300048474204,0.888268156424581,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Council Distrcit",0.0,0.6006497182344718,0.5643776824034334,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->SSID",0.0,1.0,1.0,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Remarks']->OBJECTID",0.0,0.4329116841043978,0.20723684210526316,False,3,0.26724917143717986
+wifi_hotspot_location,pyro,['Location']->Neighborhood Tabulation Area (NTA),0.7697977264852435,0.7858971995275609,0.8108108108108109,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['Activated', 'Location_T']->BoroCode",0.33631689475276094,0.33619119814763404,0.6360803324099723,False,2,0.1298583910816511
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->Postcode",0.1618552400172536,0.31761081498591676,0.28234011627906974,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,['Council Distrcit']->Activated,0.10259168272832175,0.11358862961298861,0.44400244798041616,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Remarks']->Longitude",0.0,0.45206379313972495,0.22327302631578946,False,3,0.26724917143717986
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Remarks']->BCTCB2010",0.07132290010663322,0.5335488905349551,0.3618421052631579,False,3,0.26724917143717986
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Council Distrcit",0.0,0.7816412257751637,0.7296834901625321,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->OBJECTID",0.0,0.5957513404141866,0.2542918454935622,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode']->SSID",0.40100465790506135,0.3824895632103181,0.6849166062364032,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->BoroCode",0.0,0.7686162916499861,0.8357570573139436,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,['Census Tract']->Neighborhood Tabulation Area (NTA),0.6997805840284994,0.8141463259230286,0.7748464040477051,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Remarks",0.0,1.0,1.0,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Longitude",0.0,0.6232787428446612,0.34120171673819744,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->BCTCB2010",0.0,0.6777212032781289,0.5536480686695279,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Postcode",0.29908620851707257,0.20637143402505215,0.3413223140495868,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['Activated', 'Remarks']->BoroCode",0.25195728816418195,0.5652777511336148,0.7535291873330789,False,2,0.21030430852666465
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode']->Remarks",0.3310844743874112,0.1370956944938838,0.8662073966642495,False,2,0.169026815305815
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Type']->DOITT_ID",0.0,0.0,0.0,False,3,0.18258511599879482
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->DOITT_ID",0.0,0.0,0.0,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->Census Tract",0.08598028857115825,0.5335488905349551,0.37191420477539455,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->OBJECTID",0.0,0.402338751851913,0.2093558282208589,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,['BCTCB2010']->Neighborhood Tabulation Area (NTA),0.6997805840284994,0.8141463259230286,0.7748464040477051,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Longitude",0.0029676812113753614,0.4169939564725533,0.21855828220858894,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->OBJECTID",0.0,0.8002811319906423,0.669803250641574,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['SourceID', 'Type']->Remarks",0.0,1.0,1.0,False,2,0.5646278999698704
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Postcode",0.11497689823509705,0.20252324832442228,0.21871750433275564,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,['Name']->Neighborhood Tabulation Area (NTA),0.5891931677390835,0.9350532059216591,0.9035409035409036,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['Activated', 'Type']->Remarks",0.5168840364859318,0.2805411986717973,0.8924508790072389,False,2,0.1259415486592347
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Longitude",0.0,0.8156749528230298,0.6843455945252352,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->BCTCB2010",0.0641995339784085,0.4690781367408649,0.33550613496932513,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,['OBJECTID']->X,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['BIN', 'Type']->OBJECTID",1.1102230246251565e-16,3.747302782820033e-11,0.0,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Council Distrcit",0.17098456090594394,0.4799229169511981,0.49003067484662577,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,['OBJECTID']->Name,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Postcode']->Neighborhood Tabulation Area (NTA),0.5927687776065189,0.7901295200482656,0.6990784874483635,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->BCTCB2010",0.0,0.8269320454487129,0.72027373823781,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,['OBJECTID']->City,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->DOITT_ID",0.0,1.442059374866577e-10,0.0,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Longitude",0.09128489471819301,0.054067382446117855,0.10578512396694215,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,['DOITT_ID']->X,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->X",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Council Distrcit",0.2981136183892318,0.23678566237400925,0.3989856297548605,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,['BoroCD']->Neighborhood Tabulation Area (NTA),0.4387044907778006,0.7364795756121768,0.576260762607626,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->OBJECTID",0.0,0.0,0.0,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->DOITT_ID",0.0,0.833903623576935,0.7340277777777777,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->Longitude",0.0030681968638210932,0.029539882996983662,0.016715116279069766,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,['Latitude']->X,0.9941171630744117,0.9958426886309364,0.9941176470588236,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['OBJECTID']->Neighborhood Tabulation Area Code (NTACODE),1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Council Distrcit",0.0,0.8156588016885247,0.8051675977653632,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['BIN', 'Type']->BCTCB2010",0.2970681702903296,0.2148125715029441,0.3231404958677686,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,['Longitude']->X,0.9941171630744117,0.9958426886309364,0.9941176470588236,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['DOITT_ID']->Name,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Council Distrcit']->Neighborhood Tabulation Area (NTA),0.30321713324055555,0.6408120185083733,0.4394124847001224,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Latitude']->City,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Latitude']->Neighborhood Tabulation Area Code (NTACODE),1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Y']->X,0.9883031312590663,0.991719797808537,0.9883040935672515,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->Longitude",0.0030681968638210932,0.029539882996983662,0.016715116279069766,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->OBJECTID",0.0,0.0,0.0,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,['Latitude']->Name,0.0,0.9810110245886154,0.9823529411764705,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Longitude']->City,1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Longitude']->Neighborhood Tabulation Area Code (NTACODE),1.0,1.0,1.0,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Council Distrcit",0.30793694595389765,0.2217509781415057,0.387603305785124,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['OBJECTID']->Location (Lat, Long)",1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Longitude']->Name,0.0,0.9810110245886154,0.9823529411764705,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Location']->X,0.27452569564296414,0.24240872642450445,0.28716216216216217,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['X']->City,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['X']->Neighborhood Tabulation Area Code (NTACODE),1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['BBL']->Neighborhood Tabulation Area (NTA),0.5217519543289584,0.33713124644519704,0.56,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->BCTCB2010",0.07310281653920225,0.20193571061826357,0.15007267441860464,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,['X']->Name,0.0,0.9854235292316857,0.9881656804733728,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Y']->Neighborhood Tabulation Area Code (NTACODE),1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Y']->City,1.0,1.0,1.0,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['DOITT_ID']->Neighborhood Tabulation Area Code (NTACODE),1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Y']->Name,0.0,0.9855442942514054,0.9883040935672515,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['DOITT_ID']->City,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Census Tract']->X,0.01888830989636836,0.04252691134169669,0.040477050957715935,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Longitude",0.0035958140336893596,0.02487004192910836,0.010398613518197574,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->OBJECTID",0.0,6.86902104839472e-12,0.0,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Name",0.0,0.9854235292316857,0.9881656804733728,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->BCTCB2010",0.07310281653920225,0.20193571061826357,0.15007267441860464,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Neighborhood Tabulation Area Code (NTACODE)",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->City",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->Census Tract",0.08042505489270069,0.215240105366889,0.15395894428152493,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Location_T']->Census Tract",0.08174237468565615,0.22082701210519715,0.15613382899628253,False,3,0.18951491413076227
+wifi_hotspot_location,pyro,"['X']->Location (Lat, Long)",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['BCTCB2010']->X,0.01888830989636836,0.04252691134169669,0.040477050957715935,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Council Distrcit",0.17540552351666716,0.24304429863114002,0.29462738301559793,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,['Location']->Name,0.0,0.7620617020768555,0.722972972972973,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['DOITT_ID']->Location (Lat, Long)",1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Location']->City,0.882663539596604,0.8868832009147891,0.9425675675675675,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['Latitude']->Location (Lat, Long)",0.9941171630744117,0.9958426886309364,0.9941176470588236,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Neighborhood Tabulation Area Code (NTACODE),1.0,1.0,1.0,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Name']->X,0.10149783924412548,0.6096642403886322,0.3992673992673993,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->BCTCB2010",0.05391530552271273,0.15938365790440134,0.11785095320623917,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->DOITT_ID",0.0,1.24336572614931e-10,0.0,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Longitude']->Location (Lat, Long)",0.9941171630744117,0.9958426886309364,0.9941176470588236,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Census Tract']->Name,0.12782520847400602,0.1975558207797943,0.26526924466931695,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Postcode']->City,0.9643707204396409,0.9667666633976779,0.9853829043533524,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Location']->Neighborhood Tabulation Area Code (NTACODE),0.7697798518965892,0.7858471892802035,0.8108108108108109,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['Y']->Location (Lat, Long)",0.9883031312590663,0.991719797808537,0.9883040935672515,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Postcode']->X,0.007914835881860927,0.027466709388539626,0.032411820781696854,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Census Tract",0.30782948600491344,0.2793549992630834,0.3443708609271523,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Neighborhood Tabulation Area (NTA)",0.36001254561611173,0.3222366407620724,0.42521008403361343,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Location']->Location (Lat, Long)",0.27452569564296414,0.24240872642450445,0.28716216216216217,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->City,0.9674278639628409,0.9687877788486482,0.9866284622731614,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->DOITT_ID",0.0,0.0,0.0,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,['Census Tract']->Neighborhood Tabulation Area Code (NTACODE),0.7004064959055234,0.8147093757251976,0.775207806288399,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->X,0.008475366567200937,0.026448123682614164,0.03280254777070064,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['OBJECTID']->Location,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['BCTCB2010']->Name,0.12782520847400602,0.1975558207797943,0.26526924466931695,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Census Tract",0.03822017492614904,0.8721124721705119,0.7951388888888888,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Census Tract']->Location (Lat, Long)",0.01888830989636836,0.04252691134169669,0.040477050957715935,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->City,0.9674636260846144,0.9690494875959504,0.986624203821656,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Neighborhood Tabulation Area (NTA)",0.010328463581903202,0.7973126077202618,0.7742160278745644,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['OBJECTID']->Y,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->DOITT_ID",0.0,0.0,0.0,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->X,0.008472642070570302,0.026384613713754126,0.03279210442534225,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['BCTCB2010']->Neighborhood Tabulation Area Code (NTACODE),0.7004064959055234,0.8147093757251976,0.775207806288399,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Postcode']->Name,0.0830232456731671,0.14014042790163406,0.22751827136955832,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['OBJECTID']->Latitude,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['DOITT_ID']->Location,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Name']->Neighborhood Tabulation Area Code (NTACODE),0.5891612696912017,0.9349924305221579,0.9035409035409036,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['BCTCB2010']->Location (Lat, Long)",0.01888830989636836,0.04252691134169669,0.040477050957715935,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Neighborhood Tabulation Area (NTA)",0.0,0.8465303317906927,0.7800947867298578,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->DOITT_ID",0.0,9.926736014119983e-11,0.0,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,['BBL']->X,0.10108865426655489,0.06373269197968688,0.12083333333333333,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->DOITT_ID",0.0,0.8321711228670753,0.7388268156424581,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,['Latitude']->Location,0.47875799828968146,0.44997290332813206,0.5058823529411764,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['X']->Latitude,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['X']->Y,1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Longitude']->Location,0.4787579982896837,0.44997290332813206,0.5058823529411764,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['DOITT_ID']->Latitude,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['DOITT_ID']->Y,1.0,1.0,1.0,True,-,-
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Name,0.08639409931197184,0.1328587293028752,0.22667940146450175,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,"['Name']->Location (Lat, Long)",0.10149783924412548,0.6096642403886322,0.3992673992673993,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['BoroCD']->City,0.9524337269459019,0.9483885553955678,0.9806273062730627,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Postcode']->Neighborhood Tabulation Area Code (NTACODE),0.5934982631551966,0.7907200728980146,0.6997140133460439,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['X']->Location,0.48159242512647493,0.4518526115508666,0.5088757396449705,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Latitude",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['BoroCD']->X,0.0032699470323568347,0.021313175020691275,0.027675276752767528,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Y",1.0,1.0,1.0,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Longitude']->Latitude,0.9941171620059254,0.995842687205879,0.9941176470588236,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,['Y']->Location,0.47595672264396405,0.448108760575165,0.5029239766081871,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->DOITT_ID",0.0,0.4329116841043978,0.2197490894374747,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Name,0.08957999400833838,0.13336385635573553,0.22770700636942676,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['BoroCD']->Neighborhood Tabulation Area Code (NTACODE),0.43898195988283617,0.7368429828258714,0.576260762607626,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['Postcode']->Location (Lat, Long)",0.007914835881860927,0.027466709388539626,0.032411820781696854,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Y']->Latitude,0.9883031291345906,0.9917197949757364,0.9883040935672515,False,1,0.9484784573666767
+wifi_hotspot_location,pyro,['Latitude']->Y,0.9941171609374386,0.9958426857808135,0.9941176470588236,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['Location (Lat, Long)']->Location",0.4815924251264706,0.4518526115508666,0.5088757396449705,False,1,0.9490810485085869
+wifi_hotspot_location,pyro,['Census Tract']->City,0.5667047781254879,0.616939892472856,0.7780990242139502,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Longitude']->Y,0.9941171609374386,0.9958426857808135,0.9941176470588236,False,1,0.9487797529376318
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Neighborhood Tabulation Area (NTA)",0.19436949108813395,0.28425429955109344,0.2927927927927928,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,['Council Distrcit']->X,0.0031801304006002784,0.020037529450283618,0.023561811505507957,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Remarks']->DOITT_ID",0.0,0.4329116841043978,0.20723684210526316,False,3,0.26724917143717986
+wifi_hotspot_location,pyro,['BBL']->Name,0.21336209804594453,0.32937967203027607,0.425,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->DOITT_ID",0.0,0.5957513404141866,0.2542918454935622,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,['Location']->Latitude,0.2745255638767081,0.24240828501282266,0.28716216216216217,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,"['Neighborhood Tabulation Area (NTA)']->Location (Lat, Long)",0.008475366567200937,0.026448123682614164,0.03280254777070064,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Council Distrcit']->Neighborhood Tabulation Area Code (NTACODE),0.303485264397794,0.641239459412367,0.4394124847001224,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->Census Tract",0.08598028857115825,0.5335488905349551,0.37191420477539455,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,['Location']->Y,0.27452543211040425,0.24240784360062217,0.28716216216216217,False,1,0.9108165109972883
+wifi_hotspot_location,pyro,['BBL']->Neighborhood Tabulation Area Code (NTACODE),0.5217148196518737,0.3363170913422428,0.56,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->DOITT_ID",0.0,0.8002811319906423,0.669803250641574,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,['BoroCD']->Name,0.05890984675572508,0.11213991637882874,0.20694956949569496,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['Council Distrcit']->City,0.9207317322758828,0.9239842112137271,0.9632802937576499,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Census Tract']->Latitude,0.01891593416400772,0.04270805626674485,0.04083845319840983,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Census Tract']->Location,0.03276424485216134,0.05818128540519758,0.061799783158655586,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['Neighborhood Tabulation Area Code (NTACODE)']->Location (Lat, Long)",0.008472642070570302,0.026384613713754126,0.03279210442534225,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->DOITT_ID",0.0,0.402338751851913,0.2093558282208589,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,['Council Distrcit']->Name,0.04796065231676239,0.10219620879829319,0.19430844553243573,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Census Tract']->Y,0.01893503079338643,0.04288920144306715,0.04083845319840983,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['BBL']->Location (Lat, Long)",0.10108865426655489,0.06373269197968688,0.12083333333333333,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['BIN', 'Type']->DOITT_ID",1.1102230246251565e-16,3.747302782820033e-11,0.0,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,['BCTCB2010']->Latitude,0.01891593416400772,0.04270805626674485,0.04083845319840983,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->X",0.09436483356644587,0.0647390338212785,0.1092436974789916,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,['BCTCB2010']->City,0.5667047781254879,0.616939892472856,0.7780990242139502,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['BCTCB2010']->Location,0.03276424485216134,0.05818128540519758,0.061799783158655586,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,['Name']->City,0.5805100066642251,0.9986676924937926,0.9987789987789988,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['Name']->Latitude,0.1014976760512114,0.6096530810266937,0.3992673992673993,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['Name']->Location,0.13305653533344852,0.6467883497351762,0.4481074481074481,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,['BCTCB2010']->Y,0.01893503079338643,0.04288920144306715,0.04083845319840983,False,1,0.16631515516721904
+wifi_hotspot_location,pyro,"['BoroCD']->Location (Lat, Long)",0.0032699470323568347,0.021313175020691275,0.027675276752767528,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->DOITT_ID",0.0,0.0,0.0,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->DOITT_ID",0.0,0.0,0.0,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,['Name']->Y,0.10166614124697226,0.6104579351969387,0.4004884004884005,False,1,0.7532389273877674
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Neighborhood Tabulation Area Code (NTACODE)",0.359962852308064,0.3214894061299217,0.42521008403361343,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,['Borough']->City,0.9437406359272195,0.9077879941851555,0.97978273989137,False,1,0.0015064778547755348
+wifi_hotspot_location,pyro,['Postcode']->Location,0.016759485776799976,0.04093482763230292,0.04575786463298379,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->X",0.0,0.8156828907501745,0.7428571428571429,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['Postcode']->Latitude,0.007985275503067268,0.02758285199371386,0.03272958373053702,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,"['Council Distrcit']->Location (Lat, Long)",0.0031801304006002784,0.020037529450283715,0.023561811505507957,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->DOITT_ID",0.0,6.86902104839472e-12,0.0,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,['Postcode']->Y,0.007946799648910319,0.027698994997259453,0.03272958373053702,False,1,0.051822838204278396
+wifi_hotspot_location,pyro,['Borough Name']->City,0.9437406359272195,0.9077879941851555,0.97978273989137,False,1,0.0015064778547755348
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->X",0.0,0.8629381188491423,0.7402843601895734,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Latitude,0.008487436386456548,0.02656024234732251,0.033121019108280254,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Location,0.018895240269659275,0.03811358368251182,0.044585987261146494,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Name",0.09761973424277892,0.28708318515773146,0.3226890756302521,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Neighborhood Tabulation Area Code (NTACODE)",0.010251618243469762,0.7969531693279979,0.7742160278745644,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area (NTA)']->Y,0.008516145670984354,0.026672361461372043,0.033121019108280254,False,1,0.05393190720096415
+wifi_hotspot_location,pyro,['BoroCode']->City,0.9437406359272195,0.9077879941851555,0.97978273989137,False,1,0.0015064778547755348
+wifi_hotspot_location,pyro,"['Activated', 'City']->Neighborhood Tabulation Area (NTA)",0.1728301494649327,0.32533308873082434,0.28613460831187937,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,"['BIN', 'City']->Neighborhood Tabulation Area (NTA)",0.3337643201958751,0.39199027473492554,0.40430820215410107,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Neighborhood Tabulation Area Code (NTACODE)",0.0,0.8462631418947147,0.7800947867298578,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Latitude,0.008484707989328766,0.02649647090293723,0.033110474371219355,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Location,0.018889141773194118,0.038016457070588844,0.04457179242279529,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,['BBL']->City,0.49775867261968176,0.47747166001200697,0.7333333333333333,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,['Neighborhood Tabulation Area Code (NTACODE)']->Y,0.008506654215874265,0.0266083285413448,0.033110474371219355,False,1,0.05363061163000904
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Neighborhood Tabulation Area (NTA)",0.007805147710177596,0.8628487931872186,0.8044254104211278,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Location (Lat, Long)",0.09436483356644587,0.0647390338212785,0.1092436974789916,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,['BBL']->Latitude,0.10108849099932149,0.0637245833296299,0.12083333333333333,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->X",0.003486035910393759,0.029741925968011465,0.011434511434511435,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,['BIN']->City,0.2373153939045637,0.22454931762603764,0.5701320132013201,False,1,0.6348297680024103
+wifi_hotspot_location,pyro,['BBL']->Location,0.11211440882839796,0.09723690783035693,0.15416666666666667,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Name",0.02690786273286838,0.8604100152169797,0.7804878048780488,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['BBL']->Y,0.10114678163637192,0.06428574019300158,0.12166666666666667,False,1,0.6384453148538717
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Name",0.0,0.901153325573918,0.7886255924170616,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['BoroCD']->Latitude,0.003275022894796864,0.021404750806130052,0.027982779827798277,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,['BoroCD']->Location,0.011515608457391302,0.0330909385544972,0.03690036900369004,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Type']->Census Tract",0.07445412270630214,0.2082648000148971,0.15223000368595652,False,3,0.18258511599879482
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->Census Tract",0.07310281653920225,0.20193571061826357,0.15007267441860464,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Location (Lat, Long)",0.0,0.8156828907501745,0.7428571428571429,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Neighborhood Tabulation Area (NTA)",0.3343552673024991,0.39302699212437914,0.40480132450331124,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Neighborhood Tabulation Area Code (NTACODE)",0.1943069360415034,0.2836332991421621,0.2927927927927928,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,['BoroCD']->Y,0.0032929317728784824,0.0214963271751752,0.027982779827798277,False,1,0.020186803253992167
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->City",0.0,0.7875013385937499,0.8662020905923344,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,['Council Distrcit']->Latitude,0.003183466853730832,0.02012419067231891,0.023561811505507957,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,['Council Distrcit']->Location,0.011408516424993298,0.031025391748082592,0.036413708690330476,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Location (Lat, Long)",0.0,0.8629381188491423,0.7402843601895734,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,['Council Distrcit']->Y,0.003201287147687637,0.02021085255101026,0.023561811505507957,False,1,0.015366074118710455
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Neighborhood Tabulation Area (NTA)",0.034677091626360346,0.8628487931872186,0.8097222222222222,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Neighborhood Tabulation Area (NTA)",0.18808832865095015,0.24824471833281928,0.284031866989955,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Neighborhood Tabulation Area (NTA)",0.010328463581903202,0.7973126077202618,0.7742160278745644,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Census Tract",0.30782948600491344,0.2793549992630834,0.3443708609271523,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Name",0.03332758159592686,0.1706296771544604,0.1275121275121275,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['BIN', 'City']->X",0.09175309757954475,0.062204003545465694,0.10936205468102735,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->City",0.5009081925349703,0.5251503742407035,0.7283437283437283,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Census Tract",0.03822017492614871,0.8721124721705119,0.7951388888888888,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Latitude",0.09436466907798025,0.06473501220548866,0.1092436974789916,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Location (Lat, Long)",0.003486035910393759,0.029741925968011465,0.011434511434511435,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Location",0.1001032344521231,0.11307663474347585,0.13781512605042018,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['BIN', 'Provider']->Y",0.09521491499815815,0.06529590111168612,0.11008403361344538,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->Census Tract",0.07310281653920225,0.20193571061826357,0.15007267441860464,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['BIN', 'City']->Neighborhood Tabulation Area Code (NTACODE)",0.3339892814208145,0.39358758842339453,0.40430820215410107,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['Activated', 'City']->Neighborhood Tabulation Area Code (NTACODE)",0.17329783891671535,0.32760961921154536,0.28613460831187937,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Location",0.0,0.8281492055783566,0.7623693379790941,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Latitude",0.0,0.8156749528230298,0.7428571428571429,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Provider', 'SourceID']->Y",0.0,0.815797237337778,0.7435540069686412,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Neighborhood Tabulation Area (NTA)",0.034677091626360346,0.8628487931872186,0.8097222222222222,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Neighborhood Tabulation Area (NTA)",0.3343552673024991,0.39302699212437914,0.40480132450331124,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Latitude",0.0,0.8629319737554506,0.7402843601895734,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Y",0.0,0.8630635508518617,0.7412322274881517,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,"['BIN', 'SourceID']->Location",0.0,0.8745687578193152,0.7251184834123223,False,2,0.6821331726423622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->City",0.0,0.7875013385937499,0.8662020905923344,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->City",0.45134819096135204,0.4449421501623687,0.6899896085902321,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['BIN', 'City']->Name",0.10460574474074968,0.3200964411443516,0.3388566694283347,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['Activated', 'City']->Name",0.015713051832080827,0.19618452284515,0.13828613460831188,False,2,0.1807773425730642
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Census Tract",0.31450004722599034,0.24408409433013642,0.34369747899159664,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['BIN', 'City']->Location (Lat, Long)",0.09175309757954475,0.062204003545465694,0.10936205468102735,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->X",0.0030023783784133284,0.027987928457056624,0.009352268791132663,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->X",0.0,0.8156828907501745,0.7428571428571429,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->Census Tract",0.08042505489270069,0.215240105366889,0.15395894428152493,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Latitude",0.003505106522404766,0.029868870938370616,0.01178101178101178,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->Census Tract",0.08042505489270069,0.215240105366889,0.15395894428152493,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['City', 'SourceID']->X",0.0,0.8503886663039596,0.7480371163454675,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->City",0.0,0.8137236374514962,0.888268156424581,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Location",0.009606760548714788,0.05166428175024188,0.0297990297990298,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Neighborhood Tabulation Area Code (NTACODE)",0.010251618243469762,0.7969531693279979,0.7742160278745644,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Neighborhood Tabulation Area Code (NTACODE)",0.18802528588891565,0.2475429542581289,0.284031866989955,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['Activated', 'Provider']->Y",0.0035117001484789023,0.029995816821130197,0.01178101178101178,False,2,0.1304609822235613
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->Neighborhood Tabulation Area (NTA)",0.18568198103436606,0.5886671216515248,0.500202347227843,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'Location_T']->City",0.3328198114841401,0.3086361527819142,0.6343490304709142,False,2,0.1298583910816511
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Census Tract",0.2882167717311739,0.2209241162151257,0.3127641589180051,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Neighborhood Tabulation Area Code (NTACODE)",0.007728106443039562,0.8626226139947858,0.8044254104211278,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Census Tract",0.02630315153292795,0.8551558543829981,0.784217877094972,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->City",0.0,0.7875013385937499,0.8357570573139436,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Name",0.02690786273286838,0.8604100152169797,0.7804878048780488,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Name",0.02998898468601563,0.1602162241179147,0.11846207135434707,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['Activated', 'Remarks']->City",0.25862949741430996,0.5867611879023282,0.7535291873330789,False,2,0.21030430852666465
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->X",0.0916777821996172,0.06218311881977868,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Location (Lat, Long)",0.0030023783784133284,0.027987928457056624,0.009352268791132663,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Location (Lat, Long)",0.0,0.8156828907501745,0.7428571428571429,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->Census Tract",0.08598028857115825,0.5335488905349551,0.37191420477539455,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Neighborhood Tabulation Area Code (NTACODE)",0.3346003755345567,0.3946889092323905,0.40480132450331124,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Name",0.020334499681296636,0.9023409021371309,0.7958600999286224,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->X",0.0019074739523676776,0.8503886663039596,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Location (Lat, Long)",0.0,0.8503886663039596,0.7480371163454675,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['BIN', 'City']->Latitude",0.09175293261671535,0.06219978458699538,0.10936205468102735,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Census Tract",0.0,0.6777212032781289,0.5536480686695279,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['BIN', 'City']->Location",0.10251108980503876,0.10390042696952224,0.14250207125103562,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['BIN', 'City']->Y",0.0925896638613245,0.06273959978078304,0.11019055509527755,False,2,0.6363362458571858
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Remarks']->Census Tract",0.07132290010663322,0.5335488905349551,0.3618421052631579,False,3,0.26724917143717986
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Neighborhood Tabulation Area Code (NTACODE)",0.034602136893540636,0.8626226139947858,0.8097222222222222,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Census Tract",0.0,0.8269320454487129,0.72027373823781,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Census Tract",0.0641995339784085,0.4690781367408649,0.33550613496932513,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->Neighborhood Tabulation Area (NTA)",0.18568198103436595,0.5886671216515248,0.500202347227843,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Name",0.10448763428868879,0.32000000680536356,0.33857615894039733,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Location (Lat, Long)",0.0916777821996172,0.06218311881977868,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Neighborhood Tabulation Area (NTA)",0.3343552673024991,0.39302699212437914,0.40480132450331124,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->Census Tract",0.07310281653920225,0.20193571061826357,0.15007267441860464,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Name",0.04686710698159491,0.9023409021371309,0.8013888888888889,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Location (Lat, Long)",0.0019074739523676776,0.8503886663039596,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Census Tract",0.2970681702903296,0.2148125715029441,0.3231404958677686,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Neighborhood Tabulation Area (NTA)",0.034677091626360346,0.8628487931872186,0.8097222222222222,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->Neighborhood Tabulation Area (NTA)",0.19621053610708594,0.3559556906032376,0.31708211143695014,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->Neighborhood Tabulation Area (NTA)",0.19621053610708594,0.3559556906032374,0.31708211143695014,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->X",0.002239019203886472,0.45207666958846077,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Census Tract",0.05391530552271273,0.15938365790440134,0.11785095320623917,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->Neighborhood Tabulation Area Code (NTACODE)",0.18561875142589768,0.58825445990396,0.500202347227843,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Y",0.0,0.815797237337778,0.7435540069686412,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Y",0.003026304657173018,0.028228828694035386,0.009698649116730169,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Location",0.0,0.8281492055783566,0.7623693379790941,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Location",0.005727049888736069,0.048400167801630936,0.027017665396605474,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->Neighborhood Tabulation Area (NTA)",0.18568198103436606,0.5886671216515248,0.500202347227843,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'SSID']->Latitude",0.0030214422342010883,0.02810837793441048,0.009698649116730169,False,2,0.13015968665260622
+wifi_hotspot_location,pyro,"['SSID', 'SourceID']->Latitude",0.0,0.8156749528230298,0.7428571428571429,False,2,0.5676408556794215
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Y",0.0,0.8505112363760134,0.7487508922198429,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Location",0.0,0.8610579417215325,0.7701641684511064,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['City', 'SourceID']->Latitude",0.0,0.8503821011203972,0.7480371163454675,False,2,0.5778849050918952
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->Location (Lat, Long)",0.002239019203886472,0.45207666958846077,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Neighborhood Tabulation Area Code (NTACODE)",0.33460037553455735,0.3946889092323905,0.40480132450331124,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Neighborhood Tabulation Area Code (NTACODE)",0.33460037553455735,0.3946889092323905,0.40480132450331124,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Y",0.09251374013055524,0.06271853924956589,0.11009933774834436,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Name",0.10448763428868879,0.32000000680536356,0.33857615894039733,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->Name",0.03388149562050713,0.5176778892125046,0.2784297855119385,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Location",0.10321341727697508,0.10413814095027003,0.14321192052980133,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'Borough']->Latitude",0.09167761722310841,0.06217889752824949,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Neighborhood Tabulation Area Code (NTACODE)",0.034602136893540636,0.8626226139947858,0.8097222222222222,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Remarks']->X",0.0,0.45207666958846077,0.22327302631578946,False,3,0.26724917143717986
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Y",0.001953411511980141,0.8505112363760134,0.7555555555555555,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Latitude",0.001907292671080918,0.8503821011203972,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Location",0.00955647160797557,0.8610579417215325,0.7763888888888889,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Borough', 'SourceID']->Neighborhood Tabulation Area Code (NTACODE)",0.034602136893540636,0.8626226139947858,0.8097222222222222,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->Neighborhood Tabulation Area Code (NTACODE)",0.18561875142589768,0.58825445990396,0.500202347227843,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Name",0.04686710698159491,0.9023409021371309,0.8013888888888889,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->X",0.008608469213961856,0.030570096745034074,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Location_T']->X",0.008729639783958243,0.031301300386248704,0.016356877323420074,False,3,0.18951491413076227
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->Name",0.03388149562050713,0.5176778892125046,0.2784297855119385,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Name",0.10448763428868879,0.32000000680536356,0.33857615894039733,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Name",0.04686710698159491,0.9023409021371309,0.8013888888888889,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->Neighborhood Tabulation Area (NTA)",0.1819225495583363,0.3386317136070213,0.29905523255813954,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->Neighborhood Tabulation Area (NTA)",0.1819225495583363,0.3386317136070213,0.29905523255813954,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->X",0.0916777821996172,0.06218311881977868,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->Neighborhood Tabulation Area (NTA)",0.1819225495583363,0.3386317136070211,0.29905523255813954,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->Y",0.0022706977204242085,0.4523226668842287,0.23593686766491298,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Neighborhood Tabulation Area (NTA)",0.35237857188366495,0.265931140742707,0.4134453781512605,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->Location (Lat, Long)",0.008608469213961856,0.030570096745034074,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Location_T']->Location (Lat, Long)",0.008729639783958243,0.031301300386248704,0.016356877323420074,False,3,0.18951491413076227
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->Name",0.03388149562050713,0.5176778892125046,0.2784297855119385,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->X",0.0019074739523676776,0.8503886663039596,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Neighborhood Tabulation Area (NTA)",0.0,0.6335282733890799,0.5718884120171673,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Neighborhood Tabulation Area (NTA)",0.0,0.7973126077202618,0.7228400342172797,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->Neighborhood Tabulation Area Code (NTACODE)",0.18561875142589768,0.58825445990396,0.500202347227843,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->Location",0.006176179990034059,0.4603913047821189,0.24726831242411978,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Remarks']->Latitude",0.002238837982817654,0.45206379313972495,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Neighborhood Tabulation Area (NTA)",0.2941992049342552,0.23643568174605395,0.3533389687235841,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Location (Lat, Long)",0.0916777821996172,0.06218311881977868,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->Neighborhood Tabulation Area Code (NTACODE)",0.19683248286476007,0.3578436858848421,0.31708211143695014,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->Neighborhood Tabulation Area Code (NTACODE)",0.19683248286476007,0.3578436858848421,0.31708211143695014,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Location (Lat, Long)",0.0019074739523676776,0.8503886663039596,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Neighborhood Tabulation Area (NTA)",0.14067190043302336,0.4912881628584124,0.44133435582822084,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->Neighborhood Tabulation Area (NTA)",0.19621053610708594,0.3559556906032374,0.31708211143695014,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->X",0.002239019203886472,0.45207666958846077,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->Name",0.03211146013797217,0.21838240162450667,0.15799120234604105,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->Name",0.03211146013797217,0.21838240162450667,0.15799120234604105,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Neighborhood Tabulation Area (NTA)",0.015702546432910913,0.8300309494878495,0.7912011173184358,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Neighborhood Tabulation Area (NTA)",0.30293680896372654,0.2195329993803412,0.359504132231405,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->X",0.003066766395495746,0.0294137369604308,0.016351744186046513,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->X",0.003066766395495746,0.0294137369604308,0.016351744186046513,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Type']->X",0.0031865445568004525,0.030262198748444914,0.016586804275709546,False,3,0.18258511599879482
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Neighborhood Tabulation Area (NTA)",0.1349911302407617,0.2195947511472845,0.24090121317157712,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->Location (Lat, Long)",0.002239019203886472,0.45207666958846077,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->Name",0.03211146013797217,0.21838240162450667,0.15799120234604105,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Location_T']->Y",0.008732128572560782,0.03144527935124394,0.016356877323420074,False,3,0.18951491413076227
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->Y",0.008610929079407525,0.03071071374505239,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->X",0.0916777821996172,0.06218311881977868,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->Latitude",0.008611187166693512,0.03071339082073088,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Location_T']->Latitude",0.008732410359748477,0.031447965370747705,0.016356877323420074,False,3,0.18951491413076227
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->X",0.0019074739523676776,0.8503886663039596,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Location_T']->Location",0.013890374010949613,0.05522497914168582,0.036059479553903345,False,3,0.18951491413076227
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Location_T']->Location",0.01369659330124351,0.05390798273303544,0.03555718475073314,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Y",0.09251374013055524,0.06271853924956589,0.11009933774834436,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->Neighborhood Tabulation Area Code (NTACODE)",0.18254797392496958,0.34117041059568354,0.29905523255813954,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->Neighborhood Tabulation Area Code (NTACODE)",0.18254797392496958,0.34117041059568354,0.29905523255813954,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Latitude",0.09167761722310841,0.06217889752824949,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Y",0.001953411511980141,0.8505112363760134,0.7555555555555555,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Latitude",0.001907292671080918,0.8503821011203972,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->X",0.002239019203886472,0.45207666958846077,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['BIN', 'BoroCode']->Location",0.10321341727697508,0.10413814095027003,0.14321192052980133,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Neighborhood Tabulation Area Code (NTACODE)",0.3523282858180472,0.2650270305912275,0.4134453781512605,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->Name",0.022937940097383702,0.20541992405128492,0.15007267441860464,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->Name",0.022937940097383702,0.20541992405128492,0.15007267441860464,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->Location (Lat, Long)",0.003066766395495746,0.0294137369604308,0.016351744186046513,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Type']->Location (Lat, Long)",0.0031865445568004525,0.030262198748444914,0.016586804275709546,False,3,0.18258511599879482
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Neighborhood Tabulation Area Code (NTACODE)",0.0,0.6329404920577193,0.5718884120171673,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['BoroCode', 'SourceID']->Location",0.00955647160797557,0.8610579417215325,0.7763888888888889,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->Neighborhood Tabulation Area Code (NTACODE)",0.18254797392496958,0.34117041059568354,0.29905523255813954,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->Name",0.022937940097383702,0.20541992405128492,0.15007267441860464,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Neighborhood Tabulation Area Code (NTACODE)",0.0,0.7969531693279979,0.7228400342172797,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->Y",0.0022706977204242085,0.4523226668842287,0.23593686766491298,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->Latitude",0.002238837982817654,0.45206379313972495,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->Location (Lat, Long)",0.003066766395495746,0.0294137369604308,0.016351744186046513,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Name",0.09080100897903554,0.2636085516611383,0.3033613445378151,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->Neighborhood Tabulation Area Code (NTACODE)",0.19683248286476007,0.3578436858848421,0.31708211143695014,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Name",0.08213642311390368,0.2849770706334798,0.30684699915469144,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->X",0.09409726089592851,0.06054777985128096,0.10756302521008404,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Neighborhood Tabulation Area Code (NTACODE)",0.2942739811342323,0.2373364104239439,0.3533389687235841,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Location (Lat, Long)",0.0916777821996172,0.06218311881977868,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Name",0.034180632581889636,0.8868745051126794,0.7995810055865922,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Name",0.0,0.7092347724413388,0.4281115879828326,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Neighborhood Tabulation Area Code (NTACODE)",0.14060517591260768,0.49075367385209756,0.44133435582822084,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Neighborhood Tabulation Area Code (NTACODE)",0.01562611837758654,0.8297475006597611,0.7912011173184358,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->X",0.008608469213961856,0.030570096745034074,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Location (Lat, Long)",0.0019074739523676776,0.8503886663039596,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Remarks']->Location",0.006176179990034059,0.4603913047821189,0.24726831242411978,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Name",0.0,0.8604100152169797,0.7305389221556886,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Neighborhood Tabulation Area Code (NTACODE)",0.3031070277223138,0.220688689577532,0.359504132231405,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->X",0.008608469213961967,0.030570096745034074,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->X",0.09813620295506509,0.0531667110995579,0.1073541842772612,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Neighborhood Tabulation Area Code (NTACODE)",0.1353762310906328,0.22090933316246542,0.24090121317157712,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Location (Lat, Long)",0.09409726089592851,0.06054777985128096,0.10756302521008404,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Name",0.08793903932059188,0.2745196237174426,0.29669421487603304,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->X",0.004844006436096282,0.8463431519908932,0.755586592178771,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Name",0.02010619503137845,0.457876560578822,0.24501533742331288,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->Location",0.007237326261231636,0.04778108149801576,0.030159883720930234,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Type']->Location",0.007418090662140275,0.04921347508691258,0.03059343899741983,False,3,0.18258511599879482
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->Location",0.007237326261231636,0.04778108149801576,0.030159883720930234,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->X",0.0,0.6232915151253682,0.34120171673819744,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Name",0.011120361799210832,0.17155606346806104,0.11646447140381283,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->X",0.0,0.8156828907501745,0.6843455945252352,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->X",0.002967862300066071,0.41700715270254984,0.21855828220858894,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['BIN', 'Type']->X",0.09128505976603096,0.054074666500305214,0.10578512396694215,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Location",0.10321341727697508,0.10413814095027003,0.14321192052980133,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Type']->Latitude",0.003188001845804478,0.030391891724398858,0.01695539992628087,False,3,0.18258511599879482
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->Latitude",0.0030681968638210932,0.029539882996983662,0.016715116279069766,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->X",0.003594079820616325,0.02475201513755497,0.010398613518197574,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->Location (Lat, Long)",0.008608469213961967,0.030570096745034074,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Location (Lat, Long)",0.09813620295506509,0.0531667110995579,0.1073541842772612,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Location",0.00955647160797557,0.8610579417215325,0.7763888888888889,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->X",0.003066766395495746,0.0294137369604308,0.016351744186046513,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->Location (Lat, Long)",0.008608469213961856,0.030570096745034074,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Type']->Y",0.0031924286234585875,0.030521585880073088,0.01695539992628087,False,3,0.18258511599879482
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Type']->Y",0.003072558319850094,0.029666030176728687,0.016715116279069766,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Location (Lat, Long)",0.004844006436096282,0.8463431519908932,0.755586592178771,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Remarks']->Location (Lat, Long)",0.0,0.45207666958846077,0.22327302631578946,False,3,0.26724917143717986
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Latitude",0.09167761722310841,0.06217889752824949,0.10927152317880795,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Location (Lat, Long)",0.002967862300066071,0.41700715270254984,0.21855828220858894,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Latitude",0.001907292671080918,0.8503821011203972,0.7548611111111111,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Location (Lat, Long)",0.0,0.6232915151253682,0.34120171673819744,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->Location (Lat, Long)",0.002239019203886472,0.45207666958846077,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->Location",0.006176179990034281,0.4603913047821189,0.24726831242411978,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Location (Lat, Long)",0.0,0.8156828907501745,0.6843455945252352,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['BIN', 'Borough Name']->Y",0.09251374013055524,0.06271853924956589,0.11009933774834436,False,2,0.6360349502862308
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Location (Lat, Long)",0.09128505976603096,0.054074666500305214,0.10578512396694215,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->Y",0.003072558319850094,0.029666030176728687,0.016715116279069766,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough', 'Type']->Latitude",0.0030681968638210932,0.029539882996983662,0.016715116279069766,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Borough Name', 'SourceID']->Y",0.001953411511980141,0.8505112363760134,0.7555555555555555,False,2,0.5661343778246459
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Location (Lat, Long)",0.003594079820616325,0.02475201513755497,0.010398613518197574,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Latitude",0.09409709635886421,0.06054206068243046,0.10756302521008404,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->Location (Lat, Long)",0.003066766395495746,0.0294137369604308,0.016351744186046513,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->Y",0.008610929079407525,0.03071071374505239,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Latitude",0.09813603915158475,0.0531607412912158,0.1073541842772612,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Y",0.094941387549481,0.061071304883932406,0.10840336134453782,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['BIN', 'SSID']->Location",0.09639499864650236,0.10533163667399659,0.1361344537815126,False,2,0.6414582705634227
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->Latitude",0.008611187166693512,0.03071339082073088,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->Latitude",0.008611187166693512,0.03071339082073088,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Y",0.09813985359931299,0.05341573932373589,0.1073541842772612,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Latitude",0.004843825688165326,0.8463364175893423,0.755586592178771,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Remarks']->Location",0.0,0.4603913047821189,0.23519736842105263,False,3,0.26724917143717986
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->Y",0.008610929079407525,0.03071071374505239,0.016129032258064516,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->Y",0.0022706977204242085,0.4523226668842287,0.23593686766491298,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Y",0.0048436449401687565,0.8463296825974608,0.755586592178771,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Latitude",0.0029676812113753614,0.4169939564725533,0.21855828220858894,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Latitude",0.0,0.6232787428446612,0.34120171673819744,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Y",0.0,0.6236409729939927,0.34227467811158796,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Remarks']->Y",0.0,0.4523226668842287,0.2236842105263158,False,3,0.26724917143717986
+wifi_hotspot_location,pyro,"['Activated', 'City', 'Remarks']->Latitude",0.0,0.45206379313972495,0.22327302631578946,False,3,0.26724917143717986
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Remarks']->Latitude",0.002238837982817654,0.45206379313972495,0.23553217320922704,False,3,0.2554986441699307
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Location_T']->Location",0.01369659330124351,0.05390798273303544,0.03555718475073314,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'Remarks']->Location",0.0,0.6388075902576656,0.33476394849785407,False,2,0.7191925278698403
+wifi_hotspot_location,pyro,"['BIN', 'Location_T']->Location",0.1066766536451903,0.09945048655077326,0.14623837700760778,False,2,0.6435673395601085
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Y",0.0029697963338174427,0.41710702689659873,0.21855828220858894,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Y",0.0,0.815797237337778,0.6852010265183918,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Activated', 'BoroCode', 'Location_T']->Location",0.01369659330124351,0.05390798273303544,0.03555718475073314,False,3,0.17806568243446821
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Latitude",0.09128489471819301,0.054067382446117855,0.10578512396694215,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Y",0.09211522745212297,0.054545276848407875,0.10661157024793388,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Latitude",0.0,0.8156749528230298,0.6843455945252352,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Remarks', 'SourceID']->Location",0.0,0.8281492055783566,0.7082976903336184,False,2,0.6477854775534799
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->Latitude",0.0030681968638210932,0.029539882996983662,0.016715116279069766,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['BIN', 'Type']->Location",0.09572283935275672,0.09476132446053492,0.13305785123966943,False,2,0.6354323591443206
+wifi_hotspot_location,pyro,"['Location_T', 'SourceID']->Location",0.013574970791933372,0.8599430232004764,0.784217877094972,False,2,0.5685447423922868
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Latitude",0.0035958140336893596,0.02487004192910836,0.010398613518197574,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->Y",0.003072558319850094,0.02966603017672841,0.016715116279069766,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Remarks']->Location",0.007775685171367397,0.42802360371404935,0.23542944785276074,False,3,0.21422115094908104
+wifi_hotspot_location,pyro,"['Activated', 'Borough Name', 'Type']->Location",0.007237326261231636,0.04778108149801576,0.030159883720930234,False,3,0.17083458873154564
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Y",0.003595787417485119,0.02486561860461972,0.010398613518197574,False,3,0.1307622777945164
+wifi_hotspot_location,pyro,"['Activated', 'Location_T', 'Type']->Location",0.00857085936910107,0.04585755853591264,0.028769497400346622,False,3,0.1307622777945164

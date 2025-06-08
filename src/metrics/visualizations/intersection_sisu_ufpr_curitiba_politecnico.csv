@@ -1,0 +1,94 @@
+threshold,dataset,lhs_size,fd,rfi_prime_plus,mu_plus,g3_prime
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->TP_MOD_CONCORRENCIA,1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->SG_UF_CANDIDATO,1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->NU_NOTACORTE,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->MUNICIPIO_CANDIDATO,1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->ST_OPCAO,1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->TP_SEXO,1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->NU_NOTA_CANDIDATO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->DT_NASCIMENTO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->NU_CPF,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTACORTE']->DS_GRAU,1.0,0.9992207626959764,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTACORTE']->NO_CURSO,1.0,0.99951387452869,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->NU_CLASSIFICACAO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->TP_SEXO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->MUNICIPIO_CANDIDATO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_IES_CURSO']->NO_CURSO,1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->NO_CURSO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->TP_SEXO,0.0,0.0,0.5023696682464455
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->NO_CURSO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->MUNICIPIO_CANDIDATO,0.0774911434961172,0.0750170944266733,0.2890995260663507
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->SG_UF_CANDIDATO,1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->NO_CURSO,0.0073697732371856,0.0008178598640243,0.0710900473933649
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->TP_SEXO,0.0134725543649418,0.0145466475012476,0.5710382513661202
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->SG_UF_CANDIDATO,0.0044307362107525,0.0,0.7061611374407583
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->MUNICIPIO_CANDIDATO,0.0,0.0,0.2295081967213114
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTACORTE']->TP_MOD_CONCORRENCIA,1.0,0.9990711949073264,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->TP_MOD_CONCORRENCIA,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->NO_CURSO,0.0032602185439651,0.0039851116143675,0.0860655737704918
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->TP_MOD_CONCORRENCIA,0.0996821155192754,0.0983188039152498,0.5687203791469194
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->SG_UF_CANDIDATO,0.0,0.0,0.7117486338797814
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_INSCRICAO_ENEM']->TP_SEXO,0.0,0.0,0.5810526315789474
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->NU_CLASSIFICACAO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_INSCRICAO_ENEM']->MUNICIPIO_CANDIDATO,0.0076872262036282,0.0061900022796447,0.3087719298245614
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_IES_CURSO']->DS_GRAU,1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['MUNICIPIO_CANDIDATO']->SG_UF_CANDIDATO,0.9984113312312136,0.997562711603578,0.9995027349577325
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->NU_CLASSIFICACAO,0.0288841345412009,0.0231873573740674,0.0616113744075829
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->TP_MOD_CONCORRENCIA,0.0,0.0,0.5560109289617486
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->DT_NASCIMENTO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->DS_GRAU,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->DS_GRAU,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->DT_NASCIMENTO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->NU_CLASSIFICACAO,0.0,0.0,0.0327868852459016
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_INSCRICAO_ENEM']->NO_CURSO,0.0,0.0,0.0982456140350877
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_INSCRICAO_ENEM']->SG_UF_CANDIDATO,0.0244803878672337,0.0238227925463598,0.7670175438596492
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->DS_GRAU,0.0,0.0,0.4028436018957346
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->ST_OPCAO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->NU_NOTA_CANDIDATO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->NU_NOTACORTE,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_INSCRICAO_ENEM']->TP_MOD_CONCORRENCIA,0.0,0.0,0.5789473684210527
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->NU_CPF,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->ST_OPCAO,0.0420787053239735,0.0448366414658666,0.6113744075829384
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->NU_NOTACORTE,0.009326033900321,0.0,0.0236966824644549
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->NU_NOTA_CANDIDATO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->NU_CPF,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->DS_GRAU,0.0605462660033531,0.0588867660378411,0.505464480874317
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_INSCRICAO_ENEM']->NU_CLASSIFICACAO,0.0,0.0007852220055952,0.0589473684210526
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->ST_OPCAO,0.0,0.0,0.6188524590163934
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->NU_NOTACORTE,0.000114524219804,0.000271750663469,0.0191256830601092
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_INSCRICAO_ENEM']->DS_GRAU,0.0205658695873527,0.0233868161778658,0.5228070175438596
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_INSCRICAO_ENEM']->ST_OPCAO,0.0,0.0,0.6364912280701754
+0.001,sisu_ufpr_curitiba_politecnico,2,"['CO_IES_CURSO', 'NU_CLASSIFICACAO']->TP_SEXO",0.2351299134435949,0.248768494879698,0.7084569732937686
+0.001,sisu_ufpr_curitiba_politecnico,2,"['CO_IES_CURSO', 'NU_CLASSIFICACAO']->SG_UF_CANDIDATO",0.0,0.0,0.7581602373887241
+0.001,sisu_ufpr_curitiba_politecnico,2,"['CO_IES_CURSO', 'NU_CLASSIFICACAO']->MUNICIPIO_CANDIDATO",0.0,0.0,0.3167655786350148
+0.001,sisu_ufpr_curitiba_politecnico,2,"['CO_IES_CURSO', 'NU_CLASSIFICACAO']->TP_MOD_CONCORRENCIA",0.0,0.0,0.5771513353115727
+0.001,sisu_ufpr_curitiba_politecnico,2,"['CO_IES_CURSO', 'NU_CLASSIFICACAO']->ST_OPCAO",0.0654273862403502,0.0642828148720261,0.6765578635014837
+0.001,sisu_ufpr_curitiba_politecnico,2,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->DT_NASCIMENTO",1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,2,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->NU_NOTA_CANDIDATO",1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,2,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->NU_CPF",1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,2,"['NO_CURSO', 'NU_CLASSIFICACAO']->TP_MOD_CONCORRENCIA",0.0,0.0,0.5923129718599863
+0.001,sisu_ufpr_curitiba_politecnico,2,"['NO_CURSO', 'NU_CLASSIFICACAO']->ST_OPCAO",0.0377292433836333,0.0351046932780451,0.6678105696636926
+0.001,sisu_ufpr_curitiba_politecnico,2,"['NO_CURSO', 'NU_CLASSIFICACAO']->TP_SEXO",0.2265672851360634,0.2458276934776958,0.7110501029512697
+0.001,sisu_ufpr_curitiba_politecnico,2,"['NO_CURSO', 'NU_CLASSIFICACAO']->SG_UF_CANDIDATO",0.0,0.0,0.7652711050102952
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTACORTE']->DS_TURNO,1.0,0.9992565956204792,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->DS_TURNO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->DS_TURNO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->DS_TURNO,0.0,0.0,0.3838862559241706
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->DS_TURNO,0.0163730469062752,0.0203346866588542,0.4549180327868852
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_INSCRICAO_ENEM']->DS_TURNO,0.0130240018927788,0.0164298142112769,0.4870175438596491
+0.001,sisu_ufpr_curitiba_politecnico,2,"['NO_CURSO', 'NU_CLASSIFICACAO']->DS_TURNO",0.6122817985169428,0.5692196745269955,0.7638984214138641
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->NO_INSCRITO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->NO_INSCRITO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->NO_INSCRITO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,2,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->NO_INSCRITO",1.0,1.0,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTACORTE']->CO_IES_CURSO,1.0,0.9995188799752188,1.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->CO_IES_CURSO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->CO_IES_CURSO,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->CO_IES_CURSO,0.0038458220605934,0.0,0.0568720379146919
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->CO_IES_CURSO,0.0,0.0,0.0669398907103825
+0.001,sisu_ufpr_curitiba_politecnico,1,['CO_INSCRICAO_ENEM']->CO_IES_CURSO,0.0056175167637481,0.0037875542226951,0.0884210526315789
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_CPF']->CO_INSCRICAO_ENEM,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NO_INSCRITO']->CO_INSCRICAO_ENEM,0.0,0.0,0.0
+0.001,sisu_ufpr_curitiba_politecnico,1,['NU_NOTA_CANDIDATO']->CO_INSCRICAO_ENEM,0.0034906056106468,0.003745009309136,0.0047393364928909
+0.001,sisu_ufpr_curitiba_politecnico,1,['DT_NASCIMENTO']->CO_INSCRICAO_ENEM,0.0,0.0,0.0013661202185792
+0.001,sisu_ufpr_curitiba_politecnico,2,"['NU_CLASSIFICACAO', 'NU_NOTACORTE']->CO_INSCRICAO_ENEM",1.0,1.0,1.0

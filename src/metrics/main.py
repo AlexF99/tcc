@@ -1,6 +1,6 @@
 import time
-from . import adapted_paper_metrics
-from . import metrics_parser
+import adapted_paper_metrics
+import metrics_parser
 import pandas as pd
 import os
 from datetime import datetime
